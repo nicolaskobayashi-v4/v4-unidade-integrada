@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V4 Estruturação IA 2.0 — O Futuro do Marketing Estratégico</title>
+    <meta name="description" content="A próxima geração da estruturação estratégica. Transforme semanas em minutos com inteligência artificial avançada.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Syne:wght@700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            /* Colors */
+            --bg: #030303;
+            --surface: #0a0a0a;
+            --surface-accent: #111111;
+            --border: rgba(255, 255, 255, 0.08);
+            --border-hover: rgba(255, 255, 255, 0.15);
+            
+            --v4-red: #ff0000;
+            --v4-red-glow: rgba(255, 0, 0, 0.3);
+            --v4-red-muted: rgba(255, 0, 0, 0.1);
+            
+            --text-primary: #ffffff;
+            --text-secondary: #a1a1a1;
+            --text-muted: #666666;
+            
+            --font-main: 'Plus Jakarta Sans', sans-serif;
+            --font-heading: 'Syne', sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+
+            --radius-lg: 16px;
+            --radius-md: 12px;
+            --radius-sm: 8px;
+            
+            --transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+        }
+
+        /* Base */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text-primary);
+            font-family: var(--font-main);
+            overflow-x: hidden;
+            line-height: 1.6;
+        }
+
+        /* Animated Background */
+        .grid-bg {
+            position: fixed;
+            inset: 0;
+            background-image: 
+                radial-gradient(circle at 2px 2px, rgba(255, 255, 255, 0.03) 1px, transparent 0);
+            background-size: 40px 40px;
+            mask-image: radial-gradient(circle at 50% 50%, black, transparent 80%);
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        .glow-mesh {
+            position: fixed;
+            top: -10%;
+            left: -10%;
+            width: 120%;
+            height: 120%;
+            background: 
+                radial-gradient(circle at 20% 20%, var(--v4-red-muted) 0%, transparent 40%),
+                radial-gradient(circle at 80% 80%, rgba(100, 0, 0, 0.05) 0%, transparent 40%);
+            z-index: -2;
+            filter: blur(80px);
+            opacity: 0.6;
+            animation: meshMove 20s infinite alternate;
+        }
+
+        @keyframes meshMove {
+            0% { transform: translate(0, 0); }
+            100% { transform: translate(-5%, -5%); }
+        }
+
+        /* Typography */
+        h1, h2, h3, h4 {
+            font-family: var(--font-heading);
+            font-weight: 800;
+            line-height: 1.1;
+            letter-spacing: -0.02em;
+        }
+
+        .gradient-text {
+            background: linear-gradient(to bottom right, #fff 30%, #666 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .accent-text {
+            color: var(--v4-red);
+            text-shadow: 0 0 20px var(--v4-red-glow);
+        }
+
+        /* UI Elements */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            padding: 14px 28px;
+            border-radius: 100px;
+            font-weight: 700;
+            text-decoration: none;
+            cursor: pointer;
+            transition: var(--transition);
+            font-family: var(--font-main);
+            font-size: 15px;
+            border: 1px solid transparent;
+        }
+
+        .btn-primary {
+            background: var(--v4-red);
+            color: white;
+            box-shadow: 0 10px 30px var(--v4-red-glow);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 15px 40px var(--v4-red-glow);
+            background: #ff1a1a;
+        }
+
+        .btn-secondary {
+            background: rgba(255, 255, 255, 0.05);
+            color: white;
+            border: 1px solid var(--border);
+            backdrop-filter: blur(10px);
+        }
+
+        .btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: var(--border-hover);
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 80px;
+            z-index: 1000;
+            transition: var(--transition);
+        }
+
+        nav.scrolled {
+            background: rgba(3, 3, 3, 0.7);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border);
+            height: 70px;
+        }
+
+        nav .container {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-family: var(--font-heading);
+            font-weight: 800;
+            font-size: 20px;
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+
+        .logo-box {
+            width: 32px;
+            height: 32px;
+            background: var(--v4-red);
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 14px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 32px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+            transition: var(--transition);
+        }
+
+        .nav-links a:hover {
+            color: var(--text-primary);
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 160px 0 100px;
+            position: relative;
+        }
+
+        .hero-content {
+            text-align: center;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .badge {
+            display: inline-flex;
+            padding: 6px 16px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--border);
+            border-radius: 100px;
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--v4-red);
+            margin-bottom: 32px;
+            backdrop-filter: blur(10px);
+        }
+
+        .hero h1 {
+            font-size: clamp(40px, 8vw, 90px);
+            margin-bottom: 24px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            color: var(--text-secondary);
+            max-width: 600px;
+            margin: 0 auto 48px;
+        }
+
+        /* Terminal Mockup 2.0 */
+        .terminal-container {
+            margin-top: 80px;
+            perspective: 1000px;
+        }
+
+        .terminal {
+            background: #0d0d0d;
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            box-shadow: 0 50px 100px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 255, 255, 0.05) inset;
+            transform: rotateX(5deg);
+            transition: var(--transition);
+            max-width: 1000px;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        .terminal:hover {
+            transform: rotateX(0deg) translateY(-10px);
+        }
+
+        .terminal-header {
+            background: #161616;
+            padding: 16px 20px;
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .terminal-buttons {
+            display: flex;
+            gap: 8px;
+        }
+
+        .dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+        }
+
+        .dot-red { background: #ff5f57; }
+        .dot-yellow { background: #febc2e; }
+        .dot-green { background: #28c840; }
+
+        .terminal-title {
+            flex: 1;
+            text-align: center;
+            font-family: var(--font-mono);
+            font-size: 12px;
+            color: var(--text-muted);
+        }
+
+        .terminal-body {
+            padding: 32px;
+            font-family: var(--font-mono);
+            font-size: 14px;
+            color: #d1d1d1;
+            min-height: 400px;
+            line-height: 1.8;
+        }
+
+        .command-line {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+
+        .prompt { color: #50fa7b; }
+        .cmd { color: #f8f8f2; }
+        
+        .output-line {
+            margin-bottom: 8px;
+            opacity: 0;
+            transform: translateY(10px);
+            animation: fadeIn 0.5s forwards;
+        }
+
+        .status-bar {
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 4px;
+            height: 6px;
+            width: 150px;
+            display: inline-block;
+            vertical-align: middle;
+            margin: 0 12px;
+            overflow: hidden;
+        }
+
+        .status-fill {
+            height: 100%;
+            background: var(--v4-red);
+            box-shadow: 0 0 10px var(--v4-red-glow);
+        }
+
+        @keyframes fadeIn {
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Bento Grid Section */
+        .bento-section {
+            padding: 100px 0;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 80px;
+        }
+
+        .section-header h2 {
+            font-size: 48px;
+            margin-bottom: 24px;
+        }
+
+        .bento-grid {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            grid-template-rows: repeat(2, 350px);
+            gap: 24px;
+        }
+
+        .bento-item {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            padding: 40px;
+            position: relative;
+            overflow: hidden;
+            transition: var(--transition);
+        }
+
+        .bento-item:hover {
+            border-color: var(--border-hover);
+            background: var(--surface-accent);
+            transform: translateY(-5px);
+        }
+
+        .bento-item h3 {
+            font-size: 24px;
+            margin-bottom: 16px;
+        }
+
+        .bento-item p {
+            color: var(--text-secondary);
+            font-size: 16px;
+        }
+
+        .col-4 { grid-column: span 4; }
+        .col-8 { grid-column: span 8; }
+        .col-6 { grid-column: span 6; }
+
+        .bento-icon {
+            font-size: 32px;
+            margin-bottom: 24px;
+            color: var(--v4-red);
+        }
+
+        /* Skills Interactive */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+
+        .skill-card {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid var(--border);
+            padding: 24px;
+            border-radius: var(--radius-md);
+            transition: var(--transition);
+        }
+
+        .skill-card:hover {
+            background: rgba(255, 0, 0, 0.03);
+            border-color: var(--v4-red-muted);
+        }
+
+        .skill-tag {
+            font-size: 10px;
+            font-weight: 700;
+            text-transform: uppercase;
+            padding: 4px 8px;
+            border-radius: 4px;
+            background: var(--v4-red-muted);
+            color: var(--v4-red);
+            margin-bottom: 12px;
+            display: inline-block;
+        }
+
+        /* Transformations (Before/After) */
+        .transformation-box {
+            background: #000;
+            border-radius: var(--radius-lg);
+            padding: 60px;
+            margin-top: 100px;
+            border: 1px solid var(--border);
+            position: relative;
+        }
+
+        .trans-grid {
+            display: grid;
+            grid-template-columns: 1fr 80px 1fr;
+            align-items: center;
+            gap: 40px;
+        }
+
+        .trans-col {
+            text-align: center;
+        }
+
+        .trans-list {
+            list-style: none;
+            text-align: left;
+            margin-top: 32px;
+        }
+
+        .trans-list li {
+            padding: 12px 0;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-secondary);
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .trans-list li::before {
+            content: '→';
+            color: var(--v4-red);
+        }
+
+        .arrow-center {
+            font-size: 40px;
+            color: var(--v4-red);
+            opacity: 0.5;
+        }
+
+        /* Footer */
+        footer {
+            padding: 100px 0 50px;
+            border-top: 1px solid var(--border);
+            margin-top: 100px;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .footer-logo {
+            margin-bottom: 24px;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 80px;
+        }
+
+        .footer-group h4 {
+            font-size: 16px;
+            margin-bottom: 24px;
+            color: var(--text-primary);
+        }
+
+        .footer-group ul {
+            list-style: none;
+        }
+
+        .footer-group li {
+            margin-bottom: 12px;
+        }
+
+        .footer-group a {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 14px;
+            transition: var(--transition);
+        }
+
+        .footer-group a:hover {
+            color: var(--text-primary);
+        }
+
+        .copyright {
+            margin-top: 80px;
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 12px;
+        }
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .bento-grid {
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: auto;
+            }
+            .col-4, .col-8, .col-6 { grid-column: span 2; }
+            .hero h1 { font-size: 60px; }
+        }
+
+        @media (max-width: 768px) {
+            .nav-links { display: none; }
+            .trans-grid {
+                grid-template-columns: 1fr;
+            }
+            .arrow-center { transform: rotate(90deg); margin: 20px 0; }
+            .hero h1 { font-size: 42px; }
+            .bento-grid { grid-template-columns: 1fr; }
+            .col-4, .col-8, .col-6 { grid-column: span 1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-bg"></div>
+    <div class="glow-mesh"></div>
+
+    <nav id="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                <div class="logo-box">V4</div>
+                <span>ESTRUTURAÇÃO IA</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#o-que-e">Processo</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#fluxo">Integração</a></li>
+                <li><a href="#roadmap">Roadmap</a></li>
+            </ul>
+            <a href="#get-started" class="btn btn-secondary">Instalar</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="badge">Plugin Alpha — Claude Code</div>
+                <h1 class="gradient-text">Estratégia na <span class="accent-text">Velocidade</span> do Pensamento.</h1>
+                <p>O braço direito do estrategista V4. De diagnósticos complexos a entregáveis prontos para o cliente, em segundos.</p>
+                <div class="hero-btns">
+                    <a href="#get-started" class="btn btn-primary">Começar agora →</a>
+                    <a href="#o-que-e" class="btn btn-secondary">Ver como funciona</a>
+                </div>
+            </div>
+
+            <div class="terminal-container">
+                <div class="terminal" id="main-terminal">
+                    <div class="terminal-header">
+                        <div class="terminal-buttons">
+                            <div class="dot dot-red"></div>
+                            <div class="dot dot-yellow"></div>
+                            <div class="dot dot-green"></div>
+                        </div>
+                        <div class="terminal-title">claude-code — ~/v4company</div>
+                    </div>
+                    <div class="terminal-body" id="term-body">
+                        <!-- Animated content via JS or CSS -->
+                        <div class="command-line">
+                            <span class="prompt">$</span>
+                            <span class="cmd">claude /continuar</span>
+                        </div>
+                        <div class="output-line" style="animation-delay: 0.5s">
+                            <span style="color: #6272a4"># Carregando workspace da Padaria Bella...</span>
+                        </div>
+                        <div class="output-line" style="animation-delay: 1s">
+                            <span style="color: #ffb86c">⚠ Checkpoint pendente:</span> Matriz SWOT (Semana 1)
+                        </div>
+                        <div class="output-line" style="animation-delay: 1.5s">
+                            <span style="color: #50fa7b">✓</span> Dados do V4MOS importados com sucesso.
+                        </div>
+                        <div class="output-line" style="animation-delay: 2s">
+                            <br>
+                            Analisando fraquezas identificadas:
+                        </div>
+                        <div class="output-line" style="animation-delay: 2.5s">
+                            [1] Presença digital inexistente <span class="status-bar"><span class="status-fill" style="width: 85%"></span></span>
+                        </div>
+                        <div class="output-line" style="animation-delay: 3s">
+                            [2] CRM não configurado <span class="status-bar"><span class="status-fill" style="width: 95%"></span></span>
+                        </div>
+                        <div class="output-line" style="animation-delay: 3.5s">
+                            <br>
+                            <span style="color: #bd93f9">IA:</span> Gostaria de ajustar algum ponto ou gerar o PDF do entregável?
+                        </div>
+                        <div class="command-line" style="animation-delay: 4s">
+                            <span class="prompt">></span>
+                            <span class="cmd">gerar-entregavel --client-ready</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="bento-section" id="o-que-e">
+        <div class="container">
+            <div class="section-header">
+                <h2>O Sistema <span class="accent-text">V4</span></h2>
+                <p>Uma arquitetura pensada para a escala e qualidade total.</p>
+            </div>
+
+            <div class="bento-grid">
+                <div class="bento-item col-8">
+                    <div class="bento-icon">⚡</div>
+                    <h3>Co-criação Síncrona</h3>
+                    <p>A IA não trabalha sozinha. Ela atua como um analista sênior ao seu lado, apresentando opções e refinando cada detalhe sob sua supervisão constante.</p>
+                </div>
+                <div class="bento-item col-4">
+                    <div class="bento-icon">📊</div>
+                    <h3>Dados Reais</h3>
+                    <p>Integração profunda com o V4MOS. Chega de inventar dados. O plugin lê, interpreta e projeta cenários baseados na realidade do cliente.</p>
+                </div>
+                <div class="bento-item col-4">
+                    <div class="bento-icon">🛠</div>
+                    <h3>Pronto para Produção</h3>
+                    <p>Códigos HTML/React, planilhas de forecast e scripts de vendas gerados no padrão V4, sem retrabalho.</p>
+                </div>
+                <div class="bento-item col-8">
+                    <div class="bento-icon">🎯</div>
+                    <h3>Determinismo Estratégico</h3>
+                    <p>Usamos modelos de IA de última geração para garantir que a lógica estratégica siga rigorosamente o método V4 Company em todos os entregáveis.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bento-section" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2>Arsenal de <span class="accent-text">Skills</span></h2>
+                <p>21 ferramentas de elite divididas em 5 semanas de impacto.</p>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <span class="skill-tag">Semana 1</span>
+                    <h3>Diagnóstico</h3>
+                    <p>Maturidade, Persona-ICP, SWOT e Auditoria completa de comunicação.</p>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-tag">Semana 2</span>
+                    <h3>Pesquisa</h3>
+                    <p>TAM/SAM/SOM, Posicionamento, Diagnóstico de Mídia e CRO.</p>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-tag" style="background: rgba(34, 197, 94, 0.1); color: #22c55e;">Semana 3</span>
+                    <h3>Produção</h3>
+                    <p>LPs, Identidade Visual, Anúncios e Configuração de CRM.</p>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-tag" style="background: rgba(161, 161, 161, 0.1); color: #a1a1a1;">S4 & S5</span>
+                    <h3>Vendas</h3>
+                    <p>Cliente Oculto, Scripts SDR e Configuração de IA para atendimento.</p>
+                </div>
+            </div>
+
+            <div class="transformation-box reveal">
+                <div class="trans-grid">
+                    <div class="trans-col">
+                        <h4 style="color: #ff5f57">Legado</h4>
+                        <ul class="trans-list">
+                            <li>Prompts manuais e repetitivos</li>
+                            <li>Ctrl+C Ctrl+V constante</li>
+                            <li>Inconsistência visual</li>
+                            <li>Semana inteira para 1 diagnóstico</li>
+                        </ul>
+                    </div>
+                    <div class="trans-col">
+                        <div class="arrow-center">→</div>
+                    </div>
+                    <div class="trans-col">
+                        <h4 style="color: #28c840">Next-Gen</h4>
+                        <ul class="trans-list">
+                            <li>Scripts automatizados</li>
+                            <li>Fluxo contínuo (/continuar)</li>
+                            <li>Templates Premium Fixos</li>
+                            <li>Diagnóstico em 15 minutos</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bento-section" id="get-started">
+        <div class="container">
+            <div class="section-header">
+                <h2>Implementação em <span class="accent-text">5 Minutos</span></h2>
+                <p>Simples, rápido e direto do seu terminal.</p>
+            </div>
+
+            <div class="stepper-v2">
+                <style>
+                    .stepper-v2 {
+                        display: grid;
+                        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                        gap: 32px;
+                        margin-top: 60px;
+                    }
+                    .step-v2 {
+                        background: var(--surface);
+                        border: 1px solid var(--border);
+                        padding: 32px;
+                        border-radius: var(--radius-lg);
+                        position: relative;
+                        transition: var(--transition);
+                    }
+                    .step-v2:hover { border-color: var(--v4-red); }
+                    .step-num {
+                        font-family: var(--font-heading);
+                        font-size: 40px;
+                        color: rgba(255, 0, 0, 0.1);
+                        position: absolute;
+                        top: 20px;
+                        right: 30px;
+                        font-weight: 900;
+                    }
+                    .step-v2 h3 { font-size: 18px; margin-bottom: 12px; position: relative; }
+                    .step-v2 code {
+                        display: block;
+                        background: #000;
+                        padding: 12px;
+                        border-radius: 6px;
+                        font-size: 13px;
+                        color: #50fa7b;
+                        margin-top: 16px;
+                        border: 1px solid rgba(255, 255, 255, 0.05);
+                    }
+                </style>
+                <div class="step-v2">
+                    <span class="step-num">01</span>
+                    <h3>Instale o Claude Code</h3>
+                    <p>Interface de linha de comando segura da Anthropic.</p>
+                    <code>npm install -g @anthropic-ai/claude-code</code>
+                </div>
+                <div class="step-v2">
+                    <span class="step-num">02</span>
+                    <h3>Adicione o Marketplace</h3>
+                    <p>Registre a fonte oficial dos plugins V4.</p>
+                    <code>/plugin marketplace add guilhermelippert/v4-estruturacao-marketplace</code>
+                </div>
+                <div class="step-v2">
+                    <span class="step-num">03</span>
+                    <h3>Ative o Plugin</h3>
+                    <p>Baixe todas as skills de estruturação no seu workspace.</p>
+                    <code>/plugin install v4-estruturacao-ia@v4-estruturacao-marketplace</code>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bento-section" id="fluxo">
+        <div class="container">
+            <div class="section-header">
+                <h2>O Caminho do <span class="accent-text">Estrategista</span></h2>
+                <p>Visualize as conexões entre cada etapa da entrega.</p>
+            </div>
+            
+            <div style="background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 40px; overflow-x: auto;">
+                <!-- Modernized Dependency Graph SVG -->
+                <svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg" style="display: block; margin: 0 auto; min-width: 600px;">
+                    <defs>
+                        <linearGradient id="gradRed" x1="0%" y1="0%" x2="100%" y2="0%">
+                            <stop offset="0%" style="stop-color: #ff0000; stop-opacity: 0.8" />
+                            <stop offset="100%" style="stop-color: #aa0000; stop-opacity: 0.4" />
+                        </linearGradient>
+                        <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+                            <polygon points="0 0, 10 3.5, 0 7" fill="#666" />
+                        </marker>
+                    </defs>
+                    
+                    <!-- S1 -->
+                    <rect x="50" y="50" width="140" height="40" rx="20" fill="url(#gradRed)" />
+                    <text x="120" y="75" text-anchor="middle" fill="white" font-family="var(--font-main)" font-size="12" font-weight="600">S1: Diagnóstico</text>
+                    
+                    <!-- S2 -->
+                    <rect x="300" y="50" width="140" height="40" rx="20" fill="rgba(255, 255, 255, 0.05)" stroke="var(--border)" />
+                    <text x="370" y="75" text-anchor="middle" fill="white" font-family="var(--font-main)" font-size="12">S2: Pesquisa</text>
+                    
+                    <!-- S3 -->
+                    <rect x="550" y="50" width="140" height="40" rx="20" fill="rgba(255, 255, 255, 0.05)" stroke="var(--border)" />
+                    <text x="620" y="75" text-anchor="middle" fill="white" font-family="var(--font-main)" font-size="12">S3: Produção</text>
+
+                    <!-- Arrows -->
+                    <line x1="190" y1="70" x2="290" y2="70" stroke="#444" stroke-width="1.5" marker-end="url(#arrowhead)" />
+                    <line x1="440" y1="70" x2="540" y2="70" stroke="#444" stroke-width="1.5" marker-end="url(#arrowhead)" />
+
+                    <!-- Bottom Row -->
+                    <rect x="300" y="200" width="140" height="40" rx="20" fill="rgba(255, 255, 255, 0.05)" stroke="var(--border)" />
+                    <text x="370" y="225" text-anchor="middle" fill="white" font-family="var(--font-main)" font-size="12">S4 & S5: Vendas</text>
+
+                    <path d="M620 90 L620 220 L450 220" stroke="#444" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)" />
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <footer id="roadmap">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <a href="#" class="logo footer-logo">
+                        <div class="logo-box">V4</div>
+                        <span>ESTRUTURAÇÃO IA</span>
+                    </a>
+                    <p style="max-width: 300px; font-size: 14px; color: var(--text-muted);">
+                        Transformando a consultoria estratégica através da inteligência artificial aplicada ao método V4 Company.
+                    </p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-group">
+                        <h4>Produto</h4>
+                        <ul>
+                            <li><a href="#">Skills</a></li>
+                            <li><a href="#">Roadmap</a></li>
+                            <li><a href="#">Documentação</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-group">
+                        <h4>Empresa</h4>
+                        <ul>
+                            <li><a href="#">V4 Company</a></li>
+                            <li><a href="#">Marketplace</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2026 V4 Company. Criado com IA para estrategistas de performance.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            const nav = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                nav.classList.add('scrolled');
+            } else {
+                nav.classList.remove('scrolled');
+            }
+        });
+
+        // Basic terminal rotation on mouse move
+        const terminal = document.getElementById('main-terminal');
+        document.addEventListener('mousemove', (e) => {
+            if (window.innerWidth < 1024) return;
+            const xAxis = (window.innerWidth / 2 - e.pageX) / 50;
+            const yAxis = (window.innerHeight / 2 - e.pageY) / 50;
+            terminal.style.transform = `rotateY(${xAxis}deg) rotateX(${-yAxis}deg)`;
+        });
+
+        // Skill card hover effect
+        document.querySelectorAll('.skill-card').forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                card.style.transform = 'scale(1.02)';
+            });
+            card.addEventListener('mouseleave', () => {
+                card.style.transform = 'scale(1)';
+            });
+        });
+    </script>
+</body>
+</html>

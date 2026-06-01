@@ -1,0 +1,1707 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V4 Estruturação IA — Marketplace</title>
+    <meta name="description" content="Sistema de IA que transforma 5 semanas de trabalho manual em entregáveis profissionais de marketing estratégico.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        /* ═══════════════════════════════════════
+           VARIABLES & RESET
+           ═══════════════════════════════════════ */
+        :root {
+            --red: #e50914;
+            --red-glow: rgba(229, 9, 20, 0.35);
+            --red-soft: rgba(229, 9, 20, 0.08);
+            --red-muted: rgba(229, 9, 20, 0.15);
+            --bg: #0a0a0a;
+            --bg-elevated: #111111;
+            --bg-code: #0d0d0d;
+            --border: #1a1a1a;
+            --border-light: #252525;
+            --text: #e5e2e1;
+            --text-body: #c8c5c3;
+            --text-muted: #8a8785;
+            --text-subtle: #6b6966;
+            --white: #ffffff;
+            --green: #22c55e;
+            --green-soft: rgba(34, 197, 94, 0.12);
+            --yellow: #eab308;
+            --yellow-soft: rgba(234, 179, 8, 0.12);
+            --font-display: 'Bebas Neue', sans-serif;
+            --font-heading: 'Bebas Neue', sans-serif;
+            --font-body: 'DM Sans', system-ui, sans-serif;
+            --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+            --nav-h: 64px;
+            --max-w: 1120px;
+            --radius: 10px;
+            --radius-sm: 6px;
+        }
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; scroll-padding-top: calc(var(--nav-h) + 2rem); }
+        body {
+            font-family: var(--font-body);
+            background: var(--bg);
+            color: var(--text-body);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            overflow-x: hidden;
+        }
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            background-image: radial-gradient(circle, rgba(229,9,20,0.025) 1px, transparent 1px);
+            background-size: 32px 32px;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        /* ═══════════════════════════════════════
+           TYPOGRAPHY
+           ═══════════════════════════════════════ */
+        h1, h2, h3, h4 { color: var(--white); line-height: 1.0; text-transform: uppercase; }
+        h1 { font-family: var(--font-display); font-weight: 400; font-size: clamp(3rem, 7vw, 5.5rem); letter-spacing: 0.04em; }
+        h2 { font-family: var(--font-heading); font-weight: 400; font-size: clamp(1.75rem, 3.5vw, 2.5rem); letter-spacing: 0.06em; }
+        h3 { font-family: var(--font-heading); font-weight: 400; font-size: 1.25rem; letter-spacing: 0.05em; }
+        h4 { font-family: var(--font-heading); font-weight: 400; font-size: 0.875rem; color: var(--text-muted); letter-spacing: 0.1em; }
+        p { font-size: 1rem; max-width: 65ch; }
+        a { color: var(--red); text-decoration: none; transition: opacity 0.2s; }
+        a:hover { opacity: 0.8; }
+        strong { color: var(--white); font-weight: 600; }
+
+        /* ═══════════════════════════════════════
+           LAYOUT
+           ═══════════════════════════════════════ */
+        .container { max-width: var(--max-w); margin: 0 auto; padding: 0 1.5rem; position: relative; z-index: 1; }
+        section { padding: 5rem 0; }
+        .section-label {
+            font-family: var(--font-mono); font-size: 0.75rem; color: var(--red);
+            text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.75rem;
+            display: flex; align-items: center; gap: 0.75rem;
+        }
+        .section-label::before { content: ''; width: 32px; height: 1px; background: var(--red); }
+        .section-desc { font-size: 1.125rem; color: var(--text-muted); margin-top: 1rem; max-width: 55ch; }
+        .divider { width: 100%; height: 1px; background: linear-gradient(to right, transparent, var(--border-light), transparent); }
+
+        /* ═══════════════════════════════════════
+           NAV
+           ═══════════════════════════════════════ */
+        .nav {
+            position: sticky; top: 0; z-index: 100; height: var(--nav-h);
+            display: flex; align-items: center;
+            background: rgba(10, 10, 10, 0.85);
+            backdrop-filter: blur(16px) saturate(180%);
+            -webkit-backdrop-filter: blur(16px) saturate(180%);
+            border-bottom: 1px solid var(--border);
+        }
+        .nav .container { display: flex; align-items: center; justify-content: space-between; width: 100%; }
+        .nav-brand { display: flex; align-items: center; gap: 0.75rem; }
+        .nav-logo {
+            width: 36px; height: 36px; background: var(--red); border-radius: var(--radius-sm);
+            display: flex; align-items: center; justify-content: center;
+            font-family: var(--font-heading); font-weight: 800; font-size: 0.875rem; color: var(--white);
+        }
+        .nav-title { font-family: var(--font-heading); font-weight: 700; font-size: 0.8rem; color: var(--white); text-transform: uppercase; letter-spacing: 0.06em; }
+        .nav-links { display: flex; gap: 2rem; list-style: none; }
+        .nav-links a { font-size: 0.8125rem; color: var(--text-muted); font-weight: 500; letter-spacing: 0.02em; transition: color 0.2s; }
+        .nav-links a:hover { color: var(--white); opacity: 1; }
+        .nav-menu-btn { display: none; background: none; border: none; color: var(--text); cursor: pointer; padding: 0.5rem; }
+
+        /* ═══════════════════════════════════════
+           HERO
+           ═══════════════════════════════════════ */
+        .hero {
+            min-height: calc(100vh - var(--nav-h)); display: flex; align-items: center;
+            padding: 4rem 0; position: relative; overflow: hidden;
+        }
+        .hero::before {
+            content: ''; position: absolute; top: -50%; left: -20%; width: 140%; height: 200%;
+            background: radial-gradient(ellipse at 30% 20%, rgba(229,9,20,0.06) 0%, transparent 60%);
+            pointer-events: none;
+        }
+        .hero-grid { display: grid; grid-template-columns: 1fr; gap: 3rem; align-items: center; }
+        .hero-text { position: relative; z-index: 2; }
+        .hero-tag {
+            display: inline-flex; align-items: center; gap: 0.5rem;
+            background: var(--red-soft); border: 1px solid rgba(229,9,20,0.2);
+            border-radius: 100px; padding: 0.375rem 1rem;
+            font-family: var(--font-mono); font-size: 0.75rem; color: var(--red);
+            margin-bottom: 1.5rem; letter-spacing: 0.04em;
+        }
+        .hero-tag::before {
+            content: ''; width: 6px; height: 6px; border-radius: 50%; background: var(--red);
+            animation: pulseDot 2s ease-in-out infinite;
+        }
+        @keyframes pulseDot { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+        .hero h1 { margin-bottom: 1.5rem; }
+        .hero h1 em {
+            font-style: normal;
+            background: linear-gradient(135deg, var(--red), #ff6b6b);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+        }
+        .hero-subtitle { font-size: 1.25rem; color: var(--text-muted); max-width: 50ch; line-height: 1.7; margin-bottom: 2.5rem; }
+        .hero-cta {
+            display: inline-flex; align-items: center; gap: 0.75rem;
+            background: var(--red); color: var(--white); padding: 0.875rem 2rem;
+            border-radius: var(--radius); font-family: var(--font-heading); font-weight: 700;
+            font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.06em;
+            transition: all 0.3s ease; box-shadow: 0 0 0 0 var(--red-glow);
+        }
+        .hero-cta:hover { opacity: 1; transform: translateY(-2px); box-shadow: 0 8px 32px var(--red-glow); }
+        .hero-cta svg { transition: transform 0.3s ease; }
+        .hero-cta:hover svg { transform: translateX(4px); }
+
+        /* ═══════════════════════════════════════
+           TERMINAL
+           ═══════════════════════════════════════ */
+        .terminal {
+            background: #0c0c0c; border: 1px solid var(--border-light); border-radius: 12px;
+            overflow: hidden; box-shadow: 0 24px 80px rgba(0,0,0,0.5), 0 0 0 1px rgba(255,255,255,0.03) inset;
+            position: relative; z-index: 2;
+        }
+        .terminal-bar {
+            display: flex; align-items: center; gap: 8px; padding: 14px 16px;
+            background: #161616; border-bottom: 1px solid var(--border);
+        }
+        .terminal-dot { width: 12px; height: 12px; border-radius: 50%; }
+        .terminal-dot--red { background: #ff5f57; }
+        .terminal-dot--yellow { background: #febc2e; }
+        .terminal-dot--green { background: #28c840; }
+        .terminal-title { flex: 1; text-align: center; font-family: var(--font-mono); font-size: 0.6875rem; color: var(--text-subtle); }
+        .terminal-body { padding: 1.25rem 1.5rem; font-family: var(--font-mono); font-size: 0.8125rem; line-height: 1.8; min-height: 300px; }
+        .term-line { opacity: 0; animation: termFadeIn 0.4s ease forwards; white-space: nowrap; }
+        .term-prompt { color: var(--green); }
+        .term-cmd { color: var(--white); }
+        .term-accent { color: var(--red); }
+        .term-dim { color: var(--text-subtle); }
+        .term-highlight { color: var(--yellow); }
+        .term-white { color: var(--white); }
+        .term-bar-track {
+            display: inline-block; width: 100px; height: 8px; background: var(--border);
+            border-radius: 4px; overflow: hidden; vertical-align: middle; margin: 0 0.5rem;
+        }
+        .term-bar-fill { height: 100%; border-radius: 4px; }
+        .term-bar-fill--red { background: var(--red); }
+        .term-bar-fill--green { background: var(--green); }
+        .term-bar-fill--yellow { background: var(--yellow); }
+        .term-cursor { display: inline-block; width: 8px; height: 16px; background: var(--red); animation: cursorBlink 1s step-end infinite; vertical-align: text-bottom; }
+        @keyframes termFadeIn { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
+        @keyframes cursorBlink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+        .term-line:nth-child(1) { animation-delay: 0.3s; }
+        .term-line:nth-child(2) { animation-delay: 0.6s; }
+        .term-line:nth-child(3) { animation-delay: 1.4s; }
+        .term-line:nth-child(4) { animation-delay: 2.0s; }
+        .term-line:nth-child(5) { animation-delay: 2.3s; }
+        .term-line:nth-child(6) { animation-delay: 2.6s; }
+        .term-line:nth-child(7) { animation-delay: 2.9s; }
+        .term-line:nth-child(8) { animation-delay: 3.2s; }
+        .term-line:nth-child(9) { animation-delay: 3.7s; }
+        .term-line:nth-child(10) { animation-delay: 4.2s; }
+        .term-line:nth-child(11) { animation-delay: 4.7s; }
+
+        /* ═══════════════════════════════════════
+           CARDS
+           ═══════════════════════════════════════ */
+        .card {
+            background: var(--bg-elevated); border: 1px solid var(--border);
+            border-radius: var(--radius); padding: 1.75rem; transition: all 0.3s ease;
+        }
+        .card:hover { border-color: var(--border-light); box-shadow: 0 8px 32px rgba(0,0,0,0.3); }
+        .card--red { border-left: 3px solid var(--red); }
+        .card--green { border-left: 3px solid var(--green); }
+        .card--yellow { border-left: 3px solid var(--yellow); }
+        .card-title { font-family: var(--font-heading); font-weight: 700; font-size: 1rem; color: var(--white); margin-bottom: 0.75rem; }
+        .card-body { font-size: 0.9375rem; line-height: 1.7; }
+
+        /* ═══════════════════════════════════════
+           FLOW (BEFORE / AFTER)
+           ═══════════════════════════════════════ */
+        .flow-grid { display: grid; grid-template-columns: 1fr; gap: 1.5rem; }
+        .flow-arrow { display: none; align-items: center; justify-content: center; color: var(--red); font-size: 1.5rem; }
+        .flow-card {
+            background: var(--bg-elevated); border: 1px solid var(--border);
+            border-radius: var(--radius); padding: 2rem 1.75rem; text-align: center;
+        }
+        .flow-card-icon {
+            width: 48px; height: 48px; border-radius: 50%;
+            display: flex; align-items: center; justify-content: center;
+            margin: 0 auto 1.25rem; font-size: 1.25rem;
+        }
+        .flow-card--before .flow-card-icon { background: rgba(239,68,68,0.1); }
+        .flow-card--now .flow-card-icon { background: var(--red-soft); border: 1px solid rgba(229,9,20,0.2); }
+        .flow-card--result .flow-card-icon { background: var(--green-soft); }
+        .flow-card h3 { margin-bottom: 1rem; }
+        .flow-card ul { list-style: none; text-align: left; }
+        .flow-card li { padding: 0.375rem 0; font-size: 0.9375rem; color: var(--text-body); display: flex; align-items: flex-start; gap: 0.5rem; }
+        .flow-card li::before { content: '\00B7'; color: var(--text-subtle); font-weight: 700; flex-shrink: 0; font-size: 1.2em; }
+
+        /* ═══════════════════════════════════════
+           METRICS
+           ═══════════════════════════════════════ */
+        .metrics-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin-top: 3rem; }
+        .metric {
+            text-align: center; padding: 2rem 1rem; background: var(--bg-elevated);
+            border: 1px solid var(--border); border-radius: var(--radius);
+        }
+        .metric-value {
+            font-family: var(--font-display); font-size: 2.5rem; font-weight: 800;
+            color: var(--white); line-height: 1; margin-bottom: 0.5rem;
+        }
+        .metric-value--red { color: var(--red); }
+        .metric-label {
+            font-family: var(--font-mono); font-size: 0.6875rem; color: var(--text-subtle);
+            text-transform: uppercase; letter-spacing: 0.08em;
+        }
+
+        /* ═══════════════════════════════════════
+           PRINCIPLES
+           ═══════════════════════════════════════ */
+        .principles-grid { display: grid; grid-template-columns: 1fr; gap: 1.25rem; margin-top: 3rem; }
+        .principle { display: flex; gap: 1.25rem; padding: 1.5rem; background: var(--bg-elevated); border: 1px solid var(--border); border-radius: var(--radius); }
+        .principle-icon {
+            width: 44px; height: 44px; border-radius: var(--radius-sm); background: var(--red-soft);
+            display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+            color: var(--red); font-size: 1.125rem;
+        }
+        .principle h3 { margin-bottom: 0.375rem; font-size: 1rem; }
+        .principle p { font-size: 0.9375rem; color: var(--text-muted); }
+
+        /* ═══════════════════════════════════════
+           TIMELINE
+           ═══════════════════════════════════════ */
+        .timeline-container { margin-top: 2.5rem; }
+        .timeline-track {
+            display: flex; align-items: center; justify-content: center; gap: 0;
+            margin-bottom: 2rem; overflow-x: auto; padding: 1rem 0;
+        }
+        .timeline-node { display: flex; flex-direction: column; align-items: center; gap: 0.5rem; position: relative; z-index: 2; }
+        .timeline-node input[type="radio"] { display: none; }
+        .timeline-node label { display: flex; flex-direction: column; align-items: center; gap: 0.5rem; cursor: pointer; }
+        .timeline-circle {
+            width: 48px; height: 48px; border-radius: 50%;
+            background: var(--bg-elevated); border: 2px solid var(--border-light);
+            display: flex; align-items: center; justify-content: center;
+            font-family: var(--font-mono); font-weight: 700; font-size: 0.75rem;
+            color: var(--text-muted); transition: all 0.3s ease;
+        }
+        .timeline-label-text {
+            font-family: var(--font-mono); font-size: 0.625rem; color: var(--text-subtle);
+            text-transform: uppercase; letter-spacing: 0.08em; white-space: nowrap;
+        }
+        .timeline-line { width: 48px; height: 2px; background: var(--border-light); flex-shrink: 0; margin-bottom: 1.5rem; }
+
+        .timeline-container:has(#tw1:checked) label[for="tw1"] .timeline-circle,
+        .timeline-container:has(#tw2:checked) label[for="tw2"] .timeline-circle,
+        .timeline-container:has(#tw3:checked) label[for="tw3"] .timeline-circle,
+        .timeline-container:has(#tw4:checked) label[for="tw4"] .timeline-circle,
+        .timeline-container:has(#tw5:checked) label[for="tw5"] .timeline-circle {
+            background: var(--red); border-color: var(--red); color: var(--white);
+            box-shadow: 0 0 20px var(--red-glow);
+        }
+        .timeline-container:has(#tw1:checked) label[for="tw1"] .timeline-label-text,
+        .timeline-container:has(#tw2:checked) label[for="tw2"] .timeline-label-text,
+        .timeline-container:has(#tw3:checked) label[for="tw3"] .timeline-label-text,
+        .timeline-container:has(#tw4:checked) label[for="tw4"] .timeline-label-text,
+        .timeline-container:has(#tw5:checked) label[for="tw5"] .timeline-label-text {
+            color: var(--red);
+        }
+        .week-panel { display: none; }
+        .timeline-container:has(#tw1:checked) #wp1,
+        .timeline-container:has(#tw2:checked) #wp2,
+        .timeline-container:has(#tw3:checked) #wp3,
+        .timeline-container:has(#tw4:checked) #wp4,
+        .timeline-container:has(#tw5:checked) #wp5 {
+            display: block; animation: panelIn 0.4s ease;
+        }
+        @keyframes panelIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+        .week-panel {
+            background: var(--bg-elevated); border: 1px solid var(--border);
+            border-radius: var(--radius); padding: 2rem;
+        }
+        .week-panel h3 { margin-bottom: 1.25rem; display: flex; align-items: center; gap: 0.75rem; }
+        .skill-list { list-style: none; display: grid; grid-template-columns: 1fr; gap: 0.75rem; }
+        .skill-item {
+            display: flex; align-items: flex-start; gap: 0.75rem;
+            padding: 0.875rem 1rem; background: rgba(255,255,255,0.02);
+            border-radius: var(--radius-sm); border: 1px solid transparent; transition: border-color 0.2s;
+        }
+        .skill-item:hover { border-color: var(--border-light); }
+        .skill-item-name { font-family: var(--font-mono); font-size: 0.8125rem; color: var(--white); white-space: nowrap; }
+        .skill-item-desc { font-size: 0.875rem; color: var(--text-muted); }
+
+        /* ═══════════════════════════════════════
+           CHECKPOINT DEMO
+           ═══════════════════════════════════════ */
+        .checkpoint-demo { margin-top: 3rem; display: grid; grid-template-columns: 1fr; gap: 1.5rem; align-items: start; }
+        .chat-demo { display: flex; flex-direction: column; gap: 1rem; }
+        .chat-bubble { max-width: 85%; padding: 1rem 1.25rem; border-radius: 12px; font-size: 0.9375rem; line-height: 1.6; }
+        .chat-bubble--ai { background: var(--bg-elevated); border: 1px solid var(--border); align-self: flex-start; border-bottom-left-radius: 4px; }
+        .chat-bubble--user { background: rgba(229,9,20,0.08); border: 1px solid rgba(229,9,20,0.15); align-self: flex-end; border-bottom-right-radius: 4px; color: var(--text); }
+        .chat-sender { font-family: var(--font-mono); font-size: 0.6875rem; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.375rem; }
+        .chat-sender--ai { color: var(--text-subtle); }
+        .chat-sender--user { color: var(--red); }
+
+        /* ═══════════════════════════════════════
+           DEPENDENCY DIAGRAM
+           ═══════════════════════════════════════ */
+        .dep-diagram { margin-top: 3rem; overflow-x: auto; padding: 1rem 0; }
+        .dep-diagram svg { display: block; margin: 0 auto; max-width: 100%; height: auto; }
+
+        /* ═══════════════════════════════════════
+           STEPPER (INSTALL)
+           ═══════════════════════════════════════ */
+        .stepper { display: flex; flex-direction: column; gap: 2.5rem; margin-top: 2.5rem; }
+        .step { display: grid; grid-template-columns: auto 1fr; gap: 1.5rem; }
+        .step-number {
+            width: 56px; height: 56px; border-radius: 50%;
+            background: var(--red-soft); border: 2px solid rgba(229,9,20,0.2);
+            display: flex; align-items: center; justify-content: center;
+            font-family: var(--font-display); font-weight: 800; font-size: 1.5rem;
+            color: var(--red); flex-shrink: 0; position: relative;
+        }
+        .step:not(:last-child) .step-number::after {
+            content: ''; position: absolute; top: 100%; left: 50%; transform: translateX(-50%);
+            width: 2px; height: calc(100% + 1rem); background: linear-gradient(to bottom, rgba(229,9,20,0.2), transparent);
+        }
+        .step-content h3 { margin-bottom: 0.75rem; font-size: 1.125rem; }
+        .step-content > p { font-size: 0.9375rem; color: var(--text-muted); margin-bottom: 1rem; }
+
+        /* ═══════════════════════════════════════
+           CODE BLOCK
+           ═══════════════════════════════════════ */
+        .code-block {
+            background: var(--bg-code); border: 1px solid var(--border);
+            border-left: 3px solid var(--red); border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+            padding: 1rem 1.25rem; position: relative; margin-bottom: 0.75rem; overflow-x: auto;
+        }
+        .code-block code { font-family: var(--font-mono); font-size: 0.8125rem; color: var(--text); line-height: 1.6; white-space: pre; }
+        .copy-btn {
+            position: absolute; top: 0.625rem; right: 0.625rem;
+            background: var(--border-light); border: 1px solid var(--border); border-radius: 4px;
+            padding: 0.25rem 0.625rem; font-family: var(--font-mono); font-size: 0.625rem;
+            color: var(--text-muted); cursor: pointer; transition: all 0.2s;
+            text-transform: uppercase; letter-spacing: 0.06em;
+        }
+        .copy-btn:hover { background: var(--red); color: var(--white); border-color: var(--red); }
+        .info-box {
+            background: rgba(229,9,20,0.04); border: 1px solid rgba(229,9,20,0.1);
+            border-radius: var(--radius-sm); padding: 0.875rem 1rem; font-size: 0.875rem;
+            color: var(--text-muted); display: flex; align-items: flex-start; gap: 0.75rem;
+        }
+        .info-box::before {
+            content: '?'; width: 20px; height: 20px; border-radius: 50%; background: var(--red-soft);
+            display: flex; align-items: center; justify-content: center;
+            font-family: var(--font-heading); font-weight: 700; font-size: 0.6875rem; color: var(--red); flex-shrink: 0;
+        }
+
+        /* ═══════════════════════════════════════
+           USAGE FLOW
+           ═══════════════════════════════════════ */
+        .usage-flow { display: grid; grid-template-columns: 1fr; gap: 1rem; margin-top: 2.5rem; }
+        .usage-step {
+            background: var(--bg-elevated); border: 1px solid var(--border);
+            border-radius: var(--radius); padding: 1.5rem; text-align: center;
+        }
+        .usage-step-num { font-family: var(--font-mono); font-size: 0.625rem; color: var(--red); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.5rem; }
+        .usage-step h3 { font-size: 1rem; margin-bottom: 0.375rem; }
+        .usage-step p { font-size: 0.8125rem; color: var(--text-subtle); margin: 0 auto; }
+
+        /* ═══════════════════════════════════════
+           TABLES
+           ═══════════════════════════════════════ */
+        .table-wrap { overflow-x: auto; border: 1px solid var(--border); border-radius: var(--radius); margin-top: 2.5rem; }
+        table { width: 100%; border-collapse: collapse; }
+        thead { background: #141414; }
+        th { font-family: var(--font-mono); font-size: 0.6875rem; color: var(--text-subtle); text-transform: uppercase; letter-spacing: 0.06em; padding: 0.875rem 1rem; text-align: left; font-weight: 500; }
+        td { padding: 0.75rem 1rem; font-size: 0.875rem; color: var(--text-body); border-top: 1px solid var(--border); }
+        tr:hover td { background: rgba(255,255,255,0.015); }
+        td code { font-family: var(--font-mono); font-size: 0.8125rem; color: var(--red); background: var(--red-soft); padding: 0.125rem 0.375rem; border-radius: 3px; }
+
+        /* ═══════════════════════════════════════
+           TAGS
+           ═══════════════════════════════════════ */
+        .tag {
+            display: inline-block; font-family: var(--font-mono); font-size: 0.625rem; font-weight: 700;
+            text-transform: uppercase; letter-spacing: 0.06em; padding: 0.25rem 0.5rem; border-radius: 4px;
+        }
+        .tag--red { background: var(--red-muted); color: var(--red); }
+        .tag--green { background: var(--green-soft); color: var(--green); }
+        .tag--yellow { background: var(--yellow-soft); color: var(--yellow); }
+        .tag--gray { background: rgba(138,135,133,0.12); color: var(--text-muted); }
+
+        /* ═══════════════════════════════════════
+           DELIVERABLE PREVIEWS
+           ═══════════════════════════════════════ */
+        .deliverable-grid { display: grid; grid-template-columns: 1fr; gap: 1.5rem; margin-top: 2.5rem; }
+        .deliverable-card { background: var(--bg-elevated); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
+        .deliverable-header { padding: 1rem 1.25rem; border-bottom: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; }
+        .deliverable-header h3 { font-size: 0.9375rem; }
+        .deliverable-preview { padding: 1.5rem; }
+
+        /* Maturity mini-scores */
+        .mini-scores { display: flex; flex-direction: column; gap: 0.75rem; }
+        .mini-score { display: flex; align-items: center; gap: 0.75rem; }
+        .mini-score-label { font-size: 0.75rem; color: var(--text-muted); width: 100px; flex-shrink: 0; }
+        .mini-score-bar { flex: 1; height: 6px; background: var(--border); border-radius: 3px; overflow: hidden; }
+        .mini-score-fill { height: 100%; border-radius: 3px; transition: width 1s ease; }
+        .mini-score-value { font-family: var(--font-mono); font-size: 0.75rem; color: var(--white); width: 30px; text-align: right; }
+
+        /* SWOT mini-preview */
+        .mini-swot { display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; }
+        .mini-swot-cell { padding: 0.75rem; border-radius: var(--radius-sm); font-size: 0.75rem; line-height: 1.5; }
+        .mini-swot-cell h4 { font-size: 0.6875rem; margin-bottom: 0.375rem; text-transform: uppercase; letter-spacing: 0.04em; }
+        .mini-swot--s { background: rgba(34,197,94,0.08); border: 1px solid rgba(34,197,94,0.15); }
+        .mini-swot--s h4 { color: var(--green); }
+        .mini-swot--w { background: rgba(239,68,68,0.08); border: 1px solid rgba(239,68,68,0.15); }
+        .mini-swot--w h4 { color: #ef4444; }
+        .mini-swot--o { background: rgba(234,179,8,0.08); border: 1px solid rgba(234,179,8,0.15); }
+        .mini-swot--o h4 { color: var(--yellow); }
+        .mini-swot--t { background: rgba(138,135,133,0.08); border: 1px solid rgba(138,135,133,0.15); }
+        .mini-swot--t h4 { color: var(--text-muted); }
+
+        /* Landing page mini-browser */
+        .mini-browser { background: #0c0c0c; border: 1px solid var(--border-light); border-radius: 8px; overflow: hidden; }
+        .mini-browser-bar { display: flex; align-items: center; gap: 6px; padding: 8px 12px; background: #161616; border-bottom: 1px solid var(--border); }
+        .mini-browser-dot { width: 8px; height: 8px; border-radius: 50%; }
+        .mini-browser-url { flex: 1; margin-left: 8px; background: var(--bg); border-radius: 4px; padding: 3px 8px; font-family: var(--font-mono); font-size: 0.5625rem; color: var(--text-subtle); }
+        .mini-page { padding: 1rem; }
+        .mini-hero-block { text-align: center; padding: 1.5rem 0.5rem; }
+        .mini-hero-block h4 { font-size: 0.875rem; color: var(--white); margin-bottom: 0.25rem; }
+        .mini-hero-block p { font-size: 0.625rem; color: var(--text-subtle); margin: 0 auto 0.75rem; }
+        .mini-cta { display: inline-block; background: var(--red); color: var(--white); padding: 0.25rem 0.75rem; border-radius: 4px; font-size: 0.5625rem; font-weight: 700; }
+        .mini-sections { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.375rem; margin-top: 0.75rem; }
+        .mini-section { background: rgba(255,255,255,0.03); border-radius: 4px; padding: 0.5rem; text-align: center; }
+        .mini-section-block { width: 100%; height: 4px; background: var(--border-light); border-radius: 2px; margin-bottom: 0.25rem; }
+        .mini-section span { font-size: 0.5rem; color: var(--text-subtle); }
+
+        /* ═══════════════════════════════════════
+           ROADMAP
+           ═══════════════════════════════════════ */
+        .roadmap-grid { display: grid; grid-template-columns: 1fr; gap: 1.5rem; margin-top: 2.5rem; }
+        .roadmap-column h3 { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem; font-size: 1rem; }
+        .roadmap-items { display: flex; flex-direction: column; gap: 0.75rem; }
+        .roadmap-item { background: var(--bg-elevated); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 1rem 1.25rem; }
+        .roadmap-item h4 { font-size: 0.875rem; color: var(--white); text-transform: none; letter-spacing: 0; margin-bottom: 0.5rem; }
+        .roadmap-item p { font-size: 0.8125rem; color: var(--text-subtle); margin-bottom: 0.75rem; }
+        .progress-bar { height: 4px; background: var(--border); border-radius: 2px; overflow: hidden; }
+        .progress-fill { height: 100%; border-radius: 2px; transition: width 1.5s ease; }
+        .progress-fill--red { background: var(--red); }
+        .progress-fill--yellow { background: var(--yellow); }
+        .progress-fill--green { background: var(--green); }
+
+        /* ═══════════════════════════════════════
+           FOOTER
+           ═══════════════════════════════════════ */
+        .footer { border-top: 1px solid var(--border); padding: 2.5rem 0; margin-top: 2rem; }
+        .footer .container { display: flex; flex-direction: column; align-items: center; gap: 0.75rem; text-align: center; }
+        .footer-brand { font-family: var(--font-heading); font-size: 0.8125rem; color: var(--text-subtle); }
+        .footer-brand span { color: var(--red); font-weight: 700; }
+        .footer-info { font-size: 0.75rem; color: var(--text-subtle); }
+
+        /* ═══════════════════════════════════════
+           SCROLL REVEAL
+           ═══════════════════════════════════════ */
+        .reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.7s ease, transform 0.7s ease; }
+        .reveal.visible { opacity: 1; transform: translateY(0); }
+        .reveal-delay-1 { transition-delay: 0.1s; }
+        .reveal-delay-2 { transition-delay: 0.2s; }
+        .reveal-delay-3 { transition-delay: 0.3s; }
+        .reveal-delay-4 { transition-delay: 0.4s; }
+
+        /* ═══════════════════════════════════════
+           RESPONSIVE
+           ═══════════════════════════════════════ */
+        @media (min-width: 640px) {
+            .metrics-grid { grid-template-columns: repeat(4, 1fr); }
+            .principles-grid { grid-template-columns: repeat(2, 1fr); }
+            .flow-grid { grid-template-columns: 1fr auto 1fr auto 1fr; align-items: start; }
+            .flow-arrow { display: flex; margin-top: 4rem; }
+            .usage-flow { grid-template-columns: repeat(2, 1fr); }
+            .deliverable-grid { grid-template-columns: repeat(2, 1fr); }
+            .roadmap-grid { grid-template-columns: repeat(2, 1fr); }
+            .checkpoint-demo { grid-template-columns: 1fr 1fr; }
+            .skill-list { grid-template-columns: repeat(2, 1fr); }
+            .timeline-line { width: 60px; }
+        }
+        @media (min-width: 960px) {
+            .hero-grid { grid-template-columns: 1fr 1fr; }
+            .nav-links { display: flex !important; }
+            .nav-menu-btn { display: none !important; }
+            .usage-flow { grid-template-columns: repeat(4, 1fr); }
+            .deliverable-grid { grid-template-columns: repeat(3, 1fr); }
+            .roadmap-grid { grid-template-columns: repeat(3, 1fr); }
+        }
+        @media (max-width: 959px) {
+            .nav-links { display: none; }
+            .nav-menu-btn { display: block; }
+            .nav.nav--open .nav-links {
+                display: flex; flex-direction: column; position: absolute;
+                top: var(--nav-h); left: 0; right: 0;
+                background: rgba(10,10,10,0.95); backdrop-filter: blur(16px);
+                padding: 1rem 1.5rem; gap: 1rem; border-bottom: 1px solid var(--border);
+            }
+        }
+        @media (max-width: 639px) {
+            section { padding: 3rem 0; }
+            .terminal-body { padding: 1rem; font-size: 0.6875rem; }
+            .term-bar-track { width: 50px; }
+            .timeline-line { width: 24px; }
+            .timeline-circle { width: 40px; height: 40px; font-size: 0.6875rem; }
+            .step { grid-template-columns: auto 1fr; gap: 1rem; }
+            .step-number { width: 44px; height: 44px; font-size: 1.25rem; }
+        }
+        @media print {
+            body { background: #fff; color: #333; }
+            body::before { display: none; }
+            .nav { position: static; background: #fff; }
+            .terminal { box-shadow: none; border: 1px solid #ccc; }
+            .reveal { opacity: 1; transform: none; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════
+     NAV
+     ═══════════════════════════════════════ -->
+<nav class="nav">
+    <div class="container">
+        <div class="nav-brand">
+            <div class="nav-logo">V4</div>
+            <span class="nav-title">Estruturação IA</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#o-que-e">O que é</a></li>
+            <li><a href="#como-funciona">Como funciona</a></li>
+            <li><a href="#instalacao">Instalação</a></li>
+            <li><a href="#como-usar">Como usar</a></li>
+            <li><a href="#exemplos">Exemplos</a></li>
+            <li><a href="#roadmap">Roadmap</a></li>
+        </ul>
+        <button class="nav-menu-btn" onclick="this.closest('.nav').classList.toggle('nav--open')" aria-label="Menu">
+            <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+        </button>
+    </div>
+</nav>
+
+<!-- ═══════════════════════════════════════
+     HERO
+     ═══════════════════════════════════════ -->
+<section class="hero">
+    <div class="container">
+        <div class="hero-grid">
+            <div class="hero-text">
+                <div class="hero-tag">Plugin para Claude Code</div>
+                <h1>Estruturação<br>Estratégica<br>com <em>IA</em></h1>
+                <p class="hero-subtitle">O sistema que transforma 5 semanas de trabalho manual em entregáveis profissionais &mdash; direto do seu terminal.</p>
+                <a href="#instalacao" class="hero-cta">
+                    Comece agora
+                    <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+                </a>
+            </div>
+            <div class="terminal">
+                <div class="terminal-bar">
+                    <span class="terminal-dot terminal-dot--red"></span>
+                    <span class="terminal-dot terminal-dot--yellow"></span>
+                    <span class="terminal-dot terminal-dot--green"></span>
+                    <span class="terminal-title">claude &mdash; ~/estruturacao-ia</span>
+                </div>
+                <div class="terminal-body">
+                    <div class="term-line"><span class="term-prompt">$</span> <span class="term-cmd">claude</span></div>
+                    <div class="term-line"><br></div>
+                    <div class="term-line"><span class="term-accent">&gt;</span> <span class="term-cmd">/continuar</span></div>
+                    <div class="term-line"><br></div>
+                    <div class="term-line"><span class="term-white">Panorama dos seus clientes:</span></div>
+                    <div class="term-line"><br></div>
+                    <div class="term-line">
+                        <span class="term-accent">&#9679;</span> <span class="term-white">Padaria Bella</span>
+                        <span class="term-dim">&mdash; S2 (60%)</span>
+                        <span class="term-bar-track"><span class="term-bar-fill term-bar-fill--yellow" style="width:60%"></span></span>
+                        <span class="term-dim">Pesquisa de Mercado</span>
+                    </div>
+                    <div class="term-line">
+                        <span class="term-accent">&#9679;</span> <span class="term-white">Studio Fit</span>
+                        <span class="term-dim">&mdash; S1 (25%)</span>
+                        <span class="term-bar-track"><span class="term-bar-fill term-bar-fill--red" style="width:25%"></span></span>
+                        <span class="term-dim">SWOT</span>
+                    </div>
+                    <div class="term-line">
+                        <span class="term-accent">&#9679;</span> <span class="term-white">Auto Center</span>
+                        <span class="term-dim">&mdash; S3 (85%)</span>
+                        <span class="term-bar-track"><span class="term-bar-fill term-bar-fill--green" style="width:85%"></span></span>
+                        <span class="term-dim">Landing Page</span>
+                    </div>
+                    <div class="term-line"><br></div>
+                    <div class="term-line"><span class="term-highlight">Qual cliente quer trabalhar?</span> <span class="term-cursor"></span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ═══════════════════════════════════════
+     SECTION 1: O QUE E
+     ═══════════════════════════════════════ -->
+<section id="o-que-e">
+    <div class="container">
+        <div class="section-label reveal">01 &mdash; O que é</div>
+        <h2 class="reveal">De prompts manuais a<br>entregáveis profissionais</h2>
+        <p class="section-desc reveal">Um plugin para Claude Code que automatiza o processo de estruturação estratégica de marketing da V4 Company. 20+ skills interativas guiam o operador semana a semana.</p>
+
+        <!-- Before → Now → Result -->
+        <div class="flow-grid reveal" style="margin-top: 3rem;">
+            <div class="flow-card flow-card--before">
+                <div class="flow-card-icon">
+                    <svg width="24" height="24" fill="none" stroke="#ef4444" stroke-width="2"><path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2"/><rect x="9" y="3" width="6" height="4" rx="1"/></svg>
+                </div>
+                <h3>Antes</h3>
+                <ul>
+                    <li>Copiar prompts do Google Docs</li>
+                    <li>Colar no ChatGPT manualmente</li>
+                    <li>Copiar resultado e formatar</li>
+                    <li>Sem estrutura padronizada</li>
+                    <li>Sem rastreabilidade</li>
+                </ul>
+            </div>
+            <div class="flow-arrow">
+                <svg width="32" height="32" fill="none" stroke="var(--red)" stroke-width="2" stroke-linecap="round"><path d="M8 16h16M18 10l6 6-6 6"/></svg>
+            </div>
+            <div class="flow-card flow-card--now">
+                <div class="flow-card-icon">
+                    <svg width="24" height="24" fill="none" stroke="var(--red)" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+                </div>
+                <h3>Agora</h3>
+                <ul>
+                    <li>Skills guiadas no Claude Code</li>
+                    <li>Checkpoints de validação</li>
+                    <li>Dados reais do V4MOS</li>
+                    <li>Co-criação com a IA</li>
+                    <li>Retome de onde parou</li>
+                </ul>
+            </div>
+            <div class="flow-arrow">
+                <svg width="32" height="32" fill="none" stroke="var(--red)" stroke-width="2" stroke-linecap="round"><path d="M8 16h16M18 10l6 6-6 6"/></svg>
+            </div>
+            <div class="flow-card flow-card--result">
+                <div class="flow-card-icon">
+                    <svg width="24" height="24" fill="none" stroke="var(--green)" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg>
+                </div>
+                <h3>Resultado</h3>
+                <ul>
+                    <li>HTML pronto para deploy</li>
+                    <li>Deploy automático na Vercel</li>
+                    <li>Sheets via Google Sheets</li>
+                    <li>Link profissional pro cliente</li>
+                    <li>Tudo documentado e rastreável</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Metrics -->
+        <div class="metrics-grid">
+            <div class="metric reveal reveal-delay-1">
+                <div class="metric-value metric-value--red">20+</div>
+                <div class="metric-label">Skills Interativas</div>
+            </div>
+            <div class="metric reveal reveal-delay-2">
+                <div class="metric-value">5</div>
+                <div class="metric-label">Semanas de Processo</div>
+            </div>
+            <div class="metric reveal reveal-delay-3">
+                <div class="metric-value">100+</div>
+                <div class="metric-label">Conectores V4MOS</div>
+            </div>
+            <div class="metric reveal reveal-delay-4">
+                <div class="metric-value">&infin;</div>
+                <div class="metric-label">Checkpoints</div>
+            </div>
+        </div>
+
+        <!-- Principles -->
+        <div class="principles-grid">
+            <div class="principle reveal">
+                <div class="principle-icon">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H7a4 4 0 00-4 4v2"/><circle cx="10" cy="7" r="4"/><path d="M21 11l-3 3-3-3"/></svg>
+                </div>
+                <div>
+                    <h3>Co-criação</h3>
+                    <p>A IA trabalha COM você. Cada etapa tem checkpoint onde você valida e refina.</p>
+                </div>
+            </div>
+            <div class="principle reveal">
+                <div class="principle-icon">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+                </div>
+                <div>
+                    <h3>Dados Reais</h3>
+                    <p>Puxa dados do V4MOS automaticamente. Nunca inventa informação.</p>
+                </div>
+            </div>
+            <div class="principle reveal">
+                <div class="principle-icon">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="14" height="14" rx="2"/><path d="M3 9h14M9 3v14"/></svg>
+                </div>
+                <div>
+                    <h3>Determinismo</h3>
+                    <p>Output estruturado (JSON) alimenta templates fixos. Visual sempre profissional.</p>
+                </div>
+            </div>
+            <div class="principle reveal">
+                <div class="principle-icon">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                </div>
+                <div>
+                    <h3>Rastreabilidade</h3>
+                    <p>Cada decisão é registrada. Retome de onde parou a qualquer momento.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ═══════════════════════════════════════
+     SECTION 2: COMO FUNCIONA
+     ═══════════════════════════════════════ -->
+<section id="como-funciona">
+    <div class="container">
+        <div class="section-label reveal">02 &mdash; Como funciona</div>
+        <h2 class="reveal">5 semanas, 20+ skills,<br>um sistema integrado</h2>
+        <p class="section-desc reveal">Cada semana foca em uma fase da estruturação. Clique em uma semana para ver as skills disponíveis.</p>
+
+        <!-- Interactive Timeline -->
+        <div class="timeline-container reveal">
+            <input type="radio" name="week" id="tw1" checked>
+            <input type="radio" name="week" id="tw2">
+            <input type="radio" name="week" id="tw3">
+            <input type="radio" name="week" id="tw4">
+            <input type="radio" name="week" id="tw5">
+
+            <div class="timeline-track">
+                <div class="timeline-node">
+                    <label for="tw1">
+                        <div class="timeline-circle">S1</div>
+                        <span class="timeline-label-text">Diagnóstico</span>
+                    </label>
+                </div>
+                <div class="timeline-line"></div>
+                <div class="timeline-node">
+                    <label for="tw2">
+                        <div class="timeline-circle">S2</div>
+                        <span class="timeline-label-text">Pesquisa</span>
+                    </label>
+                </div>
+                <div class="timeline-line"></div>
+                <div class="timeline-node">
+                    <label for="tw3">
+                        <div class="timeline-circle">S3</div>
+                        <span class="timeline-label-text">Produção</span>
+                    </label>
+                </div>
+                <div class="timeline-line"></div>
+                <div class="timeline-node">
+                    <label for="tw4">
+                        <div class="timeline-circle">S4</div>
+                        <span class="timeline-label-text">Vendas</span>
+                    </label>
+                </div>
+                <div class="timeline-line"></div>
+                <div class="timeline-node">
+                    <label for="tw5">
+                        <div class="timeline-circle">S5</div>
+                        <span class="timeline-label-text">Vendas II</span>
+                    </label>
+                </div>
+            </div>
+
+            <!-- Week Panels -->
+            <div class="week-panel" id="wp1">
+                <h3>Semana 1 &mdash; Diagnóstico <span class="tag tag--red">4 Skills</span></h3>
+                <ul class="skill-list">
+                    <li class="skill-item">
+                        <span class="skill-item-name">diagnostico-maturidade</span>
+                        <span class="skill-item-desc">Avaliação de maturidade digital com scores por dimensão</span>
+                    </li>
+                    <li class="skill-item">
+                        <span class="skill-item-name">persona-icp</span>
+                        <span class="skill-item-desc">ICP + Persona com Jobs-to-be-Done e jornada de compra</span>
+                    </li>
+                    <li class="skill-item">
+                        <span class="skill-item-name">swot</span>
+                        <span class="skill-item-desc">Matriz SWOT com cruzamento estratégico</span>
+                    </li>
+                    <li class="skill-item">
+                        <span class="skill-item-name">auditoria-comunicacao</span>
+                        <span class="skill-item-desc">Auditoria completa de pontos de contato digitais</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="week-panel" id="wp2">
+                <h3>Semana 2 &mdash; Pesquisa &amp; Posicionamento <span class="tag tag--yellow">5 Skills</span></h3>
+                <ul class="skill-list">
+                    <li class="skill-item">
+                        <span class="skill-item-name">pesquisa-mercado</span>
+                        <span class="skill-item-desc">TAM/SAM/SOM + concorrentes + tendências de mercado</span>
+                    </li>
+                    <li class="skill-item">
+                        <span class="skill-item-name">posicionamento</span>
+                        <span class="skill-item-desc">PUV + Canvas 4P + território de marca</span>
+                    </li>
+                    <li class="skill-item">
+                        <span class="skill-item-name">diagnostico-midia</span>
+                        <span class="skill-item-desc">Análise de mídia paga com recomendações de otimização</span>
+                    </li>
+                    <li class="skill-item">
+                        <span class="skill-item-name">diagnostico-criativos</span>
+                        <span class="skill-item-desc">Avaliação multimodal de criativos atuais</span>
+                    </li>
+                    <li class="skill-item">
+                        <span class="skill-item-name">diagnostico-cro</span>
+                        <span class="skill-item-desc">Análise de conversão + wireframe de melhorias</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="week-panel" id="wp3">
+                <h3>Semana 3 &mdash; Produção <span class="tag tag--green">8 Skills</span></h3>
+                <ul class="skill-list">
+                    <li class="skill-item">
+                        <span class="skill-item-name">identidade-visual</span>
+                        <span class="skill-item-desc">Conceito + paleta + tipografia + diretrizes de logo</span>
+                    </li>
+                    <li class="skill-item">
+                        <span class="skill-item-name">brandbook</span>
+                        <span class="skill-item-desc">Manual de copy + tom de voz + narrativa de marca</span>
+                    </li>
+                    <li class="skill-item">
+                        <span class="skill-item-name">landing-page</span>
+                        <span class="skill-item-desc">Copy + código React/Tailwind + deploy Vercel</span>
+                    </li>
+                    <li class="skill-item">
+                        <span class="skill-item-name">copy-anuncios</span>
+                        <span class="skill-item-desc">30+ variações de copy para Google &amp; Meta Ads</span>
+                    </li>
+                    <li class="skill-item">
+                        <span class="skill-item-name">criativos-anuncios</span>
+                        <span class="skill-item-desc">Briefing criativo + prompts Midjourney para peças</span>
+                    </li>
+                    <li class="skill-item">
+                        <span class="skill-item-name">crm-setup</span>
+                        <span class="skill-item-desc">Pipeline Kommo + regras de automação</span>
+                    </li>
+                    <li class="skill-item">
+                        <span class="skill-item-name">forecast-midia</span>
+                        <span class="skill-item-desc">Modelagem de mídia para 3 meses via Google Sheets</span>
+                    </li>
+                    <li class="skill-item">
+                        <span class="skill-item-name">gmb-otimizacao</span>
+                        <span class="skill-item-desc">Otimização completa do Google Meu Negócio</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="week-panel" id="wp4">
+                <h3>Semana 4 &mdash; Vendas <span class="tag tag--gray">2 Skills</span></h3>
+                <ul class="skill-list">
+                    <li class="skill-item">
+                        <span class="skill-item-name">cliente-oculto</span>
+                        <span class="skill-item-desc">Simulação de cliente oculto + relatório detalhado</span>
+                    </li>
+                    <li class="skill-item">
+                        <span class="skill-item-name">diagnostico-comercial</span>
+                        <span class="skill-item-desc">Análise do funil de vendas + recomendações</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="week-panel" id="wp5">
+                <h3>Semana 5 &mdash; Vendas II <span class="tag tag--gray">2 Skills</span></h3>
+                <ul class="skill-list">
+                    <li class="skill-item">
+                        <span class="skill-item-name">scripts-sdr</span>
+                        <span class="skill-item-desc">Scripts de qualificação WhatsApp para SDRs</span>
+                    </li>
+                    <li class="skill-item">
+                        <span class="skill-item-name">sdr-ia-config</span>
+                        <span class="skill-item-desc">Configuração Patagon AI + integração Kommo</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Dependency Diagram -->
+        <h3 class="reveal" style="margin-top: 3rem;">Grafo de dependências</h3>
+        <p class="reveal" style="font-size: 0.9375rem; color: var(--text-muted); margin-top: 0.5rem;">As skills se alimentam mutuamente. O resultado de uma etapa é insumo para a próxima.</p>
+        <div class="dep-diagram reveal">
+            <svg viewBox="0 0 880 320" xmlns="http://www.w3.org/2000/svg" style="font-family: var(--font-mono); font-size: 10px;">
+                <!-- Week color legend -->
+                <rect x="10" y="8" width="8" height="8" rx="2" fill="#e50914" opacity="0.8"/>
+                <text x="24" y="16" fill="#8a8785">S1</text>
+                <rect x="50" y="8" width="8" height="8" rx="2" fill="#eab308" opacity="0.8"/>
+                <text x="64" y="16" fill="#8a8785">S2</text>
+                <rect x="90" y="8" width="8" height="8" rx="2" fill="#22c55e" opacity="0.8"/>
+                <text x="104" y="16" fill="#8a8785">S3</text>
+
+                <!-- Arrows marker -->
+                <defs>
+                    <marker id="arrow" viewBox="0 0 10 7" refX="10" refY="3.5" markerWidth="8" markerHeight="6" orient="auto-start-reverse">
+                        <polygon points="0 0, 10 3.5, 0 7" fill="#4a4745"/>
+                    </marker>
+                </defs>
+
+                <!-- S1 Nodes -->
+                <rect x="20" y="60" width="150" height="36" rx="6" fill="#111" stroke="#e50914" stroke-opacity="0.4"/>
+                <text x="95" y="83" text-anchor="middle" fill="#e5e2e1">persona-icp</text>
+
+                <rect x="20" y="140" width="150" height="36" rx="6" fill="#111" stroke="#e50914" stroke-opacity="0.4"/>
+                <text x="95" y="163" text-anchor="middle" fill="#e5e2e1">diag-maturidade</text>
+
+                <rect x="20" y="220" width="150" height="36" rx="6" fill="#111" stroke="#e50914" stroke-opacity="0.4"/>
+                <text x="95" y="243" text-anchor="middle" fill="#e5e2e1">auditoria-comunic.</text>
+
+                <rect x="220" y="140" width="110" height="36" rx="6" fill="#111" stroke="#e50914" stroke-opacity="0.4"/>
+                <text x="275" y="163" text-anchor="middle" fill="#e5e2e1">swot</text>
+
+                <!-- S2 Nodes -->
+                <rect x="360" y="40" width="150" height="36" rx="6" fill="#111" stroke="#eab308" stroke-opacity="0.4"/>
+                <text x="435" y="63" text-anchor="middle" fill="#e5e2e1">pesquisa-mercado</text>
+
+                <rect x="360" y="110" width="150" height="36" rx="6" fill="#111" stroke="#eab308" stroke-opacity="0.4"/>
+                <text x="435" y="133" text-anchor="middle" fill="#e5e2e1">posicionamento</text>
+
+                <rect x="360" y="190" width="150" height="36" rx="6" fill="#111" stroke="#eab308" stroke-opacity="0.4"/>
+                <text x="435" y="213" text-anchor="middle" fill="#e5e2e1">diag-midia</text>
+
+                <rect x="360" y="260" width="150" height="36" rx="6" fill="#111" stroke="#eab308" stroke-opacity="0.4"/>
+                <text x="435" y="283" text-anchor="middle" fill="#e5e2e1">diag-criativos</text>
+
+                <!-- S3 Nodes -->
+                <rect x="580" y="40" width="130" height="36" rx="6" fill="#111" stroke="#22c55e" stroke-opacity="0.4"/>
+                <text x="645" y="63" text-anchor="middle" fill="#e5e2e1">landing-page</text>
+
+                <rect x="580" y="100" width="130" height="36" rx="6" fill="#111" stroke="#22c55e" stroke-opacity="0.4"/>
+                <text x="645" y="123" text-anchor="middle" fill="#e5e2e1">brandbook</text>
+
+                <rect x="580" y="160" width="130" height="36" rx="6" fill="#111" stroke="#22c55e" stroke-opacity="0.4"/>
+                <text x="645" y="183" text-anchor="middle" fill="#e5e2e1">identidade-visual</text>
+
+                <rect x="580" y="220" width="130" height="36" rx="6" fill="#111" stroke="#22c55e" stroke-opacity="0.4"/>
+                <text x="645" y="243" text-anchor="middle" fill="#e5e2e1">forecast-midia</text>
+
+                <rect x="740" y="40" width="120" height="36" rx="6" fill="#111" stroke="#22c55e" stroke-opacity="0.4"/>
+                <text x="800" y="63" text-anchor="middle" fill="#e5e2e1">crm-setup</text>
+
+                <!-- Connections -->
+                <!-- persona-icp → pesquisa-mercado -->
+                <line x1="170" y1="78" x2="360" y2="58" stroke="#4a4745" stroke-width="1.5" marker-end="url(#arrow)"/>
+                <!-- persona-icp → auditoria -->
+                <line x1="95" y1="96" x2="95" y2="220" stroke="#4a4745" stroke-width="1.5" marker-end="url(#arrow)"/>
+                <!-- persona-icp → posicionamento -->
+                <line x1="170" y1="78" x2="360" y2="128" stroke="#4a4745" stroke-width="1.5" marker-end="url(#arrow)"/>
+                <!-- persona-icp → crm-setup -->
+                <line x1="170" y1="78" x2="740" y2="58" stroke="#4a4745" stroke-width="1" stroke-dasharray="4 4" marker-end="url(#arrow)"/>
+                <!-- diag-maturidade → swot -->
+                <line x1="170" y1="158" x2="220" y2="158" stroke="#4a4745" stroke-width="1.5" marker-end="url(#arrow)"/>
+                <!-- swot → posicionamento -->
+                <line x1="330" y1="158" x2="360" y2="128" stroke="#4a4745" stroke-width="1.5" marker-end="url(#arrow)"/>
+                <!-- pesquisa-mercado → posicionamento -->
+                <line x1="435" y1="76" x2="435" y2="110" stroke="#4a4745" stroke-width="1.5" marker-end="url(#arrow)"/>
+                <!-- posicionamento → landing-page -->
+                <line x1="510" y1="128" x2="580" y2="58" stroke="#4a4745" stroke-width="1.5" marker-end="url(#arrow)"/>
+                <!-- posicionamento → brandbook -->
+                <line x1="510" y1="128" x2="580" y2="118" stroke="#4a4745" stroke-width="1.5" marker-end="url(#arrow)"/>
+                <!-- posicionamento → identidade-visual -->
+                <line x1="510" y1="128" x2="580" y2="178" stroke="#4a4745" stroke-width="1.5" marker-end="url(#arrow)"/>
+                <!-- diag-midia → forecast -->
+                <line x1="510" y1="208" x2="580" y2="238" stroke="#4a4745" stroke-width="1.5" marker-end="url(#arrow)"/>
+                <!-- persona-icp → diag-midia -->
+                <line x1="170" y1="78" x2="360" y2="208" stroke="#4a4745" stroke-width="1" stroke-dasharray="4 4" marker-end="url(#arrow)"/>
+            </svg>
+        </div>
+
+        <!-- Checkpoint explanation -->
+        <h3 class="reveal" style="margin-top: 3rem;">O que é um checkpoint?</h3>
+        <p class="reveal" style="font-size: 0.9375rem; color: var(--text-muted); margin-top: 0.5rem; margin-bottom: 1.5rem;">A cada entregável, a IA apresenta o resultado e pede sua validação antes de avançar.</p>
+        <div class="checkpoint-demo reveal">
+            <div class="chat-demo">
+                <div class="chat-bubble chat-bubble--ai">
+                    <div class="chat-sender chat-sender--ai">IA</div>
+                    Aqui está a análise SWOT do seu cliente. Identifiquei 4 forças, 3 fraquezas, 5 oportunidades e 2 ameaças com base nos dados do V4MOS e no briefing.
+                </div>
+                <div class="chat-bubble chat-bubble--user">
+                    <div class="chat-sender chat-sender--user">Operador</div>
+                    Bom, mas ajusta o tom de voz pra mais informal. E adiciona a sazonalidade como oportunidade.
+                </div>
+                <div class="chat-bubble chat-bubble--ai">
+                    <div class="chat-sender chat-sender--ai">IA</div>
+                    Pronto! Ajustei o tom e adicionei sazonalidade como oportunidade. Posso avançar para o Posicionamento?
+                </div>
+            </div>
+            <div>
+                <div class="card card--red" style="height: 100%;">
+                    <div class="card-title">Como funciona o checkpoint</div>
+                    <div class="card-body">
+                        <p><strong>1.</strong> A IA gera o entregável com base em dados reais</p>
+                        <p style="margin-top: 0.5rem;"><strong>2.</strong> Você revisa e pede ajustes</p>
+                        <p style="margin-top: 0.5rem;"><strong>3.</strong> A IA refina até você aprovar</p>
+                        <p style="margin-top: 0.5rem;"><strong>4.</strong> Só então o sistema avança</p>
+                        <p style="margin-top: 1rem; font-size: 0.875rem; color: var(--text-subtle);">Nenhum entregável é gerado sem sua validação. Você está sempre no controle.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ═══════════════════════════════════════
+     SECTION 3: COMO INSTALAR
+     ═══════════════════════════════════════ -->
+<section id="instalacao">
+    <div class="container">
+        <div class="section-label reveal">03 &mdash; Instalação</div>
+        <h2 class="reveal">Pronto em 5 minutos</h2>
+        <p class="section-desc reveal">Siga o passo a passo abaixo. Cada comando é explicado para quem nunca usou terminal.</p>
+
+        <div class="stepper">
+            <!-- Step 1 -->
+            <div class="step reveal">
+                <div class="step-number">1</div>
+                <div class="step-content">
+                    <h3>Instalar o Claude Code</h3>
+                    <p>Claude Code é uma ferramenta de IA que roda no seu terminal (linha de comando). Pense nele como um assistente inteligente que entende código e executa tarefas.</p>
+                    <div class="code-block">
+                        <button class="copy-btn">Copiar</button>
+                        <code>npm install -g @anthropic-ai/claude-code</code>
+                    </div>
+                    <div class="info-box">
+                        Instala o Claude Code globalmente no seu computador. Precisa ter Node.js 18+ instalado.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="step reveal">
+                <div class="step-number">2</div>
+                <div class="step-content">
+                    <h3>Adicionar o marketplace</h3>
+                    <p>Registra o marketplace da V4 no seu Claude Code. Como adicionar uma "loja" de plugins.</p>
+                    <div class="code-block">
+                        <button class="copy-btn">Copiar</button>
+                        <code>/plugin marketplace add guilhermelippert/v4-estruturacao-marketplace</code>
+                    </div>
+                    <div class="info-box">
+                        Execute esse comando dentro do Claude Code (após digitar <strong>claude</strong> no terminal).
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="step reveal">
+                <div class="step-number">3</div>
+                <div class="step-content">
+                    <h3>Instalar o plugin</h3>
+                    <p>Baixa e ativa as 20+ skills de estruturação. Agora o Claude Code sabe fazer tudo do processo.</p>
+                    <div class="code-block">
+                        <button class="copy-btn">Copiar</button>
+                        <code>/plugin install v4-estruturacao-ia@v4-estruturacao-marketplace</code>
+                    </div>
+                    <div class="info-box">
+                        Após instalar, digite <strong>/</strong> e veja as skills no autocomplete.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 4 -->
+            <div class="step reveal">
+                <div class="step-number">4</div>
+                <div class="step-content">
+                    <h3>Criar workspace e configurar</h3>
+                    <p>Cria uma pasta de trabalho e configura tudo: diretórios, credenciais, gitignore.</p>
+                    <div class="code-block">
+                        <button class="copy-btn">Copiar</button>
+                        <code>mkdir ~/estruturacao-ia && cd ~/estruturacao-ia && claude</code>
+                    </div>
+                    <p style="margin-top: 0.75rem; margin-bottom: 0.75rem;">Depois, dentro do Claude Code:</p>
+                    <div class="code-block">
+                        <button class="copy-btn">Copiar</button>
+                        <code>/onboarding</code>
+                    </div>
+                    <div class="info-box">
+                        O onboarding configura a estrutura de pastas, credenciais e o <strong>.gitignore</strong> automaticamente.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 5 -->
+            <div class="step reveal">
+                <div class="step-number">5</div>
+                <div class="step-content">
+                    <h3>Ferramentas extras (opcional)</h3>
+                    <p>Algumas skills usam ferramentas externas. Instale conforme necessário:</p>
+                    <div class="table-wrap" style="margin-top: 0.75rem;">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Ferramenta</th>
+                                    <th>Para que serve</th>
+                                    <th>Instalação</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Vercel CLI</strong></td>
+                                    <td>Deploy de landing pages</td>
+                                    <td><code>npm i -g vercel</code></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>jq</strong></td>
+                                    <td>Processar JSON no terminal</td>
+                                    <td><code>brew install jq</code></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>gh</strong></td>
+                                    <td>GitHub CLI para feedback</td>
+                                    <td><code>brew install gh</code></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 6 -->
+            <div class="step reveal">
+                <div class="step-number">6</div>
+                <div class="step-content">
+                    <h3>Verificar instalação</h3>
+                    <p>Confirme que tudo está funcionando:</p>
+                    <div class="code-block">
+                        <button class="copy-btn">Copiar</button>
+                        <code>/plugin</code>
+                    </div>
+                    <div class="info-box">
+                        Na aba "Installed" deve aparecer <strong>v4-estruturacao-ia</strong>. Digite <strong>/</strong> e as skills devem aparecer no autocomplete.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ═══════════════════════════════════════
+     SECTION 4: COMO USAR
+     ═══════════════════════════════════════ -->
+<section id="como-usar">
+    <div class="container">
+        <div class="section-label reveal">04 &mdash; Como usar</div>
+        <h2 class="reveal">Fluxo do operador<br>no dia a dia</h2>
+        <p class="section-desc reveal">4 passos simples. Abrir, continuar, co-criar, entregar.</p>
+
+        <!-- Usage flow -->
+        <div class="usage-flow">
+            <div class="usage-step reveal reveal-delay-1">
+                <div class="usage-step-num">Passo 01</div>
+                <h3>Abrir Claude Code</h3>
+                <p>Abra o terminal e digite <strong>claude</strong></p>
+            </div>
+            <div class="usage-step reveal reveal-delay-2">
+                <div class="usage-step-num">Passo 02</div>
+                <h3>Continuar</h3>
+                <p>Digite <strong>/continuar</strong> e veja o panorama</p>
+            </div>
+            <div class="usage-step reveal reveal-delay-3">
+                <div class="usage-step-num">Passo 03</div>
+                <h3>Co-criar</h3>
+                <p>Trabalhe com a IA nos checkpoints</p>
+            </div>
+            <div class="usage-step reveal reveal-delay-4">
+                <div class="usage-step-num">Passo 04</div>
+                <h3>Entregar</h3>
+                <p>HTML pronto, Sheets, link Vercel</p>
+            </div>
+        </div>
+
+        <!-- Chat simulation -->
+        <h3 class="reveal" style="margin-top: 3rem;">Exemplo de sessão</h3>
+        <div class="chat-demo reveal" style="margin-top: 1.5rem; max-width: 640px;">
+            <div class="chat-bubble chat-bubble--user">
+                <div class="chat-sender chat-sender--user">Operador</div>
+                /continuar
+            </div>
+            <div class="chat-bubble chat-bubble--ai">
+                <div class="chat-sender chat-sender--ai">IA</div>
+                <strong>Panorama dos seus clientes:</strong><br><br>
+                &#9679; Padaria Bella &mdash; Semana 2 (60%) &mdash; Próximo: Pesquisa de Mercado<br>
+                &#9679; Studio Fit &mdash; Semana 1 (25%) &mdash; Próximo: SWOT<br><br>
+                Qual cliente quer trabalhar?
+            </div>
+            <div class="chat-bubble chat-bubble--user">
+                <div class="chat-sender chat-sender--user">Operador</div>
+                Padaria Bella
+            </div>
+            <div class="chat-bubble chat-bubble--ai">
+                <div class="chat-sender chat-sender--ai">IA</div>
+                Carregando <strong>Pesquisa de Mercado</strong> para Padaria Bella...<br><br>
+                <strong>Checkpoint 1/4: TAM/SAM/SOM</strong><br>
+                Analisei o mercado de panificação na região. O TAM estimado é R$ 2.3M/ano...<br><br>
+                Valida ou quer ajustar?
+            </div>
+        </div>
+
+        <!-- Commands table -->
+        <h3 class="reveal" style="margin-top: 3rem;">Comandos principais</h3>
+        <div class="table-wrap reveal">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Comando</th>
+                        <th>O que faz</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>/novo-cliente</code></td>
+                        <td>Cadastra cliente novo (pede workspace V4MOS + briefing)</td>
+                    </tr>
+                    <tr>
+                        <td><code>/continuar</code></td>
+                        <td>Retoma trabalho &mdash; mostra panorama + próximo passo</td>
+                    </tr>
+                    <tr>
+                        <td><code>/feedback</code></td>
+                        <td>Reporta problema (cria Issue no GitHub automaticamente)</td>
+                    </tr>
+                    <tr>
+                        <td><code>/duvida</code></td>
+                        <td>Tira dúvida sobre o sistema, skills ou processo</td>
+                    </tr>
+                    <tr>
+                        <td><code>/onboarding</code></td>
+                        <td>Configura workspace inicial com pastas e credenciais</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Skills table by week -->
+        <h3 class="reveal" style="margin-top: 3rem;">Tabela completa de skills</h3>
+        <div class="table-wrap reveal">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Semana</th>
+                        <th>Skill</th>
+                        <th>Descrição</th>
+                        <th>Entregável</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span class="tag tag--red">S1</span></td>
+                        <td><code>diagnostico-maturidade</code></td>
+                        <td>Maturidade digital com scores</td>
+                        <td>HTML + JSON</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag tag--red">S1</span></td>
+                        <td><code>persona-icp</code></td>
+                        <td>ICP + Persona + Jobs-to-be-Done</td>
+                        <td>HTML + JSON</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag tag--red">S1</span></td>
+                        <td><code>swot</code></td>
+                        <td>Matriz SWOT estratégica</td>
+                        <td>HTML + JSON</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag tag--red">S1</span></td>
+                        <td><code>auditoria-comunicacao</code></td>
+                        <td>Auditoria de pontos de contato</td>
+                        <td>HTML + JSON</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag tag--yellow">S2</span></td>
+                        <td><code>pesquisa-mercado</code></td>
+                        <td>TAM/SAM/SOM + concorrentes</td>
+                        <td>HTML + JSON</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag tag--yellow">S2</span></td>
+                        <td><code>posicionamento</code></td>
+                        <td>PUV + Canvas 4P + território</td>
+                        <td>HTML + JSON</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag tag--yellow">S2</span></td>
+                        <td><code>diagnostico-midia</code></td>
+                        <td>Análise de mídia paga</td>
+                        <td>HTML + JSON</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag tag--yellow">S2</span></td>
+                        <td><code>diagnostico-criativos</code></td>
+                        <td>Avaliação multimodal de criativos</td>
+                        <td>HTML + JSON</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag tag--yellow">S2</span></td>
+                        <td><code>diagnostico-cro</code></td>
+                        <td>Conversão + wireframe</td>
+                        <td>HTML + JSON</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag tag--green">S3</span></td>
+                        <td><code>identidade-visual</code></td>
+                        <td>Conceito + paleta + tipografia</td>
+                        <td>HTML + JSON</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag tag--green">S3</span></td>
+                        <td><code>brandbook</code></td>
+                        <td>Manual de copy + tom de voz</td>
+                        <td>HTML + JSON</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag tag--green">S3</span></td>
+                        <td><code>landing-page</code></td>
+                        <td>Copy + código + deploy</td>
+                        <td>React/HTML + Vercel</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag tag--green">S3</span></td>
+                        <td><code>copy-anuncios</code></td>
+                        <td>30+ variações de copy</td>
+                        <td>Google Sheets</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag tag--green">S3</span></td>
+                        <td><code>criativos-anuncios</code></td>
+                        <td>Briefing + prompts Midjourney</td>
+                        <td>HTML + JSON</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag tag--green">S3</span></td>
+                        <td><code>crm-setup</code></td>
+                        <td>Pipeline Kommo + automações</td>
+                        <td>HTML + JSON</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag tag--green">S3</span></td>
+                        <td><code>forecast-midia</code></td>
+                        <td>Modelagem de mídia 3 meses</td>
+                        <td>Google Sheets</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag tag--green">S3</span></td>
+                        <td><code>gmb-otimizacao</code></td>
+                        <td>Google Meu Negócio</td>
+                        <td>HTML + JSON</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag tag--gray">S4</span></td>
+                        <td><code>cliente-oculto</code></td>
+                        <td>Simulação + relatório</td>
+                        <td>HTML + JSON</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag tag--gray">S4</span></td>
+                        <td><code>diagnostico-comercial</code></td>
+                        <td>Análise do funil de vendas</td>
+                        <td>HTML + JSON</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag tag--gray">S5</span></td>
+                        <td><code>scripts-sdr</code></td>
+                        <td>Scripts WhatsApp para SDRs</td>
+                        <td>HTML + JSON</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag tag--gray">S5</span></td>
+                        <td><code>sdr-ia-config</code></td>
+                        <td>Patagon AI + Kommo</td>
+                        <td>HTML + JSON</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ═══════════════════════════════════════
+     SECTION 5: EXEMPLOS
+     ═══════════════════════════════════════ -->
+<section id="exemplos">
+    <div class="container">
+        <div class="section-label reveal">05 &mdash; Exemplos</div>
+        <h2 class="reveal">Entregáveis que o sistema gera</h2>
+        <p class="section-desc reveal">Cada skill produz um entregável profissional. Veja exemplos visuais do que é gerado automaticamente.</p>
+
+        <div class="deliverable-grid">
+            <!-- Maturity Diagnostic -->
+            <div class="deliverable-card reveal">
+                <div class="deliverable-header">
+                    <h3>Diagnóstico de Maturidade</h3>
+                    <span class="tag tag--red">S1</span>
+                </div>
+                <div class="deliverable-preview">
+                    <div class="mini-scores">
+                        <div class="mini-score">
+                            <span class="mini-score-label">Presença Digital</span>
+                            <div class="mini-score-bar"><div class="mini-score-fill" style="width: 72%; background: var(--green);"></div></div>
+                            <span class="mini-score-value">7.2</span>
+                        </div>
+                        <div class="mini-score">
+                            <span class="mini-score-label">SEO / Conteúdo</span>
+                            <div class="mini-score-bar"><div class="mini-score-fill" style="width: 45%; background: var(--yellow);"></div></div>
+                            <span class="mini-score-value">4.5</span>
+                        </div>
+                        <div class="mini-score">
+                            <span class="mini-score-label">Mídia Paga</span>
+                            <div class="mini-score-bar"><div class="mini-score-fill" style="width: 30%; background: var(--red);"></div></div>
+                            <span class="mini-score-value">3.0</span>
+                        </div>
+                        <div class="mini-score">
+                            <span class="mini-score-label">Redes Sociais</span>
+                            <div class="mini-score-bar"><div class="mini-score-fill" style="width: 58%; background: var(--yellow);"></div></div>
+                            <span class="mini-score-value">5.8</span>
+                        </div>
+                        <div class="mini-score">
+                            <span class="mini-score-label">Vendas / CRM</span>
+                            <div class="mini-score-bar"><div class="mini-score-fill" style="width: 20%; background: var(--red);"></div></div>
+                            <span class="mini-score-value">2.0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SWOT -->
+            <div class="deliverable-card reveal">
+                <div class="deliverable-header">
+                    <h3>Matriz SWOT</h3>
+                    <span class="tag tag--red">S1</span>
+                </div>
+                <div class="deliverable-preview">
+                    <div class="mini-swot">
+                        <div class="mini-swot-cell mini-swot--s">
+                            <h4>Forças</h4>
+                            <span style="color: var(--text-muted);">Localização premium, 15 anos de mercado, clientela fiel</span>
+                        </div>
+                        <div class="mini-swot-cell mini-swot--w">
+                            <h4>Fraquezas</h4>
+                            <span style="color: var(--text-muted);">Sem presença digital, site desatualizado, sem CRM</span>
+                        </div>
+                        <div class="mini-swot-cell mini-swot--o">
+                            <h4>Oportunidades</h4>
+                            <span style="color: var(--text-muted);">Delivery via apps, sazonalidade festiva, turismo local</span>
+                        </div>
+                        <div class="mini-swot-cell mini-swot--t">
+                            <h4>Ameaças</h4>
+                            <span style="color: var(--text-muted);">Redes de franquia, alta de insumos, concorrência digital</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Landing Page -->
+            <div class="deliverable-card reveal">
+                <div class="deliverable-header">
+                    <h3>Landing Page</h3>
+                    <span class="tag tag--green">S3</span>
+                </div>
+                <div class="deliverable-preview">
+                    <div class="mini-browser">
+                        <div class="mini-browser-bar">
+                            <span class="mini-browser-dot" style="background: #ff5f57;"></span>
+                            <span class="mini-browser-dot" style="background: #febc2e;"></span>
+                            <span class="mini-browser-dot" style="background: #28c840;"></span>
+                            <span class="mini-browser-url">padaria-bella.vercel.app</span>
+                        </div>
+                        <div class="mini-page">
+                            <div class="mini-hero-block">
+                                <h4>Padaria Bella</h4>
+                                <p>O sabor que sua família merece, desde 2009.</p>
+                                <span class="mini-cta">Peça pelo WhatsApp</span>
+                            </div>
+                            <div class="mini-sections">
+                                <div class="mini-section">
+                                    <div class="mini-section-block"></div>
+                                    <span>Produtos</span>
+                                </div>
+                                <div class="mini-section">
+                                    <div class="mini-section-block"></div>
+                                    <span>Sobre nós</span>
+                                </div>
+                                <div class="mini-section">
+                                    <div class="mini-section-block"></div>
+                                    <span>Contato</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ═══════════════════════════════════════
+     SECTION 6: ROADMAP
+     ═══════════════════════════════════════ -->
+<section id="roadmap">
+    <div class="container">
+        <div class="section-label reveal">06 &mdash; Roadmap</div>
+        <h2 class="reveal">O que falta construir</h2>
+        <p class="section-desc reveal">O sistema já funciona. Estas são as melhorias planejadas por prioridade.</p>
+
+        <div class="roadmap-grid">
+            <!-- High priority -->
+            <div class="roadmap-column reveal">
+                <h3><span class="tag tag--red">Alta</span> Prioridade</h3>
+                <div class="roadmap-items">
+                    <div class="roadmap-item">
+                        <h4>Templates HTML dos entregáveis</h4>
+                        <p>Templates profissionais para cada skill usando o design system.</p>
+                        <div class="progress-bar"><div class="progress-fill progress-fill--red" style="width: 60%;"></div></div>
+                    </div>
+                    <div class="roadmap-item">
+                        <h4>Teste end-to-end</h4>
+                        <p>Rodar todas as skills com dados reais de um cliente piloto.</p>
+                        <div class="progress-bar"><div class="progress-fill progress-fill--red" style="width: 20%;"></div></div>
+                    </div>
+                    <div class="roadmap-item">
+                        <h4>Transferir repo para v4company/</h4>
+                        <p>Migrar repositório para a organização oficial da V4.</p>
+                        <div class="progress-bar"><div class="progress-fill progress-fill--red" style="width: 10%;"></div></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Medium priority -->
+            <div class="roadmap-column reveal">
+                <h3><span class="tag tag--yellow">Média</span> Prioridade</h3>
+                <div class="roadmap-items">
+                    <div class="roadmap-item">
+                        <h4>References com exemplos reais</h4>
+                        <p>Adicionar exemplos de entregáveis reais como referência para cada skill.</p>
+                        <div class="progress-bar"><div class="progress-fill progress-fill--yellow" style="width: 40%;"></div></div>
+                    </div>
+                    <div class="roadmap-item">
+                        <h4>Google Sheets via GOG</h4>
+                        <p>Integração com Google Sheets para forecast e copy de anúncios.</p>
+                        <div class="progress-bar"><div class="progress-fill progress-fill--yellow" style="width: 30%;"></div></div>
+                    </div>
+                    <div class="roadmap-item">
+                        <h4>Dashboard melhorado</h4>
+                        <p>Panorama visual com gráficos de progresso por cliente.</p>
+                        <div class="progress-bar"><div class="progress-fill progress-fill--yellow" style="width: 15%;"></div></div>
+                    </div>
+                    <div class="roadmap-item">
+                        <h4>V4MOS cache refresh</h4>
+                        <p>Atualização inteligente de dados do V4MOS em background.</p>
+                        <div class="progress-bar"><div class="progress-fill progress-fill--yellow" style="width: 0%;"></div></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Low priority -->
+            <div class="roadmap-column reveal">
+                <h3><span class="tag tag--gray">Baixa</span> Prioridade</h3>
+                <div class="roadmap-items">
+                    <div class="roadmap-item">
+                        <h4>Migrar para V4MOS web</h4>
+                        <p>Interface web para operadores que preferem não usar terminal.</p>
+                        <div class="progress-bar"><div class="progress-fill progress-fill--green" style="width: 5%;"></div></div>
+                    </div>
+                    <div class="roadmap-item">
+                        <h4>Multi-operador</h4>
+                        <p>Suporte a múltiplos operadores trabalhando no mesmo cliente.</p>
+                        <div class="progress-bar"><div class="progress-fill progress-fill--green" style="width: 0%;"></div></div>
+                    </div>
+                    <div class="roadmap-item">
+                        <h4>Métricas de uso</h4>
+                        <p>Analytics de quais skills são mais usadas e tempo médio.</p>
+                        <div class="progress-bar"><div class="progress-fill progress-fill--green" style="width: 0%;"></div></div>
+                    </div>
+                    <div class="roadmap-item">
+                        <h4>Auto-update de skills</h4>
+                        <p>Atualização automática quando novas versões são publicadas.</p>
+                        <div class="progress-bar"><div class="progress-fill progress-fill--green" style="width: 0%;"></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     FOOTER
+     ═══════════════════════════════════════ -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-brand"><span>V4</span> Company &mdash; Estruturação IA Marketplace</div>
+        <div class="footer-info">Plugin para Claude Code &bull; 20+ skills interativas &bull; Processo de 5 semanas</div>
+    </div>
+</footer>
+
+<!-- ═══════════════════════════════════════
+     SCRIPTS
+     ═══════════════════════════════════════ -->
+<script>
+    // Scroll reveal
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+    // Copy buttons
+    document.querySelectorAll('.copy-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const code = btn.closest('.code-block').querySelector('code').textContent;
+            navigator.clipboard.writeText(code.trim()).then(() => {
+                btn.textContent = 'Copiado!';
+                btn.style.background = 'var(--green)';
+                btn.style.borderColor = 'var(--green)';
+                btn.style.color = '#fff';
+                setTimeout(() => {
+                    btn.textContent = 'Copiar';
+                    btn.style.background = '';
+                    btn.style.borderColor = '';
+                    btn.style.color = '';
+                }, 2000);
+            });
+        });
+    });
+
+    // Close mobile menu on link click
+    document.querySelectorAll('.nav-links a').forEach(link => {
+        link.addEventListener('click', () => {
+            document.querySelector('.nav').classList.remove('nav--open');
+        });
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,249 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "GMBOtimizacao",
+  "description": "Output estruturado da skill gmb-otimizacao: perfil otimizado do Google Meu Negocio com descricao SEO, categorias, servicos, posts, Q&As e checklist de implementacao.",
+  "type": "object",
+  "required": [
+    "summary",
+    "profile_description",
+    "categories",
+    "attributes",
+    "services",
+    "posts",
+    "qas",
+    "implementation_checklist",
+    "client_name",
+    "summary_headline",
+    "summary_highlights",
+    "summary_key_findings"
+  ],
+  "properties": {
+    "client_name": {
+      "type": "string",
+      "description": "Nome do cliente — sempre presente em todo output."
+    },
+    "summary": {
+      "type": "string",
+      "description": "Resumo executivo de 2-3 frases da otimizacao GMB. Inclui categoria principal, foco da descricao e quantidade de conteudo gerado."
+    },
+    "summary_headline": {
+      "type": "string",
+      "description": "Manchete em 1 linha (~120 caracteres) com o veredito da skill."
+    },
+    "summary_highlights": {
+      "type": "array",
+      "description": "KPIs em destaque (4-6 itens). Categorias: posicao | competicao | janela | maturidade | oportunidade | risco.",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "required": [
+          "category",
+          "label",
+          "value",
+          "tone"
+        ],
+        "properties": {
+          "category": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          },
+          "value": {
+            "type": "string"
+          },
+          "subtext": {
+            "type": "string"
+          },
+          "tone": {
+            "type": "string",
+            "enum": [
+              "green",
+              "yellow",
+              "red",
+              "blue",
+              "gray"
+            ]
+          }
+        }
+      }
+    },
+    "summary_key_findings": {
+      "type": "array",
+      "description": "3-5 achados categorizados (vantagem | contexto | ameaca | acao).",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "required": [
+          "category",
+          "text"
+        ],
+        "properties": {
+          "category": {
+            "type": "string",
+            "enum": [
+              "vantagem",
+              "contexto",
+              "ameaca",
+              "acao"
+            ]
+          },
+          "text": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "profile_description": {
+      "type": "string",
+      "maxLength": 750,
+      "description": "Descricao otimizada para SEO local do perfil Google Meu Negocio. Maximo 750 caracteres. Inclui keywords naturais, diferenciais e CTA."
+    },
+    "categories": {
+      "type": "object",
+      "required": [
+        "primary",
+        "secondary"
+      ],
+      "properties": {
+        "primary": {
+          "type": "string",
+          "description": "Categoria principal do Google Business Profile. Deve ser a mais especifica possivel para o core do negocio."
+        },
+        "secondary": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 9,
+          "description": "Categorias secundarias (maximo 9). Complementam a principal para ampliar visibilidade em buscas relacionadas."
+        }
+      }
+    },
+    "attributes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Atributos recomendados para ativar no perfil (acessibilidade, estacionamento, formas de pagamento, etc.)."
+    },
+    "services": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "description"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Nome do servico como o cliente buscaria no Google (linguagem natural com keyword)."
+          },
+          "description": {
+            "type": "string",
+            "description": "Descricao do servico em 1-2 frases com palavras-chave naturais."
+          },
+          "price": {
+            "type": "string",
+            "description": "Preco do servico (ex: 'R$ 150', 'A partir de R$ 80', 'Sob consulta'). Opcional."
+          }
+        }
+      },
+      "description": "Lista de servicos cadastrados no perfil, cada um com nome otimizado para busca, descricao com keywords e preco opcional."
+    },
+    "posts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "title",
+          "text",
+          "cta",
+          "type"
+        ],
+        "properties": {
+          "title": {
+            "type": "string",
+            "description": "Titulo do post. Curto, chamativo, com keyword quando possivel."
+          },
+          "text": {
+            "type": "string",
+            "maxLength": 1500,
+            "description": "Texto do post (maximo 1.500 caracteres). Tom alinhado com a mensagem-chave do cliente."
+          },
+          "cta": {
+            "type": "string",
+            "description": "Call-to-action do post (ex: 'Saiba mais', 'Ligar', 'Reservar', 'Comprar')."
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "novidade",
+              "oferta",
+              "evento"
+            ],
+            "description": "Tipo do post no Google Business Profile."
+          }
+        }
+      },
+      "minItems": 4,
+      "maxItems": 4,
+      "description": "4 posts para os primeiros 30 dias, com intervalo de ~7 dias e tipos variados."
+    },
+    "qas": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "question",
+          "answer"
+        ],
+        "properties": {
+          "question": {
+            "type": "string",
+            "description": "Pergunta que o ICP faria sobre o negocio. Linguagem coloquial e natural."
+          },
+          "answer": {
+            "type": "string",
+            "description": "Resposta completa, profissional, com keywords naturais e CTA quando apropriado."
+          }
+        }
+      },
+      "minItems": 5,
+      "maxItems": 5,
+      "description": "5 perguntas e respostas pre-populadas baseadas nas dores e objecoes do ICP."
+    },
+    "implementation_checklist": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "item",
+          "status"
+        ],
+        "properties": {
+          "item": {
+            "type": "string",
+            "description": "Descricao do item do checklist de implementacao."
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "pending",
+              "done",
+              "blocked"
+            ],
+            "default": "pending",
+            "description": "Status do item: pending (nao executado), done (configurado no GMB), blocked (aguardando algo)."
+          },
+          "notes": {
+            "type": "string",
+            "description": "Notas adicionais sobre o item (ex: 'Aguardando fotos do cliente', 'Verificacao em andamento')."
+          }
+        }
+      },
+      "description": "Checklist de implementacao para o operador executar no Google Business Profile."
+    }
+  }
+}

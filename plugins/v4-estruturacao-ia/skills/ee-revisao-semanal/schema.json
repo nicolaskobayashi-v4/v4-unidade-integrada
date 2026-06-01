@@ -1,0 +1,344 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Revisão Semanal",
+  "description": "Output estruturado da skill de revisão semanal: pente-fino cross-outputs, gaps narrativos e diffs aplicáveis aos outputs que alimentam o portal.",
+  "type": "object",
+  "required": [
+    "summary",
+    "semana_revisada",
+    "skills_revisadas",
+    "evolucao_estrategica",
+    "divergencias_factuais",
+    "gaps_narrativos",
+    "atualizacoes_propostas"
+  ],
+  "properties": {
+    "summary": {
+      "type": "string",
+      "description": "Resumo 1-2 frases: quantas divergências, quantos gaps, quantas atualizações aceitas/rejeitadas, arquivos afetados."
+    },
+    "semana_revisada": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Número da semana que foi submetida ao pente-fino."
+    },
+    "data_revisao": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Timestamp ISO8601 da execução da revisão."
+    },
+    "skills_revisadas": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "IDs das skills cobertas nesta passagem (inclui as da semana alvo E todas anteriores já completas)."
+    },
+    "evolucao_estrategica": {
+      "type": "array",
+      "description": "Achados do Passe 1 — como a visão estratégica evoluiu do briefing/hipótese inicial até a decisão atual, por tema. Esta é a seção-mãe da revisão.",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "tema",
+          "hipotese_inicial",
+          "evidencia_diagnostico",
+          "decisao_atual",
+          "impacto_estrategico",
+          "narrativa_sugerida"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Identificador (ex: E1, E2). Referenciado em atualizacoes_propostas[].referencia_evolucao."
+          },
+          "tema": {
+            "type": "string",
+            "description": "Tema da evolução (ex: 'ICP / público-alvo', 'Proposta de valor / diferencial', 'Canais', 'Posicionamento de preço', 'Maturidade digital', 'Problemas principais', 'Concorrência')."
+          },
+          "hipotese_inicial": {
+            "type": "object",
+            "required": ["conteudo", "origem", "camada"],
+            "properties": {
+              "conteudo": { "type": "string", "description": "O que o cliente/briefing declarava inicialmente." },
+              "origem": { "type": "string", "description": "Onde está registrado (ex: 'briefing.icp' ou 'ee-s1-persona-icp.json > primary_persona')." },
+              "camada": { "type": "string", "enum": ["briefing", "semana_1"], "description": "Camada de origem da hipótese inicial." }
+            }
+          },
+          "evidencia_diagnostico": {
+            "type": "object",
+            "required": ["conteudo", "origem", "camada"],
+            "properties": {
+              "conteudo": { "type": "string", "description": "O que o diagnóstico revelou que refina, confirma ou refuta a hipótese." },
+              "origem": { "type": "string", "description": "Output(s) e campo(s) onde está a evidência (ex: 'ee-s2-diagnostico-midia.json > audience_breakdown')." },
+              "camada": { "type": "string", "enum": ["semana_2", "semana_3", "semana_4", "semana_5"], "description": "Camada da evidência." }
+            }
+          },
+          "decisao_atual": {
+            "type": "object",
+            "required": ["conteudo", "origem", "camada"],
+            "properties": {
+              "conteudo": { "type": "string", "description": "Decisão estratégica final com base na evidência." },
+              "origem": { "type": "string", "description": "Output e campo onde a decisão será refletida após a revisão." },
+              "camada": { "type": "string", "enum": ["decisao", "semana_2", "semana_3", "semana_4", "semana_5"], "description": "Camada da decisão." }
+            }
+          },
+          "impacto_estrategico": {
+            "type": "string",
+            "description": "Consequências práticas da evolução (ex: muda tom de voz, canais, critérios de criativo, precificação)."
+          },
+          "narrativa_sugerida": {
+            "type": "string",
+            "description": "Texto pronto para ir como evolution_note nos outputs afetados. Deve narrar o arco 'hipótese → evidência → decisão' em 1-3 frases."
+          }
+        }
+      }
+    },
+    "divergencias_factuais": {
+      "type": "array",
+      "description": "Achados do Passe 2 — inconsistências factuais entre outputs DA MESMA CAMADA (conflitos cross-camada vão em evolucao_estrategica).",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "campo",
+          "valor_atual",
+          "valor_recomendado",
+          "fonte_de_verdade",
+          "arquivos_afetados",
+          "severidade"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Identificador (ex: F1, F2, F3)."
+          },
+          "categoria": {
+            "type": "string",
+            "enum": [
+              "nome",
+              "numero",
+              "taxonomia",
+              "referencia_cruzada",
+              "contradicao_logica"
+            ]
+          },
+          "campo": {
+            "type": "string",
+            "description": "Onde está o dado divergente. Ex: 'ee-s1-swot.json > strengths[2].title'."
+          },
+          "valor_atual": {
+            "type": "string",
+            "description": "O valor que está hoje no output."
+          },
+          "valor_recomendado": {
+            "type": "string",
+            "description": "O valor correto (baseado na fonte de verdade)."
+          },
+          "fonte_de_verdade": {
+            "type": "string",
+            "description": "Qual output/seção tem a versão correta e por quê."
+          },
+          "arquivos_afetados": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Lista dos outputs que precisam ser atualizados."
+          },
+          "severidade": {
+            "type": "string",
+            "enum": [
+              "critica",
+              "media",
+              "baixa"
+            ]
+          }
+        }
+      }
+    },
+    "gaps_narrativos": {
+      "type": "array",
+      "description": "Achados do Passe 3 — problemas de fluidez, redundância, tom, lacunas e evolução não-explicitada no consolidated.",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "tipo",
+          "localizacao",
+          "descricao",
+          "ajuste_proposto"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Identificador (ex: G1, G2)."
+          },
+          "tipo": {
+            "type": "string",
+            "enum": [
+              "redundancia",
+              "lacuna",
+              "tom",
+              "transicao",
+              "evolucao_ausente",
+              "honestidade"
+            ]
+          },
+          "localizacao": {
+            "type": "string",
+            "description": "Skill + seção onde o gap foi detectado."
+          },
+          "descricao": {
+            "type": "string",
+            "description": "O que está sobrando/faltando/inconsistente."
+          },
+          "ajuste_proposto": {
+            "type": "string",
+            "description": "Texto exato a adicionar/editar/remover (não apenas 'melhorar redação')."
+          },
+          "arquivo_afetado": {
+            "type": "string",
+            "description": "Output a ser atualizado (ex: 'ee-s1-swot.json')."
+          }
+        }
+      }
+    },
+    "atualizacoes_propostas": {
+      "type": "array",
+      "description": "Síntese final — lista de edições concretas aplicáveis automaticamente aos outputs. Ordenada por severidade (críticas primeiro).",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "arquivo",
+          "caminho_json",
+          "acao",
+          "motivo",
+          "severidade"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Identificador (ex: U1, U2). Referenciado no _refinement_history[] dos outputs editados."
+          },
+          "arquivo": {
+            "type": "string",
+            "description": "Caminho relativo do output a ser editado (ex: 'outputs/ee-s1-swot.json')."
+          },
+          "caminho_json": {
+            "type": "string",
+            "description": "Caminho até o campo dentro do JSON (ex: 'strengths[2].description')."
+          },
+          "acao": {
+            "type": "string",
+            "enum": [
+              "substituir",
+              "adicionar",
+              "remover"
+            ]
+          },
+          "valor_antigo": {
+            "description": "Valor atual. null se ação=adicionar.",
+            "type": [
+              "string",
+              "number",
+              "object",
+              "array",
+              "boolean",
+              "null"
+            ]
+          },
+          "valor_novo": {
+            "description": "Novo valor. null se ação=remover.",
+            "type": [
+              "string",
+              "number",
+              "object",
+              "array",
+              "boolean",
+              "null"
+            ]
+          },
+          "motivo": {
+            "type": "string",
+            "description": "Referência à divergência/gap (ex: 'F1' ou 'G3') + explicação curta."
+          },
+          "severidade": {
+            "type": "string",
+            "enum": [
+              "critica",
+              "media",
+              "baixa"
+            ]
+          },
+          "origem_achado": {
+            "type": "string",
+            "enum": [
+              "evolucao",
+              "factual",
+              "narrativa"
+            ],
+            "description": "De qual passe veio o achado que motivou esta atualização."
+          },
+          "referencia_evolucao": {
+            "type": "string",
+            "description": "ID da evolução (E1, E2, ...) que motivou esta atualização. Obrigatório quando origem_achado='evolucao'."
+          },
+          "decisao_operador": {
+            "type": "string",
+            "enum": [
+              "aceita",
+              "rejeitada",
+              "ajustada",
+              "pendente"
+            ],
+            "description": "Registrada após o operador decidir. Default: pendente."
+          },
+          "valor_final_aplicado": {
+            "description": "Valor que foi efetivamente gravado (útil quando operador escolhe 'ajustada').",
+            "type": [
+              "string",
+              "number",
+              "object",
+              "array",
+              "boolean",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "_refinement_history": {
+      "type": "array",
+      "description": "Histórico acumulado de revisões aplicadas. Cada entrada = uma execução da skill.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "ts": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "semana": {
+            "type": "integer"
+          },
+          "updates_aplicadas": {
+            "type": "integer"
+          },
+          "updates_rejeitadas": {
+            "type": "integer"
+          },
+          "evolutions_applied": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "IDs (E1, E2, ...) das evoluções estratégicas aplicadas nesta execução."
+          },
+          "note": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "buildCommand": null,
+  "outputDirectory": "docs",
+  "installCommand": null,
+  "framework": null,
+  "routes": [
+    { "src": "/", "dest": "/landing-page.html" },
+    { "src": "/(.*)", "dest": "/$1" }
+  ]
+}

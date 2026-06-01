@@ -1,0 +1,30 @@
+{
+  "ee-s1-persona-icp": [],
+  "ee-s1-diagnostico-maturidade": [],
+  "ee-s1-swot": ["ee-s1-diagnostico-maturidade"],
+  "ee-s1-auditoria-comunicacao": ["ee-s1-persona-icp"],
+  "ee-s2-pesquisa-mercado": ["ee-s1-persona-icp"],
+  "ee-s2-posicionamento": ["ee-s2-pesquisa-mercado", "ee-s1-persona-icp", "ee-s1-swot"],
+  "ee-s2-diagnostico-midia": ["ee-s1-persona-icp"],
+  "ee-s2-diagnostico-criativos": ["ee-s1-persona-icp"],
+  "ee-s2-diagnostico-organico-ig": ["ee-s1-persona-icp", "ee-s2-posicionamento", "ee-s2-pesquisa-mercado"],
+  "ee-s2-diagnostico-cro": ["ee-s1-persona-icp", "ee-s2-posicionamento"],
+  "ee-s3-manual-marca": ["ee-s2-posicionamento", "ee-s1-persona-icp", "ee-s1-swot", "ee-s2-pesquisa-mercado"],
+  "ee-s3-identidade-visual": ["ee-s2-posicionamento"],
+  "ee-s3-brandbook": ["ee-s2-posicionamento", "ee-s1-persona-icp"],
+  "ee-s3-landing-page": ["ee-s2-posicionamento", "ee-s3-manual-marca", "ee-s2-diagnostico-cro"],
+  "ee-s3-copy-anuncios": ["ee-s3-manual-marca", "ee-s1-persona-icp", "ee-s2-posicionamento"],
+  "ee-s3-criativos-anuncios": ["ee-s3-manual-marca", "ee-s2-diagnostico-criativos"],
+  "ee-s3-crm-setup": ["ee-s1-persona-icp"],
+  "ee-s3-forecast-midia": ["ee-s2-diagnostico-midia"],
+  "ee-s3-gmb-otimizacao": ["ee-s1-persona-icp"],
+  "ee-s4-diagnostico-comercial": ["ee-s1-persona-icp"],
+  "ee-s4-cliente-oculto": ["ee-s4-diagnostico-comercial"],
+  "ee-s5-scripts-sdr": ["ee-s4-diagnostico-comercial", "ee-s3-manual-marca"],
+  "ee-s5-sdr-ia-config": ["ee-s5-scripts-sdr", "ee-s3-crm-setup"],
+  "ee-revisao-semanal": [],
+  "_deprecated": {
+    "ee-s3-brandbook": "superseded_by ee-s3-manual-marca em 2026-04-28",
+    "ee-s3-identidade-visual": "superseded_by ee-s3-manual-marca em 2026-04-28"
+  }
+}

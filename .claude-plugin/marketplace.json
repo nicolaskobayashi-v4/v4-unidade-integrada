@@ -1,0 +1,16 @@
+{
+  "name": "v4-estruturacao-marketplace",
+  "description": "Skills de estruturação estratégica com IA para operadores V4",
+  "owner": {
+    "name": "V4 Company",
+    "email": "tech@v4company.com"
+  },
+  "plugins": [
+    {
+      "name": "v4-estruturacao-ia",
+      "source": "./plugins/v4-estruturacao-ia",
+      "description": "Sistema completo de estruturação estratégica com IA. 20+ skills interativas com checkpoints, integração V4MOS, e entregáveis automatizados.",
+      "version": "0.1.0"
+    }
+  ]
+}

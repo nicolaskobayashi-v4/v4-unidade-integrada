@@ -1,0 +1,454 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Brandbook",
+  "description": "Output estruturado do Brandbook: propósito, identidade verbal, narrativa da marca e banco de copy.",
+  "type": "object",
+  "required": [
+    "summary",
+    "purpose",
+    "verbal_identity",
+    "brand_narrative",
+    "copy_bank",
+    "client_name",
+    "summary_headline",
+    "summary_highlights",
+    "summary_key_findings"
+  ],
+  "properties": {
+    "client_name": {
+      "type": "string",
+      "description": "Nome do cliente — sempre presente em todo output."
+    },
+    "summary": {
+      "type": "string",
+      "description": "Resumo de 1-2 frases do brandbook. Inclui propósito da marca, tom de voz e principal diferencial verbal."
+    },
+    "summary_headline": {
+      "type": "string",
+      "description": "Manchete em 1 linha (~120 caracteres) com o veredito da skill."
+    },
+    "summary_highlights": {
+      "type": "array",
+      "description": "KPIs em destaque (4-6 itens). Categorias: posicao | competicao | janela | maturidade | oportunidade | risco.",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "required": [
+          "category",
+          "label",
+          "value",
+          "tone"
+        ],
+        "properties": {
+          "category": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          },
+          "value": {
+            "type": "string"
+          },
+          "subtext": {
+            "type": "string"
+          },
+          "tone": {
+            "type": "string",
+            "enum": [
+              "green",
+              "yellow",
+              "red",
+              "blue",
+              "gray"
+            ]
+          }
+        }
+      }
+    },
+    "summary_key_findings": {
+      "type": "array",
+      "description": "3-5 achados categorizados (vantagem | contexto | ameaca | acao).",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "required": [
+          "category",
+          "text"
+        ],
+        "properties": {
+          "category": {
+            "type": "string",
+            "enum": [
+              "vantagem",
+              "contexto",
+              "ameaca",
+              "acao"
+            ]
+          },
+          "text": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "purpose": {
+      "type": "object",
+      "required": [
+        "why_we_exist",
+        "for_whom",
+        "not_for_whom",
+        "positioning",
+        "promise"
+      ],
+      "properties": {
+        "why_we_exist": {
+          "type": "string",
+          "description": "Por que a marca existe (beyond profit). Deve ser específica — se trocar o nome, não pode funcionar para outra empresa.",
+          "minLength": 30,
+          "maxLength": 300
+        },
+        "for_whom": {
+          "type": "string",
+          "description": "Para quem a marca é, descrito em linguagem humana.",
+          "minLength": 30
+        },
+        "not_for_whom": {
+          "type": "string",
+          "description": "Para quem a marca conscientemente NÃO é.",
+          "minLength": 20
+        },
+        "positioning": {
+          "type": "string",
+          "description": "Frase de posicionamento: 'Para [ICP] que [necessidade], [marca] é [categoria] que [diferencial] porque [razão].'",
+          "minLength": 50
+        },
+        "promise": {
+          "type": "string",
+          "description": "A promessa verificável da marca para o cliente.",
+          "minLength": 20,
+          "maxLength": 200
+        }
+      }
+    },
+    "verbal_identity": {
+      "type": "object",
+      "required": [
+        "tone_adjectives",
+        "writing_style",
+        "donts"
+      ],
+      "properties": {
+        "tone_adjectives": {
+          "type": "array",
+          "description": "4 adjetivos que definem o tom de voz, cada um com seu oposto.",
+          "minItems": 4,
+          "maxItems": 4,
+          "items": {
+            "type": "object",
+            "required": [
+              "adjective",
+              "opposite",
+              "explanation"
+            ],
+            "properties": {
+              "adjective": {
+                "type": "string",
+                "description": "Adjetivo positivo (ex: 'Direto')"
+              },
+              "opposite": {
+                "type": "string",
+                "description": "O que NÃO é (ex: 'rude')"
+              },
+              "explanation": {
+                "type": "string",
+                "description": "Como esse traço se manifesta na prática"
+              }
+            }
+          }
+        },
+        "writing_style": {
+          "type": "object",
+          "required": [
+            "sentence_length",
+            "emoji_usage",
+            "humor_usage",
+            "technical_language",
+            "form_of_address",
+            "preferred_format",
+            "punctuation_style"
+          ],
+          "properties": {
+            "sentence_length": {
+              "type": "string",
+              "description": "Curtas/médias/longas e justificativa"
+            },
+            "emoji_usage": {
+              "type": "string",
+              "description": "Sim/não/quando e quais"
+            },
+            "humor_usage": {
+              "type": "string",
+              "description": "Sim/não/como com exemplos"
+            },
+            "technical_language": {
+              "type": "string",
+              "description": "Nível e quando simplificar"
+            },
+            "form_of_address": {
+              "type": "string",
+              "description": "Você/tu/senhor e justificativa"
+            },
+            "preferred_format": {
+              "type": "string",
+              "description": "Listas/parágrafos/misto"
+            },
+            "punctuation_style": {
+              "type": "string",
+              "description": "Regras sobre reticências, exclamações, caps, etc."
+            }
+          }
+        },
+        "donts": {
+          "type": "array",
+          "description": "5 exemplos de Do vs. Don't com justificativa.",
+          "minItems": 5,
+          "items": {
+            "type": "object",
+            "required": [
+              "do",
+              "dont",
+              "reason"
+            ],
+            "properties": {
+              "do": {
+                "type": "string",
+                "description": "Exemplo correto de comunicação"
+              },
+              "dont": {
+                "type": "string",
+                "description": "Exemplo incorreto de comunicação"
+              },
+              "reason": {
+                "type": "string",
+                "description": "Por que a versão correta é melhor"
+              }
+            }
+          }
+        }
+      }
+    },
+    "brand_narrative": {
+      "type": "object",
+      "required": [
+        "before",
+        "different",
+        "after",
+        "templates"
+      ],
+      "properties": {
+        "before": {
+          "type": "string",
+          "description": "Ato 1: o mundo antes da marca (o problema do ICP)",
+          "minLength": 100
+        },
+        "different": {
+          "type": "string",
+          "description": "Ato 2: o que a marca faz de diferente",
+          "minLength": 80
+        },
+        "after": {
+          "type": "string",
+          "description": "Ato 3: o mundo transformado após a solução",
+          "minLength": 80
+        },
+        "templates": {
+          "type": "object",
+          "required": [
+            "social_post",
+            "ad",
+            "presentation",
+            "about_page"
+          ],
+          "properties": {
+            "social_post": {
+              "type": "string",
+              "description": "Template de narrativa para post (150 palavras)"
+            },
+            "ad": {
+              "type": "string",
+              "description": "Template de narrativa para anúncio (50 palavras)"
+            },
+            "presentation": {
+              "type": "string",
+              "description": "Template de narrativa para apresentação comercial (300 palavras)"
+            },
+            "about_page": {
+              "type": "string",
+              "description": "Template de narrativa para about page (200 palavras)"
+            }
+          }
+        }
+      }
+    },
+    "copy_bank": {
+      "type": "object",
+      "required": [
+        "headlines",
+        "ctas",
+        "key_phrases",
+        "vocabulary"
+      ],
+      "properties": {
+        "headlines": {
+          "type": "object",
+          "required": [
+            "top_funnel",
+            "authority",
+            "sales_page"
+          ],
+          "properties": {
+            "top_funnel": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "minItems": 10,
+              "description": "10 headlines de topo de funil (consciência do problema)"
+            },
+            "authority": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "minItems": 10,
+              "description": "10 headlines de autoridade (meio de funil)"
+            },
+            "sales_page": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "minItems": 10,
+              "description": "10 headlines de página de vendas (fundo de funil)"
+            }
+          }
+        },
+        "ctas": {
+          "type": "object",
+          "required": [
+            "request_quote",
+            "follow_social",
+            "download_material",
+            "schedule_demo",
+            "whatsapp"
+          ],
+          "properties": {
+            "request_quote": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "minItems": 5
+            },
+            "follow_social": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "minItems": 5
+            },
+            "download_material": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "minItems": 5
+            },
+            "schedule_demo": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "minItems": 5
+            },
+            "whatsapp": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "minItems": 5
+            }
+          }
+        },
+        "key_phrases": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 5,
+          "maxItems": 7,
+          "description": "5-7 frases-chave que sintetizam o posicionamento"
+        },
+        "vocabulary": {
+          "type": "object",
+          "required": [
+            "always_use",
+            "never_use",
+            "call_customers",
+            "call_product"
+          ],
+          "properties": {
+            "always_use": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": [
+                  "word",
+                  "context"
+                ],
+                "properties": {
+                  "word": {
+                    "type": "string"
+                  },
+                  "context": {
+                    "type": "string"
+                  }
+                }
+              },
+              "minItems": 10,
+              "description": "Palavras que a marca sempre usa"
+            },
+            "never_use": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": [
+                  "word",
+                  "use_instead"
+                ],
+                "properties": {
+                  "word": {
+                    "type": "string"
+                  },
+                  "use_instead": {
+                    "type": "string"
+                  }
+                }
+              },
+              "minItems": 10,
+              "description": "Palavras que a marca evita, com substitutas"
+            },
+            "call_customers": {
+              "type": "string",
+              "description": "Como chamamos nossos clientes"
+            },
+            "call_product": {
+              "type": "string",
+              "description": "Como chamamos nosso produto/serviço"
+            }
+          }
+        }
+      }
+    }
+  }
+}

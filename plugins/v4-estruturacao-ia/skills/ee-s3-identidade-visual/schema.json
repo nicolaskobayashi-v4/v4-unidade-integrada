@@ -1,0 +1,340 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Identidade Visual",
+  "description": "Output estruturado do skill de identidade visual: conceito criativo, paleta de cores, tipografia, diretrizes de forma e prompts de logo.",
+  "type": "object",
+  "required": [
+    "summary",
+    "creative_concept",
+    "color_palette",
+    "typography",
+    "shape_guidelines",
+    "logo_prompts",
+    "client_name",
+    "summary_headline",
+    "summary_highlights",
+    "summary_key_findings"
+  ],
+  "properties": {
+    "client_name": {
+      "type": "string",
+      "description": "Nome do cliente — sempre presente em todo output."
+    },
+    "summary": {
+      "type": "string",
+      "description": "Resumo de 1-2 frases da identidade visual. Inclui conceito criativo central e paleta de cores principal."
+    },
+    "summary_headline": {
+      "type": "string",
+      "description": "Manchete em 1 linha (~120 caracteres) com o veredito da skill."
+    },
+    "summary_highlights": {
+      "type": "array",
+      "description": "KPIs em destaque (4-6 itens). Categorias: posicao | competicao | janela | maturidade | oportunidade | risco.",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "required": [
+          "category",
+          "label",
+          "value",
+          "tone"
+        ],
+        "properties": {
+          "category": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          },
+          "value": {
+            "type": "string"
+          },
+          "subtext": {
+            "type": "string"
+          },
+          "tone": {
+            "type": "string",
+            "enum": [
+              "green",
+              "yellow",
+              "red",
+              "blue",
+              "gray"
+            ]
+          }
+        }
+      }
+    },
+    "summary_key_findings": {
+      "type": "array",
+      "description": "3-5 achados categorizados (vantagem | contexto | ameaca | acao).",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "required": [
+          "category",
+          "text"
+        ],
+        "properties": {
+          "category": {
+            "type": "string",
+            "enum": [
+              "vantagem",
+              "contexto",
+              "ameaca",
+              "acao"
+            ]
+          },
+          "text": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "creative_concept": {
+      "type": "string",
+      "description": "Conceito criativo central da identidade visual em 2-3 frases. Descreve a sensação e posicionamento, não elementos visuais.",
+      "minLength": 50,
+      "maxLength": 500
+    },
+    "color_palette": {
+      "type": "array",
+      "description": "Paleta de cores com 4-5 cores estrategicamente justificadas.",
+      "minItems": 4,
+      "maxItems": 6,
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "hex",
+          "rgb",
+          "cmyk",
+          "role",
+          "justification"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Nome descritivo da cor (ex: 'Azul Confiança')"
+          },
+          "hex": {
+            "type": "string",
+            "pattern": "^#[0-9A-Fa-f]{6}$",
+            "description": "Código hexadecimal da cor"
+          },
+          "rgb": {
+            "type": "string",
+            "description": "Valores RGB separados por vírgula (ex: '26, 58, 92')"
+          },
+          "cmyk": {
+            "type": "string",
+            "description": "Valores CMYK separados por vírgula (ex: '72, 37, 0, 64')"
+          },
+          "role": {
+            "type": "string",
+            "enum": [
+              "primary",
+              "secondary",
+              "accent",
+              "neutral",
+              "background"
+            ],
+            "description": "Papel da cor na paleta"
+          },
+          "justification": {
+            "type": "string",
+            "description": "Justificativa estratégica para essa cor no contexto do segmento e posicionamento"
+          }
+        }
+      }
+    },
+    "typography": {
+      "type": "object",
+      "required": [
+        "title",
+        "body",
+        "highlight",
+        "justification"
+      ],
+      "properties": {
+        "title": {
+          "type": "object",
+          "required": [
+            "font",
+            "weight",
+            "size",
+            "source"
+          ],
+          "properties": {
+            "font": {
+              "type": "string",
+              "description": "Nome da fonte (ex: 'Montserrat')"
+            },
+            "weight": {
+              "type": "string",
+              "description": "Peso da fonte (ex: 'Bold 700')"
+            },
+            "size": {
+              "type": "string",
+              "description": "Tamanho padrão (ex: '32px / 2rem')"
+            },
+            "source": {
+              "type": "string",
+              "description": "Onde encontrar (ex: 'Google Fonts')"
+            }
+          }
+        },
+        "body": {
+          "type": "object",
+          "required": [
+            "font",
+            "weight",
+            "size",
+            "source"
+          ],
+          "properties": {
+            "font": {
+              "type": "string"
+            },
+            "weight": {
+              "type": "string"
+            },
+            "size": {
+              "type": "string"
+            },
+            "source": {
+              "type": "string"
+            }
+          }
+        },
+        "highlight": {
+          "type": "object",
+          "required": [
+            "font",
+            "weight",
+            "size",
+            "source"
+          ],
+          "properties": {
+            "font": {
+              "type": "string"
+            },
+            "weight": {
+              "type": "string"
+            },
+            "size": {
+              "type": "string"
+            },
+            "source": {
+              "type": "string"
+            }
+          }
+        },
+        "justification": {
+          "type": "string",
+          "description": "Como a escolha tipográfica reforça o posicionamento da marca"
+        }
+      }
+    },
+    "shape_guidelines": {
+      "type": "object",
+      "required": [
+        "shapes",
+        "borders",
+        "density",
+        "icon_style"
+      ],
+      "properties": {
+        "shapes": {
+          "type": "string",
+          "enum": [
+            "geometric",
+            "organic",
+            "mixed"
+          ],
+          "description": "Formas predominantes"
+        },
+        "borders": {
+          "type": "string",
+          "enum": [
+            "rounded",
+            "sharp",
+            "mixed"
+          ],
+          "description": "Padrão de bordas"
+        },
+        "density": {
+          "type": "string",
+          "enum": [
+            "minimalist",
+            "balanced",
+            "rich"
+          ],
+          "description": "Densidade visual geral"
+        },
+        "icon_style": {
+          "type": "string",
+          "description": "Estilo de ícones e grafismos recomendados"
+        }
+      }
+    },
+    "logo_prompts": {
+      "type": "array",
+      "description": "3 prompts de logo para Midjourney/Ideogram, cada um com direção de estilo diferente.",
+      "minItems": 3,
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "required": [
+          "direction",
+          "concept",
+          "prompt"
+        ],
+        "properties": {
+          "direction": {
+            "type": "string",
+            "description": "Nome do estilo (ex: 'Minimalista Geométrico')"
+          },
+          "concept": {
+            "type": "string",
+            "description": "Conceito da direção em 1 frase"
+          },
+          "prompt": {
+            "type": "string",
+            "description": "Prompt completo em inglês para Midjourney, incluindo parâmetros (--v, --ar, --no)"
+          }
+        }
+      }
+    },
+    "chosen_direction": {
+      "type": "string",
+      "description": "Qual direção de logo o operador escolheu após gerar no Midjourney"
+    },
+    "dos_and_donts": {
+      "type": "object",
+      "required": [
+        "dos",
+        "donts"
+      ],
+      "properties": {
+        "dos": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 5,
+          "description": "5 regras de 'faça' para aplicação da marca"
+        },
+        "donts": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 5,
+          "description": "5 regras de 'não faça' para aplicação da marca"
+        }
+      }
+    }
+  }
+}

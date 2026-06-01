@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{SKILL_TITLE}} — {{CLIENT_NAME}} | V4 Estruturacao IA</title>
+  <style>
+    /* ==========================================================================
+       V4 Estruturacao IA — Design System
+       Base template for all skill outputs.
+       Colors: Dark (#0a0a0a), Light (#e5e2e1), Red (#e50914)
+       Fonts: system-ui stack (no external deps)
+       ========================================================================== */
+
+    /* Reset & Base */
+    *, *::before, *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      font-size: 16px;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      background-color: #0a0a0a;
+      color: #e5e2e1;
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    /* Typography */
+    h1, h2, h3, h4 {
+      font-weight: 700;
+      line-height: 1.2;
+      letter-spacing: -0.01em;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid #e50914;
+      display: inline-block;
+    }
+
+    h3 {
+      font-size: 1.125rem;
+      margin-bottom: 0.75rem;
+      color: #ffffff;
+    }
+
+    h4 {
+      font-size: 1rem;
+      margin-bottom: 0.5rem;
+      color: #b0adab;
+    }
+
+    p {
+      margin-bottom: 1rem;
+      color: #c8c5c3;
+    }
+
+    strong {
+      color: #ffffff;
+      font-weight: 600;
+    }
+
+    a {
+      color: #e50914;
+      text-decoration: none;
+      transition: opacity 0.2s ease;
+    }
+
+    a:hover {
+      opacity: 0.8;
+    }
+
+    /* Layout */
+    .page {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+    }
+
+    @media (min-width: 768px) {
+      .page {
+        padding: 3rem 2rem;
+      }
+    }
+
+    /* Header */
+    .header {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      margin-bottom: 3rem;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid #1f1f1f;
+    }
+
+    @media (min-width: 768px) {
+      .header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+      }
+    }
+
+    .header__brand {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .header__logo {
+      width: 40px;
+      height: 40px;
+      background-color: #e50914;
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-size: 1.25rem;
+      color: #ffffff;
+      flex-shrink: 0;
+    }
+
+    .header__title {
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: #e5e2e1;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    .header__subtitle {
+      font-size: 0.75rem;
+      color: #6b6966;
+      font-weight: 400;
+      letter-spacing: 0.02em;
+    }
+
+    .header__meta {
+      text-align: left;
+    }
+
+    @media (min-width: 768px) {
+      .header__meta {
+        text-align: right;
+      }
+    }
+
+    .header__client {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #ffffff;
+      margin-bottom: 0.25rem;
+    }
+
+    .header__date {
+      font-size: 0.875rem;
+      color: #6b6966;
+    }
+
+    .header__skill {
+      font-size: 0.75rem;
+      color: #e50914;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-top: 0.25rem;
+    }
+
+    /* Summary Box */
+    .summary {
+      background: linear-gradient(135deg, #141414 0%, #1a1a1a 100%);
+      border: 1px solid #2a2a2a;
+      border-left: 4px solid #e50914;
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .summary__label {
+      font-size: 0.6875rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #e50914;
+      margin-bottom: 0.5rem;
+    }
+
+    .summary__text {
+      font-size: 1rem;
+      color: #e5e2e1;
+      line-height: 1.7;
+    }
+
+    /* Section */
+    .section {
+      margin-bottom: 3rem;
+    }
+
+    .section__header {
+      margin-bottom: 1.5rem;
+    }
+
+    .section__number {
+      font-size: 0.6875rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #e50914;
+      margin-bottom: 0.25rem;
+    }
+
+    /* Cards */
+    .card {
+      background-color: #111111;
+      border: 1px solid #1f1f1f;
+      border-radius: 8px;
+      padding: 1.25rem;
+      margin-bottom: 1rem;
+      transition: border-color 0.2s ease;
+    }
+
+    .card:hover {
+      border-color: #2a2a2a;
+    }
+
+    .card--highlight {
+      border-left: 3px solid #e50914;
+    }
+
+    .card--success {
+      border-left: 3px solid #22c55e;
+    }
+
+    .card--warning {
+      border-left: 3px solid #eab308;
+    }
+
+    .card--danger {
+      border-left: 3px solid #ef4444;
+    }
+
+    .card__title {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #ffffff;
+      margin-bottom: 0.5rem;
+    }
+
+    .card__body {
+      font-size: 0.9375rem;
+      color: #c8c5c3;
+      line-height: 1.6;
+    }
+
+    /* Grid */
+    .grid {
+      display: grid;
+      gap: 1rem;
+    }
+
+    .grid--2 {
+      grid-template-columns: 1fr;
+    }
+
+    .grid--3 {
+      grid-template-columns: 1fr;
+    }
+
+    @media (min-width: 640px) {
+      .grid--2 {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .grid--3 {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (min-width: 960px) {
+      .grid--3 {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    /* Metrics / KPIs */
+    .metric {
+      background-color: #111111;
+      border: 1px solid #1f1f1f;
+      border-radius: 8px;
+      padding: 1.25rem;
+      text-align: center;
+    }
+
+    .metric__value {
+      font-size: 2rem;
+      font-weight: 800;
+      color: #ffffff;
+      line-height: 1;
+      margin-bottom: 0.25rem;
+    }
+
+    .metric__value--red {
+      color: #e50914;
+    }
+
+    .metric__value--green {
+      color: #22c55e;
+    }
+
+    .metric__value--yellow {
+      color: #eab308;
+    }
+
+    .metric__label {
+      font-size: 0.75rem;
+      color: #6b6966;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-weight: 600;
+    }
+
+    .metric__detail {
+      font-size: 0.8125rem;
+      color: #8a8785;
+      margin-top: 0.25rem;
+    }
+
+    /* Tables */
+    .table-wrap {
+      overflow-x: auto;
+      margin-bottom: 1.5rem;
+      border-radius: 8px;
+      border: 1px solid #1f1f1f;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.875rem;
+    }
+
+    thead {
+      background-color: #141414;
+    }
+
+    th {
+      text-align: left;
+      padding: 0.75rem 1rem;
+      font-weight: 600;
+      color: #8a8785;
+      text-transform: uppercase;
+      font-size: 0.6875rem;
+      letter-spacing: 0.05em;
+      border-bottom: 1px solid #1f1f1f;
+      white-space: nowrap;
+    }
+
+    td {
+      padding: 0.75rem 1rem;
+      border-bottom: 1px solid #141414;
+      color: #c8c5c3;
+      vertical-align: top;
+    }
+
+    tbody tr:hover {
+      background-color: #0f0f0f;
+    }
+
+    tbody tr:last-child td {
+      border-bottom: none;
+    }
+
+    /* Tags / Badges */
+    .tag {
+      display: inline-block;
+      font-size: 0.6875rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 0.2em 0.6em;
+      border-radius: 4px;
+      white-space: nowrap;
+    }
+
+    .tag--red {
+      background-color: rgba(229, 9, 20, 0.15);
+      color: #e50914;
+    }
+
+    .tag--green {
+      background-color: rgba(34, 197, 94, 0.15);
+      color: #22c55e;
+    }
+
+    .tag--yellow {
+      background-color: rgba(234, 179, 8, 0.15);
+      color: #eab308;
+    }
+
+    .tag--gray {
+      background-color: rgba(138, 135, 133, 0.15);
+      color: #8a8785;
+    }
+
+    /* Score Stars */
+    .stars {
+      font-size: 1rem;
+      letter-spacing: 0.05em;
+    }
+
+    .stars--5 { color: #22c55e; }
+    .stars--4 { color: #22c55e; }
+    .stars--3 { color: #eab308; }
+    .stars--2 { color: #ef4444; }
+    .stars--1 { color: #ef4444; }
+
+    /* Progress Bar */
+    .progress {
+      height: 8px;
+      background-color: #1f1f1f;
+      border-radius: 4px;
+      overflow: hidden;
+      margin-top: 0.5rem;
+    }
+
+    .progress__bar {
+      height: 100%;
+      border-radius: 4px;
+      transition: width 0.3s ease;
+    }
+
+    .progress__bar--red { background-color: #e50914; }
+    .progress__bar--green { background-color: #22c55e; }
+    .progress__bar--yellow { background-color: #eab308; }
+
+    /* Lists */
+    ul, ol {
+      margin-bottom: 1rem;
+      padding-left: 1.5rem;
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+      color: #c8c5c3;
+    }
+
+    li::marker {
+      color: #e50914;
+    }
+
+    /* Blockquote / Callout */
+    .callout {
+      background-color: #111111;
+      border-left: 3px solid #e50914;
+      padding: 1rem 1.25rem;
+      margin-bottom: 1.5rem;
+      border-radius: 0 6px 6px 0;
+    }
+
+    .callout p {
+      margin-bottom: 0;
+      font-size: 0.9375rem;
+      font-style: italic;
+      color: #b0adab;
+    }
+
+    /* Chat Messages (for script display) */
+    .chat {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .chat__message {
+      max-width: 80%;
+      padding: 0.75rem 1rem;
+      border-radius: 12px;
+      font-size: 0.9375rem;
+      line-height: 1.5;
+    }
+
+    .chat__message--lead {
+      align-self: flex-start;
+      background-color: #1f1f1f;
+      color: #c8c5c3;
+      border-bottom-left-radius: 4px;
+    }
+
+    .chat__message--sdr {
+      align-self: flex-end;
+      background-color: #1a1a2e;
+      color: #e5e2e1;
+      border-bottom-right-radius: 4px;
+      border: 1px solid #2a2a4a;
+    }
+
+    .chat__sender {
+      font-size: 0.6875rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.25rem;
+    }
+
+    .chat__sender--lead {
+      color: #6b6966;
+    }
+
+    .chat__sender--sdr {
+      color: #e50914;
+    }
+
+    /* Divider */
+    .divider {
+      border: none;
+      border-top: 1px solid #1f1f1f;
+      margin: 2rem 0;
+    }
+
+    /* Footer */
+    .footer {
+      margin-top: 4rem;
+      padding-top: 2rem;
+      border-top: 1px solid #1f1f1f;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      align-items: center;
+      text-align: center;
+    }
+
+    @media (min-width: 768px) {
+      .footer {
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+      }
+    }
+
+    .footer__brand {
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: #6b6966;
+      letter-spacing: 0.05em;
+    }
+
+    .footer__brand span {
+      color: #e50914;
+    }
+
+    .footer__info {
+      font-size: 0.6875rem;
+      color: #4a4745;
+    }
+
+    /* Utility Classes */
+    .text-red { color: #e50914; }
+    .text-green { color: #22c55e; }
+    .text-yellow { color: #eab308; }
+    .text-muted { color: #6b6966; }
+    .text-white { color: #ffffff; }
+    .text-sm { font-size: 0.875rem; }
+    .text-xs { font-size: 0.75rem; }
+    .text-center { text-align: center; }
+    .text-right { text-align: right; }
+    .font-bold { font-weight: 700; }
+    .mt-1 { margin-top: 0.5rem; }
+    .mt-2 { margin-top: 1rem; }
+    .mt-3 { margin-top: 1.5rem; }
+    .mb-1 { margin-bottom: 0.5rem; }
+    .mb-2 { margin-bottom: 1rem; }
+    .mb-3 { margin-bottom: 1.5rem; }
+    .hidden { display: none; }
+
+    /* Print Styles */
+    @media print {
+      body {
+        background-color: #ffffff;
+        color: #111111;
+      }
+
+      .page {
+        max-width: none;
+        padding: 1rem;
+      }
+
+      .header {
+        border-bottom-color: #dddddd;
+      }
+
+      .header__logo {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+
+      .card, .metric, .summary {
+        break-inside: avoid;
+        border-color: #dddddd;
+        background-color: #f9f9f9;
+      }
+
+      .summary {
+        border-left-color: #e50914;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+
+      h2 {
+        border-bottom-color: #e50914;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+
+      .tag {
+        border: 1px solid currentColor;
+      }
+
+      .footer {
+        border-top-color: #dddddd;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+
+    <!-- Header -->
+    <header class="header">
+      <div class="header__brand">
+        <div class="header__logo">V4</div>
+        <div>
+          <div class="header__title">V4 Estruturacao IA</div>
+          <div class="header__subtitle">Estruturacao Estrategica com Inteligencia Artificial</div>
+        </div>
+      </div>
+      <div class="header__meta">
+        <div class="header__client">{{CLIENT_NAME}}</div>
+        <div class="header__date">{{DATE}}</div>
+        <div class="header__skill">{{SKILL_TITLE}}</div>
+      </div>
+    </header>
+
+    <!-- Summary -->
+    <div class="summary">
+      <div class="summary__label">Resumo Executivo</div>
+      <div class="summary__text">{{SUMMARY}}</div>
+    </div>
+
+    <!-- Content Area -->
+    {{CONTENT}}
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer__brand">Gerado por <span>V4 Estruturacao IA</span></div>
+      <div class="footer__info">Documento confidencial. {{CLIENT_NAME}} — {{DATE}}</div>
+    </footer>
+
+  </div>
+</body>
+</html>

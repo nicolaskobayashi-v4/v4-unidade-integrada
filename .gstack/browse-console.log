@@ -1,0 +1,7 @@
+[2026-04-07T20:46:22.149Z] [error] Failed to load resource: the server responded with a status of 403 ()
+[2026-04-07T20:46:24.673Z] [error] Failed to load resource: the server responded with a status of 403 ()
+[2026-04-07T20:46:50.967Z] [error] Failed to load resource: the server responded with a status of 403 ()
+[2026-04-07T20:46:57.625Z] [error] Failed to load resource: the server responded with a status of 403 ()
+[2026-04-07T20:47:09.432Z] [error] Failed to load resource: the server responded with a status of 429 ()
+[2026-04-07T20:47:09.852Z] [warning] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+[2026-04-07T20:47:10.415Z] [warning] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
