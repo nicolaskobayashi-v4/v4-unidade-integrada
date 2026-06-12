@@ -24,6 +24,22 @@ Lista de todos os campos do briefing, organizados por seção. Para cada campo:
 | `whatsapp` | Número do WhatsApp Business | Manual | Não |
 | `gmb` | Tem Google Meu Negócio? (true/false) | V4MOS | Não |
 
+### Investidor V4 (`meta.investidor`) — opcional
+
+Fica em `meta` (não em `briefing`). Usado no slide "Quem vai conduzir o projeto" do deck de
+**Reunião de Kickoff** (`kickoff.html`). Todos os campos são opcionais — se ausente, o slide mostra
+um placeholder-guia.
+
+| Campo | Descrição | Fonte | Obrigatório |
+|---|---|---|---|
+| `nome` | Nome do investidor V4 à frente do projeto | Manual | Não |
+| `cargo` | Cargo/papel (ex: "Investidor V4 · Gestor do projeto") | Manual | Não |
+| `foto_url` | Link de uma foto publicada (URL pública) — renderizada como avatar no slide | Manual | Não |
+
+```json
+"meta": { "investidor": { "nome": "Ana Souza", "cargo": "Investidora V4", "foto_url": "https://..." } }
+```
+
 ---
 
 ## 2. Produto e Serviço (`product`)

@@ -33,8 +33,18 @@ Navegação: `←` `→` para passar slides, `F` para tela cheia.
 
 ```bash
 python3 build_exemplo.py                              # cria exemplo-clinica-zenvet/ (dados)
-python3 render_apresentacao_entrega.py exemplo-clinica-zenvet   # gera o .html
+python3 render_apresentacao_entrega.py exemplo-clinica-zenvet   # gera apresentacao-entrega.html
+python3 render_kickoff.py exemplo-clinica-zenvet               # gera kickoff.html
 ```
+
+## Deck de Kickoff (apoio à 1ª reunião)
+
+Além da *Apresentação da Entrega* (fechamento), há o deck de **Reunião de Kickoff** — o começo do
+ciclo. `render_kickoff.py <cliente>` gera `kickoff.html`: capa → quem conduz (investidor V4) →
+quebra-gelo → sumário da reunião → sobre a empresa (apoio) → benchmarking (apoio) → entrega semana a
+semana → próximos passos. É **sempre gerado** (não depende de `outputs/`). O slide do investidor usa
+`meta.investidor` (`nome`, `cargo`, `foto_url`); a entrega semana a semana deriva do `delivery-map`
+conforme `meta.modelo_venda`. No portal, abre por um botão ao lado de "Apresentação da Entrega".
 
 ## Usar para um cliente novo
 

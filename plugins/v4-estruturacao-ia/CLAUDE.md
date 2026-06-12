@@ -131,6 +131,10 @@ A partir da primeira skill de S1 completa (em geral `ee-s1-diagnostico-maturidad
 - A cada nova skill aprovada e salva, o renderer roda junto do portal e o deck cresce. Operador NÃO precisa pedir — é parte do fluxo.
 - Implementação: `plugins/v4-estruturacao-ia/shared-templates/render_apresentacao.py` (builders por skill).
 
+O `render_portal.sh` também gera dois decks cliente-facing, expostos por botões no topo do portal:
+- `apresentacao-entrega.html` (fechamento do projeto — jornada Atrair/Converter/Reter; só existe quando há outputs). Implementação: `render_apresentacao_entrega.py`.
+- `kickoff.html` (apoio à 1ª reunião — quem conduz, quebra-gelo, sobre a empresa, benchmarking, entrega semana a semana, próximos passos). **Sempre gerado** (independe de outputs). Implementação: `render_kickoff.py`. O slide do investidor usa o campo opcional `meta.investidor` (`nome`, `cargo`, `foto_url`); o slide de entrega deriva das semanas do `delivery-map.json` conforme `meta.modelo_venda`.
+
 ## Regras críticas
 
 - NUNCA gere output genérico. Todo output deve mencionar o cliente pelo nome e usar dados reais.

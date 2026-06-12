@@ -225,8 +225,12 @@ for skill, env in DATA.items():
 progress_skills = {s: {"status": "completed", "checkpoint": 0} for s in DATA}
 client = {
     "meta": {"name": NAME, "slug": "clinica-veterinaria-zenvet", "workspace_id": None,
-             "created_at": "2026-04-15", "modelo_venda": "inside-sales"},
-    "briefing": {"identification": {"name": NAME, "segment": "Saúde Animal & Pet Care", "location": "Americana, SP"}},
+             "created_at": "2026-04-15", "modelo_venda": "inside-sales",
+             "investidor": {"nome": "Ana Souza", "cargo": "Investidora V4 · à frente do projeto",
+                            "foto_url": "https://i.pravatar.cc/400?img=47"}},
+    "briefing": {"identification": {"name": NAME, "contact_name": "Dra. Nathalia Ramos",
+                                    "contact_role": "Sócia-fundadora e veterinária responsável",
+                                    "segment": "Saúde Animal & Pet Care", "location": "Americana, SP"}},
     "research": {"fetched_at": None},
     "connectors": {"fetched_at": None},
     "progress": {"current_week": 3, "skills": progress_skills},

@@ -160,6 +160,17 @@ if [ -f "$APRESENTACAO_ENTREGA_SCRIPT" ]; then
   fi
 fi
 
+# Gera/atualiza kickoff.html (deck de apoio à 1ª reunião — sempre gerado, independe de outputs)
+KICKOFF_SCRIPT="$SCRIPT_DIR/../shared-templates/render_kickoff.py"
+KICKOFF_HTML="$CLIENT_DIR/kickoff.html"
+if [ -f "$KICKOFF_SCRIPT" ]; then
+  if python3 "$KICKOFF_SCRIPT" "$CLIENT_DIR" >/dev/null 2>&1; then
+    echo "✓ Apresentação de kickoff atualizada: $KICKOFF_HTML"
+  else
+    echo "⚠ Falha ao gerar apresentação de kickoff (seguindo sem atualizar)" >&2
+  fi
+fi
+
 # Deploy para Vercel se existir vercel-project.json no diretório do cliente
 VERCEL_CFG="$CLIENT_DIR/vercel-project.json"
 if [ -f "$VERCEL_CFG" ] && command -v vercel >/dev/null 2>&1; then
