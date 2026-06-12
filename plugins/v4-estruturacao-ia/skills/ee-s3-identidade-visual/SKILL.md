@@ -1,6 +1,8 @@
 ---
 name: ee-s3-identidade-visual
-description: "Cria o conceito estratégico de identidade visual: paleta de cores, tipografia, diretrizes de forma e prompts de logo para Midjourney. Semi-manual — operador gera logos externamente. Use quando disser /ee-s3-identidade-visual ou 'criar identidade' ou 'paleta de cores' ou 'logo'."
+description: "[DEPRECADA — substituída por ee-s3-manual-marca] NÃO usar em novos clientes; mantida apenas como histórico. O conceito de identidade visual (paleta, tipografia, diretrizes de forma, prompts de logo) foi unificado em ee-s3-manual-marca."
+status: deprecated
+superseded_by: ee-s3-manual-marca
 dependencies:
   - ee-s2-posicionamento
 inputs:

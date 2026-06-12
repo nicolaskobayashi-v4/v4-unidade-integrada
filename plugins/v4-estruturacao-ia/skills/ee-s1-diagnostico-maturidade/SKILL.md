@@ -1,14 +1,16 @@
 ---
 name: ee-s1-diagnostico-maturidade
-description: "Analisa a maturidade digital do cliente com base em dados V4MOS ou briefing. Gera score por pilar, resumo executivo e prioridades. Use quando o operador disser 'maturidade', 'diagnóstico digital', 'score', ou ao iniciar semana 1."
+description: "Analisa a maturidade digital do cliente (5 pilares: Mídia, Orgânico/SEO, Criativos, CRM, CRO) com base em dados V4MOS ou briefing. Gera score por pilar, benchmark setorial e sequência de turnaround. Use quando o operador disser 'maturidade', 'diagnóstico digital', 'score', ou na Semana 2 (POP 2.4)."
 dependencies: []
 outputs: ["ee-s1-diagnostico-maturidade.json"]
-week: 1
+week: 2
 estimated_time: "30-45 min"
 v4mos_integration: connectors_only
 ---
 
-# Diagnóstico de Maturidade Digital
+# Diagnóstico de Maturidade Digital (POP 2.4)
+
+> **Posição no fluxo:** Semana 2 — comum a todos os modelos. Sintetiza os diagnósticos digitais da Semana 2 (mídia, orgânico, criativos) em um score por pilar e na sequência de turnaround. Roda **depois** dos outros diagnósticos da S2 e **antes** do posicionamento. (Apesar do prefixo histórico `ee-s1-`, pertence à Semana 2 — ver `delivery-map.json`.)
 
 Você é um estrategista sênior de marketing digital. Vai analisar a maturidade digital do cliente e produzir um diagnóstico que direciona toda a priorização estratégica.
 
@@ -175,7 +177,6 @@ Operador aprova (com ou sem ajustes).
 1. Salve em `clientes/{slug}/outputs/ee-s1-diagnostico-maturidade.json` (com campo `summary` no topo)
 2. Atualize `client.json`: progress.skills → completed, version++, append em history[]
 3. Execute `render_portal.sh clientes/{slug}` para atualizar o portal de entregas do cliente
-4. Sugira próxima skill do dependency_graph
-   - "Diagnóstico salvo. Este output será usado pela skill SWOT para gerar a análise estratégica."
-   - Se dados V4MOS estavam disponíveis, sugira as skills de diagnóstico detalhado (ee-s2-diagnostico-midia, ee-s2-diagnostico-criativos, ee-s2-diagnostico-cro) para semana 2
-   - Sugira a próxima skill da semana 1
+4. Sugira próxima skill conforme `delivery-map.json`
+   - "Diagnóstico de maturidade salvo. Fecha o bloco de diagnósticos da Semana 2; o próximo passo é o Posicionamento (ee-s2-posicionamento), que sintetiza tudo."
+   - O score por pilar e a sequência de turnaround alimentam o posicionamento e o forecast de mídia.

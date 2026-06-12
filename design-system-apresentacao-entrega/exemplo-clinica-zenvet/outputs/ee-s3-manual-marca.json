@@ -1,0 +1,34 @@
+{
+  "client_name": "Clínica Veterinária Zenvet",
+  "summary_headline": "Tom de marca: especialista acessível — técnica sem ser distante, próxima sem ser informal demais. Arquétipo Mentor.",
+  "summary_highlights": [
+    {
+      "label": "Arquétipo",
+      "value": "Mentor",
+      "subtext": "firme no método, caloroso na relação",
+      "tone": "blue"
+    },
+    {
+      "label": "Tom de voz",
+      "value": "Profissional + calor humano",
+      "subtext": "técnica e acolhedora",
+      "tone": "blue"
+    },
+    {
+      "label": "Paleta",
+      "value": "Roxo + turquesa",
+      "subtext": "#4B1C7D · #00B8BD",
+      "tone": "blue"
+    }
+  ],
+  "summary_key_findings": [
+    {
+      "category": "acao",
+      "text": "Usar 'tutor', 'paciente', 'caso' — nunca 'dono', 'peludo', 'bichinho'. Foto da Nathalia com gato real, nunca banco de imagens."
+    },
+    {
+      "category": "acao",
+      "text": "O tom precisa servir dois momentos: o racional (rotina/vacina) e o emocional (crise) — são a mesma Mariana em estados diferentes."
+    }
+  ]
+}

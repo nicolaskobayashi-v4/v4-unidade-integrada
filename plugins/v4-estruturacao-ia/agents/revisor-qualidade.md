@@ -48,7 +48,7 @@ Se existem outputs de skills anteriores, verifique cruzamentos:
 
 - [ ] Se usa ICP/persona → bate com `ee-s1-persona-icp.json` (nome da persona, perfil, dores, jobs)
 - [ ] Se usa PUV/ee-s2-posicionamento → bate com `ee-s2-posicionamento.json` (proposta de valor, território)
-- [ ] Se usa tom de voz → bate com `ee-s3-brandbook.json` (se existir) ou `briefing.brand.voice_tone`
+- [ ] Se usa tom de voz → bate com `ee-s3-manual-marca.json` ou `briefing.brand.voice_tone`
 - [ ] Se referencia diagnósticos → dados batem com os diagnósticos gerados
 - [ ] Decisões do operador registradas em `client.json` (seção `history`) foram respeitadas
 

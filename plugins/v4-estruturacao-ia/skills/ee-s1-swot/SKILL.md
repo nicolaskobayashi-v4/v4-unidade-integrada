@@ -1,15 +1,18 @@
 ---
 name: ee-s1-swot
-description: "Gera Matriz SWOT completa e acionável cruzando dados do diagnóstico de maturidade, briefing e concorrência. Use quando o operador disser 'SWOT', 'forças e fraquezas', 'análise estratégica', ou após completar o diagnóstico de maturidade."
-dependencies: ["ee-s1-diagnostico-maturidade"]
+description: "Análise de Concorrentes + Matriz SWOT estratégica: scorecard digital dos concorrentes (com evidência), SWOT acionável, matriz TOWS, cenários e priorização em Gantt de 90 dias. Use quando o operador disser 'SWOT', 'análise de concorrentes', 'forças e fraquezas', 'análise estratégica', ou na Semana 1."
+dependencies:
+  - ee-s1-persona-icp
 outputs: ["ee-s1-swot.json"]
 week: 1
-estimated_time: "30-45 min"
+estimated_time: "1h"
 ---
 
-# Matriz SWOT — Análise Estratégica
+# Análise de Concorrentes + Matriz SWOT (POP 1.5)
 
-Você é um estrategista de negócios sênior. Vai criar uma Matriz SWOT que NÃO é genérica — é uma análise acionável que direciona a estratégia das próximas semanas.
+Você é um estrategista de negócios sênior. Vai mapear o cenário competitivo com evidência observável e gerar uma Matriz SWOT acionável que direciona a estratégia das próximas semanas.
+
+> **Posição no fluxo:** Semana 1 (POP 1.5). Roda com base no briefing, no ICP/Persona e na pesquisa de concorrentes — **não depende** do Diagnóstico de Maturidade (que ocorre na Semana 2). Se um diagnóstico de maturidade já existir de um ciclo anterior, use como reforço; senão, ancore nos dados de briefing e na pesquisa observável.
 
 > **REGRA DE OURO:** Cada item da SWOT deve ser específico para ESTE cliente. Se você trocar o nome da empresa e o item ainda fizer sentido para qualquer negócio do setor, está genérico demais. Refaça.
 
@@ -18,9 +21,10 @@ Você é um estrategista de negócios sênior. Vai criar uma Matriz SWOT que NÃ
 Leia os seguintes arquivos do diretório do cliente:
 
 1. `client.json` (seção `briefing`) — dados base do cliente (OBRIGATÓRIO)
-2. `outputs/ee-s1-diagnostico-maturidade.json` — scores e análise de maturidade (OBRIGATÓRIO — é dependência)
+2. `outputs/ee-s1-persona-icp.json` — ICP/Persona para cruzar concorrentes por fit, faixa de preço e geografia (OBRIGATÓRIO — é dependência)
 3. `client.json` (seção `connectors`) — dados V4MOS se disponíveis
-4. `client.json` (seção `history`) — decisões anteriores relevantes
+4. `outputs/ee-s1-diagnostico-maturidade.json` — scores de maturidade, **se já existir** de um ciclo anterior (opcional; normalmente só existe a partir da Semana 2)
+5. `client.json` (seção `history`) — decisões anteriores relevantes
 
 Extraia do briefing:
 - `identification.name` → nome do cliente
@@ -32,11 +36,9 @@ Extraia do briefing:
 - `competition.competitors` → lista de concorrentes
 - `competition.differentials` → diferencial real vs concorrentes
 
-Do diagnóstico de maturidade, extraia:
-- `overall_score` → score geral
-- `pillar_scores` → scores por pilar (forças e fraquezas digitais)
-- `priorities` → prioridades já identificadas
-- `sector_benchmark` → posição vs. setor
+Do diagnóstico de maturidade (SE já existir — opcional na Semana 1):
+- `overall_score`, `pillar_scores`, `priorities`, `sector_benchmark` → reforçam forças/fraquezas digitais
+- Se não existir ainda, derive forças/fraquezas digitais do `briefing.digital_situation` e da pesquisa observável dos canais do cliente.
 
 Se não encontrar informações sobre concorrência no client.json, pergunte ao operador de uma vez:
 - "Dos concorrentes listados, qual é o mais perigoso e por quê?"
@@ -52,6 +54,20 @@ Se não encontrar informações sobre concorrência no client.json, pergunte ao 
 Gere o output COMPLETO de uma vez usando os dados de `client.json` (briefing, connectors) e outputs de skills dependentes em `outputs/`.
 
 Consulte `references/exemplos-ee-s1-swot-bom-vs-ruim.md` para calibrar a especificidade.
+
+### Análise de Concorrentes (scorecard digital) — PRIMEIRO PASSO
+
+Antes da SWOT, mapeie o cenário competitivo com **evidência observável** (não percepção). É a base factual que alimenta forças/fraquezas/ameaças.
+
+1. **Selecione 3-5 concorrentes diretos + 1-2 indiretos/aspiracionais.** Cruze com o ICP (fit, faixa de preço, geografia) para não listar concorrente percebido que não compete de fato. Valide a lista com o operador.
+2. **Scorecard digital** — pontue cada concorrente de **0-10** por dimensão, **cada nota com 1 linha de evidência observável** (link/print/fato):
+   - `site`, `seo`, `midia_paga`, `social`, `gmn`, `reputacao`, `comunicacao`
+   - Inclua o próprio cliente na tabela para contraste.
+3. **Leitura competitiva** — onde o cliente está acima/abaixo, e qual o gap mais explorável.
+
+Cada concorrente vira um objeto em `competitor_scorecard[]`: `{name, type: "direto|indireto", scores: {site, seo, midia_paga, social, gmn, reputacao, comunicacao}, evidence: {<dimensao>: "evidência"}, overall}`.
+
+> Regra: nota sem evidência observável não entra. Se não conseguir evidência, marque a dimensão como `null` + motivo.
 
 ### Forças (Strengths) — 4-6 itens
 Fatores INTERNOS positivos. Busque em:
@@ -181,7 +197,8 @@ Antes de mostrar ao operador, verifique:
 - [ ] Todos os campos do schema preenchidos (ou com `null` + `unavailable_reason` no pai)?
 - [ ] Nenhuma string vazia (`""`) — substituí por `null` + reason quando o dado não existe?
 - [ ] Estimativas marcadas com `estimated: true` ou `[E]`?
-- [ ] Consistente com outputs anteriores (diagnóstico de maturidade)?
+- [ ] `competitor_scorecard` tem 3-5 diretos (+ indiretos), notas 0-10 e **evidência observável** por nota (não percepção)?
+- [ ] Concorrentes validados por fit/ICP (não listou percebido que não compete)?
 - [ ] Cada item da SWOT é específico — se trocar o nome da empresa, NÃO serve para outro negócio do setor?
 - [ ] Síntese cruza quadrantes (não é apenas resumo)?
 - [ ] Ações derivam dos quadrantes (referência F/W/O/T explícita)?

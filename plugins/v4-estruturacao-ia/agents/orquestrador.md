@@ -124,36 +124,18 @@ Ao carregar o contexto de um cliente, siga esta ordem:
 
 ## Mapa de semanas e skills
 
+A sequência por semana NÃO é hardcoded aqui — leia sempre **`delivery-map.json`** (ordem por modelo de venda) e **`dependency_graph.json`** (dependências) da raiz do plugin.
+
 ```
-Semana 1 — Diagnóstico
-  ee-s1-diagnostico-maturidade (sem dependências)
-  ee-s1-persona-icp (sem dependências)
-  ee-s1-swot (depende: ee-s1-diagnostico-maturidade)
-  ee-s1-auditoria-comunicacao (depende: ee-s1-persona-icp)
-
-Semana 2 — Pesquisa e Posicionamento
-  ee-s2-pesquisa-mercado (depende: ee-s1-persona-icp)
-  ee-s2-posicionamento (depende: ee-s2-pesquisa-mercado, ee-s1-persona-icp, ee-s1-swot)
-  ee-s2-diagnostico-midia (depende: ee-s1-persona-icp)
-  ee-s2-diagnostico-criativos (depende: ee-s1-persona-icp)
-  ee-s2-diagnostico-cro (depende: ee-s1-persona-icp, ee-s2-posicionamento)
-
-Semana 3 — Produção e Implementação
-  ee-s3-identidade-visual (depende: ee-s2-posicionamento)
-  ee-s3-brandbook (depende: ee-s2-posicionamento, ee-s1-persona-icp)
-  ee-s3-landing-page (depende: ee-s2-posicionamento, ee-s3-brandbook, ee-s2-diagnostico-cro)
-  ee-s3-copy-anuncios (depende: ee-s3-brandbook, ee-s1-persona-icp, ee-s2-posicionamento)
-  ee-s3-criativos-anuncios (depende: ee-s3-brandbook, ee-s3-identidade-visual, ee-s2-diagnostico-criativos)
-  ee-s3-crm-setup (depende: ee-s1-persona-icp)
-  ee-s3-forecast-midia (depende: ee-s2-diagnostico-midia)
-  ee-s3-gmb-otimizacao (depende: ee-s1-persona-icp)
-
-Semana 4-5 — Vendas (se módulo contratado)
-  ee-s4-diagnostico-comercial (depende: ee-s1-persona-icp)
-  ee-s4-cliente-oculto (depende: ee-s4-diagnostico-comercial)
-  ee-s5-scripts-sdr (depende: ee-s4-diagnostico-comercial, ee-s3-brandbook)
-  ee-s5-sdr-ia-config (depende: ee-s5-scripts-sdr, ee-s3-crm-setup)
+Semana 1 (comum)        = delivery-map.comum.semana_1
+Semana 2 (comum)        = delivery-map.comum.semana_2
+Semana 3 (modelo)       = delivery-map.semana_3[meta.modelo_venda]
+Semana 4 (comum)        = delivery-map.comum.semana_4
 ```
+
+- São **4 semanas**. `meta.modelo_venda` ∈ {`e-commerce`, `inside-sales`, `pdv`} decide **apenas a Semana 3**.
+- Semana 1, Semana 2 e Semana 4 são iguais para todos os modelos.
+- Dependências de cada skill: ver `dependency_graph.json`.
 
 ## Regras críticas
 

@@ -108,9 +108,9 @@ Os campos com fonte "V4MOS" podem ser pré-preenchidos verificando o status de i
 
 ---
 
-## 8. Módulo Vendas (`sales_module`)
+## 8. Processo Comercial (`sales_module`)
 
-Seção coletada APENAS se o módulo vendas (SDR IA) foi contratado. Se não foi contratado, todo o campo `sales_module` deve ser `null` no client.json (briefing).
+Preencha conforme `meta.modelo_venda`: detalhe time e processo comercial para `inside-sales` e `pdv`; para `e-commerce`, registre SAC/pré-venda e deixe `null` os campos de time de vendas que não se aplicam.
 
 | Campo | Descrição | Fonte | Obrigatório |
 |---|---|---|---|

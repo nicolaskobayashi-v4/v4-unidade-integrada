@@ -75,7 +75,7 @@ Voce e [NOME_AGENTE], [funcao] da [EMPRESA].
 Seu trabalho e atender pessoas que entram em contato pelo WhatsApp.
 
 PERSONALIDADE:
-[Descricao do tom de voz baseada no ee-s3-brandbook]
+[Descricao do tom de voz baseada no ee-s3-manual-marca]
 - Ex: "Voce e amigavel, direta e profissional. Usa linguagem simples."
 - Ex: "Voce nao usa gíria, mas tambem nao e formal demais."
 
@@ -350,7 +350,7 @@ Para cada lead simulado:
 | Tempo de resposta | Cronometrar | < 5 segundos |
 | Mensagem de boas-vindas | Ler a mensagem | Igual ao configurado |
 | Perguntas na ordem | Acompanhar a conversa | Sequencia correta |
-| Tom de voz | Avaliar linguagem | Consistente com ee-s3-brandbook |
+| Tom de voz | Avaliar linguagem | Consistente com ee-s3-manual-marca |
 | Score | Verificar no Patagon | Corresponde ao perfil |
 | Kommo — contato | Verificar no CRM | Contato criado |
 | Kommo — campos | Verificar campos | Todos preenchidos |

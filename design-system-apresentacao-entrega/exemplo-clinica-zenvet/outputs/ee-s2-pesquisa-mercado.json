@@ -1,0 +1,44 @@
+{
+  "client_name": "Clínica Veterinária Zenvet",
+  "summary_headline": "Mercado endereçável de R$ 20 M na microrregião; a Zenvet captura R$ 653 mil (9,3% do SOM de R$ 7 M) — a meta da cliente é 1/5 do que o mercado permite.",
+  "summary_highlights": [
+    {
+      "label": "SOM (teto)",
+      "value": "R$ 7,0 M",
+      "subtext": "Zenvet hoje captura 9,3%",
+      "tone": "yellow"
+    },
+    {
+      "label": "Upside vs. meta",
+      "value": "+R$ 5,68 M",
+      "subtext": "mercado que a cliente não enxerga",
+      "tone": "green"
+    },
+    {
+      "label": "Gap atual → SOM",
+      "value": "+972%",
+      "subtext": "+R$ 6,35 M sobre o faturamento atual",
+      "tone": "green"
+    },
+    {
+      "label": "Tendência felina",
+      "value": "+5,4% a/a",
+      "subtext": "~2x o ritmo dos cães",
+      "tone": "green"
+    }
+  ],
+  "summary_key_findings": [
+    {
+      "category": "vantagem",
+      "text": "Nenhum concorrente combina especialização felina + digital + humano + pós-consulta na região."
+    },
+    {
+      "category": "ameaca",
+      "text": "Concorrente felina orgânica local + 4 clínicas Cat Friendly em Campinas (45-60 min) pressionam o nicho premium."
+    },
+    {
+      "category": "posicao",
+      "text": "A meta da cliente (R$ 1,32 M) é só 18,9% do SOM — ela está pensando em menos de 1/5 do mercado disponível."
+    }
+  ]
+}

@@ -48,7 +48,15 @@ Pergunte: "Qual cliente quer trabalhar?"
 
 1. Leia `clientes/{slug}/client.json (progress)` — progresso completo
 2. Leia `clientes/{slug}/client.json (history)` — últimas 5 decisões
-3. Leia `dependency_graph.json` — do diretório raiz do plugin
+3. Leia `dependency_graph.json` e `delivery-map.json` — do diretório raiz do plugin
+
+**Monte a sequência de skills do cliente** a partir do `delivery-map.json`, conforme `meta.modelo_venda`:
+
+```
+comum.semana_1  +  comum.semana_2  +  semana_3[modelo_venda]  +  comum.semana_4
+```
+
+São **4 semanas**: 1, 2 e 4 comuns; a **Semana 3 é específica do modelo de venda**. Essa lista ordenada — e NÃO uma lista hardcoded — é a ordem oficial. `current_week` (1-4) reflete em qual bloco o cliente está.
 
 Determine o próximo passo, seguindo esta prioridade:
 
@@ -56,11 +64,9 @@ Determine o próximo passo, seguindo esta prioridade:
 Se existe uma skill com `status: "in_progress"`, retome-a do checkpoint atual. Essa é a prioridade porque significa que o operador começou algo e não terminou.
 
 **Prioridade 2 — Próxima skill pending com dependências satisfeitas:**
-Encontre a primeira skill com `status: "pending"` cujas dependências (definidas em `dependency_graph.json`) estão todas `completed`. Respeite a ordem das semanas:
-- Semana 1: ee-s1-diagnostico-maturidade, ee-s1-persona-icp, ee-s1-swot, ee-s1-auditoria-comunicacao
-- Semana 2: ee-s2-pesquisa-mercado, ee-s2-posicionamento, ee-s2-diagnostico-midia, ee-s2-diagnostico-criativos, ee-s2-diagnostico-cro
-- Semana 3: ee-s3-identidade-visual, ee-s3-brandbook, ee-s3-landing-page, ee-s3-copy-anuncios, ee-s3-criativos-anuncios, ee-s3-crm-setup, ee-s3-forecast-midia, ee-s3-gmb-otimizacao
-- Semana 4-5: ee-s4-diagnostico-comercial, ee-s4-cliente-oculto, ee-s5-scripts-sdr, ee-s5-sdr-ia-config
+Percorra a sequência montada acima na ordem. Pegue a primeira skill com `status: "pending"` (em `progress.skills`) cujas dependências (em `dependency_graph.json`) estão todas `completed`. Se a próxima skill da ordem tem dependência pendente, avise e sugira rodar a dependência antes.
+
+> ⚠️ Skills marcadas `status: stub` no frontmatter ainda não têm conteúdo de geração. Se a próxima skill for um stub, avise o operador que o entregável está em desenvolvimento.
 
 **Prioridade 3 — Avanço de semana:**
 Se todas as skills da semana atual estão `completed`, atualize `current_week` no client.json (progress) e encontre a próxima skill disponível.

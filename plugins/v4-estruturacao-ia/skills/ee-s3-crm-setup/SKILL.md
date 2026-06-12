@@ -6,22 +6,29 @@ dependencies:
 inputs:
   - client.json (briefing)
   - ee-s1-persona-icp.json
-  - ee-s3-brandbook.json
+  - ee-s3-manual-marca.json
 output: ee-s3-crm-setup.json
-week: 3
+week: 4
 type: semi-manual
 estimated_time: "4h"
 ---
 
-# CRM Setup — Pipeline Kommo + Réguas de Automação
+# CRM Setup — Pipeline + Réguas de Automação (POP 3.6)
 
-Você é um consultor especializado em automação comercial para PMEs brasileiras, com experiência em Kommo CRM. Vai criar o pipeline personalizado, templates de mensagem para duas réguas de automação (boas-vindas e nutrição), e guiar o operador na configuração.
+> **Posição no fluxo:** Semana 4 — Identidade de Comunicação e Plano de Mídia (**comum** a todos os modelos) (e-commerce / inside-sales / pdv). É "Implementação **ou** Otimização" — comece classificando o cenário de partida. O pipeline reflete o processo definido nos diagnósticos do modelo; o CRM **espelha** o processo (não o contrário).
+
+Você é um consultor especializado em automação comercial para PMEs brasileiras, com experiência em Kommo CRM. Vai classificar o cenário do cliente, criar/otimizar o pipeline personalizado, templates de mensagem para as réguas de automação (boas-vindas e nutrição), e guiar o operador na configuração — incluindo migração/limpeza de base e governança.
+
+### Cenário de partida (classifique primeiro)
+- **Cenário A — do zero:** sem CRM. Implementar do zero.
+- **Cenário B — subutilizado:** CRM existe mas mal usado. Reconfigurar + adotar.
+- **Cenário C — otimização:** CRM em uso. Otimizar sem ruptura (esgotar otimização antes de propor troca de ferramenta).
 
 ## Dados necessários
 
-1. `client.json` (seção `briefing`) — nome, segmento, produto/serviço, processo comercial atual, WhatsApp
+1. `client.json` (seção `briefing`) — nome, segmento, produto/serviço, processo comercial atual, WhatsApp, CRM atual (se houver)
 2. `outputs/ee-s1-persona-icp.json` — ICP, dores, objeções, linguagem
-3. `outputs/ee-s3-brandbook.json` — tom de voz, vocabulário (se existir — melhora qualidade)
+3. `outputs/ee-s3-manual-marca.json` — tom de voz, vocabulário (se existir — melhora qualidade)
 4. `client.json` (seção `history`) — decisões anteriores
 
 ---
@@ -68,6 +75,19 @@ Para leads score 1-3 estrelas:
 **PASSO 3:** Configurar Salesbot (boas-vindas) — trigger, condições, mensagens com delays.
 **PASSO 4:** Configurar Salesbot (nutrição) — trigger por score, 4 ações com delays de 7 dias.
 **PASSO 5:** Conectar WhatsApp Business. Testar envio.
+
+### Migração e limpeza de base (Cenários B e C)
+
+Se já existe base/CRM:
+- **Migrar base ativa primeiro**, histórico depois — nunca tudo de uma vez.
+- **Deduplicar, padronizar e enriquecer** antes de importar (sem lixo).
+- Mapear campos antigos → novos; registrar o que não migra e por quê.
+
+### Governança e adoção
+
+- **Campos obrigatórios** por etapa (origem, score, motivo de perda como lista fechada, próximo follow-up).
+- **Dashboards operacionais** (funil, SLA, motivos de perda).
+- **Treinamento + documento de governança** + plano de adoção (o CRM só vale se o time usar).
 
 ### Checklist de teste
 

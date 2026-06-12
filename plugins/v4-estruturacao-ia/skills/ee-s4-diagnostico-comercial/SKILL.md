@@ -1,18 +1,20 @@
 ---
 name: ee-s4-diagnostico-comercial
-description: "Diagnostico completo do funil de vendas: taxas vs benchmarks, mapa de objecoes, criterios de qualificacao 1-5 estrelas e SLA por score. Use quando o operador disser 'diagnostico comercial', 'funil de vendas', 'analise comercial', 'gargalo de vendas', ou ao iniciar a semana 4."
+description: "Diagnostico comercial e etapas do funil (Inside Sales): funil mensal + funil estendido, estrutura do time, gargalo primario, mapa de objecoes, criterios de qualificacao 1-5 estrelas e SLA por score. Use quando o operador disser 'diagnostico comercial', 'funil de vendas', 'analise comercial', 'gargalo de vendas', ou na Semana 3 do modelo Inside Sales (POP 3.3)."
 dependencies:
   - ee-s1-persona-icp
 outputs: ["ee-s4-diagnostico-comercial.json"]
-week: 4
+week: 3
+modelo_venda: inside-sales
 estimated_time: "2h"
 ---
 
-# Diagnostico Comercial
+# Diagnóstico Comercial e Etapas do Funil (POP 3.3 — Inside Sales)
 
 Voce e um consultor especializado em processos comerciais e funis de vendas para PMEs brasileiras. Vai conduzir, junto com o operador, um diagnostico completo do funil de vendas do cliente para identificar gargalos, mapear objecoes e definir os criterios de qualificacao que vao calibrar o SDR IA.
 
-> **IMPORTANCIA:** Este diagnostico e a fundacao de todo o modulo de vendas. Os criterios de qualificacao definidos aqui serao usados diretamente nos scripts do SDR IA e na configuracao do Patagon. Se os criterios estiverem errados, o SDR vai qualificar errado.
+> **Posição no fluxo:** Semana 3, cabeça do modelo **Inside Sales** (POP 3.3). Vem depois do CRO Site/LP (3.1) e do Cliente Oculto (3.2), e alimenta a Definição de Métricas/Critérios do Funil (3.4) e o Pipeline + Script Consultivo (3.5).
+> **IMPORTANCIA:** Os criterios de qualificacao definidos aqui sao usados diretamente nos scripts do SDR IA (cauda da Semana 3) e na configuracao do Patagon. Se os criterios estiverem errados, o SDR vai qualificar errado.
 
 ## Dados necessários
 
@@ -54,6 +56,24 @@ Para cada etapa (Lead→Contato, Contato→Qualificação, Qualificação→Prop
 - Gargalo + causa raiz + impacto financeiro estimado
 
 **Gargalo principal:** etapa, motivo, impacto se corrigido.
+
+### Funil estendido (Exposição → Retenção)
+
+Além do funil comercial clássico, mapeie o funil estendido para revelar perdas fora do "miolo" de vendas:
+
+`Exposição → Lead → Contato → Qualificação → Proposta → Fechamento → Onboarding → Retenção/Recompra`
+
+- Para cada etapa: taxa/tempo médio (quando houver dado) e onde o lead **vaza**.
+- Marque as etapas sem instrumentação (sem dado) como `null` + motivo — a ausência de medição já é um achado.
+
+### Estrutura do time comercial
+
+O pipeline tem que caber no time real. Mapeie:
+- **Papéis e quantidade** (SDR, closer, híbrido), **tenure** médio, **capacidade** (leads/vendedor/dia)
+- **Ferramentas e rituais** atuais (CRM, cadência, reuniões de pipeline)
+- **Lacunas** entre a capacidade atual e o volume de leads — isso calibra o SLA e o que dá pra automatizar com o SDR IA.
+
+Estruture em `sales_team_structure`: `{roles:[{role, count, tenure, capacity_note}], tools:[], rituals:[], gaps:[]}`.
 
 ### Mapa de objeções
 
@@ -127,6 +147,6 @@ Operador aprova (com ou sem ajustes).
 1. Salve em `clientes/{slug}/outputs/ee-s4-diagnostico-comercial.json` (com campo `summary` no topo)
 2. Atualize `client.json`: progress.skills → completed, version++, append em history[]
 3. Execute `render_portal.sh clientes/{slug}` para atualizar o portal de entregas do cliente
-4. Sugira próxima skill do dependency_graph
-   - "Diagnostico comercial salvo. Este output sera usado por: ee-s4-cliente-oculto, ee-s5-scripts-sdr, ee-s5-sdr-ia-config."
-   - Sugira: `/ee-s4-cliente-oculto` (testar o processo antes de automatizar)
+4. Sugira próxima skill conforme `delivery-map.json` (cabeça inside-sales)
+   - "Diagnostico comercial salvo. Alimenta: ee-s3-is-metricas-funil (3.4), ee-s3-is-pipeline (3.5) e os scripts do SDR IA (cauda)."
+   - Sugira: `/ee-s3-is-metricas-funil` (formalizar MQL/SQL/SAL + scoring determinístico).

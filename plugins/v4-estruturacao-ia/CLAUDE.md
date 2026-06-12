@@ -51,7 +51,7 @@ Fonte ÚNICA de verdade por cliente. Substitui state.json, briefing.json, decisi
     "slug": "slug",
     "workspace_id": "uuid-or-null",
     "created_at": "2026-04-06",
-    "modulo_vendas": true
+    "modelo_venda": "e-commerce"
   },
   "briefing": {
     "identification": {},
@@ -97,6 +97,19 @@ Fonte ÚNICA de verdade por cliente. Substitui state.json, briefing.json, decisi
 Dados persistentes que ficam FORA do client.json:
 - `base-de-conhecimento/` → pasta com .md files (documentos do operador, intactos)
 - `outputs/` → pasta com .json files (outputs das skills, versionados)
+
+## Estrutura de entregas (semanas e modelo de venda)
+
+A sequência de skills é definida em **`delivery-map.json`** (fonte única — NÃO hardcode listas de skills em outro lugar). São **4 semanas**:
+
+- **Semana 1 — Descoberta do Negócio e Pesquisa de Mercado** → **comum**. Ver `comum.semana_1`.
+- **Semana 2 — Diagnóstico Digital e Posicionamento Estratégico** → **comum**. Ver `comum.semana_2`.
+- **Semana 3 — Estrutura da Operação de Venda** → **ESPECÍFICA do modelo de venda** (POPs 3.1–3.5). Varia conforme `meta.modelo_venda` (`e-commerce` / `inside-sales` / `pdv`). Ver `delivery-map.json` → `semana_3[modelo]`.
+- **Semana 4 — Identidade de Comunicação e Plano de Mídia** → **comum** (POPs 3.6–3.12): Manual de Marca, LP, copy, criativos, CRM, SDR IA, forecast. Ver `comum.semana_4`.
+
+A sequência completa = `semana_1` + `semana_2` + `semana_3[modelo]` + `semana_4`. Apenas a Semana 3 muda por modelo; 1, 2 e 4 são iguais para todos.
+
+`meta.modelo_venda` é definido no `/novo-cliente` e é obrigatório (1 de 3 valores). Substituiu o antigo `modulo_vendas` booleano.
 
 ## Dependency graph
 

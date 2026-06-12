@@ -1,0 +1,30 @@
+{
+  "client_name": "Clínica Veterinária Zenvet",
+  "summary_headline": "Forecast: R$ 1 mil/mês incremental gera R$ 23 mil de retorno — ROI de 20,7x e payback de 16 dias (cenário realista, em regime ao fim da S12).",
+  "summary_highlights": [
+    {
+      "label": "Investimento incremental",
+      "value": "R$ 1 mil/mês",
+      "subtext": "cenário realista",
+      "tone": "blue"
+    },
+    {
+      "label": "Retorno líquido",
+      "value": "+R$ 22 mil/mês",
+      "subtext": "ao fim da Semana 12",
+      "tone": "green"
+    },
+    {
+      "label": "ROI",
+      "value": "20,7x",
+      "subtext": "payback de 16 dias",
+      "tone": "green"
+    }
+  ],
+  "summary_key_findings": [
+    {
+      "category": "acao",
+      "text": "Pressupõe acessos liberados na S1 e curva de adoção do Kommo de ~30 dias antes do potencial pleno."
+    }
+  ]
+}

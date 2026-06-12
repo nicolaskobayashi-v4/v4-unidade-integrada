@@ -4,19 +4,20 @@ description: "Cria a landing page de conversão: copy completa seção por seç�
 dependencies:
   - ee-s2-posicionamento
   - ee-s3-manual-marca
-  - ee-s2-diagnostico-cro
 inputs:
   - client.json (briefing)
   - ee-s2-posicionamento.json
   - ee-s3-manual-marca.json
-  - ee-s2-diagnostico-cro.json
+  - ee-s2-diagnostico-cro.json (opcional — só no modelo inside-sales)
 output: ee-s3-landing-page.json
-week: 3
+week: 4
 type: mixed
 estimated_time: "6h"
 ---
 
-# Landing Page — Copy + Código + Deploy
+# Landing Page — Copy + Código + Deploy (POP 3.8)
+
+> **Posição no fluxo:** Semana 4 — Identidade de Comunicação e Plano de Mídia (**comum** a todos os modelos) (e-commerce / inside-sales / pdv). Mobile-first, formulário curto (3-5 campos) integrado ao CRM, tracking testado **antes** do deploy. No modelo inside-sales, consome o diagnóstico de CRO (3.1) se disponível; nos demais, baseia-se em posicionamento + manual de marca.
 
 Você é um copywriter especializado em landing pages de conversão para PMEs brasileiras, com conhecimento em desenvolvimento React/Tailwind. Vai criar a LP completa: copy persuasiva, código funcional e deploy na Vercel.
 
@@ -24,10 +25,11 @@ Você é um copywriter especializado em landing pages de conversão para PMEs br
 
 1. `client.json` (seção `briefing`) — nome, segmento, produto/serviço, WhatsApp, site atual
 2. `outputs/ee-s2-posicionamento.json` — PUV, posicionamento, diferenciais
-3. `outputs/ee-s3-brandbook.json` — tom de voz, paleta, tipografia, vocabulário, headlines, CTAs
-4. `outputs/ee-s2-diagnostico-cro.json` — análise de conversão, problemas identificados, wireframe sugerido
-5. `outputs/ee-s3-identidade-visual.json` — se existir, usar paleta e tipografia
-6. `client.json` (seção `history`) — decisões anteriores
+3. `outputs/ee-s3-manual-marca.json` — tom de voz, paleta, tipografia, vocabulário, headlines, CTAs
+4. `outputs/ee-s2-diagnostico-cro.json` — **opcional** (só no modelo inside-sales): análise de conversão, problemas, wireframe sugerido
+5. `client.json` (seção `history`) — decisões anteriores
+
+> Identidade visual (paleta/tipografia) vem do `ee-s3-manual-marca` (item 2) — os antigos brandbook/identidade-visual foram unificados nele.
 
 Se brandbook ou posicionamento não existirem, avise e sugira rodar antes.
 

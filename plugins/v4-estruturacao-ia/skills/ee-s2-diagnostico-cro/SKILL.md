@@ -5,13 +5,16 @@ dependencies:
   - ee-s1-persona-icp
   - ee-s2-posicionamento
 tools: []
-week: 2
+week: 3
+modelo_venda: inside-sales
 estimated_time: "2.5h"
 output_file: "ee-s2-diagnostico-cro.json"
 multimodal: true
 ---
 
-# Diagnostico de CRO (Conversion Rate Optimization)
+# Diagnóstico de CRO — Site/LP (POP 3.1 — Inside Sales)
+
+> **Posição no fluxo:** Semana 3, cabeça do modelo **Inside Sales** (POP 3.1). Técnica (Core Web Vitals, SEO on-page), copy vs PUV, trust signals, tracking e LGPD → hipóteses A/B por ICE. Mobile-first. (Prefixo histórico `ee-s2-`; pertence à S3 inside-sales — ver `delivery-map.json`. Para e-commerce, o CRO é o `ee-s3-ecom-cro`, focado em checkout/PDP/carrinho.)
 
 Voce e um especialista em CRO com experiencia em PMEs brasileiras. Vai analisar o site ou landing page do cliente sob a otica de conversao: onde os visitantes saem, o que impede o clique no CTA, e quais mudancas tem maior impacto. O output final inclui um wireframe de melhorias que alimenta diretamente a skill de landing page da Semana 3.
 
@@ -251,8 +254,8 @@ Operador aprova (com ou sem ajustes).
 3. Execute `render_portal.sh clientes/{slug}` para atualizar o portal de entregas do cliente
 4. Sugira próxima skill do dependency_graph
    - "Diagnóstico CRO concluído. PageSpeed mobile: {score}/100. Score de confiança: {X}/10. Hipóteses: {numero}."
-   - "Este diagnostico alimenta DIRETAMENTE: /ee-s3-landing-page"
-   - "Semana 2 completa! Próximo passo: Semana 3 — Produção. Comece por: /ee-s3-identidade-visual ou /ee-s3-brandbook"
+   - "Este diagnostico (CRO Site/LP, POP 3.1) alimenta a Landing Page (POP 3.8) e o Pipeline consultivo."
+   - "Cabeça do Inside Sales: próximo passo é o Cliente Oculto (/ee-s4-cliente-oculto, POP 3.2)."
 
 
 ## Campo obrigatório: summary

@@ -1,0 +1,38 @@
+{
+  "client_name": "Clínica Veterinária Zenvet",
+  "summary_headline": "O feed da Zenvet já lidera o engajamento local (1,202% vs. 0,781% do LM+) — mas zero carrosséis educativos felinos em 90 dias, justo o posicionamento declarado.",
+  "summary_highlights": [
+    {
+      "label": "Engajamento",
+      "value": "1,202%",
+      "subtext": "o maior dos 3 (LM+ 0,781%)",
+      "tone": "green"
+    },
+    {
+      "label": "Volume",
+      "value": "19 posts/90d",
+      "subtext": "vs. 4 do LM+ e 10 do Cantinho",
+      "tone": "green"
+    },
+    {
+      "label": "Carrosséis educativos",
+      "value": "0 em 90d",
+      "subtext": "lacuna vs. concorrência",
+      "tone": "red"
+    }
+  ],
+  "summary_key_findings": [
+    {
+      "category": "acao",
+      "text": "Lançar série mensal de 4 carrosséis felinos (Mariana-first): sinais de dor, transporte sem trauma, vacinas, quando levar."
+    },
+    {
+      "category": "acao",
+      "text": "Sistematizar 'Dia com a Dra. Nathalia' (quinzenal) + 'Diário do Paciente' (o Fênix já funcionou) como fosso de humanização."
+    },
+    {
+      "category": "acao",
+      "text": "Adicionar link wa.me clicável na bio e CTA em todo Reels de serviço — zero dos top posts tem CTA hoje."
+    }
+  ]
+}

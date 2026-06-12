@@ -2151,7 +2151,7 @@ function DEEP_fallback(d) {
     const client = data.client;
     const progress = data.progress || {};
     const outputs = data.outputs || {};
-    const hasSales = client.modulo_vendas !== false;
+    const hasSales = client.modelo_venda ? true : (client.modulo_vendas !== false);
     const escopoVendas = Array.isArray(client.modulo_vendas_escopo) ? client.modulo_vendas_escopo : null;
 
     document.title = 'Visão Consolidada — ' + (client.name || 'Cliente');

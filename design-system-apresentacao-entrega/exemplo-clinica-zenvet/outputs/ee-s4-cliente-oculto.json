@@ -1,0 +1,44 @@
+{
+  "client_name": "Clínica Veterinária Zenvet",
+  "summary_headline": "Atendimento nota 5,9/10: resposta em 2 min (excelente), mas 0 captura de nome, 0 perguntas clínicas e 0 follow-up em 24h — o lead some sem rastro.",
+  "summary_highlights": [
+    {
+      "label": "Nota geral",
+      "value": "5,9/10",
+      "subtext": "classificação REGULAR",
+      "tone": "red"
+    },
+    {
+      "label": "Tempo de resposta",
+      "value": "9/10",
+      "subtext": "2 min — o ponto mais forte",
+      "tone": "green"
+    },
+    {
+      "label": "Identificação de necessidade",
+      "value": "3/10",
+      "subtext": "zero perguntas clínicas de aprofundamento",
+      "tone": "red"
+    },
+    {
+      "label": "Follow-up",
+      "value": "2/10",
+      "subtext": "nenhum retorno após o 'vou pensar'",
+      "tone": "red"
+    }
+  ],
+  "summary_key_findings": [
+    {
+      "category": "acao",
+      "text": "O SDR IA endereça os 6 pontos críticos (nome, urgência, follow-up): +R$ 5,5 mil/mês projetado."
+    },
+    {
+      "category": "ameaca",
+      "text": "Não reconheceu sinal de urgência (FLUTD) num caso felino — falha de senso clínico-comercial."
+    },
+    {
+      "category": "ameaca",
+      "text": "0 captura de nome da tutora ou da gata — sem identificação é impossível personalizar follow-up ou alimentar o CRM."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "client_name": "Clínica Veterinária Zenvet",
+  "summary_headline": "Zenvet tem método felino raro e base fiel, mas sangra no digital: zero tracking, Meta com link 404 e conversão lead→agendamento de só 16,6%.",
+  "summary_highlights": [
+    {
+      "label": "Forças × Fraquezas",
+      "value": "4 × 4",
+      "subtext": "diferencial real, execução digital fraca",
+      "tone": "yellow"
+    },
+    {
+      "label": "Base ativa",
+      "value": "1.186 clientes",
+      "subtext": "show rate de ~100%",
+      "tone": "green"
+    },
+    {
+      "label": "Inativos",
+      "value": "486 pacientes",
+      "subtext": "sem régua de reativação",
+      "tone": "yellow"
+    },
+    {
+      "label": "Conversão",
+      "value": "16,6%",
+      "subtext": "lead → agendamento",
+      "tone": "red"
+    }
+  ],
+  "summary_key_findings": [
+    {
+      "category": "vantagem",
+      "text": "Atendimento domiciliar felino: alavanca de margem máxima, resolve a dor #1 (gato estressa no transporte) e ninguém comunica."
+    },
+    {
+      "category": "ameaca",
+      "text": "A replicação do posicionamento felino é ameaça presente — não mais hipotética."
+    },
+    {
+      "category": "acao",
+      "text": "Eliminar as hemorragias digitais (tracking zero, Meta 404, LP genérica) e construir ativos próprios (CRM, conteúdo, GMB)."
+    }
+  ]
+}

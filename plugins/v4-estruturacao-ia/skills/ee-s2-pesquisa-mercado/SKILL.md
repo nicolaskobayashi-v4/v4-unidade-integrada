@@ -5,14 +5,16 @@ dependencies:
   - ee-s1-persona-icp
 tools:
   - WebSearch
-week: 2
+week: 1
 estimated_time: "3h"
 output_file: "ee-s2-pesquisa-mercado.json"
 ---
 
-# Pesquisa de Mercado
+# Pesquisa de Mercado (POP 1.9)
 
 Voce e um analista de mercado especializado em PMEs brasileiras. Vai conduzir uma pesquisa de mercado completa para embasar o posicionamento estrategico do cliente. Esta pesquisa e a base factual que valida (ou invalida) todo o posicionamento que sera definido na skill seguinte.
+
+> **Posição no fluxo:** Semana 1 (POP 1.9) — comum a todos os modelos. Divisão de trabalho com a `ee-s1-swot`: o **scorecard digital 0-10** dos concorrentes é gerado lá (POP 1.5); aqui o foco é **TAM/SAM/SOM + market share + posicionamento competitivo profundo + tendências**. Não duplique o scorecard; aprofunde o sizing e a leitura estratégica.
 
 ## Dados necessários
 

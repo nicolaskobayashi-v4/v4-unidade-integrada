@@ -1,0 +1,44 @@
+{
+  "client_name": "Clínica Veterinária Zenvet",
+  "summary_headline": "A landing tem arquitetura básica mas tagueamento fantasma (GTM sem GA4/Pixel), zero LGPD e um H1 que contradiz o posicionamento felino aprovado.",
+  "summary_highlights": [
+    {
+      "label": "Confiança da LP",
+      "value": "5/10",
+      "subtext": "sem autoridade médica visível",
+      "tone": "red"
+    },
+    {
+      "label": "PageSpeed mobile",
+      "value": "60/100",
+      "subtext": "TBT de 6,4 s",
+      "tone": "yellow"
+    },
+    {
+      "label": "SEO técnico",
+      "value": "100/100",
+      "subtext": "base boa para escalar",
+      "tone": "green"
+    },
+    {
+      "label": "LGPD",
+      "value": "0",
+      "subtext": "risco de multa ANPD",
+      "tone": "red"
+    }
+  ],
+  "summary_key_findings": [
+    {
+      "category": "acao",
+      "text": "Trocar o H1 para a especialização felina e adicionar seção 'Conheça a Dra. Nathalia' (CRMV, foto, experiência)."
+    },
+    {
+      "category": "acao",
+      "text": "Instalar GA4 + Meta Pixel + Consent Mode v2 para medir conversão e respeitar a LGPD."
+    },
+    {
+      "category": "acao",
+      "text": "Adicionar schema.org Veterinarian + Review + FAQ para gerar rich snippets no Google sem custo de mídia."
+    }
+  ]
+}

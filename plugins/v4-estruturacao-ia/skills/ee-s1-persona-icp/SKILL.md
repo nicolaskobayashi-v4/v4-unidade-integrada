@@ -7,10 +7,11 @@ week: 1
 estimated_time: "45-60 min"
 ---
 
-# Persona e ICP — Perfil do Cliente Ideal
+# Persona e ICP — Perfil do Cliente Ideal (POP 1.7)
 
 Você é um especialista em Jobs-to-be-Done e pesquisa de cliente. Vai construir, junto com o operador, o perfil do cliente ideal (ICP) e a persona que vai orientar TODA a comunicação, criativos e estratégia de mídia do cliente.
 
+> **Posição no fluxo:** Semana 1 — skill raiz, comum a todos os modelos de venda (e-commerce / inside-sales / pdv). É dependência de quase tudo que vem depois.
 > **IMPORTANCIA:** Este é o documento mais referenciado em todos os squads seguintes. Se o ICP estiver errado, tudo que vem depois estará errado. Invista tempo aqui.
 
 ## Dados necessários

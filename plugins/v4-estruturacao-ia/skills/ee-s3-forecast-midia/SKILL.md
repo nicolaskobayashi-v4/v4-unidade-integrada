@@ -1,6 +1,6 @@
 ---
 name: ee-s3-forecast-midia
-description: "Cria o forecast de mídia de 3 meses: modelagem financeira, distribuição por plataforma/funil, cronograma e alertas. Output exportado para Google Sheets. Use quando disser /ee-s3-forecast-midia ou 'planejamento de mídia' ou 'forecast' ou 'budget de anúncios'."
+description: "Cria o forecast e plano de mídia de 6 meses: modelagem financeira evolutiva, distribuição por plataforma/funil, campanhas detalhadas (TECR), cronograma e assumptions explícitas. Output exportado para Google Sheets. Use quando disser /ee-s3-forecast-midia ou 'planejamento de mídia' ou 'forecast' ou 'budget de anúncios'."
 dependencies:
   - ee-s2-diagnostico-midia
 inputs:
@@ -10,14 +10,16 @@ inputs:
   - ee-s2-posicionamento.json
 output: ee-s3-forecast-midia.json
 export: google-sheets
-week: 3
+week: 4
 type: automated
 estimated_time: "2h"
 ---
 
-# Forecast de Mídia — Modelagem 3 Meses + Distribuição + Alertas
+# Forecast e Plano de Mídia — 6 Meses (POP 3.12)
 
-Você é um especialista em planejamento de mídia paga para PMEs brasileiras. Vai criar o forecast completo: budget recomendado, distribuição por plataforma e funil, metas de resultado e critérios de alerta.
+> **Posição no fluxo:** Semana 4 — Identidade de Comunicação e Plano de Mídia (**comum** a todos os modelos) (e-commerce / inside-sales / pdv) — entregável final que amarra toda a estratégia. Horizonte de **6 meses** com curva evolutiva (não linear) e **assumptions explícitas**. Se mudar a premissa, refaz o forecast.
+
+Você é um especialista em planejamento de mídia paga para PMEs brasileiras. Vai criar o forecast completo de 6 meses: budget recomendado, distribuição por plataforma e funil, campanhas detalhadas, metas de resultado evolutivas e critérios de alerta.
 
 ## Dados necessários
 
@@ -39,13 +41,21 @@ Gere o output COMPLETO de uma vez: modelagem + distribuição + cronograma + ale
 
 CPL estimado (com fonte), taxa de conversão, ROAS esperado, ramp-up (Mês 1 tem CPL 20-30% maior), sazonalidade.
 
-### Modelagem financeira de 3 meses
+### Modelagem financeira de 6 meses (evolutiva, não linear)
 
-| Métrica | Mês 1 (ramp-up) | Mês 2 (otimização) | Mês 3 (escala) |
-|---|---|---|---|
+Fases: **M1 setup/aprendizado** · **M2–M3 otimização** · **M4–M6 escala**.
+
+| Métrica | M1 (setup) | M2 | M3 | M4 | M5 | M6 |
+|---|---|---|---|---|---|---|
 | Budget, CPL, Leads, Taxa conversão, Vendas, Faturamento, ROAS |
 
+A curva evolui: M1 com CPL 20-30% maior (aprendizado), ganho gradual de eficiência em M2-M3, escala em M4-M6. NÃO modele crescimento linear ("+10%/mês").
+
 **Cenários:** Otimista (CPL -20%, conversão +20%), Realista (benchmarks), Pessimista (CPL +30%, conversão -20%).
+
+### Campanhas detalhadas (TECR)
+
+Para cada campanha: **T**ópico, **E**stratégia, **C**onjunto (segmentação/criativos), **R**esultado esperado — com objetivo, verba e fase de funil.
 
 ### Distribuição por plataforma
 
@@ -57,11 +67,13 @@ Lógica: ICP busca no Google? → Google Search. ICP impactado visual? → Meta.
 | Fase | % do budget | Objetivo |
 Regras: Marca nova → mais topo (40-50%). Marca conhecida → mais fundo (40-50%). Remarketing sempre 10-15%.
 
-### Cronograma de 90 dias
+### Cronograma de 6 meses (180 dias)
 
-*Mês 1 (Ramp-up):* Configuração, lançamento, primeiras otimizações. Meta e ações semanais.
-*Mês 2 (Otimização):* Eliminar piores, escalar melhores, novos hooks. Meta e ações.
-*Mês 3 (Escala):* Dobrar budget nos melhores, expandir lookalike. Meta e ações.
+*M1 (Setup/Aprendizado):* configuração, lançamento, primeiras otimizações. Meta e ações semanais.
+*M2–M3 (Otimização):* eliminar piores, escalar melhores, novos hooks, calibrar segmentação. Metas e ações.
+*M4–M6 (Escala):* dobrar budget nos melhores, expandir lookalike/novas praças, sustentar eficiência. Metas e ações.
+
+Cada fase com `assumptions` e `dependencies` explícitas (criativo pronto, LP no ar, SDR treinado).
 
 ### Alertas e critérios de pausa
 
@@ -81,7 +93,7 @@ Variáveis que podem impactar: qualidade dos criativos, velocidade de aprovaçã
 ```bash
 gog sheets create --title "Forecast Mídia - {NOME_CLIENTE}" --no-input
 ```
-5 abas: Modelagem Financeira, Distribuição, Cronograma 90 Dias, Alertas/Critérios, Disclaimer/Premissas.
+5 abas: Modelagem Financeira (6 meses), Distribuição, Cronograma 6 Meses, Alertas/Critérios, Assumptions/Premissas.
 
 ## Auto-validação
 

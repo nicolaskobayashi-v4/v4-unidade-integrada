@@ -875,6 +875,40 @@
       .consolidated-btn { padding: 0; width: 36px; justify-content: center; border-radius: 50%; }
     }
 
+    /* Apresentação da Entrega Button (primário — vermelho V4, à esquerda do consolidado) */
+    .apresentacao-btn {
+      position: fixed;
+      top: 1rem;
+      right: calc(4rem + 188px);
+      z-index: 9200;
+      height: 36px;
+      padding: 0 0.875rem;
+      border: 1px solid rgba(251,46,10,0.25);
+      border-radius: 18px;
+      background: #FB2E0A;
+      color: #fff;
+      font-family: inherit;
+      font-size: 0.8125rem;
+      font-weight: 700;
+      letter-spacing: -0.005em;
+      cursor: pointer;
+      display: none;
+      align-items: center;
+      gap: 0.4rem;
+      text-decoration: none;
+      transition: background 0.15s, transform 0.1s, box-shadow 0.15s;
+      box-shadow: 0 2px 10px rgba(251,46,10,0.28);
+    }
+    body:not(.gate-locked) .apresentacao-btn { display: inline-flex; }
+    .apresentacao-btn:hover { background: #d61a0e; box-shadow: 0 4px 14px rgba(251,46,10,0.4); }
+    .apresentacao-btn:active { transform: translateY(1px); }
+    .apresentacao-btn svg { display: block; }
+    @media print { .apresentacao-btn { display: none !important; } }
+    @media (max-width: 640px) {
+      .apresentacao-btn .apresentacao-btn__label { display: none; }
+      .apresentacao-btn { padding: 0; width: 36px; right: calc(4rem + 44px); justify-content: center; border-radius: 50%; }
+    }
+
     .gate__card--shake { animation: gateShake 0.4s; }
     @keyframes gateShake {
       0%, 100% { transform: translateX(0); }
@@ -920,6 +954,16 @@
       <p class="gate__error" id="gateError" aria-live="polite"></p>
     </div>
   </div>
+
+  <!-- Apresentação da Entrega Button -->
+  <a href="./apresentacao-entrega.html" id="apresentacaoBtn" class="apresentacao-btn" target="_blank" rel="noopener" aria-label="Abrir apresentação da entrega" title="Abrir apresentação da entrega">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+      <line x1="8" y1="21" x2="16" y2="21"></line>
+      <line x1="12" y1="17" x2="12" y2="21"></line>
+    </svg>
+    <span class="apresentacao-btn__label">Apresentação da Entrega</span>
+  </a>
 
   <!-- Consolidated View Button -->
   <a href="./consolidated.html" id="consolidatedBtn" class="consolidated-btn" target="_blank" rel="noopener" aria-label="Abrir visão consolidada" title="Abrir visão consolidada">
@@ -6702,15 +6746,42 @@ function init() {
   const client = data.client;
   const progress = data.progress || {};
   const outputs = data.outputs || {};
-  const hasSales = client.modulo_vendas !== false;
+  const hasSales = client.modelo_venda ? true : (client.modulo_vendas !== false);
   const escopoVendas = Array.isArray(client.modulo_vendas_escopo) ? client.modulo_vendas_escopo : null;
 
   document.title = 'Portal V4 | ' + (client.name || 'Cliente') + ' | EE AI Powered';
 
-  const activeWeeks = WEEKS
-    .map(w => (w.sales && escopoVendas) ? { ...w, skills: w.skills.filter(s => escopoVendas.includes(s.id)) } : w)
-    .map(w => ({ ...w, skills: w.skills.filter(s => (progress.skills?.[s.id]?.status) !== 'skipped') }))
-    .filter(w => (!w.sales || hasSales) && w.skills.length > 0);
+  // Mapa id→nome amigável: reaproveita os nomes do WEEKS legado + nomes das skills do modelo de venda.
+  const SKILL_NAMES = {};
+  WEEKS.forEach(w => (w.skills||[]).forEach(s => { SKILL_NAMES[s.id] = s.name; }));
+  Object.assign(SKILL_NAMES, {
+    'ee-s1-arquitetura-presenca': 'Arquitetura de Presença Digital',
+    'ee-s3-ecom-cro': 'Diagnóstico de CRO de E-commerce',
+    'ee-s3-ecom-funil': 'Diagnóstico do Funil de E-commerce',
+    'ee-s3-ecom-marketplace': 'Diagnóstico de Marketplace',
+    'ee-s3-ecom-crm-regua': 'Régua de Relacionamento e CRM',
+    'ee-s3-ecom-recuperacao-carrinho': 'Recuperação de Carrinho e Pós-Venda',
+    'ee-s3-is-metricas-funil': 'Métricas e Critérios do Funil',
+    'ee-s3-is-pipeline': 'Pipeline Comercial + Script Consultivo',
+    'ee-s3-pdv-base-ativa': 'Diagnóstico da Base Ativa',
+    'ee-s3-pdv-gmn': 'Diagnóstico de GMN',
+    'ee-s3-pdv-experiencia': 'Experiência do PDV (Remoto)',
+    'ee-s3-pdv-regua-whatsapp': 'Régua de WhatsApp para Loja',
+  });
+
+  // Estrutura de semanas: usa a injetada pelo render (model-aware via delivery-map) ou cai no WEEKS legado.
+  let activeWeeks;
+  if (Array.isArray(data.weeks) && data.weeks.length) {
+    activeWeeks = data.weeks
+      .map(w => ({ n:w.n, title:w.title, desc:w.desc||'', skills:(w.skills||[]).map(id => ({ id, name: SKILL_NAMES[id] || id })) }))
+      .map(w => ({ ...w, skills: w.skills.filter(s => (progress.skills?.[s.id]?.status) !== 'skipped') }))
+      .filter(w => w.skills.length > 0);
+  } else {
+    activeWeeks = WEEKS
+      .map(w => (w.sales && escopoVendas) ? { ...w, skills: w.skills.filter(s => escopoVendas.includes(s.id)) } : w)
+      .map(w => ({ ...w, skills: w.skills.filter(s => (progress.skills?.[s.id]?.status) !== 'skipped') }))
+      .filter(w => (!w.sales || hasSales) && w.skills.length > 0);
+  }
 
   requestAnimationFrame(() => {
     PRES.build(activeWeeks, progress, outputs);

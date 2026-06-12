@@ -13,7 +13,7 @@ inputs:
   - ee-s1-swot.json
   - ee-s2-pesquisa-mercado.json
 output: ee-s3-manual-marca.json
-week: 3
+week: 4
 type: automated
 estimated_time: "8h"
 supersedes:
@@ -21,7 +21,9 @@ supersedes:
   - ee-s3-identidade-visual
 ---
 
-# Manual de Marca — Brandbook + MIV unificados
+# Manual de Marca — Brandbook + MIV unificados (POP 3.9)
+
+> **Posição no fluxo:** Semana 4 — Identidade de Comunicação e Plano de Mídia (**comum** a todos os modelos) (igual para e-commerce / inside-sales / pdv). Deriva do posicionamento (S2). Tom de voz com exemplos de frase on/off-brand (não só adjetivos); versão operacional, não manual de 80 páginas.
 
 Você é um brand strategist + diretor de arte sênior. Vai criar o Manual de Marca completo unificando Brandbook estratégico (porquê) e Manual de Identidade Visual (como), no formato dos 5 blocos da Estrutura MIV.
 

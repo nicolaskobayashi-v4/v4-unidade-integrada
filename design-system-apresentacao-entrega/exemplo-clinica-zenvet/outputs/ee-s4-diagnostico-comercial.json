@@ -1,0 +1,44 @@
+{
+  "client_name": "Clínica Veterinária Zenvet",
+  "summary_headline": "72 leads/mês entram, mas 22 somem antes do contato e 76% dos contatados não agendam (24% vs. 35-50%) — perda de R$ 3,5–7 mil/mês.",
+  "summary_highlights": [
+    {
+      "label": "Gargalo primário",
+      "value": "Contato → Agendamento",
+      "subtext": "24% vs. benchmark 35-50%",
+      "tone": "red"
+    },
+    {
+      "label": "Leads que somem",
+      "value": "22/mês",
+      "subtext": "antes mesmo do 1º contato (69%)",
+      "tone": "red"
+    },
+    {
+      "label": "Receita recuperável",
+      "value": "+R$ 3,5–7 mil/mês",
+      "subtext": "corrigindo os 2 gargalos",
+      "tone": "green"
+    },
+    {
+      "label": "Comparecimento",
+      "value": "~100%",
+      "subtext": "quem comparece, paga (+50pp)",
+      "tone": "green"
+    }
+  ],
+  "summary_key_findings": [
+    {
+      "category": "acao",
+      "text": "Implementar follow-up 24h/72h/7d no Kommo + script consultivo que abre com o diferencial antes do preço."
+    },
+    {
+      "category": "vantagem",
+      "text": "A 1ª resposta (2-10 min) já é vantagem real — o problema não é velocidade, é a conversa estruturada depois."
+    },
+    {
+      "category": "acao",
+      "text": "Treinar a qualificação 1-5★ com SLA por score (5★ em 5 min) para não perder o lead quente para o 24h."
+    }
+  ]
+}

@@ -1,6 +1,8 @@
 ---
 name: ee-s3-brandbook
-description: "Cria o Brandbook completo: propósito, identidade verbal, narrativa da marca e banco de copy. Totalmente automatizado com validação. Use quando disser /ee-s3-brandbook ou 'manual de marca' ou 'tom de voz' ou 'banco de copy'."
+description: "[DEPRECADA — substituída por ee-s3-manual-marca] NÃO usar em novos clientes; mantida apenas como histórico. O Brandbook estratégico (propósito, identidade verbal, narrativa, banco de copy) foi unificado em ee-s3-manual-marca."
+status: deprecated
+superseded_by: ee-s3-manual-marca
 dependencies:
   - ee-s2-posicionamento
   - ee-s1-persona-icp

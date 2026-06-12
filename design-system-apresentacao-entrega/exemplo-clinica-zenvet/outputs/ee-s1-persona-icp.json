@@ -1,0 +1,44 @@
+{
+  "client_name": "Clínica Veterinária Zenvet",
+  "summary_headline": "ICP: tutoras de gatos 25-55 (80% mulheres), classe média-alta, que querem uma veterinária que entenda de felinos de verdade — e têm medo de exame desnecessário.",
+  "summary_highlights": [
+    {
+      "label": "Persona",
+      "value": "Mariana, 36",
+      "subtext": "professora · o gato é o filho da casa",
+      "tone": "blue"
+    },
+    {
+      "label": "Disposição a pagar",
+      "value": "\"Pago o que precisar\"",
+      "subtext": "limite é confiança + parcelamento",
+      "tone": "green"
+    },
+    {
+      "label": "Base atual",
+      "value": "70% gatos",
+      "subtext": "30% cães (segmento de expansão)",
+      "tone": "blue"
+    },
+    {
+      "label": "Renda",
+      "value": "R$ 5–12 mil/mês",
+      "subtext": "classe média a média-alta",
+      "tone": "blue"
+    }
+  ],
+  "summary_key_findings": [
+    {
+      "category": "vantagem",
+      "text": "O ICP valoriza acompanhamento próximo e teme exame desnecessário — diferencial direto da Nathalia."
+    },
+    {
+      "category": "acao",
+      "text": "Maior vazamento na Consideração (3-7 dias): faltam sinais de especialização felina no GMB, bio do IG e reviews."
+    },
+    {
+      "category": "posicao",
+      "text": "Converter crítico (emergência, sem teto de preço) em recorrência é a alavanca de LTV — não apenas reajustar rotina."
+    }
+  ]
+}

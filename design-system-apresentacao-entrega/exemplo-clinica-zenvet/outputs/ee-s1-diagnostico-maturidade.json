@@ -1,0 +1,44 @@
+{
+  "client_name": "Clínica Veterinária Zenvet",
+  "summary_headline": "Maturidade digital 21/100 (crítico): rastreamento zerado, mídia, CRO e CRM no chão — esta é a base que precisa ser estruturada antes de qualquer escala.",
+  "summary_highlights": [
+    {
+      "label": "Score geral",
+      "value": "21/100",
+      "subtext": "classificação crítica",
+      "tone": "red"
+    },
+    {
+      "label": "Piores pilares",
+      "value": "CRO 12 · CRM 14",
+      "subtext": "onde a operação mais perde hoje",
+      "tone": "red"
+    },
+    {
+      "label": "Mídia & conteúdo",
+      "value": "Mídia 18 · SEO 30",
+      "subtext": "criativos 32 — tudo abaixo do ideal",
+      "tone": "yellow"
+    },
+    {
+      "label": "Conversão atual",
+      "value": "16,6%",
+      "subtext": "lead → agendamento",
+      "tone": "red"
+    }
+  ],
+  "summary_key_findings": [
+    {
+      "category": "acao",
+      "text": "Prioridade 1: instalar Pixel/GA4 na LP e configurar eventos de conversão (clique WhatsApp, agendamento)."
+    },
+    {
+      "category": "acao",
+      "text": "Corrigir tracking (Pixel + CAPI), migrar Meta para objetivo LEADS e preencher o budget contratado."
+    },
+    {
+      "category": "acao",
+      "text": "Reconfigurar o Google Ads para intenção local e criar campanha 'especialista felinos Americana'."
+    }
+  ]
+}

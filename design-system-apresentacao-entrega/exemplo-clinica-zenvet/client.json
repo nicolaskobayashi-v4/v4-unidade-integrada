@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "name": "Clínica Veterinária Zenvet",
+    "slug": "clinica-veterinaria-zenvet",
+    "workspace_id": null,
+    "created_at": "2026-04-15",
+    "modelo_venda": "inside-sales"
+  },
+  "briefing": {
+    "identification": {
+      "name": "Clínica Veterinária Zenvet",
+      "segment": "Saúde Animal & Pet Care",
+      "location": "Americana, SP"
+    }
+  },
+  "research": {
+    "fetched_at": null
+  },
+  "connectors": {
+    "fetched_at": null
+  },
+  "progress": {
+    "current_week": 3,
+    "skills": {
+      "ee-s1-diagnostico-maturidade": {
+        "status": "completed",
+        "checkpoint": 0
+      },
+      "ee-s1-persona-icp": {
+        "status": "completed",
+        "checkpoint": 0
+      },
+      "ee-s2-posicionamento": {
+        "status": "completed",
+        "checkpoint": 0
+      },
+      "ee-s3-manual-marca": {
+        "status": "completed",
+        "checkpoint": 0
+      },
+      "ee-s2-pesquisa-mercado": {
+        "status": "completed",
+        "checkpoint": 0
+      },
+      "ee-s1-swot": {
+        "status": "completed",
+        "checkpoint": 0
+      },
+      "ee-s2-diagnostico-midia": {
+        "status": "completed",
+        "checkpoint": 0
+      },
+      "ee-s2-diagnostico-organico-ig": {
+        "status": "completed",
+        "checkpoint": 0
+      },
+      "ee-s1-auditoria-comunicacao": {
+        "status": "completed",
+        "checkpoint": 0
+      },
+      "ee-s2-diagnostico-cro": {
+        "status": "completed",
+        "checkpoint": 0
+      },
+      "ee-s4-diagnostico-comercial": {
+        "status": "completed",
+        "checkpoint": 0
+      },
+      "ee-s4-cliente-oculto": {
+        "status": "completed",
+        "checkpoint": 0
+      },
+      "ee-s5-scripts-sdr": {
+        "status": "completed",
+        "checkpoint": 0
+      },
+      "ee-s3-crm-setup": {
+        "status": "completed",
+        "checkpoint": 0
+      },
+      "ee-s3-forecast-midia": {
+        "status": "completed",
+        "checkpoint": 0
+      }
+    }
+  },
+  "history": []
+}

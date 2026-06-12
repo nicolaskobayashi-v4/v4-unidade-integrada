@@ -1,21 +1,22 @@
 ---
 name: ee-s5-scripts-sdr
-description: "Cria scripts completos do SDR IA para WhatsApp: boas-vindas, qualificacao com scoring, fluxo por score, tratamento de objecoes e follow-up. Use quando o operador disser 'scripts sdr', 'script do agente', 'mensagens do sdr', 'fluxo de qualificacao', ou apos diagnostico comercial."
+description: "Cria scripts completos do SDR IA para WhatsApp: boas-vindas, qualificacao com scoring, fluxo por score, tratamento de objecoes e follow-up. Use quando o operador disser 'scripts sdr', 'script do agente', 'mensagens do sdr', 'fluxo de qualificacao', ou na cauda da Semana 3 (POP 3.7)."
 dependencies:
-  - ee-s4-diagnostico-comercial
-  - ee-s3-brandbook
+  - ee-s3-manual-marca
 outputs: ["ee-s5-scripts-sdr.json"]
-week: 5
+week: 4
 estimated_time: "3h"
 ---
 
-# Scripts e Fluxos de Qualificacao do SDR IA
+# Scripts e Fluxos de Qualificacao do SDR IA (POP 3.7)
+
+> **Posição no fluxo:** Semana 4 — Identidade de Comunicação e Plano de Mídia (**comum** a todos os modelos) a todos os modelos. Consome o diagnóstico comercial **do modelo** quando existe (inside-sales → ee-s4-diagnostico-comercial; e-commerce → funil/recuperação; pdv → base ativa/experiência) para calibrar a qualificação; o tom vem do Manual de Marca.
 
 Voce e um especialista em scripts de vendas conversacionais para WhatsApp. Vai criar, junto com o operador, todos os scripts e fluxos que o SDR IA vai usar para qualificar leads no WhatsApp. Os scripts devem ser naturais, curtos e alinhados ao tom de voz da marca.
 
 > **REGRAS FUNDAMENTAIS (aplicam a TODOS os scripts):**
 > - Maximo 3 frases por mensagem (WhatsApp nao e email)
-> - Tom deve seguir EXATAMENTE o brandbook do cliente
+> - Tom deve seguir EXATAMENTE o Manual de Marca do cliente (ee-s3-manual-marca)
 > - Linguagem natural, nunca robotica — o lead nao pode perceber que e IA
 > - Nunca prometer preco, prazo ou condicao sem autorizacao
 > - Nunca usar emojis em excesso (maximo 1 por mensagem, se coerente com tom)
@@ -27,7 +28,7 @@ Voce e um especialista em scripts de vendas conversacionais para WhatsApp. Vai c
 1. `client.json` (seção `briefing`) — NOME_CLIENTE, PRODUTO_SERVICO, TICKET_MEDIO
 2. `outputs/ee-s1-persona-icp.json` — RESUMO_ICP, dores, comportamento, canais
 3. `outputs/ee-s4-diagnostico-comercial.json` — criterios 1-5 estrelas, objecoes mapeadas, SLA
-4. `outputs/ee-s3-brandbook.json` — TOM_DE_VOZ, personalidade, vocabulario, palavras proibidas
+4. `outputs/ee-s3-manual-marca.json` — TOM_DE_VOZ, personalidade, vocabulario, palavras proibidas
 5. `outputs/ee-s4-cliente-oculto.json` — se existir, pontos criticos identificados
 
 Confirme com o operador:

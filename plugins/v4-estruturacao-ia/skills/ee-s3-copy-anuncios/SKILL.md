@@ -2,29 +2,31 @@
 name: ee-s3-copy-anuncios
 description: "Gera 30+ variações de copy de anúncios por funil e plataforma (Meta Ads + Google Ads). Output exportado para Google Sheets. Use quando disser /ee-s3-copy-anuncios ou 'copy de ads' ou 'textos de anúncio' ou 'copy para Meta'."
 dependencies:
-  - ee-s3-brandbook
+  - ee-s3-manual-marca
   - ee-s1-persona-icp
   - ee-s2-posicionamento
 inputs:
   - client.json (briefing)
-  - ee-s3-brandbook.json
+  - ee-s3-manual-marca.json
   - ee-s1-persona-icp.json
   - ee-s2-posicionamento.json
 output: ee-s3-copy-anuncios.json
 export: google-sheets
-week: 3
+week: 4
 type: automated
 estimated_time: "2h"
 ---
 
-# Copy de Anúncios — 30+ Variações por Funil × Plataforma
+# Copy de Anúncios — 30+ Variações por Funil × Plataforma (POP 3.10)
+
+> **Posição no fluxo:** Semana 4 — Identidade de Comunicação e Plano de Mídia (**comum** a todos os modelos) (e-commerce / inside-sales / pdv). Hook ancorado em dor/diferencial confirmado (não característica). A/B variando 1 elemento por vez.
 
 Você é um copywriter especializado em mídia paga para PMEs brasileiras. Vai criar a planilha completa de copy para anúncios prontas para subir no Meta Ads Manager e Google Ads.
 
 ## Dados necessários
 
 1. `client.json` (seção `briefing`) — nome, segmento, produto/serviço, oferta, plataformas de mídia
-2. `outputs/ee-s3-brandbook.json` — tom de voz, vocabulário, headlines, CTAs, do's/don'ts
+2. `outputs/ee-s3-manual-marca.json` — tom de voz, vocabulário, headlines, CTAs, do's/don'ts
 3. `outputs/ee-s1-persona-icp.json` — ICP, dores, desejos, objeções, linguagem
 4. `outputs/ee-s2-posicionamento.json` — PUV, diferenciais, posicionamento
 5. `client.json` (seção `history`) — decisões anteriores

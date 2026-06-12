@@ -5,12 +5,14 @@ dependencies:
   - ee-s5-scripts-sdr
   - ee-s3-crm-setup
 outputs: ["ee-s5-sdr-ia-config.json"]
-week: 5
+week: 4
 estimated_time: "4h"
 semi_manual: true
 ---
 
-# Configuracao do SDR IA (Patagon + Kommo)
+# Configuracao do SDR IA (Patagon + Kommo) — POP 3.7
+
+> **Posição no fluxo:** Semana 4 — Identidade de Comunicação e Plano de Mídia (**comum** a todos os modelos) a todos os modelos. Coloca o agente do `ee-s5-scripts-sdr` no ar, integrado ao CRM (ee-s3-crm-setup). Sobe ao vivo só após validar o scoring com leads reais.
 
 Voce e um guia tecnico para configuracao do agente SDR IA no Patagon com integracao Kommo CRM. Esta skill e SEMI-MANUAL: voce gera as instrucoes passo a passo e o operador executa no Patagon e Kommo. Apos cada etapa, o operador confirma que executou.
 
@@ -27,7 +29,7 @@ Voce e um guia tecnico para configuracao do agente SDR IA no Patagon com integra
 1. `client.json` (seção `briefing`) — NOME_CLIENTE, PRODUTO_SERVICO
 2. `outputs/ee-s5-scripts-sdr.json` — TODOS os scripts, perguntas, fluxos, objeções
 3. `outputs/ee-s4-diagnostico-comercial.json` — critérios 1-5 estrelas, SLA
-4. `outputs/ee-s3-brandbook.json` — TOM_DE_VOZ, nome do agente
+4. `outputs/ee-s3-manual-marca.json` — TOM_DE_VOZ, nome do agente
 5. `outputs/ee-s3-crm-setup.json` — pipeline configurado no Kommo
 
 Se alguma dependência não estiver completa:

@@ -3,7 +3,6 @@ name: ee-s2-diagnostico-organico-ig
 description: "Diagnostico de conteudo organico no Instagram — cliente vs 2 concorrentes, ultimos 90 dias, via Instagram Graph API + business_discovery. Use quando o operador disser /ee-s2-diagnostico-organico-ig ou 'analisar conteudo organico' ou 'diagnostico de instagram' ou 'analise de conteudo do cliente'."
 dependencies:
   - ee-s1-persona-icp
-  - ee-s2-posicionamento
   - ee-s2-pesquisa-mercado
 tools: []
 week: 2
@@ -12,7 +11,9 @@ output_file: "ee-s2-diagnostico-organico-ig.json"
 multimodal: true
 ---
 
-# Diagnostico de Conteudo Organico — Instagram
+# Diagnostico de Conteudo Organico — Instagram (POP 2.2)
+
+> **Posição no fluxo:** Semana 2 — comum a todos os modelos. Engagement sempre **normalizado por seguidores** (taxa, não absoluto). Gera ações editoriais guiadas por gaps dos concorrentes.
 
 Voce e um diretor de conteudo digital focado em PMEs brasileiras. Vai rodar um diagnostico comparativo do feed organico do cliente contra 2 concorrentes no Instagram — ultimos 90 dias — usando dados reais da Instagram Graph API (sem necessidade de acesso do cliente), com embed oficial dos posts no portal.
 
@@ -129,7 +130,7 @@ Apresente o output COMPLETO ao operador.
 4. Sugira proxima skill:
    - "Diagnostico organico IG concluido. Cliente: {followers} seguidores, {posts_90d} posts/90d. Top formato do cliente: {formato}. Gaps identificados: {numero}."
    - "Este diagnostico alimenta: /ee-s3-criativos-anuncios (padroes que funcionam para o ICP no organico)"
-   - "Proximo passo recomendado: /ee-s2-diagnostico-cro (se ainda nao feito) ou /ee-s3-identidade-visual"
+   - "Proximo passo recomendado conforme delivery-map.json: seguir nos diagnósticos da Semana 2 (ex: /ee-s1-diagnostico-maturidade) e fechar com /ee-s2-posicionamento."
 
 ## Campo obrigatorio: summary
 

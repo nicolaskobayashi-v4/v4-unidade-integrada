@@ -151,7 +151,7 @@ Ponte: "[Produto] conecta você aos clientes que já buscam o que você vende"
 - [ ] Nenhuma copy do topo menciona produto/marca
 - [ ] Fundo de funil tem urgência REAL (não fake)
 - [ ] Remarketing é diferente da copy fria
-- [ ] Tom consistente com ee-s3-brandbook (vocabulário, tratamento)
+- [ ] Tom consistente com ee-s3-manual-marca (vocabulário, tratamento)
 - [ ] Nenhuma violação de política de plataforma
 - [ ] Mínimo 30 variações no total
 - [ ] Cada variação testa um hook/ângulo diferente (não paráfrases do mesmo)

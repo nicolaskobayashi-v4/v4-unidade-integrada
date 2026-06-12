@@ -1,0 +1,44 @@
+{
+  "client_name": "Clínica Veterinária Zenvet",
+  "summary_headline": "Score médio 35/100 — três hemorragias: Meta com link 404 (R$ 800/mês), zero tracking e a mensagem felina ausente em todos os pontos de contato.",
+  "summary_highlights": [
+    {
+      "label": "Score médio",
+      "value": "35/100",
+      "subtext": "5 quick wins sem custo esta semana",
+      "tone": "red"
+    },
+    {
+      "label": "Anúncios",
+      "value": "18/100",
+      "subtext": "Meta com link 404 destruindo R$ 800/mês",
+      "tone": "red"
+    },
+    {
+      "label": "Site",
+      "value": "28/100",
+      "subtext": "zero Pixel, GTM ou Analytics",
+      "tone": "red"
+    },
+    {
+      "label": "GMB",
+      "value": "46/100",
+      "subtext": "reviews falam de 'pet' genérico",
+      "tone": "yellow"
+    }
+  ],
+  "summary_key_findings": [
+    {
+      "category": "acao",
+      "text": "Corrigir a URL 404 do Meta e instalar Pixel + GTM no site — recupera R$ 800/mês imediatamente."
+    },
+    {
+      "category": "acao",
+      "text": "Refinar a bio do IG: remover 'clínica geral de cães' (dilui), adicionar wa.me clicável e CTA explícito."
+    },
+    {
+      "category": "acao",
+      "text": "Post no GMB com especialização felina + foto da Nathalia com gato + categoria atualizada."
+    }
+  ]
+}

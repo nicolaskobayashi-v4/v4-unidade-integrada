@@ -53,13 +53,16 @@ Por quê: você começa ancorado na camada mais autoritativa (decisão/evidênci
 
 ### Detecção de semana (se argumento `semana` omitido)
 
-Leia `client.json.progress.skills`. Agrupe as skills por prefixo `ee-sN-*`. A semana alvo é a MAIOR semana onde TODAS as skills da semana (conforme `dependency_graph.json`) estão com `status: completed`. Se nenhuma semana está 100% completa, avise o operador e pare.
+Leia `client.json.meta.modelo_venda` e monte a sequência oficial a partir de `delivery-map.json` (fonte única): `comum.semana_1` + `comum.semana_2` + `semana_3[modelo_venda]` + `comum.semana_4`. A semana de cada skill é o **bloco em que ela aparece nesse mapa** (1–4) — **NÃO** use o prefixo `ee-sN-` do nome da skill: ele é um id histórico e NÃO corresponde à semana real (ex.: `ee-s1-diagnostico-maturidade` está na Semana 2; `ee-s2-diagnostico-cro`/`ee-s4-*` na Semana 3 do inside-sales; `ee-s5-*` na Semana 4). A semana alvo é a MAIOR semana onde TODAS as skills daquele bloco estão com `status: completed` em `client.json.progress.skills`. Se nenhuma semana está 100% completa, avise o operador e pare.
 
 ### Semanas e skills cobertas (referência)
 
-- **Semana 1:** ee-s1-persona-icp, ee-s1-diagnostico-maturidade, ee-s1-swot, ee-s1-auditoria-comunicacao
-- **Semana 2:** ee-s2-pesquisa-mercado, ee-s2-posicionamento, ee-s2-diagnostico-midia, ee-s2-diagnostico-criativos, ee-s2-diagnostico-organico-ig, ee-s2-diagnostico-cro
-- **Semana 3+:** derivar de `dependency_graph.json` (prefixo `ee-sN-`)
+A composição das 4 semanas vem de `delivery-map.json` e varia por `meta.modelo_venda` apenas na Semana 3 — **não mantenha listas de skills hardcoded aqui**:
+
+- **Semana 1 (comum):** `delivery-map.comum.semana_1`
+- **Semana 2 (comum):** `delivery-map.comum.semana_2`
+- **Semana 3 (modelo):** `delivery-map.semana_3[meta.modelo_venda]`
+- **Semana 4 (comum):** `delivery-map.comum.semana_4`
 
 ## Geração — 3 passes obrigatórios
 

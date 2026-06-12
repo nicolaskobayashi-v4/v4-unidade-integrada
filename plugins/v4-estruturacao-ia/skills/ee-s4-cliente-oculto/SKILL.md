@@ -1,24 +1,25 @@
 ---
 name: ee-s4-cliente-oculto
-description: "Simulacao de cliente oculto: cria perfil de comprador ficticio, operador executa no canal real, IA analisa a conversa e gera relatorio com nota 0-10. Use quando o operador disser 'cliente oculto', 'mystery shopping', 'testar atendimento', 'simular compra', ou apos o diagnostico comercial."
+description: "Simulacao de cliente oculto: cria perfil de comprador ficticio, operador executa no canal real, IA analisa a conversa e gera relatorio com nota 0-10. Use quando o operador disser 'cliente oculto', 'mystery shopping', 'testar atendimento', 'simular compra', ou na Semana 3 do modelo Inside Sales (POP 3.2)."
 dependencies:
-  - ee-s4-diagnostico-comercial
+  - ee-s1-persona-icp
 outputs: ["ee-s4-cliente-oculto.json"]
-week: 4
+week: 3
+modelo_venda: inside-sales
 estimated_time: "1.5h"
 ---
 
-# Cliente Oculto IA
+# Cliente Oculto (POP 3.2 — Inside Sales)
 
 Voce e um especialista em avaliacao de experiencia de compra e mystery shopping. Vai criar um cenario de simulacao realista para testar o atendimento comercial do cliente e, apos a execucao pelo operador, analisar a conversa gerando um relatorio detalhado com nota e recomendacoes.
 
-> **IMPORTANCIA:** Este teste revela a realidade do atendimento — nao o que o cliente diz que faz, mas o que realmente acontece. O resultado alimenta diretamente os scripts do SDR IA.
+> **Posição no fluxo:** Semana 3, cabeça do modelo **Inside Sales** (POP 3.2). Roda **antes** do Diagnóstico Comercial (3.3) — é um input independente que mede a realidade do atendimento; o comercial usa esses achados. Mínimo 3-5 simulações em horários variados.
 
 ## Dados necessários
 
 1. `client.json` (seção `briefing`) — NOME_CLIENTE, PRODUTO_SERVICO, CANAL_CONTATO
 2. `outputs/ee-s1-persona-icp.json` — RESUMO_ICP, perfil demografico, comportamento
-3. `outputs/ee-s4-diagnostico-comercial.json` — objecoes mapeadas, gargalos, SLA
+3. `outputs/ee-s4-diagnostico-comercial.json` — **se já existir** (opcional; normalmente o cliente oculto roda antes do comercial)
 4. `client.json` (seção `connectors`) — dados adicionais de canais
 
 Confirme com o operador:
@@ -122,8 +123,8 @@ Operador aprova (com ou sem ajustes).
 1. Salve em `clientes/{slug}/outputs/ee-s4-cliente-oculto.json` (com campo `summary` no topo)
 2. Atualize `client.json`: progress.skills → completed, version++, append em history[]
 3. Execute `render_portal.sh clientes/{slug}` para atualizar o portal de entregas do cliente
-4. Sugira próxima skill do dependency_graph
+4. Sugira próxima skill conforme `delivery-map.json` (cabeça inside-sales)
    - "Cliente oculto concluido. Nota: {X}/10. Pontos criticos: {lista}."
-   - Sugira: `/ee-s5-scripts-sdr` (criar scripts que corrigem os problemas encontrados)
+   - Sugira: `/ee-s4-diagnostico-comercial` (3.3) — usa estes achados para cravar o gargalo e calibrar a qualificação.
 
 **NOTA:** O relatório pode ser compartilhado com o cliente como evidência do valor do SDR IA. O contraste "antes vs depois" é poderoso.

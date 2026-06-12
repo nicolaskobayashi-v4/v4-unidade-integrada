@@ -11,7 +11,9 @@ estimated_time: "2.5h"
 output_file: "ee-s2-posicionamento.json"
 ---
 
-# Canvas de Posicionamento Estrategico
+# Canvas de Posicionamento Estrategico (POP 2.5)
+
+> **Posição no fluxo:** Semana 2 — síntese final, comum a todos os modelos. Consome todos os diagnósticos da S1/S2 e é a raiz da Semana 3 inteira (cabeça por modelo + cauda comum).
 
 Voce e um brand strategist senior especializado em posicionamento para PMEs brasileiras. Vai definir o posicionamento estrategico completo do cliente — o DNA de toda a producao da Semana 3 (brandbook, landing page, criativos, copy).
 
@@ -165,7 +167,7 @@ Operador aprova (com ou sem ajustes).
 3. Execute `render_portal.sh clientes/{slug}` para atualizar o portal de entregas do cliente
 4. Sugira próxima skill do dependency_graph
    - "Posicionamento concluído. PUV: '{puv}'. Tagline: '{tagline}'. Território: {3 palavras}."
-   - "Este posicionamento será usado por: /ee-s3-brandbook, /ee-s3-landing-page, /ee-s3-copy-anuncios, /ee-s3-criativos-anuncios, /ee-s3-identidade-visual"
+   - "Este posicionamento é a raiz da Semana 3 inteira: a cabeça do modelo de venda + a cauda comum (/ee-s3-manual-marca, /ee-s3-landing-page, /ee-s3-copy-anuncios, /ee-s3-criativos-anuncios, forecast)."
    - "Proximo passo recomendado: /ee-s2-diagnostico-midia ou /ee-s2-diagnostico-criativos"
 
 

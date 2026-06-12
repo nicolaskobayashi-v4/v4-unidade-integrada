@@ -18,11 +18,20 @@ Para cadastrar o cliente, preciso de:
 2. Site (URL)
 3. Instagram (@handle)
 4. Workspace V4MOS? (UUID ou "não tem")
-5. Módulo vendas/SDR IA contratado? (sim/não)
+5. Modelo de venda? (e-commerce / inside-sales / pdv) — define os entregáveis da Semana 3
 6. Quer que eu pesquise a empresa na internet pra preencher o briefing automaticamente? (gasta mais tokens, economiza tempo)
 ```
 
 Derive o slug do nome: lowercase, sem acentos, espaços viram hífens. Exemplo: "Padaria do João" → `padaria-do-joao`.
+
+**Modelo de venda** (define os entregáveis da Semana 3 — escolha 1 de 3):
+- **`e-commerce`** — venda online/loja virtual (checkout, carrinho, PDP, marketplace). Funil do clique ao pago e à recompra.
+- **`inside-sales`** — venda consultiva por time comercial (lead → qualificação → proposta → fechamento). CRM, SDR, pipeline.
+- **`pdv`** — loja física / ponto de venda (base ativa, GMN/presença local, fluxo de visita via WhatsApp).
+
+Se o operador estiver em dúvida, classifique pela pergunta "como o cliente fecha a venda predominantemente?". São 4 semanas: a Semana 1, a Semana 2 e a Semana 4 são iguais nos três modelos; só a **Semana 3** (Estrutura da Operação de Venda) muda.
+
+**Preparação (POPs 1.1–1.4 — checklist operacional, não são skills):** ao criar o cliente, lembre o operador de (1) criar o grupo de WhatsApp + boas-vindas, (2) preencher o cadastro no V4 Marketing, (3) agendar o kick-off, (4) solicitar e testar os acessos (Meta, Google Ads, GA4, GMN, CRM). Esses passos são manuais e antecedem as skills da Semana 1.
 
 ### Se o operador escolheu BUSCA AUTOMÁTICA:
 
@@ -196,7 +205,7 @@ Confirme com o operador:
 Cliente: {nome}
 Slug: {slug}
 Workspace V4MOS: {workspace_id ou "sem integração"}
-Módulo Vendas: {sim/não}
+Modelo de venda: {e-commerce / inside-sales / pdv}
 
 Correto?
 ```
@@ -215,7 +224,6 @@ clientes/{slug}/
   semana-1/
   semana-2/
   semana-3/
-  semana-4-5/              ← só criar se módulo vendas = sim
 ```
 
 Inicialize `client.json` com a estrutura completa:
@@ -227,42 +235,37 @@ Inicialize `client.json` com a estrutura completa:
     "slug": "slug",
     "workspace_id": "workspace-uuid",
     "created_at": "YYYY-MM-DD",
-    "modulo_vendas": true
+    "modelo_venda": "e-commerce"
   },
   "briefing": {},
   "research": {"fetched_at": null},
   "connectors": {"fetched_at": null, "integrations": null},
   "progress": {
     "current_week": 1,
-    "skills": {
-    "ee-s1-diagnostico-maturidade": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
-    "ee-s1-swot": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
-    "ee-s1-persona-icp": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
-    "ee-s1-auditoria-comunicacao": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
-    "ee-s2-pesquisa-mercado": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
-    "ee-s2-posicionamento": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
-    "ee-s2-diagnostico-midia": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
-    "ee-s2-diagnostico-criativos": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
-    "ee-s2-diagnostico-cro": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
-    "ee-s3-identidade-visual": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
-    "ee-s3-brandbook": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
-    "ee-s3-landing-page": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
-    "ee-s3-copy-anuncios": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
-    "ee-s3-criativos-anuncios": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
-    "ee-s3-crm-setup": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
-    "ee-s3-forecast-midia": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
-    "ee-s3-gmb-otimizacao": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
-    "ee-s4-diagnostico-comercial": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
-    "ee-s4-cliente-oculto": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
-    "ee-s5-scripts-sdr": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
-    "ee-s5-sdr-ia-config": {"status": "pending", "version": 0, "started_at": null, "completed_at": null}
-    }
+    "skills": { ... ver regra abaixo ... }
   },
   "history": []
 }
 ```
 
-Se `modulo_vendas` = false, remova as 4 skills de semana 4-5 do progress.skills e não crie a pasta `semana-4-5/`.
+### Como montar `progress.skills`
+
+Leia **`delivery-map.json`** (na raiz do plugin) e monte a lista de skills na ORDEM das 4 semanas:
+
+```
+comum.semana_1  +  comum.semana_2  +  semana_3[modelo_venda]  +  comum.semana_4
+```
+
+Para cada skill, crie a entrada:
+
+```json
+"<nome-da-skill>": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null}
+```
+
+**Exemplo resolvido para `modelo_venda: "e-commerce"`** (ordem final):
+`ee-s1-persona-icp`, `ee-s1-auditoria-comunicacao`, `ee-s1-swot`, `ee-s2-pesquisa-mercado`, `ee-s1-arquitetura-presenca`, `ee-s2-diagnostico-midia`, `ee-s2-diagnostico-organico-ig`, `ee-s2-diagnostico-criativos`, `ee-s1-diagnostico-maturidade`, `ee-s2-posicionamento`, `ee-s3-ecom-cro`, `ee-s3-ecom-funil`, `ee-s3-ecom-marketplace`, `ee-s3-ecom-crm-regua`, `ee-s3-ecom-recuperacao-carrinho`, `ee-s3-manual-marca`, `ee-s3-landing-page`, `ee-s3-copy-anuncios`, `ee-s3-criativos-anuncios`, `ee-s3-crm-setup`, `ee-s5-scripts-sdr`, `ee-s5-sdr-ia-config`, `ee-s3-forecast-midia`.
+
+(Aqui Semana 3 = `semana_3["e-commerce"]` = os 5 `ee-s3-ecom-*`; Semana 4 = `comum.semana_4`.) Para `inside-sales` ou `pdv`, troque apenas o bloco `semana_3[modelo_venda]`. Nunca hardcode a lista aqui — sempre derive do manifesto.
 
 ## Etapa 3: Puxar dados V4MOS
 
@@ -435,7 +438,7 @@ Ordem das seções:
 5. **Marca e Identidade** — adjetivos, tom de voz, marcas admiradas, restrições
 6. **Situação Digital** — tráfego pago, CRM, fontes de leads, conversão
 7. **Acessos** — Meta, Google Ads, GA, etc.
-8. **Módulo Vendas** — só se contratado (vendedores, processo, objeções)
+8. **Processo Comercial** (`sales_module`) — vendedores, processo, objeções. Detalhar para `inside-sales` e `pdv`; para `e-commerce` registrar SAC/pré-venda
 
 Campos que SEMPRE precisam ser coletados manualmente (não existem no V4MOS):
 - Descrição dos 3 melhores clientes
@@ -535,7 +538,7 @@ Salve tudo em `clientes/{slug}/client.json (briefing)` com a estrutura:
 }
 ```
 
-Se `modulo_vendas` = false, o campo `sales_module` deve ser `null`.
+Preencha `sales_module` conforme o `modelo_venda`: para `inside-sales` e `pdv`, detalhe time e processo comercial (vendedores, etapas, objeções, ciclo). Para `e-commerce`, foque em SAC/pré-venda e deixe `null` os campos de time de vendas que não se aplicam.
 
 ## Etapa 6: Confirmar e gerar portal
 
@@ -549,7 +552,7 @@ Se `modulo_vendas` = false, o campo `sales_module` deve ser `null`.
    Concorrentes: {lista}
    Tom de voz: {tom}
    Tráfego pago: {sim/não} ({plataformas})
-   Módulo vendas: {sim/não}
+   Modelo de venda: {e-commerce / inside-sales / pdv}
    ```
 
 2. Pergunte: "Quer ajustar algum campo antes de salvar definitivamente?"

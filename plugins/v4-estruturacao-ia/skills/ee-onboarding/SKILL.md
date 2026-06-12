@@ -80,11 +80,14 @@ Sobre o V4MOS:
   O sistema puxa dados de lá automaticamente (Service Account)
   Credenciais são configuradas POR CLIENTE, não globalmente
 
-Semanas do processo:
-  S1 — Diagnóstico (maturidade, SWOT, ICP, auditoria)
-  S2 — Pesquisa e Posicionamento (mercado, PUV, mídia, criativos, CRO)
-  S3 — Produção (identidade, brandbook, LP, copy, CRM, forecast)
-  S4-5 — Vendas (diagnóstico comercial, cliente oculto, scripts, SDR IA)
+Semanas do processo (4 semanas — sequência definida em delivery-map.json):
+  S1 — Descoberta do Negócio e Pesquisa de Mercado (persona/ICP, auditoria, SWOT+concorrentes, pesquisa, arquitetura) — comum
+  S2 — Diagnóstico Digital e Posicionamento Estratégico (mídia, orgânico, criativos, maturidade, posicionamento+PUV) — comum
+  S3 — Estrutura da Operação de Venda (POPs 3.1–3.5) — VARIA pelo modelo: e-commerce / inside-sales / pdv
+  S4 — Identidade de Comunicação e Plano de Mídia (POPs 3.6–3.12) — comum: Manual de Marca, LP, copy, criativos, CRM, SDR IA, forecast
+
+O modelo de venda (e-commerce / inside-sales / pdv) é escolhido no /novo-cliente e define
+quais diagnósticos/estrutura entram na Semana 3.
 ```
 
 ## Etapa 3: Verificação final

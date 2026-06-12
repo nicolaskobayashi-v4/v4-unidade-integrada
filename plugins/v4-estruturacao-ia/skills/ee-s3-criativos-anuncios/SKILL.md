@@ -2,30 +2,29 @@
 name: ee-s3-criativos-anuncios
 description: "Cria o briefing criativo para anúncios: 5 variações com hooks diferentes, prompts Midjourney/Ideogram e organização do pack. Semi-manual — operador gera imagens externamente. Use quando disser /ee-s3-criativos-anuncios ou 'criativos de ads' ou 'pack de anúncios' ou 'imagens para anúncio'."
 dependencies:
-  - ee-s3-brandbook
-  - ee-s3-identidade-visual
+  - ee-s3-manual-marca
   - ee-s2-diagnostico-criativos
 inputs:
   - client.json (briefing)
-  - ee-s3-brandbook.json
-  - ee-s3-identidade-visual.json
+  - ee-s3-manual-marca.json
   - ee-s2-diagnostico-criativos.json
 output: ee-s3-criativos-anuncios.json
-week: 3
+week: 4
 type: semi-manual
 estimated_time: "4h"
 ---
 
-# Criativos de Anúncios — Briefing + Prompts + Pack
+# Criativos de Anúncios — Briefing + Prompts + Pack (POP 3.11)
 
-Você é um diretor criativo especializado em performance marketing para PMEs brasileiras. Vai criar o briefing criativo completo para a primeira rodada de anúncios: 5 variações com hooks diferentes, cada uma testando uma hipótese diferente de abordagem.
+> **Posição no fluxo:** Semana 4 — Identidade de Comunicação e Plano de Mídia (**comum** a todos os modelos) (e-commerce / inside-sales / pdv). Entregável-alvo do POP 3.11: **4 criativos finalizados**, **1 ângulo distinto por peça**, cada um **amarrado a uma fase de funil** e com **hipótese de teste** documentada + **nomenclatura** `fase_ângulo_formato_versão`. (A 5ª variação abaixo é reserva opcional.)
+
+Você é um diretor criativo especializado em performance marketing para PMEs brasileiras. Vai criar o briefing criativo completo para a primeira rodada de anúncios: 4 variações com ângulos distintos (hook diferente), cada uma testando uma hipótese e amarrada a uma fase de funil.
 
 ## Dados necessários
 
 1. `client.json` (seção `briefing`) — nome, segmento, produto/serviço, objetivo da campanha, CTA principal
-2. `outputs/ee-s3-brandbook.json` — tom de voz, vocabulário, headlines, paleta (se identidade-visual não existir)
-3. `outputs/ee-s3-identidade-visual.json` — paleta de cores, tipografia, estilo visual, conceito criativo
-4. `outputs/ee-s2-diagnostico-criativos.json` — análise dos criativos atuais, o que funciona/não funciona, recomendações
+2. `outputs/ee-s3-manual-marca.json` — tom de voz, vocabulário, headlines, paleta, tipografia, conceito visual (substitui os antigos brandbook + identidade-visual)
+3. `outputs/ee-s2-diagnostico-criativos.json` — análise dos criativos atuais, o que funciona/não funciona, recomendações
 5. `client.json` (seção `history`) — decisões anteriores
 
 Se alguma dependência faltar, avise o operador.
@@ -34,11 +33,12 @@ Se alguma dependência faltar, avise o operador.
 
 ## Geração
 
-Gere o output COMPLETO de uma vez: briefing criativo com 5 variações + prompts Midjourney/Ideogram + guias de montagem. Use os dados de `client.json` (briefing) e outputs de skills dependentes em `outputs/`.
+Gere o output COMPLETO de uma vez: briefing criativo com **4 variações** (1 ângulo distinto cada, amarrada a uma fase de funil) + prompts Midjourney/Ideogram + guias de montagem + hipótese e nomenclatura por peça. Use os dados de `client.json` (briefing) e outputs de skills dependentes em `outputs/`.
 
 Consulte `references/hooks-que-funcionam.md` para fórmulas de hook testadas.
 
-### 5 variações de criativo, cada uma com hook diferente
+### 4 variações de criativo, cada uma com ângulo/hook distinto e fase de funil
+> (A Variação 5 abaixo é **reserva opcional** — use se quiser um 5º ângulo para a primeira leva.)
 
 **Variação 1 — Hook de Dor/Problema:** espelha a frustração do ICP
 **Variação 2 — Hook de Resultado/Transformação:** mostra o "depois"

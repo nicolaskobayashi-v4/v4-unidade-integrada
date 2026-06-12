@@ -45,7 +45,7 @@ Fonte ÚNICA de verdade por cliente. Substitui `state.json`, `briefing.json`, `d
     "slug": "slug",
     "workspace_id": "uuid-or-null",
     "created_at": "2026-04-06",
-    "modulo_vendas": true
+    "modelo_venda": "e-commerce"
   },
   "briefing": { ... },
   "research": { ... },
@@ -132,34 +132,36 @@ Antes de iniciar uma skill, verifique `dependency_graph.json`. Se a skill depend
 
 ## Módulos disponíveis
 
-### Semana 1 — Diagnóstico
-- `ee-s1-diagnostico-maturidade` — Maturidade digital (dados V4MOS connectors)
-- `ee-s1-swot` — Matriz SWOT acionável
+A sequência oficial está em `delivery-map.json` — **4 semanas**. Semana 1, 2 e 4 são comuns; a **Semana 3 varia** por `meta.modelo_venda`.
+
+### Semana 1 — Descoberta e Pesquisa (comum)
 - `ee-s1-persona-icp` — ICP + Persona com Jobs-to-be-Done
 - `ee-s1-auditoria-comunicacao` — Auditoria de touchpoints digitais
-
-### Semana 2 — Pesquisa e Posicionamento
+- `ee-s1-swot` — Matriz SWOT acionável (+ scorecard de concorrentes)
 - `ee-s2-pesquisa-mercado` — TAM/SAM/SOM + concorrentes + tendências
-- `ee-s2-posicionamento` — PUV + Canvas 4P + território de marca
-- `ee-s2-diagnostico-midia` — Mídia paga com dados reais V4MOS (MediaInvestment)
+- `ee-s1-arquitetura-presenca` — Inventário de ativos + porta de entrada + níveis 1-4 *(stub)*
+
+### Semana 2 — Diagnóstico Digital e Posicionamento (comum)
+- `ee-s2-diagnostico-midia` — Mídia paga com dados reais V4MOS
+- `ee-s2-diagnostico-organico-ig` — Orgânico Instagram vs concorrentes
 - `ee-s2-diagnostico-criativos` — Avaliação de criativos (multimodal)
-- `ee-s2-diagnostico-cro` — Análise de conversão + wireframe
+- `ee-s1-diagnostico-maturidade` — Maturidade digital por pilar
+- `ee-s2-posicionamento` — PUV + Canvas 4P + território de marca + taglines
 
-### Semana 3 — Produção e Implementação
-- `ee-s3-identidade-visual` — Conceito + paleta + tipografia + logo
-- `ee-s3-brandbook` — Manual de copy + tom de voz + narrativa
+### Semana 3 — Estrutura da Operação de Venda (VARIA por modelo)
+**E-commerce:** `ee-s3-ecom-cro`, `ee-s3-ecom-funil`, `ee-s3-ecom-marketplace`, `ee-s3-ecom-crm-regua`, `ee-s3-ecom-recuperacao-carrinho` *(stubs)*
+**Inside Sales:** `ee-s2-diagnostico-cro`, `ee-s4-cliente-oculto`, `ee-s4-diagnostico-comercial`, `ee-s3-is-metricas-funil` *(stub)*, `ee-s3-is-pipeline` *(stub)*
+**PDV:** `ee-s3-pdv-base-ativa`, `ee-s3-pdv-gmn`, `ee-s3-pdv-experiencia`, `ee-s3-pdv-regua-whatsapp` *(stubs)*
+
+### Semana 4 — Identidade de Comunicação e Plano de Mídia (comum)
+- `ee-s3-manual-marca` — Brandbook + MIV unificados
 - `ee-s3-landing-page` — Copy + código + deploy Vercel
-- `ee-s3-copy-anuncios` — 30+ variações por funil (Google Sheets)
-- `ee-s3-criativos-anuncios` — Briefing criativo + prompts Midjourney
-- `ee-s3-crm-setup` — Pipeline Kommo + réguas de automação
-- `ee-s3-forecast-midia` — Modelagem 3 meses (Google Sheets)
-- `ee-s3-gmb-otimizacao` — Google Meu Negócio otimizado
-
-### Semana 4-5 — Vendas (módulo opcional)
-- `ee-s4-diagnostico-comercial` — Análise do funil + critérios de qualificação
-- `ee-s4-cliente-oculto` — Simulação + relatório
+- `ee-s3-copy-anuncios` — 30+ variações por funil
+- `ee-s3-criativos-anuncios` — Briefing criativo + prompts
+- `ee-s3-crm-setup` — Pipeline Kommo + réguas
 - `ee-s5-scripts-sdr` — Scripts de qualificação WhatsApp
-- `ee-s5-sdr-ia-config` — Configuração Patagon + integração Kommo
+- `ee-s5-sdr-ia-config` — Configuração Patagon + Kommo
+- `ee-s3-forecast-midia` — Forecast e plano de mídia (6 meses)
 
 ## Regras críticas
 

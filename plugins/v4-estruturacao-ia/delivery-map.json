@@ -1,0 +1,52 @@
+{
+  "_comment": "Fonte única da sequência de entregas em 4 semanas. Semana 1, Semana 2 e Semana 4 são COMUNS a todos os modelos. A Semana 3 é ESPECÍFICA do modelo de venda (meta.modelo_venda) — POPs 3.1-3.5. A Semana 4 é a produção/implementação comum — POPs 3.6-3.12. Lido por ee-novo-cliente (init do progress.skills) e ee-continuar (próximo passo).",
+  "modelos_venda": ["e-commerce", "inside-sales", "pdv"],
+  "comum": {
+    "semana_1": [
+      "ee-s1-persona-icp",
+      "ee-s1-auditoria-comunicacao",
+      "ee-s1-swot",
+      "ee-s2-pesquisa-mercado",
+      "ee-s1-arquitetura-presenca"
+    ],
+    "semana_2": [
+      "ee-s2-diagnostico-midia",
+      "ee-s2-diagnostico-organico-ig",
+      "ee-s2-diagnostico-criativos",
+      "ee-s1-diagnostico-maturidade",
+      "ee-s2-posicionamento"
+    ],
+    "semana_4": [
+      "ee-s3-manual-marca",
+      "ee-s3-landing-page",
+      "ee-s3-copy-anuncios",
+      "ee-s3-criativos-anuncios",
+      "ee-s3-crm-setup",
+      "ee-s5-scripts-sdr",
+      "ee-s5-sdr-ia-config",
+      "ee-s3-forecast-midia"
+    ]
+  },
+  "semana_3": {
+    "e-commerce": [
+      "ee-s3-ecom-cro",
+      "ee-s3-ecom-funil",
+      "ee-s3-ecom-marketplace",
+      "ee-s3-ecom-crm-regua",
+      "ee-s3-ecom-recuperacao-carrinho"
+    ],
+    "inside-sales": [
+      "ee-s2-diagnostico-cro",
+      "ee-s4-cliente-oculto",
+      "ee-s4-diagnostico-comercial",
+      "ee-s3-is-metricas-funil",
+      "ee-s3-is-pipeline"
+    ],
+    "pdv": [
+      "ee-s3-pdv-base-ativa",
+      "ee-s3-pdv-gmn",
+      "ee-s3-pdv-experiencia",
+      "ee-s3-pdv-regua-whatsapp"
+    ]
+  }
+}

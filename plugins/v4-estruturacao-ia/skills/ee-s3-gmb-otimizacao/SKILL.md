@@ -1,6 +1,8 @@
 ---
 name: ee-s3-gmb-otimizacao
-description: "Otimiza perfil do Google Meu Negocio com descricao SEO, categorias, servicos, posts e Q&As. Use quando o operador mencionar 'Google Meu Negocio', 'GMB', 'Google Business', 'perfil Google', 'SEO local'."
+description: "[DEPRECADA — base de conteúdo para ee-s3-pdv-gmn] NÃO usar standalone; está fora do delivery-map. O conteúdo (SEO local, categorias, serviços, posts, Q&As) serve de base ao implementar o stub ee-s3-pdv-gmn. GMB também é auditado em ee-s1-auditoria-comunicacao."
+status: deprecated
+superseded_by: ee-s3-pdv-gmn
 dependencies: ["ee-s1-persona-icp"]
 outputs: ["ee-s3-gmb-otimizacao.json"]
 week: 3

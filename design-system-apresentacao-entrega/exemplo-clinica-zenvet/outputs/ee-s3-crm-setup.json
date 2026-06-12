@@ -1,0 +1,34 @@
+{
+  "client_name": "Clínica Veterinária Zenvet",
+  "summary_headline": "CRM Kommo com réguas de boas-vindas, nutrição e reativação — para que nenhum dos 72 leads/mês e dos 486 inativos suma sem rastro.",
+  "summary_highlights": [
+    {
+      "label": "Base inativa",
+      "value": "486 pacientes",
+      "subtext": "hoje sem régua de reativação",
+      "tone": "yellow"
+    },
+    {
+      "label": "Base ativa",
+      "value": "1.186 clientes",
+      "subtext": "reativação orgânica subexplorada",
+      "tone": "green"
+    },
+    {
+      "label": "Régua pós-consulta",
+      "value": "D+1 · D+7 · D+30",
+      "subtext": "sistematiza o WhatsApp da Nathalia",
+      "tone": "green"
+    }
+  ],
+  "summary_key_findings": [
+    {
+      "category": "acao",
+      "text": "Reativar a base dormindo (1.186 ativos + 486 inativos) gera receita de baixo custo nos próximos 90 dias."
+    },
+    {
+      "category": "acao",
+      "text": "Programa de indicação no pico emocional pós-consulta (indicou uma amiga, ambas ganham 15% na próxima)."
+    }
+  ]
+}

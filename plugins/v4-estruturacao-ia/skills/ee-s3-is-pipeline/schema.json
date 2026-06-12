@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Pipeline Comercial + Réguas + Script Consultivo",
+  "description": "[STUB] Output estruturado de ee-s3-is-pipeline (POP 3.5 (Inside Sales)). Campos específicos a definir na rodada de conteúdo.",
+  "type": "object",
+  "required": [
+    "client_name",
+    "summary",
+    "summary_headline",
+    "summary_highlights",
+    "summary_key_findings"
+  ],
+  "properties": {
+    "client_name": { "type": "string", "description": "Nome do cliente — sempre presente." },
+    "summary": { "type": "string", "description": "Resumo de 1-2 frases do entregável." },
+    "summary_headline": { "type": "string", "description": "Manchete em 1 linha (~120 chars) com o veredito. Ver PADRAO-OUTPUT.md." },
+    "summary_highlights": {
+      "type": "array",
+      "description": "4-6 KPIs visuais.",
+      "items": {
+        "type": "object",
+        "required": ["label", "value"],
+        "properties": {
+          "category": { "type": "string" },
+          "label": { "type": "string" },
+          "value": { "type": "string" },
+          "subtext": { "type": "string" },
+          "tone": { "type": "string", "enum": ["green", "yellow", "red", "blue", "gray"] }
+        }
+      }
+    },
+    "summary_key_findings": {
+      "type": "array",
+      "description": "3-5 achados categorizados.",
+      "items": {
+        "type": "object",
+        "required": ["category", "text"],
+        "properties": {
+          "category": { "type": "string", "enum": ["vantagem", "contexto", "ameaca", "acao"] },
+          "text": { "type": "string" }
+        }
+      }
+    }
+  }
+}

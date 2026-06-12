@@ -1,0 +1,28 @@
+{
+  "client_name": "Clínica Veterinária Zenvet",
+  "summary_headline": "Scripts do SDR IA cobrem boas-vindas, qualificação 1-5★ e follow-up 24h/72h/7d — abrindo com a especialização felina antes de o preço aparecer.",
+  "summary_highlights": [
+    {
+      "label": "Cobertura",
+      "value": "24/7 · < 5 s",
+      "subtext": "resgata os 22 leads que somem",
+      "tone": "green"
+    },
+    {
+      "label": "Qualificação",
+      "value": "1–5★",
+      "subtext": "SLA por score, handoff só em 4★/5★",
+      "tone": "blue"
+    }
+  ],
+  "summary_key_findings": [
+    {
+      "category": "acao",
+      "text": "Handoff para a Louíse só em leads 4★/5★ — libera o humano para o fechamento consultivo."
+    },
+    {
+      "category": "acao",
+      "text": "Follow-up automático 24h/72h/7d para todo lead que recebe preço e silencia (insistência → escassez → conteúdo)."
+    }
+  ]
+}

@@ -21,6 +21,33 @@
       "type": "string",
       "description": "Nome do cliente — sempre presente em todo output."
     },
+    "competitor_scorecard": {
+      "type": "array",
+      "description": "POP 1.5 — scorecard digital dos concorrentes (3-5 diretos + 1-2 indiretos), com nota 0-10 por dimensão e evidência observável. Inclua o próprio cliente para contraste.",
+      "items": {
+        "type": "object",
+        "required": ["name", "type", "scores"],
+        "properties": {
+          "name": { "type": "string" },
+          "type": { "type": "string", "enum": ["cliente", "direto", "indireto", "aspiracional"] },
+          "scores": {
+            "type": "object",
+            "description": "Notas 0-10 por dimensão.",
+            "properties": {
+              "site": { "type": ["number", "null"] },
+              "seo": { "type": ["number", "null"] },
+              "midia_paga": { "type": ["number", "null"] },
+              "social": { "type": ["number", "null"] },
+              "gmn": { "type": ["number", "null"] },
+              "reputacao": { "type": ["number", "null"] },
+              "comunicacao": { "type": ["number", "null"] }
+            }
+          },
+          "evidence": { "type": "object", "description": "1 linha de evidência observável por dimensão pontuada." },
+          "overall": { "type": ["number", "null"], "description": "Média/leitura geral 0-10." }
+        }
+      }
+    },
     "summary": {
       "type": "string",
       "description": "Resumo de 1-2 frases da análise SWOT. Usado como referência rápida por outras skills."

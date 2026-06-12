@@ -1,0 +1,44 @@
+{
+  "client_name": "Clínica Veterinária Zenvet",
+  "summary_headline": "Zenvet subinveste 41% em mídia (R$ 1.875 real vs. R$ 3.200 contratado); reativar 2 Google + Pixel + migrar Meta para LEADS dobra os leads sem +1 real de teto.",
+  "summary_highlights": [
+    {
+      "label": "CPL atual",
+      "value": "R$ 26",
+      "subtext": "topo do benchmark Pet/Vet (R$ 5–25)",
+      "tone": "yellow"
+    },
+    {
+      "label": "Subinvestimento",
+      "value": "−41%",
+      "subtext": "R$ 1.875 vs. R$ 3.200 contratado",
+      "tone": "red"
+    },
+    {
+      "label": "Google pausado",
+      "value": "5 de 6",
+      "subtext": "campanhas sem critério técnico",
+      "tone": "red"
+    },
+    {
+      "label": "Leads/mês",
+      "value": "72 → 145",
+      "subtext": "realocação + Pixel + reativar Google",
+      "tone": "green"
+    }
+  ],
+  "summary_key_findings": [
+    {
+      "category": "acao",
+      "text": "Pixel ausente é bloqueio P0: sem retargeting, sem lookalike, sem validar a conversão da LP — alavanca crítica antes de escalar."
+    },
+    {
+      "category": "ameaca",
+      "text": "15 campanhas Meta fragmentadas em boost de posts antigos (objetivo MESSAGES/ENGAGEMENT) — inadequado para gerar leads."
+    },
+    {
+      "category": "acao",
+      "text": "Subir a base de 1.186 clientes no Meta para criar Custom + Lookalike Audience do ICP Mariana."
+    }
+  ]
+}

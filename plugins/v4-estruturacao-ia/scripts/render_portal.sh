@@ -29,7 +29,7 @@ if [ ! -f "$CLIENT_JSON" ]; then
 fi
 
 # Build portal data using Python (handles large JSON safely)
-CLIENT_JSON_P="$CLIENT_JSON" OUTPUTS_DIR_P="$OUTPUTS_DIR" TEMPLATE_P="$TEMPLATE" OUTPUT_P="$OUTPUT_FILE" python3 << 'PYEOF'
+CLIENT_JSON_P="$CLIENT_JSON" OUTPUTS_DIR_P="$OUTPUTS_DIR" TEMPLATE_P="$TEMPLATE" OUTPUT_P="$OUTPUT_FILE" DELIVERY_MAP_P="$SCRIPT_DIR/../delivery-map.json" python3 << 'PYEOF'
 import json, sys, os, glob
 
 client_json_path = os.environ['CLIENT_JSON_P']
@@ -52,6 +52,27 @@ if os.path.isdir(outputs_dir):
         except (json.JSONDecodeError, IOError) as e:
             print(f"Aviso: Não foi possível ler {fpath}: {e}", file=sys.stderr)
 
+# Resolve a estrutura de semanas a partir do delivery-map conforme meta.modelo_venda (model-aware).
+# Fallback: se não houver delivery-map ou modelo_venda, o portal usa o WEEKS legado embutido.
+weeks = None
+modelo = (client_data.get('meta', {}) or {}).get('modelo_venda')
+dm_path = os.environ.get('DELIVERY_MAP_P', '')
+if modelo and os.path.isfile(dm_path):
+    try:
+        with open(dm_path, 'r', encoding='utf-8') as f:
+            dm = json.load(f)
+        comum = dm.get('comum', {})
+        semana3 = (dm.get('semana_3', {}) or {}).get(modelo, [])
+        modelo_titulo = {'e-commerce': 'E-commerce', 'inside-sales': 'Inside Sales', 'pdv': 'PDV / Loja Física'}.get(modelo, modelo)
+        weeks = [
+            {'n': 1, 'title': 'Descoberta do Negócio e Pesquisa de Mercado', 'desc': 'Onboarding, persona/ICP, concorrência, arquitetura de presença e sizing', 'skills': list(comum.get('semana_1', []))},
+            {'n': 2, 'title': 'Diagnóstico Digital e Posicionamento Estratégico', 'desc': 'Mídia, orgânico, criativos, maturidade e posicionamento + PUV', 'skills': list(comum.get('semana_2', []))},
+            {'n': 3, 'title': 'Estrutura da Operação de Venda — ' + modelo_titulo, 'desc': 'Diagnósticos e estrutura específicos do modelo de venda', 'skills': list(semana3)},
+            {'n': 4, 'title': 'Identidade de Comunicação e Plano de Mídia', 'desc': 'Manual de marca, LP, copy, criativos, CRM, SDR IA e forecast (comum a todos)', 'skills': list(comum.get('semana_4', []))},
+        ]
+    except (json.JSONDecodeError, IOError) as e:
+        print(f"Aviso: não foi possível resolver weeks do delivery-map: {e}", file=sys.stderr)
+
 # Assemble portal data
 portal_data = {
     'client': client_data.get('meta', {}),
@@ -59,6 +80,8 @@ portal_data = {
     'outputs': outputs,
     'briefing': client_data.get('briefing', {}),
 }
+if weeks is not None:
+    portal_data['weeks'] = weeks
 
 data_json = json.dumps(portal_data, ensure_ascii=False, separators=(',', ':'))
 
@@ -123,6 +146,17 @@ if [ -f "$APRESENTACAO_SCRIPT" ]; then
     echo "✓ Apresentação atualizada: $APRESENTACAO_HTML"
   else
     echo "⚠ Falha ao gerar apresentação (seguindo sem atualizar)" >&2
+  fi
+fi
+
+# Gera/atualiza apresentacao-entrega.html (apresentação educativa cliente-facing — jornada Atrair/Converter/Reter)
+APRESENTACAO_ENTREGA_SCRIPT="$SCRIPT_DIR/../shared-templates/render_apresentacao_entrega.py"
+APRESENTACAO_ENTREGA_HTML="$CLIENT_DIR/apresentacao-entrega.html"
+if [ -f "$APRESENTACAO_ENTREGA_SCRIPT" ]; then
+  if python3 "$APRESENTACAO_ENTREGA_SCRIPT" "$CLIENT_DIR" >/dev/null 2>&1; then
+    echo "✓ Apresentação da entrega atualizada: $APRESENTACAO_ENTREGA_HTML"
+  else
+    echo "⚠ Falha ao gerar apresentação da entrega (seguindo sem atualizar)" >&2
   fi
 fi
 

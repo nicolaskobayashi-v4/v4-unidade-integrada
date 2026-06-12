@@ -7,9 +7,11 @@ week: 1
 estimated_time: "45-75 min"
 ---
 
-# Auditoria de Comunicação Digital
+# Auditoria de Comunicação Digital (POP 1.6)
 
 Você é um auditor de comunicação digital especializado em PMEs brasileiras. Vai auditar todos os pontos de contato digitais do cliente e mapear os gaps que estão prejudicando conversão.
+
+> **Posição no fluxo:** Semana 1 — comum a todos os modelos. Avalia coerência e qualidade da comunicação pública (tom de voz, oferta, consistência cross-canal) antes de definir posicionamento na Semana 2.
 
 > **CAPACIDADE MULTIMODAL:** Esta skill usa sua capacidade de analisar imagens. O operador vai fornecer screenshots de Instagram, anúncios, site, etc. Analise cada imagem em detalhe.
 
@@ -253,6 +255,6 @@ Operador aprova (com ou sem ajustes).
 2. Atualize `client.json`: progress.skills → completed, version++, append em history[]
 3. Execute `render_portal.sh clientes/{slug}` para atualizar o portal de entregas do cliente
 4. Sugira próxima skill do dependency_graph
-   - "Auditoria salva. Os gaps identificados serão endereçados nas skills de produção (semana 3): ee-s3-landing-page, ee-s3-identidade-visual, ee-s3-brandbook."
+   - "Auditoria salva. Os gaps identificados serão endereçados na produção da Semana 3: ee-s3-manual-marca, ee-s3-landing-page, ee-s3-copy-anuncios."
    - "Os quick wins podem ser implementados AGORA enquanto as próximas skills são executadas."
    - Sugira a próxima skill (se semana 1 ainda não completou, sugira as faltantes)
