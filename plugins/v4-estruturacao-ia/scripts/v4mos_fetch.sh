@@ -77,7 +77,9 @@ fetch_all_pages() {
   local has_next="true"
 
   while [ "$has_next" = "true" ]; do
-    local url="${V4MOS_API}/${endpoint}?workspaceId=${WORKSPACE_ID}&createdStart=${DATE_START}&createdEnd=${DATE_END}&limit=500&page=${page}"
+    # V4MOS migrou o identity: o parâmetro antigo "workspaceId" foi descontinuado
+    # e renomeado para "organizationId" (mesmo valor). Ver developers.v4.marketing.
+    local url="${V4MOS_API}/${endpoint}?organizationId=${WORKSPACE_ID}&createdStart=${DATE_START}&createdEnd=${DATE_END}&limit=500&page=${page}"
     local response
     response=$(curl -s -w "\n%{http_code}" "$url" \
       -H "x-client-id: $CLIENT_ID" \
@@ -321,18 +323,21 @@ echo "→ Facebook Ads..."
 FADS_CAMPAIGNS_RAW=$(fetch_all_pages "facebook/ads/campaigns")
 FADS_ADS_RAW=$(fetch_all_pages "facebook/ads/ad")
 FADS_CREATIVES_RAW=$(fetch_all_pages "facebook/ads/creatives")
+FADS_ADSETS_RAW=$(fetch_all_pages "facebook/ads/adset")
 
 if [ "$FADS_CAMPAIGNS_RAW" = "null" ]; then
   FADS_AGGREGATED="null"
 else
   [ "$FADS_ADS_RAW" = "null" ] && FADS_ADS_RAW="[]"
   [ "$FADS_CREATIVES_RAW" = "null" ] && FADS_CREATIVES_RAW="[]"
+  [ "$FADS_ADSETS_RAW" = "null" ] && FADS_ADSETS_RAW="[]"
 
-  FC_TMP=$(mktemp); FA_TMP=$(mktemp); FCR_TMP=$(mktemp)
+  FC_TMP=$(mktemp); FA_TMP=$(mktemp); FCR_TMP=$(mktemp); FAS_TMP=$(mktemp)
   printf '%s' "$FADS_CAMPAIGNS_RAW" > "$FC_TMP"
   printf '%s' "$FADS_ADS_RAW" > "$FA_TMP"
   printf '%s' "$FADS_CREATIVES_RAW" > "$FCR_TMP"
-  FADS_AGGREGATED=$(FC_FILE="$FC_TMP" FA_FILE="$FA_TMP" FCR_FILE="$FCR_TMP" DS="$DATE_START" DE="$DATE_END" python3 << 'PYEOF'
+  printf '%s' "$FADS_ADSETS_RAW" > "$FAS_TMP"
+  FADS_AGGREGATED=$(FC_FILE="$FC_TMP" FA_FILE="$FA_TMP" FCR_FILE="$FCR_TMP" FAS_FILE="$FAS_TMP" DS="$DATE_START" DE="$DATE_END" python3 << 'PYEOF'
 import json, os
 from datetime import datetime, timezone
 from collections import defaultdict
@@ -355,13 +360,87 @@ def in_range(dt):
     if de and dt > de: return False
     return True
 
+# O campo `actions` do Meta vem (frequentemente) DUPLO-codificado: uma string JSON
+# que contém outra string JSON. decode_actions desempacota até virar lista.
+def decode_actions(a):
+    for _ in range(3):
+        if isinstance(a, str):
+            try: a = json.loads(a)
+            except Exception: return []
+        else: break
+    return a if isinstance(a, list) else []
+
+# Prioridade para definir "lead" da campanha (1 tipo por campanha, evita dupla contagem
+# entre eventos equivalentes via pixel/form). O 1º com valor>0 é usado.
+LEAD_PRIORITY = [
+    'complete_registration',
+    'offsite_complete_registration_add_meta_leads',
+    'lead',
+    'onsite_conversion.lead_grouped',
+    'onsite_conversion.lead',
+    'onsite_web_lead',
+    'onsite_conversion.messaging_conversation_started_7d',
+]
+
+def actions_to_dict(actions):
+    d = {}
+    for it in decode_actions(actions):
+        at = it.get('action_type')
+        if not at: continue
+        try: d[at] = d.get(at, 0) + float(it.get('value') or 0)
+        except Exception: pass
+    return d
+
+def pick_leads(action_dict):
+    """Retorna (leads, action_type_usado) pelo 1º tipo da prioridade com valor>0."""
+    for at in LEAD_PRIORITY:
+        v = action_dict.get(at, 0)
+        if v and v > 0:
+            return v, at
+    return 0, None
+
 with open(os.environ['FC_FILE']) as f:  campaigns_data = json.load(f)
 with open(os.environ['FA_FILE']) as f:  ads_data = json.load(f)
 with open(os.environ['FCR_FILE']) as f: creatives_data = json.load(f)
+try:
+    with open(os.environ.get('FAS_FILE','/dev/null')) as f: adsets_data = json.load(f)
+except Exception:
+    adsets_data = []
+
+# Mapa adset_id → adset_name (qualquer nome não-nulo) + classificação de audiência.
+adset_name_by_id = {}
+for r in adsets_data:
+    aid = r.get('adset_id'); nm = r.get('adset_name')
+    if aid and nm and aid not in adset_name_by_id:
+        adset_name_by_id[aid] = nm
+
+def classify_audience(adset_name):
+    """Temperatura (frio/quente) + afinidade com a audiência V4 (negócios/finanças),
+    inferidas do NOME do adset. [I] inferido."""
+    n = (adset_name or '').lower().replace('+', ' ')   # normaliza "ADV+" / "ADV +"
+    warm_markers = ['remarketing','rmkt','retarget','lista','cliente','seguidor',
+                    'envolvimento','engaj','visualiz','base ', ' fan', 'reimpacto']
+    cold_markers = ['interesse','adv ','advantage','lookalike','lal','aberto','amplo',
+                    'prospec','persona','esporte','independencia','frio','open']
+    if any(m in n for m in warm_markers):
+        temp = 'quente'
+    elif any(m in n for m in cold_markers):
+        temp = 'frio'
+    else:
+        temp = 'indef'
+    if any(m in n for m in ['financ','mercado financeiro','seguro','investi','negócio','negocio','empreend']):
+        aff = 'financeiro_negocios'
+    elif any(m in n for m in ['pais','pai/mãe','pai/mae','familia','família','filho','vida','saude','saúde']):
+        aff = 'familia_pais'
+    else:
+        aff = 'outro'
+    return temp, aff
 
 # 1) Campanhas agregadas (total + por mês)
 campaigns = {}
 monthly = defaultdict(lambda: {'spend':0, 'impressions':0, 'clicks':0, 'reach':0})
+campaign_actions = defaultdict(lambda: defaultdict(float))  # name -> {action_type: soma}
+monthly_actions = defaultdict(lambda: defaultdict(float))   # 'YYYY-MM' -> {action_type: soma}
 
 for r in campaigns_data:
     dt = parse_iso(r.get('date_start') or r.get('date_stop'))
@@ -384,34 +463,56 @@ for r in campaigns_data:
     campaigns[name]['clicks'] += clicks
     campaigns[name]['reach'] += reach
 
+    row_actions = actions_to_dict(r.get('actions'))
+    for at, v in row_actions.items():
+        campaign_actions[name][at] += v
+
     if dt:
         mk = dt.strftime('%Y-%m')
         m = monthly[mk]
         m['spend'] += spend; m['impressions'] += imps; m['clicks'] += clicks; m['reach'] += reach
+        for at, v in row_actions.items():
+            monthly_actions[mk][at] += v
 
-for c in campaigns.values():
+for name, c in campaigns.items():
     c['cpm'] = round(c['spend']/c['impressions']*1000, 2) if c['impressions'] else 0
     c['ctr'] = round(c['clicks']/c['impressions']*100, 2) if c['impressions'] else 0
+    leads, lead_type = pick_leads(campaign_actions[name])
+    c['leads'] = round(leads, 1)
+    c['lead_action_type'] = lead_type
+    c['cpl'] = round(c['spend']/leads, 2) if leads else None
+    # snapshot dos eventos de conversão relevantes (para o diagnóstico inspecionar)
+    c['conversion_actions'] = {k: round(v, 1) for k, v in campaign_actions[name].items()
+                               if any(t in k for t in ['registration','lead','purchase','contact','submit','message'])}
     c['spend'] = round(c['spend'], 2)
 
 monthly_evolution = []
 for mk in sorted(monthly.keys()):
     m = monthly[mk]
+    m_leads, _ = pick_leads(monthly_actions[mk])
     monthly_evolution.append({
         'month': mk,
         'spend': round(m['spend'], 2),
         'impressions': m['impressions'],
         'clicks': m['clicks'],
         'reach': m['reach'],
+        'leads': round(m_leads, 1),
+        'cpl': round(m['spend']/m_leads, 2) if m_leads else None,
         'cpm': round(m['spend']/m['impressions']*1000, 2) if m['impressions'] else 0,
         'ctr': round(m['clicks']/m['impressions']*100, 2) if m['impressions'] else 0,
     })
 
-# 2) Ads agregados por ad_id
+# 2) Ads agregados por ad_id (inclui actions → leads e registros no site por criativo)
 ads = {}
+ad_actions = defaultdict(lambda: defaultdict(float))  # ad_id -> {action_type: soma}
 for r in ads_data:
     ad_id = r.get('ad_id')
     if not ad_id: continue
+    # O endpoint facebook/ads/ad também ignora createdStart/createdEnd e devolve histórico
+    # completo — filtra por date_start no Python (igual ao loop de campanhas).
+    dt = parse_iso(r.get('date_start') or r.get('date_stop'))
+    if dt and not in_range(dt):
+        continue
     if ad_id not in ads:
         ads[ad_id] = {
             'ad_id': ad_id,
@@ -428,11 +529,22 @@ for r in ads_data:
     ads[ad_id]['reach'] += int(r.get('reach') or 0)
     try: ads[ad_id]['inline_link_clicks'] += int(float(r.get('inline_link_clicks') or 0))
     except: pass
+    for at, v in actions_to_dict(r.get('actions')).items():
+        ad_actions[ad_id][at] += v
 
-for a in ads.values():
+for ad_id, a in ads.items():
     a['ctr'] = round(a['clicks']/a['impressions']*100, 2) if a['impressions'] else 0
     a['cpm'] = round(a['spend']/a['impressions']*1000, 2) if a['impressions'] else 0
     a['cpc'] = round(a['spend']/a['clicks'], 2) if a['clicks'] else None
+    leads, lead_type = pick_leads(ad_actions[ad_id])
+    a['leads'] = round(leads, 1)
+    a['lead_action_type'] = lead_type
+    a['cpl'] = round(a['spend']/leads, 2) if leads else None
+    # "registro no site" = complete_registration (pixel/LP). Métrica nomeada pelo cliente.
+    site_reg = ad_actions[ad_id].get('complete_registration', 0) \
+               or ad_actions[ad_id].get('offsite_complete_registration_add_meta_leads', 0)
+    a['site_registrations'] = round(site_reg, 1)
+    a['cost_per_registration'] = round(a['spend']/site_reg, 2) if site_reg else None
     a['spend'] = round(a['spend'], 2)
 
 # 3) Creatives: dedupe por ad_id
@@ -483,10 +595,80 @@ for ad_id, cr in creatives_by_ad.items():
         **cr, 'no_metrics_in_period': True,
     })
 
+# 5) Backfill de assets visuais entre ads do mesmo criativo.
+#    Ads de maior gasto às vezes não casam com o endpoint de creatives (thumbnail/permalink null).
+#    Herdam o asset de uma variação irmã (mesmo ad_name normalizado) para GARANTIR preview na página.
+import re
+ASSET_KEYS = ['thumbnail_url', 'image_url', 'video_id', 'instagram_permalink_url',
+              'website_link', 'object_type', 'creative_id', 'creative_name', 'title']
+
+def norm_name(n):
+    if not n: return ''
+    n = n.lower().strip()
+    n = re.sub(r'[—\-]+\s*c[oó]pia\b', '', n)        # "— cópia"
+    n = re.sub(r'\bcopy\b', '', n)
+    n = re.sub(r'[\(\[]\s*v?\d+\s*[\)\]]', '', n)     # (v2) (2) [3]
+    n = re.sub(r'[\s\-_]+\d+$', '', n)                # trailing " - 3" / " 2"
+    return re.sub(r'\s+', ' ', n).strip()
+
+def has_asset(d):
+    return bool(d.get('instagram_permalink_url') or d.get('thumbnail_url')
+                or d.get('image_url') or d.get('video_id'))
+
+asset_by_exact, asset_by_norm = {}, {}
+for j in joined:
+    if has_asset(j):
+        nm = j.get('ad_name') or ''
+        snap = {k: j.get(k) for k in ASSET_KEYS}
+        asset_by_exact.setdefault(nm, snap)
+        asset_by_norm.setdefault(norm_name(nm), snap)
+
+inherited = 0
+for j in joined:
+    if has_asset(j): continue
+    nm = j.get('ad_name') or ''
+    src = asset_by_exact.get(nm) or asset_by_norm.get(norm_name(nm))
+    if src and has_asset(src):
+        for k in ASSET_KEYS:
+            if not j.get(k) and src.get(k):
+                j[k] = src.get(k)
+        j['assets_inherited'] = True
+        inherited += 1
+if inherited:
+    print(f"   ↳ {inherited} ads herdaram thumbnail/permalink de variação irmã (backfill)", file=__import__('sys').stderr)
+
+# Enriquece cada criativo com a audiência (adset) em que rodou: nome, temperatura e afinidade.
+for j in joined:
+    aid = j.get('adset_id')
+    anm = adset_name_by_id.get(aid)
+    j['adset_name'] = anm
+    temp, aff = classify_audience(anm)
+    j['audience_temp'] = temp            # frio | quente | indef
+    j['audience_affinity'] = aff         # financeiro_negocios | familia_pais | outro
+
 total_spend = round(sum(c['spend'] for c in campaigns.values()), 2)
 total_imp = sum(c['impressions'] for c in campaigns.values())
 total_clicks = sum(c['clicks'] for c in campaigns.values())
 total_reach = sum(c['reach'] for c in campaigns.values())
+total_leads = round(sum((c.get('leads') or 0) for c in campaigns.values()), 1)
+
+# Leads e gasto por objetivo (revela budget que não gera lead — ex.: awareness/engagement)
+by_objective = defaultdict(lambda: {'spend':0.0, 'leads':0.0, 'campaigns':0})
+for c in campaigns.values():
+    o = c.get('objective') or 'UNKNOWN'
+    by_objective[o]['spend'] += c['spend']
+    by_objective[o]['leads'] += (c.get('leads') or 0)
+    by_objective[o]['campaigns'] += 1
+leads_by_objective = []
+for o, v in sorted(by_objective.items(), key=lambda kv: -kv[1]['spend']):
+    leads_by_objective.append({
+        'objective': o,
+        'spend': round(v['spend'], 2),
+        'spend_pct': round(v['spend']/total_spend*100, 1) if total_spend else 0,
+        'leads': round(v['leads'], 1),
+        'cpl': round(v['spend']/v['leads'], 2) if v['leads'] else None,
+        'campaigns': v['campaigns'],
+    })
 
 result = {
     'total_campaigns': len(campaigns),
@@ -496,8 +678,11 @@ result = {
     'total_impressions': total_imp,
     'total_clicks': total_clicks,
     'total_reach': total_reach,
+    'total_leads': total_leads,
     'avg_cpm': round(total_spend/total_imp*1000, 2) if total_imp else 0,
     'avg_ctr': round(total_clicks/total_imp*100, 2) if total_imp else 0,
+    'avg_cpl': round(total_spend/total_leads, 2) if total_leads else None,
+    'leads_by_objective': leads_by_objective,
     'campaigns': sorted(campaigns.values(), key=lambda x: x['spend'], reverse=True),
     'creatives': joined,
     'monthly_evolution': monthly_evolution,
@@ -505,8 +690,8 @@ result = {
 print(json.dumps(result, ensure_ascii=False))
 PYEOF
   )
-  rm -f "$FC_TMP" "$FA_TMP" "$FCR_TMP"
-  echo "✅ Facebook Ads: $(echo "$FADS_AGGREGATED" | jq -r '.total_campaigns') campanhas · $(echo "$FADS_AGGREGATED" | jq -r '.total_ads') ads · $(echo "$FADS_AGGREGATED" | jq -r '.monthly_evolution | length') meses · R\$$(echo "$FADS_AGGREGATED" | jq -r '.total_spend') gasto"
+  rm -f "$FC_TMP" "$FA_TMP" "$FCR_TMP" "$FAS_TMP"
+  echo "✅ Facebook Ads: $(echo "$FADS_AGGREGATED" | jq -r '.total_campaigns') campanhas · $(echo "$FADS_AGGREGATED" | jq -r '.total_ads') ads · $(echo "$FADS_AGGREGATED" | jq -r '.monthly_evolution | length') meses · R\$$(echo "$FADS_AGGREGATED" | jq -r '.total_spend') gasto · $(echo "$FADS_AGGREGATED" | jq -r '.total_leads') leads (CPL R\$$(echo "$FADS_AGGREGATED" | jq -r '.avg_cpl'))"
 fi
 
 # ── Write back to client.json.connectors ────────────────────────────────────

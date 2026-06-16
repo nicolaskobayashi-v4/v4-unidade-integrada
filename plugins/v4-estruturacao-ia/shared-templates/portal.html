@@ -3540,46 +3540,109 @@ const R = {
       +(maBest ? cd('Histórico de Destaque', maBest) : '')
     );
 
-    // ── Galeria de Criativos (V4MOS) ──
-    if (ma.creative_gallery?.length) {
-      const gs = ma.creative_gallery_summary || {};
-      const verdictColor = {Manter:'var(--success)', Otimizar:'var(--warning)', Eliminar:'var(--danger)'};
-      const summaryHead = '<div style="display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:1rem;font-size:.75rem">'
-        +(gs.manter!=null?'<div style="padding:.375rem .75rem;background:rgba(34,197,94,0.12);border:1px solid var(--success);border-radius:6px;color:var(--success);font-weight:700">'+gs.manter+' Manter</div>':'')
-        +(gs.otimizar!=null?'<div style="padding:.375rem .75rem;background:rgba(234,179,8,0.12);border:1px solid var(--warning);border-radius:6px;color:var(--warning);font-weight:700">'+gs.otimizar+' Otimizar</div>':'')
-        +(gs.eliminar!=null?'<div style="padding:.375rem .75rem;background:rgba(239,68,68,0.12);border:1px solid var(--danger);border-radius:6px;color:var(--danger);font-weight:700">'+gs.eliminar+' Eliminar</div>':'')
-        +(gs.total_ads?'<div style="padding:.375rem .75rem;background:var(--surface);border:1px solid var(--border);border-radius:6px;color:var(--text-muted)">Exibindo '+gs.total_displayed+' de '+gs.total_ads+' ads</div>':'')
+    // ── Galerias de Criativos (V4MOS) — 3 visões: Spend, Conversão de Registro, CTR ──
+    const verdictColor = {Manter:'var(--success)', Otimizar:'var(--warning)', Eliminar:'var(--danger)'};
+    const metaAcct = ma.account_id || '';
+    const metaLink = (adid) => (metaAcct && adid) ? ('https://adsmanager.facebook.com/adsmanager/manage/ads?act='+metaAcct+'&selected_ad_ids='+adid) : '';
+    const noPreviewBox = (adid) => metaLink(adid)
+      ? '<a href="'+E(metaLink(adid))+'" target="_blank" rel="noopener" style="aspect-ratio:1/1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.35rem;background:#0a0a0a;color:var(--accent);font-size:.8125rem;font-weight:700;text-decoration:none;text-align:center;padding:1rem">↗ Ver criativo na conta Meta<span style="color:var(--text-muted);font-size:.625rem;font-weight:400">preview não exposto pelo V4MOS</span></a>'
+      : '<div style="aspect-ratio:1/1;display:flex;align-items:center;justify-content:center;background:#0a0a0a;color:var(--text-muted);font-size:.75rem">Sem preview disponível</div>';
+    const galSummaryHead = (gs) => '<div style="display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:1rem;font-size:.75rem">'
+      +(gs.manter!=null?'<div style="padding:.375rem .75rem;background:rgba(34,197,94,0.12);border:1px solid var(--success);border-radius:6px;color:var(--success);font-weight:700">'+gs.manter+' Manter</div>':'')
+      +(gs.otimizar!=null?'<div style="padding:.375rem .75rem;background:rgba(234,179,8,0.12);border:1px solid var(--warning);border-radius:6px;color:var(--warning);font-weight:700">'+gs.otimizar+' Otimizar</div>':'')
+      +(gs.eliminar!=null?'<div style="padding:.375rem .75rem;background:rgba(239,68,68,0.12);border:1px solid var(--danger);border-radius:6px;color:var(--danger);font-weight:700">'+gs.eliminar+' Eliminar</div>':'')
+      +(gs.total_ads?'<div style="padding:.375rem .75rem;background:var(--surface);border:1px solid var(--border);border-radius:6px;color:var(--text-muted)">Exibindo '+(gs.total_displayed||0)+' de '+gs.total_ads+' ads</div>':'')
+      +'</div>';
+    const ctrCol = v => (v||0)>=1.5?'var(--success)':(v||0)>=0.8?'var(--warning)':'var(--danger)';
+    const cpcCol = v => (v==null?'var(--text-primary)':(v<=1.0?'var(--success)':v<=1.8?'var(--warning)':'var(--danger)'));
+    const cprCol = v => (v==null?'var(--text-muted)':(v<=60?'var(--success)':v<=110?'var(--warning)':'var(--danger)'));
+    const statCell = (val,label,col) => '<div style="text-align:center"><div style="font-size:1rem;font-weight:800;color:'+(col||'var(--text-primary)')+'">'+val+'</div><div style="font-size:.5625rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.05em">'+label+'</div></div>';
+    const statsSpend = g => [statCell(g.ctr!=null?g.ctr.toFixed(2)+'%':'—','CTR',ctrCol(g.ctr)), statCell(g.cpc!=null?'R$'+g.cpc.toFixed(2):'—','CPC',cpcCol(g.cpc)), statCell(g.spend!=null?'R$'+Math.round(g.spend):'—','Spend')].join('');
+    const statsLeads = g => [statCell(g.site_registrations!=null?Math.round(g.site_registrations):'—','Registros','var(--accent)'), statCell(g.cost_per_registration!=null?'R$'+g.cost_per_registration.toFixed(2):'—','Custo/Reg',cprCol(g.cost_per_registration)), statCell(g.spend!=null?'R$'+Math.round(g.spend):'—','Spend')].join('');
+    const statsCtr = g => [statCell(g.ctr!=null?g.ctr.toFixed(2)+'%':'—','CTR',ctrCol(g.ctr)), statCell(g.site_registrations!=null?Math.round(g.site_registrations):'—','Registros','var(--accent)'), statCell(g.spend!=null?'R$'+Math.round(g.spend):'—','Spend')].join('');
+    const galleryCards = (arr, statsFn) => arr.map(g => {
+      const vCol = verdictColor[g.verdict] || 'var(--text-muted)';
+      const perm = g.instagram_permalink_url || '';
+      const embedUrl = perm ? (perm.replace(/\/$/,'') + '/embed/captioned/') : '';
+      return '<div style="background:var(--surface);border:1px solid var(--border);border-top:3px solid '+vCol+';border-radius:8px;overflow:hidden;display:flex;flex-direction:column">'
+        +'<div style="padding:.5rem .75rem;display:flex;justify-content:space-between;align-items:center;gap:.5rem;border-bottom:1px solid var(--border);background:var(--bg)">'
+          +'<span style="background:'+vCol+';color:#fff;padding:.25rem .625rem;border-radius:4px;font-size:.6875rem;font-weight:800;letter-spacing:.04em;text-transform:uppercase">'+E(g.verdict||'—')+'</span>'
+          +(perm?'<a href="'+E(perm)+'" target="_blank" rel="noopener" style="font-size:.625rem;color:var(--accent);text-decoration:none">↗ Instagram</a>':(metaLink(g.ad_id)?'<a href="'+E(metaLink(g.ad_id))+'" target="_blank" rel="noopener" style="font-size:.625rem;color:var(--text-muted);text-decoration:none">↗ Meta</a>':''))
+        +'</div>'
+        +(embedUrl
+          ? '<iframe src="'+E(embedUrl)+'" loading="lazy" allowfullscreen scrolling="no" frameborder="0" style="width:100%;height:480px;border:0;background:#0a0a0a;display:block"></iframe>'
+          : (g.thumbnail_url||g.image_url)
+            ? '<img src="'+E(g.thumbnail_url||g.image_url)+'" alt="'+E(g.ad_name||'')+'" loading="lazy" style="width:100%;aspect-ratio:1/1;object-fit:cover;display:block;background:#0a0a0a" onerror="this.style.display=\'none\'">'
+            : noPreviewBox(g.ad_id))
+        +'<div style="padding:.75rem;display:flex;flex-direction:column;gap:.5rem;border-top:1px solid var(--border)">'
+          +'<div style="font-size:.75rem;font-weight:700;color:var(--text-primary);line-height:1.3;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical">'+E(g.ad_name||'—')+'</div>'
+          +'<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:.25rem;padding:.5rem 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border)">'+statsFn(g)+'</div>'
+          +'<div style="font-size:.6875rem;color:var(--text-muted);line-height:1.4">'+E(g.verdict_reason||g.note||'')+'</div>'
+        +'</div>'
+      +'</div>';
+    }).join('');
+    const galSection = (title, arr, summary, statsFn) => {
+      if (!arr || !arr.length) return;
+      h += sc(title, galSummaryHead(summary||{})
+        +'<div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem">'+galleryCards(arr, statsFn)+'</div>'
+        +((summary&&summary.note)?'<p style="margin-top:.75rem;font-size:.6875rem;color:var(--text-muted);font-style:italic">'+E(summary.note)+'</p>':''));
+    };
+    galSection('Galeria de Criativos Meta — Top por Spend', ma.creative_gallery, ma.creative_gallery_summary, statsSpend);
+    galSection('Galeria de Criativos Meta — Top 15 por Conversão de Registro no Site', ma.creative_gallery_by_leads, ma.creative_gallery_by_leads_summary, statsLeads);
+    galSection('Galeria de Criativos Meta — Top 15 por CTR', ma.creative_gallery_by_ctr, ma.creative_gallery_by_ctr_summary, statsCtr);
+
+    // ── Seleção de Criativos para Mídia Paralela (Potencializar) ──
+    const sel = ma.midia_paralela_selection;
+    if (sel && sel.shortlist && sel.shortlist.length) {
+      const tierCol = {Alta:'var(--success)', 'Média':'var(--warning)', Media:'var(--warning)'};
+      const intro = '<div style="font-size:.8125rem;color:var(--text-secondary);line-height:1.6;margin-bottom:1rem">'
+        +(sel.objetivo?'<p style="margin:0 0 .5rem"><strong>Objetivo:</strong> '+E(sel.objetivo)+'</p>':'')
+        +(sel.escopo?'<p style="margin:0 0 .5rem"><strong>Escopo:</strong> '+E(sel.escopo)+'</p>':'')
+        +(sel.criterio?'<p style="margin:0 0 .5rem"><strong>Critério:</strong> '+E(sel.criterio)+'</p>':'')
+        +(sel.base?'<p style="margin:0;font-size:.75rem;color:var(--text-muted)"><em>'+E(sel.base)+'</em></p>':'')
         +'</div>';
-      const cards = ma.creative_gallery.map(g => {
-        const vCol = verdictColor[g.verdict] || 'var(--text-muted)';
-        const ctrCol = (g.ctr||0)>=1.5?'var(--success)':(g.ctr||0)>=0.8?'var(--warning)':'var(--danger)';
-        const cpcCol = (g.cpc||99)<=1.0?'var(--success)':(g.cpc||99)<=1.8?'var(--warning)':'var(--danger)';
-        const perm = g.instagram_permalink_url || '';
-        // Normaliza permalink Instagram → URL de embed (.../embed/captioned/)
-        const embedUrl = perm ? (perm.replace(/\/$/,'') + '/embed/captioned/') : '';
-        return '<div style="background:var(--surface);border:1px solid var(--border);border-top:3px solid '+vCol+';border-radius:8px;overflow:hidden;display:flex;flex-direction:column">'
+      const mec = sel.mecanismos ? '<div style="display:grid;grid-template-columns:1fr 1fr;gap:.75rem;margin-bottom:1rem">'
+        +'<div style="padding:.75rem;background:var(--surface);border:1px solid var(--border);border-radius:6px;font-size:.75rem"><strong>Isca (valor de baixa fricção):</strong> '+E(sel.mecanismos.isca||'')+'</div>'
+        +'<div style="padding:.75rem;background:var(--surface);border:1px solid var(--border);border-radius:6px;font-size:.75rem"><strong>Autoridade (prova social):</strong> '+E(sel.mecanismos.autoridade||'')+'</div>'
+        +'</div>' : '';
+      const t = sel.tiers||{};
+      const chips = '<div style="display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:.5rem;font-size:.75rem">'
+        +'<div style="padding:.375rem .75rem;background:rgba(34,197,94,0.12);border:1px solid var(--success);border-radius:6px;color:var(--success);font-weight:700">'+((t.alta&&t.alta.length)||0)+' Alta transferência</div>'
+        +'<div style="padding:.375rem .75rem;background:rgba(234,179,8,0.12);border:1px solid var(--warning);border-radius:6px;color:var(--warning);font-weight:700">'+((t.media&&t.media.length)||0)+' Média</div>'
+        +'</div>'
+        +(t.baixa_excluidos?'<p style="font-size:.6875rem;color:var(--text-muted);margin:0 0 1rem">'+E(t.baixa_excluidos)+'</p>':'<div style="margin-bottom:1rem"></div>');
+      const cards = sel.shortlist.map(s => {
+        const tc = tierCol[s.transfer_tier] || 'var(--text-muted)';
+        const perm = s.instagram_permalink_url||'';
+        const embedUrl = perm ? (perm.replace(/\/$/,'')+'/embed/captioned/') : '';
+        const cprC = s.cpl_cold==null?'var(--text-muted)':(s.cpl_cold<=60?'var(--success)':s.cpl_cold<=110?'var(--warning)':'var(--danger)');
+        return '<div style="background:var(--surface);border:1px solid var(--border);border-top:3px solid '+tc+';border-radius:8px;overflow:hidden;display:flex;flex-direction:column">'
           +'<div style="padding:.5rem .75rem;display:flex;justify-content:space-between;align-items:center;gap:.5rem;border-bottom:1px solid var(--border);background:var(--bg)">'
-            +'<span style="background:'+vCol+';color:#fff;padding:.25rem .625rem;border-radius:4px;font-size:.6875rem;font-weight:800;letter-spacing:.04em;text-transform:uppercase">'+E(g.verdict)+'</span>'
-            +(perm?'<a href="'+E(perm)+'" target="_blank" rel="noopener" style="font-size:.625rem;color:var(--accent);text-decoration:none">↗ Instagram</a>':'')
+            +'<span style="background:'+tc+';color:#fff;padding:.25rem .625rem;border-radius:4px;font-size:.6875rem;font-weight:800;text-transform:uppercase">'+E(s.transfer_tier||'')+'</span>'
+            +(perm?'<a href="'+E(perm)+'" target="_blank" rel="noopener" style="font-size:.625rem;color:var(--accent);text-decoration:none">↗ Instagram</a>':(metaLink(s.ad_id)?'<a href="'+E(metaLink(s.ad_id))+'" target="_blank" rel="noopener" style="font-size:.625rem;color:var(--accent);text-decoration:none">↗ Ver na conta Meta</a>':'<span style="font-size:.625rem;color:var(--text-muted)">'+E(s.mecanismo||'')+'</span>'))
           +'</div>'
           +(embedUrl
-            ? '<iframe src="'+E(embedUrl)+'" loading="lazy" allowfullscreen scrolling="no" frameborder="0" style="width:100%;height:480px;border:0;background:#0a0a0a;display:block"></iframe>'
-            : '<div style="aspect-ratio:1/1;display:flex;align-items:center;justify-content:center;background:#0a0a0a;color:var(--text-muted);font-size:.75rem">Sem preview disponível</div>')
-          +'<div style="padding:.75rem;display:flex;flex-direction:column;gap:.5rem;border-top:1px solid var(--border)">'
-            +'<div style="font-size:.75rem;font-weight:700;color:var(--text-primary);line-height:1.3;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical">'+E(g.ad_name||'—')+'</div>'
+            ? '<iframe src="'+E(embedUrl)+'" loading="lazy" allowfullscreen scrolling="no" frameborder="0" style="width:100%;height:420px;border:0;background:#0a0a0a;display:block"></iframe>'
+            : ((s.thumbnail_url||s.image_url)
+              ? '<img src="'+E(s.thumbnail_url||s.image_url)+'" alt="'+E(s.ad_name||'')+'" loading="lazy" style="width:100%;aspect-ratio:1/1;object-fit:cover;display:block;background:#0a0a0a" onerror="this.style.display=\'none\'">'
+              : noPreviewBox(s.ad_id)))
+          +'<div style="padding:.75rem;display:flex;flex-direction:column;gap:.5rem">'
+            +'<div style="font-size:.75rem;font-weight:700;line-height:1.3">'+E(s.ad_name||'—')+' <span style="font-weight:400;color:var(--text-muted)">· '+E(s.formato||'')+'</span></div>'
             +'<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:.25rem;padding:.5rem 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border)">'
-              +'<div style="text-align:center"><div style="font-size:1rem;font-weight:800;color:'+ctrCol+'">'+(g.ctr!=null?g.ctr.toFixed(2)+'%':'—')+'</div><div style="font-size:.5625rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.05em">CTR</div></div>'
-              +'<div style="text-align:center"><div style="font-size:1rem;font-weight:800;color:'+cpcCol+'">'+(g.cpc!=null?'R$'+g.cpc.toFixed(2):'—')+'</div><div style="font-size:.5625rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.05em">CPC</div></div>'
-              +'<div style="text-align:center"><div style="font-size:1rem;font-weight:800;color:var(--text-primary)">'+(g.spend!=null?'R$'+Math.round(g.spend):'—')+'</div><div style="font-size:.5625rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.05em">Spend</div></div>'
+              +statCell(s.cold_registrations!=null?N(s.cold_registrations):'—','Reg. frios','var(--accent)')
+              +statCell(s.cpl_cold!=null?'R$'+s.cpl_cold.toFixed(2):'—','CPL frio',cprC)
+              +statCell(s.link_ctr!=null?s.link_ctr.toFixed(2)+'%':'—','CTR link',ctrCol(s.link_ctr))
             +'</div>'
-            +'<div style="font-size:.6875rem;color:var(--text-muted);line-height:1.4">'+E(g.verdict_reason||'')+'</div>'
+            +'<div style="font-size:.6875rem;color:var(--text-muted);line-height:1.4">'+E(s.verdict_reason||'')+'</div>'
           +'</div>'
         +'</div>';
       }).join('');
-      h += sc('Galeria de Criativos Meta — Top 15 por Spend',
-        summaryHead
-        +'<div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem">'+cards+'</div>'
-        +(gs.note?'<p style="margin-top:.75rem;font-size:.6875rem;color:var(--text-muted);font-style:italic">'+E(gs.note)+'</p>':''));
+      let body = intro+mec+chips
+        +'<div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem">'+cards+'</div>';
+      if (sel.recomendacao) body += '<div style="margin-top:1rem;padding:1rem 1.25rem;background:linear-gradient(90deg, rgba(34,197,94,0.08), transparent);border-left:4px solid var(--success);border-radius:4px;font-size:.8125rem;line-height:1.6"><strong>Recomendação:</strong> '+E(sel.recomendacao)+'</div>';
+      if (sel.ressalvas && sel.ressalvas.length) body += '<div style="margin-top:.75rem"><div style="font-size:.6875rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--text-muted);margin-bottom:.375rem">Ressalvas (valem para toda a lista)</div><ul style="margin:0;padding-left:1.25rem;font-size:.75rem;color:var(--text-secondary);line-height:1.5">'+sel.ressalvas.map(r=>'<li>'+E(r)+'</li>').join('')+'</ul></div>';
+      if (sel.pendencias && sel.pendencias.length) body += '<div style="margin-top:.75rem"><div style="font-size:.6875rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--text-muted);margin-bottom:.375rem">Pendências para fechar com a Luana</div><ol style="margin:0;padding-left:1.25rem;font-size:.75rem;color:var(--text-secondary);line-height:1.5">'+sel.pendencias.map(r=>'<li>'+E(r)+'</li>').join('')+'</ol></div>';
+      h += sc('Seleção de Criativos para Mídia Paralela (Potencializar)', body);
     }
 
     // Creative testing hypotheses (Meta-only) — posicionado dentro da seção Meta
