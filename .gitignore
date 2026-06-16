@@ -8,3 +8,6 @@ plugins/v4-estruturacao-ia/shared-templates/Downloads/
 # Tudo em clientes/ é ignorado, exceto o README explicativo.
 clientes/*
 !clientes/README.md
+# Exceção: cliente Prudential versionado por decisão explícita do dono do repo.
+!clientes/prudential/
+!clientes/prudential/**
