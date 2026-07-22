@@ -1,6 +1,8 @@
 # Decisões — piloto de landing pages
 
-## Decisões aprovadas para a fundação
+## Registro histórico — decisões iniciais da fundação
+
+As decisões abaixo preservam o histórico da fundação. As linhas relativas ao destino GreatPages e ao fluxo Figma → GreatPages foram substituídas pela decisão revisada registrada ao final deste documento.
 
 | Tema | Decisão | Consequência inicial |
 |---|---|---|
@@ -21,8 +23,45 @@
 ## Restrições decorrentes
 
 - O arquivo Figma original é somente leitura.
-- O GreatPages deve usar uma página nova e não publicada.
+- GreatPages não será implementado no piloto atual; permanece apenas como hipótese futura opcional.
 - A execução fica limitada a uma seção e às variantes desktop e mobile.
 - Não haverá publicação em produção durante o piloto.
 - Qualquer risco de alteração de copy, substituição de assets ou perda visual interrompe o processo para revisão humana.
 - Os outputs existentes `landing-page.html`, `landing-page/` e `deploy/` não podem ser modificados.
+
+## Decisão revisada — HTML e Vercel
+
+Data da revisão: 2026-07-22.
+
+A decisão anterior de usar o fluxo Figma → GreatPages foi substituída após a identificação do fluxo HTML já existente no repositório e do acesso à Vercel.
+
+O novo fluxo principal aprovado é:
+
+```text
+Figma aprovado
+    ↓
+Codex no VS Code
+    ↓
+HTML, CSS e JavaScript versionados
+    ↓
+Testes locais
+    ↓
+Git
+    ↓
+Vercel Preview
+    ↓
+Revisão humana
+    ↓
+Produção somente após aprovação explícita
+```
+
+Decisões decorrentes:
+
+- HTML, CSS e JavaScript versionados no Git passam a ser a implementação operacional.
+- A Vercel Preview passa a ser o ambiente de homologação.
+- A Vercel não substitui o Figma como referência visual nem o Git como fonte da implementação.
+- Produção exige autorização explícita e permanece proibida durante o piloto.
+- GreatPages permanece como hipótese futura opcional de adaptador ou destino alternativo, ainda não implementada e fora do escopo atual.
+- Nenhuma implementação da skill associada à decisão anterior chegou a ser criada.
+- A governança, a auditoria somente leitura, a aprovação granular e as proteções dos materiais existentes continuam válidas.
+- O diretório exclusivo passa a ser `clientes/instituto-salotti/outputs/landing-pages/piloto-figma-vercel/`, sem criação nesta etapa documental.

@@ -20,7 +20,7 @@ O subtree `plugins/v4-estruturacao-ia/` preserva as instruções herdadas da mat
 
 - Uma auditoria de branch, estado do repositório, arquivos-alvo e escopo deve ocorrer antes de qualquer escrita.
 - Nenhuma automação pode publicar em produção durante o piloto.
-- Nenhuma página existente do Figma, GreatPages ou de cliente pode ser sobrescrita.
+- Nenhum arquivo, frame, código ou página existente do Figma, do cliente ou de qualquer destino alternativo pode ser sobrescrito.
 - O agente deve trabalhar sempre em cópias, branches e ambientes de teste.
 - Cada execução do piloto pode modificar somente uma seção de landing page.
 - O agente deve parar quando houver risco de perda visual, alteração não autorizada de copy ou substituição de assets.
@@ -28,17 +28,22 @@ O subtree `plugins/v4-estruturacao-ia/` preserva as instruções herdadas da mat
 
 ## Regras específicas do piloto de landing pages
 
-- O fluxo inicial é unidirecional: Figma → Codex → preparação estrutural → GreatPages.
+- O fluxo principal é: Figma aprovado → Codex no VS Code → HTML, CSS e JavaScript versionados → testes locais → Git → Vercel Preview → revisão humana.
 - O Figma original é somente leitura; qualquer trabalho deve ocorrer em arquivo duplicado.
-- O GreatPages deve usar página nova, de teste e não publicada.
-- Antes de qualquer escrita, o agente deve registrar o que pretende criar ou modificar e confirmar que os originais permanecem protegidos.
+- A implementação deve ocorrer em uma cópia isolada da landing page.
+- Antes de editar Figma ou código, o agente deve apresentar um plano e confirmar que os originais permanecem protegidos.
+- Qualquer escrita exige aprovação explícita, limitada aos arquivos, frames e operações descritos no plano.
+- Testes locais devem ser concluídos antes de solicitar uma Vercel Preview.
+- A criação de uma Vercel Preview exige aprovação explícita do usuário.
+- Deployment em produção é proibido durante o piloto e só poderá ocorrer futuramente após aprovação explícita do usuário.
+- GreatPages é apenas um possível adaptador ou destino alternativo futuro, ainda não implementado e fora do escopo do piloto atual.
 - Se a fidelidade visual, a copy ou os assets não puderem ser preservados com segurança, a execução deve ser interrompida e submetida à revisão humana.
 
 ## Local dos artefatos do piloto
 
 Todos os relatórios e registros do piloto devem ser criados exclusivamente em:
 
-`clientes/instituto-salotti/outputs/landing-pages/piloto-figma-greatpages/`
+`clientes/instituto-salotti/outputs/landing-pages/piloto-figma-vercel/`
 
 É proibido modificar:
 
@@ -47,12 +52,14 @@ Todos os relatórios e registros do piloto devem ser criados exclusivamente em:
 - clientes/instituto-salotti/outputs/deploy/;
 - qualquer outro output existente do cliente.
 
+Esses materiais podem ser consultados somente como referência. Nenhum arquivo existente pode ser sobrescrito, movido, renomeado ou reformatado.
+
 ## Auditoria e aprovação no Figma
 
 - A auditoria inicial deve ser exclusivamente de leitura.
-- Depois da auditoria, o agente deve apresentar um plano de alterações.
-- Nenhuma escrita no Figma pode ocorrer sem aprovação explícita do usuário.
-- A aprovação vale somente para o frame e para as operações descritas no plano.
+- Depois da auditoria, o agente deve apresentar um plano antes de editar Figma ou código.
+- Nenhuma escrita no Figma ou no código pode ocorrer sem aprovação explícita do usuário.
+- A aprovação vale somente para os arquivos, o frame e as operações descritas no plano.
 
 ## Fontes de verdade durante o piloto
 
@@ -60,16 +67,21 @@ Todos os relatórios e registros do piloto devem ser criados exclusivamente em:
   client.json, base-de-conhecimento e outputs aprovados.
 
 - Referência visual:
-  frame de referência preservado na cópia do Figma.
+  frame aprovado e preservado no Figma.
 
-- Estrutura preparada:
-  frame de exportação da cópia do Figma.
+- Implementação operacional:
+  arquivos HTML, CSS e JavaScript versionados no Git.
 
-- Implementação de teste:
-  página não publicada no GreatPages.
+- Homologação:
+  Vercel Preview.
+
+- Produção:
+  deployment da Vercel autorizado explicitamente pelo usuário.
 
 - Histórico e decisões:
   repositório Git.
+
+A Vercel não substitui o Figma como referência visual nem o Git como fonte da implementação.
 
 ## Controle de versão
 
