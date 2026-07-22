@@ -1,0 +1,104 @@
+{
+  "skill": "ee-s1-auditoria-comunicacao",
+  "cliente": "Chopp Colina Orlandia",
+  "gerado_em": "2026-05-17",
+
+  "manchete": "@colinachopp_orl é uma conta de choperia. Em Franca não vai ter choperia — vai ter delivery. A comunicação atual não vende barril: ela vende mesa, show e porção. São dois negócios com dois públicos precisando de duas vozes.",
+
+  "touchpoints": [
+    {
+      "canal": "Instagram @colinachopp_orl",
+      "status": "ativo",
+      "grade": "D+",
+      "prioridade": "alta",
+      "problema_central": "100% do conteúdo é da choperia (shows, happy hour, bar). Zero conteúdo de delivery de barril. Engajamento crítico: 3 likes em post recente. Sem hashtags. Boosting sem pixel ou estratégia.",
+      "contato_visivel": "(16) 99257-3178 | Rua Um, 647 — Centro, Orlândia/SP"
+    },
+    {
+      "canal": "Facebook colinachopp.orlandia",
+      "status": "ativo",
+      "grade": "D",
+      "prioridade": "media",
+      "seguidores": 1024,
+      "checkins": 95,
+      "problema_central": "Espelho do Instagram — mesmo mix errado. Relevante para público 35-55 anos mas não trabalhado estrategicamente."
+    },
+    {
+      "canal": "WhatsApp (16) 99257-3178",
+      "status": "ativo",
+      "grade": "C",
+      "prioridade": "alta",
+      "problema_central": "Canal principal de vendas sem processo. Sem boas-vindas automática, sem cardápio, sem qualificação. Tempo desperdiçado com curiosos."
+    },
+    {
+      "canal": "Google Meu Negócio",
+      "status": "desconhecido",
+      "grade": null,
+      "prioridade": "critica",
+      "problema_central": "Status não confirmado. Se não existe em Franca, o cliente que busca 'chopp delivery Franca' não acha o Cláudio. Custo zero para criar."
+    },
+    {
+      "canal": "Untappd",
+      "status": "listado_passivamente",
+      "url": "untappd.com/v/colina-chopp-orlandia/11070319",
+      "grade": "C-",
+      "prioridade": "baixa",
+      "nota": "Niche platform de check-in de cerveja. Credibilidade de produto, não canal de vendas."
+    },
+    {
+      "canal": "Landing Page / Site próprio",
+      "status": "inexistente",
+      "grade": null,
+      "prioridade": "critica",
+      "problema_central": "Sem LP, qualquer verba de tráfego pago vai para Instagram que não converte. Sem LP não há como rodar Google Ads ou Meta Ads estruturado."
+    },
+    {
+      "canal": "Google Ads",
+      "status": "inexistente",
+      "grade": null,
+      "prioridade": "critica",
+      "problema_central": "Zero presença em busca. 'Chopp delivery Franca', 'barril chopp Franca' — Cláudio não aparece."
+    },
+    {
+      "canal": "Meta Ads",
+      "status": "boosting_basico",
+      "grade": "D",
+      "investimento_atual": "R$50/semana",
+      "prioridade": "alta",
+      "problema_central": "Sem pixel, sem segmentação, objetivo de engajamento (não conversão). Conteúdo impulsionado é de show ao vivo, não delivery."
+    },
+    {
+      "canal": "CRM",
+      "status": "inexistente",
+      "grade": null,
+      "prioridade": "critica",
+      "problema_central": "Nenhum registro de clientes, histórico de compras ou datas. Impossível fazer reativação ou identificar clientes de alto valor."
+    }
+  ],
+
+  "problema_identidade_dividida": {
+    "descricao": "A operação tem dois negócios com públicos diferentes — choperia e delivery — mas comunicação toda misturada num único perfil. Em Franca só haverá delivery, mas a conta atual fala só de bar.",
+    "mix_recomendado": "60% delivery (barril, churrasco, evento) / 40% bar (shows, happy hour) no @colinachopp_orl",
+    "decisao_franca": "Não criar conta separada ainda. Reformar mix atual e criar Highlight 'Delivery' no Stories. Avaliar @colinachopp_fra quando a operação de Franca estiver rodando."
+  },
+
+  "rede_distribuidores_colina": {
+    "padrao_naming": "@colinachopp_{cidade}",
+    "benchmarks_uteis": ["@colinachoppriopreto (São José do Rio Preto)", "@colinachopp_votu (Votuporanga)"],
+    "acao": "Vasculhar esses perfis para benchmarks de conteúdo — cidades de porte similar a Franca."
+  },
+
+  "sequencia_ativacao_franca": [
+    { "ordem": 1, "acao": "Criar e verificar Google Meu Negócio Franca (área de atendimento)", "custo": "zero", "prazo": "antes do lançamento" },
+    { "ordem": 2, "acao": "Configurar WhatsApp Business com boas-vindas automática + cardápio com preços", "custo": "zero", "prazo": "esta semana" },
+    { "ordem": 3, "acao": "Criar Highlight 'Delivery' no Instagram com preços, como pedir, horários e atendimento domingo", "custo": "zero", "prazo": "esta semana" },
+    { "ordem": 4, "acao": "Reformar mix de conteúdo para 60% delivery, 40% bar", "custo": "já pago (designer freelancer)", "prazo": "próximas 2 semanas" },
+    { "ordem": 5, "acao": "Criar LP básica de Franca (destino dos anúncios)", "custo": "a definir", "prazo": "antes dos anúncios" },
+    { "ordem": 6, "acao": "Instalar pixel Meta e Google Tag Manager na LP", "custo": "zero", "prazo": "junto com LP" },
+    { "ordem": 7, "acao": "Iniciar Google Ads Search Franca (R$500-800/mês)", "custo": "R$500-800/mês", "prazo": "após LP pronta" },
+    { "ordem": 8, "acao": "Implementar CRM (planilha → Kommo)", "custo": "a definir", "prazo": "abertura de Franca" },
+    { "ordem": 9, "acao": "Solicitar 5 avaliações dos primeiros clientes de Franca no GMB", "custo": "zero", "prazo": "primeiros 30 dias" }
+  ],
+
+  "alimenta_skills": ["ee-s3-landing-page", "ee-s3-copy-anuncios", "ee-s2-diagnostico-midia", "ee-s3-gmb-otimizacao", "ee-s3-crm-setup"]
+}

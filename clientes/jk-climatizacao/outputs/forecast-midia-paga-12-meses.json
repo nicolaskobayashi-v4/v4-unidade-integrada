@@ -1,0 +1,153 @@
+{
+  "client_name": "JK Climatização",
+  "titulo": "Forecast de Investimento em Mídia Paga com ROAS — 12 Meses",
+  "generated_at": "2026-07-09",
+  "updated_at": "2026-07-10",
+  "nota_atualizacao_v2": "Em 10/07/2026 o operador subiu uma nova planilha de keywords (1.517 linhas vs 535 da anterior). A Keyword Planner do Google repete o MESMO volume para variações quase idênticas da mesma busca (ex.: 'instalação de ar condicionado', 'instalacao de ar condicionado', 'instalação de um ar condicionado' aparecem cada uma com vol=590) — sem deduplicar isso, o volume total parecia 2,5x maior do que é de fato. Após deduplicar por cluster de variantes: volume real subiu de ~819/mês (v1) para ~2.534/mês (v2) — 3x mais demanda real, mas o volume B2B/PMOC específico continua baixo (62→68/mês, praticamente inalterado). O grande driver novo é 'instalação de ar condicionado' (~2.750/mês dedup) — antes quase ausente da pesquisa. A sazonalidade ficou MAIS concentrada em dezembro (índice subiu de 170 para 218), com meses de baixa (mai/jun) caindo mais fundo (~47-51 vs ~64-69 antes). Os totais ANUAIS do forecast (budget, vendas, CAC, ROAS-LTV) não mudam — a curva mensal é normalizada por sazonalidade — mas a distribuição mês a mês fica mais front-loaded em dezembro e mais enxuta em mai/jun/jul. Ver detalhes em metodologia_planilha_keywords.",
+  "nota": "Deliverable ad-hoc solicitado pelo operador antes do fechamento do módulo de vendas — não é uma das ~22 skills do catálogo padrão (mais próximo em espírito de ee-s3-forecast-midia, mas essa depende de ee-s2-diagnostico-midia, ainda pendente). Tratar como estudo complementar.",
+  "data_source": "Planilha 'Keyword Stats 2026-07-09' (Google Keyword Planner, jun/2025-mai/2026) + reunião V4+JK Máquinas (08/05/2026, modelo financeiro ilustrativo feito ao vivo com André) + ee-s1-persona-icp + ee-s4-diagnostico-comercial + ee-s5-scripts-sdr + pesquisa de benchmarks de mercado (jul/2026)",
+
+  "indicadores_solicitados": {
+    "CPL": {
+      "comercial_geral_google": { "valor": "R$ 55 (faixa R$ 40-70)", "fonte": "estimado — CPC observado na planilha de keywords (R$2,59-33,29 top-of-page) + CVR de página típico ~10% (benchmark WordStream global 8,18%)", "estimated": true },
+      "b2b_industrial_google": { "valor": "R$ 140 (faixa R$ 80-200)", "fonte": "benchmark de mercado — CPL B2B industrial Brasil 2026", "estimated": true },
+      "meta_ads_comparativo": { "valor": "R$ 180 (faixa R$ 155-260, convertido de US$30-50+ a R$5,15/USD)", "fonte": "benchmark internacional Meta Ads B2B/home services 2026, convertido em BRL", "estimated": true },
+      "nota_transcricao": "A reunião de venda do serviço V4 (08/05/2026) usou CPL R$10 (B2C) e R$25 (B2B) como ILUSTRAÇÃO comercial para o André — não são dado de mercado nem medição real. Os benchmarks pesquisados agora (R$80-200 para B2B industrial no Brasil) são 3-8x mais altos que essa ilustração — usar os valores desta seção, não os da reunião de venda, para o forecast."
+    },
+    "CR_lead_para_MQL": {
+      "hoje_sem_scoring": "65%", "com_scripts_sdr_scoring": "75%",
+      "fonte": "estimado — ilustração da V4 usou 85% flat (otimista, pré-scoring); ajustado pra baixo no cenário 'hoje' por não haver critério de qualificação formal (ee-s4-diagnostico-comercial)", "estimated": true
+    },
+    "CR_MQL_para_SQL": {
+      "hoje_sem_scoring": "20%", "com_scripts_sdr_scoring": "35%",
+      "fonte": "benchmark RD Station Panorama Marketing e Vendas 2026 — <15% fraco, 15-25% médio (sem SLA formal, situação da JK hoje), 35-50% em B2B com SLA marketing-vendas formalizado (o que ee-s5-scripts-sdr e a escala 1-5⭐ de ee-s4-diagnostico-comercial entregam)"
+    },
+    "CR_SQL_para_Venda": {
+      "valor": "20% (mediana), faixa 5-30%",
+      "fonte": "dado real da própria reunião de venda (08/05/2026): André e Felipe discutiram 'a cada 5 propostas, 1 converte' como cenário razoável para o time do Pedro. Consistente com faixas gerais de fechamento em serviços B2B consultivos."
+    },
+    "ticket_medio": {
+      "comercial_geral_blended": "R$ 320/mês", "b2b_projetado": "R$ 714/mês",
+      "fonte": "dado real — André confirmou R$320 de ticket médio geral com margem de 23% na reunião de 08/05/2026; R$714 é a projeção discutida na mesma reunião ao focar aquisição em CNPJ/B2B"
+    },
+    "LTV": {
+      "comercial_geral": "R$ 3.840 (R$320 × 12 meses, horizonte conservador)",
+      "b2b": "R$ 25.704 (R$714 × 36 meses)",
+      "nota": "A reunião de venda 'chutou baixo' 12 meses de recorrência para QUALQUER segmento, só para ser conservadora no pitch. Mas a JK relata retenção real de só 2 empresas perdidas DESDE SEMPRE (ee-s1-persona-icp) — muito acima do benchmark de mercado B2B (~72,5% retenção anual, equivalente a ~3,6 anos de tenure médio). Por isso usei 36 meses para o segmento B2B (mais alinhado à realidade observada de contratos recorrentes anuais renovados), mantendo 12 meses conservador para o Comercial Geral (mistura clientes avulsos com contratos recorrentes menores). Recalibrar quando ee-s3-crm-setup existir e houver dado real de churn.",
+      "estimated": true
+    }
+  },
+
+  "metodologia_planilha_keywords": {
+    "arquivo_v1": "Keyword Stats 2026-07-09 at 22_25_44.csv (535 linhas, período jun/2025-mai/2026)",
+    "arquivo_v2": "Keyword Stats 2026-07-10 at 07_11_01.csv (1.517 linhas, mesmo período — atualização enviada pelo operador em 10/07/2026)",
+    "nota_deduplicacao": "A Keyword Planner do Google reporta o MESMO volume mensal para variações quase idênticas da mesma intenção de busca (ex.: 'instalação de ar condicionado' / 'instalacao de ar condicionado' / 'instalação de um ar condicionado' todas com vol=590). Somar a coluna de volume linha a linha infla o total em ~2,5x. Os números abaixo já estão deduplicados por cluster de variantes com o mesmo padrão mensal de busca.",
+    "volume_total_ano_v1_dedup": 9830,
+    "volume_medio_mensal_v1_dedup": 819,
+    "volume_total_ano_v2_dedup": 30410,
+    "volume_medio_mensal_v2_dedup": 2534,
+    "achado_critico": "O volume real (deduplicado) TRIPLICOU de v1 para v2 (819 → 2.534/mês) — mas quase todo o ganho vem de 'instalação de ar condicionado' (~2.750/mês, dedup), que era quase ausente na pesquisa anterior. O volume B2B/industrial específico (PMOC, câmara fria, manutenção preventiva industrial) ficou praticamente igual (62→68/mês dedup) — a pesquisa nova não muda a conclusão de que esse segmento tem demanda de busca mínima e depende de venda ativa, não inbound. PMOC como termo de busca segue com volume ~0 (só 'abnt pmoc' e uma variante de baixíssimo volume). Volume dentro do raio real de atuação da JK também cresceu (1→18/mês dedup), concentrado em Balneário Camboriú — reforça a oportunidade do canal B2B2C alto padrão no litoral já identificada em ee-s1-persona-icp.",
+    "oportunidade_instalacao": "'Instalação de ar condicionado' é o maior cluster de demanda em toda a planilha nova (~2.750/mês dedup, incluindo variantes locais como 'instalação de ar condicionado em Balneário Camboriú'). É um volume que serve tanto ICP-3 (B2C avulso, não prioritário) quanto — com a segmentação certa (raio + tipo de imóvel) — o ICP-2 (B2B2C alto padrão/litoral) e um wedge de entrada pro B2B: empresa que instala pode virar contrato de manutenção preventiva depois. Recomendação: NÃO tratar 'instalação' como tráfego genérico de baixa prioridade — segmentar por geografia (litoral/obras) e por perfil (residência vs. empresa) para capturar o wedge de maior valor.",
+    "sazonalidade_observada_indice_100_media": {
+      "jun": 51.3, "jul": 63.5, "ago": 67.1, "set": 92.3, "out": 105.0, "nov": 127.9,
+      "dez": 217.8, "jan": 144.8, "fev": 121.9, "mar": 95.1, "abr": 66.7, "mai": 46.6
+    },
+    "sazonalidade_indice_v1_para_referencia": {
+      "jun": 68.7, "jul": 76.0, "ago": 60.7, "set": 89.9, "out": 94.3, "nov": 114.7,
+      "dez": 170.3, "jan": 154.9, "fev": 130.1, "mar": 109.6, "abr": 66.5, "mai": 64.3
+    },
+    "nota_sazonalidade": "Com a base de keywords maior, o pico de dezembro ficou AINDA mais concentrado (índice subiu de 170 para 218) — 'instalação' se decide mais em cima da hora do calor chegar do que 'manutenção', que se distribui mais ao longo do verão inteiro. Janeiro/fevereiro/março vieram um pouco mais baixos que na v1, e maio/junho caíram mais fundo (baixa mais funda no inverno). Curva de investimento mês a mês abaixo já usa o índice v2.",
+    "cpc_observado": "14 de 1.517 keywords têm lance registrado (era 3 de 535) — ainda pouco, mas mais dado que antes. Faixa baixa média ~R$3,15 (era R$3,51), faixa alta média R$22,40 (era R$18,06) — puxada por termos de 'instalação' mais disputados (ex.: 'ar condicionado instalação' chega a R$67,62 no lance alto). Mantém o CPL Comercial em R$55 como estimativa central (dentro da faixa observada), mas vale monitorar CPC real de 'instalação' assim que a campanha estiver no ar — pode vir mais caro que o previsto na cauda mais competitiva."
+  },
+
+  "benchmarks_de_mercado_pesquisados": [
+    { "fonte": "RD Station — Panorama Marketing e Vendas 2026 (Brasil)", "achado": "MQL→SQL: <15% fraco, 15-25% médio, 35-50% em B2B com SLA marketing-vendas formalizado. 62% das empresas não têm esse SLA definido.", "url": "https://www.rdstation.com/pesquisas/panorama-marketing-vendas/edicao-2026/introducao/" },
+    { "fonte": "Martal Group 2026", "achado": "Conversão visita→cliente B2B mediana ~2,9%", "url": "referenciado via busca, sem URL direta capturada" },
+    { "fonte": "Benchmark Google Ads Brasil 2026 — Indústria/Manufatura", "achado": "CPC R$3-9 (média R$5); CPL B2B industrial R$80-200 — melhor custo-benefício relativo do setor B2B no Brasil", "url": "agregado de múltiplas fontes de benchmark Google Ads 2026 (WordStream, ALM Corp, get-ryze.ai)" },
+    { "fonte": "Meta/Facebook Ads Benchmarks B2B 2026", "achado": "CPL cross-industry médio ~US$27,66 (+20% em 2025); serviços profissionais US$25-70 (lead bruto), lead qualificado US$150-250; home services/construção US$30-50+", "url": "agregado (AdManage.ai, AdAmigo.ai, Sotros, Foundry CRO)" },
+    { "fonte": "WordStream Google Ads Benchmarks 2026", "achado": "CPC médio global US$5,42; CVR médio global 8,18% (13.000+ campanhas, 23 indústrias)", "url": "https://www.wordstream.com/blog/2026-google-ads-benchmarks" },
+    { "fonte": "CustomerGauge / Emulent — CLV Benchmarks B2B 2026", "achado": "Retenção B2B média ~72,5%/ano (equivalente a ~3,6 anos de tenure médio); meta universal de CAC:CLTV é 1:3", "url": "https://customergauge.com/blog/average-customer-lifetime-value-by-industry" },
+    { "fonte": "Investing.com / XE — câmbio", "achado": "USD/BRL ≈ 5,11-5,12 (jul/2026), usado para converter benchmarks internacionais de Meta Ads", "url": "https://br.investing.com/currencies/usd-brl" }
+  ],
+
+  "cenarios_funil": {
+    "hoje_sem_scoring_formal": { "lead_para_mql": "65%", "mql_para_sql": "20%", "sql_para_venda": "20%", "contexto": "Reflete a realidade descrita em ee-s4-diagnostico-comercial: sem CRM, sem critério de qualificação, Pedro atende por ordem de chegada" },
+    "com_scripts_sdr_e_scoring": { "lead_para_mql": "75%", "mql_para_sql": "35%", "sql_para_venda": "25%", "contexto": "Assume que a escala 1-5⭐ (ee-s4-diagnostico-comercial) e os scripts/cadência D+1/D+3/D+7 (ee-s5-scripts-sdr) já entregues nesta consultoria estão em uso — usa o teto do benchmark RD Station para B2B com SLA formal (35-50%), de forma conservadora (35%)" }
+  },
+
+  "plano_de_investimento_12_meses": {
+    "periodo": "Ago/2026 a Jul/2027",
+    "cenario_usado_na_tabela": "com_scripts_sdr_e_scoring (recomendado — ver key_leverage_point)",
+    "orcamento_base_pre_sazonalidade": { "comercial_geral_mensal": 1500, "b2b_industrial_mensal": 1500, "nota": "B2B tem sazonalidade amortecida pela metade (fator 0,5) porque contratos corporativos/PMOC não dependem do calor extremo para serem negociados — a própria reunião de venda já argumentou isso ('no B2B a gente consegue prospectar... o ano inteiro')" },
+    "tabela_mensal": [
+      { "mes": "Ago/26", "indice_sazonal": 67.1, "budget_comercial": 1006, "budget_b2b": 1253, "budget_total": 2259, "leads_comercial": 18.3, "vendas_comercial": 1.20, "leads_b2b": 8.9, "vendas_b2b": 0.59, "mrr_novo": 803, "roas_mes1": 0.36 },
+      { "mes": "Set/26", "indice_sazonal": 92.3, "budget_comercial": 1384, "budget_b2b": 1442, "budget_total": 2826, "leads_comercial": 25.2, "vendas_comercial": 1.65, "leads_b2b": 10.3, "vendas_b2b": 0.68, "mrr_novo": 1011, "roas_mes1": 0.36 },
+      { "mes": "Out/26", "indice_sazonal": 105.0, "budget_comercial": 1575, "budget_b2b": 1537, "budget_total": 3112, "leads_comercial": 28.6, "vendas_comercial": 1.88, "leads_b2b": 11.0, "vendas_b2b": 0.72, "mrr_novo": 1116, "roas_mes1": 0.36 },
+      { "mes": "Nov/26", "indice_sazonal": 127.9, "budget_comercial": 1919, "budget_b2b": 1709, "budget_total": 3628, "leads_comercial": 34.9, "vendas_comercial": 2.29, "leads_b2b": 12.2, "vendas_b2b": 0.80, "mrr_novo": 1305, "roas_mes1": 0.36 },
+      { "mes": "Dez/26", "indice_sazonal": 217.8, "budget_comercial": 3267, "budget_b2b": 2384, "budget_total": 5651, "leads_comercial": 59.4, "vendas_comercial": 3.90, "leads_b2b": 17.0, "vendas_b2b": 1.12, "mrr_novo": 2045, "roas_mes1": 0.36 },
+      { "mes": "Jan/27", "indice_sazonal": 144.8, "budget_comercial": 2172, "budget_b2b": 1836, "budget_total": 4008, "leads_comercial": 39.5, "vendas_comercial": 2.59, "leads_b2b": 13.1, "vendas_b2b": 0.86, "mrr_novo": 1444, "roas_mes1": 0.36 },
+      { "mes": "Fev/27", "indice_sazonal": 121.9, "budget_comercial": 1829, "budget_b2b": 1664, "budget_total": 3493, "leads_comercial": 33.3, "vendas_comercial": 2.18, "leads_b2b": 11.9, "vendas_b2b": 0.78, "mrr_novo": 1255, "roas_mes1": 0.36 },
+      { "mes": "Mar/27", "indice_sazonal": 95.1, "budget_comercial": 1426, "budget_b2b": 1463, "budget_total": 2889, "leads_comercial": 25.9, "vendas_comercial": 1.70, "leads_b2b": 10.4, "vendas_b2b": 0.69, "mrr_novo": 1034, "roas_mes1": 0.36 },
+      { "mes": "Abr/27", "indice_sazonal": 66.7, "budget_comercial": 1000, "budget_b2b": 1250, "budget_total": 2250, "leads_comercial": 18.2, "vendas_comercial": 1.19, "leads_b2b": 8.9, "vendas_b2b": 0.59, "mrr_novo": 800, "roas_mes1": 0.36 },
+      { "mes": "Mai/27", "indice_sazonal": 46.6, "budget_comercial": 699, "budget_b2b": 1100, "budget_total": 1799, "leads_comercial": 12.7, "vendas_comercial": 0.83, "leads_b2b": 7.9, "vendas_b2b": 0.52, "mrr_novo": 635, "roas_mes1": 0.35 },
+      { "mes": "Jun/27", "indice_sazonal": 51.3, "budget_comercial": 770, "budget_b2b": 1135, "budget_total": 1905, "leads_comercial": 14.0, "vendas_comercial": 0.92, "leads_b2b": 8.1, "vendas_b2b": 0.53, "mrr_novo": 674, "roas_mes1": 0.35 },
+      { "mes": "Jul/27", "indice_sazonal": 63.5, "budget_comercial": 952, "budget_b2b": 1226, "budget_total": 2178, "leads_comercial": 17.3, "vendas_comercial": 1.14, "leads_b2b": 8.8, "vendas_b2b": 0.57, "mrr_novo": 774, "roas_mes1": 0.36 }
+    ],
+    "nota_roas_mes1": "O 'ROAS mês 1' (~0,35-0,36x) parece ruim isoladamente — é esperado e NÃO é um alerta. Negócio de contrato recorrente não se paga no primeiro mês; o retorno real aparece no ROAS-LTV (ver resumo_anual), que considera os 12-36 meses de recorrência do contrato."
+  },
+
+  "resumo_anual": {
+    "budget_total_12_meses": 36000,
+    "cenario_hoje_sem_melhorias": {
+      "vendas_comercial": 8.5, "vendas_b2b": 3.3, "vendas_total": 11.8,
+      "cac_comercial": 2115, "cac_b2b": 5385,
+      "ltv_cac_comercial": "1,8x", "ltv_cac_b2b": "4,8x",
+      "roas_ltv_comercial": "1,82x", "roas_ltv_b2b": "4,77x",
+      "mrr_ativo_final_ano": 5110,
+      "alerta": "LTV:CAC de 1,8x no Comercial Geral está ABAIXO do piso saudável de mercado (1:3) — investir em mídia sem implementar os scripts/scoring já entregues é uma aposta de risco mais alto"
+    },
+    "cenario_melhorado_com_sdr_scripts": {
+      "vendas_comercial": 21.5, "vendas_b2b": 8.4, "vendas_total": 29.9,
+      "cac_comercial": 838, "cac_b2b": 2133,
+      "ltv_cac_comercial": "4,6x", "ltv_cac_b2b": "12,1x",
+      "roas_ltv_comercial": "4,58x", "roas_ltv_b2b": "12,05x",
+      "mrr_ativo_final_ano": 12900,
+      "arr_incremental_aproximado": 154800
+    },
+    "cenario_meta_ads_comparativo_nao_recomendado": {
+      "budget_hipotetico_mensal": 500, "budget_anual": 6000,
+      "vendas_ano": 2.2, "cac": 2743,
+      "ltv_cac": "1,4x", "roas_ltv": "1,40x",
+      "conclusao": "Pior LTV:CAC de todos os cenários testados — abaixo do piso saudável de mercado (1:3) mesmo COM o funil melhorado. Consistente com o diagnóstico de mídia (S3): Meta funciona melhor como remarketing do que captação fria para este perfil de cliente B2B/nicho."
+    }
+  },
+
+  "comparativo_canais": {
+    "recomendacao": "100% Google Ads (Search) no cenário base. Meta Ads não recomendado para captação fria — dado de mercado confirma a opinião do operador.",
+    "google_ads": { "papel": "Canal principal — captura intenção de busca ativa (quem já está procurando solução), o único tipo de sinal que este nicho de baixo volume consegue aproveitar com eficiência", "roas_ltv_esperado": "4,6x (Comercial) a 12,1x (B2B)" },
+    "meta_ads": { "papel": "Não recomendado para aquisição fria. Papel possível, não modelado aqui: remarketing de baixo custo para quem já visitou o site/LP (função já sugerida em ee-s2-diagnostico-midia/S3, não em captação nova)", "roas_ltv_esperado": "1,4x — abaixo do piso saudável de mercado" },
+    "linkedin_ads_nota_lateral": "Não pedido pelo operador, mas vale registrar: Daniel (gestor de tráfego V4) já validou CPC mínimo de R$4/clique e orçamento inicial de R$50/dia para LinkedIn Ads, citado como canal B2B promissor no diagnóstico de marketing (S3). Fica como alternativa a discutir se o volume de Google Ads B2B saturar (ver key_leverage_point)."
+  },
+
+  "key_leverage_point": {
+    "headline": "O maior alavancador deste forecast não é o canal — é implementar o scoring de 1-5 estrelas e os scripts de follow-up já entregues nesta consultoria. Isso é o que muda o LTV:CAC de 1,8x (arriscado) para 4,6x (saudável) no Comercial Geral, com o MESMO orçamento de mídia.",
+    "context": "Rodando os números com o funil de HOJE (sem scoring, sem cadência de follow-up), o Comercial Geral fica abaixo do piso saudável de mercado (LTV:CAC 1:3). Com o funil realista pós-implementação de ee-s4-diagnostico-comercial e ee-s5-scripts-sdr, o mesmo investimento gera quase 2,5x mais vendas e o LTV:CAC salta para 4,6x-12,1x. A decisão de mídia importa menos do que a decisão de arrumar o funil primeiro.",
+    "numbered_reasons": [
+      "O ganho de conversão MQL→SQL (20%→35%) é o maior driver — está diretamente amarrado ao scoring de 1-5⭐ e à cadência D+1/D+3/D+7 já desenhados em ee-s4-diagnostico-comercial e ee-s5-scripts-sdr, não a mais investimento em anúncio",
+      "O segmento B2B Industrial tem ROAS-LTV 2,6x maior que o Comercial Geral (12,05x vs 4,58x) mesmo com CPL 2,5x mais caro — reforça a recomendação estratégica já feita em ee-s1-persona-icp de priorizar o ICP de 10+ aparelhos",
+      "O volume de busca regional para termos B2B/industriais específicos é muito baixo (planilha de keywords) — não dá pra simplesmente 'colocar mais dinheiro' nesse segmento sem esbarrar em teto de impressões; a expansão de volume B2B provavelmente vai exigir LinkedIn Ads ou Display/remarketing, não só mais lance no Google Search"
+    ],
+    "discussion_anchor": "Vale sequenciar com André: primeiro validar e ativar os scripts/scoring (sem custo de mídia adicional), rodar 4-6 semanas medindo CPL e conversão REAL, e só então recalibrar este forecast com dado próprio em vez de estimativa/benchmark."
+  },
+
+  "honesty_alert": "Este forecast mistura três níveis de confiança que precisam ficar claros: (1) DADO REAL da própria JK — ticket médio R$320, margem 23%, projeção B2B R$714, retenção histórica altíssima, sazonalidade de busca (planilha de keywords); (2) ESTIMATIVA ILUSTRATIVA da reunião de venda da V4 (08/05/2026) — CPL R$10/R$25, funil 85%/70%/20% — que são otimistas e NÃO devem ser usados como meta, foram feitos para tangibilizar a venda do serviço, não para planejar orçamento; (3) BENCHMARK DE MERCADO pesquisado agora (jul/2026) — CPL B2B industrial R$80-200, MQL→SQL 15-50% conforme SLA, Meta Ads CPL convertido de USD. A JK não tem, até hoje, nenhum CPL ou taxa de conversão REAL medida (sem CRM — ver ee-s4-diagnostico-comercial). Todo este forecast é uma ESTIMATIVA DE PLANEJAMENTO — a primeira responsabilidade ao rodar a campanha de verdade é substituir estes números por dado observado nas primeiras 4-6 semanas.",
+
+  "pendente_confirmacao_operador": [
+    "Confirmar orçamento total real disponível — este forecast usa R$3.000/mês médio (R$36.000/ano) como cenário de trabalho, não uma cifra que o operador validou",
+    "Confirmar com André se os scripts SDR (ee-s5-scripts-sdr) e o scoring 1-5⭐ serão de fato implementados antes de escalar mídia — o cenário 'melhorado' pressupõe isso",
+    "Decidir com o operador se vale reservar uma fatia pequena de teste para Meta Ads remarketing (não captação fria) ou excluir 100%",
+    "Revalidar CPL e taxas de conversão reais após 4-6 semanas de campanha ativa — os números aqui são estimativa/benchmark, não medição"
+  ],
+
+  "alimenta_skills": ["ee-s3-forecast-midia", "ee-s2-diagnostico-midia"]
+}

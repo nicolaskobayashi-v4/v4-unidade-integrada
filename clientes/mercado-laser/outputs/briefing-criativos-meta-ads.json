@@ -1,0 +1,104 @@
+{
+  "client_name": "Mercado Laser",
+  "artefato": "briefing-criativos-meta-ads",
+  "generated_at": "2026-06-26",
+  "revisado": "Formato corrigido para estático/imagem única por feedback do operador (versão anterior tinha vídeo/Reels e carrossel)",
+  "data_source": "ee-s1-persona-icp + ee-s1-diagnostico-maturidade + briefing.brand + plano-palavras-chave-google-ads",
+  "contexto": "Entrega dos 5 criativos de bonificação prometidos na venda (08/06/2026) — adiantada em relação ao roadmap padrão. ee-s3-criativos-anuncios formalmente depende de brandbook/identidade visual, ainda não rodados nesta conta. Revisar linha visual quando a Semana 3 rodar de fato.",
+
+  "formato": "estático, imagem única (sem vídeo, sem carrossel)",
+  "especificacoes_tecnicas": {
+    "feed": "1:1 (1080x1080) ou 4:5 (1080x1350)",
+    "stories_reels": "mesma imagem recortada para 9:16 com margem de segurança pro texto"
+  },
+
+  "tom_e_identidade": {
+    "adjetivos": ["técnica", "ágil", "confiável"],
+    "tom": "profissional, sem ser hiper-formal",
+    "cores": "preto e vermelho dominantes (feixe de laser do logo) — evitar cor dominante adicional",
+    "miv_status": "Manual de identidade visual formal ainda não existe — cliente vai enviar quando disponível",
+    "direcao_producao": "Foto real das máquinas, componentes e processo de embalagem — não usar imagem genérica ou gerada por IA.",
+    "evitar": "Citar concorrente (Translaser, Multivis) pelo nome no texto público — risco de propaganda comparativa (CONAR). Nome de concorrente só como termo de busca interno no Google Ads."
+  },
+
+  "cta_padrao": "WhatsApp — confirmar número correto antes de publicar (ver ee-s1-diagnostico-maturidade, pilar CRO)",
+
+  "criativos": [
+    {
+      "id": 1,
+      "conceito": "A diferença que você só vê depois que quebra",
+      "icp": "Rodrigo",
+      "funil": "fundo",
+      "objecao_atacada": "Tá caro, achei mais barato",
+      "imagem": "Foto real, close-up, do sistema de refrigeração/exaustão de uma máquina Mercado Laser — componente em destaque, fundo neutro preto, espaço limpo na parte superior para o texto.",
+      "headline": "Essa máquina de R$1.000 que você viu no Reels não vem com isso aqui.",
+      "texto_primario": "A maioria das máquinas baratas não tem refrigeração de verdade — e o tubo laser queima em meses. Aqui, cada máquina sai com o sistema completo. 20 anos importando direto.",
+      "descricao": "Qualidade que você sente na produção, não só no preço.",
+      "cta": "Enviar mensagem (WhatsApp)",
+      "campanha_relacionada": "campanha-1"
+    },
+    {
+      "id": 2,
+      "conceito": "Sua máquina parou. A peça sai daqui hoje.",
+      "icp": "Rodrigo/Anderson",
+      "funil": "fundo",
+      "objecao_atacada": "Quanto tempo demora?",
+      "imagem": "Foto real de caixa embalada e selada, pronta pra transportadora, etiqueta visível, com selo gráfico sobreposto 'Envio em até 24h' dentro da mesma imagem.",
+      "headline": "Sua máquina parou. A peça sai daqui hoje.",
+      "texto_primario": "Produção parada é dinheiro parado. Todo pedido — peça ou máquina — sai no mesmo dia, sem enrolação.",
+      "descricao": "Pedido feito até as 10h, na transportadora até as 17h.",
+      "cta": "Enviar mensagem (WhatsApp)",
+      "campanha_relacionada": ["campanha-1", "campanha-3"]
+    },
+    {
+      "id": 3,
+      "conceito": "Comecei com medo de não dar retorno. Hoje não paro de produzir.",
+      "icp": "Marcelo",
+      "funil": "topo",
+      "objecao_atacada": "Será que vale o investimento?",
+      "imagem": "Foto estilo depoimento — pessoa real numa pequena oficina/bancada, ao lado de produtos personalizados finalizados, expressão satisfeita. Citação sobreposta como card de depoimento dentro da própria foto.",
+      "headline": "Eu também tinha medo de gastar e não dar retorno.",
+      "texto_primario": "Comecei com a máquina de entrada com medo de errar. Hoje não paro de receber pedido — em poucos meses ela já tinha se pagado.",
+      "descricao": "Quer entender se vale pra você? Fala com a gente antes de decidir.",
+      "cta": "Enviar mensagem (WhatsApp)",
+      "nota_producao": "Se não houver cliente real disponível pra essa foto a tempo, usar Igor/Vinícius como 'rosto' narrando um caso real — não fabricar depoimento atribuído a terceiro fictício.",
+      "campanha_relacionada": "campanha-2"
+    },
+    {
+      "id": 4,
+      "conceito": "Tubo queimou? Sai daqui hoje.",
+      "icp": "Anderson",
+      "funil": "fundo",
+      "objecao_atacada": "Urgência de reposição",
+      "imagem": "Foto de produto — tubo laser (ou lente/espelho) em destaque sobre fundo neutro, boa iluminação, etiqueta/selo 'pronta entrega' na própria imagem.",
+      "headline": "Tubo queimou? Sai daqui hoje.",
+      "texto_primario": "Não arrisque peça genérica errada. Manda o modelo da sua máquina e a gente confirma a peça certa em minutos — sai no mesmo dia.",
+      "descricao": "Tubos, lentes, espelhos e exaustores — tudo em estoque.",
+      "cta": "Enviar mensagem (WhatsApp)",
+      "campanha_relacionada": "campanha-3"
+    },
+    {
+      "id": 5,
+      "conceito": "Sua linha de produção não espera. A nossa também não.",
+      "icp": "Patrícia (BestBeam/industrial)",
+      "funil": "decisao_consultiva",
+      "objecao_atacada": "Medo de fornecedor que desaparece no pós-venda",
+      "imagem": "Foto institucional de máquina premium em operação, ambiente de produção (não showroom vazio), visual clean/corporate.",
+      "headline": "Sua linha de produção não pode parar esperando suporte. A nossa também não espera.",
+      "texto_primario": "20 anos importando direto. Suporte técnico em todo o Brasil — instalação, treinamento operacional e manutenção, sem depender de terceiro.",
+      "descricao": "Decisão de equipamento não é sobre o menor preço — é sobre quem te atende quando precisar.",
+      "cta": "Fale com um especialista (WhatsApp)",
+      "atencao": "Confirmar se bestbeam.com.br já está publicado antes de direcionar este criativo pra lá — caso contrário, usar a seção correspondente do site Mercado Laser.",
+      "campanha_relacionada": "campanha-4"
+    }
+  ],
+
+  "checklist_antes_de_publicar": [
+    "Confirmar pixel Meta instalado e evento de conversão configurado",
+    "Confirmar número de WhatsApp correto em todos os CTAs",
+    "Garantir que as 5 fotos usadas são reais (máquinas/componentes/processo do próprio Mercado Laser)",
+    "Para o criativo 3, decidir entre depoimento real ou narrativa pelo próprio time"
+  ],
+
+  "alimenta_skills": ["ee-s3-criativos-anuncios", "ee-s2-diagnostico-midia", "ee-s3-copy-anuncios"]
+}

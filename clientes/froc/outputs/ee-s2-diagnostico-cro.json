@@ -1,0 +1,259 @@
+{
+  "client_name": "FROC — Frutas Desidratadas",
+  "skill": "ee-s2-diagnostico-cro",
+  "generated_at": "2026-05-05",
+  "data_source": "Fetch froc.com.br + kickoff + posicionamento. Site em Framer — fetch parcial (JavaScript dinâmico não renderizado). Análise baseada em estrutura e metadados capturados.",
+
+  "summary": "froc.com.br é um site institucional lançado em 29/04/2026 que não converte. A única conversão possível hoje é clicar no WhatsApp — sem formulário, sem rastreamento, sem CTA orientado ao comprador B2B. A linguagem é B2C ('alimentos saudáveis', 'sem açúcares') num site que deveria falar com compradores industriais. Diagnóstico: o site não é o canal de conversão do projeto — as LPs são. O site precisa de ajustes pontuais para não prejudicar o tráfego que virá das campanhas.",
+
+  "summary_headline": "froc.com.br não converte porque não foi feito para converter — é um cartão de visitas digital com linguagem de produto B2C para um comprador B2B industrial.",
+
+  "summary_highlights": [
+    {
+      "category": "risco",
+      "label": "Conversão atual",
+      "value": "Zero estruturada",
+      "subtext": "Único CTA: WhatsApp — sem rastreamento",
+      "tone": "red"
+    },
+    {
+      "category": "risco",
+      "label": "Linguagem",
+      "value": "B2C",
+      "subtext": "Fala com consumidor — não com comprador industrial",
+      "tone": "red"
+    },
+    {
+      "category": "risco",
+      "label": "Rastreamento",
+      "value": "Inexistente",
+      "subtext": "Sem GA4, sem Pixel, sem GTM",
+      "tone": "red"
+    },
+    {
+      "category": "maturidade",
+      "label": "Site",
+      "value": "Novo (29/04)",
+      "subtext": "Framer by SIX — boa base técnica",
+      "tone": "yellow"
+    },
+    {
+      "category": "oportunidade",
+      "label": "Potencial",
+      "value": "Ajustes pontuais",
+      "subtext": "Site OK como institucional — foco é nas LPs",
+      "tone": "green"
+    },
+    {
+      "category": "posicao",
+      "label": "Papel no funil",
+      "value": "Validação",
+      "subtext": "Comprador valida a empresa após receber indicação",
+      "tone": "blue"
+    }
+  ],
+
+  "summary_key_findings": [
+    {
+      "category": "ameaca",
+      "text": "A tagline principal do site — 'alimentos saudáveis desidratados... 100% naturais, sem açúcares ou conservantes' — é linguagem de rótulo B2C. O comprador Rafael ou Camila que chega no site não se identifica como público. Um ajuste simples na tagline pode resolver isso sem reformulação completa."
+    },
+    {
+      "category": "ameaca",
+      "text": "Sem Google Tag Manager instalado, qualquer campanha de Google Ads ou Meta Ads vai rodar sem rastreamento de conversão — o algoritmo não vai otimizar para o objetivo certo e não haverá dados para decidir o que funciona. Instalar GTM é tarefa de semana 1, não semana 3."
+    },
+    {
+      "category": "contexto",
+      "text": "O site não é o principal canal de conversão do projeto — as LPs serão. O papel do site froc.com.br no funil é ser a página de validação: o comprador que recebe o WhatsApp ou e-mail da FROC vai pesquisar o site para confirmar que a empresa é legítima. Para isso, o site precisa parecer sério e B2B — não de produto para consumidor."
+    },
+    {
+      "category": "vantagem",
+      "text": "O site foi construído em Framer, plataforma que permite criar subpáginas e LPs no mesmo domínio sem mexer no site principal. As LPs contratadas podem ser desenvolvidas como froc.com.br/pet e froc.com.br/alimentacao — mantendo o mesmo domínio com autoridade de SEO."
+    },
+    {
+      "category": "acao",
+      "text": "Dois ajustes de alta prioridade no site antes das campanhas: (1) instalar Google Tag Manager + GA4 + Pixel Meta, (2) alterar a tagline para linguagem B2B. O restante pode ser melhorado gradualmente sem bloquear o lançamento das campanhas."
+    }
+  ],
+
+  "site_audit": {
+    "url": "https://www.froc.com.br",
+    "plataforma": "Framer (desenvolvido por SIX — www.six.com.br)",
+    "lancamento": "29/04/2026",
+    "tipo": "Institucional — sem páginas de venda ou conversão",
+    "fetch_limitacao": "Framer renderiza via JavaScript dinâmico — fetch capturou apenas metadados e estrutura de menu. Análise de conteúdo detalhado das seções internas (Produtos, Diferenciais, Como Comprar) indisponível via scraping. Diagnóstico baseado em metadados + informações do kickoff.",
+
+    "estrutura": {
+      "menu": ["Quem Somos", "Produtos", "Como Comprar", "Diferenciais", "Contato"],
+      "cta_principal": "WhatsApp (49) 99192-4059",
+      "formularios": "Nenhum identificado",
+      "rastreamento": "Nenhum (sem GTM, sem GA4, sem Pixel Meta)",
+      "seo_basico": "Meta description presente. Sem sitemap verificado."
+    },
+
+    "problemas": [
+      {
+        "severidade": "crítico",
+        "problema": "Sem Google Tag Manager / rastreamento instalado",
+        "impacto": "Impossível rastrear conversões de campanhas pagas. Algoritmo do Google Ads não otimizará para o objetivo correto. Meta Pixel não dispara.",
+        "fix": "Instalar GTM no site. Configurar eventos: clique no WhatsApp, envio de formulário (quando existir), visualização de página de produto.",
+        "responsavel": "Nicolas (dev) — semana 1"
+      },
+      {
+        "severidade": "alto",
+        "problema": "Tagline B2C na homepage",
+        "impacto": "Comprador B2B que acessa o site para validar a empresa não se reconhece como público-alvo.",
+        "tagline_atual": "Especializada em alimentos saudáveis desidratados produzidos em São Joaquim, Santa Catarina. 100% naturais, sem adição de açúcares ou conservantes.",
+        "tagline_proposta": "Fornecedora de frutas desidratadas premium para indústria pet e alimentícia — produzidas em São Joaquim, SC, sem conservantes.",
+        "fix": "Alterar 1 linha de texto no Framer. Menos de 30 minutos.",
+        "responsavel": "Nicolas — semana 1"
+      },
+      {
+        "severidade": "alto",
+        "problema": "Ausência de menção à amostra grátis no site principal",
+        "impacto": "Principal diferencial competitivo invisível para qualquer visitante que chegue no site antes da LP existir.",
+        "fix": "Adicionar menção à amostra grátis na seção de Diferenciais ou Como Comprar.",
+        "responsavel": "Nicolas + Geovanna (copy)"
+      },
+      {
+        "severidade": "alto",
+        "problema": "Único CTA é o WhatsApp — sem alternativa para ICP alimentação humana",
+        "impacto": "Camila (analista de compras) não vai iniciar processo de homologação de fornecedor pelo WhatsApp. Sem e-mail ou formulário, o ICP de maior ticket não tem como converter.",
+        "fix": "Adicionar e-mail de contato comercial visível na página de Contato. Quando LP2 existir, adicionar link.",
+        "responsavel": "Nicolas"
+      },
+      {
+        "severidade": "médio",
+        "problema": "Attribution de agência no rodapé (SIX + Framer badge)",
+        "impacto": "Menor — mas mostra bastidores para o visitante sem benefício.",
+        "fix": "Remover 'made with Framer by SIX' do rodapé.",
+        "responsavel": "Nicolas"
+      },
+      {
+        "severidade": "médio",
+        "problema": "Sem prova social visível",
+        "impacto": "Empresa com 1 ano sem depoimentos, logos de clientes ou métricas de credibilidade. Comprador cético não tem âncoras de confiança.",
+        "fix": "Adicionar logos de clientes atuais (com autorização) OU número de pedidos entregues OU 'Fornecedora do grupo empresarial de São Joaquim há X anos'.",
+        "responsavel": "Driélly (fornecer conteúdo) + Nicolas (implementar)"
+      }
+    ],
+
+    "pontos_positivos": [
+      "Site novo, moderno e clean — Framer entrega boa experiência visual sem depender de WordPress",
+      "Domínio froc.com.br registrado e funcionando",
+      "Menu lógico para um site institucional (Quem Somos, Produtos, Diferenciais, Contato)",
+      "Subpáginas do Framer permitem criar LPs em froc.com.br/pet e froc.com.br/alimentacao mantendo autoridade do domínio",
+      "Mobile-first por padrão no Framer"
+    ]
+  },
+
+  "papel_do_site_no_funil": {
+    "posicao_no_funil": "Validação (meio-fundo)",
+    "jornada_do_comprador": [
+      "1. Comprador recebe cold call do vendedor OU vê anúncio no Google/Meta",
+      "2. Vendedor menciona a FROC / anúncio direciona para LP",
+      "3. Comprador pesquisa 'FROC desidratados' no Google para validar empresa",
+      "4. Acessa froc.com.br — precisa ver empresa séria, B2B, com credibilidade",
+      "5. Retorna à LP ou entra em contato via WhatsApp/e-mail"
+    ],
+    "o_que_o_site_precisa_comunicar": [
+      "Empresa real com fábrica real em São Joaquim",
+      "Fornecedor B2B industrial — não consumidor final",
+      "Existe há X anos (grupo empresarial)",
+      "Contato fácil para comprador B2B (e-mail comercial + WhatsApp)"
+    ],
+    "o_que_o_site_nao_precisa_ser": "Página de conversão principal — esse papel é das LPs"
+  },
+
+  "prioridades_de_melhoria": [
+    {
+      "prioridade": 1,
+      "acao": "Instalar Google Tag Manager + GA4 + Pixel Meta",
+      "urgencia": "Semana 1 — antes de qualquer campanha",
+      "esforco": "2-4 horas (dev)",
+      "impacto": "Crítico — sem isso, tráfego pago é cego"
+    },
+    {
+      "prioridade": 2,
+      "acao": "Alterar tagline para linguagem B2B",
+      "urgencia": "Semana 1",
+      "esforco": "30 minutos",
+      "impacto": "Alto — primeiro texto que o comprador lê"
+    },
+    {
+      "prioridade": 3,
+      "acao": "Adicionar e-mail comercial visível em Contato",
+      "urgencia": "Semana 1",
+      "esforco": "15 minutos",
+      "impacto": "Alto — abre canal para ICP alimentação humana"
+    },
+    {
+      "prioridade": 4,
+      "acao": "Mencionar amostra grátis na seção Diferenciais",
+      "urgencia": "Semana 1-2",
+      "esforco": "1 hora (copy + implementação)",
+      "impacto": "Médio-alto"
+    },
+    {
+      "prioridade": 5,
+      "acao": "Remover attribution SIX/Framer do rodapé",
+      "urgencia": "Semana 1",
+      "esforco": "15 minutos",
+      "impacto": "Baixo mas rápido"
+    },
+    {
+      "prioridade": 6,
+      "acao": "Adicionar prova social (logos de clientes ou métricas)",
+      "urgencia": "Semana 2-3",
+      "esforco": "Depende de aprovação da Driélly",
+      "impacto": "Médio — credibilidade para empresa nova"
+    }
+  ],
+
+  "wireframe_site_corrigido": {
+    "nota": "Não é redesign — são ajustes de conteúdo na estrutura existente do Framer.",
+    "secoes": [
+      {
+        "secao": "Hero / Home",
+        "atual": "Tagline B2C + WhatsApp",
+        "proposto": "Tagline B2B + 'Amostra grátis para qualificação' + WhatsApp + E-mail"
+      },
+      {
+        "secao": "Quem Somos",
+        "atual": "Desconhecido (Framer não renderizou)",
+        "proposto": "Grupo empresarial de São Joaquim + anos de experiência + capacidade produtiva + foco B2B"
+      },
+      {
+        "secao": "Produtos",
+        "atual": "Desconhecido",
+        "proposto": "Maçã desidratada como produto principal + especificações técnicas básicas (granulometria, validade, embalagem industrial)"
+      },
+      {
+        "secao": "Como Comprar",
+        "atual": "Desconhecido",
+        "proposto": "Fluxo B2B: solicitar amostra → aprovação técnica → pedido mínimo 400kg → entrega em 2 dias. Link para LP quando disponível."
+      },
+      {
+        "secao": "Diferenciais",
+        "atual": "Desconhecido",
+        "proposto": "5 diferenciais reais: amostra grátis, sem conservantes por processo, entrega 2 dias, São Joaquim origem, pagamento 30-120 dias"
+      },
+      {
+        "secao": "Contato",
+        "atual": "WhatsApp apenas",
+        "proposto": "WhatsApp + E-mail comercial + Endereço fábrica São Joaquim"
+      }
+    ]
+  },
+
+  "key_leverage_point": {
+    "headline": "O site precisa de 3 ajustes rápidos antes das campanhas subirem — sem eles, tráfego pago vai para uma página que não rastreia, não converte e confunde o comprador com linguagem errada.",
+    "context": "GTM + tagline B2B + e-mail comercial são mudanças de menos de 5 horas de trabalho somadas. Sem elas, o investimento em mídia começa cego (sem rastreamento), frio (sem mensagem correta) e incompleto (sem canal para Camila). As LPs resolvem a conversão principal — mas o site não pode atrapalhar o processo de validação que acontece em paralelo.",
+    "numbered_reasons": [
+      "GTM sem instalação = Google Ads otimiza para clique, não para lead — o algoritmo vai atrair cliques baratos que nunca convertem em vez de cliques de compradores reais",
+      "Tagline B2C = comprador que pesquisa a empresa para validar a legitimidade acha que chegou no lugar errado e desconfia",
+      "Sem e-mail visível = Camila (alimentação humana) não tem como iniciar contato formal — WhatsApp é informal demais para primeiro contato de processo de homologação"
+    ],
+    "discussion_anchor": "Para a equipe: 'Antes do Google Ads subir, o Nicolas precisa de 4 horas para fazer GTM + tagline + e-mail. Isso é o que desbloqueio a semana 3 do cronograma.'"
+  }
+}

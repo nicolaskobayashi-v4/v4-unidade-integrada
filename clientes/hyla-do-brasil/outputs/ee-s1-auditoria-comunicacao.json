@@ -1,0 +1,122 @@
+{
+  "skill": "ee-s1-auditoria-comunicacao",
+  "cliente": "Hyla do Brasil",
+  "gerado_em": "2026-06-22",
+  "nota_metodologica": "Auditoria feita a partir do relato do próprio time nas reuniões/kick-off — não houve análise visual direta de screenshots dos canais nesta rodada (sem acesso aos perfis/site). Grades e status marcados como estimados onde não há confirmação visual direta.",
+
+  "manchete": "A Hyla constrói dois funis — cliente e associada — mas só armou a infraestrutura de campanha (formulário, LP, anúncio) para um deles. O Instagram Business de recrutamento está abandonado exatamente onde a SWOT apontou a maior alavanca.",
+
+  "touchpoints": [
+    {
+      "canal": "Instagram oficial @hyladobrasiloficial",
+      "status": "ativo",
+      "grade": "B-",
+      "prioridade": "media",
+      "seguidores": "47-49 mil (estimado)",
+      "problema_central": "Audiência real e engajada, mas mix de conteúdo (carrossel + vídeo) reativo a tendências, sem calendário estratégico ligado ao posicionamento de saúde. Funciona como canal de mídia paga (formulário de demonstração), mas o orgânico não está estruturado para reforçar o eixo de saúde/alergia que diferencia a marca."
+    },
+    {
+      "canal": "Instagram associadas @hyladobrasilbusiness",
+      "status": "ativo_subutilizado",
+      "grade": "D+",
+      "prioridade": "alta",
+      "problema_central": "Existe há ~2 anos mas funciona como employer branding esporádico (posts de viagens, destaques do mês), sem formulário de captação, sem funil de recrutamento e sem campanha paga — exatamente o canal que a SWOT apontou como maior alavanca de crescimento subaproveitada."
+    },
+    {
+      "canal": "Site institucional/e-commerce (hyladobrasil.com.br)",
+      "status": "ativo_com_problemas_tecnicos",
+      "grade": "D",
+      "prioridade": "alta",
+      "problema_central": "WordPress + WooCommerce + Elementor — avaliado pelo próprio operador V4 como 'cheio de gambiarras'. Performance mobile inconsistente dependendo do navegador, e-commerce limitado, sem integração TikTok Shop."
+    },
+    {
+      "canal": "Landing Page de anúncios (hyladobrasil.com.br/aspirador-hyla-do-brasil/)",
+      "status": "ativo",
+      "grade": "B",
+      "prioridade": "media",
+      "problema_central": "Avaliada pela própria equipe (Cleiton) como funcional — formulário restrito (nome/telefone/estado/cidade) já filtra qualidade. Ponto de atenção: depende da mesma stack fraca do site (WordPress/Elementor) e não tem pixel/analytics confirmado."
+    },
+    {
+      "canal": "WhatsApp / C2S (distribuição de leads)",
+      "status": "ativo_sem_crm",
+      "grade": "C",
+      "prioridade": "critica",
+      "problema_central": "Cadência de contato bem definida (2 ligações + 2 WhatsApp + 1 mensagem por até 10 dias úteis), mas o C2S é uma ferramenta de distribuição emprestada do setor imobiliário, não um CRM — sem histórico, sem nutrição, sem rastreio confiável (equipe reconhece ~70-75% de precisão nos dados)."
+    },
+    {
+      "canal": "Google Ads + YouTube Pmax",
+      "status": "ativo",
+      "grade": "C",
+      "prioridade": "alta",
+      "investimento_atual": "Parte de ~R$13.500-15.000/mês (junto com Instagram)",
+      "problema_central": "Ativo e com volume real, mas sem dados de plataforma confirmados nesta auditoria (V4MOS bloqueado por erro de permissão, escalado). Já testaram dobrar o budget geral sem ganho proporcional, sem diagnóstico técnico da causa."
+    },
+    {
+      "canal": "YouTube orgânico",
+      "status": "ativo_baixo_esforco",
+      "grade": "D+",
+      "prioridade": "baixa",
+      "problema_central": "Canal ativo, mas o próprio Cleiton descreveu o conteúdo como majoritariamente shorts reaproveitados do Instagram — sem produção original para o formato."
+    },
+    {
+      "canal": "TikTok",
+      "status": "sem_investimento_pago",
+      "grade": null,
+      "prioridade": "baixa",
+      "problema_central": "Já tiveram verba no passado, hoje não investem (decisão consciente de concentrar budget no Instagram). Presença orgânica não confirmada nesta auditoria."
+    },
+    {
+      "canal": "Facebook",
+      "status": "desconhecido",
+      "grade": null,
+      "prioridade": "baixa",
+      "problema_central": "Mencionado como 'espelho do Instagram, mas não é o foco' — sem confirmação visual do estado atual nesta auditoria."
+    },
+    {
+      "canal": "Google Meu Negócio",
+      "status": "desconhecido",
+      "grade": null,
+      "prioridade": "alta",
+      "problema_central": "Não mencionado em nenhuma das reuniões — status não confirmado. Se não está otimizado, a Hyla perde busca local de quem pesquisa 'aspirador antialérgico perto de mim' ou similar, além de prova social via avaliações."
+    },
+    {
+      "canal": "CRM",
+      "status": "inexistente",
+      "grade": null,
+      "prioridade": "critica",
+      "problema_central": "Nenhuma ferramenta de gestão de funil ou pós-venda. Já testaram SDR interno e externo sem ganho líquido comprovado, mas sem CRM por trás, a comparação entre eles também não é confiável."
+    },
+    {
+      "canal": "E-mail marketing",
+      "status": "inexistente",
+      "grade": null,
+      "prioridade": "media",
+      "problema_central": "Zero nutrição de leads ou comunicação pós-venda automatizada por e-mail. Pós-venda hoje é 100% manual via SAC telefone/WhatsApp."
+    },
+    {
+      "canal": "Assessoria de imprensa",
+      "status": "inativa",
+      "grade": null,
+      "prioridade": "baixa",
+      "problema_central": "Cobertura gratuita oportunística na pandemia (Exame, Gazeta do Povo) — nada estruturado desde então."
+    }
+  ],
+
+  "problema_duas_frentes_atencao_desigual": {
+    "descricao": "A Hyla precisa converter em dois funis diferentes — cliente final e candidata a associada — mas só montou infraestrutura de campanha completa (formulário, LP, distribuição C2S) para o funil de cliente. O funil de recrutamento depende só de conteúdo orgânico esporádico na conta @hyladobrasilbusiness.",
+    "evidencia": "ee-s1-swot já apontou isso como Fr6 (fraqueza) cruzada com O1 (oportunidade) — clientes satisfeitas são a fonte natural de candidatas a associada, mas hoje não há nenhum caminho estruturado entre as duas coisas.",
+    "recomendacao": "Replicar para @hyladobrasilbusiness a mesma lógica que já funciona para o cliente final: formulário de interesse, distribuição/triagem, e cadência de contato — não precisa ser sofisticado, precisa existir."
+  },
+
+  "sequencia_ativacao": [
+    { "ordem": 1, "acao": "Criar/otimizar Google Meu Negócio (status hoje desconhecido) — busca local e prova social via avaliações", "custo": "zero", "prazo": "imediato" },
+    { "ordem": 2, "acao": "Criar formulário de interesse em 'ser associada' linkado no Instagram Business, com distribuição básica (nem precisa ser C2S — uma planilha já destrava)", "custo": "zero/baixo", "prazo": "esta semana" },
+    { "ordem": 3, "acao": "Instalar pixel Meta + GA4 na landing page de anúncios — pré-requisito para qualquer diagnóstico de mídia confiável", "custo": "zero", "prazo": "antes de qualquer novo investimento em mídia" },
+    { "ordem": 4, "acao": "Resolver os problemas técnicos do site (performance mobile, navegador) antes de aumentar tráfego pago apontando para lá", "custo": "a definir (depende de decisão sobre a stack WordPress/Elementor)", "prazo": "curto prazo" },
+    { "ordem": 5, "acao": "Calendário de conteúdo orgânico no Instagram oficial ancorado nos 3 pilares (conforto, higiene, saúde) — hoje reativo a tendência, não a estratégia", "custo": "zero (produção já existe)", "prazo": "próximas semanas" },
+    { "ordem": 6, "acao": "Produção original para YouTube (não só shorts reaproveitados) — formato de depoimento/prova social de saúde tem potencial de SEO e de IA generativa", "custo": "a definir", "prazo": "médio prazo" },
+    { "ordem": 7, "acao": "Implementar CRM real (ver ee-s3-crm-setup, já liberada) — pré-requisito para medir qualquer uma das ações acima", "custo": "a definir", "prazo": "prioridade já identificada no diagnóstico de maturidade" }
+  ],
+
+  "alimenta_skills": ["ee-s2-diagnostico-cro", "ee-s2-diagnostico-midia", "ee-s3-crm-setup", "ee-s3-gmb-otimizacao", "ee-s3-landing-page"]
+}

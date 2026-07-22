@@ -1,0 +1,87 @@
+{
+  "documento": "plano-acao-5w1h",
+  "cliente": "Chopp Colina Orlandia",
+  "gerado_em": "2026-06-21",
+  "metodologia": "Falconi 5W1H",
+  "fontes": [
+    "transcricao-reuniao-de-vendas.md (Reunião Comercial, 2026-05-04)",
+    "[S1] Kick-off (2026-05-13)",
+    "[S2] Pesquisa de Mercado (2026-05-21)",
+    "[S3] Diagnóstico de Marketing (2026-05-29)",
+    "Entrevista Comercial Colina (2026-06-05)",
+    "[S4] Diagnóstico Comercial (2026-06-12)"
+  ],
+  "nota_metodologica": "Toda ação foi extraída literalmente das 6 transcrições. Onde a reunião não definiu data específica, o campo 'quando' está marcado como 'Pendente de definição' em vez de data fabricada — ver lista de pendências.",
+
+  "acoes": [
+    {"bloco": "Estruturação Operacional — Franca", "what": "Transportar 10 a 15 chopeiras elétricas de Orlândia para a nova unidade em Franca", "who": "Cláudio K.", "when": "Pendente de definição", "where": "Franca, SP", "why": "Operação de Franca não tem equipamento próprio — depende do estoque de Orlândia", "how": "Transporte via veículo próprio", "fonte": "S1"},
+    {"bloco": "Estruturação Operacional — Franca", "what": "Alocar 1 unidade de trave congelada em Orlândia e 1 em Franca", "who": "Cláudio K.", "when": "Pendente de definição", "where": "Orlândia e Franca", "why": "Diferencial exclusivo de equipamento — nenhum concorrente mapeado possui", "how": "Redistribuir equipamento já adquirido (~R$30k)", "fonte": "S1"},
+    {"bloco": "Estruturação Operacional — Franca", "what": "Contratar entregador para Franca", "who": "Cláudio K.", "when": "Pendente de definição (urgência imediata)", "where": "Franca, SP", "why": "Risco de centralização excessiva — Cláudio não consegue operar tudo sozinho", "how": "Abrir vaga e contratar antes do início das entregas", "fonte": "Reunião Comercial 04/05"},
+    {"bloco": "Estruturação Operacional — Franca", "what": "Adquirir veículo de entrega para Franca", "who": "Cláudio K.", "when": "Pendente de definição", "where": "Franca, SP", "why": "Operação inicia com 'carro de entrega zero'", "how": "Financiamento de veículo", "fonte": "Reunião Comercial 04/05"},
+    {"bloco": "Estruturação Operacional — Franca", "what": "Fechar definição do ponto comercial em Franca", "who": "Cláudio K.", "when": "Pendente de definição", "where": "Franca, SP", "why": "Sem ponto físico, não há base logística para delivery/revenda", "how": "Negociação em andamento, 2 meses de carência já obtidos", "fonte": "Reunião Comercial 04/05"},
+
+    {"bloco": "Presença Digital e Identidade de Marca", "what": "Criar conta oficial de Instagram para o Chopp Colina em Franca", "who": "Cláudio K.", "when": "Pendente de definição (antes da inauguração)", "where": "Instagram", "why": "Estabelecer presença digital própria de Franca", "how": "Criação da conta", "fonte": "S2"},
+    {"bloco": "Presença Digital e Identidade de Marca", "what": "Publicar conteúdo com frequência regular na conta de Franca antes da inauguração", "who": "Cláudio K.", "when": "Pendente de definição", "where": "Instagram (conta Franca)", "why": "Gerar confiança antes do lançamento — combate objeção de marca desconhecida", "how": "Postagens recorrentes, mínimo semanal", "fonte": "S2"},
+    {"bloco": "Presença Digital e Identidade de Marca", "what": "Entregar manual de identidade visual (fontes, cores, plotagem do carro)", "who": "Lucas Calefi Gonçalves (Calefi — SCN&Co)", "when": "Pendente de definição", "where": "Documentação do projeto", "why": "Falta de padronização visual já identificada como problema real", "how": "Documento de brand guideline", "fonte": "Reunião Comercial 04/05"},
+    {"bloco": "Presença Digital e Identidade de Marca", "what": "Entregar manual de comunicação (tom de voz)", "who": "Lucas Calefi Gonçalves (Calefi — SCN&Co)", "when": "Concluído", "where": "Documentação do projeto", "why": "Padronizar comunicação do Instagram ao WhatsApp e vendas", "how": "Entregue como ee-s3-brandbook v1 e v2", "fonte": "Reunião Comercial 04/05", "status": "concluido"},
+
+    {"bloco": "Lançamento e Aquisição", "what": "Impulsionar publicações na região de Franca via tráfego pago", "who": "Cláudio K.", "when": "Pendente de definição", "where": "Meta Ads — região Franca", "why": "Gerar visibilidade antes do lançamento oficial", "how": "Boosting segmentado geograficamente", "fonte": "S2"},
+    {"bloco": "Lançamento e Aquisição", "what": "Organizar evento de inauguração da distribuidora em Franca", "who": "Cláudio K. e Gustavo Argenta de Oliveira Argenta", "when": "Pendente de definição", "where": "Ponto comercial Franca", "why": "Criar impacto de lançamento e experiência diferenciada", "how": "Aviso à prefeitura + música + chopp a R$0,99/L (não manter após o evento)", "fonte": "S2"},
+    {"bloco": "Lançamento e Aquisição", "what": "Resolver escala de atendimento de domingo", "who": "Cláudio K.", "when": "Pendente de definição — bloqueador", "where": "Orlândia e Franca", "why": "Diferencial mais forte do posicionamento depende dessa decisão", "how": "Definir cobertura: Cláudio pessoalmente, plantão rotativo ou outro modelo", "fonte": "Reunião Comercial 04/05 + S2"},
+
+    {"bloco": "Parcerias e Canais B2B/Eventos", "what": "Contatar padres das igrejas em Franca para fornecimento de chope em quermesses", "who": "Cláudio K.", "when": "Pendente de definição", "where": "Franca, SP (Diocese Francana)", "why": "Canal de venda em volume com ciclo de decisão curto", "how": "Abordagem direta, 2 igrejas já identificadas", "fonte": "S2 + Entrevista Comercial"},
+    {"bloco": "Parcerias e Canais B2B/Eventos", "what": "Criar networking com fornecedores em Franca", "who": "Cláudio K.", "when": "Pendente de definição", "where": "Franca, SP", "why": "Construir rede de contatos em território onde não há relação prévia", "how": "Visitas presenciais e contatos diretos", "fonte": "S1"},
+    {"bloco": "Parcerias e Canais B2B/Eventos", "what": "Visitar a fábrica INBEB (Londrina) e kiosques Colina (Shopping Norte, Doca 120)", "who": "Lucas Calefi Gonçalves (Calefi — SCN&Co)", "when": "Pendente de definição", "where": "Londrina, PR", "why": "Conhecer estrutura de produção e benchmark de kiosques", "how": "Agendamento direto com Gustavo/Renato", "fonte": "S1 + Entrevista Comercial"},
+    {"bloco": "Parcerias e Canais B2B/Eventos", "what": "Visitar unidades de Bauru e São Carlos como referência operacional", "who": "Lucas Calefi Gonçalves (Calefi — SCN&Co)", "when": "Pendente de definição", "where": "Bauru e São Carlos, SP", "why": "Benchmarking de público diferenciado sugerido por Gustavo/Renato", "how": "A definir formato", "fonte": "Entrevista Comercial"},
+    {"bloco": "Parcerias e Canais B2B/Eventos", "what": "Formalizar mecanismo de roteamento de leads entre distribuidores Colina", "who": "Gustavo Argenta de Oliveira Argenta", "when": "Pendente de definição", "where": "Rede de distribuidores Colina (nacional)", "why": "Hoje não há lógica de roteamento de leads fora de área", "how": "Cláudio mantém lista dos distribuidores Scholpp em 14 estados", "fonte": "S4"},
+
+    {"bloco": "CRM e Processo Comercial", "what": "Adotar plataforma de CRM (Kommo)", "who": "Cláudio K.", "when": "Pendente de definição", "where": "Orlândia e Franca", "why": "90% dos distribuidores Colina não têm base de clientes mapeada", "how": "Assinatura Kommo R$130/mês + API R$0,006/msg", "fonte": "S1 + S4"},
+    {"bloco": "CRM e Processo Comercial", "what": "Configurar 2 números de WhatsApp no CRM (delivery e choperia)", "who": "Cláudio K.", "when": "Pendente de definição", "where": "Orlândia e Franca", "why": "Um único número atende dois públicos com urgência/horário diferentes", "how": "Configuração nativa Kommo + WhatsApp Business API", "fonte": "Entrevista Comercial + S4"},
+    {"bloco": "CRM e Processo Comercial", "what": "Configurar campos de CRM (pessoas, marca preferida, voltagem, aniversário)", "who": "Cláudio K.", "when": "Pendente de definição", "where": "CRM (Kommo)", "why": "Permite qualificação correta do lead e dispara régua de datas", "how": "Preenchimento no primeiro contato ou formulário", "fonte": "S4"},
+    {"bloco": "CRM e Processo Comercial", "what": "Implementar etapas de funil: Contato → Qualificação → Orçamento → Logística → Ganho/Perdido", "who": "Cláudio K.", "when": "Pendente de definição", "where": "CRM (Kommo)", "why": "Hoje não há etapa intermediária, perdendo visibilidade do funil", "how": "Configuração de pipeline no Kommo", "fonte": "S4"},
+    {"bloco": "CRM e Processo Comercial", "what": "Qualificar todo lead em 3 critérios: data do evento, volume, região", "who": "Cláudio K.", "when": "Pendente de definição", "where": "WhatsApp / CRM", "why": "Qualificação hoje informal, não documentada nem replicável", "how": "Pergunta padrão no primeiro contato", "fonte": "S4"},
+    {"bloco": "CRM e Processo Comercial", "what": "Criar e refinar atalhos de mensagem rápida (/preço, /mesa, /quantidade)", "who": "Cláudio K.", "when": "Já iniciado em 12/06 — refinamento pendente", "where": "WhatsApp Business", "why": "Reduz tempo de resposta — validado no cliente oculto", "how": "Enviar atalhos para Lucas revisar", "fonte": "S4", "status": "em_andamento"},
+    {"bloco": "CRM e Processo Comercial", "what": "Documentar regras pessoais de venda e tratamento de objeções", "who": "Cláudio K.", "when": "Pendente de definição", "where": "Documento pessoal", "why": "Conhecimento só existe na cabeça dele — risco de centralização", "how": "Registrar à medida que situações aparecem", "fonte": "S4"},
+    {"bloco": "CRM e Processo Comercial", "what": "Priorizar ligação para leads com orçamento enviado sem resposta até fim do dia", "who": "Cláudio K.", "when": "Pendente de definição", "where": "WhatsApp / Telefone", "why": "Resgatar orçamentos parados é o motivo de perda mais citado", "how": "Ligação direta no fim do expediente", "fonte": "S4"},
+    {"bloco": "CRM e Processo Comercial", "what": "Adaptar estilo de comunicação ao cliente (parar áudio se cliente não reciprocar)", "who": "Cláudio K.", "when": "Já em prática — formalizar no playbook", "where": "WhatsApp", "why": "Estilo errado pode afastar certos perfis de cliente", "how": "Regra comportamental documentada no playbook", "fonte": "S4", "status": "em_andamento"},
+    {"bloco": "CRM e Processo Comercial", "what": "Enviar perfil de competências para vaga de Closer e CSDR", "who": "Lucas Calefi Gonçalves (Calefi — SCN&Co)", "when": "Pendente de definição", "where": "Documentação do projeto", "why": "Contratar e treinar pessoas no padrão de venda do Cláudio", "how": "Parte do pacote final do DPMV", "fonte": "S4"},
+    {"bloco": "CRM e Processo Comercial", "what": "Realizar gestão mensal com dados do CRM", "who": "Cláudio K.", "when": "Mensal, a partir da implementação do CRM", "where": "Orlândia e Franca", "why": "Cadência tática para ajustes de curto prazo", "how": "Reunião de revisão com relatórios Kommo", "fonte": "S4"},
+    {"bloco": "CRM e Processo Comercial", "what": "Realizar revisão estratégica trimestral", "who": "Cláudio K. e Lucas Calefi Gonçalves", "when": "Trimestral, a partir do lançamento de Franca", "where": "Orlândia e Franca", "why": "Decisões estruturais não devem seguir cadência mensal tática", "how": "Reunião dedicada, separada da gestão mensal", "fonte": "S4"},
+
+    {"bloco": "Inteligência de Mercado e Benchmarking", "what": "Realizar pesquisa de mercado completa (vida noturna, bares, lanchonetes)", "who": "Lucas Calefi Gonçalves (Calefi — SCN&Co)", "when": "Concluído parcialmente — vida noturna pendente para fase final", "where": "Franca, SP", "why": "Validar expansão e mapear oportunidades locais", "how": "Pesquisa documental + mapeamento CNAE 5611", "fonte": "S1 + S3", "status": "parcial"},
+    {"bloco": "Inteligência de Mercado e Benchmarking", "what": "Mapear concorrentes via cliente oculto", "who": "Lucas Calefi Gonçalves (Calefi — SCN&Co)", "when": "Concluído", "where": "Franca, SP", "why": "Identificar processos reais de atendimento da concorrência", "how": "Simulação de compra via WhatsApp", "fonte": "S1 + S4", "status": "concluido"},
+    {"bloco": "Inteligência de Mercado e Benchmarking", "what": "Compartilhar cálculo de tamanho de mercado replicado para Franca", "who": "Lucas Calefi Gonçalves (Calefi — SCN&Co)", "when": "Pendente de definição", "where": "Grupo de WhatsApp do projeto", "why": "Aplicar metodologia já validada em Orlândia (~2.000 barris/ano) à realidade de Franca", "how": "3 hab/domicílio, 1,5 evento/ano, 15% penetração, 1,33 barril/evento", "fonte": "S2"},
+
+    {"bloco": "Entregáveis do Projeto V4/SCN&Co", "what": "Estruturar e entregar o DPMV completo", "who": "Lucas Calefi Gonçalves (Calefi — SCN&Co)", "when": "5 semanas a partir de 13/05 — prazo já vencido em 21/06, projeto em extensão", "where": "Orlândia, choperia e Franca", "why": "Contrato fechado em 04/05, R$1.200 em 12x", "how": "Entregas semanais intermediárias", "fonte": "Reunião Comercial 04/05", "status": "atrasado"},
+    {"bloco": "Entregáveis do Projeto V4/SCN&Co", "what": "Entregar landing page focada em conversão", "who": "Lucas Calefi Gonçalves (Calefi — SCN&Co)", "when": "Pendente de definição — bloqueador crítico", "where": "Franca", "why": "Sem LP, tráfego pago cai no Instagram, que não converte", "how": "Página de captura simples com pixel", "fonte": "Reunião Comercial 04/05 + S3"},
+    {"bloco": "Entregáveis do Projeto V4/SCN&Co", "what": "Realizar reunião final com entrega de criativos, LP, site e estratégia comercial", "who": "Lucas Calefi Gonçalves, Cláudio K. e Gustavo Argenta de Oliveira Argenta", "when": "2026-06-19 (já passou em relação a hoje 21/06 — confirmar execução)", "where": "Reunião online", "why": "Fechar o ciclo do DPMV com entregáveis principais", "how": "Reunião de apresentação final", "fonte": "S4", "status": "verificar"}
+  ],
+
+  "garantias_contratuais": {
+    "valor_tabela": 70250,
+    "valor_pre_negociado": "R$39.000 à vista ou 12x R$3.746",
+    "valor_fechado": "R$1.200 em 12x no cartão (R$100/mês)",
+    "execucao_mensal_pos_dpmv": "R$2.800 a R$4.500/mês",
+    "desconto_execucao": "R$1.200 do DPMV abatido da 1ª mensalidade se contratar execução",
+    "garantia": "Reembolso integral em até 24h após entrega final, se não satisfeito"
+  },
+
+  "pendencias_de_prazo": [
+    "Transporte de chopeiras e trave congelada para Franca",
+    "Contratação de entregador e aquisição de veículo",
+    "Fechamento do ponto comercial em Franca",
+    "Resolução da escala de domingo",
+    "Criação da conta de Instagram de Franca e início de postagens",
+    "Data da inauguração (evento com preço promocional R$0,99/L)",
+    "Implementação do Kommo CRM e configuração de pipeline",
+    "Contato com as igrejas/quermesses em Franca",
+    "Visita à fábrica INBEB e às unidades de benchmark (Bauru, São Carlos)",
+    "Confirmação se a reunião final de 19/06 ocorreu"
+  ],
+
+  "status_consolidado": {
+    "concluido": 5,
+    "pendente_de_definicao_prazo": 24,
+    "bloqueador_critico": 3
+  }
+}

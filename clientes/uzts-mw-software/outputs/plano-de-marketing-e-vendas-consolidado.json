@@ -1,0 +1,150 @@
+{
+  "client_name": "MW Software (UZTS Lite)",
+  "skill": "plano-de-marketing-e-vendas-consolidado",
+  "version": 2,
+  "generated_at": "2026-07-16",
+  "status": "completed",
+  "data_source": "Compilação de todos os planos de ação do projeto (ee-s2-pesquisa-mercado, ee-s2-diagnostico-midia, ee-s2-diagnostico-criativos, ee-s2-diagnostico-cro, ee-s3-crm-setup, ee-s4-diagnostico-comercial v6, ee-s5-scripts-sdr, ee-s3-forecast-midia v2) + PDF oficial 'OFICIAL | MW SOFTWARE / UZTS - DIAGNÓSTICO E PLANEJAMENTO DE MARKETING E VENDAS' (157 páginas, base de conhecimento) + Manual de Copywriting + Relatório de UX/UI + transcrições reais das reuniões S1-S4",
+
+  "summary": "Este documento existe porque a seção 'PLANO DE MARKETING E VENDAS' do deck oficial (páginas 148-156) ainda está com o Forecast marcado como placeholder ('DELETAR NA APRESENTAÇÃO FINAL!!!!') e os planos de ação estão espalhados em 8+ slides diferentes ao longo do material. Este documento compila tudo num único planejamento, organizado ao redor do eixo que sustenta o projeto inteiro: o canal de parceiros (Partner-Led Growth). Mídia, produto e marca existem para servir esse canal — não para competir com ele.",
+  "summary_headline": "Um plano, um eixo: tudo que foi desenhado nesta consultoria serve para fazer o canal de parceiros funcionar — mídia amplifica, produto retém, marca dá confiança. Nada disso substitui o parceiro como motor de aquisição.",
+
+  "summary_highlights": [
+    { "category": "posicao", "label": "GTM Motion primário", "value": "Partner-Led Growth", "subtext": "Confirmado de forma independente por esta consultoria E pelo deck oficial (pág. 153)", "tone": "green" },
+    { "category": "posicao", "label": "SOM (Nova Lima)", "value": "100 clientes / R$8k MRR", "subtext": "25% de share local — teto realista do Horizonte 1", "tone": "blue" },
+    { "category": "oportunidade", "label": "Breakeven da consultoria", "value": "500-571 licenças ativas", "subtext": "Necessário para amortizar o investimento de R$19.108 na V4", "tone": "yellow" },
+    { "category": "risco", "label": "Pendência crítica", "value": "WhatsApp pode estar fora do ar", "subtext": "Ver alertas_urgentes no client.json — checar antes de tudo", "tone": "red" },
+    { "category": "posicao", "label": "3 pontos verificados", "value": "Todos resolvidos", "subtext": "'Claude Code' é referência real (não erro), slides genéricos eram ocultos (excluídos), placeholders já substituídos", "tone": "green" },
+    { "category": "acao", "label": "H3 a agilizar", "value": "A pedido do cliente", "subtext": "Quer acelerar a expansão regional pra recuperar o investimento no sistema mais rápido", "tone": "yellow" }
+  ],
+
+  "summary_key_findings": [
+    { "category": "contexto", "text": "O GTM Motion que esta consultoria recomendou de forma independente (Partner-Led primário, Media-Led e Product-Led como complementares, Community-Led e Sales-Led como potenciais futuros) bate EXATAMENTE com o slide oficial 'GO TO MARKETING' (pág. 153) do deck já preparado pela equipe V4. Isso não é coincidência — é a mesma lógica de ticket baixo + ICP de baixa confiança digital + parceiro como 'empréstimo de confiança' levando à mesma conclusão por dois caminhos independentes." },
+    { "category": "vantagem", "text": "CORRIGIDO em 16/07/2026 pelo operador: a menção a 'Claude Code' na página 147 NÃO é um erro — é uma referência real e intencional a um tipo de concorrente emergente: gente usando ferramentas de IA de geração de código pra montar 'sisteminhas' baratos e rápidos por conta própria, concorrendo por baixo com soluções como a Stoffel/Next PDV. Vale manter essa menção no diagnóstico competitivo, com um pouco mais de clareza na redação pra não soar deslocada." },
+    { "category": "contexto", "text": "As páginas 117-120 do deck oficial (KPI-SDR, CHA-Closer, KPI-Diretor Comercial, mencionando 'recompras de cursos') são slides OCULTOS do Google Slides que o export pra PDF trouxe junto — confirmado pelo operador em 16/07/2026. Não são conteúdo real do material final; o operador já vai excluir na apresentação." },
+    { "category": "contexto", "text": "Os placeholders de Forecast/Projeção (pág. 156) e Drawflow (pág. 154), marcados 'DELETAR NA APRESENTAÇÃO FINAL!!!!', já foram substituídos pelo operador na apresentação final — este documento fornece o forecast real (3 e 12 meses) que preenche esse espaço." },
+    { "category": "acao", "text": "A linha do tempo H1=1 ano/H2=2 anos/H3=3+ anos do deck oficial foi preenchida pelo próprio operador com base na análise desta consultoria — não é uma fonte divergente, é a mesma análise. Atualização em 16/07/2026: o cliente quer AGILIZAR o Horizonte 3 especificamente, pra compensar/recuperar o investimento no sistema mais rápido — ver seção 'reconciliacao_de_timeline' abaixo." }
+  ],
+
+  "key_leverage_point": {
+    "headline": "Cada real investido em mídia ou produto só vale a pena na medida em que fortalece o canal de parceiros — não como motor paralelo de vendas.",
+    "context": "O risco real deste projeto não é escolher o GTM errado — dois times chegaram independentemente à mesma conclusão (Partner-Led). O risco é a MW, no dia a dia, tratar mídia paga e produto self-service como se fossem motores de vendas por conta própria, diluindo foco e orçamento do que realmente funciona pra esse ticket e esse ICP.",
+    "numbered_reasons": [
+      "O ticket (R$80-97) e a margem (R$32, R$23,15 líquida após comissão) não sustentam CAC de mídia paga direta nem estrutura de vendas interna — os números já provam isso (ver ee-s3-forecast-midia).",
+      "O ICP de baixa maturidade digital não confia em anúncio nem em vendedor desconhecido — confia em quem já conhece (contador, consultor de TI).",
+      "Toda vez que o histórico da empresa tentou acelerar por conta própria (feiras, campanhas diretas), o resultado foi reverter por medo operacional — o canal de parceiro distribui esse risco em vez de concentrá-lo na MW."
+    ],
+    "discussion_anchor": "Ponto de discussão: cada nova iniciativa de marketing proposta daqui pra frente deveria passar pelo teste 'isso fortalece o canal de parceiros ou compete com ele por atenção/orçamento?' antes de ser aprovada."
+  },
+
+  "honesty_alert": "Este plano consolida decisões e números já validados com o cliente (comissão 10%, teto de 10 clientes/mês no H1, TAM/SAM/SOM) com estimativas ainda não testadas (CPL de parceiro, taxas de conversão do funil de mídia, curva de produtividade por parceiro). As estimativas estão sinalizadas explicitamente — não confundir com dado medido. Assim que houver 4-6 semanas de campanha real rodando, recalibrar antes de comprometer orçamento maior.",
+
+  "gtm_motion": {
+    "primario": {
+      "nome": "Partner-Led Growth",
+      "confirmacao_dupla": "Recomendado de forma independente por esta consultoria E pelo slide oficial 'GO TO MARKETING' (deck oficial, pág. 153) — duas análises separadas chegando à mesma conclusão.",
+      "motivos": [
+        "O ticket do produto não permite sales-led nem media-led como motor primário (CAC mataria a margem).",
+        "O ICP não confia em quem não conhece — o parceiro empresta a confiança que a MW não tem.",
+        "O parceiro já possui uma base de clientes que faz sentido para o UZTS Lite — sem custo de aquisição adicional.",
+        "A urgência regulatória (01/08/2026) faz o parceiro ser um vendedor motivado por interesse próprio, não por favor.",
+        "É um modelo já validado em mercados similares (Bling, Nuvemshop, iFood — todos usam parceiros/integradores como canal principal)."
+      ]
+    },
+    "complementares": [
+      { "nome": "Marketing (Media)-Led", "papel": "Sem venda direta — amplifica o canal de parceiros com conteúdo de topo de funil (awareness sobre a Reforma Tributária). Confirmado no deck oficial." },
+      { "nome": "Product-Led", "papel": "Funciona para a persona nativa digital (Otávio) — usabilidade da plataforma (Wizard, onboarding autônomo) é a melhor forma de reter usuários pouco instruídos digitalmente também, via simplicidade radical." }
+    ],
+    "potenciais_futuros": [
+      { "nome": "Community-Led", "papel": "Trabalhar o boca-a-boca tanto na aquisição quanto no sucesso do cliente — já citado pelo próprio Lucas Calefi na reunião real como 'o principal conversor' na fase 2 (prova social entre vizinhos de comércio)." },
+      { "nome": "Sales-Led", "papel": "Para o UZTS Standard (ticket maior) e upsell — tratar PQLs (product qualified leads) que cresceram no Lite e precisam de mais robustez. Não faz sentido para o Lite em si." }
+    ],
+    "regra_de_ouro": "Nenhuma iniciativa nova de aquisição deveria competir com o canal de parceiros por orçamento/atenção — deve alimentá-lo ou ficar de fora do escopo atual."
+  },
+
+  "contexto_de_mercado": {
+    "tam": "R$ 41,87 bilhões/ano no Brasil (2025), projeção de R$ 116,60 bilhões até 2027 (IMARC Group/EBANX).",
+    "sam": "R$ 81,6 milhões/ano em Minas Gerais — 85.000 estabelecimentos-alvo (34.000 padarias/confeitarias + 51.000 mercearias/conveniências) com ticket médio R$80/mês.",
+    "som": "R$ 96.000/ano (R$8.000 MRR) em Nova Lima-MG — 100 clientes ativos, 25% de share local. Base de 2.689 estabelecimentos ativos mapeados, ~403 no segmento alimentar.",
+    "breakeven_da_consultoria": "500 a 571 licenças ativas necessárias para amortizar o investimento de R$19.108 na assessoria V4.",
+    "aspiracao_h3": "Até 788 vendas recorrentes/mês, gerando ARR de R$756.480 — teto de LONGO PRAZO (Horizonte 3, após expansão multi-regional e 500+ licenças seguras). O cliente confirmou em 16/07/2026 que quer agilizar especificamente este horizonte, pra recuperar o investimento no sistema mais rápido — a recomendação é acelerar por CRITÉRIO CUMPRIDO (dado real provando que o H2 funciona), não por calendário, pra não repetir o padrão histórico de acelerar sem validar."
+  },
+
+  "plano_de_acao_consolidado": {
+    "eixo_1_canal_de_parceiros": {
+      "descricao": "O motor principal. Tudo aqui já foi construído em detalhe em ee-s4-diagnostico-comercial v6 e ee-s3-crm-setup v3.",
+      "acoes": [
+        "H1: ativar time mínimo (Marcos como Gestor de Canais) com teto de até 10 clientes novos/mês, rede pessoal de parceiros-piloto (2-4).",
+        "Definir papel de Responsável por Suporte/Onboarding (hoje 'à definir' — CHA já construído em ee-s4-diagnostico-comercial v6).",
+        "CRM leve (planilha ou open-source básico) desde o dia 1 — não ferramenta paga (ver ee-s3-crm-setup v3).",
+        "H2: formalizar comissionamento (10% recorrente), critério de qualificação/desqualificação de parceiro, abrir recrutamento externo (contadores, consultores de TI, revendedores).",
+        "H3: após segurança de 500+ licenças ativas, expandir pra praças similares (Contagem, Betim) replicando o modelo."
+      ]
+    },
+    "eixo_2_midia_como_amplificador": {
+      "descricao": "Nunca o motor — só acelera o que o canal de parceiros já faz. Detalhado em ee-s3-forecast-midia v2.",
+      "acoes": [
+        "Campanha 1 (Alcance): awareness sobre a Reforma Tributária, R$800-1.000/mês no H1, sem meta de conversão direta.",
+        "Campanha 2 (Leads): geração de leads de parceiros, só a partir do H2, R$1.500-2.000/mês.",
+        "Evitar Google Ads e LinkedIn Ads — CPC alto (R$10-30) inviabiliza o retorno para este ticket.",
+        "Automação por palavra-chave no Instagram ('PARCEIRO') acionando bot de qualificação — script já redesenhado em ee-s5-scripts-sdr."
+      ]
+    },
+    "eixo_3_produto_e_onboarding": {
+      "descricao": "Serve dois papéis: reduz o custo de suporte (autoatendimento) e é o único motion que funciona sozinho pra persona digital (Otávio).",
+      "acoes": [
+        "Assistente interativo Wizard + videoaulas curtas para auto-onboarding.",
+        "Teste gratuito de 30 dias condicionado ao cadastro do estoque (gatilho de aversão à perda contra churn precoce).",
+        "Corrigir os pontos de UX já identificados (ação duplicada na tela de onboarding, falta de sequência lógica no fluxo de venda) — ver Relatório de Diagnóstico UX/UI."
+      ]
+    },
+    "eixo_4_marca_e_comunicacao": {
+      "descricao": "Já produzido nesta consultoria — dá ao canal de parceiros o material que ele precisa pra vender.",
+      "status": [
+        "Manual de Copywriting (brandbook) — completed",
+        "Relatório de UX/UI (substitui identidade visual e cliente oculto) — completed",
+        "Copy da Landing Page — completed, design em finalização externa (Nícolas Kobayashi)",
+        "Copy de criativos (B2C comerciante + B2B2C parceiros) — completed, peças visuais em execução externa",
+        "Formulário de aplicação de parceiro (Artifact HTML publicado) — completed, já apresentado e usado ao vivo com o cliente"
+      ]
+    },
+    "eixo_5_estrutura_comercial": {
+      "descricao": "Organograma e CHAs por horizonte — ver ee-s4-diagnostico-comercial v6 para detalhe completo.",
+      "cargos_formalizados": ["Gestor de Canais de Parcerias (Marcos) — CHA+KPI completo", "Responsável por Suporte/Onboarding — CHA+KPI completo (construído por esta consultoria)"],
+      "cargos_pendentes_de_revisao": "CHA-Closer, KPI-SDR e KPI-Diretor Comercial existem no deck oficial mas parecem conteúdo genérico não customizado (menciona 'recompras de cursos') — revisar antes de formalizar, e avaliar se esses cargos fazem sentido antes do H3 dado que H1/H2 explicitamente não preveem SDR/Closer contratado."
+    },
+    "eixo_6_funil_bowtie": {
+      "descricao": "Modelo de medição ponta a ponta — Awareness → Educação → Priorização → Seleção → Commit → Onboarding → Retenção e Expansão, com métricas CR1-CR7. Ver ee-s4-diagnostico-comercial v6 seção 3.6."
+    }
+  },
+
+  "forecast_consolidado": {
+    "nota": "Substitui o placeholder 'DELETAR NA APRESENTAÇÃO FINAL' da página 156 do deck oficial.",
+    "3_meses_horizonte_1": {
+      "fonte": "ee-s3-forecast-midia v1/v2",
+      "resumo": "Ramp-up de 2→6→12 clientes acumulados via parceiros-piloto pessoais (sem mídia direta), MRR líquido de R$159 a R$956/mês."
+    },
+    "12_meses_com_funil_de_parceiros": {
+      "fonte": "ee-s3-forecast-midia v2",
+      "resumo": "51 parceiros ativos e 212 clientes acumulados ao final do mês 12, MRR líquido ~R$16.886/mês. Alerta de capacidade: cruza ~30 parceiros ativos por volta do mês 8 — decisão necessária (2º Coordenador de Ativação ou throttle de investimento) antes de chegar lá."
+    },
+    "reconciliacao_com_meta_2_anos_do_deck_oficial": "O deck oficial define a meta de 500 licenças ativas como critério de saída do H2 (~2 anos). O forecast de 12 meses desta consultoria projeta 212 clientes ao final do ano 1, com curva ainda em aceleração (46 novos clientes só no mês 12) — extrapolar essa curva para o ano 2, COM a intervenção de capacidade recomendada (2º Coordenador por volta do mês 8), é compatível com atingir a faixa de 500 licenças até o fim do H2. Sem essa intervenção, o crescimento tende a estagnar por gargalo de gestão de parceiros, não por falta de demanda."
+  },
+
+  "reconciliacao_de_timeline": {
+    "esclarecido_pelo_operador_em_16_07_2026": "Não havia divergência real — o operador preencheu as marcações H1=1 ano/H2=2 anos/H3=3+ anos do deck oficial com base na análise desta própria consultoria, não a partir de outra fonte.",
+    "decisao_nova": "O cliente quer AGILIZAR especificamente o Horizonte 3 (expansão regional), pra recuperar/compensar o investimento no sistema mais rápido. Isso reforça usar o modelo de transição por CRITÉRIO CUMPRIDO (não calendário fixo) desta consultoria: cada horizonte abre assim que os dados provarem que o anterior funcionou, não num prazo fixo — o que é exatamente o caminho mais rápido possível sem repetir o padrão histórico de acelerar sem critério. Recomendo reforçar essa lógica com o cliente: agilizar não significa pular etapa, significa não desperdiçar tempo depois que o critério já foi cumprido."
+  },
+
+  "verificacoes_com_o_operador_em_16_07_2026": [
+    { "pagina": 147, "assunto": "Menção a 'Claude Code' na Análise Competitiva", "resultado": "NÃO é erro — é uma referência real a concorrentes que usam ferramentas de IA de geração de código pra montar sistemas baratos por conta própria. Mantido no deck, com recomendação de deixar a redação mais clara pra não soar deslocada num primeiro olhar." },
+    { "pagina": "117-120", "assunto": "KPI-SDR, CHA-Closer, KPI-Diretor Comercial mencionando 'recompras de cursos'", "resultado": "Confirmado como slides ocultos do Google Slides, trazidos sem querer pelo export em PDF. Operador já vai excluir na apresentação final." },
+    { "pagina": "154 e 156", "assunto": "Placeholders 'DELETAR NA APRESENTAÇÃO FINAL' (Drawflow e Forecast)", "resultado": "Já substituídos pelo operador na apresentação final. Este documento fornece o forecast real que preenche esse espaço." }
+  ],
+
+  "pendencias_criticas": [
+    "Confirmar se o WhatsApp da UZTS está conectado e com crédito — ver alertas_urgentes no client.json. Bloqueia literalmente todo o plano se não estiver resolvido.",
+    "Nomear os parceiros-piloto 2-4 do H1 (1 já identificado, com reunião agendada).",
+    "Ao comunicar a aceleração do H3 pro cliente, reforçar que 'mais rápido' significa 'por critério cumprido', não 'pular validação' — mantém o rompimento com o padrão histórico de acelerar sem dado."
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "client_name": "JK Climatização",
+  "skill": "ee-s1-persona-icp",
+  "generated_at": "2026-07-09",
+  "data_source": "Kick-off S1 (28/05), Pesquisa de Mercado S2 (12/06), Diagnóstico Comercial S4 (01/07), Manual de Copywriting, reunião V4+JK Máquinas (08/05) + client.json",
+  "nota_metodologica": "Esta skill foi rodada de forma RETROATIVA (backfill mínimo aprovado pelo operador em 09/07/2026): a JK já está na Semana 4-5 (módulo de vendas) sem nunca ter passado pelo pipeline formal de Semana 1-3 deste sistema. É a única dependência da árvore de Semana 4-5 que foi formalizada antes de seguir — ee-s2-posicionamento e ee-s3-brandbook continuam pendentes. O Manual de Copywriting já contém 5 personas elaboradas pela pesquisa de mercado anterior (Letícia, Marcos Zimmermann, Elton, Carlos Eduardo, Beatriz Silveira); este documento não as descarta, mas consolida as 3 com maior peso estratégico e evidência direta nas falas do André, para dar foco de ação em vez de fragmentar em 5 perfis parecidos.",
+
+  "summary": "A JK atende hoje um mix de B2C residencial, B2B2C alto padrão (arquitetos/litoral) e B2B corporativo/industrial — mas o próprio André já definiu o corte que separa cliente lucrativo de cliente que só ocupa agenda: empresas com 10+ aparelhos de climatização. O gargalo não é falta de ICP, é a ausência de um argumento formal para defender o preço premium (26,32% acima da concorrência) sem o André precisar entrar pessoalmente em cada negociação.",
+  "summary_headline": "JK já sabe quem é o cliente certo (10+ aparelhos, B2B corporativo/industrial) — falta transformar a autoridade técnica do André num argumento de venda que Pedro consiga sustentar sozinho.",
+
+  "summary_highlights": [
+    { "category": "posicao", "label": "ICP principal", "value": "B2B ≥10 aparelhos", "subtext": "Corte definido pelo próprio André como ponto de lucratividade real", "tone": "blue" },
+    { "category": "oportunidade", "label": "Bancos/cooperativas", "value": "Quase inexplorado", "subtext": "André: 'muito bom esse nicho... até melhor que a indústria'", "tone": "green" },
+    { "category": "risco", "label": "Preço vs. mercado", "value": "+26,32%", "subtext": "Objeção nº1 do comprador/CFO — sem argumento de ROI documentado", "tone": "red" },
+    { "category": "maturidade", "label": "Dados de funil", "value": "0 (sem CRM)", "subtext": "Nenhuma taxa de conversão real medida hoje", "tone": "red" },
+    { "category": "janela", "label": "Sazonalidade", "value": "Nov-Abr = pico", "subtext": "Verão gera urgência extrema (agenda 3 semanas); inverno é vale comercial", "tone": "yellow" },
+    { "category": "competicao", "label": "Canal de entrada real", "value": "100% indicação/orgânico", "subtext": "26 anos de mercado nunca sustentaram aquisição paga estruturada", "tone": "blue" }
+  ],
+
+  "summary_key_findings": [
+    { "category": "vantagem", "text": "Tradição de 26 anos + processo padronizado (checklist digital, PMOC, ART, protocolo 'entra mudo, sai calado') já supera a maioria dos concorrentes regionais mapeados na pesquisa de mercado — o problema da JK nunca foi capacidade técnica, foi comunicação disso." },
+    { "category": "contexto", "text": "Em conta B2B, quem inicia o contato normalmente é o setor de compras, não o gerente de manutenção técnica — o gerente entra depois, para validar tecnicamente. Isso muda quem o funil comercial e os scripts de SDR precisam mirar primeiro." },
+    { "category": "ameaca", "text": "O posicionamento 26,32% acima do mercado não tem, hoje, um argumento de ROI documentado e replicável — Pedro não tem autonomia para sustentar essa diferença sozinho e delega a decisão para Marlon ou André em praticamente todo orçamento." },
+    { "category": "acao", "text": "Formalizar como resposta oficial de vendas o argumento que o próprio André já usa informalmente ('uma hora de máquina industrial parada custa mais caro que um ano inteiro de preventiva') — hoje esse racional vive só na cabeça do fundador, não no material de vendas de Pedro/Marlon." }
+  ],
+
+  "icps": [
+    {
+      "id": "icp-1-b2b-corporativo-industrial",
+      "nome": "B2B Corporativo/Industrial (10+ aparelhos)",
+      "descricao": "Indústrias críticas (têxtil, sublimação, metalmecânica), bancos e cooperativas de crédito, redes de supermercado, escritórios corporativos, clínicas e hospitais — todos dependentes de controle térmico/umidade constante e sujeitos a fiscalização (PMOC, ANVISA, Vigilância Sanitária).",
+      "criterio_de_corte": "10+ aparelhos de climatização instalados — definido literalmente pelo André: 'a partir de 10 aparelhos a gente já consegue fazer algo bem legal... e consegue ter uma lucratividade bacana'. Abaixo disso, o deslocamento não compensa.",
+      "geografia": "Raio de 150-300km de Pomerode — Blumenau, Gaspar, Timbó, Indaial, Jaraguá do Sul, Joinville",
+      "ticket": "Contratos de manutenção mensal de R$2.700-3.100 até R$8.500-15.000, conforme porte e mix de equipamento (Split, VRF, Chiller, Fancoil)",
+      "prioridade": "principal",
+      "oportunidade": "Bancos/cooperativas identificados pelo próprio André como o nicho mais lucrativo e menos explorado hoje ('muito, muito, muito bom. Até melhor do que a indústria') — hoje é minoria da carteira."
+    },
+    {
+      "id": "icp-2-b2b2c-alto-padrao",
+      "nome": "B2B2C Alto Padrão (arquitetos/construtoras → obras residenciais de luxo)",
+      "descricao": "Escritórios de arquitetura, estúdios de design de interiores e construtoras que especificam a JK em obras residenciais de luxo e prédios corporativos nobres — canal de indicação profissional, não venda direta ao morador.",
+      "criterio_de_corte": "Projeto de obra nova ou reforma de alto padrão com necessidade de climatização embutida/invisível (cassete de uma via, dutos lineares) — não manutenção avulsa",
+      "geografia": "Litoral em expansão perto de Pomerode: Balneário Camboriú, Itapema, Porto Belo, Balneário Piçarras, Barra Velha, Penha, Itapoá — citado pelo André como 'crescendo muito' agora",
+      "ticket": "R$90.000-120.000 por projeto completo (infraestrutura + equipamento)",
+      "prioridade": "secundário — em crescimento",
+      "oportunidade": "André reconhece que hoje cobra abaixo do valor de mercado nesses projetos por insegurança em precificar; canal tende a crescer com a expansão do litoral catarinense."
+    },
+    {
+      "id": "icp-3-b2c-residencial-comum",
+      "nome": "B2C Residencial Comum (limpeza avulsa de ar-condicionado, ex-linha branca)",
+      "descricao": "Pessoa física buscando limpeza/manutenção avulsa de ar-condicionado residencial comum. A JK abandonou 'linha branca' (geladeira, máquina de lavar) há 4-5 anos por prejuízo, mas o site institucional ainda expõe esse serviço, gerando confusão de posicionamento.",
+      "criterio_de_corte": "Cliente pessoa física sem contrato recorrente, decisão 100% por preço",
+      "geografia": "Pomerode e entorno imediato",
+      "ticket": "Maior lucratividade pontual segundo o próprio André, mas sem recorrência nem alinhamento com o objetivo estratégico declarado",
+      "prioridade": "não ideal — desqualificar ativamente",
+      "risco": "Compete diretamente com autônomos/MEIs em preço, o segmento onde a JK historicamente perdeu dinheiro (prejuízo relatado com 'linha branca'); atrai o tipo de cliente que a própria estratégia da consultoria busca evitar (guerra de preço commoditizada)."
+    }
+  ],
+
+  "personas": [
+    {
+      "id": "elton",
+      "nome": "Elton — \"O Porteiro do Caixa\"",
+      "idade": 45,
+      "cargo": "CFO ou gerente de suprimentos/compras",
+      "icp": "icp-1-b2b-corporativo-industrial",
+      "frase": "Manutenção corretiva reativa é um ralo de dinheiro invisível — mas R$9.000/mês fixo também dói se eu não conseguir justificar pra diretoria.",
+      "perfil": "Masculino, ~45 anos, Blumenau-SC, renda estimada R$12.000-20.000/mês [estimativa do Manual de Copywriting, não validada em entrevista real]. Normalmente é quem inicia o contato com a JK — o setor de compras entra primeiro, o gerente técnico valida depois. Negocia por WhatsApp de forma dura, orientado 100% a métricas/ROI.",
+      "jtbd": {
+        "funcional": "Quando chega a época de calor extremo ou o período de vistorias, garantir que o ambiente de trabalho mantenha-se estável e dentro da lei, para evitar atrasos de entrega, prejuízo com máquina parada e multas",
+        "emocional": "Não ser pego de surpresa por uma decisão de compra que a diretoria depois questione como cara demais",
+        "social": "Ser visto pela diretoria como quem blinda a empresa juridicamente e financeiramente, não como quem gastou mais que o necessário"
+      },
+      "dores": [
+        "Multas de Vigilância Sanitária/ANVISA por falta de PMOC (faixa de R$2.000 a R$1,5 milhão)",
+        "Já foi cobrado internamente por contratar manutenção corretiva cara demais e sem previsibilidade",
+        "Não tem um número pronto pra defender o contrato fixo diante de quem pergunta 'por que não usar um MEI mais barato'"
+      ],
+      "medos": [
+        "Assinar um contrato de longo prazo e a diretoria questionar depois por que não buscou opção mais barata",
+        "Ser responsabilizado por uma parada de produção que um contrato preventivo poderia ter evitado"
+      ],
+      "objecoes": [
+        "\"O preço de vocês está posicionado acima da concorrência regional\" (26,32% acima, segundo a pesquisa de mercado)",
+        "\"Por que assinar contrato fixo se um MEI informal cobra uma fração por chamado avulso?\"",
+        "\"Contrato de PMOC é só papelada de gaveta, sem valor operacional real\""
+      ],
+      "gatilho_de_compra": "Pico de calor extremo ameaçando parar produção, proximidade de auditoria/vistoria, ou indicação de outro comprador que já é cliente satisfeito da JK",
+      "como_descobre": "Hoje, quase sempre indicação (boca a boca) — 'saía um comprador de uma empresa, entrava na outra, chamava a nossa empresa'. Nunca houve aquisição paga estruturada mirando esse cargo especificamente.",
+      "mensagem_que_converte": "Uma hora de máquina parada custa mais caro que um ano inteiro de manutenção preventiva planejada — e o contrato inclui ART assinada por engenheiro habilitado, blindagem jurídica completa perante ANVISA/Vigilância Sanitária.",
+      "canal_preferencial": "WhatsApp para negociação; visita técnica presencial para contas grandes (com André pessoalmente, hoje)",
+      "willingness_to_pay": "R$2.700-15.000/mês conforme porte e mix de equipamento; sensibilidade real é ao ARGUMENTO de ROI, não ao valor em si — quando o argumento existe, o cliente aceita pagar caro sem questionar ('eles não querem nem saber se vai custar o mesmo valor', segundo André sobre urgência de conserto).",
+      "nota": "Persona mais estratégica do conjunto: é quem inicia o contato E quem levanta a objeção de preço. Consolida também o perfil 'Carlos Eduardo, o Compliance' do Manual de Copywriting (gestor de facilities voltado a conformidade legal) — mesmo racional de decisão, cargo adjacente."
+    },
+    {
+      "id": "marcos-zimmermann",
+      "nome": "Marcos Zimmermann — \"O Corpo Técnico\"",
+      "idade": 53,
+      "cargo": "Gerente de manutenção industrial",
+      "icp": "icp-1-b2b-corporativo-industrial",
+      "frase": "Não tolero amadorismo — se a máquina para no calor, quem vai explicar pra diretoria sou eu.",
+      "perfil": "Masculino, 53 anos, Blumenau-SC, renda estimada R$8.000-13.000/mês [Manual de Copywriting]. Entra na conversa depois do comprador (Elton), como validador técnico. Pensa de forma pragmática e analítica; sente pressão direta da diretoria quando picos de calor ameaçam a produção.",
+      "jtbd": {
+        "funcional": "Garantir que o parque de climatização opere sem falha nos picos de calor/frio, com documentação (ART, PGR, NRs) sempre em dia para qualquer auditoria",
+        "emocional": "Não ser pego sem resposta técnica quando a diretoria cobrar por que a produção parou",
+        "social": "Ser reconhecido internamente como quem antecipa problema, não quem apaga incêndio"
+      },
+      "dores": [
+        "Vazamento de gás refrigerante é um dos medos mais citados pelo próprio André — sintoma não visível na hora, pode levar dias para resolver com a máquina pressurizada",
+        "Indústrias de sublimação têxtil e metalmecânica são especialmente sensíveis: máquina parando gera perda direta de lote de produção",
+        "Historicamente lida com mão de obra informal ('o Zé da Calha' — faz de tudo um pouco, sem especialização) que gera retrabalho"
+      ],
+      "medos": [
+        "Ser responsabilizado por uma parada evitável",
+        "Contratar fornecedor sem ART e descobrir isso só depois de um problema"
+      ],
+      "objecoes": [
+        "\"Análise de carga térmica\", \"VRF\", termos técnicos que ele já entende — mas cuidado se o vendedor tentar simplificar demais, pode soar como falta de profundidade",
+        "Desconfiança de fornecedores que prometem rapidez mas não têm processo documentado"
+      ],
+      "gatilho_de_compra": "Quebra recente ou quase-quebra em pico de calor, chegada de nova auditoria/fiscalização, ou troca de fornecedor após episódio de falha",
+      "como_descobre": "Validação técnica durante visita já agendada pelo comprador — raramente é ele quem busca a JK ativamente primeiro",
+      "mensagem_que_converte": "Checklist digital automático + relatório fotográfico de antes/depois entregue por WhatsApp ao final de cada visita — auditoria clara para a diretoria, sem burocracia manual.",
+      "canal_preferencial": "Visita técnica presencial + grupo de WhatsApp do cliente para pendências e relatórios",
+      "willingness_to_pay": "Não decide o orçamento sozinho, mas pode travar ou destravar a venda ao validar (ou reprovar) tecnicamente o fornecedor",
+      "nota": "Consolida também o perfil funcional de 'Letícia, a Decisora' do Manual (sócia-diretora que também exige contratos formais e nota fiscal) — mesmo eixo de decisão por compliance/documentação, aqui tratado como um único arquétipo técnico para não fragmentar o funil comercial em personas repetidas."
+    },
+    {
+      "id": "beatriz-silveira",
+      "nome": "Beatriz Silveira — \"A Ponte\"",
+      "idade": 30,
+      "cargo": "Arquiteta/especificadora",
+      "icp": "icp-2-b2b2c-alto-padrao",
+      "frase": "Meu nome e minha reputação profissional estão em jogo toda vez que indico um fornecedor pro cliente.",
+      "perfil": "Feminino, 30 anos, Vale do Itajaí, renda estimada R$10.000-18.000/mês [Manual de Copywriting]. Atua entre a construtora, o cliente final e o fornecedor — extremamente visual, valoriza uniforme e organização do técnico em campo.",
+      "jtbd": {
+        "funcional": "Garantir conforto térmico embutido e invisível no projeto, sem interferir no design de interiores nem atrasar o cronograma da obra",
+        "emocional": "Não ter seu nome manchado por um fornecedor que suja o gesso, atrasa ou entrega malfeito",
+        "social": "Ser vista pelo cliente final como quem tem uma rede de fornecedores confiável e de alto padrão"
+      },
+      "dores": [
+        "Já sofreu com mão de obra informal danificando acabamentos de luxo (gesso, marcenaria, revestimento)",
+        "Precisa de climatização 'invisível' — cassete de uma via, dutos lineares — que não polua visualmente sacadas e fachadas nobres"
+      ],
+      "medos": [
+        "Indicar um fornecedor que atrase o cronograma da obra e prejudique sua relação com o cliente final",
+        "Ter que 'apagar incêndio' de um técnico despreparado dentro da casa do cliente"
+      ],
+      "objecoes": [
+        "\"Técnicos de climatização costumam ser informais, desorganizados, atrasam cronograma e deixam sujeira de gesso\" — percepção genérica do mercado que a JK precisa desmentir ativamente",
+        "Preço mais alto sem clareza de retorno estético/prático"
+      ],
+      "gatilho_de_compra": "Início de projeto de obra residencial de luxo ou prédio corporativo nobre, geralmente no litoral em expansão (BC, Itapema, Porto Belo)",
+      "como_descobre": "Indicação profissional entre arquitetos/construtoras — canal ainda pouco estruturado pela JK, que hoje precifica abaixo do mercado nesses projetos por insegurança",
+      "mensagem_que_converte": "Especialização em arquiteturas térmicas embutidas de luxo (VRF, cassete de uma via, dutos lineares integrados) + protocolo de discrição e organização em campo ('entra mudo, sai calado') — zero interferência no projeto de interiores.",
+      "canal_preferencial": "Indicação profissional direta, visita técnica na obra",
+      "willingness_to_pay": "R$90.000-120.000 por projeto completo — hoje subprecificado pela própria insegurança do André em cobrar o valor real de mercado nesse nicho"
+    }
+  ],
+
+  "jornada_de_compra": [
+    { "estagio": "1. Descoberta", "descricao": "Quase sempre por indicação boca a boca (comprador que troca de empresa leva a JK junto) — histórico de Google Ads/Meta Ads testados sem calibração consistente de público", "duracao_tipica": "Não mensurada" },
+    { "estagio": "2. Primeiro contato / gatekeeper", "descricao": "Setor de compras da empresa cliente contata a JK primeiro (não o gerente técnico); em contas grandes é preciso passar pela secretária/recepção antes do time comercial", "duracao_tipica": "Dias" },
+    { "estagio": "3. Diagnóstico técnico", "descricao": "Levantamento de quantidade e tipo de aparelhos, urgência, e primeira estimativa de valor — hoje sem critério formal de priorização (Pedro atende por ordem de chegada)", "duracao_tipica": "Dias a 1-2 semanas" },
+    { "estagio": "4. Validação técnica", "descricao": "Gerente de manutenção (persona Marcos Zimmermann) valida tecnicamente a proposta antes de seguir para negociação final", "duracao_tipica": "Variável, atrelado ao cronograma interno do cliente" },
+    { "estagio": "5. Negociação e objeção de preço", "descricao": "André entra pessoalmente em negociações maiores; ponto central é justificar os 26,32% acima da concorrência regional — hoje sem argumento de ROI documentado e replicável por Pedro/Marlon", "duracao_tipica": "1-3 semanas, sem cadência de follow-up estruturada" },
+    { "estagio": "6. Fechamento e contrato recorrente", "descricao": "Contrato de manutenção preventiva com renovação anual (alguns a cada 2-3 anos); pagamento em 28-30 dias (maioria) a até 90-120 dias; abre porta para corretivas, obras e venda de equipamento", "duracao_tipica": "Recorrência de vários anos — retenção histórica alta (só 2 empresas perdidas)" }
+  ],
+
+  "willingness_to_pay": {
+    "contratos_mensais": "R$2.700-3.100 até R$8.500-15.000/mês conforme porte e mix de equipamento",
+    "valor_por_aparelho_mes": "R$60-67 (padrão) a R$101-113 (localização/complexidade maior)",
+    "projetos_alto_padrao": "R$90.000-120.000 por projeto residencial de luxo completo",
+    "multas_evitadas_referencia_de_valor": "R$2.000 a R$1,5 milhão (ANVISA/Vigilância Sanitária por falta de PMOC)",
+    "posicionamento_de_preco": "26,32% acima da média concorrencial regional (posicionamento Premium Alto, segundo a pesquisa de mercado)",
+    "sensibilidade_de_preco": "Alta quando não há argumento de ROI apresentado; baixa quando o argumento de custo-de-parada é usado — o próprio André já demonstrou isso na prática ('eles não querem nem saber se vai custar o mesmo valor'), mas esse racional nunca foi formalizado como script de vendas."
+  },
+
+  "biblioteca_de_objecoes": [
+    {
+      "objecao": "O preço de vocês está muito caro / 26% acima do mercado",
+      "contexto": "Objeção mais citada, verbalizada principalmente pelo comprador/CFO (persona Elton) — hoje sem resposta padronizada além do bom senso individual de André",
+      "resposta_validada": "Ancorar em custo de parada, não em preço do serviço: uma hora de máquina industrial parada custa mais caro que um ano inteiro de manutenção preventiva planejada — argumento que o próprio André já usa informalmente, mas nunca documentou como script."
+    },
+    {
+      "objecao": "Contrato de PMOC é só papelada de gaveta, sem valor real",
+      "contexto": "Comum em clientes que ainda não sofreram fiscalização — subestimam o risco até serem multados",
+      "resposta_validada": "Trazer a faixa real de multa (R$2.000 a R$1,5 milhão) e o histórico de auditorias rígidas da ANVISA/Vigilância Sanitária, com a ART assinada como prova de conformidade"
+    },
+    {
+      "objecao": "Por que pagar contrato fixo se um MEI informal cobra menos por chamado avulso?",
+      "contexto": "Concorrência de preço de autônomos sem PMOC/NR/PGR em dia — real e documentada (caso de licitação em que um autônomo cobrou R$9,90/hora contra R$195/hora da JK)",
+      "resposta_validada": "Diferenciar o que está incluso: ART, checklist digital, relatório fotográfico, SLA de emergência (sistema 'Coringa') — o MEI não assume responsabilidade técnica nem tem capacidade de atendimento emergencial garantido"
+    },
+    {
+      "objecao": "Medo de demora no atendimento emergencial em dia de calor extremo",
+      "contexto": "Sazonalidade extrema faz a agenda de verão chegar a 3 semanas de espera — objeção legítima se não for endereçada",
+      "resposta_validada": "Sistema 'Coringa': vagas flutuantes reservadas exclusivamente para corretivas emergenciais, preenchidas 1 dia antes para não atrasar contratos fixos"
+    },
+    {
+      "objecao": "Técnicos de climatização costumam ser informais e bagunçam o ambiente (objeção mais forte no canal B2B2C alto padrão)",
+      "contexto": "Percepção genérica do mercado, especialmente relevante para a persona Beatriz Silveira (arquiteta)",
+      "resposta_validada": "Protocolo comportamental 'entra mudo, sai calado' + processo seletivo rígido de alinhamento cultural da equipe de campo — diferencial já validado com clientes de alto padrão"
+    }
+  ],
+
+  "canais": {
+    "aquisicao": ["Indicação boca a boca (histórico e ainda dominante)", "Google Ads (testado esporadicamente há ~7 anos, com resultado pontual bom e nunca sustentado)", "Meta Ads (impulsionamento de post sem calibração de público, gerando leads fora do perfil)", "LinkedIn (citado no diagnóstico de marketing S3 como canal B2B de alto potencial, hoje com perfil apenas criado, não estruturado)"],
+    "fechamento": ["Visita técnica presencial + orçamento", "Negociação direta com André em contas grandes", "WhatsApp para tratativas e envio de relatórios"],
+    "pos_venda": ["Grupos de WhatsApp por cliente com pendências e relatórios fotográficos", "Renovação anual de contrato", "Sem CRM ou automação de pós-venda hoje — controle manual"]
+  },
+
+  "icp_nao_ideal": [
+    "Pessoa física buscando serviço avulso de 'linha branca' — segmento abandonado há 4-5 anos por prejuízo comprovado",
+    "Empresas com menos de 10 aparelhos fora do raio de 150-300km — custo de deslocamento não compensa, segundo o próprio André",
+    "Clientes que decidem 100% por preço mais baixo, comparando diretamente com MEIs informais sem ART/PGR/NR — concorrência que a própria estratégia busca evitar",
+    "Demanda por sistemas evaporativos — fora do escopo técnico deliberado da JK (só fluido refrigerante)"
+  ],
+
+  "key_leverage_point": {
+    "headline": "A JK já sabe fechar negócio caro quando o argumento certo aparece — o problema é que esse argumento vive só na cabeça do André, não no material de vendas de quem atende o dia a dia.",
+    "context": "André já demonstrou, em pelo menos um caso real, que consegue reprecificar um contrato assumindo risco (absorver corretivas de um cliente por R$138-140mil/ano) porque entende o racional financeiro do CFO. Mas Pedro — quem hoje recebe a maioria dos leads novos — não tem esse argumento formalizado, e por isso trata todo orçamento como decisão que precisa subir para Marlon ou André.",
+    "numbered_reasons": [
+      "A objeção nº1 (preço 26,32% acima do mercado) é sempre resolvida caso a caso pelo André, nunca por um script replicável — isso trava a escala do time comercial e explica por que Pedro delega toda negociação relevante",
+      "O gatilho de compra mais forte (medo de parada de máquina/produção) já é conhecido e usado informalmente, mas nunca virou uma resposta padrão treinada com Pedro e Marlon",
+      "Sem esse argumento formalizado, qualquer aumento de leads gerados por mídia paga vai esbarrar no mesmo gargalo: alguém vai precisar chamar o André pra fechar, o que não escala"
+    ],
+    "discussion_anchor": "Vale validar com André se ele topa formalizar esse argumento (custo de parada vs. custo de preventiva) como script oficial de vendas — isso é pré-requisito direto para o diagnóstico comercial (ee-s4-diagnostico-comercial) e para os scripts de SDR (ee-s5-scripts-sdr) que vêm a seguir."
+  },
+
+  "honesty_alert": "Não há, em nenhuma das fontes, CRM ou histórico real de conversão medido — todos os números de funil (taxa de conversão, ciclo de vendas) vêm de estimativas verbais do próprio André ou de projeções da equipe V4 para efeito de venda do serviço, não de dados históricos medidos pela JK. As faixas de renda das personas Marcos Zimmermann, Beatriz Silveira e Elton vêm do Manual de Copywriting (elaboração da pesquisa de mercado anterior), não de entrevistas reais com clientes da carteira — tratar como hipótese de trabalho, não como dado validado, até cruzar com casos reais quando o CRM existir (ver ee-s3-crm-setup, ainda pendente).",
+
+  "alimenta_skills": ["ee-s4-diagnostico-comercial", "ee-s4-cliente-oculto", "ee-s5-scripts-sdr", "ee-s2-posicionamento", "ee-s3-brandbook", "ee-s3-crm-setup"]
+}

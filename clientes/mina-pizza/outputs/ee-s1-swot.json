@@ -1,0 +1,401 @@
+{
+  "summary": "Análise SWOT da Mina Pizza: negócio de 36 anos com margem saudável e reputação boa no iFood (4,8★/54) nunca gerenciada, cercado de fraquezas de execução (GMB errado, reputação frágil no Google, sem CRM) que custam pouco pra corrigir. A jogada dos próximos 90 dias é corrigir a gestão básica antes de escalar mídia paga mirando o fluxo turístico de fim de semana.",
+  "client_name": "Mina Pizza",
+  "strengths": [
+    {
+      "title": "36 anos de operação com margem saudável",
+      "description": "CMV de 30-35% e margem líquida acima de 20%, mesmo sem nenhum investimento em marketing; Roberto usou o caixa acumulado pra comprar a parte do ex-sócio em poucos meses.",
+      "implication": "Dá fôlego financeiro real pra investir em estruturação sem pressão de resultado imediato — raro no setor de alimentação.",
+      "source": "briefing"
+    },
+    {
+      "title": "iFood com reputação consolidada e genuinamente boa",
+      "description": "4,8★ em 54 avaliações no iFood, sem nenhuma gestão ativa do canal — nenhuma resposta a avaliação, nenhum investimento em destaque.",
+      "implication": "É a prova social mais barata que existe: usar prints/depoimentos reais do iFood em qualquer criativo futuro antes de gastar em produção nova.",
+      "source": "diagnostico"
+    },
+    {
+      "title": "Resiliência histórica comprovada com adoção digital mínima",
+      "description": "Das 8 lojas da rede antiga, a que sobreviveu à consolidação pós-pandemia foi justamente a que tinha (mesmo que pouco) delivery via iFood.",
+      "implication": "O padrão se repete — presença digital mínima já foi decisiva pra sobrevivência antes. Vale usar essa história real na comunicação de marca.",
+      "source": "briefing"
+    },
+    {
+      "title": "Delivery terceirizado sem custo fixo de frota",
+      "description": "Substituiu motoboys próprios por uma empresa terceirizada de entrega, mantendo só 1 motoboy fixo registrado. Isso ampliou o horário de atendimento (abre 9h, já vende almoço com entrega).",
+      "implication": "Estrutura operacional já preparada pra escalar volume de delivery sem precisar contratar mais motoboys imediatamente.",
+      "source": "briefing"
+    }
+  ],
+  "weaknesses": [
+    {
+      "title": "Maturidade digital crítica em 3 dos 5 pilares",
+      "description": "Score de mídia paga 8/100, criativos 8/100, CRM 10/100 — todos na faixa crítica, sem nenhuma base pra escalar.",
+      "implication": "Sem correção, continua perdendo turista/novo cliente pro concorrente que aparece no digital.",
+      "severity": "critical",
+      "source": "diagnostico"
+    },
+    {
+      "title": "GMB com endereço errado e reputação mais frágil no Google",
+      "description": "113 avaliações no Google (3,9★) sob o nome 'Mina Praia Grill & Pizza' — mas o pino está fora do shopping/Carrefour onde a loja realmente fica, com queixas reais de ambiente (pessoas em situação de rua nas mesas) e comida, sem nenhuma resposta do lojista.",
+      "implication": "Cliente novo é literalmente direcionado pro lugar errado, e a reputação que aparece primeiro na busca é a mais frágil das duas plataformas. Resolver é grátis e rápido.",
+      "severity": "critical",
+      "source": "diagnostico"
+    },
+    {
+      "title": "Reclamações recorrentes no iFood sem tratamento",
+      "description": "Avaliações reais no iFood citam arroz/bife sem tempero e item faltando no delivery (ex: Coca-Cola) — sem resposta do lojista.",
+      "implication": "Ampliar tráfego digital sem corrigir isso amplifica reclamação, não venda — precisa alinhar com a operação em paralelo.",
+      "severity": "high",
+      "source": "diagnostico"
+    },
+    {
+      "title": "Zero base de clientes própria — CRM inexistente",
+      "description": "Pedidos entram por telefone (dados presos num sistema que Roberto não acessa) ou iFood (dados da plataforma, não cedidos ao lojista). Sem WhatsApp Business.",
+      "implication": "Nenhuma reativação de base é possível hoje; toda recompra depende de o cliente lembrar de ligar de novo.",
+      "severity": "critical",
+      "source": "briefing"
+    }
+  ],
+  "opportunities": [
+    {
+      "title": "Fluxo turístico de fim de semana sem nenhuma captura digital",
+      "description": "São Vicente é vizinha de Santos, com fluxo turístico de praia; ninguém na empresa nunca rodou campanha geolocalizada mirando esse público.",
+      "implication": "Campanha Meta Ads geolocalizada em raio de poucos km, ativa nos fins de semana, pode capturar demanda que hoje vai pro concorrente que aparece no Google/Instagram.",
+      "time_sensitivity": "urgent",
+      "source": "briefing"
+    },
+    {
+      "title": "Corrigir e assumir a gestão do GMB e iFood pode reverter reputação mista em ativo de aquisição",
+      "description": "As avaliações já existem organicamente — o trabalho não é criar prova social do zero, é corrigir o endereço, responder o que está pendente e manter os dois canais cuidados.",
+      "implication": "Maior ROI possível de toda a estruturação: pouco investimento, execução rápida.",
+      "time_sensitivity": "urgent",
+      "source": "diagnostico"
+    },
+    {
+      "title": "Meta de crescer pizza de 30% para 50% do faturamento, com demanda já comprovada",
+      "description": "Existem ~250 pedidos/mês de pizza por delivery telefônico — demanda recorrente validada, só falta migrar parte desse comportamento pra canais rastreáveis.",
+      "implication": "Não precisa criar demanda do zero, precisa capturar e organizar a que já existe.",
+      "time_sensitivity": "medium_term",
+      "source": "briefing"
+    },
+    {
+      "title": "Upsell de ticket médio nunca testado",
+      "description": "Roberto reconhece que aumentar o ticket médio (bebida/acompanhamento) é 'muito interessante', mas nunca tentou nenhuma estratégia nesse sentido.",
+      "implication": "Um upsell simples de R$5-10 por pedido em ~250 pedidos/mês de pizza já representa R$1.250-2.500/mês adicionais sem custo de aquisição.",
+      "time_sensitivity": "medium_term",
+      "source": "briefing"
+    },
+    {
+      "title": "Dono tecnicamente capacitado e aberto ao digital, ainda não empregado na prática",
+      "description": "Roberto tem formação em gastronomia E ciência da computação, e defendeu manter presença digital (iFood) no passado quando o sócio antigo queria cortar — mas essa capacidade nunca foi aplicada de forma estruturada no negócio.",
+      "implication": "Facilita a adoção de ferramentas digitais — o dono já está tecnicamente disposto e capacitado, só falta execução guiada.",
+      "time_sensitivity": "medium_term",
+      "source": "briefing"
+    }
+  ],
+  "threats": [
+    {
+      "title": "Concorrência local com presença digital capturando o fluxo",
+      "description": "O restaurante de frango frito vizinho e pizzarias locais com Instagram ativo continuam disputando o mesmo público da praça de alimentação, enquanto a Mina Pizza segue invisível digitalmente.",
+      "implication": "Cada mês sem corrigir GMB/iFood é fluxo indo pro concorrente que aparece na busca.",
+      "probability": "high",
+      "impact": "medium",
+      "source": "briefing"
+    },
+    {
+      "title": "Dependência total de plataformas de terceiros para pedido",
+      "description": "iFood retém os dados do cliente; telefone depende de 1 atendente com 2 linhas. Se qualquer um desses canais falhar, a empresa perde a maior parte do volume de pedidos de uma vez.",
+      "implication": "Diversificar com WhatsApp Business e canal próprio reduz esse risco de concentração.",
+      "probability": "medium",
+      "impact": "high",
+      "source": "briefing"
+    },
+    {
+      "title": "Reclamações não respondidas corroem a reputação",
+      "description": "As mesmas avaliações que hoje são um ativo podem virar prejuízo se as reclamações recorrentes de sabor/erro de pedido continuarem sem resposta e sem correção operacional.",
+      "implication": "Responder avaliações e alinhar com a operação local é defesa, não só ataque.",
+      "probability": "medium",
+      "impact": "medium",
+      "source": "diagnostico"
+    },
+    {
+      "title": "Aumento histórico de comissão de apps de delivery",
+      "description": "Plataformas como iFood vêm historicamente aumentando comissão; com CMV de 30-35%, qualquer alta comprime ainda mais a rentabilidade do delivery.",
+      "implication": "Reforça a urgência de ter canal próprio (WhatsApp + pixel) com custo de aquisição mais baixo no médio prazo.",
+      "probability": "medium",
+      "impact": "medium",
+      "source": "market_trend"
+    }
+  ],
+  "strategic_synthesis": {
+    "leverage": "A jogada mais forte é usar a reputação já sólida no iFood (4,8★) pra capturar o fluxo turístico de fim de semana que hoje ninguém está disputando digitalmente. A margem saudável dá caixa pra financiar isso sem pressão, e o próprio histórico do negócio mostra que presença digital mínima (mesmo que pouca) já foi decisiva pra sobrevivência antes — o padrão tende a se repetir se for feito com intenção.",
+    "protection": "A fraqueza mais perigosa é o GMB com endereço errado e a reputação mais frágil no Google (queixas de ambiente e comida sem resposta) — se não for corrigido antes de qualquer campanha, o investimento em atrair tráfego se perde num endereço errado e numa reputação que passa a impressão errada pra quem pesquisa antes de decidir. Nenhuma ação de aquisição paga deve rodar antes de resolver isso.",
+    "recommended_strategy": "Nos próximos 90 dias: (1) semanas 1-2 — corrigir GMB, responder avaliações pendentes (Google e iFood) e ativar WhatsApp Business (tudo de custo zero); (2) semanas 3-6 — testar upsell de ticket médio, montar pixel e LP mínima; (3) semanas 7-12 — só então rodar a primeira campanha geolocalizada mirando o turista de fim de semana, já com a casa em ordem."
+  },
+  "tows_matrix": {
+    "description": "Cruzamento estratégico dos quadrantes da SWOT — onde a análise vira ação.",
+    "so_strategies": [
+      {
+        "id": "SO1",
+        "strategy": "Usar a reputação do iFood (S2) + fluxo turístico (O1) para lançar campanha geolocalizada de fim de semana com prova social real no criativo.",
+        "rationale": "Prova social remove a principal objeção de quem nunca comprou, e o timing de fim de semana de praia é quando a demanda de turista é maior.",
+        "expected_outcome": "Aumento de pedidos de pizza nos fins de semana, atacando diretamente a meta de crescer de 30% pra 50% do faturamento em pizza."
+      },
+      {
+        "id": "SO2",
+        "strategy": "Usar a resiliência histórica com adoção digital mínima (S3) + a abertura técnica do dono (O5) para Roberto liderar pessoalmente a virada digital.",
+        "rationale": "Ele já defendeu manter presença digital no passado contra a vontade do sócio antigo — tem tanto o histórico quanto a formação técnica pra isso.",
+        "expected_outcome": "Execução mais rápida e alinhada, sem depender de terceiros pra decisões técnicas simples."
+      },
+      {
+        "id": "SO3",
+        "strategy": "Usar o delivery terceirizado (S4) + demanda comprovada (O3) para converter os ~250 pedidos/mês existentes em canais próprios, sem novo investimento em frota.",
+        "rationale": "A estrutura de entrega já está pronta pra escalar volume.",
+        "expected_outcome": "Mais pedidos capturados em canal próprio sem custo operacional adicional."
+      }
+    ],
+    "wo_strategies": [
+      {
+        "id": "WO1",
+        "strategy": "Corrigir GMB e reputação (W2) antes de capturar o fluxo turístico (O1).",
+        "rationale": "Investir em atrair tráfego antes de corrigir o erro de endereço e a reputação mista desperdiça o próprio investimento.",
+        "expected_outcome": "Toda futura campanha de aquisição converte de verdade, sem vazamento no último passo."
+      },
+      {
+        "id": "WO2",
+        "strategy": "Ativar WhatsApp Business (mitiga W4) para capturar a demanda já comprovada (O3).",
+        "rationale": "É o jeito mais rápido de começar a construir base própria a partir de um comportamento de compra que já existe.",
+        "expected_outcome": "Primeira base de contatos própria em semanas, sem depender de plataforma terceira."
+      }
+    ],
+    "st_strategies": [
+      {
+        "id": "ST1",
+        "strategy": "Usar a resiliência histórica (S3) como narrativa de marca pra diferenciar de concorrentes só-digitais sem tradição (T1).",
+        "rationale": "36 anos de operação é uma prova de confiança que concorrente novo não tem.",
+        "expected_outcome": "Diferenciação de marca que reduz a pressão de concorrentes só-digitais."
+      },
+      {
+        "id": "ST2",
+        "strategy": "Usar a reputação boa do iFood (S2) como contrapeso ao risco de reputação mal gerida (T3) — cuidar primeiro do canal que já funciona bem.",
+        "rationale": "É mais fácil defender e ampliar uma reputação já positiva do que reverter uma negativa.",
+        "expected_outcome": "Reputação online mais defendida, reduzindo o risco de queda de nota."
+      },
+      {
+        "id": "ST3",
+        "strategy": "Usar a margem saudável (S1) para reduzir a dependência de plataformas de terceiros (T2/T4), investindo em canal próprio.",
+        "rationale": "Rentabilidade atual permite bancar essa transição sem pressão.",
+        "expected_outcome": "Menor exposição a aumento futuro de comissão de plataformas."
+      }
+    ],
+    "wt_strategies": [
+      {
+        "id": "WT1",
+        "strategy": "Priorizar a correção do GMB e resposta a avaliações (W2/W3) antes de qualquer escala de mídia — mitiga T1 e T3 ao mesmo tempo.",
+        "rationale": "É o pior cenário se não for feito: gastar em atração de tráfego pra um endereço errado com reputação não gerenciada.",
+        "expected_outcome": "Reduz o risco de desperdiçar investimento futuro em mídia."
+      },
+      {
+        "id": "WT2",
+        "strategy": "Alinhar com a operação local a correção dos problemas recorrentes de tempero/erro de pedido (W3) antes de aumentar volume via novos canais — mitiga T2 e T3.",
+        "rationale": "Aumentar volume sem corrigir a causa raiz da reclamação só amplifica o problema em escala.",
+        "expected_outcome": "Reduz taxa de reclamação à medida que o volume cresce, em vez de aumentar."
+      }
+    ]
+  },
+  "priority_actions": [
+    {
+      "action": "Corrigir endereço do GMB e assumir a gestão do canal (reivindicar conta, responder avaliações)",
+      "swot_basis": "Mitiga W2, protege O1/O2, executa WO1/WT1",
+      "impact": "high",
+      "suggested_timeline": "Semana 1",
+      "dependencies": [],
+      "financial_impact": {
+        "investment": 0,
+        "note": "Custo zero, esforço de horas"
+      },
+      "risk_adjusted_score": {
+        "impact": 10,
+        "probability_of_success": 9,
+        "reversibility": 10,
+        "score": 9.5
+      }
+    },
+    {
+      "action": "Responder as avaliações pendentes no iFood e no Google",
+      "swot_basis": "Mitiga W3, protege S2 de virar T3, executa ST2/WT2",
+      "impact": "high",
+      "suggested_timeline": "Semana 1",
+      "dependencies": [],
+      "financial_impact": {
+        "investment": 0,
+        "note": "Custo zero"
+      },
+      "risk_adjusted_score": {
+        "impact": 8,
+        "probability_of_success": 9,
+        "reversibility": 10,
+        "score": 9
+      }
+    },
+    {
+      "action": "Ativar WhatsApp Business com catálogo e cardápio único",
+      "swot_basis": "Mitiga W4, captura O3, executa WO2",
+      "impact": "high",
+      "suggested_timeline": "Semana 1-2",
+      "dependencies": [],
+      "financial_impact": {
+        "investment": 0,
+        "note": "Ferramenta gratuita"
+      },
+      "risk_adjusted_score": {
+        "impact": 9,
+        "probability_of_success": 8,
+        "reversibility": 9,
+        "score": 8.5
+      }
+    },
+    {
+      "action": "Montar pixel + landing page mínima com CTA de WhatsApp",
+      "swot_basis": "Mitiga T2/T4, executa ST3",
+      "impact": "high",
+      "suggested_timeline": "Semana 3-4",
+      "dependencies": [
+        "WhatsApp Business ativo"
+      ],
+      "financial_impact": {
+        "investment": 800,
+        "note": "Custo estimado de LP simples"
+      },
+      "risk_adjusted_score": {
+        "impact": 8,
+        "probability_of_success": 7,
+        "reversibility": 8,
+        "score": 7.5
+      }
+    },
+    {
+      "action": "Rodar primeira campanha geolocalizada de Meta Ads mirando turista de fim de semana",
+      "swot_basis": "Captura O1, alavanca S2/S3/O5, executa SO1",
+      "impact": "high",
+      "suggested_timeline": "Semana 7-12 (após correções)",
+      "dependencies": [
+        "GMB corrigido",
+        "Marca padronizada",
+        "Pixel instalado"
+      ],
+      "financial_impact": {
+        "investment": 1500,
+        "monthly_return_brl": 5000,
+        "note": "Estimativa conservadora baseada em ticket médio R$50 e conversão inicial baixa"
+      },
+      "risk_adjusted_score": {
+        "impact": 9,
+        "probability_of_success": 6,
+        "reversibility": 7,
+        "score": 7.2
+      }
+    },
+    {
+      "action": "Testar upsell de ticket médio (bebida/acompanhamento) no balcão, telefone e delivery",
+      "swot_basis": "Captura O4, executa WO3",
+      "impact": "medium",
+      "suggested_timeline": "Semana 2-3",
+      "dependencies": [
+        "Cardápio único padronizado"
+      ],
+      "financial_impact": {
+        "investment": 0,
+        "monthly_return_brl": 1500,
+        "note": "Estimativa: R$5-10 extra em ~250 pedidos/mês"
+      },
+      "risk_adjusted_score": {
+        "impact": 6,
+        "probability_of_success": 7,
+        "reversibility": 10,
+        "score": 6.8
+      }
+    }
+  ],
+  "key_insight": {
+    "headline": "A Mina Pizza sustenta 36 anos de operação e reputação boa no iFood (4,8★) com zero investimento em marketing — e ninguém está ocupando o vácuo digital da região.",
+    "context": "A Mina Pizza tem o que muitos negócios locais não têm: 36 anos de resiliência comprovada, margem saudável e reputação genuinamente boa no iFood. O que falta não é produto — é alguém prestando atenção nos canais que já existem.",
+    "numbered_reasons": [
+      "(1) A reputação no iFood (4,8★) mostra que o produto funciona mesmo sem gestão — o problema está nos canais, não na cozinha.",
+      "(2) A margem saudável (CMV 30-35%) dá caixa pra financiar a estruturação digital sem pressão de resultado imediato.",
+      "(3) Nenhum concorrente da região combina a mesma tradição de décadas com presença digital madura — é uma janela que fecha assim que outro concorrente perceber a mesma oportunidade."
+    ],
+    "discussion_anchor": "Antes de discutir orçamento de mídia, Roberto precisa decidir: quem vai assumir a rotina semanal de responder avaliação e cuidar do GMB? Sem isso, a campanha paga de fim de semana vai jogar tráfego pra uma reputação não gerenciada."
+  },
+  "honesty_alert": "A SWOT tem tantas fraquezas (4) quanto forças (4), e isso é factual, não pessimismo: quase tudo que funciona hoje na Mina Pizza (reputação no iFood, delivery, margem) aconteceu por acaso ou por decisão isolada do Roberto, não por estratégia. A reputação no Google é mais frágil do que parece à primeira vista, com queixa real de ambiente (pessoas em situação de rua no salão) e comida. Esses problemas estão fora do escopo de marketing — se não forem endereçados operacionalmente em paralelo, mais visibilidade digital pode expor esses problemas a mais gente em vez de só trazer mais venda.",
+  "summary_headline": "GMB com endereço errado e reputação mista sem resposta travam a Mina Pizza antes mesmo de qualquer investimento em mídia entrar em cena.",
+  "summary_highlights": [
+    {
+      "category": "posicao",
+      "label": "Forças vs Fraquezas",
+      "value": "4 x 4",
+      "subtext": "Fraquezas concentradas em gestão de canais, não em produto",
+      "tone": "yellow"
+    },
+    {
+      "category": "oportunidade",
+      "label": "Ação SO de maior ROI",
+      "value": "Campanha geo turista + iFood",
+      "subtext": "Payback estimado dentro de 90 dias",
+      "tone": "green"
+    },
+    {
+      "category": "risco",
+      "label": "Maior ameaça",
+      "value": "Reputação Google não gerenciada",
+      "subtext": "Queixas de ambiente e comida sem resposta do lojista",
+      "tone": "red"
+    },
+    {
+      "category": "janela",
+      "label": "Janela de oportunidade",
+      "value": "Fins de semana de praia",
+      "subtext": "Fluxo turístico ainda sem captura digital de nenhum concorrente local",
+      "tone": "yellow"
+    },
+    {
+      "category": "maturidade",
+      "label": "Custo pra destravar as 3 primeiras ações",
+      "value": "R$0",
+      "subtext": "GMB, avaliações e WhatsApp Business são gratuitos",
+      "tone": "green"
+    }
+  ],
+  "summary_key_findings": [
+    {
+      "category": "vantagem",
+      "text": "36 anos de operação com margem saudável e reputação boa no iFood (4,8★/54) mostram que o produto sustenta demanda mesmo sem nenhuma gestão de canal."
+    },
+    {
+      "category": "contexto",
+      "text": "As fraquezas identificadas são majoritariamente de gestão/atenção (GMB errado, avaliações sem resposta) — o conserto é rápido e barato, não exige reformular o produto."
+    },
+    {
+      "category": "ameaca",
+      "text": "A reputação no Google é mais mista/negativa que no iFood — queixas de ambiente e comida sem nenhuma resposta do lojista podem se agravar assim que mais gente notar."
+    },
+    {
+      "category": "acao",
+      "text": "As 3 primeiras ações prioritárias (corrigir GMB, responder avaliações, ativar WhatsApp Business) custam R$0 e resolvem metade do gap de maturidade digital."
+    }
+  ],
+  "refined_in": "ee-revisao-semanal",
+  "_refinement_history": [
+    {
+      "ts": "2026-07-20T10:30:00Z",
+      "review": "ee-revisao-semanal",
+      "semana": 2,
+      "updates": [
+        "U1"
+      ],
+      "evolutions_applied": [],
+      "note": "Rating do iFood atualizado de 4,7★/47 avaliações para 4,8★/54 (total combinado com Google de 160 para 167), com base em print real mais recente enviado pelo operador."
+    }
+  ]
+}

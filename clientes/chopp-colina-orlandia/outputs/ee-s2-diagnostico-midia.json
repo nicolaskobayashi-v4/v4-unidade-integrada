@@ -1,0 +1,112 @@
+{
+  "skill": "ee-s2-diagnostico-midia",
+  "cliente": "Chopp Colina Orlandia",
+  "gerado_em": "2026-06-20",
+  "nota_metodologica": "Executado sem dados V4MOS (workspace_id null, connectors.fetched_at null — sem integração Meta Ads/Google Ads conectada). Diagnóstico construído a partir do briefing, levantamento de busca apresentado na reunião S3 (29/05) e dos diagnósticos de criativos/comunicação já validados.",
+
+  "manchete": "R$50 por semana, zero pixel, objetivo de engajamento — isso não é mídia paga, é doação para o algoritmo mostrar show ao vivo para quem já segue a conta. Em Franca tem 11.590 buscas por mês sobre chope e chopeira, e ninguém está pagando para aparecer nelas.",
+
+  "situacao_atual": {
+    "meta_ads": {
+      "investimento": "R$50/semana (~R$200-215/mês)",
+      "pixel_instalado": false,
+      "objetivo_configurado": "Engajamento (incorreto para o funil de venda)",
+      "criativo_impulsionado": "Posts de show ao vivo — público errado para o produto de delivery",
+      "segmentacao": "Inexistente — boosting genérico para seguidores/região",
+      "resultado_observado": "Engajamento de 0,91% — abaixo da faixa esperada para varejo alimentício local (1,5%-3,5%), conforme análise apresentada na reunião S3."
+    },
+    "google_ads": {
+      "investimento": 0,
+      "status": "Inexistente — zero presença em busca",
+      "oportunidade_identificada": "11.590 buscas mensais em Franca sobre temas relacionados a chope/chopeira (dado apresentado em reunião S3, 29/05). CPC estimado entre R$0,34 e R$2,00 dependendo da palavra-chave.",
+      "busca_marca": "~60 buscas/mês por 'Chope Colina' especificamente em Franca — demanda reprimida pela marca, sem nenhum anúncio capturando."
+    },
+    "lp_destino": {
+      "status": "Inexistente",
+      "implicacao": "Qualquer verba de tráfego pago hoje cairia no perfil do Instagram (não converte) — não há página de captura para Franca."
+    }
+  },
+
+  "diagnostico_funil": {
+    "topo": {
+      "situacao": "Zero captura de demanda de busca (Google Ads ausente). Alcance orgânico baixo (engajamento 0,91%).",
+      "oportunidade": "11.590 buscas/mês relacionadas + 60 buscas/mês de marca = demanda já existente, não criada."
+    },
+    "meio": {
+      "situacao": "Sem pixel, sem remarketing, sem lista de quem visualizou conteúdo de delivery.",
+      "oportunidade": "Pixel + LP permitem remarketing para quem clicou mas não converteu — hoje esse público se perde."
+    },
+    "fundo": {
+      "situacao": "WhatsApp sem automação (já mapeado na auditoria de comunicação). Mensagem de boosting atual não gera lead, gera curtida.",
+      "oportunidade": "Objetivo de campanha deve ser mensagem/conversão, não engajamento — mudança de configuração, custo zero adicional."
+    }
+  },
+
+  "estrutura_recomendada": {
+    "google_ads": {
+      "orcamento_mensal": 500,
+      "racional": "Recomendação validada em reunião S3 (29/05) com Gustavo (INBEB) e Cláudio. Prioriza palavras-chave de alta intenção de compra.",
+      "palavras_chave_prioritarias": ["disk chope franca", "barril de chope franca", "chope delivery franca", "chope colina franca", "chopeira para festa franca"],
+      "nao_fazer": "Não dispersar verba em canais como YouTube nesse estágio inicial — foco total em Search de alta intenção."
+    },
+    "meta_ads": {
+      "orcamento_mensal_minimo": 600,
+      "racional": "Reorganizar o R$50/semana atual (R$200/mês) em estrutura de 3 grupos de campanha definidos em reunião S3, com aumento gradual conforme performance.",
+      "grupos_de_campanha": [
+        {
+          "nome": "Aniversariantes do mês",
+          "segmentacao": "Pessoas com aniversário no mês corrente, raio de Franca/Orlândia",
+          "objetivo": "Mensagem no WhatsApp",
+          "criativo_base": "C5 (revelação de preço) ou C9 (chegamos em Franca) do diagnóstico de criativos"
+        },
+        {
+          "nome": "Público de churrasco/chopp",
+          "segmentacao": "Interesse em churrasco, eventos, cerveja artesanal — foco em qualidade e instalação",
+          "objetivo": "Mensagem no WhatsApp",
+          "criativo_base": "C1 (hero shot) + C4 (Reel como funciona)"
+        },
+        {
+          "nome": "Casamentos e eventos",
+          "segmentacao": "Noivos, organizadores de evento — Meta permite identificar datas de casamento com precisão",
+          "objetivo": "Mensagem no WhatsApp",
+          "criativo_base": "Foco em confiabilidade e consignação — trave congelada como diferencial"
+        }
+      ],
+      "pre_requisito_critico": "Instalar pixel Meta antes de qualquer campanha estruturada — sem isso não há dado de conversão nem remarketing."
+    },
+    "pre_requisitos_bloqueadores": [
+      "Landing Page de Franca (ee-s3-landing-page) — sem ela, todo tráfego pago cai num lugar que não converte",
+      "Pixel Meta + Google Tag Manager instalados na LP",
+      "Highlight 'Delivery' e carrossel de pilares no Instagram (já mapeados em ee-s2-diagnostico-criativos) — tráfego pago direcionado para perfil sem essa informação perde conversão"
+    ]
+  },
+
+  "investimento_total_recomendado": {
+    "mes_1_lancamento_franca": {
+      "google_ads": 500,
+      "meta_ads": 600,
+      "total": 1100,
+      "nota": "Mês de lançamento — captura de demanda reprimida + ativação dos 3 grupos de campanha"
+    },
+    "mes_2_3_consolidacao": {
+      "google_ads": "500-700 (aumentar se CPC permitir mais volume)",
+      "meta_ads": "600-900 (escalar grupos com melhor performance)",
+      "total_estimado": "1.100-1.600",
+      "nota": "Ajustar com base em CAC real observado no mês 1"
+    }
+  },
+
+  "metricas_de_acompanhamento": [
+    "CAC (custo de aquisição por cliente fechado)",
+    "Taxa de conversão de mensagem → venda (Cláudio já tem essa métrica intuitiva: cita 33% em entrevista comercial — formalizar com CRM)",
+    "CPC médio por grupo de campanha",
+    "Engajamento orgânico (meta: saltar de 0,91% para a faixa 1,5%-3,5%)",
+    "Volume de buscas de marca 'Chope Colina Franca' ao longo dos meses — indicador de brand awareness orgânico"
+  ],
+
+  "ponto_de_alavancagem": "Mudar o objetivo de campanha de 'engajamento' para 'mensagens' custa R$0 e pode ser feito hoje, antes de qualquer aumento de orçamento. É a correção de maior impacto por menor esforço identificada neste diagnóstico.",
+
+  "alerta_operacional": "Não escalar Google Ads ou Meta Ads para Franca antes da Landing Page estar no ar com pixel instalado. Investir em tráfego sem destino de conversão estruturado é o erro mais caro e mais comum em lançamento de praça nova.",
+
+  "alimenta_skills": ["ee-s3-forecast-midia", "ee-s3-landing-page", "ee-s3-copy-anuncios", "ee-s3-criativos-anuncios"]
+}

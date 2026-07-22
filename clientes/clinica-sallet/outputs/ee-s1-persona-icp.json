@@ -1,0 +1,392 @@
+{
+  "client_name": "Instituto de Medicina Sallet",
+  "skill": "ee-s1-persona-icp",
+  "generated_at": "2026-05-18",
+  "fase": "pre-kickoff",
+  "data_source": "Reuniões de pré-venda (fev–abr/2026) + Plano ROI SPICED + Growth Class (15/05/2026). Revisão necessária após kick-off de imersão.",
+
+  "summary": "O ICP primário do Sallet é um adulto de 38–58 anos, renda média-alta em SP, que convive com a obesidade há anos e sabe que a cirurgia existe — mas o medo, a culpa e o histórico de tentativas fracassadas travaram a decisão. O gatilho costuma ser externo: um médico que sinalizou urgência, alguém próximo que operou, uma comorbidade que evoluiu. Ele não está buscando emagrecer — está buscando se libertar de uma doença que normalizou sem querer.",
+
+  "summary_headline": "O paciente do Sallet não busca cirurgia — busca a primeira solução em que consegue acreditar depois de ter tentado de tudo.",
+
+  "summary_highlights": [
+    {
+      "category": "posicao",
+      "label": "Faixa etária ICP 1",
+      "value": "38–58 anos",
+      "subtext": "Adultos com poder de compra e histórico de tentativas",
+      "tone": "blue"
+    },
+    {
+      "category": "oportunidade",
+      "label": "Ticket particular",
+      "value": "R$25k–R$35k",
+      "subtext": "Cirurgia particular. Bariátrica para Todos: R$4.500 (SUS)",
+      "tone": "green"
+    },
+    {
+      "category": "posicao",
+      "label": "Volume atual",
+      "value": "110–120 cirurgias/mês",
+      "subtext": "Principal ativo de credibilidade do instituto",
+      "tone": "blue"
+    },
+    {
+      "category": "maturidade",
+      "label": "Gatilho de compra",
+      "value": "Externo — médico, evento, conhecido",
+      "subtext": "Raramente inicia sozinho sem um empurrão externo",
+      "tone": "yellow"
+    },
+    {
+      "category": "risco",
+      "label": "Objeção central",
+      "value": "\"Já tentei tudo e não funcionou\"",
+      "subtext": "Objeção emocional — histórico de fracassos que paralisa",
+      "tone": "red"
+    },
+    {
+      "category": "oportunidade",
+      "label": "Canal primário ICP 1",
+      "value": "Google + Instagram",
+      "subtext": "Busca ativa (Google) + validação e nutrição (Instagram)",
+      "tone": "green"
+    }
+  ],
+
+  "summary_key_findings": [
+    {
+      "category": "vantagem",
+      "text": "O volume de 110–120 cirurgias/mês é o maior ativo de credibilidade do Sallet — e é pouco explorado. Para o paciente com medo, saber que o Dr. Salé faz isso todo dia, há 25 anos, é mais poderoso do que qualquer copy."
+    },
+    {
+      "category": "ameaca",
+      "text": "A principal concorrência não é outro instituto — é a inércia e o histórico de tentativas fracassadas. Quem não endereçar o passado do paciente antes de vender a cirurgia vai perder a confiança na largada."
+    },
+    {
+      "category": "contexto",
+      "text": "O ciclo de decisão é longo para Marcia (3–12 meses de consideração) e curto para Roberto quando há indicação médica direta (2–6 semanas). A estratégia de conteúdo precisa nutrir os dois ritmos."
+    },
+    {
+      "category": "acao",
+      "text": "Comunicar cura de comorbidades (apneia, diabetes, hipertensão), não só emagrecimento. Roberto opera pela saúde, não pela estética — e esse perfil é subatendido pela maioria das clínicas bariátricas."
+    },
+    {
+      "category": "contexto",
+      "text": "A família é co-decisora silenciosa. Marido, esposa ou filhos adultos que têm medo da cirurgia travam a decisão que já estava tomada. Conteúdo dirigido ao familiar de apoio é uma alavanca inexplorada."
+    },
+    {
+      "category": "oportunidade",
+      "text": "ICP 2 (Pós-Caneta em Crise) é o mercado emergente dos próximos 12–24 meses. O posicionamento anti-caneta deve começar agora no conteúdo orgânico para capturar esse volume quando ele amadurecer."
+    }
+  ],
+
+  "horizonte_estrategico": {
+    "horizonte_1": {
+      "label": "Agora — Conversão direta",
+      "icp": "ICP 1 — Paciente Particular Decisor Tardio",
+      "foco": "Google Ads + Instagram + LP de conversão",
+      "metricas": "Leads qualificados (particulares), agendamentos de consulta, CAC"
+    },
+    "horizonte_2": {
+      "label": "Fase 2 — Captura de mercado emergente",
+      "icp": "ICP 2 — Pós-Caneta em Crise",
+      "foco": "Conteúdo orgânico, e-mail, CRM (nutrição de longo prazo)",
+      "metricas": "Engajamento, crescimento de base, leads qualificados de baixo custo"
+    }
+  },
+
+  "icp_segments": [
+    {
+      "id": "icp-primario",
+      "label": "ICP 1 — Paciente Particular Decisor Tardio",
+      "horizonte": "horizonte_1",
+      "descricao": "Adulto 38–58 anos, renda média-alta, SP. Tem obesidade há anos, sabe que a cirurgia existe, mas o medo, a culpa e o histórico de tentativas travaram a decisão. O gatilho é quase sempre externo. Tem condições financeiras para o ticket particular (R$25–35k) mas precisa de confiança antes de agir.",
+      "perfil_demografico": {
+        "faixa_etaria": "38–58 anos",
+        "genero": "Split a validar no kick-off — estratégia diferente por gênero",
+        "renda": "Média-alta — R$10k+/mês",
+        "localizacao": "São Paulo e Grande SP",
+        "decisor": "O próprio paciente, mas família co-decide"
+      },
+      "ticket_medio": "R$25.000–R$35.000",
+      "gatilhos_de_compra": [
+        "Médico (cardiologista, endocrinologista, clínico) recomendou cirurgia",
+        "Comorbidade evoluiu — diabetes, apneia do sono, hipertensão, fígado",
+        "Alguém próximo operou e está bem — prova social de qualidade",
+        "Evento de vida com prazo (formatura, casamento, viagem, aniversário)",
+        "Cansaço do ciclo de tentativas fracassadas — chegou ao limite emocional"
+      ],
+      "comportamento_de_compra": "Pesquisa no Google → encontra site/Instagram → meses de consideração → gatilho externo → WhatsApp → consulta → decisão em até 2 semanas",
+      "canal_preferencial": "Google (busca ativa) + Instagram (nutrir e validar) + WhatsApp (converter)",
+      "objecoes_principais": [
+        "\"Já tentei tudo e não funcionou\" — objeção emocional central",
+        "\"Minha família não apoia\" — co-decisão travada por medo",
+        "\"Tenho medo da cirurgia\" — barreira real, não só retórica",
+        "\"O convênio pode cobrir\" — adiamento disfarçado de praticidade",
+        "\"É caro / preciso pensar\" — não visualiza o ROI em saúde e qualidade de vida",
+        "\"E depois? Vou conseguir manter?\" — medo de reganhar peso"
+      ],
+      "volume_estimado": "Principal fonte de faturamento incremental. Foco do tráfego pago."
+    },
+    {
+      "id": "icp-secundario",
+      "label": "ICP 2 — Pós-Caneta em Crise",
+      "horizonte": "horizonte_2",
+      "descricao": "30–52 anos. Usou ou está usando Ozempic/Mounjaro. Percebeu que o remédio não resolve sozinho, ou já parou e está reganhando peso. Consciente do problema mas com resistência ao bisturi. Ciclo de decisão longo — precisa de educação antes da conversão.",
+      "perfil_demografico": {
+        "faixa_etaria": "30–52 anos",
+        "renda": "Média a média-alta",
+        "localizacao": "São Paulo e Grande SP"
+      },
+      "ticket_medio": "R$25.000–R$35.000 (particular) ou R$4.500 (Bariátrica para Todos)",
+      "gatilhos_de_compra": [
+        "Parou a caneta e está reganhando peso",
+        "Plano de saúde suspendeu o fornecimento do remédio",
+        "Médico sinalizou que a caneta não é suficiente para o caso",
+        "Resultado insatisfatório após 6–12 meses de uso"
+      ],
+      "canal_preferencial": "Instagram + conteúdo orgânico + e-mail (nutrição de longo prazo)",
+      "objecoes_principais": [
+        "\"A cirurgia é mais radical que o remédio\" — ainda acredita que a caneta pode resolver",
+        "\"Tenho medo de complicações\" — ainda mais sensível ao risco após experiência medicamentosa",
+        "\"É muito caro\" — ticket pode ser barreira real, candidata ao Bariátrica para Todos"
+      ],
+      "nota_estrategica": "Posicionar conteúdo educativo JÁ, mesmo antes de converter. O Sallet que educar esse público hoje vai colher conversão em 12–24 meses.",
+      "volume_estimado": "Mercado emergente. Volume crescente. Não é foco de mídia paga agora."
+    },
+    {
+      "id": "icp-terciario",
+      "label": "ICP 3 — Paciente Convênio (Manutenção de Volume)",
+      "horizonte": "sustentacao",
+      "descricao": "Paciente encaminhado pelo convênio ou pelo programa Bariátrica para Todos. Sustenta o volume de 110–120 cirurgias/mês, que é o principal ativo de credibilidade do instituto.",
+      "papel_estrategico": "Não é foco de marketing pago, mas cada cirurgia é um case, um depoimento, um promotor. O volume é o diferencial competitivo que poucos institutos têm.",
+      "ticket_medio": "R$4.500 (SUS/Bariátrica para Todos)",
+      "volume_estimado": "Base atual — 98% do mix. Tendência de redução conforme convênios centralizam."
+    }
+  ],
+
+  "personas": [
+    {
+      "id": "persona-1",
+      "nome": "Marcia",
+      "idade": 47,
+      "profissao": "Gerente Comercial",
+      "localizacao": "São Paulo, SP",
+      "renda_mensal": "R$15.000–R$22.000",
+      "estado_civil": "Casada, 2 filhos adolescentes",
+      "foto_mental": "Bem resolvida profissionalmente. Roupas que disfarçam bem. Ninguém sabe o quanto ela sofre ao sentar num avião, ao ver fotos, ao subir escadas. Sorri nas fotos mas nunca de boca aberta.",
+
+      "perfil_psicografico": {
+        "valores": ["Família", "Estabilidade", "Saúde dos filhos antes da própria", "Não dar trabalho"],
+        "personalidade": "Resiliente, acostumada a resolver problemas dos outros. Quando o problema é dela, procrastina. Tem vergonha de pedir ajuda para algo que 'deveria resolver sozinha'.",
+        "estilo_de_vida": "Rotina intensa de trabalho e família. Academia que começa e para. Pesquisa muito antes de decidir qualquer coisa de saúde."
+      },
+
+      "job_to_be_done": {
+        "job_funcional": "Quero resolver a obesidade de vez — não mais uma tentativa, uma solução definitiva que não dependa da minha força de vontade todo dia.",
+        "job_emocional": "Quero parar de me sentir uma fracassada toda vez que a dieta não funciona e olhar pra mim mesma no espelho sem desviar o olhar.",
+        "job_social": "Quero aparecer nas fotos da formatura do meu filho sem pensar duas vezes antes de sorrir."
+      },
+
+      "dores": [
+        "Tem obesidade há 15 anos — já fez dieta, já fez academia, já tomou remédio",
+        "Histórico de tentativas fracassadas construiu convicção de que 'com ela não vai funcionar'",
+        "Evita situações que expõem o corpo: piscina, academia, fotos, roupas de gala",
+        "Sente culpa por não ter 'força de vontade' — não percebe a obesidade como doença",
+        "Comorbidades silenciosas que ainda não viraram urgência declarada"
+      ],
+
+      "medos": [
+        "Operar e reganhar o peso — mais uma tentativa que fracassou",
+        "Complicações cirúrgicas — especialmente com filhos para criar",
+        "Marido que não apoia — 'não precisa disso, você está bem assim'",
+        "Deixar de comer normalmente para sempre — mudança de vida que assusta",
+        "Gastar R$25–35k e se arrepender"
+      ],
+
+      "objecoes": [
+        "'Vou pesquisar mais' — ciclo de comparação que dura meses",
+        "'O convênio pode cobrir' — usa a burocracia como adiamento seguro",
+        "'Meu marido não apoia' — co-decisão travada",
+        "'Tenho medo da anestesia' — barreira emocional concreta",
+        "'E depois? Vou conseguir seguir a dieta?' — medo da mudança de estilo de vida"
+      ],
+
+      "gatilho_de_compra": "Endocrinologista falou que o quadro de pré-diabetes está evoluindo. Ou viu uma colega que operou há 6 meses e está 'outra pessoa'. Ou a formatura do filho se aproxima.",
+
+      "como_descobre_o_instituto": "Google 'cirurgia bariátrica São Paulo' → vários resultados parecidos → acha o Instagram do Dr. Salé → segue por semanas → gatilho externo → WhatsApp.",
+
+      "comportamento_digital": "Instagram ativo — consome muito conteúdo de saúde e bem-estar. Salva posts para 'ver depois'. Pesquisa no Google quando está prestes a agir. Lê comentários e avaliações obsessivamente antes de decidir.",
+
+      "argumento_que_fecha": "Depoimento de outra Marcia — mesma idade, mesmo histórico de tentativas, hoje bem. Volume de cirurgias como prova de rotina e segurança. Dr. Salé explicar que obesidade é doença, não fraqueza.",
+
+      "icp_segment": "icp-primario",
+      "horizonte": "horizonte_1"
+    },
+
+    {
+      "id": "persona-2",
+      "nome": "Roberto",
+      "idade": 52,
+      "profissao": "Empresário — Dono de Distribuidora",
+      "localizacao": "São Paulo, SP",
+      "renda_mensal": "R$25.000–R$50.000",
+      "estado_civil": "Casado, filhos adultos",
+      "foto_mental": "Autoconfiante, bem-humorado sobre o próprio peso. Terno bem cortado. Por dentro: cansado de tomar remédio todo dia, de roncar, de não conseguir jogar futebol com os filhos. Nunca admite que sofre com isso.",
+
+      "perfil_psicografico": {
+        "valores": ["Resultado", "Controle", "Imagem de autoridade", "Família"],
+        "personalidade": "Pragmático, orientado a decisão. Não pesquisa por meses — quando decide, age rápido. Desconfiado de promessas mas receptivo a dados e autoridade comprovada. Considera que o peso é questão de 'disciplina' — demora a aceitar que é uma doença.",
+        "estilo_de_vida": "Agenda cheia, almoços de negócio frequentes. Fuma ou já fumou. Usa CPAP para apneia. Faz check-up anual por pressão da esposa."
+      },
+
+      "job_to_be_done": {
+        "job_funcional": "Quero parar de depender de remédio para pressão e de máscara para dormir — e ter energia de volta para trabalhar e estar com minha família.",
+        "job_emocional": "Quero voltar a sentir que tenho controle do meu corpo, não que ele me controla.",
+        "job_social": "Quero que meus filhos parem de me olhar com preocupação e que minha esposa pare de falar em médico toda semana."
+      },
+
+      "dores": [
+        "Toma 3–4 remédios diários para pressão, diabetes ou colesterol",
+        "Apneia do sono que afeta a qualidade do sono e a disposição",
+        "Não consegue fazer atividade física que gosta (futebol, tênis) por limitação física",
+        "Check-ups com resultados piores a cada ano",
+        "Ignora o problema publicamente mas sente que está perdendo tempo de vida"
+      ],
+
+      "medos": [
+        "Risco cirúrgico com as comorbidades que já tem",
+        "Ficar muito tempo fora do trabalho e perder o controle da empresa",
+        "Que a cirurgia não resolva as comorbidades (pressão, apneia)",
+        "Ser visto como 'fraco' por precisar de cirurgia",
+        "Restrições alimentares permanentes que afetam almoços de negócio"
+      ],
+
+      "objecoes": [
+        "'Vou tentar mais uma vez com dieta' — masculinidade e força de vontade interferem",
+        "'Qual o risco com as minhas condições?' — quer dados, não tranquilização vazia",
+        "'Quanto tempo fico fora do trabalho?' — pragmático, quer o plano completo",
+        "'Preciso ver o currículo desse médico' — validação de autoridade crítica",
+        "'Já li sobre complicações na internet' — pesquisou os casos ruins"
+      ],
+
+      "gatilho_de_compra": "Cardiologista disse que o CPAP não é mais suficiente e recomendou cirurgia pelo nome. Ou fez exame e fígado comprometido. Ou sócio operou e voltou 'com 20 anos a menos'.",
+
+      "como_descobre_o_instituto": "Médico menciona o Dr. Salé pelo nome → Google o nome → vê entrevistas no YouTube e Band News → site com currículo → talvez Instagram → liga ou manda WhatsApp direto.",
+
+      "comportamento_digital": "Pouco Instagram. Muito Google e YouTube. Lê artigos e assiste entrevistas. Decide rápido quando confia na autoridade. Não tolera sites lentos ou mal feitos — sinal de amadorismo.",
+
+      "argumento_que_fecha": "Currículo concreto do Dr. Salé (25 anos, 110+ cirurgias/mês, mídia nacional). Dados de recuperação (dias de repouso, quando volta ao trabalho). Depoimento de outro empresário que operou. Que a cirurgia cura a apneia e pode eliminar os remédios.",
+
+      "icp_segment": "icp-primario",
+      "horizonte": "horizonte_1"
+    },
+
+    {
+      "id": "persona-3",
+      "nome": "Camila",
+      "idade": 38,
+      "profissao": "Analista de RH / Professora / Profissional de saúde",
+      "localizacao": "São Paulo, SP",
+      "renda_mensal": "R$8.000–R$14.000",
+      "foto_mental": "Usou Ozempic por 1 ano, perdeu 12kg, parou quando o plano não cobriu mais. Reganhando peso. Segue perfis de saúde no Instagram. Emocionalmente exausta de tentar.",
+
+      "perfil_psicografico": {
+        "valores": ["Saúde", "Autoconhecimento", "Autenticidade", "Não depender de remédio"],
+        "personalidade": "Reflexiva, busca entender o próprio corpo. Pesquisa muito. Desconfiada de promessas milagrosas — foi prometida a caneta e não funcionou como esperava.",
+        "estilo_de_vida": "Cuida da alimentação conscientemente mas sem sucesso duradouro. Acompanha profissionais de saúde e nutricionistas. Ativa em comunidades de saúde online."
+      },
+
+      "job_to_be_done": {
+        "job_funcional": "Quero uma solução que não dependa de eu ser perfeita todo dia e que não precise tomar remédio para sempre.",
+        "job_emocional": "Quero parar de sentir que o problema é eu — que eu não tenho disciplina suficiente.",
+        "job_social": "Quero poder comer numa festa sem calcular tudo e parar de me explicar para as pessoas sobre meu peso."
+      },
+
+      "dores": [
+        "Reganhando peso após parar a caneta",
+        "Sente que o corpo 'resiste' a qualquer intervenção",
+        "Histórico de tentativas ainda mais longo que Marcia — mais frustração acumulada",
+        "Pode não ter o ticket para cirurgia particular — barreira financeira real"
+      ],
+
+      "gatilho_de_compra": "Médico diz que a caneta não é suficiente para o IMC dela. Ou amiga operou após também usar caneta. Ou descobre o programa Bariátrica para Todos.",
+
+      "canal_preferencial": "Instagram + conteúdo educativo + e-mail",
+
+      "objecoes": [
+        "'A cirurgia é mais radical que o remédio — tenho medo do bisturi'",
+        "'Quero tentar mais um tempo com a caneta'",
+        "'Não tenho R$25k' — pode ser candidata ao Bariátrica para Todos"
+      ],
+
+      "argumento_que_fecha": "Conteúdo educativo mostrando que obesidade é doença crônica e que a cirurgia trata a causa, não o sintoma. Informação sobre o programa Bariátrica para Todos. Depoimento de alguém que também usou caneta antes.",
+
+      "icp_segment": "icp-secundario",
+      "horizonte": "horizonte_2"
+    }
+  ],
+
+  "mapa_objacoes": {
+    "objacao_central": {
+      "frase": "\"Já tentei tudo e não funcionou. Por que a cirurgia seria diferente?\"",
+      "natureza": "Emocional — histórico de fracassos que mina a autoestima e bloqueia a decisão",
+      "resposta_estrategica": "Validar o histórico antes de vender: 'Não é fraqueza sua — obesidade é uma doença crônica com mecanismos biológicos'. O Dr. Salé com autoridade científica para isso é o maior diferencial."
+    },
+    "por_estagio": {
+      "topo": {
+        "objacoes": [
+          "\"Cirurgia é para casos graves\" — não se vê como candidato",
+          "\"Vou tentar mais um pouco com dieta/remédio\"",
+          "\"Tenho medo da cirurgia\" — paralisa a pesquisa"
+        ],
+        "resposta_comunicacional": "Educar sobre critérios de indicação. Volume de cirurgias como normalização. Depoimentos de perfis comuns ('também achei que não era pra mim')."
+      },
+      "meio": {
+        "objacoes": [
+          "\"Preciso pesquisar mais\" — comparação entre clínicas",
+          "\"O convênio pode cobrir\" — adiamento disfarçado",
+          "\"Vi outro lugar com preço menor\""
+        ],
+        "resposta_comunicacional": "Autoridade Dr. Salé (mídia + 25 anos + volume). Comparativo claro: por que o volume importa na bariátrica. Transparência sobre o que está incluído no tratamento multidisciplinar."
+      },
+      "fundo": {
+        "objacoes": [
+          "\"Qual o risco com as minhas condições?\"",
+          "\"Quanto tempo fico fora do trabalho?\"",
+          "\"Minha família não apoia\"",
+          "\"E depois? Vou conseguir manter?\""
+        ],
+        "resposta_comunicacional": "Tratamento multidisciplinar completo (não é só cirurgia). Dados de recuperação. Conteúdo dirigido ao familiar de apoio. Depoimentos de vida pós-cirurgia."
+      }
+    }
+  },
+
+  "gatilhos_entrada": [
+    {"gatilho": "Médico recomendou cirurgia", "persona": "Roberto", "intensidade": "Alta", "implicacao": "Capturar busca por nome do Dr. Salé e 'cirurgia bariátrica SP'"},
+    {"gatilho": "Comorbidade evoluiu (diabetes, apneia, hipertensão)", "persona": "Roberto + Marcia", "intensidade": "Alta", "implicacao": "Comunicar cura de comorbidades, não só emagrecimento"},
+    {"gatilho": "Amigo/conhecido operou e está bem", "persona": "Ambos", "intensidade": "Alta", "implicacao": "Depoimentos reais com nome e rosto"},
+    {"gatilho": "Evento de vida com prazo", "persona": "Marcia", "intensidade": "Média", "implicacao": "Campanhas com apelo de tempo e transformação"},
+    {"gatilho": "Caneta parou de funcionar", "persona": "Camila (ICP 2)", "intensidade": "Crescente", "implicacao": "Conteúdo educativo posicionando cirurgia como definitivo"},
+    {"gatilho": "Diagnóstico de pré-diabetes ou síndrome metabólica", "persona": "Ambos", "intensidade": "Alta", "implicacao": "Abordar aspecto metabólico, não só estético"}
+  ],
+
+  "implicacoes_conteudo": [
+    {"objacao": "Medo da cirurgia", "formato": "Vídeo Dr. Salé explicando o procedimento com calma", "canal": "Instagram + YouTube"},
+    {"objacao": "\"Não é pra mim\"", "formato": "Post sobre critérios de indicação + depoimento de perfil comum", "canal": "Instagram"},
+    {"objacao": "\"Já tentei tudo\"", "formato": "Fala do Dr. sobre obesidade como doença crônica — não é fraqueza", "canal": "Instagram Reels + YouTube"},
+    {"objacao": "Família não apoia", "formato": "Conteúdo dirigido ao familiar ('o que você precisa saber antes de opinar')", "canal": "Instagram + e-mail"},
+    {"objacao": "Comparação de preço", "formato": "O que está incluído no tratamento multidisciplinar", "canal": "Google (LP) + Instagram"},
+    {"objacao": "Risco cirúrgico", "formato": "Dados de volume (110+/mês) + currículo Dr. Salé + time multidisciplinar", "canal": "Site + LP"},
+    {"objacao": "Tempo fora do trabalho", "formato": "FAQ em vídeo curto — dados reais de recuperação", "canal": "Instagram + LP"}
+  ],
+
+  "pontos_abertos_pre_kickoff": [
+    "Split de gênero nos leads atuais — quem chega mais, Marcia ou Roberto? Define prioridade de linguagem nos criativos.",
+    "Canal de indicação médica — médicos encaminhadores são relevantes? Se sim, oportunidade de B2B (parcerias com cardiologistas/endocrinologistas).",
+    "Ticket médio real dos pacientes particulares atuais — confirmar R$25–35k.",
+    "Volume de leads por canal de entrada — Google vs. Instagram vs. indicação orgânica.",
+    "Perfil dos 25k leads no RD Station — faixa etária predominante, tempo médio de relacionamento, quantos já operaram."
+  ]
+}

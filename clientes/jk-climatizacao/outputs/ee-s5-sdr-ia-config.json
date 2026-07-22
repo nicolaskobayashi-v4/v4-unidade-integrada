@@ -1,0 +1,89 @@
+{
+  "client_name": "JK Climatização",
+  "skill": "ee-s5-sdr-ia-config",
+  "version": 1,
+  "generated_at": "2026-07-09",
+  "data_source": "ee-s5-scripts-sdr (v1) + ee-s4-diagnostico-comercial (v1) + ee-s1-persona-icp (v1)",
+  "unavailable_reason_dependencia": "Depende formalmente de ee-s3-crm-setup, ainda pendente (gap conhecido e aceito pelo operador). A JK não tem CRM hoje — usa WhatsApp + planilha + um ERP interno ('RP'/'ORP') só de consulta, e uma tentativa anterior de sistema de gestão de campo (~R$80.000 investidos) nunca foi adotada pela equipe. Este documento assume, como hipótese de trabalho, uma estrutura de pipeline Kommo equivalente ao padrão usado nas outras contas da V4 — a escolha real da ferramenta de CRM precisa ser confirmada com o operador em ee-s3-crm-setup antes de qualquer configuração real.",
+  "nota_timing": "Este é um plano de configuração pronto para ativar no Patagon — mas a ativação real depende de (1) acesso ao Patagon e (2) decisão sobre qual CRM a JK vai efetivamente adotar. Até lá, o fluxo aqui descrito pode ser seguido manualmente por Pedro via WhatsApp, usando os scripts de ee-s5-scripts-sdr.",
+
+  "summary": "O agente de SDR IA cobre a qualificação e o roteamento de leads da JK por WhatsApp, aplicando a escala de 1-5 estrelas já validada, escalando para Marlon/André nos scores altos e desqualificando educadamente os fora de perfil. A configuração reaproveita 100% os scripts e critérios já validados em ee-s5-scripts-sdr — não inventa comportamento novo, só o coloca em produção.",
+  "summary_headline": "A configuração está pronta pra ativar — falta só a JK decidir o CRM (Kommo ou outro) e o operador validar o tom com o time antes de ligar o agente de verdade.",
+
+  "summary_highlights": [
+    { "category": "posicao", "label": "Fluxos configurados", "value": "1 fluxo único", "subtext": "Qualificação + roteamento por score, sem separação B2B/B2C em bots distintos", "tone": "blue" },
+    { "category": "risco", "label": "CRM de destino", "value": "A confirmar", "subtext": "JK não tem CRM hoje — este plano assume Kommo como hipótese de trabalho", "tone": "red" },
+    { "category": "maturidade", "label": "Base de conteúdo", "value": "100% reaproveitada", "subtext": "Scripts e critérios de ee-s5-scripts-sdr, nenhum comportamento novo inventado", "tone": "green" },
+    { "category": "oportunidade", "label": "Testes simulados", "value": "5 leads", "subtext": "Cobrindo as 3 personas + cenário de desqualificação + objeção difícil", "tone": "blue" },
+    { "category": "janela", "label": "Ativação real", "value": "Após decisão de CRM", "subtext": "Fluxo pode rodar manualmente com Pedro enquanto isso", "tone": "yellow" }
+  ],
+
+  "summary_key_findings": [
+    { "category": "contexto", "text": "O agente cobre só o funil de entrada (WhatsApp/Instagram/site) até o handoff humano — não tenta fechar orçamento sozinho em nenhum score, porque isso já foi identificado como ponto de insegurança até para Pedro (humano) fazer sozinho hoje." },
+    { "category": "vantagem", "text": "Como os scripts e a escala de pontuação já foram validados no diagnóstico comercial e nos scripts de SDR, a configuração aqui é montagem, não invenção — reduz risco de o agente 'inventar' um comportamento que ninguém decidiu." },
+    { "category": "ameaca", "text": "Sem CRM real, o agente não tem onde registrar o histórico do lead entre uma mensagem e outra além do próprio WhatsApp — rodar em produção sem pelo menos um CRM leve (ver ee-s3-crm-setup) significa perder rastreabilidade da cadência de 12 tentativas." },
+    { "category": "acao", "text": "Definir os 3 gatilhos de escalonamento humano (sem resposta, objeção não resolvida, pedido explícito de humano) antes de ligar o agente — são a rede de segurança que evita repetir o problema já flagrado: leads que hoje somem sem qualquer follow-up." }
+  ],
+
+  "key_leverage_point": {
+    "headline": "O agente não substitui o instinto comercial que Pedro já demonstrou (foi o único, entre todos os testados no cliente oculto, a mandar orçamento formal e perguntar sobre PMOC) — ele aplica essa mesma disciplina em escala, inclusive fora do horário comercial e no inverno, quando a JK hoje praticamente não trabalha o funil.",
+    "context": "O maior risco de um bot de vendas é soar genérico. A mitigação aqui é a mesma usada nos scripts: nada de tom novo ou comportamento inventado — o agente segue exatamente a escala de pontuação e as respostas de objeção já validadas com dados reais da JK.",
+    "numbered_reasons": [
+      "A cadência D+1/D+3/D+7 com mínimo de 12 tentativas só vira hábito real se alguém (ou algo) executa sem depender de lembrete manual — hoje ninguém faz isso na JK",
+      "O agente cobre o vale comercial do inverno, quando Pedro hoje 'só entra em contato' porque o orgânico praticamente para — é onde a reativação sazonal (D+30/60/90) tem mais a ganhar",
+      "O critério de desqualificação (1⭐) precisa estar no agente, não só na cabeça de quem atende — senão o bot qualifica qualquer um, incluindo quem só quer comparar preço com MEI"
+    ],
+    "discussion_anchor": "Ponto de discussão: revisar os scripts com André, Sabrina e Pedro antes de ativar — e decidir junto qual CRM vai sustentar isso, já que hoje a JK não tem nenhum funcionando de fato."
+  },
+
+  "honesty_alert": "Este documento configura o COMPORTAMENTO do agente, mas não substitui a decisão pendente sobre qual CRM a JK vai usar (ee-s3-crm-setup) nem testa com leads reais — os 5 leads simulados abaixo são cenários hipotéticos construídos a partir das personas já mapeadas, não conversas reais. Antes de ativar em produção, validar com pelo menos alguns leads reais atendidos manualmente por Pedro seguindo o mesmo roteiro.",
+
+  "fluxo_unico_qualificacao_e_roteamento": {
+    "escopo": "Cobre da chegada do lead (WhatsApp direto, Instagram ou formulário do site) até o handoff humano — não inclui fechamento de orçamento, que continua sendo humano em todos os scores.",
+    "persona_do_agente": "Ver ee-s5-scripts-sdr — mesmo tom (Técnico-Consultivo, Pragmático), mesmas palavras essenciais/emocionais.",
+    "etapas": [
+      { "etapa": "Boas-vindas", "acao": "Aplica roteiro por canal de ee-s5-scripts-sdr, identifica B2B vs B2C" },
+      { "etapa": "Qualificação", "acao": "Aplica as 5 perguntas de ee-s5-scripts-sdr, calcula score 1-5⭐" },
+      { "etapa": "Roteamento", "acao": "Aplica fluxo_por_score de ee-s5-scripts-sdr — handoff para Marlon/André em 4-5⭐, segue com Pedro em 2-3⭐, desqualifica em 1⭐" },
+      { "etapa": "Registro", "acao": "Cria/atualiza registro no CRM (a confirmar) com: nome, telefone, canal de origem, score, respostas de qualificação" },
+      { "etapa": "Follow-up automatizado", "acao": "Dispara cadência D+1/D+3/D+7 de ee-s5-scripts-sdr para leads sem resposta em score 2-5⭐ (1⭐ não entra em cadência)" },
+      { "etapa": "Escalonamento", "acao": "Aciona gatilhos de escalonamento humano (ver abaixo) quando aplicável" }
+    ]
+  },
+
+  "campo_mapeado_no_crm": [
+    { "campo": "Nome e telefone", "origem": "Capturado na 1ª interação" },
+    { "campo": "Canal de origem", "origem": "WhatsApp direto / Instagram / Site" },
+    { "campo": "Segmento (B2B/B2B2C/B2C)", "origem": "Pergunta 1 da qualificação" },
+    { "campo": "Nº de aparelhos (se B2B)", "origem": "Pergunta 2 da qualificação" },
+    { "campo": "Cidade / dentro do raio de 300km?", "origem": "Pergunta 3 da qualificação" },
+    { "campo": "Urgência (sim/não)", "origem": "Pergunta 4 da qualificação" },
+    { "campo": "Score 1-5⭐", "origem": "Calculado automaticamente pela lógica de pontuação" },
+    { "campo": "Status no funil", "origem": "Lead → Conexão → Qualificação → Proposta → Follow-up → Ganho/Perdido → Onboarding → Retenção (etapas definidas em ee-s4-diagnostico-comercial)" },
+    { "campo": "Tentativas de follow-up (contador)", "origem": "Incrementado a cada mensagem de cadência disparada" }
+  ],
+
+  "gatilhos_de_escalonamento_humano": [
+    { "gatilho": "Lead com score 4-5⭐ qualificado", "acao": "Handoff imediato para Marlon (4⭐) ou André (5⭐), conforme mensagem de handoff de ee-s5-scripts-sdr" },
+    { "gatilho": "Objeção não resolvida pelo script após 2 tentativas", "acao": "Escalar para atendimento humano — agente não insiste sozinho indefinidamente" },
+    { "gatilho": "Cliente pede explicitamente para falar com um técnico/responsável", "acao": "Handoff imediato, sem tentar reter no fluxo automatizado" },
+    { "gatilho": "Sem resposta após as 12 tentativas da cadência", "acao": "Marcar como 'frio' no CRM — não insiste mais, sem alerta humano (regra de parada de ee-s5-scripts-sdr)" }
+  ],
+
+  "testes_com_leads_simulados": [
+    { "persona": "Elton-like (CFO de indústria têxtil, 15 aparelhos, Blumenau, máquina já parando no calor)", "cenario": "Deve pontuar 5⭐ e receber handoff imediato pra André, com a resposta de objeção de preço pronta caso ele pergunte sobre o valor antes do handoff." },
+    { "persona": "Beatriz-like (arquiteta de Balneário Camboriú, obra de luxo em fase de alvenaria)", "cenario": "Deve pontuar 4⭐, receber qualificação de fase de obra e handoff pra Marlon/André com contexto resumido." },
+    { "persona": "Empresa pequena (6 aparelhos, dentro do raio, sem urgência)", "cenario": "Deve pontuar 3⭐ e seguir com Pedro na cadência padrão, sem escalar." },
+    { "persona": "Residencial avulso comum, fora do raio (Rio do Sul)", "cenario": "Testa o critério de desqualificação — agente deve pontuar 1⭐ e responder com a mensagem de desqualificação educada, sem entrar em cadência de follow-up." },
+    { "persona": "Lead que insiste em comparar com MEI/autônomo mais barato", "cenario": "Testa se o agente aplica a resposta de objeção certa (diferenciação de ART/checklist/SLA) em vez de entrar em guerra de preço." }
+  ],
+
+  "pendente_confirmacao_operador": [
+    "Confirmar qual CRM a JK vai efetivamente adotar (Kommo, ou continuidade de outra ferramenta) — pré-requisito real de ee-s3-crm-setup antes desta configuração poder rodar de fato em produção",
+    "Confirmar acesso ao Patagon e quem no time (Sabrina, André) vai operar a ativação",
+    "Validar os 5 leads simulados e o tom dos scripts com André, Sabrina e Pedro antes de ligar o agente",
+    "Definir quem recebe o alerta humano de escalonamento no dia a dia — hoje é ambíguo entre Marlon e André"
+  ],
+
+  "alimenta_skills": []
+}

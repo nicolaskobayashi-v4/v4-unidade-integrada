@@ -1,0 +1,60 @@
+{
+  "client_name": "Hyla do Brasil",
+  "skill": "ee-s3-identidade-visual",
+  "generated_at": "2026-07-08",
+  "data_source": "Apresentação de design de Natália Terciotti (S3, 08/07/2026) — análise da nova identidade internacional da Hyla + transcrição da reunião ao vivo. Cruzado com ee-s2-posicionamento (território de marca: saúde respiratória doméstica).",
+
+  "summary": "A Hyla Internacional redefiniu seu posicionamento global após a conferência da matriz na Alemanha (17-24/06/2026): de uma comunicação centrada no produto para uma linguagem de lifestyle e bem-estar, inspirada em 'quiet luxury' — luxo discreto comunicado por simplicidade, espaço negativo e fotografia editorial, não por excesso de elementos. Este documento organiza esse conceito em diretrizes aplicáveis desde já pela Hyla Brasil, ANTES da chegada do manual oficial (workshop de lançamento confirmado para 13/08/2026 na reunião do dia 08/07). Paleta de cores exata, tipografia oficial e logotipo NÃO são definidos aqui — vêm da matriz e devem substituir este documento assim que chegarem.",
+
+  "creative_concept": "A Hyla está migrando de 'veja como limpar' para 'veja a vida que você pode viver'. O produto deixa de ser o protagonista da comunicação — o foco passa a ser a experiência que ele proporciona: conforto, saúde, qualidade de vida. A linguagem visual é 'quiet luxury': luxo discreto, sofisticação através de simplicidade, uso do espaço, fotografia de alta qualidade, materiais naturais e identidade visual consistente — sem parecer extravagante. Referências de tom citadas pela designer: Bang & Olufsen (lifestyle + direção de arte impecável, produto integrado organicamente ao ambiente), Aesop (produto inserido no cotidiano de forma não-promocional), Gaggenau (minimalismo, produto tratado como objeto de design). Frases-guia do novo site internacional: 'Luxury lives in clean air' e 'The art of cleaning' — nenhuma menciona potência, filtragem ou especificação técnica; ambas vendem uma sensação. Aplicado ao território de marca já definido em ee-s2-posicionamento (saúde respiratória doméstica), a tradução para a Hyla Brasil é: comunicar a mesma qualidade de vida e bem-estar, mas ancorada no argumento técnico real (separador autolimpante patenteado) que a concorrência não tem.",
+
+  "shape_guidelines": {
+    "shapes": "Orgânicas e naturais — evitar geometria rígida ou elementos gráficos chamativos",
+    "borders": "Sutis a inexistentes — sem bordas grossas ou frames chamativos disputando atenção com a fotografia",
+    "density": "Baixa — muito espaço negativo (é a regra central do 'quiet luxury'), uma ideia/mensagem principal por peça ou seção, nunca vídeo + produto + ambiente + texto competindo ao mesmo tempo",
+    "icon_style": "Não abordado na análise da designer — a definir com o manual oficial (13/08/2026)."
+  },
+
+  "dos_and_donts": {
+    "dos": [
+      "Fotografia editorial com luz natural e ambientes reais — já um diferencial da Hyla frente à concorrência (Rainbow, Vivenso); manter e ampliar",
+      "Uma ideia/mensagem principal por peça, com os demais elementos em segundo plano (título → benefício → produto, não os três competindo)",
+      "Espaço negativo generoso para transmitir exclusividade, mesmo que pareça 'vazio demais' à primeira vista",
+      "Foco no resultado/experiência (bem-estar, respirar fundo, conforto) em vez do problema (espirro, nariz entupido) ou do ato de limpar em si",
+      "Identidade visual presente mesmo em datas comemorativas — tipografia, paleta e composição não podem mudar completamente para Dia das Mães, Natal etc.",
+      "CTA explícito em todo criativo de tráfego pago",
+      "Trilha sonora instrumental e suave em vídeos (piano, jazz leve, bossa nova) — não músicas intensas ou agitadas",
+      "Vídeos gravados organicamente pela equipe e associados, sem uso de IA em demonstração de produto",
+      "Vinheta de fechamento com logo em vídeos, reforçando a marca sem competir com a demonstração"
+    ],
+    "donts": [
+      "Uso de IA em vídeos de demonstração de produto — proibido pela matriz internacional e ativamente monitorado (o Instagram da Hyla Brasil já foi fiscalizado por isso)",
+      "Antecipar elementos específicos da nova marca (fontes, paleta oficial) sem autorização — o time já recebeu um aviso da matriz por um post que seguiu tendências antes da liberação oficial de 13/08",
+      "Variação de tipografia entre posts e capas — manter a fonte atual de forma consistente até o manual oficial chegar",
+      "Elementos gráficos genéricos, estilo 'template pronto' — reduz a percepção de produto premium",
+      "Imagens focando no problema/desconforto — a nova linguagem internacional evita mostrar pessoas com sintomas de alergia, foca no resultado",
+      "Trends populares genéricas desalinhadas com um produto premium de ticket alto (R$12.000-14.500)",
+      "Banners/telas com muitos elementos disputando atenção ao mesmo tempo (produto + selo + título + subtítulo + textos + menu + botão)"
+    ]
+  },
+
+  "key_insight": {
+    "headline": "O maior ganho não vem de reinventar a marca — vem de aplicar, com disciplina, um sistema visual consistente que já foi validado globalmente pela própria Hyla Internacional.",
+    "context": "A Hyla Brasil não precisa criar uma identidade do zero: a matriz já validou a direção (quiet luxury, lifestyle, fotografia editorial) em mercados maduros. O trabalho da V4 até 13/08 é traduzir esse conceito para o Brasil com o que já está disponível — fotografia, hierarquia de mensagem, CTA, trilha sonora — sem esperar pelo manual oficial para começar.",
+    "numbered_reasons": [
+      "A Hyla já tem o ativo mais difícil de replicar (fotografia real, ambientes bons) — falta só o sistema que amarre tudo, e isso não depende de receber fontes/cores oficiais da matriz",
+      "Nenhum concorrente direto (Rainbow, Vivenso) executa essa linguagem — a janela de diferenciação está aberta e não é disputada localmente",
+      "O prazo de 13/08 é real e conhecido — dá para planejar a transição em vez de reagir a ela, mas também é um limite firme: nada de antecipar elementos específicos da marca nova antes disso"
+    ],
+    "discussion_anchor": "Vale alinhar com Davi/Fábio o intervalo entre agora e 13/08: quais ajustes (fotografia, hierarquia, CTA, áudio) começam já, e quais esperam o manual oficial (paleta, tipografia, logo) — para não repetir o incidente do post retirado a pedido da matriz."
+  },
+
+  "honesty_alert": "Este documento é um conceito PRELIMINAR, construído a partir da análise própria da designer da V4 sobre o site internacional já publicado pela Hyla — não é o manual oficial da marca. Paleta de cores (hex), tipografia oficial (família, pesos, tamanhos) e logotipo NÃO estão definidos aqui porque não existe fonte confiável para esses valores exatos ainda — a matriz confirmou, na reunião de 08/07, que vai entregar esses ativos (incluindo arquivos de fonte própria da Hyla) em workshop de lançamento oficial no Brasil em 13/08/2026. Este documento deve ser revisado e complementado assim que o manual oficial chegar. Enquanto isso, o time já foi alertado pela matriz para não antecipar elementos específicos da nova marca em posts públicos.",
+
+  "alimenta_skills": [
+    "ee-s3-brandbook",
+    "ee-s3-landing-page",
+    "ee-s3-criativos-anuncios",
+    "ee-revisao-semanal"
+  ]
+}

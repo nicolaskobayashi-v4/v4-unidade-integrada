@@ -1,0 +1,248 @@
+{
+  "client_name": "FROC — Frutas Desidratadas",
+  "skill": "ee-s1-auditoria-comunicacao",
+  "generated_at": "2026-05-05",
+  "data_source": "Fetch froc.com.br (29/04) + kickoff + reuniões comerciais + briefing",
+
+  "summary": "O site da FROC foi lançado em 29/04 (mesmo dia do kickoff) com linguagem B2C, sem página de vendas e sem formulário de captação. O Instagram está ativo mas com foco errado (snacks/consumidor final). O LinkedIn replica o Instagram. Zero touchpoints digitais voltados para o comprador B2B industrial — que é o único ICP real da empresa.",
+
+  "summary_headline": "A FROC tem site, Instagram e LinkedIn — mas todos falam com o consumidor final de snacks. O comprador de ração ou de granola industrial não se reconhece em nenhum touchpoint.",
+
+  "summary_highlights": [
+    {
+      "category": "risco",
+      "label": "Foco da comunicação",
+      "value": "B2C / snacks",
+      "subtext": "Todos os canais falam com o consumidor errado",
+      "tone": "red"
+    },
+    {
+      "category": "risco",
+      "label": "Landing pages",
+      "value": "Inexistentes",
+      "subtext": "Site sem página de conversão ou formulário",
+      "tone": "red"
+    },
+    {
+      "category": "risco",
+      "label": "LinkedIn",
+      "value": "Cópia do Instagram",
+      "subtext": "Conteúdo idêntico — linguagem e formato errados para B2B",
+      "tone": "red"
+    },
+    {
+      "category": "maturidade",
+      "label": "Site",
+      "value": "Lançado 29/04",
+      "subtext": "Novo mas institucional — sem geração de leads",
+      "tone": "yellow"
+    },
+    {
+      "category": "oportunidade",
+      "label": "WhatsApp",
+      "value": "Único canal ativo",
+      "subtext": "CTA real do site direciona para WhatsApp",
+      "tone": "blue"
+    },
+    {
+      "category": "oportunidade",
+      "label": "Potencial",
+      "value": "Tudo a construir",
+      "subtext": "Sem legado ruim — reorientação limpa",
+      "tone": "green"
+    }
+  ],
+
+  "summary_key_findings": [
+    {
+      "category": "ameaca",
+      "text": "A tagline do site — 'Especializada em alimentos saudáveis desidratados. 100% naturais, sem adição de açúcares ou conservantes' — é linguagem de produto B2C, não de ingrediente industrial B2B. O comprador Rafael (pet food) ou Camila (alimentação humana) que chegar no site não vai se identificar como cliente."
+    },
+    {
+      "category": "ameaca",
+      "text": "O Instagram está focado em snacks e consumidor final por erro da agência anterior — e esse erro foi cometido enquanto o negócio real (B2B industrial) nunca teve uma peça de comunicação digital produzida especificamente para ele."
+    },
+    {
+      "category": "vantagem",
+      "text": "O site foi construído em Framer, que permite criação de LPs sem mexer no site principal. As duas LPs contratadas (pet food + alimentação humana) podem ser desenvolvidas de forma independente e hospedadas no mesmo domínio."
+    },
+    {
+      "category": "acao",
+      "text": "Prioridade 1: criar as duas LPs com copy orientado ao ICP correto. Prioridade 2: reorientar Instagram e LinkedIn para B2B industrial (fotos de fábrica, processo produtivo, certificações, formato de apresentação técnica). Prioridade 3: adicionar tagline B2B no site principal."
+    },
+    {
+      "category": "contexto",
+      "text": "O único CTA real do site é o WhatsApp — o que é positivo para o ICP pet food (Rafael resolve tudo no WhatsApp). Para o ICP alimentação humana (Camila), WhatsApp é muito informal para um primeiro contato — ela prefere e-mail ou formulário estruturado."
+    }
+  ],
+
+  "touchpoints_audit": [
+    {
+      "canal": "Site — froc.com.br",
+      "status": "ativo — lançado 29/04/2026",
+      "grade": "C-",
+      "plataforma": "Framer (by SIX)",
+      "estrutura": {
+        "menu": ["Quem Somos", "Produtos", "Como Comprar", "Diferenciais", "Contato"],
+        "cta_principal": "WhatsApp (49) 99192-4059",
+        "formularios": "nenhum identificado",
+        "landing_pages": "nenhuma"
+      },
+      "tagline_atual": "Especializada em alimentos saudáveis desidratados produzidos em São Joaquim, Santa Catarina. 100% naturais, sem adição de açúcares ou conservantes.",
+      "problemas": [
+        "Tagline B2C — fala de 'alimentos saudáveis' e 'sem açúcar', não de 'ingrediente industrial' ou 'fornecedor B2B'",
+        "Zero formulário de captação — visitante não tem onde converter além do WhatsApp",
+        "Sem landing pages específicas por segmento (pet food / alimentação humana)",
+        "Sem menção a 'ingrediente para indústria', 'fornecedor de insumos', 'ração pet', 'granola', 'barrinha'",
+        "Sem prova social (clientes, casos de uso, volume produzido)",
+        "Sem menção à amostra grátis — principal diferencial competitivo invisível no site"
+      ],
+      "pontos_positivos": [
+        "Site novo (29/04) — construído em Framer, permite desenvolvimento de LPs separadas no mesmo domínio",
+        "WhatsApp como CTA funciona bem para ICP pet food (Rafael resolve tudo por lá)"
+      ],
+      "prioridade_de_melhoria": "alta",
+      "acoes": [
+        "Criar LP 1 (pet food) e LP 2 (alimentação humana) — entregável principal do projeto",
+        "Adicionar tagline B2B na home: 'Fornecedor de ingredientes desidratados para indústria pet e alimentícia'",
+        "Incluir menção à amostra grátis na home como diferencial central"
+      ]
+    },
+    {
+      "canal": "Instagram — @froc.desidratados",
+      "status": "ativo — foco errado",
+      "grade": "D",
+      "descricao": "Perfil ativo mas com comunicação voltada para snacks e consumidor final (B2C). Erro da agência anterior que foi corrigida.",
+      "problemas": [
+        "Foco em snacks/B2C — público que não é o ICP da empresa",
+        "Nenhuma peça comunicando 'ingrediente para indústria', 'fornecedor B2B', 'ração pet', 'alimentos funcionais'",
+        "Sem apresentação de produto industrial (cubos, slices para granola, especificações técnicas visuais)",
+        "Nenhuma menção à amostra grátis ou como se tornar cliente B2B"
+      ],
+      "pontos_positivos": [
+        "Perfil existe e está ativo — base para reorientação sem precisar começar do zero",
+        "Handle @froc.desidratados é adequado e não precisa mudar"
+      ],
+      "prioridade_de_melhoria": "alta",
+      "acoes": [
+        "Reorientar conteúdo para B2B industrial: processo de produção, fábrica, certificações, produto em uso industrial",
+        "Criar posts específicos para cada ICP: linguagem pet (informal, resultado) vs alimentação humana (técnica, qualidade)",
+        "Adicionar bio com CTA para amostra grátis e link para LP"
+      ]
+    },
+    {
+      "canal": "LinkedIn",
+      "status": "ativo — conteúdo idêntico ao Instagram",
+      "grade": "D",
+      "descricao": "Conteúdo replicado do Instagram sem adaptação para o formato e linguagem do LinkedIn. Plataforma B2B por excelência mas sendo usada como extensão do Instagram.",
+      "problemas": [
+        "Conteúdo igual ao Instagram — formato e tom inadequados para LinkedIn",
+        "LinkedIn B2B requer: posts mais longos, contexto técnico, casos de uso, perspectiva do fornecedor",
+        "Sem segmentação por segmento (pet vs. alimentação humana)"
+      ],
+      "pontos_positivos": [
+        "LinkedIn é o canal correto para alcançar Camila (alimentação humana) e gerentes de compras",
+        "Perfil existente — não precisa criar do zero"
+      ],
+      "prioridade_de_melhoria": "alta",
+      "acoes": [
+        "Separar completamente a produção de conteúdo Instagram vs LinkedIn",
+        "LinkedIn: foco em alimentação humana — artigos curtos sobre ingredientes naturais, certificações, processo produtivo",
+        "Instagram: foco em pet food e audiência mais ampla — conteúdo visual de fábrica e processo"
+      ]
+    },
+    {
+      "canal": "WhatsApp Business",
+      "status": "ativo — canal principal",
+      "grade": "B",
+      "numero": "(49) 99192-4059",
+      "descricao": "Canal principal de contato e vendas. Funciona bem para o ICP pet food (Rafael). Inadequado como primeiro contato para ICP alimentação humana (Camila prefere e-mail).",
+      "pontos_positivos": [
+        "Já é o canal de vendas principal",
+        "Funciona perfeitamente para o ICP pet food"
+      ],
+      "problemas": [
+        "Sem script de atendimento para leads de inbound (diferente de cold call)",
+        "Não tem automação de triagem — cada contato exige resposta manual imediata",
+        "Inadequado como primeiro contato B2B formal para indústria alimentícia"
+      ],
+      "prioridade_de_melhoria": "média",
+      "acoes": [
+        "Criar script de triagem para leads inbound (diferente do pitch de cold call)",
+        "Configurar mensagem automática de boas-vindas com próximos passos claros",
+        "Para LP 2 (alimentação humana), oferecer opção de e-mail além de WhatsApp"
+      ]
+    },
+    {
+      "canal": "Google Ads",
+      "status": "inexistente",
+      "grade": "—",
+      "descricao": "Nenhuma campanha ativa. Canal identificado como prioridade máxima do projeto.",
+      "oportunidade": "~16 buscas/mês por 'maçã desidratada' com CPC baixo. Concorrente Polpa Brasil já anuncia. Demanda ativa disponível sem concorrência de qualidade.",
+      "prioridade_de_melhoria": "crítica — entregável principal",
+      "acoes": [
+        "Campanha Search com palavras de fundo de funil: 'maçã desidratada fornecedor', 'maçã desidratada ingrediente industrial', 'maçã desidratada pet food'",
+        "Palavras negativas: 'receita', 'onde comprar', 'supermercado', 'varejo', 'granel' (evitar B2C)",
+        "Ativar após LPs estarem prontas — nunca antes"
+      ]
+    },
+    {
+      "canal": "Meta Ads (Facebook + Instagram)",
+      "status": "inexistente",
+      "grade": "—",
+      "descricao": "Nenhuma campanha ativa. Papel de suporte (topo/meio de funil) — não de conversão direta.",
+      "oportunidade": "Alcançar compradores que não estão buscando ativamente mas têm o perfil (segmentação por cargo: comprador, supervisor de qualidade, diretor de produção + interesses: pet food, alimentos funcionais + localização: SP, RS, SC)",
+      "prioridade_de_melhoria": "alta (pós-Google Ads)",
+      "acoes": [
+        "Campanha de awareness com conteúdo educativo sobre ingredientes desidratados",
+        "Retargeting para visitantes das LPs que não converteram",
+        "Segmentação por cargo no LinkedIn Ads pode ser mais precisa para alimentação humana"
+      ]
+    },
+    {
+      "canal": "CRM — Prospectei",
+      "status": "ativo mas subutilizado",
+      "grade": "C",
+      "descricao": "Usado pelo vendedor interno para prospecção ativa. Não está configurado para receber e qualificar leads inbound.",
+      "problemas": [
+        "Sem pipeline de inbound — fluxo atual é outbound only",
+        "Sem integração com as futuras LPs para captura automática de leads"
+      ],
+      "prioridade_de_melhoria": "alta",
+      "acoes": [
+        "Configurar pipeline de inbound separado do outbound no Prospectei",
+        "Integrar formulário das LPs com Prospectei (ou usar planilha como intermediário)",
+        "Definir SLA de resposta para leads inbound: máx 4h em dias úteis"
+      ]
+    }
+  ],
+
+  "persona_complemento": {
+    "nota": "Com base no site e canais auditados, complemento às personas:",
+    "complementos": [
+      {
+        "persona": "Rafael (pet food)",
+        "adicao": "Quando Rafael chega no site da FROC hoje, vê tagline sobre 'alimentos saudáveis' e não se reconhece como público. Ele provavelmente sai sem agir. A LP específica para pet food com 'maçã desidratada para ração premium' na headline muda completamente esse comportamento."
+      },
+      {
+        "persona": "Camila (alimentação humana)",
+        "adicao": "Camila provavelmente não vai converter pelo WhatsApp como primeiro contato — parece informal demais para uma compra corporativa. A LP 2 precisa ter um formulário que colete: nome, empresa, CNPJ, produto de interesse, volume estimado. Isso qualifica o lead e já inicia o processo de homologação no lado dela."
+      },
+      {
+        "persona": "Nova persona identificada: O Comprador de Distribuidor",
+        "descricao": "A FROC menciona interesse em distribuidores para atingir lojas pequenas e empórios. Perfil: comprador de distribuidor de alimentos naturais (ex: Nutrassou) que abastece redes de lojas. Volume maior, processo de qualificação de fornecedor similar ao ICP alimentação humana mas com maior porte. Vale considerar como persona futura quando LPs de produto estiverem rodando."
+      }
+    ]
+  },
+
+  "key_leverage_point": {
+    "headline": "O maior erro de comunicação da FROC não é o que está sendo dito — é para quem está sendo dito. Toda a comunicação digital fala com o consumidor final de snacks. O comprador de ração ou de granola industrial não se sente chamado por nenhum canal.",
+    "context": "A reorientação é simples: Instagram e LinkedIn precisam mostrar fábrica, processo, produto industrial (cubos, especificações), não snacks estilizados. O site precisa de uma frase que diga claramente 'somos fornecedores B2B'. E as duas LPs precisam existir antes de qualquer campanha rodar.",
+    "numbered_reasons": [
+      "Um comprador que pesquisa 'maçã desidratada fornecedor' no Google e chega num site que fala de 'alimentos saudáveis sem açúcar' acha que chegou no lugar errado — e vai embora",
+      "O Instagram focado em snacks atrai seguidores que nunca vão comprar 400kg — e o algoritmo aprende a mostrar para mais pessoas assim, distanciando ainda mais do público certo",
+      "A LP com 'Solicitar amostra grátis' + copy orientado ao ICP correto vai fazer em 30 dias o que o vendedor tentou fazer em 12 meses — porque chega em quem já está procurando"
+    ],
+    "discussion_anchor": "A pergunta antes de lançar qualquer anúncio: o copy da LP foi escrito pensando em Rafael ou em Camila? Nunca nos dois — cada LP tem um único ICP e uma única mensagem."
+  }
+}

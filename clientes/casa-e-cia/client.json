@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "name": "Casa e Cia",
+    "slug": "casa-e-cia",
+    "workspace_id": null,
+    "created_at": "2026-07-20",
+    "modelo_venda": "pdv",
+    "investidor": {
+      "nome": "Sabrina Souza",
+      "cargo": "Gestora de Projetos V4",
+      "foto_url": "https://lh3.googleusercontent.com/a-/ALV-UjWl-8wfJ1kr2_Rx2-NaNlYmtjnHutRmUAfxiCBF_NF8FK-6qCc=s240-p-k-rw-no"
+    }
+  },
+  "briefing": {
+    "identification": {
+      "name": "Casa e Cia",
+      "contact_name": "Cristiane Oliveira",
+      "contact_role": "Diretora Geral (sócia, acompanhamento comercial das lojas)",
+      "segment": "Varejo de cama, mesa, banho, tapetes, cortinas e decoração",
+      "annual_revenue": "R$ 12.650.000,00 (2025, faturamento 100% offline/loja física)",
+      "years_in_market": "mais de 20 anos",
+      "location": "Caxias do Sul, RS — sede na Rua Visconde de Pelotas, 895, Centro",
+      "website": null,
+      "instagram": "@CasaeCiaOficial (loja Centro: @CasaeCiaOficialCentro); marca irmã premium do grupo: Mix Home",
+      "whatsapp": null,
+      "gmb": null
+    },
+    "product": {
+      "main_product": "Artigos para casa: cama, mesa, banho, tapetes, cortinas e decoração — linha de entrada até marcas premium (Altenburg, Karsten, Buddemeyer, Trussardi, Kacyumara, Bella Janela)",
+      "ticket": "R$ 800 (ticket médio)",
+      "billing_model": "unico",
+      "sales_cycle": "imediato (compra por necessidade, modelo PDV); recompra média de 4x/ano por cliente",
+      "active_customers": null,
+      "most_profitable": "Linha de cama (jogos de lençóis) e linha de banho — produtos curva A/B",
+      "growth_potential": "Mix Home (bandeira premium do grupo) e linhas de decoração/tapetes/cortinas"
+    },
+    "icp": {
+      "best_customers": null,
+      "not_customers": null,
+      "problems_before": null,
+      "results_after": null,
+      "churn_reasons": null
+    },
+    "competition": {
+      "competitors": [
+        {"name": "Loja Magnabosco", "perceived_differential": "concorrente regional direto — diferencial percebido a confirmar"},
+        {"name": "Lojas Manardi", "perceived_differential": "concorrente regional direto — diferencial percebido a confirmar"},
+        {"name": "Lojas Jussara Colchões", "perceived_differential": "concorrente regional direto — diferencial percebido a confirmar"},
+        {"name": "Grandes magazines (Havan, Magazine Luiza)", "perceived_differential": "concorrente indireto — capturam cliente por preço/conveniência de grande varejo, sem especialização em cama/mesa/banho"}
+      ],
+      "real_differential": "Loja mais completa do segmento em Caxias do Sul — variedade (linha de entrada até premium) + oportunidade comercial constante + melhor custo-benefício percebido",
+      "why_choose_us": "Competitividade em preço, variedade e desempenho, somada a atendimento presencial especializado — categoria em que o conhecimento técnico do vendedor pesa na decisão de compra"
+    },
+    "brand": {
+      "adjectives": null,
+      "voice_tone": null,
+      "admired_brands": null,
+      "current_colors": null,
+      "has_logo": true,
+      "restrictions": "Nenhuma restrição declarada sobre uso da marca. Não possuem Manual de Identidade Visual (MIV) hoje — é um dos entregáveis contratados na Estruturação Estratégica 3.0."
+    },
+    "digital_situation": {
+      "paid_traffic": true,
+      "platforms": ["meta_ads"],
+      "monthly_investment": null,
+      "current_results": "Sem mensuração estruturada — resultado percebido principalmente em campanhas pontuais de datas comemorativas (Black Friday, Dia do Cliente, Dia Sem Imposto), sem leitura linear do restante do mês",
+      "crm": null,
+      "lead_sources": "Fluxo de loja física (tradição de 20+ anos) + tráfego pago pontual em datas comemorativas + WhatsApp individual de cada vendedora (não centralizado, não mensurado) + indicação",
+      "conversion_rate": null,
+      "biggest_pain": "Faturamento em 'dente de serra': picos fortes em datas pontuais seguidos de queda acentuada na semana seguinte (o próprio cliente estima ~30% de faturamento perdido nesse padrão vs. um fluxo linear). Resposta ao WhatsApp das vendedoras é lenta e não padronizada — sem SLA, script ou mensuração — em uma categoria (PDV com decisão presencial) onde velocidade de resposta é decisiva para a conversão. Falta de mecanismo estruturado de upsell/mix de margem quando o cliente entra atraído por um produto-isca de margem baixa (ex.: cortina de R$99 com margem quase zero)."
+    },
+    "accesses": {
+      "meta_business": false,
+      "google_ads": false,
+      "google_analytics": false,
+      "google_search_console": false,
+      "instagram_admin": false,
+      "website_admin": null,
+      "crm": false,
+      "gmb": null,
+      "whatsapp_business": false
+    },
+    "sales_module": {
+      "active_sellers": "Gestão comercial: Anderson Moreira, Rodrigo Meireles e Juliana Lopes (gerentes de vendas); equipe de vendedoras em loja (headcount total do grupo: 18 funcionários)",
+      "sales_process": "100% presencial em loja. Cada vendedora atende por WhatsApp próprio no pós-visita, sem roteiro, SLA de resposta ou mensuração formal.",
+      "objections": ["Pesquisa de preço (comparação com concorrentes/internet)"],
+      "conversion_rate": null,
+      "sales_cycle": "imediato/presencial",
+      "has_scripts": false
+    }
+  },
+  "research": {
+    "fetched_at": null
+  },
+  "connectors": {
+    "fetched_at": null,
+    "integrations": null
+  },
+  "progress": {
+    "current_week": 1,
+    "skills": {
+      "ee-s1-persona-icp": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s1-auditoria-comunicacao": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s1-swot": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s2-pesquisa-mercado": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s1-arquitetura-presenca": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s2-diagnostico-midia": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s2-diagnostico-organico-ig": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s2-diagnostico-criativos": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s1-diagnostico-maturidade": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s2-posicionamento": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s3-pdv-base-ativa": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s3-pdv-gmn": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s3-pdv-experiencia": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s3-pdv-regua-whatsapp": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s3-manual-marca": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s3-landing-page": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s3-copy-anuncios": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s3-criativos-anuncios": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s3-crm-setup": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s5-scripts-sdr": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s5-sdr-ia-config": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s3-forecast-midia": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null}
+    }
+  },
+  "history": [
+    {"ts": "2026-07-21T00:00:00Z", "skill": "ee-novo-cliente", "checkpoint": 0, "decision": "Cliente cadastrado a partir da base de conhecimento já existente (formulário de kick-off, transcrição da call comercial e contrato). Briefing preenchido com dados reais; ICP, brand (adjetivos/tom de voz/marcas admiradas) e alguns campos de acessos e mídia paga seguem pendentes de confirmação com o operador antes do avanço da Semana 1."}
+  ]
+}

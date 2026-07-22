@@ -1,0 +1,151 @@
+{
+  "skill": "ee-s3-crm-setup",
+  "versao": 2,
+  "cliente": "Chopp Colina Orlandia",
+  "gerado_em": "2026-07-18",
+  "plataforma": "Kommo",
+  "fonte_principal": "Transcrição 'Conectar Kommo Chopp Colina' (03/07/2026) — reunião de conexão real das 3 caixas de WhatsApp no Kommo, com Cláudio K. e Gustavo Argenta (INBEB)",
+  "fontes_complementares": ["ee-s3-crm-setup.json (v1, 21/06/2026)", "ee-s4-diagnostico-comercial (implícito, via v1)", "S5 Plano de Marketing (24/06/2026)"],
+  "nota_metodologica": "Esta v2 NÃO substitui a v1 — complementa com o que foi decidido e configurado na sessão real de conexão do Kommo, que a v1 (consultoria/diagnóstico) não podia prever. Mudança estrutural principal: a Choperia precisa de pipeline PRÓPRIO, separado do Delivery — fato revelado nesta reunião ao separar os números de WhatsApp por operação. V1 permanece válida para motivos de perda, tags, mensagens rápidas e playbook comercial (não repetidos aqui na íntegra).",
+
+  "manchete": "O Kommo já está tecnicamente conectado nos 3 números (Delivery Orlândia, Choperia, Franca) — mas o que a reunião de 03/07 revelou é que a Choperia nunca teve pipeline próprio: ela estava rodando dentro da mesma lógica do delivery. Sem separar isso agora, o histórico de reserva de mesa (com valor médio real de R$200, não os R$500 estimados inicialmente) continua sem estrutura para virar prova de faturamento.",
+
+  "o_que_mudou_desde_v1": {
+    "contexto": "Entre 21/06 (v1) e 03/07, a equipe conectou de fato o Kommo com os 3 números de WhatsApp do Cláudio via conector 'WhatsApp Light'. Isso expôs decisões operacionais que a v1 não detalhava.",
+    "mudancas": [
+      {
+        "item": "Choperia ganha pipeline próprio",
+        "detalhe": "Na v1, só existiam 2 pipelines (Delivery B2C e Eventos&Revenda B2B). A reunião de conexão revelou que o número da choperia estava sendo usado 'pros dois, Delivery e Choperia', e a decisão tomada foi separar definitivamente. Isso exige um 3º funil dedicado a reserva de mesa — estrutura nova, detalhada nesta v2."
+      },
+      {
+        "item": "Régua de aniversário identificada como automação nova",
+        "detalhe": "Não estava na v1. Surgiu como ideia concreta durante a demonstração: campo de data de aniversário no contato + filtro de quem faz aniversário nos próximos 15 dias + abordagem comercial automática."
+      },
+      {
+        "item": "Fluxo de recuperação de vendas: planejado, não construído",
+        "detalhe": "Citado como próximo passo pelo próprio Lucas na reunião ('já elaborar fluxo de recuperação de vendas') — mas ainda não foi de fato configurado no Kommo. É ação pendente, não conquista."
+      },
+      {
+        "item": "Valor médio por mesa corrigido para baixo",
+        "detalhe": "Estimativa inicial de R$500/mesa foi corrigida pelo próprio Cláudio para ~R$200/mesa, por causa do público jovem de baixo consumo (já mapeado no SWOT e na entrevista comercial) — agora com respaldo quantitativo direto do dono."
+      },
+      {
+        "item": "Cronograma real definido e provavelmente ultrapassado",
+        "detalhe": "Meta verbal: 100% pronto em 15/07, treinamento em 16/07 (a confirmar, pois no dia 15 'vai ter jogo'). Hoje é 18/07 — ver alerta_cronograma."
+      }
+    ]
+  },
+
+  "setup_tecnico_whatsapp": {
+    "racional": "Pré-requisito operacional que precisa estar correto antes de qualquer automação funcionar — automação em cima de conexão instável não sustenta.",
+    "conector_usado": "WhatsApp Light (não o WhatsApp Business API oficial, que passa a cobrar por mensagem a partir de outubro/2026)",
+    "numeros_conectados": [
+      {"numero": "Delivery Orlândia", "status": "conectado em 03/07", "observacao": "Era usado antes para Delivery + Choperia ao mesmo tempo; a partir de agora fica dedicado só ao Delivery de Orlândia"},
+      {"numero": "Choperia", "status": "conectado em 03/07", "observacao": "Número novo, dedicado. Precisou reinstalar como WhatsApp Business (não o WhatsApp comum) para conectar sem falhas — atenção a esse detalhe técnico em qualquer número novo"},
+      {"numero": "Franca", "status": "número cadastrado no Kommo, sem aparelho físico ainda", "observacao": "Estrutura pronta para quando a operação em Franca começar — não há contatos reais para popular ainda"}
+    ],
+    "cuidados_operacionais": [
+      "Usar o WhatsApp diariamente no celular físico — sem uso ativo, a sessão cai a cada ~14 dias e precisa ser reconectada em Configurações > Central de Integrações",
+      "Múltiplos dispositivos acessando o mesmo Kommo geram só um aviso, não derrubam a sessão — pode ignorar",
+      "Decisão consciente de NÃO integrar Instagram/TikTok DMs no mesmo inbox — avaliação do próprio time de que misturar canais bagunça a operação neste estágio"
+    ]
+  },
+
+  "estrutura_pipelines": {
+    "racional": "3 pipelines — um por número de WhatsApp / natureza de operação — porque os ciclos e a forma de registrar valor são incompatíveis entre si.",
+
+    "pipeline_1_delivery": {
+      "nome": "Delivery (Orlândia + Franca)",
+      "numero_whatsapp": "Delivery Orlândia (dedicado) — Franca entra quando o número for ativado",
+      "ciclo_esperado": "Mesmo dia a 48h",
+      "tag_obrigatoria": "Cidade (Orlândia | Franca) — permite separar métricas por unidade dentro do mesmo funil",
+      "etapas": [
+        "Lead novo (mensagem recebida)",
+        "Diagnóstico feito (tipo de barril: 30L/50L, quantidade de pessoas)",
+        "Orçamento enviado (valor registrado no campo de valor do negócio — ex: R$880 para 30L+50L)",
+        "Confirmar local de entrega — ETAPA NOVA: cobre o gap real relatado pelo Cláudio ('a pessoa reserva o chopp, mas ainda não alugou o lugar')",
+        "Agendado (data marcada + tarefa automática de lembrete criada)",
+        "Entregue/instalado",
+        "Pós-venda (feedback solicitado)"
+      ],
+      "etapa_perdida": "Não fechou — motivo obrigatório (ver v1 para lista padronizada)",
+      "campos_customizados": ["Valor do negócio (R$)", "Tipo de barril (30L/50L/Grauler)", "Endereço de entrega", "Cidade", "Data agendada"],
+      "uso_do_campo_nota": "Registrar handoff entre quem primeiro atendeu (Cláudio) e quem executa a entrega (ex: Gustavo Barbosa) — nota interna, não aparece na conversa com o cliente"
+    },
+
+    "pipeline_2_choperia": {
+      "nome": "Choperia (mesa/reserva) — NOVO NESTA V2",
+      "numero_whatsapp": "Choperia (dedicado, separado do Delivery a partir de 03/07)",
+      "ciclo_esperado": "Mesmo dia (reserva feita e consumida na mesma semana, geralmente quinta a domingo)",
+      "racional": "A choperia opera de forma estruturalmente diferente do delivery: não é venda de produto fechado, é reserva de mesa com consumo variável — e tem um problema específico (público jovem de baixo consumo) que o delivery não tem. Rodar os dois no mesmo funil, como acontecia até 03/07, misturava dois processos de decisão diferentes.",
+      "etapas": [
+        "Lead/mensagem recebida",
+        "Mesa reservada (campos: nº de pessoas, valor esperado de consumo — ver observação de valor médio)",
+        "Confirmado (chegou até o horário-limite da reserva)",
+        "Atendido/compareceu",
+        "Não compareceu / cancelado (motivo registrado — inclui 'não confirmou até o horário-limite')"
+      ],
+      "campos_customizados": ["Nº de pessoas na mesa", "Valor esperado de consumo (R$)", "Horário da reserva"],
+      "valor_medio_por_mesa": {
+        "valor": 200,
+        "moeda": "BRL",
+        "nota": "Corrigido pelo próprio Cláudio durante a reunião (estimativa inicial de R$500 foi considerada alta demais). Motivo: 'vem muito figurante' — cliente jovem que ocupa mesa e consome pouco (água, refrigerante), já mapeado como desafio crítico no SWOT e na entrevista comercial. Este valor é o multiplicador de forecast: nº de reservas/fim de semana × R$200 = faturamento mínimo esperado."
+      },
+      "automacao_existente_a_manter": {
+        "nome": "Auto-resposta de reserva",
+        "texto_atual": "Reserva de mesas chegada até às 20 horas. Aos domingos não reservamos mesas.",
+        "recomendacao": "Manter como está. Não há conflito com o diferencial de 'atender domingo' já comunicado no posicionamento — aquele diferencial é do Delivery (atende domingo de manhã até 14h), este é da Choperia (bar não recebe reserva de mesa aos domingos). São operações diferentes e a comunicação pode continuar separada por número."
+      }
+    },
+
+    "pipeline_3_eventos_revenda_b2b": {
+      "nome": "Eventos & Ponto de Revenda",
+      "status": "mantido sem alterações da v1",
+      "nota": "Ver ee-s3-crm-setup.json (v1) para etapas completas — ciclo de 7 a 60 dias, não foi tema da reunião de conexão de 03/07"
+    }
+  },
+
+  "automacoes": {
+    "novas_nesta_v2": [
+      {
+        "nome": "Régua de aniversário",
+        "gatilho": "Campo de data de aniversário preenchido no contato + filtro de 'aniversário nos próximos 15 dias'",
+        "mensagem_base": "Vai fazer uma festa aí do seu aniversário? Bora pedir um chopp — separo uma condição especial pra data.",
+        "racional": "Ideia surgida na própria demonstração do Kommo por Lucas — custo zero, aproveita campo de dado já coletável no cadastro do contato. Aplica-se tanto a leads de Delivery quanto de Choperia.",
+        "pre_requisito": "Popular o campo de aniversário nos contatos existentes — não é automático, depende de perguntar/registrar ao longo do atendimento"
+      },
+      {
+        "nome": "Tarefa automática de lembrete de follow-up",
+        "gatilho": "Criada manualmente pelo atendente no momento do primeiro contato, quando há uma condição futura a confirmar (ex: 'ligar dia X para saber se ainda vai ter o evento/jogo')",
+        "racional": "Recurso nativo do Kommo (criar tarefa vinculada ao lead) usado no exemplo ao vivo da reunião — evita depender da memória do Cláudio para follow-ups condicionados a datas externas",
+        "status": "disponível na ferramenta, ainda não formalizado como processo — recomendação: criar hábito de sempre abrir uma tarefa quando o fechamento depende de confirmação futura"
+      }
+    ],
+    "pendente_de_construir": {
+      "nome": "Fluxo de recuperação de vendas",
+      "descricao": "Pessoa que orçou e sumiu, ou que já comprou antes e não volta a comprar — como reabordar de forma sistemática.",
+      "status": "Citado como próximo passo pelo próprio Lucas na reunião de 03/07 ('já elaborar fluxo de recuperação de vendas'). NÃO estava configurado no Kommo até o fim da reunião.",
+      "relacao_com_v1": "A v1 já continha a régua 'Resgate de orçamento parado' (48h sem resposta) como proposta — esta v2 confirma que ela ainda precisa ser efetivamente implementada dentro do Kommo, não é automação ativa hoje.",
+      "recomendacao": "Prioridade de implementação nº 1 da próxima sessão de trabalho com o Cláudio — é o item que mais aparece como pendência entre v1 e v2."
+    },
+    "mantidas_da_v1_sem_alteracao": [
+      "Boas-vindas / triagem inicial (delivery vs. choperia)",
+      "Reativação — Anfitrião (30-45 dias sem pedido)",
+      "Reativação — Organizador de evento (por data anual)",
+      "Checagem de reposição — Ponto de Revenda (semanal)"
+    ]
+  },
+
+  "alerta_cronograma": {
+    "meta_verbal_definida_em_03_07": "100% pronto em 15/07/2026, treinamento em 16/07/2026 (Lucas já sinalizou que dia 15 'vai ter jogo' e a data provavelmente seria empurrada)",
+    "data_atual": "2026-07-18",
+    "situacao": "As duas datas já passaram sem registro de conclusão nesta base de conhecimento. Não há transcrição de treinamento nem confirmação de que os pipelines/automações foram finalizados.",
+    "acao_recomendada": "Confirmar com o Cláudio, antes de prosseguir com a implementação desta v2: (1) o treinamento aconteceu? (2) os pipelines já foram estruturados dentro do Kommo ou a reunião de 03/07 ficou só na conexão dos números? Esta v2 assume que a estruturação de fases/pipelines ainda está pendente, com base no que a transcrição mostra como 'próximos passos', não como concluído."
+  },
+
+  "ponto_de_alavancagem": "Separar o pipeline da Choperia AGORA — antes de investir mais tempo ajustando o Delivery — porque o número de reservas de mesa já está sendo registrado no Kommo desde 03/07, mas ainda sem o campo de valor esperado nem a etapa de confirmação por horário-limite. Cada fim de semana sem essa estrutura é histórico de faturamento potencial da choperia que se perde, exatamente o dado (R$200/mesa real vs. R$500 estimado) que confirma o problema do público jovem de baixo consumo já identificado no SWOT.",
+
+  "alerta_operacional": "Mantido da v1: o CRM deve registrar e automatizar a logística (réguas, tags, motivos de perda, tarefas), nunca substituir o tom da conversa que já é validado como o melhor da praça. A separação de 3 números/pipelines reforça esse cuidado — cada operação (delivery, choperia, Franca) deve manter sua própria voz, sem forçar um script único que ignore o contexto de cada canal.",
+
+  "alimenta_skills": ["ee-s5-scripts-sdr", "ee-s5-sdr-ia-config", "ee-revisao-semanal"]
+}

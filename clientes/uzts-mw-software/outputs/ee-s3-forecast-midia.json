@@ -1,0 +1,146 @@
+{
+  "client_name": "MW Software (UZTS)",
+  "skill": "ee-s3-forecast-midia",
+  "version": 2,
+  "generated_at": "2026-07-16",
+  "status": "completed",
+  "data_source": "ee-s2-diagnostico-midia (v1, campanhas de Meta Ads propostas) + ee-s4-diagnostico-comercial v5 (funil bowtie, comissão 10%, teto de 10 clientes/mês no H1, CHA do Gestor de Canais) + Manual de Copywriting (margem líquida unitária R$32,00) + transcrição real S4 (07/07/2026 — referência real de produtividade de parceiro: 'traz 10 caras num ano, tá ganhando R$10.000')",
+  "nota_versao": "v2: extensão a pedido do operador — modelo de 12 meses olhando especificamente pro funil mídia→parceiro ativo→clientes/mês por parceiro. Todos os valores de conversão são estimativas (sinalizadas explicitamente), exceto a produtividade de regime (~0,83 cliente/parceiro/mês), que é ancorada numa referência real dita ao vivo na reunião de 07/07/2026, não inventada.",
+
+  "summary": "O forecast de mídia do Horizonte 1 tem uma particularidade que precisa ficar explícita: os clientes do H1 não vêm da mídia paga — vêm dos parceiros-piloto da rede pessoal dos sócios/Marcos. A mídia paga no H1 serve só pra uma coisa: aquecer o mercado com conteúdo sobre a Reforma Tributária (campanha de alcance, baixo custo), preparando o terreno pro Horizonte 2, quando aí sim a mídia passa a gerar leads de parceiros externos. Modelar isso como se a mídia gerasse a receita do H1 seria enganoso.",
+  "summary_headline": "No Horizonte 1, a mídia paga não paga a própria conta — ela é investimento de aquecimento pro Horizonte 2. Quem gera a receita do H1 é o canal de parceiros pessoais, sem custo de mídia.",
+
+  "summary_highlights": [
+    { "category": "posicao", "label": "Ticket médio", "value": "R$88,50/mês", "subtext": "Faixa R$80-97, margem bruta R$32/cliente", "tone": "blue" },
+    { "category": "posicao", "label": "Comissão parceiro", "value": "R$8,85/cliente/mês", "subtext": "10% sobre o ticket, recorrente enquanto ativo", "tone": "blue" },
+    { "category": "oportunidade", "label": "Margem líquida real", "value": "R$23,15/cliente/mês", "subtext": "Margem bruta (R$32) menos comissão do parceiro", "tone": "green" },
+    { "category": "risco", "label": "ROI de mídia no H1", "value": "Negativo por desenho", "subtext": "Investimento de aquecimento não gera venda direta neste horizonte", "tone": "yellow" },
+    { "category": "posicao", "label": "MRR projetado (fim mês 3)", "value": "~R$1.062 bruto", "subtext": "12 clientes acumulados, dentro do teto de 10 novos/mês", "tone": "blue" },
+    { "category": "oportunidade", "label": "Produtividade de regime/parceiro", "value": "~0,83 cliente/mês", "subtext": "Âncora real da reunião: 'traz 10 caras por ano'", "tone": "green" },
+    { "category": "risco", "label": "Alerta de capacidade (12 meses)", "value": "~mês 8", "subtext": "Modelo cruza 30 parceiros ativos — teto de 1 Gestor + 1 Coordenador", "tone": "red" },
+    { "category": "posicao", "label": "Projeção mês 12", "value": "51 parceiros / 212 clientes", "subtext": "MRR líquido estimado ~R$16.886/mês, investimento mantido estável a partir do mês 7", "tone": "blue" }
+  ],
+
+  "summary_key_findings": [
+    { "category": "contexto", "text": "O funil bowtie (ee-s4-diagnostico-comercial v5) já definia que marketing é responsável pelo topo (trazer parceiro/cliente qualificado) e o parceiro pela venda em si. No H1, o 'topo' são os próprios sócios/Marcos usando a rede pessoal — a mídia paga não participa desse fluxo ainda." },
+    { "category": "ameaca", "text": "O material comercial original apresentado ao cliente (PDF de onboarding) projetava, sob R$3.000-5.000/mês de mídia e '70% de eficiência de conversão do funil', até 788 vendas recorrentes/mês. Esse número não é realista pro modelo atual — nem o teto do H1 (10 clientes/mês) nem a lógica de canal (parceiros pessoais, não mídia direta) sustentam essa projeção. Este forecast substitui aquela expectativa por um modelo conservador e rastreável." },
+    { "category": "vantagem", "text": "Por não depender de mídia paga, o custo de aquisição de cliente no H1 é essencialmente a comissão do parceiro (R$8,85/mês recorrente) — não há CPC/CPL a pagar. Isso preserva a margem líquida (R$23,15/cliente) desde o primeiro cliente." },
+    { "category": "acao", "text": "Investimento de mídia do H1 deve ficar pequeno e propositalmente sem meta de conversão direta — o objetivo é alcance/awareness, medido em pessoas alcançadas, não em leads ou vendas." },
+    { "category": "acao", "text": "A campanha de Geração de Leads pra captação de parceiros (a que de fato compra volume) só deve começar no Horizonte 2, quando o recrutamento deixa de ser fechado (rede pessoal) e passa a ser aberto a contadores/consultores externos." }
+  ],
+
+  "key_leverage_point": {
+    "headline": "Não avaliar o sucesso da mídia do H1 pelo ROI direto — ela não foi desenhada pra gerar venda, foi desenhada pra preparar o Horizonte 2.",
+    "context": "Existe um risco real de alguém (interno ou o próprio cliente) olhar pro gasto de mídia do H1 e perguntar 'cadê o retorno?' — e a resposta correta é 'não é esse o papel dela agora'. Julgar a campanha de awareness pelo CAC direto seria comparar coisas que medem objetivos diferentes.",
+    "numbered_reasons": [
+      "O H1 foi desenhado deliberadamente pra rodar com poucos parceiros de confiança, não recrutamento por mídia — logo, o canal que gera clientes nesta fase não passa pela mídia paga.",
+      "Cobrar ROI direto da campanha de awareness geraria a tentação de aumentar orçamento ou trocar de estratégia antes da hora — repetindo o padrão histórico de acelerar sem critério que motivou esta consultoria.",
+      "O retorno real do investimento de awareness aparece no Horizonte 2, quando parceiros externos que já 'ouviram falar' da Reforma Tributária convertem mais rápido em MQL."
+    ],
+    "discussion_anchor": "Ponto de discussão: nos dois primeiros meses, mesmo sem conversão direta atribuível, vale acompanhar frequência/alcance da campanha de awareness como termômetro (não como meta de venda)."
+  },
+
+  "honesty_alert": "Os CPLs e taxas de conversão do Horizonte 2 usados abaixo são estimativas de mercado (assumption), não dados medidos — este cliente ainda não tem histórico de campanhas rodando (sem conector V4MOS ativo). Assim que a campanha de awareness do H1 rodar por 4-6 semanas, os números reais (CPM, alcance, engajamento) devem substituir essas estimativas antes de comprometer orçamento maior no H2.",
+
+  "premissas": {
+    "ticket_medio": "R$88,50/mês (média da faixa R$80-97)",
+    "margem_bruta_unitaria": "R$32,00/cliente/mês (Manual de Copywriting)",
+    "comissao_parceiro": "10% recorrente sobre o ticket = R$8,85/cliente/mês, enquanto o cliente permanecer ativo",
+    "margem_liquida_por_cliente_via_parceiro": "R$23,15/mês (R$32,00 - R$8,85)",
+    "teto_horizonte_1": "Até 10 clientes novos/mês (confirmado em reunião real de 07/07/2026), limitado pela capacidade de suporte do time enxuto",
+    "papel_da_midia_no_h1": "Awareness/aquecimento sobre a Reforma Tributária — não gera lead nem venda direta atribuível neste horizonte. Canal real de aquisição do H1 é a rede pessoal dos parceiros-piloto.",
+    "papel_da_midia_no_h2": "Passa a gerar leads de parceiros externos (contadores, consultores de TI, revendedores) via campanha de Geração de Leads — só entra quando o recrutamento deixa de ser fechado."
+  },
+
+  "investimento_midia_horizonte_1": {
+    "campanha": "Alcance/Awareness — conteúdo sobre a extinção do talão manual e obrigatoriedade de NFC-e a partir de 01/08/2026",
+    "geografia": "Nova Lima + Região Metropolitana de BH",
+    "cpm_referencia": "R$33 por 1.000 pessoas alcançadas (estimativa do diagnóstico de mídia, ee-s2-diagnostico-midia)",
+    "orcamento_mensal_sugerido": [
+      { "mes": 1, "investimento": "R$800", "alcance_estimado": "~24.000 pessoas" },
+      { "mes": 2, "investimento": "R$800", "alcance_estimado": "~24.000 pessoas" },
+      { "mes": 3, "investimento": "R$1.000", "alcance_estimado": "~30.000 pessoas" }
+    ],
+    "investimento_total_3_meses": "R$2.600",
+    "metrica_de_sucesso": "Alcance e frequência dentro da região-alvo — não leads, não vendas. Serve de pré-condicionamento pro Horizonte 2."
+  },
+
+  "forecast_receita_3_meses_horizonte_1": {
+    "nota": "Modelo conservador, dado que o H1 opera com apenas 2-4 parceiros-piloto ainda testando o método — ramp-up gradual, não o teto cheio de 10/mês desde o início.",
+    "meses": [
+      { "mes": 1, "parceiros_ativos": "1-2", "clientes_novos": 2, "clientes_acumulados": 2, "mrr_bruto": "R$177,00", "comissao_paga": "R$17,70", "mrr_liquido": "R$159,30" },
+      { "mes": 2, "parceiros_ativos": "2-4", "clientes_novos": 4, "clientes_acumulados": 6, "mrr_bruto": "R$531,00", "comissao_paga": "R$53,10", "mrr_liquido": "R$477,90" },
+      { "mes": 3, "parceiros_ativos": "2-4", "clientes_novos": 6, "clientes_acumulados": 12, "mrr_bruto": "R$1.062,00", "comissao_paga": "R$106,20", "mrr_liquido": "R$955,80" }
+    ],
+    "leitura": "Receita pequena por desenho — o objetivo do H1 não é volume, é validar o método com risco mínimo (ver ee-s4-diagnostico-comercial). Comparar essa receita com o investimento de mídia (R$2.600 em 3 meses) mostra que a mídia do H1 não se paga sozinha — e não deveria, dado seu papel de aquecimento."
+  },
+
+  "funil_parceiros_12_meses": {
+    "nota_metodologica": "Modelo 100% estimado a partir daqui, exceto onde marcado como 'âncora real'. Objetivo: ver o efeito de 12 meses de mídia dedicada a trazer PARCEIROS (não clientes diretos), passando pelo funil de ativação de parceiro, até a produtividade média de clientes/mês por parceiro ativo.",
+
+    "etapas_do_funil": [
+      { "etapa": "Investimento em mídia (R$/mês)", "descricao": "Campanha de Geração de Leads dedicada a parceiros (contador, consultor de TI, revendedor) — distinta da campanha de awareness do H1." },
+      { "etapa": "Alcance / Cliques", "descricao": "CTR estimado de 1-2% em Meta Ads de geração de leads B2B local." },
+      { "etapa": "Leads (MQL)", "descricao": "Preencheram o formulário de aplicação de parceiro. CPL estimado R$30/lead (assumption — recalibrar com dado real)." },
+      { "etapa": "Parceiros aprovados (SQP)", "descricao": "Passaram no checklist de qualificação (ee-s3-crm-setup). Taxa estimada: 20% dos MQL." },
+      { "etapa": "Novos parceiros ativos", "descricao": "Dos aprovados, os que de fato começam a indicar. Taxa de ativação estimada: 60% dos aprovados (nem todo aprovado se engaja de fato)." },
+      { "etapa": "Parceiros ativos (estoque acumulado)", "descricao": "Soma dos ativos anteriores menos churn de parceiro (estimado 8%/mês — desengajamento natural) mais os novos ativos do mês." },
+      { "etapa": "Clientes trazidos/mês", "descricao": "Parceiros ativos × produtividade média (clientes/parceiro/mês) — ver curva de ramp-up abaixo." }
+    ],
+
+    "produtividade_media_por_parceiro": {
+      "ancora_real": "Na reunião de 07/07/2026, o próprio Lucas Calefi usou como exemplo um parceiro que 'traz um cara, num ano dá R$1.000... trouxe tipo 10 caras/ano, tá ganhando 10.000' — ou seja, ~10 clientes/ano por parceiro maduro = ~0,83 cliente/mês em regime. Esse número (não um valor inventado) ancora a produtividade de regime usada abaixo.",
+      "curva_de_ramp_up_estimada": [
+        { "fase": "Parceiro no 1º-2º mês ativo", "produtividade": "0,3-0,5 cliente/mês — ainda aprendendo o discurso e mapeando a carteira" },
+        { "fase": "Parceiro no 3º-5º mês ativo", "produtividade": "0,6-0,8 cliente/mês — ganhando ritmo" },
+        { "fase": "Parceiro em regime (6º mês+)", "produtividade": "~0,83-1,0 cliente/mês — âncora real da reunião" }
+      ],
+      "produtividade_media_blendada_usada_no_modelo": "Como a base de parceiros ativos é majoritariamente nova nos primeiros meses do H2, a produtividade média BLENDADA (não a de regime) sobe gradualmente: 0,4 (mês 4) → 0,9 (mês 12), refletindo a mistura de parceiros novos e maduros a cada mês."
+    },
+
+    "alerta_de_capacidade": {
+      "headline": "Por volta do mês 8, o modelo cruza ~30 parceiros ativos — o teto que 1 Gestor de Canais + 1 Coordenador de Ativação conseguem sustentar com a cadência de reunião mensal individual (dia 15) definida no CHA.",
+      "recomendacao": "Definir ANTES de chegar lá (não reativamente): ou (a) contratar um 2º Coordenador de Ativação por volta do mês 7-8, ou (b) throttle deliberado do investimento em mídia de parceiros quando o estoque ativo se aproximar de 30, até resolver a capacidade — a mesma lógica de 'critério definido antes, não decisão de pânico no meio' já aplicada ao Horizonte 1."
+    },
+
+    "tabela_12_meses": [
+      { "mes": 1, "fase": "H1", "investimento_midia_parceiros": "R$0 (rede pessoal)", "leads_mql": 0, "parceiros_aprovados": 0, "novos_ativos": 1, "parceiros_ativos_acumulado": 1, "produtividade_media": "1,0 (piloto)", "clientes_novos_mes": 2, "clientes_acumulados": 2 },
+      { "mes": 2, "fase": "H1", "investimento_midia_parceiros": "R$0", "leads_mql": 0, "parceiros_aprovados": 0, "novos_ativos": 1, "parceiros_ativos_acumulado": 2, "produtividade_media": "1,0", "clientes_novos_mes": 4, "clientes_acumulados": 6 },
+      { "mes": 3, "fase": "H1 (fim)", "investimento_midia_parceiros": "R$0", "leads_mql": 0, "parceiros_aprovados": 0, "novos_ativos": 1, "parceiros_ativos_acumulado": 3, "produtividade_media": "1,0", "clientes_novos_mes": 6, "clientes_acumulados": 12 },
+      { "mes": 4, "fase": "H2 início", "investimento_midia_parceiros": "R$1.500", "leads_mql": 50, "parceiros_aprovados": 10, "novos_ativos": 6, "parceiros_ativos_acumulado": 9, "produtividade_media": "0,4", "clientes_novos_mes": 4, "clientes_acumulados": 16 },
+      { "mes": 5, "fase": "H2", "investimento_midia_parceiros": "R$1.500", "leads_mql": 50, "parceiros_aprovados": 10, "novos_ativos": 6, "parceiros_ativos_acumulado": 14, "produtividade_media": "0,5", "clientes_novos_mes": 7, "clientes_acumulados": 23 },
+      { "mes": 6, "fase": "H2", "investimento_midia_parceiros": "R$1.500", "leads_mql": 50, "parceiros_aprovados": 10, "novos_ativos": 6, "parceiros_ativos_acumulado": 19, "produtividade_media": "0,6", "clientes_novos_mes": 11, "clientes_acumulados": 33 },
+      { "mes": 7, "fase": "H2 consolidado", "investimento_midia_parceiros": "R$2.000", "leads_mql": 67, "parceiros_aprovados": 13, "novos_ativos": 8, "parceiros_ativos_acumulado": 25, "produtividade_media": "0,7", "clientes_novos_mes": 18, "clientes_acumulados": 50 },
+      { "mes": 8, "fase": "H2 — cruza alerta de capacidade", "investimento_midia_parceiros": "R$2.000", "leads_mql": 67, "parceiros_aprovados": 13, "novos_ativos": 8, "parceiros_ativos_acumulado": 31, "produtividade_media": "0,75", "clientes_novos_mes": 23, "clientes_acumulados": 72 },
+      { "mes": 9, "fase": "H2 — decisão de capacidade pendente", "investimento_midia_parceiros": "R$2.000 (mantido, não escalado — ver alerta de capacidade)", "leads_mql": 67, "parceiros_aprovados": 13, "novos_ativos": 8, "parceiros_ativos_acumulado": 37, "produtividade_media": "0,8", "clientes_novos_mes": 30, "clientes_acumulados": 100 },
+      { "mes": 10, "fase": "H2", "investimento_midia_parceiros": "R$2.000", "leads_mql": 67, "parceiros_aprovados": 13, "novos_ativos": 8, "parceiros_ativos_acumulado": 42, "produtividade_media": "0,85", "clientes_novos_mes": 36, "clientes_acumulados": 133 },
+      { "mes": 11, "fase": "H2", "investimento_midia_parceiros": "R$2.000", "leads_mql": 67, "parceiros_aprovados": 13, "novos_ativos": 8, "parceiros_ativos_acumulado": 47, "produtividade_media": "0,9", "clientes_novos_mes": 42, "clientes_acumulados": 171 },
+      { "mes": 12, "fase": "H2", "investimento_midia_parceiros": "R$2.000", "leads_mql": 67, "parceiros_aprovados": 13, "novos_ativos": 8, "parceiros_ativos_acumulado": 51, "produtividade_media": "0,9", "clientes_novos_mes": 46, "clientes_acumulados": 212 }
+    ],
+
+    "premissas_do_modelo_12_meses": [
+      "Churn de parceiro ativo: 8%/mês (assumption — desengajamento natural, sem indicar novos clientes por 2+ meses)",
+      "Churn de cliente final: 3%/mês (assumption conservadora, dado 1 caso real de churn já conhecido — distribuidora de bebidas)",
+      "Taxa MQL → aprovado: 20% (assumption, já usada no forecast de 3 meses)",
+      "Taxa aprovado → ativo de fato: 60% (assumption nova — nem todo parceiro aprovado se engaja)",
+      "Investimento de mídia mantido estável em R$2.000/mês a partir do mês 7 — deliberadamente NÃO escalado, por causa do alerta de capacidade (ver acima)"
+    ],
+
+    "resultado_final_mes_12": {
+      "parceiros_ativos": 51,
+      "clientes_acumulados": 212,
+      "mrr_bruto_estimado": "~R$18.762/mês",
+      "comissao_paga_estimada": "~R$1.876/mês",
+      "mrr_liquido_estimado": "~R$16.886/mês",
+      "cac_por_parceiro_ativo": "~R$250 (investimento total em mídia de parceiros M4-M12 ÷ novos parceiros ativos gerados no período)",
+      "payback_do_cac_por_parceiro": "~12-13 meses (CAC de R$250 ÷ margem mensal gerada por parceiro em regime: 0,85 cliente/mês × R$23,15 de margem líquida ≈ R$19,68/mês) — reforça que este é um canal de retorno de médio prazo, não de conversão rápida."
+    }
+  },
+
+  "pendente_confirmacao_operador": [
+    "Aprovar o orçamento de awareness do H1 (R$800-1.000/mês) antes de subir a campanha.",
+    "Definir com o operador se o teto de 10 clientes/mês do H1 deve mudar quando o H2 abrir (parceiros externos tendem a gerar mais volume por mês do que os pilotos pessoais).",
+    "Recalibrar CPL e taxa de conversão do H2 assim que houver dado real de 4-6 semanas de campanha rodando.",
+    "Decidir, antes do mês 7-8, entre contratar um 2º Coordenador de Ativação ou throttle deliberado do investimento em mídia de parceiros quando o estoque ativo se aproximar de 30."
+  ]
+}

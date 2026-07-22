@@ -1,0 +1,156 @@
+{
+  "summary": "Revisão semanal da Mina Pizza (Semana 2 — a mais alta 100% completa): 2 evoluções estratégicas mapeadas (ICP e maturidade digital), 4 divergências factuais identificadas e todas corrigidas pelo operador (rating iFood desatualizado em 5 outputs, tracking de skills desalinhado do modelo pdv, current_week incorreto), 2 gaps narrativos registrados (limitação de template do consolidated, sem ação necessária nos outputs). 4 atualizações propostas, todas aceitas e aplicadas.",
+  "semana_revisada": 2,
+  "data_revisao": "2026-07-20",
+  "skills_revisadas": ["ee-s2-diagnostico-midia", "ee-s2-diagnostico-organico-ig", "ee-s2-diagnostico-criativos", "ee-s1-diagnostico-maturidade", "ee-s2-posicionamento"],
+
+  "evolucao_estrategica": [
+    {
+      "id": "E1",
+      "tema": "ICP / público-alvo",
+      "hipotese_inicial": {
+        "conteudo": "Roberto, no kick-off, descreveu o ICP de forma genérica ('é uma pizzaria', 'é commodity'), sem conseguir detalhar dores, desejos ou motivadores reais — reflexo de gestão remota, sem convívio direto com o público.",
+        "origem": "client.json > briefing.icp / history (ts 2026-07-03T13:15:00Z)",
+        "camada": "briefing"
+      },
+      "evidencia_diagnostico": {
+        "conteudo": "20 avaliações reais do Google (10 positivas + 10 negativas), trazidas pelo próprio Roberto, revelaram um perfil muito mais específico: cliente fiel de décadas (persona Marlene), com dores concretas e recorrentes — atendimento ríspido no telefone, queda de qualidade/tempero, pedido errado.",
+        "origem": "ee-s1-persona-icp.json > icp.pains, persona",
+        "camada": "semana_1"
+      },
+      "decisao_atual": {
+        "conteudo": "O posicionamento (S2) constrói o território 'Redescoberta' inteiramente em cima da Marlene (retenção do cliente fiel) combinada com o turista de fim de semana (aquisição) — não em cima da descrição genérica original do briefing.",
+        "origem": "ee-s2-posicionamento.json > positioning_statements, chosen_statement",
+        "camada": "decisao"
+      },
+      "impacto_estrategico": "Toda a comunicação (posicionamento, criativos, mídia, orgânico) passou a mirar um perfil validado por evidência real, não por suposição do dono — reduz risco de mensagem genérica que não converte.",
+      "narrativa_sugerida": "A hipótese inicial de ICP genérico ('é uma pizzaria, é commodity') foi substituída por um perfil validado com evidência real de avaliações — Marlene, cliente fiel de décadas, com dores específicas. Essa mudança é a espinha dorsal de todo o posicionamento da Semana 2."
+    },
+    {
+      "id": "E2",
+      "tema": "Maturidade digital / presença online",
+      "hipotese_inicial": {
+        "conteudo": "Leitura inicial (antes do kick-off ao vivo) era de negócio praticamente sem presença digital estruturada.",
+        "origem": "client.json > history (ts 2026-07-03T12:00:00Z, ee-novo-cliente)",
+        "camada": "briefing"
+      },
+      "evidencia_diagnostico": {
+        "conteudo": "O diagnóstico de maturidade revelou 167 avaliações reais somadas entre Google (113, 3,9★) e iFood (54, 4,8★) — presença real e relevante, só que nunca gerenciada (GMB com endereço errado, zero resposta a avaliação).",
+        "origem": "ee-s1-diagnostico-maturidade.json > executive_summary, key_insight",
+        "camada": "semana_1"
+      },
+      "decisao_atual": {
+        "conteudo": "Toda a estratégia de Semana 2 (mídia paga, posicionamento) parte do princípio 'gerenciar o que já existe antes de criar do zero' — é o key_insight que se repete em quase todos os outputs.",
+        "origem": "ee-s2-diagnostico-midia.json > key_insight, ee-s2-posicionamento.json > key_insight",
+        "camada": "decisao"
+      },
+      "impacto_estrategico": "Muda a natureza do investimento recomendado: não é 'construir presença do zero', é 'corrigir gestão + escalar o que já converte' — reduz custo e tempo de ramp-up.",
+      "narrativa_sugerida": "De 'negócio sem presença digital' para 'negócio com presença real e nunca gerenciada' — essa correção de leitura é o fio condutor que conecta SWOT, mídia paga e posicionamento."
+    }
+  ],
+
+  "divergencias_factuais": [
+    {
+      "id": "F1",
+      "categoria": "numero",
+      "campo": "Rating/avaliações do iFood em ee-s1-swot.json, ee-s1-auditoria-comunicacao.json, ee-s1-diagnostico-maturidade.json, ee-s2-diagnostico-criativos.json, ee-s2-posicionamento.json",
+      "valor_atual": "4,7★ / 47 avaliações (total combinado com Google: 160)",
+      "valor_recomendado": "4,8★ / 54 avaliações (total combinado com Google: 167)",
+      "fonte_de_verdade": "Print real do cardápio/vitrine do iFood enviado pelo operador em jul/2026, já aplicado em ee-s2-diagnostico-midia.json",
+      "arquivos_afetados": ["outputs/ee-s1-swot.json", "outputs/ee-s1-auditoria-comunicacao.json", "outputs/ee-s1-diagnostico-maturidade.json", "outputs/ee-s2-diagnostico-criativos.json", "outputs/ee-s2-posicionamento.json"],
+      "severidade": "baixa"
+    },
+    {
+      "id": "F2",
+      "categoria": "referencia_cruzada",
+      "campo": "client.json > progress.skills",
+      "valor_atual": "Lista 'ee-s2-diagnostico-cro' e 'ee-s3-gmb-otimizacao' como pending",
+      "valor_recomendado": "Remover ambos — ee-s2-diagnostico-cro só existe no modelo inside-sales (não pdv); ee-s3-gmb-otimizacao foi superado por ee-s3-pdv-gmn",
+      "fonte_de_verdade": "delivery-map.json > semana_3.pdv + skills/ee-s3-pdv-gmn/SKILL.md (description: 'Deriva de ee-s3-gmb-otimizacao')",
+      "arquivos_afetados": ["client.json"],
+      "severidade": "media"
+    },
+    {
+      "id": "F3",
+      "categoria": "referencia_cruzada",
+      "campo": "client.json > progress.skills",
+      "valor_atual": "Faltam ee-s1-arquitetura-presenca, ee-s3-pdv-base-ativa, ee-s3-pdv-gmn, ee-s3-pdv-experiencia, ee-s3-pdv-regua-whatsapp, ee-s5-scripts-sdr, ee-s5-sdr-ia-config no tracking",
+      "valor_recomendado": "Adicionar todos com status pending",
+      "fonte_de_verdade": "delivery-map.json (comum.semana_1 + semana_3.pdv + comum.semana_4)",
+      "arquivos_afetados": ["client.json"],
+      "severidade": "media"
+    },
+    {
+      "id": "F4",
+      "categoria": "numero",
+      "campo": "client.json > progress.current_week",
+      "valor_atual": "3",
+      "valor_recomendado": "2",
+      "fonte_de_verdade": "delivery-map.json — ee-s3-manual-marca pertence a comum.semana_4, não à semana_3 (o prefixo 'ee-s3-' no nome é histórico, não indica a semana real). Semana 3 (pdv) segue com 0 de 4 skills completas.",
+      "arquivos_afetados": ["client.json"],
+      "severidade": "media"
+    }
+  ],
+
+  "gaps_narrativos": [
+    {
+      "id": "G1",
+      "tipo": "lacuna",
+      "localizacao": "consolidated.md > seções 10 (CRO & Landing Page), 12 (Diagnóstico Comercial) e 13 (Cliente Oculto)",
+      "descricao": "O template do consolidated.md lista seções fixas para skills que só existem nos modelos e-commerce/inside-sales, mostrando 'ainda não realizado' para algo que na verdade não é aplicável ao modelo pdv da Mina Pizza — pode confundir o Roberto ou stakeholder achando que é trabalho pendente.",
+      "ajuste_proposto": "Ideal seria o render_consolidated.py filtrar seções por meta.modelo_venda, mas isso é código do renderer (fora do escopo de edição de outputs desta sessão). Registrado como observação pro dono do sistema.",
+      "arquivo_afetado": "shared-templates (renderer, não output do cliente)"
+    }
+  ],
+
+  "atualizacoes_propostas": [
+    {
+      "id": "U1",
+      "arquivo": "outputs/ee-s1-swot.json, outputs/ee-s1-auditoria-comunicacao.json, outputs/ee-s1-diagnostico-maturidade.json, outputs/ee-s2-diagnostico-criativos.json, outputs/ee-s2-posicionamento.json",
+      "caminho_json": "múltiplos campos de texto (summary, summary_headline, summary_highlights, key_insight, executive_summary, etc.) contendo o rating do iFood",
+      "acao": "substituir",
+      "valor_antigo": "4,7★ / 47 avaliações / total 160",
+      "valor_novo": "4,8★ / 54 avaliações / total 167",
+      "motivo": "F1 — dado desatualizado, corrigido com base em print real mais recente",
+      "severidade": "baixa",
+      "origem_achado": "factual",
+      "decisao_operador": "aceitar"
+    },
+    {
+      "id": "U2",
+      "arquivo": "client.json",
+      "caminho_json": "progress.skills",
+      "acao": "remover",
+      "valor_antigo": "ee-s2-diagnostico-cro, ee-s3-gmb-otimizacao",
+      "valor_novo": null,
+      "motivo": "F2 — não aplicáveis ao modelo_venda=pdv",
+      "severidade": "media",
+      "origem_achado": "factual",
+      "decisao_operador": "aceitar"
+    },
+    {
+      "id": "U3",
+      "arquivo": "client.json",
+      "caminho_json": "progress.skills",
+      "acao": "adicionar",
+      "valor_antigo": null,
+      "valor_novo": "ee-s1-arquitetura-presenca, ee-s3-pdv-base-ativa, ee-s3-pdv-gmn, ee-s3-pdv-experiencia, ee-s3-pdv-regua-whatsapp, ee-s5-scripts-sdr, ee-s5-sdr-ia-config (todos status pending)",
+      "motivo": "F3 — tracking completo do caminho real do cliente pro modelo pdv, ainda não iniciados",
+      "severidade": "media",
+      "origem_achado": "factual",
+      "decisao_operador": "aceitar (adicionar como pending — execução fica pra mais adiante)"
+    },
+    {
+      "id": "U4",
+      "arquivo": "client.json",
+      "caminho_json": "progress.current_week",
+      "acao": "substituir",
+      "valor_antigo": 3,
+      "valor_novo": 2,
+      "motivo": "F4 — manual de marca é semana_4 no delivery-map real; semana_3 (pdv) ainda não começou",
+      "severidade": "media",
+      "origem_achado": "factual",
+      "decisao_operador": "aceitar"
+    }
+  ]
+}

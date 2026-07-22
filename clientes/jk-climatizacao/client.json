@@ -1,0 +1,314 @@
+{
+  "meta": {
+    "name": "JK Climatização",
+    "slug": "jk-climatizacao",
+    "workspace_id": null,
+    "created_at": "2026-07-09",
+    "modulo_vendas": true
+  },
+  "briefing": {
+    "empresa": "JK Climatização (site institucional legado ainda em jkmaquinas.com.br, com domínio de e-mail @jkmaquinas — ponto de branding a corrigir)",
+    "segmento": "Engenharia térmica AVAC-R por fluido refrigerante (exclusão de sistemas evaporativos) — implantação e auditoria de PMOC para B2B Corporativo/Industrial, e sistemas embutidos/VRF de luxo para B2C High-End",
+    "fundacao": "2000, Pomerode-SC — fundada pelo pai de André Ricardo Krueger, hoje sócio-fundador",
+    "raio_atuacao_km": "150 a 300 km de Pomerode. Núcleo operacional real: Jaraguá do Sul, Timbó, Indaial, Blumenau, Ilhota, Gaspar, Itajaí, Balneário Camboriú. Rio do Sul/Apiúna/Lontras considerados 'longe demais' (custo de deslocamento via BR-470).",
+    "equipe": "13 colaboradores (9 técnicos de campo + 4 internos). André (gestão geral + comercial de contas grandes), Marlon Da Costa (braço direito — logística, agendamento, atendimento a recorrência PJ), Pedro Weege Semeraro (atendimento comercial de leads novos via WhatsApp), irmã do André (financeiro/RH). Frota de 4 carros próprios + terceiros ocasionais.",
+    "faturamento_atual_mensal": "R$150.000-160.000 (pico histórico R$210.000-226.000 em ano com duas grandes obras sequenciais)",
+    "meta_faturamento_mensal": "R$250.000-260.000",
+    "contratos_b2b_recorrentes": "12 contratos ativos de manutenção preventiva, renovação anual (alguns a cada 2-3 anos). Retenção alta: só 2 empresas perdidas até a data do kick-off.",
+    "stakeholders": [
+      {
+        "nome": "André Ricardo Krueger",
+        "cargo": "Sócio-fundador (herdou/assumiu de segunda geração)",
+        "perfil": "Ex-técnico (cursos técnicos em mecânica e refrigeração, sem formação em administração), 'perfeccionista planejador'. Cresceu por leitura/mentoria (EAG, Marcelo Germano). Ainda é 'a cara' da empresa nas contas grandes — quer reduzir essa dependência pessoal. Decisor final de todas as negociações relevantes.",
+        "decisor": true
+      },
+      {
+        "nome": "Marlon Da Costa",
+        "cargo": "Braço direito — logística, agendamento e atendimento a clientes recorrentes (PJ com contrato)",
+        "perfil": "Quase 5 anos de casa, já passou por comercial/produção/marketing. Hoje concentra tarefas que antes eram divididas com uma colaboradora que saiu em fev/2026.",
+        "decisor": false
+      },
+      {
+        "nome": "Pedro Weege Semeraro",
+        "cargo": "Atendimento comercial de leads novos (WhatsApp, pessoa física e novos contatos)",
+        "perfil": "Responde por ordem de chegada, sem autonomia hoje para fechar orçamento sozinho — repassa para Marlon/André. Ponto identificado de insegurança/falta de processo no diagnóstico comercial.",
+        "decisor": false
+      }
+    ],
+    "time_v4": {
+      "gestor_v4": "Lucas Calefi Gonçalves (Calefi - SCN&Co)",
+      "account_manager": "Sabrina Souza da Silva",
+      "gestor_trafego": "Daniel Silva Lorêdo",
+      "designer": "Nícolas Kobayashi"
+    },
+    "cidade": "Pomerode-SC",
+    "reunioes_realizadas": [
+      {
+        "data": "2026-05-08",
+        "tipo": "Reunião comercial V4 + JK Máquinas (venda do serviço, briefing inicial)"
+      },
+      {
+        "data": "2026-05-28",
+        "tipo": "[S1] Kick-off — Diagnóstico e Planejamento de Marketing e Vendas"
+      },
+      {
+        "data": "2026-06-12",
+        "tipo": "[S2] Pesquisa de Mercado"
+      },
+      {
+        "data": "2026-06-19",
+        "tipo": "[S3] Diagnóstico de Marketing"
+      },
+      {
+        "data": "2026-06-22",
+        "tipo": "3 Entrevistas Comerciais (Sabrina com André, Marlon e Pedro)"
+      },
+      {
+        "data": "2026-07-01",
+        "tipo": "[S4] Diagnóstico Comercial"
+      }
+    ]
+  },
+  "research": {
+    "nota": "ICP, personas, JTBD, objeções e canais completos vivem em outputs/ee-s1-persona-icp.json (fonte canônica). Resumo executivo abaixo é só um atalho de navegação.",
+    "icp_principal": "Empresas B2B corporativo/industrial com 10+ aparelhos de climatização instalados (corte definido pelo próprio André) — indústrias críticas (têxtil, sublimação, metalmecânica), bancos/cooperativas de crédito, redes de supermercado, clínicas/hospitais",
+    "concorrentes_principais": [
+      "GP Ar Condicionado (Pomerode)",
+      "COD Climatização (Blumenau, concorrente mais direto em posicionamento B2B)",
+      "Hightech (Blumenau/Joinville, industrial)",
+      "Instalar (licitações)",
+      "Voltec (litoral, alto padrão)"
+    ],
+    "tam_sam_som": {
+      "tam_brl_ano": 50150000000,
+      "sam_brl_ano": 614000000,
+      "som_atual_brl_ano": "1.900.000-2.200.000",
+      "som_projetado_brl_ano": 3200000,
+      "estimated": true,
+      "estimation_basis": "ABRAVA/FEBRAVA + segmentação B2B/high-end em raio de 300km de Pomerode, apresentada na reunião S2 de 12/06/2026"
+    },
+    "keyword_research": {
+      "arquivo_mais_recente": "Keyword Stats 2026-07-10 at 07_11_01.csv (1.517 linhas, substituiu a versão de 09/07 com 535 linhas)",
+      "volume_real_dedup_mensal": 2534,
+      "volume_b2b_pmoc_dedup_mensal": 68,
+      "achado_principal": "'Instalação de ar condicionado' é o maior cluster de demanda real (~2.750/mês dedup) — quase ausente na pesquisa anterior. Volume B2B/PMOC específico continua mínimo mesmo com 3x mais dados de pesquisa (62→68/mês) — reforça que esse segmento depende de venda ativa, não busca.",
+      "detalhe_completo": "ver outputs/forecast-midia-paga-12-meses.md, seção 'Atualização 10/07/2026'"
+    }
+  },
+  "connectors": {
+    "fetched_at": null,
+    "workspace_id": null,
+    "integrations": {}
+  },
+  "progress": {
+    "current_week": 4,
+    "cronograma_dpmv": {
+      "semana_1": "Kick-off realizado em 28/05/2026, mas SEM skill formal do sistema rodada até 09/07/2026 (cliente cadastrado retroativamente). ee-s1-persona-icp rodado agora, como backfill mínimo, por ser dependência raiz de todas as skills de Semana 4-5.",
+      "semana_2": "Pesquisa de mercado realizada em 12/06/2026 (conteúdo rico: TAM/SAM/SOM, concorrentes, personas). ee-s2-pesquisa-mercado e ee-s2-posicionamento NÃO rodados formalmente — gap conhecido, registrado em history.",
+      "semana_3": "Diagnóstico de marketing realizado em 19/06/2026 (mídia, site, Instagram, LinkedIn). ee-s3-brandbook NÃO rodado — Manual de Copywriting da base de conhecimento cobre boa parte desse escopo (PUV, tom de voz, arquétipos) e será usado como substituto material nas skills de Semana 4-5, com ressalva registrada.",
+      "semana_4": "Diagnóstico comercial realizado em 01/07/2026 + 3 entrevistas comerciais em 22/06/2026. Módulo de vendas confirmado (modulo_vendas: true). Foco atual da consultoria."
+    },
+    "skills": {
+      "ee-s1-persona-icp": {
+        "status": "completed",
+        "version": 1,
+        "started_at": "2026-07-10T01:24:00Z",
+        "completed_at": "2026-07-10T01:37:16Z"
+      },
+      "ee-s1-diagnostico-maturidade": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s1-swot": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s1-auditoria-comunicacao": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s2-pesquisa-mercado": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s2-posicionamento": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s2-diagnostico-midia": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s2-diagnostico-criativos": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s2-diagnostico-cro": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s2-diagnostico-organico-ig": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-identidade-visual": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-brandbook": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-landing-page": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-copy-anuncios": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-criativos-anuncios": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-crm-setup": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-forecast-midia": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-gmb-otimizacao": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s4-diagnostico-comercial": {
+        "status": "completed",
+        "version": 1,
+        "started_at": "2026-07-10T01:37:16Z",
+        "completed_at": "2026-07-10T01:52:25Z"
+      },
+      "ee-s4-cliente-oculto": {
+        "status": "completed",
+        "version": 1,
+        "started_at": null,
+        "completed_at": "2026-07-10T01:52:25Z"
+      },
+      "ee-s5-scripts-sdr": {
+        "status": "completed",
+        "version": 1,
+        "started_at": "2026-07-10T01:52:25Z",
+        "completed_at": "2026-07-10T01:59:23Z"
+      },
+      "ee-s5-sdr-ia-config": {
+        "status": "in_progress",
+        "version": 0,
+        "started_at": "2026-07-10T01:59:23Z",
+        "completed_at": null
+      }
+    }
+  },
+  "history": [
+    {
+      "ts": "2026-07-09T00:00:00Z",
+      "skill": "ee-novo-cliente",
+      "checkpoint": 1,
+      "decision": "Cliente cadastrado retroativamente: já existiam 8 documentos de base de conhecimento (kick-off, pesquisa de mercado, diagnóstico de marketing, diagnóstico comercial, 3 entrevistas comerciais, manual de copywriting) mas nenhuma skill havia sido rodada no sistema. Operador confirmou que o cliente está na 'última semana' (módulo de vendas, S4-S5). Decisão de escopo do operador: rodar backfill mínimo de só ee-s1-persona-icp (dependência raiz obrigatória de toda a Semana 4-5) antes de seguir para as skills de vendas, em vez de backfill completo de S1-S3 ou de pular a dependência inteiramente. ee-s2-posicionamento, ee-s3-brandbook e ee-s3-crm-setup ficam como gaps conhecidos — Manual de Copywriting da base de conhecimento será usado como substituto parcial de brandbook nas skills seguintes, com ressalva explícita nos outputs."
+    },
+    {
+      "ts": "2026-07-10T01:40:00Z",
+      "skill": "ee-s1-persona-icp",
+      "checkpoint": 1,
+      "decision": "Operador validou o ICP (B2B corporativo/industrial, corte de 10+ aparelhos) e as 3 personas consolidadas (Elton, Marcos Zimmermann, Beatriz Silveira) sem pedir ajuste. Skill marcada como completed. Seguindo para ee-s4-diagnostico-comercial."
+    },
+    {
+      "ts": "2026-07-10T02:05:00Z",
+      "skill": "ee-s4-diagnostico-comercial",
+      "checkpoint": 1,
+      "decision": "Operador aprovou o diagnóstico comercial sem ajuste e sinalizou que as pendências listadas (cadência de follow-up, papel de Inside Sales, validação da escala de estrelas com Pedro/Marlon) serão discutidas em reunião futura — não bloqueiam o andamento das próximas skills. Skill marcada como completed."
+    },
+    {
+      "ts": "2026-07-10T02:05:00Z",
+      "skill": "ee-s4-cliente-oculto",
+      "checkpoint": 1,
+      "decision": "Operador informou que o cliente oculto já foi executado na vida real e o relatório está na apresentação em PPTX da base de conhecimento (JK CLIMATIZAÇÃO - DIAGNÓSTICO E PLANEJAMENTO DE MARKETING E VENDAS.pptx, ~124MB, não processado por este sistema por tamanho). Skill marcada como completed sem gerar novo output — o achado já citado no ee-s4-diagnostico-comercial (Pedro se destacou de 6 concorrentes testados) é o resumo disponível aqui; o relatório completo com nota 0-10 e pontos de fricção vive só no PPTX do operador."
+    },
+    {
+      "ts": "2026-07-10T00:00:00Z",
+      "skill": "ad-hoc",
+      "checkpoint": 1,
+      "decision": "Operador pediu, fora do fluxo de skills: (1) forecast de mídia paga 12 meses com ROAS (outputs/forecast-midia-paga-12-meses.json/md/xlsx — xlsx no modelo próprio do operador), (2) recomendação de modelo de Go-To-Market (outputs/go-to-market-modelo.json/md — Sales-Led Growth como primário, justificado pelo universo de contas finito e pelo baixo volume de busca B2B/PMOC), (3) drawflow de mídia paga e captura de clientes reconstruído fielmente das reuniões S3/S4 (outputs/drawflow-midia-e-captura.md + artifact visual). Todos salvos como outputs ad-hoc, fora do catálogo de ~22 skills."
+    },
+    {
+      "ts": "2026-07-10T08:00:00Z",
+      "skill": "ad-hoc",
+      "checkpoint": 2,
+      "decision": "Operador subiu planilha de keywords nova (Keyword Stats 2026-07-10, 1.517 linhas vs 535 da anterior). Reprocessada com deduplicação de clusters de variantes (Google Keyword Planner repete o mesmo volume pra buscas quase idênticas — sem isso o total parecia 2,5x inflado). Achado: volume real triplicou (819→2.534 buscas/mês dedup), puxado quase todo por 'instalação de ar condicionado' (~2.750/mês, antes quase ausente); volume B2B/PMOC específico não mudou (62→68/mês) — reforça a recomendação de Sales-Led Growth em vez de mudá-la. Sazonalidade ficou mais concentrada em dezembro (índice 170→218). Forecast, planilha Excel, modelo de GTM e drawflow atualizados para refletir isso; totais anuais do forecast não mudaram, só a distribuição mensal."
+    },
+    {
+      "ts": "2026-07-10T09:00:00Z",
+      "skill": "ad-hoc",
+      "checkpoint": 3,
+      "decision": "Operador pediu plano de execução em Gantt para as 7 atividades que definiu (LP/Site, CRM, config+campanha LinkedIn Ads, config+campanhas Google Ads Pesquisa/GMB). Sequenciado com as dependências reais já mapeadas no drawflow (verificação de anunciante Google Ads com prazo 19/07, página do LinkedIn precisa ser estruturada antes do anúncio, LP trava a campanha de Pesquisa mas não a de GMB) e a sazonalidade do forecast (pico de dezembro, índice 218). Flagada uma dependência não-listada: identidade visual (paleta/tipografia/grid, conduzida por Nícolas) trava o design final da LP. Salvo em outputs/plano-execucao-gantt.md + artifact visual interativo. Escopo NÃO inclui a transformação comercial (SDR/scoring) já entregue em ee-s4/ee-s5 — só a frente de mídia paga + CRM definida pelo operador."
+    },
+    {
+      "ts": "2026-07-10T10:00:00Z",
+      "skill": "ad-hoc",
+      "checkpoint": 4,
+      "decision": "Operador avisou que não tem mão de obra pra tocar tudo em paralelo — replanejado o Gantt de 5 frentes simultâneas para 2 trilhas sequenciais (Criação: Identidade Visual→LP; Tráfego/CRM: CRM→Config.LinkedIn→Campanha LinkedIn→Config.Google Ads→Campanhas Google, uma tarefa de cada vez). Tempo expresso em semanas. Trade-off registrado: lançamento das campanhas de Google Ads empurrado de agosto pra Semana 9 (07/09), reduzindo o colchão de otimização antes do pico de dezembro de ~4 meses pra ~11 semanas. Premissa de equipe (Nícolas=Criação; Daniel+Sabrina/Lucas=Tráfego) sinalizada como ajustável. Artifact e outputs/plano-execucao-gantt.md atualizados (mesmo link do artifact)."
+    },
+    {
+      "ts": "2026-07-10T11:00:00Z",
+      "skill": "ad-hoc",
+      "checkpoint": 5,
+      "decision": "Claude sugeriu 3 lacunas do projeto (spec de CRM, briefing de copy da LP, protocolo de handover Pedro→Marlon) quando o operador perguntou o que mais seria relevante entregar. Operador informou que a LP já está pronta (fora do escopo, portanto) e pediu foco no protocolo de handover — ponto citado repetidamente em ee-s4-diagnostico-comercial e nas entrevistas comerciais como o mais confuso do processo hoje (inclusive causou envio de áudio errado no cliente oculto interno). Entregue outputs/protocolo-handover-pedro-marlon.md/json: gatilho exato (emissão da OS), checklist de 10 campos obrigatórios, template de mensagem pronto pro WhatsApp (ferramenta atual, não depende do CRM), regra de confirmação de leitura, script de apresentação ao cliente, e casos especiais (cliente recorrente, handover de volta). Spec de CRM continua como sugestão em aberto, não descartada."
+    },
+    {
+      "ts": "2026-07-10T12:00:00Z",
+      "skill": "ad-hoc",
+      "checkpoint": 6,
+      "decision": "Operador pediu pra consolidar tudo num portal HTML pra apresentar. Investigado scripts/render_portal.sh + shared-templates/portal.html e render_consolidated.py: ambos são travados num catálogo fixo de ~22 skills (portal.html via array 'weeks' hardcoded; render_consolidated.py via SECTIONS fixo com 12 seções) que NÃO cobre nem as skills de vendas (ee-s4/ee-s5) nem nenhum dos entregáveis ad-hoc (forecast, GTM, drawflow, gantt, handover). Rodei render_portal.sh mesmo assim (gerou clientes/jk-climatizacao/portal.html e consolidated.html sem erro, mas incompletos pro que o operador pediu). Optei por NÃO editar os templates compartilhados (risco de quebrar outros clientes) e construí um portal dedicado: clientes/jk-climatizacao/portal-executivo.html — navegação lateral, reaproveita a paleta blueprint/copper/violet/teal já validada (dataviz skill) nos artifacts anteriores, cobre TODAS as 10 seções reais produzidas (ICP, diagnóstico comercial, cliente oculto, scripts SDR, SDR IA config, handover, GTM, forecast, drawflow, gantt) mais uma tabela de gaps conhecidos. Publicado como Artifact e salvo como arquivo local (ambos)."
+    },
+    {
+      "ts": "2026-07-10T13:00:00Z",
+      "skill": "ad-hoc",
+      "checkpoint": 7,
+      "decision": "Operador pediu rebrand: tema V4 (vermelho), proibido qualquer azul — inclusive tons frios que pareciam azul-marinho no ink/paper de fundo. Rebrand aplicado nos 3 HTMLs desta sessão (portal-executivo.html, drawflow-jk.html, gantt-jk.html): 'blueprint' (usado pra Google Ads/mídia) virou vermelho #b3122a/#e0576e (claro/escuro), 'violet' virou vinho/maroon #8a3040/#a85a63, 'teal' virou marrom/umber #5c3a24/#a67a52, ink/paper/grid-line trocados de navy pra tons quentes (marrom-preto). Copper e amber mantidos (já eram quentes). Paleta re-validada com o validador do dataviz skill — CVD entre vermelho/terracota ficou na faixa WARN (8-12), aceitável porque todo elemento colorido também tem rótulo de texto (secondary encoding). Nenhum nome de variável CSS mudou (só os valores hex), pra minimizar risco de quebrar algo. Os 3 artifacts republicados nos MESMOS links (URLs não mudam)."
+    }
+  ]
+}

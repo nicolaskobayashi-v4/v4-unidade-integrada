@@ -1,0 +1,324 @@
+{
+  "client_name": "FROC — Frutas Desidratadas",
+  "skill": "ee-s2-diagnostico-midia",
+  "generated_at": "2026-05-05",
+  "data_source": "Briefing + kickoff + personas + posicionamento + benchmarks de mercado. Zero histórico de mídia paga — diagnóstico estrutural + proposta de ação.",
+
+  "summary": "A FROC nunca rodou mídia paga e tem zero histórico para analisar. O ponto de partida favorável: ~16 buscas/mês por 'maçã desidratada' com CPC estimado baixo (R$1-3/clique) em um nicho sem player dominante no digital. Google Ads Search captura a demanda ativa que já existe. Meta Ads cria demanda nos decisores que ainda não estão pesquisando. As duas LPs são o pré-requisito para qualquer campanha rodar.",
+
+  "summary_headline": "Zero histórico, zero concorrência dominante no digital B2B — quem chegar primeiro com LP + Google Ads leva o mercado de busca ativa pelo menos pelos próximos 12 meses.",
+
+  "summary_highlights": [
+    {
+      "category": "maturidade",
+      "label": "Histórico de mídia",
+      "value": "Zero",
+      "subtext": "Tudo a criar do zero — sem dados para otimizar",
+      "tone": "gray"
+    },
+    {
+      "category": "oportunidade",
+      "label": "CPC estimado",
+      "value": "R$1–3/clique",
+      "subtext": "Nicho B2B com baixo volume = baixa concorrência",
+      "tone": "green"
+    },
+    {
+      "category": "oportunidade",
+      "label": "Janela de primeiro mover",
+      "value": "Aberta agora",
+      "subtext": "Nenhum concorrente com LP de maçã B2B no Google",
+      "tone": "green"
+    },
+    {
+      "category": "risco",
+      "label": "Pré-requisito bloqueador",
+      "value": "LPs inexistentes",
+      "subtext": "Sem LP, Google Ads não pode rodar",
+      "tone": "red"
+    },
+    {
+      "category": "posicao",
+      "label": "Investimento proposto",
+      "value": "R$4–10k/mês",
+      "subtext": "R$3-8k Google + R$1-2k Meta",
+      "tone": "blue"
+    },
+    {
+      "category": "posicao",
+      "label": "Lead alvo",
+      "value": "7–10/mês",
+      "subtext": "Para atingir 17 clientes em 12 meses",
+      "tone": "blue"
+    }
+  ],
+
+  "summary_key_findings": [
+    {
+      "category": "vantagem",
+      "text": "O volume de busca baixo (~16/mês) é uma vantagem, não problema. CPC baixo significa que R$3.000/mês de Google Ads pode capturar praticamente toda a demanda ativa existente — algo que uma empresa com budget maior não conseguiria fazer em mercados saturados."
+    },
+    {
+      "category": "contexto",
+      "text": "A Polpa Brasil já anuncia no Google (identificado no kickoff) — prova de que o canal funciona para esse tipo de produto. A diferença: Polpa Brasil foca em banana, cobra por amostra e não tem LP otimizada para maçã. Existe espaço claro."
+    },
+    {
+      "category": "ameaca",
+      "text": "Meta Ads para B2B industrial é canal de médio prazo — o comprador não está no Facebook/Instagram pesquisando ingredientes. O papel do Meta é impactar o decisor repetidamente até que, quando ele for pesquisar no Google, a FROC já seja uma marca familiar. Não esperar conversão direta do Meta."
+    },
+    {
+      "category": "acao",
+      "text": "Sequência obrigatória: (1) Criar LPs, (2) Configurar rastreamento de conversão, (3) Subir Google Ads, (4) Subir Meta Ads. Nessa ordem. Nunca ativar tráfego pago sem LP pronta e conversão rastreada."
+    }
+  ],
+
+  "benchmark": {
+    "polpa_brasil": {
+      "url": "polpabrasil.com.br",
+      "o_que_faz_bem": "Já anuncia no Google Ads — prova de demanda. Apresenta fábrica e produção no conteúdo.",
+      "o_que_faz_mal": "Foco em banana (não maçã). Cobra por amostras — fraqueza direta. LP não otimizada para B2B de maçã.",
+      "aprendizado_froc": "Ocupar as palavras-chave de maçã que a Polpa Brasil não cobre. Usar 'amostra grátis' como diferenciação direta."
+    },
+    "bc_foods": {
+      "url": "bc-foods.com",
+      "o_que_faz_bem": "Site com foco em solicitação de amostras como gancho principal. Presença em feiras da América do Sul. Comunicação B2B clara.",
+      "aprendizado_froc": "Modelo de LP orientado a amostra é o correto. A FROC pode replicar a lógica com linguagem mais direta e oferta de amostra gratuita como diferencial."
+    },
+    "benchmark_geral_b2b_ingredientes": {
+      "cpl_referencia": "R$50–R$200 por lead qualificado (B2B industrial, nicho)",
+      "taxa_conversao_lp_referencia": "3–8% (LP B2B com oferta de isca)",
+      "ciclo_lead_para_venda": "15–30 dias (amostras aprovadas rapidamente)",
+      "roi_esperado": "1 cliente recorrente = R$134k/ano. CAC de até R$5.000 ainda é lucrativo em 45 dias de payback."
+    }
+  },
+
+  "canais": {
+    "google_ads": {
+      "status_atual": "inexistente — criar do zero",
+      "papel": "Captura de demanda ativa — quem está pesquisando agora",
+      "prioridade": "máxima — primeiro canal a subir",
+      "investimento_mensal_min": 3000,
+      "investimento_mensal_max": 8000,
+      "investimento_recomendado_fase1": 3000,
+
+      "estrutura_de_campanhas": [
+        {
+          "campanha": "Campanha 1 — Pet Food Search",
+          "objetivo": "Capturar fabricantes de ração procurando maçã desidratada",
+          "tipo": "Search",
+          "rede": "Somente Rede de Pesquisa (sem Display na fase inicial)",
+          "estrategia_lances": "CPA desejado ou Maximizar conversões (após 30 dias de dados), Maximizar cliques no início",
+          "palavras_chave": [
+            "maçã desidratada fornecedor",
+            "maçã desidratada atacado",
+            "maçã desidratada pet food",
+            "maçã desidratada para ração",
+            "fruta desidratada para ração",
+            "ingrediente desidratado pet food",
+            "maçã desidratada industrial",
+            "apple dehydrated supplier brazil",
+            "fornecedor frutas desidratadas"
+          ],
+          "match_types": "Frase e Exata — nunca Ampla na fase inicial",
+          "negative_keywords_obrigatorias": [
+            "receita", "como fazer", "caseiro", "supermercado", "onde comprar",
+            "preço", "varejo", "granel", "snack", "dieta", "loja", "empório",
+            "atacadão", "delivery", "100g", "500g", "1kg",
+            "kurumi", "terra vitta", "frutou"
+          ]
+        },
+        {
+          "campanha": "Campanha 2 — Alimentação Humana Search",
+          "objetivo": "Capturar fabricantes de alimentos funcionais procurando maçã desidratada",
+          "tipo": "Search",
+          "palavras_chave": [
+            "maçã desidratada ingrediente",
+            "maçã desidratada granola fornecedor",
+            "fruta desidratada indústria alimentícia",
+            "ingrediente natural para granola",
+            "maçã desidratada sem conservante",
+            "fornecedor ingrediente fit",
+            "maçã desidratada barrinha cereal"
+          ],
+          "match_types": "Frase e Exata",
+          "negative_keywords_obrigatorias": "Mesmas da campanha 1 + 'ração', 'pet', 'animal', 'pássaro'"
+        }
+      ],
+
+      "estrutura_de_anuncios": {
+        "headline_1_opcoes": [
+          "Maçã Desidratada Industrial – Amostra Grátis",
+          "Fornecedor de Maçã Desidratada – SC",
+          "Maçã Desidratada para Ração Pet e Alimentos"
+        ],
+        "headline_2_opcoes": [
+          "Entrega em 2 Dias | Sem Conservantes",
+          "São Joaquim – Capital da Maçã Brasileira",
+          "Pedido Mínimo 400kg | Pague em 90 Dias"
+        ],
+        "headline_3_opcoes": [
+          "Solicite Sua Amostra Grátis Agora",
+          "Documentação Técnica Disponível",
+          "Teste Antes de Comprar – Amostra Grátis"
+        ],
+        "description_1": "Ingrediente padronizado sem conservantes. Fabricado em São Joaquim, SC. Amostra gratuita para qualificação do produto. Entrega em 2 dias.",
+        "description_2": "Único fornecedor com amostra grátis. Documentação APPCC e laudo microbiológico disponíveis. Pagamento em até 120 dias. Peça sua amostra."
+      },
+
+      "extensoes_obrigatorias": [
+        "Extensão de chamada: (49) 99192-4059",
+        "Extensão de sitelink: 'Solicitar Amostra Grátis' | 'Ficha Técnica' | 'Como Comprar' | 'Sobre a FROC'",
+        "Extensão de destaque: 'Sem Conservantes' | 'Entrega 2 Dias' | 'São Joaquim SC' | 'Pagamento 90 Dias'",
+        "Extensão de local (quando tiver endereço configurado)"
+      ],
+
+      "estimativas": {
+        "volume_busca_mensal_total": "50–100 buscas/mês (todas as variações)",
+        "cpc_estimado": "R$1,50–R$3,00/clique",
+        "cliques_por_mes_com_r3000": "1.000–2.000 cliques (sobra de budget para Display remarketing)",
+        "taxa_conversao_lp_estimada": "4–7%",
+        "leads_por_mes_estimados": "40–140",
+        "nota_volume": "Volume baixo de busca é positivo — CPC muito baixo significa que R$3k/mês captura praticamente toda a demanda ativa existente no Brasil para esse nicho",
+        "estimated": true
+      }
+    },
+
+    "meta_ads": {
+      "status_atual": "inexistente — criar do zero",
+      "papel": "Criação de demanda — alcançar decisores que ainda não estão pesquisando ativamente",
+      "prioridade": "secundária — ativar após Google Ads estabilizado (30-45 dias)",
+      "investimento_mensal_min": 1000,
+      "investimento_mensal_max": 2000,
+      "investimento_recomendado_fase1": 1000,
+
+      "estrutura_de_campanhas": [
+        {
+          "campanha": "Campanha 1 — Awareness + Remarketing Pet Food",
+          "objetivo": "Impacto de marca + recuperar visitantes das LPs que não converteram",
+          "tipo": "Traffic + Retargeting",
+          "publico_frio": {
+            "localizacao": "Brasil — Sul e Sudeste prioritários",
+            "cargos": ["Comprador", "Gerente de Compras", "Responsável de Suprimentos", "Diretor de Operações"],
+            "interesses": ["Pet food", "Ração para animais", "Indústria de alimentos", "Agronegócio"],
+            "segmentacao_adicional": "Empresas do setor pet (fabricantes, não pet shops)"
+          },
+          "publico_remarketing": "Visitantes da LP pet food que não preencheram formulário nos últimos 30 dias",
+          "formato": "Imagem estática ou carrossel com produto + argumento de amostra grátis"
+        },
+        {
+          "campanha": "Campanha 2 — Awareness Alimentação Humana",
+          "objetivo": "Alcançar compradores e equipes de qualidade de fabricantes de alimentos",
+          "tipo": "Traffic",
+          "publico_frio": {
+            "localizacao": "São Paulo (SP) prioritário — maior cluster de fabricantes",
+            "cargos": ["Analista de Qualidade", "Comprador", "Gerente de P&D", "Responsável de Ingredientes"],
+            "interesses": ["Alimentos funcionais", "Granola", "Food industry", "Ingredientes alimentícios"]
+          },
+          "formato": "Post com argumento técnico: 'Maçã desidratada de São Joaquim — sem conservantes, com documentação APPCC'"
+        }
+      ],
+
+      "nota_linkedin": "LinkedIn Ads seria mais preciso para Camila (alimentação humana) por segmentação de cargo, mas custo por clique é ~10x maior que Meta. Testar Meta primeiro; migrar para LinkedIn se CPL for insatisfatório no segmento alimentação humana."
+    },
+
+    "google_meu_negocio": {
+      "status_atual": "desconhecido — verificar",
+      "papel": "Aparece em buscas locais + fornece credibilidade com avaliações",
+      "prioridade": "média — não bloqueia campanhas mas adiciona credibilidade",
+      "acoes": [
+        "Verificar se perfil GMB existe (possível registro antigo do grupo)",
+        "Criar ou atualizar com novo posicionamento B2B",
+        "Adicionar endereço da fábrica + horário + fotos da produção",
+        "Solicitar avaliações de clientes existentes"
+      ]
+    }
+  },
+
+  "cronograma_de_lancamento": [
+    {
+      "semana": 1,
+      "acoes": [
+        "Criar conta Google Ads (MCC ou conta direta)",
+        "Configurar Google Tag Manager no site",
+        "Definir evento de conversão: formulário enviado + clique no WhatsApp",
+        "Criar conta Meta Business Manager e Pixel",
+        "Receber e revisar arquivos de marca + fotos para criativos"
+      ]
+    },
+    {
+      "semana": 2,
+      "acoes": [
+        "Desenvolver LPs (pet food + alimentação humana)",
+        "Configurar campanhas Google Ads (estrutura, palavras, anúncios, extensões)",
+        "Criar públicos no Meta (frio + remarketing de LP)"
+      ]
+    },
+    {
+      "semana": 3,
+      "acoes": [
+        "Lançar Google Ads Search com as duas campanhas",
+        "Lançar Meta Ads (awareness pet food primeiro)",
+        "Configurar relatório semanal de acompanhamento"
+      ]
+    },
+    {
+      "semana": "4+",
+      "acoes": [
+        "Otimização contínua: ajuste de lances, negativar palavras que atraíram B2C, teste A/B de headlines",
+        "Ativar campanha Meta para alimentação humana (semana 5-6)",
+        "Avaliar LinkedIn Ads se CPL do Meta for alto para segmento alimentação humana"
+      ]
+    }
+  ],
+
+  "kpis": [
+    {
+      "kpi": "CPL — Custo por Lead",
+      "meta": "< R$150",
+      "calculo": "Investimento total ÷ leads qualificados (formulário preenchido ou WhatsApp iniciado via LP)",
+      "baseline": "null — sem histórico"
+    },
+    {
+      "kpi": "Taxa de conversão LP → Lead",
+      "meta": "4–7%",
+      "baseline": "null — sem histórico",
+      "nota": "Revisar copy da LP se ficar abaixo de 3% após 200 sessões"
+    },
+    {
+      "kpi": "Taxa de conversão Lead → Amostra aprovada",
+      "meta": "> 60%",
+      "calculo": "Amostras aprovadas ÷ amostras enviadas",
+      "nota": "Indica qualidade do produto. Se abaixo de 50%, revisar processo de qualificação do SDR."
+    },
+    {
+      "kpi": "Taxa de conversão Amostra → Pedido",
+      "meta": "> 40%",
+      "calculo": "Pedidos fechados ÷ amostras aprovadas",
+      "nota": "Ciclo de ~20 dias. Rastrear no Prospectei."
+    },
+    {
+      "kpi": "CAC — Custo de Aquisição de Cliente",
+      "meta": "< R$2.000",
+      "calculo": "Investimento total em mídia ÷ clientes que fecharam pedido",
+      "nota": "LTV mínimo de R$134k/ano = payback em menos de 1 semana de contrato"
+    },
+    {
+      "kpi": "Leads qualificados por mês",
+      "meta": "7–10",
+      "nota": "Necessário para atingir 17 clientes em 12 meses com taxa de conversão conservadora de 15-20%"
+    }
+  ],
+
+  "key_leverage_point": {
+    "headline": "Com ~16-100 buscas/mês no Google e CPC de R$1-3, R$3.000/mês pode capturar praticamente toda a demanda ativa de maçã desidratada B2B no Brasil. Nenhum concorrente está fazendo isso com LP otimizada.",
+    "context": "É uma janela rara: demanda real existe (Polpa Brasil provou), CPC é baixo (nicho), e nenhum player tem LP de maçã desidratada otimizada para B2B. Quem criar a infraestrutura correta primeiro (LP + Google Ads + rastreamento) vai acumular histórico e relevância antes que qualquer concorrente perceba.",
+    "numbered_reasons": [
+      "CPC baixo + volume baixo = budget de R$3k/mês cobre todo o mercado ativo. Isso não existe em mercados como 'seguro auto' ou 'empréstimo' — é uma vantagem exclusiva de nichos B2B especializados",
+      "A amostra grátis é o gancho perfeito para Google Ads: usuário pesquisa produto, encontra anúncio com 'amostra grátis', clica, preenche — ciclo direto sem fricção desnecessária",
+      "Meta Ads não vai gerar leads diretos no B2B industrial, mas vai fazer com que Rafael e Camila reconheçam a marca FROC quando chegarem ao Google — reduz CAC e aumenta taxa de conversão no Search"
+    ],
+    "discussion_anchor": "Para apresentar à Driélly: 'Com R$4-5k/mês de mídia, a estimativa conservadora é 7-10 leads qualificados/mês — suficiente para os 17 clientes em 12 meses. O ROI de um único cliente paga 13 meses de investimento em mídia.'"
+  },
+
+  "honesty_alert": "Todas as estimativas de volume, CPC e taxa de conversão são baseadas em benchmarks de mercado B2B industrial — não em dados reais da FROC. Os números serão revisados após as primeiras 4 semanas de campanha rodando. Prometer resultados específicos antes de ter dados reais é vender ilusão."
+}

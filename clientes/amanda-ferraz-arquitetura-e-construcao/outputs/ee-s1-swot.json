@@ -1,0 +1,399 @@
+{
+  "client_name": "Amanda Ferraz Arquitetura e Construção",
+  "summary": "SWOT balanceada (5x5x5x5) mas com fragilidade estrutural real: diferencial técnico defensável (zero comissionamento, projeto sem retrabalho) e território consolidado (40+ projetos no Terras da Alvorada) convivem com dependência crítica de indicação (99%) e de Amanda pessoalmente — CRM ausente e portfólio raso ampliam o risco diante de concorrentes como Eduardo Muzi.",
+
+  "summary_headline": "Amanda Ferraz tem diferencial técnico real e não comunicado (zero comissionamento, sem retrabalho) — mas CRM inexistente e dependência de indicação viram risco de continuidade.",
+
+  "summary_highlights": [
+    {
+      "category": "posicao",
+      "label": "Forças vs fraquezas",
+      "value": "5 x 5",
+      "subtext": "Balanceado, mas fraquezas são estruturais",
+      "tone": "yellow"
+    },
+    {
+      "category": "oportunidade",
+      "label": "Top ação (CRM)",
+      "value": "ROI ~30x em 90d",
+      "subtext": "Investimento baixo, destrava todo o resto",
+      "tone": "green"
+    },
+    {
+      "category": "risco",
+      "label": "Maior ameaça",
+      "value": "Dependência de indicação (99%)",
+      "subtext": "Sem canal digital próprio maduro ainda",
+      "tone": "red"
+    },
+    {
+      "category": "janela",
+      "label": "Condomínios emergentes",
+      "value": "2 sem 'dono' ainda",
+      "subtext": "Almarias e Quinta da Primavera — janela fechando",
+      "tone": "yellow"
+    },
+    {
+      "category": "competicao",
+      "label": "Concorrente mais perigoso",
+      "value": "Eduardo Muzi",
+      "subtext": "Disputa obra a obra, site com melhor branding",
+      "tone": "yellow"
+    }
+  ],
+
+  "summary_key_findings": [
+    {
+      "category": "vantagem",
+      "text": "Amanda tem um diferencial técnico real e verificável (projeto executivo sem retrabalho + recusa de comissionamento de fornecedores) que nenhum concorrente direto comunica com a mesma força."
+    },
+    {
+      "category": "contexto",
+      "text": "O crescimento até aqui veio de um modelo replicável e já provado — virar 'a arquiteta do condomínio' organicamente (40+ projetos no Terras da Alvorada) — mas esse modelo depende de tempo e proximidade física, não escala sozinho."
+    },
+    {
+      "category": "ameaca",
+      "text": "99% da aquisição depende de indicação e da disponibilidade pessoal da Amanda — quando ela teve o filho em 2023, o crescimento desacelerou por ~6 meses. Não há canal digital alternativo maduro hoje."
+    },
+    {
+      "category": "ameaca",
+      "text": "Eduardo Muzi disputa diretamente as mesmas obras e tem o site com melhor direção de arte entre os concorrentes diretos, apesar de tecnicamente mais fraco."
+    },
+    {
+      "category": "acao",
+      "text": "Replicar o playbook do Terras da Alvorada em Almarias e Quinta da Primavera (condomínios emergentes ainda sem arquiteto-referência) antes que a janela feche."
+    }
+  ],
+
+  "strengths": [
+    {
+      "title": "Presença territorial consolidada em condomínio-âncora",
+      "description": "40+ projetos já entregues no condomínio Terras da Alvorada (Jundiaí), onde Amanda é reconhecida como referência local — clientes indicam uns aos outros dentro do próprio condomínio de forma orgânica.",
+      "implication": "O modelo de 'virar a arquiteta do bairro' já está provado e pode ser replicado deliberadamente nos condomínios emergentes (Almarias, Quinta da Primavera), em vez de esperar a indicação orgânica acontecer sozinha.",
+      "source": "briefing"
+    },
+    {
+      "title": "Diferencial técnico real e verificável, ainda não comunicado publicamente",
+      "description": "Projeto executivo compatibilizado evita retrabalho (caso documentado: obra de concorrente exigiu redesenho por incompatibilização estrutural x arquitetônica); recusa formal de comissionamento de fornecedores (RT), com desconto repassado em nota ao cliente — reconhecida no circuito local de fornecedores por essa prática, com prêmio de destaque como arquiteta por 2 anos consecutivos.",
+      "implication": "Pode virar o eixo central de conteúdo educativo e de vendas, já que nenhum dos 3 concorrentes diretos (Eduardo Muzi, Ricardo Gaspari, Guedes e Bisoli) reivindica isso com a mesma força ou consistência.",
+      "source": "briefing"
+    },
+    {
+      "title": "Criativos e presença pessoal acima da média do setor",
+      "description": "Score de 48/100 no pilar de criativos (vs. 28 de benchmark para serviços locais) — Amanda já aparece nos vídeos com autoridade técnica real, diferencial que nenhum concorrente direto replica bem (Ricardo Gaspari não aparece; Eduardo Muzi mistura vida pessoal e perde credibilidade).",
+      "implication": "Já é um motor de conteúdo pronto para acelerar posicionamento territorial e educativo, sem depender de produção do zero.",
+      "source": "diagnostico"
+    },
+    {
+      "title": "Disciplina deliberada de capacidade e qualidade",
+      "description": "Em 2019-2020, dobrou a operação para ~20 obras simultâneas durante a pandemia, percebeu queda de qualidade e controle, e reduziu voluntariamente para o limite atual de 8 obras — decisão estratégica rara no setor, onde a maioria cresce sem esse tipo de disciplina.",
+      "implication": "Pode virar argumento de vendas explícito ('recusamos volume para manter padrão'), em vez de ser tratado apenas como limitação de capacidade.",
+      "source": "operador"
+    },
+    {
+      "title": "Saúde financeira sólida da operação",
+      "description": "Inadimplência histórica praticamente zero (confirmada em 2 anos de observação da equipe interna) e 60-65% dos contratos fechados com pagamento à vista.",
+      "implication": "Dá fôlego financeiro real para investir em estruturação (CRM, portfólio, mídia) sem pressão de caixa imediata — o gargalo não é capital, é organização.",
+      "source": "briefing"
+    }
+  ],
+
+  "weaknesses": [
+    {
+      "title": "CRM inexistente — 5+ anos pagando ferramenta nunca configurada",
+      "description": "Score crítico de 12/100 no diagnóstico de maturidade. Bitrix pago por 5+ anos sem nunca ser configurado adequadamente; hoje avaliando ClickUp. Leads e fornecedores se misturam no mesmo WhatsApp pessoal, sem registro.",
+      "implication": "Se não tratada, qualquer aumento de investimento em mídia paga repete o erro recente (R$1.200 gastos, zero clientes reais identificados) — o problema não é o criativo, é a ausência de rastreamento.",
+      "severity": "critical",
+      "source": "diagnostico"
+    },
+    {
+      "title": "Operação estratégica centralizada inteiramente em Amanda",
+      "description": "Cronograma de projetos e decisões-chave vivem 'na cabeça' da própria Amanda, sem processo documentado. Ela mesma reconhece isso como a maior fraqueza da empresa. Quando teve o filho em 2023, o ritmo de crescimento caiu por ~6 meses.",
+      "implication": "Risco real de continuidade de negócio — qualquer imprevisto pessoal ou de saúde interrompe a operação inteira, não só o marketing. Mitigação: documentar processo no CRM em implementação e delegar decisões operacionais recorrentes.",
+      "severity": "high",
+      "source": "operador"
+    },
+    {
+      "title": "Portfólio digital raso no momento decisivo de comparação",
+      "description": "Site com apenas 3 projetos, identificados só por número, sem case study (contexto, metragem, resultado). Depoimentos existem só como imagem (print), não em texto — não indexável, não reaproveitável.",
+      "implication": "Perde para concorrentes como Guedes e Bisoli, que usam prova social de forma mais robusta, exatamente no estágio em que a família compara 2-3 escritórios antes de decidir.",
+      "severity": "high",
+      "source": "diagnostico"
+    },
+    {
+      "title": "Histórico recente de mídia paga sem estrutura de funil",
+      "description": "Última campanha gastou R$1.200 em 2 semanas com uma única campanha, sem negativação de público/palavras-chave — gerou apenas conversas de fornecedores, não de clientes. Gestor de tráfego demitido após 3 semanas por falta de otimização.",
+      "implication": "Risco de repetir o erro em escala maior se o plano de mídia (R$3.200-4.200/mês) for executado sem reestruturação prévia de segmentação e CRM.",
+      "severity": "high",
+      "source": "diagnostico"
+    },
+    {
+      "title": "Ausência total em buscas por Inteligência Artificial",
+      "description": "Achado da auditoria CRO: Amanda Ferraz não aparece em nenhuma IA generativa ao pesquisar 'arquiteto' na região, apesar do Google Meu Negócio ativo com nota 4,5. Blog do site existe na estrutura mas tem zero posts publicados.",
+      "implication": "O comportamento de busca do público 40+ ainda está no Google hoje, mas a tendência de migração para IA já é real — o gap é barato e fácil de resolver agora, antes que vire crítico.",
+      "severity": "medium",
+      "source": "diagnostico"
+    }
+  ],
+
+  "opportunities": [
+    {
+      "title": "Condomínios de alto padrão emergentes ainda sem 'arquiteto-referência'",
+      "description": "Almarias e Quinta da Primavera são condomínios recém-lançados na região de Jundiaí, em fase de ocupação, ainda sem um arquiteto dominante estabelecido — diferente do Terras da Alvorada (onde Amanda já domina) ou do Atenas (onde Ricardo Gaspari é referência).",
+      "implication": "Replicar deliberadamente o playbook que já funcionou no Terras da Alvorada nesses dois condomínios, antes que um concorrente se estabeleça lá primeiro.",
+      "time_sensitivity": "medium_term",
+      "source": "operador"
+    },
+    {
+      "title": "Demanda represada de São Paulo capital buscando refúgio na região",
+      "description": "Clientes de alto poder aquisitivo da Grande São Paulo, incomodados com trânsito e logística da capital, buscam construir em condomínios da região de Jundiaí — Amanda já tem prova disso (cliente de Perdizes indicado por cliente do Terras da Alvorada).",
+      "implication": "Formalizar esse canal de captação (hoje só acontece por indicação pontual) com conteúdo e segmentação de mídia específica para esse público.",
+      "time_sensitivity": "medium_term",
+      "source": "market_trend"
+    },
+    {
+      "title": "Nenhum concorrente comunica de forma sistemática o controle financeiro/técnico real",
+      "description": "Eduardo Muzi, Ricardo Gaspari e Guedes e Bisoli competem majoritariamente no território estético ('projetos bonitos'). Nenhum expõe publicamente a lógica de planilha de etapas, prestação de contas ou recusa de comissionamento.",
+      "implication": "Ocupar esse território de mensagem com conteúdo educativo (ex: a matemática real do comissionamento oculto de mercado), sem expor a planilha interna em si.",
+      "time_sensitivity": "urgent",
+      "source": "briefing"
+    },
+    {
+      "title": "Escassez de mão de obra e restrição de financiamento afetam todo o setor igualmente",
+      "description": "A dificuldade de encontrar mão de obra qualificada e o teto reduzido de financiamento bancário (Caixa caiu para ~R$2,25 milhões) são dores do setor inteiro — o que valoriza ainda mais um modelo turnkey com equipe fixa fidelizada e previsibilidade de prazo.",
+      "implication": "Usar essas dores do mercado como gancho de conteúdo: 'por que a maioria das obras atrasa agora mais que antes, e como isso não acontece aqui'.",
+      "time_sensitivity": "medium_term",
+      "source": "market_trend"
+    },
+    {
+      "title": "Pioneirismo em buscas por Inteligência Artificial no segmento",
+      "description": "A pesquisa por IA ainda não é hábito do público 40+ hoje, mas a tendência de migração já é real. Nenhum concorrente do segmento aparece bem posicionado nesse canal ainda.",
+      "implication": "Investimento barato agora (conteúdo estruturado, dados no site) garante vantagem de pioneirismo antes que a tendência amadureça e a concorrência perceba.",
+      "time_sensitivity": "long_term",
+      "source": "diagnostico"
+    }
+  ],
+
+  "threats": [
+    {
+      "title": "Eduardo Muzi disputa diretamente as mesmas obras com melhor branding de site",
+      "description": "Concorrente mais direto ('ele pega obras minhas e eu pego obras dele'), com o site avaliado pela própria V4 como o melhor em direção de arte entre os concorrentes diretos — mesmo sendo tecnicamente mais fraco (projeto executivo já causou retrabalho documentado).",
+      "implication": "Neutralizar mostrando o processo técnico ao vivo (prova que ele não tem) em vez de competir só no campo estético, onde ele hoje comunica melhor.",
+      "probability": "high",
+      "impact": "high",
+      "source": "briefing"
+    },
+    {
+      "title": "Restrição de financiamento bancário para construção de alto padrão",
+      "description": "A Caixa Econômica reduziu o teto de financiamento de construção de alto padrão para ~R$2,25 milhões, dificultando parte do público que dependia desse crédito para viabilizar a obra.",
+      "implication": "Orientar clientes dependentes de financiamento para carta de crédito (alternativa já usada pela Amanda) e ajustar o cronograma de obra ao fluxo real de liberação.",
+      "probability": "high",
+      "impact": "medium",
+      "source": "operador"
+    },
+    {
+      "title": "Escassez de mão de obra qualificada aumentando prazo e custo de obra",
+      "description": "Já aumentou o prazo médio de execução de referência (antes mais curto) para ~1,5-2 anos — pressiona justamente a dor central do ICP (medo de obra atrasada).",
+      "implication": "Reforçar a fidelização da equipe fixa de fornecedores (já uma prática deliberada) como proteção direta contra essa ameaça.",
+      "probability": "high",
+      "impact": "medium",
+      "source": "operador"
+    },
+    {
+      "title": "Dependência quase total de indicação, sem motor de aquisição digital próprio",
+      "description": "~99% da carteira nasce de indicação. Se o ritmo de indicações desacelerar (o Terras da Alvorada já tem 40+ projetos, sinal de possível saturação territorial), não há canal alternativo maduro para substituir o volume.",
+      "implication": "Diversificar a fonte de leads com conteúdo de baixo custo (blog, GMB, buscas por IA) antes que a indicação orgânica desacelere.",
+      "probability": "medium",
+      "impact": "high",
+      "source": "diagnostico"
+    },
+    {
+      "title": "Guedes e Bisoli com prova social e organização de portfólio mais robusta",
+      "description": "Usa depoimentos, parceiros e clientes de forma mais consistente que o site atual da Amanda, capturando vantagem exatamente na fase de comparação onde o portfólio raso da Amanda perde.",
+      "implication": "Expandir o portfólio próprio com case studies e depoimentos em texto antes que essa vantagem comparativa se consolide ainda mais.",
+      "probability": "high",
+      "impact": "medium",
+      "source": "briefing"
+    },
+    {
+      "title": "Ricardo Gaspari domina o condomínio Atenas com modelo de negócio quase idêntico",
+      "description": "Nome consolidado no condomínio Atenas (Jundiaí), onde Amanda ainda não tem presença — atua do projeto à execução final, mesmo modelo turnkey da Amanda. Investe pouco em Instagram/publicidade e tem site institucional datado (sem personalidade de marca, segundo a própria análise da V4), mas isso não impede sua dominância territorial construída por tempo de mercado e presença física no condomínio.",
+      "implication": "Não vale a pena disputar o Atenas de frente (território já consolidado); a resposta estratégica é aplicar o mesmo tipo de dominância territorial nos condomínios emergentes (Almarias, Quinta da Primavera) antes que Ricardo Gaspari — ou outro concorrente — se estabeleça lá primeiro.",
+      "probability": "low",
+      "impact": "medium",
+      "source": "briefing"
+    }
+  ],
+
+  "strategic_synthesis": {
+    "leverage": "A aposta principal é cruzar a presença territorial já provada (40+ projetos no Terras da Alvorada) com a força de criativos acima da média do setor: replicar deliberadamente, em Almarias e Quinta da Primavera, o mesmo playbook que fez Amanda virar 'a arquiteta do condomínio' organicamente — mas dessa vez usando conteúdo de vídeo com autoridade pessoal para acelerar o processo, em vez de esperar a indicação boca a boca acontecer sozinha. Esse é o território que nenhum concorrente direto consegue copiar rápido, porque depende de relacionamento e prova real, não de orçamento de mídia.",
+    "protection": "As fraquezas mais perigosas — CRM inexistente, centralização total em Amanda e portfólio raso — amplificam diretamente as ameaças mais reais: sem CRM, qualquer mídia paga repete o erro dos R$1.200 perdidos; sem processo documentado, um novo imprevisto pessoal (como o nascimento do filho em 2023) pode travar a operação de novo; e sem portfólio robusto, Guedes e Bisoli e Eduardo Muzi continuam vencendo a comparação direta no momento decisivo. O risco principal não é falta de diferencial — é que o diferencial real existe mas não está estruturado para ser mensurado, defendido ou escalado.",
+    "recommended_strategy": "Nos próximos 90 dias, a sequência correta é: (1) implementar CRM mínimo e processo de qualificação de lead — pré-condição para tudo o resto; (2) expandir portfólio do site com case studies e depoimentos em texto, em paralelo; (3) só então reestruturar e escalar mídia paga com funil completo, incluindo segmentação específica para os condomínios emergentes e para a demanda de São Paulo capital; (4) simultaneamente, iniciar conteúdo de baixo custo (blog, GMB, otimização para IA) que já capture parte da diversificação de canal necessária. Investir em aquisição antes de resolver os itens 1 e 2 desperdiça orçamento e reproduz o erro recente."
+  },
+
+  "tows_matrix": {
+    "description": "Cruzamento estratégico dos quadrantes SWOT em ações concretas, ordenadas por onde o cliente deve atacar, investir, proteger ou minimizar dano.",
+    "so_strategies": [
+      {
+        "id": "SO1",
+        "strategy": "Replicar o playbook do Terras da Alvorada (referência territorial estabelecida via 40+ projetos) nos condomínios emergentes Almarias e Quinta da Primavera, usando conteúdo de vídeo com a própria Amanda como autoridade.",
+        "rationale": "Cruza a força territorial + força de criativos com a oportunidade de condomínios ainda sem arquiteto-referência estabelecido.",
+        "expected_outcome": "Amanda se torna referência reconhecida em pelo menos +1 condomínio emergente em 6-12 meses, reduzindo dependência de um único território (Terras da Alvorada)."
+      },
+      {
+        "id": "SO2",
+        "strategy": "Transformar a recusa de comissionamento (RT) e o projeto executivo sem retrabalho em conteúdo educativo público, ocupando o território de mensagem que nenhum concorrente comunica.",
+        "rationale": "Cruza o diferencial técnico real e defensável com o gap de comunicação identificado no mercado (nenhum concorrente expõe essa lógica).",
+        "expected_outcome": "Reduz a objeção mais recorrente ('turnkey deve custar mais caro') já na fase de descoberta, antes da reunião comercial."
+      }
+    ],
+    "wo_strategies": [
+      {
+        "id": "WO1",
+        "strategy": "Implementar CRM mínimo (ClickUp) e processo de qualificação de lead ANTES de reestruturar mídia paga, para capturar a demanda represada de São Paulo capital de forma mensurável.",
+        "rationale": "Elimina a fraqueza crítica de CRM para poder efetivamente capturar a oportunidade de demanda de SP capital sem repetir o erro de gastar em leads não qualificados.",
+        "expected_outcome": "Cada real investido em mídia gera dado rastreável (lead real vs. fornecedor), não achismo."
+      },
+      {
+        "id": "WO2",
+        "strategy": "Expandir o portfólio do site (hoje 3 projetos) e converter depoimentos para texto ANTES de investir pesado em conteúdo educativo sobre buscas por IA.",
+        "rationale": "Elimina a fraqueza de portfólio raso para poder efetivamente capturar a oportunidade de pioneirismo em buscas por IA — de nada adianta aparecer bem posicionado se o visitante encontra um portfólio fraco ao clicar.",
+        "expected_outcome": "Taxa de conversão do site melhora antes de qualquer escala de tráfego, pago ou orgânico."
+      }
+    ],
+    "st_strategies": [
+      {
+        "id": "ST1",
+        "strategy": "Usar a presença pessoal de Amanda em vídeo (força de criativos, autoridade real) como resposta direta ao melhor branding de site de Eduardo Muzi, mostrando o processo técnico ao vivo — algo que ele não faz.",
+        "rationale": "A força de criativos e autoridade pessoal neutraliza a ameaça direta do concorrente que mais disputa as mesmas obras.",
+        "expected_outcome": "Diferencia Amanda exatamente no ponto onde Eduardo Muzi é mais fraco (falta de prova social e presença pessoal)."
+      },
+      {
+        "id": "ST2",
+        "strategy": "Fidelizar ainda mais a equipe fixa de fornecedores e mão de obra (já uma prática deliberada) para proteger prazo de obra contra a escassez de mão de obra do setor.",
+        "rationale": "A força de equipe fixa fidelizada por volume e qualidade neutraliza a ameaça de escassez de mão de obra que afeta o setor inteiro.",
+        "expected_outcome": "Amanda mantém prazo médio de obra mais previsível que concorrentes que dependem de mão de obra avulsa."
+      }
+    ],
+    "wt_strategies": [
+      {
+        "id": "WT1",
+        "strategy": "Documentar e delegar parte do processo de gestão de obra (hoje só na cabeça da Amanda) através do CRM em implementação, reduzindo a dependência de disponibilidade pessoal dela.",
+        "rationale": "Reduz a fraqueza de centralização que amplificaria a ameaça de perda de ritmo caso Amanda fique indisponível novamente (como ocorreu em 2023).",
+        "expected_outcome": "A operação sobrevive a imprevistos pessoais sem repetir os ~6 meses de desaceleração já observados."
+      },
+      {
+        "id": "WT2",
+        "strategy": "Diversificar a fonte de leads (hoje 99% indicação) começando por conteúdo de baixo custo e baixo risco (blog, GMB, buscas por IA) antes de depender só de mídia paga escalada.",
+        "rationale": "Reduz a fraqueza de dependência de indicação que amplificaria a ameaça de saturação territorial (Terras da Alvorada já com 40+ projetos) somada à concorrência com melhor portfólio.",
+        "expected_outcome": "Pelo menos um canal de aquisição digital funcional além da indicação em 90 dias."
+      }
+    ]
+  },
+
+  "priority_actions": [
+    {
+      "action": "Implementar CRM mínimo viável (ClickUp) com pipeline de 3-5 etapas e processo de qualificação de lead (separar cliente de fornecedor desde o primeiro contato)",
+      "swot_basis": "Elimina W1 (CRM crítico), viabiliza WO1, protege contra WT1",
+      "impact": "high",
+      "suggested_timeline": "Semana 1-2 da estruturação (imediato)",
+      "dependencies": [],
+      "financial_impact": {
+        "investment": 500,
+        "expected_return_90d": 15000,
+        "payback_days": 20,
+        "roi_multiple": 30,
+        "note": "Investimento é majoritariamente tempo de configuração (ClickUp já em avaliação pela própria Amanda); retorno é indireto — evita repetir a perda de R$1.200 em mídia sem rastreamento e permite medir conversão real pela primeira vez."
+      },
+      "risk_adjusted_score": {"impact": 10, "probability_of_success": 9, "reversibility": 9, "score": 9.3}
+    },
+    {
+      "action": "Expandir o portfólio do site para 6+ projetos com case study (contexto, metragem, resultado) e converter os depoimentos existentes de imagem para texto",
+      "swot_basis": "Elimina W3 (portfólio raso), captura O3 (mensagem exclusiva do diferencial técnico), executa WO2, protege contra T5 (Guedes e Bisoli)",
+      "impact": "high",
+      "suggested_timeline": "Semana 2, em paralelo ao CRM",
+      "dependencies": [],
+      "financial_impact": {
+        "investment": 3000,
+        "expected_return_90d": 15000,
+        "payback_days": 45,
+        "roi_multiple": 5,
+        "note": "Retorno estimado por redução do vazamento identificado no funil de comparação (ICP) — difícil mensurar isoladamente sem CRM/analytics ativos."
+      },
+      "risk_adjusted_score": {"impact": 8, "probability_of_success": 9, "reversibility": 10, "score": 8.7}
+    },
+    {
+      "action": "Publicar os primeiros posts no blog do site, completar o Google Meu Negócio e criar conteúdo específico posicionando Amanda nos condomínios emergentes (Almarias, Quinta da Primavera)",
+      "swot_basis": "Corrige fraqueza de SEO/ausência em IA, captura O1 (condomínios emergentes) e O5 (buscas por IA), executa SO1",
+      "impact": "medium",
+      "suggested_timeline": "Semana 3",
+      "dependencies": [],
+      "financial_impact": {
+        "investment": 1500,
+        "expected_return_90d": 8000,
+        "payback_days": 60,
+        "roi_multiple": 5.3,
+        "note": "Estimado por geração de tráfego orgânico qualificado de baixo custo; retorno real depende do ciclo de vendas de 60 dias."
+      },
+      "risk_adjusted_score": {"impact": 7, "probability_of_success": 8, "reversibility": 10, "score": 8.0}
+    },
+    {
+      "action": "Padronizar a direção de arte dos criativos (fonte única, vermelho como detalhe, cantos retos, vinheta de encerramento) usando o manual de identidade visual já existente",
+      "swot_basis": "Alavanca F3 (criativos acima da média do setor), executa ST1 contra T1 (Eduardo Muzi)",
+      "impact": "medium",
+      "suggested_timeline": "Semana 2-3",
+      "dependencies": ["Manual de identidade visual já existente"],
+      "financial_impact": {
+        "investment": 800,
+        "expected_return_90d": 5000,
+        "payback_days": 40,
+        "roi_multiple": 6.25,
+        "note": "Baixo investimento, retorno indireto via percepção de marca — difícil mensurar isoladamente."
+      },
+      "risk_adjusted_score": {"impact": 6, "probability_of_success": 9, "reversibility": 10, "score": 8.0}
+    },
+    {
+      "action": "Reestruturar a mídia paga com funil completo (topo/meio/fundo), negativação de públicos/palavras-chave e segmentação específica para SP capital, antes de escalar o investimento proposto (R$3.200-4.200/mês)",
+      "swot_basis": "Corrige W4 (mídia sem estrutura), captura O2 (demanda de SP capital), executa WO1 e SO2",
+      "impact": "high",
+      "suggested_timeline": "Semana 2-3, após CRM mínimo implementado",
+      "dependencies": ["CRM mínimo implementado (ação 1)", "Portfólio expandido (ação 2, recomendado)"],
+      "financial_impact": {
+        "investment": 9600,
+        "expected_return_90d": 900000,
+        "payback_days": 75,
+        "roi_multiple": 93.75,
+        "note": "Estimativa de PIPELINE qualificado gerado (não faturamento fechado) — dado o ticket médio de R$450-500 mil por projeto, mesmo 1-2 leads qualificados que avancem no funil já justificam o investimento. Contingente à capacidade máxima de 8 obras simultâneas e ao CRM estar funcional para rastrear."
+      },
+      "risk_adjusted_score": {"impact": 9, "probability_of_success": 7, "reversibility": 6, "score": 7.5}
+    },
+    {
+      "action": "Documentar o processo de gestão de obra no CRM em implementação, delegando decisões operacionais recorrentes para reduzir a dependência de disponibilidade pessoal da Amanda",
+      "swot_basis": "Reduz W2 (centralização), executa WT1 contra risco de indisponibilidade pessoal",
+      "impact": "medium",
+      "suggested_timeline": "Semana 3-4, após CRM básico implementado",
+      "dependencies": ["CRM mínimo implementado (ação 1)"],
+      "financial_impact": {
+        "investment": 1000,
+        "expected_return_90d": 10000,
+        "payback_days": 70,
+        "roi_multiple": 10,
+        "note": "Retorno estimado por redução de risco de parada operacional — difícil de quantificar precisamente, mas o precedente de 2023 (6 meses de desaceleração) é real."
+      },
+      "risk_adjusted_score": {"impact": 7, "probability_of_success": 7, "reversibility": 8, "score": 7.3}
+    }
+  ],
+
+  "key_insight": {
+    "headline": "Amanda já é 'dona' de um condomínio (40+ projetos no Terras da Alvorada) — e há pelo menos dois condomínios emergentes na região ainda sem arquiteto de referência.",
+    "context": "Enquanto Ricardo Gaspari domina o condomínio Atenas e Eduardo Muzi disputa obra a obra sem território fixo, Amanda já provou que consegue se tornar 'a arquiteta do bairro' organicamente. Almarias e Quinta da Primavera são condomínios recém-lançados na mesma região, ainda em fase de ocupação e sem esse tipo de dominância estabelecida.",
+    "numbered_reasons": [
+      "O modelo já funciona e é verificável: 40+ projetos entregues no Terras da Alvorada geraram indicação orgânica dentro do próprio condomínio, sem depender de mídia paga.",
+      "Os dois condomínios emergentes estão em fase de ocupação — a janela para virar referência territorial fecha à medida que mais moradores já contratam outros arquitetos.",
+      "A força de criativos (48/100, acima da média do setor) já dá a Amanda um motor de conteúdo/vídeo pronto para acelerar esse posicionamento territorial, em vez de depender só do boca a boca."
+    ],
+    "discussion_anchor": "Vale decidir com a Amanda: destinar parte do orçamento de conteúdo/mídia especificamente para esses dois condomínios emergentes, tratando-os como aposta territorial deliberada — não apenas mais uma segmentação geográfica genérica no plano de mídia?"
+  },
+
+  "honesty_alert": "A análise revela uma fragilidade estrutural real, não só um gap de marketing: ~99% da aquisição depende de indicação e da disponibilidade pessoal da Amanda — que já causou ~6 meses de desaceleração em 2023, por motivo pessoal legítimo (nascimento do filho). Isso é um risco de continuidade de negócio. Nenhuma estratégia de mídia paga ou conteúdo compensa isso sozinha; o CRM mínimo (ação 1) e a documentação de processo (ação 6) são pré-condição, não opcional, antes de qualquer aposta de crescimento agressivo em mídia."
+}

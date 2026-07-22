@@ -1,0 +1,251 @@
+{
+  "client_name": "Amanda Ferraz Arquitetura e Construção",
+  "segment": "Arquitetura residencial de alto padrão (turnkey: projeto + interiores + gestão de obra)",
+  "region": "Jundiaí-SP e Região Metropolitana de Campinas (Vinhedo, Valinhos, Itupeva), com demanda pontual de São Paulo capital via indicação",
+
+  "summary": "Amanda Ferraz atua num SAM regional estimado em ~R$251 milhões/ano (arquitetura + gestão de obra de alto padrão em Jundiaí/RMC), mas fatura ~R$1 milhão/ano (~0,4% do SAM). O gap não é falta de mercado — o segmento de médio-alto padrão cresceu 20% em 2025 no Brasil — é capacidade operacional (limite deliberado de 8 obras simultâneas) e comunicação de um diferencial real (controle financeiro transparente, zero comissionamento) que nenhum dos 5 concorrentes mapeados reivindica.",
+
+  "summary_headline": "Amanda Ferraz tem 0,4% de um SAM regional de R$251M/ano — o gap não é falta de mercado, é capacidade (8 obras) e um diferencial real ainda não comunicado.",
+
+  "summary_highlights": [
+    {"category": "posicao", "label": "Fatia atual do SAM", "value": "~0,4%", "subtext": "R$1M de ~R$251M regional estimado", "tone": "red"},
+    {"category": "oportunidade", "label": "SOM de mercado", "value": "R$23M/ano", "subtext": "Teto se capacidade e comunicação forem resolvidas", "tone": "green"},
+    {"category": "competicao", "label": "Concorrentes diretos mapeados", "value": "5", "subtext": "Nenhum comunica controle financeiro real", "tone": "yellow"},
+    {"category": "janela", "label": "Condomínios emergentes", "value": "2 sem 'dono' ainda", "subtext": "Almarias e Quinta da Primavera", "tone": "yellow"},
+    {"category": "risco", "label": "Financiamento imobiliário", "value": "-17% em 2025", "subtext": "Selic a 15% pressiona quem depende de crédito", "tone": "red"}
+  ],
+
+  "summary_key_findings": [
+    {"category": "vantagem", "text": "Amanda tem 2 diferenciais reais confirmados (projeto sem retrabalho, zero comissionamento de fornecedores) que nenhum dos 5 concorrentes mapeados comunica com a mesma força."},
+    {"category": "contexto", "text": "O segmento de médio-alto padrão brasileiro cresceu 20% em 2025 (R$30 bilhões em VGV lançado), mais rápido que o mercado imobiliário geral (projeção de 10% para 2026, segundo a CBIC)."},
+    {"category": "ameaca", "text": "Queda de 17% nos financiamentos imobiliários em 2025 (Selic a 15%) pressiona justamente o público que depende de crédito para viabilizar a obra."},
+    {"category": "ameaca", "text": "Nenhum dos 5 concorrentes mapeados tem estrutura madura de comunicação sobre controle financeiro — mas o mercado já move R$30 bilhões/ano e a janela de diferenciação não é permanente."},
+    {"category": "acao", "text": "O gap entre faturamento atual (R$1M) e o SOM de mercado (R$23M) exige resolver capacidade operacional (hoje limitada a 8 obras) e comunicação (hoje 99% indicação) simultaneamente — não é problema de falta de demanda."}
+  ],
+
+  "tam_sam_som": {
+    "methodology": "mixed",
+    "tam": {
+      "value_brl": 30000000000,
+      "description": "Mercado brasileiro de lançamentos residenciais de médio e alto padrão (VGV), que fechou 2025 com R$30 bilhões, crescimento de 20% sobre os R$25 bilhões de 2024. Serve como teto macro de referência para o apetite do segmento de alto padrão no Brasil — nota: esse dado é predominantemente de lançamentos de incorporadoras (apartamentos/condomínios em bloco), não de construções sob encomenda em terreno próprio (o modelo real da Amanda), mas é o proxy público mais próximo e defensável disponível."
+    },
+    "sam": {
+      "value_brl": 251000000,
+      "description": "Mercado de arquitetura residencial de alto padrão (honorários de projeto + interiores + gestão de obra) na região de Jundiaí e RMC (Vinhedo, Valinhos, Itupeva), incluindo demanda pontual de São Paulo capital via indicação. Calculado bottom-up: estimativa de 180-220 obras de alto padrão iniciadas por ano na região [E] (baseado nos condomínios ativos identificados: Terras da Alvorada, Atenas, Almarias, Quinta da Primavera, Alphaville Jundiaí, Reserva da Ermida), com ticket médio de projeto+interiores de R$475 mil (ponto médio da faixa R$450-500 mil confirmada pela cliente) e gestão de obra de 12% sobre uma obra média de R$6,5 milhões (R$780 mil) — usando 200 obras/ano como ponto médio: 200 × (R$475 mil + R$780 mil) = R$251 milhões/ano.",
+      "filters": [
+        "Região geográfica: Jundiaí + RMC (Vinhedo, Valinhos, Itupeva) + demanda pontual de São Paulo capital via indicação",
+        "Obras residenciais de alto padrão (investimento de obra de R$5-10 milhões+)",
+        "Modelo de negócio: projeto + interiores + gestão de obra (exclui construção popular, reforma simples e serviços avulsos)",
+        "Apenas honorários de arquitetura/gestão — exclui o valor bruto da obra (material e mão de obra), que vai para fornecedores/construtoras"
+      ]
+    },
+    "som": {
+      "value_brl": 23000000,
+      "description": "SOM de mercado (teto tangível de captura, independente de capacidade interna e sem horizonte temporal fixo): triangulado por 3 métodos independentes. Método 1 (capacidade operacional atual, R$5,02M) ficou bem abaixo dos Métodos 2 e 3 — isso é esperado e reflete uma restrição INTERNA de capacidade (8 obras simultâneas por decisão deliberada da Amanda), não uma limitação do mercado. O SOM de mercado usa a convergência dos Métodos 2 e 3 (~R$22-25M), não o Método 1. Este número NÃO é a meta comercial da cliente (registrada separadamente em `market_share`) nem está limitado pela capacidade atual (registrada em `operational_ceiling_note`).",
+      "assumptions": [
+        "Método 1 — Capacidade operacional plenamente madura: 8 obras simultâneas ÷ ciclo médio de 2 anos = ~4 novas obras fechadas/ano × (R$475 mil projeto + R$780 mil gestão de obra) = R$5,02 milhões/ano.",
+        "Método 2 — Market share top-down: Amanda já é referência estabelecida em 1 condomínio (Terras da Alvorada, 40+ projetos em ~11 anos). Aplicando benchmark de 'líder de quadrante de nicho' (8-12% do SAM) a um SAM de R$251M: 10% × R$251M = R$25,1 milhões.",
+        "Método 3 — Segmento por nicho: dentro do SAM, ~50% corresponde a clientes que buscam o modelo turnkey completo (a 'camada endereçável' de R$125,5M — ver `market_share.enderecavel_value_brl`). Amanda, como uma das poucas que oferece esse modelo genuinamente, capturando 15-20% desse nicho quando plenamente madura: 17,5% × R$125,5M ≈ R$22 milhões.",
+        "Convergência: Método 2 (R$25,1M) e Método 3 (R$22M) convergem numa faixa de R$22-25M — usado o ponto médio arredondado (R$23M) como SOM. Método 1 (R$5,02M) diverge por ser limitado pela capacidade interna, não pelo mercado — registrado separadamente."
+      ],
+      "operational_ceiling_note": "Capacidade operacional atual (8 obras simultâneas, decisão deliberada da Amanda após reduzir de 20 obras em 2019-2020) topa em ~R$5,02 milhões/ano em regime de agenda cheia. O gap de R$17,98 milhões entre a capacidade atual e o SOM de mercado (R$23M) exige expansão futura (contratação de mais gestores de obra, possível segunda equipe) — não é um problema de demanda, é de estrutura interna.",
+      "related_but_separate": {
+        "client_annual_revenue_goal_brl_v4mos": null,
+        "client_annual_revenue_goal_source_v4mos": null,
+        "client_monthly_revenue_goal_kickoff": "R$500.000/mês = R$6.000.000/ano — meta verbal registrada no kickoff (2026-06-08): 'minha meta é fechar 10 projetos grandes e faturar no mínimo R$500.000 por mês'",
+        "note": "Cliente sem workspace V4MOS conectado, então não há meta registrada nesse formulário. A única meta documentada vem do kickoff presencial (R$6M/ano), que representa ~26% do SOM de mercado calculado (R$23M) — uma meta de curto/médio prazo bem mais conservadora que o teto de mercado, o que é saudável dado que ainda depende de resolver CRM e capacidade operacional antes de crescer."
+      }
+    },
+    "sources": [
+      {"name": "Papo Imobiliário — Mercado imobiliário de médio e alto padrão cresce 20% em 2025", "url": "https://www.papoimobiliario.com/mercado-imobiliario-de-medio-e-alto-padrao-cresce-20-em-2025-e-supera-r30-bilhoes-em-lancamentos/", "year": 2025},
+      {"name": "CBIC — projeção de crescimento do mercado imobiliário brasileiro para 2026", "url": "https://portas.com.br/noticias/mercado-imobiliario-projeta-crescimento-de-10-em-2026/", "year": 2026},
+      {"name": "CAU/SP — número de arquitetos e empresas registradas em São Paulo", "url": "https://www.instagram.com/p/CMKJmRps7lL/", "year": 2026},
+      {"name": "Chenquer & Camargo Imóveis — Mercado Imobiliário de Jundiaí Aquecido em 2025/2026", "url": "https://chenquerecamargo.com.br/artigo/9349/mercado-imobiliario-de-jundiai-aquecido-em-2025", "year": 2026},
+      {"name": "Lar Pontual Engenharia — Tabela de Honorários de Arquitetura 2026", "url": "https://larpontual.com.br/portal/quanto-cobra-arquiteto", "year": 2026},
+      {"name": "Reunião de kickoff (2026-06-08) — dados verbais confirmados pela própria cliente sobre ticket, obra e capacidade", "url": "clientes/amanda-ferraz-arquitetura-e-construcao/base-de-conhecimento/2026-06-08-reuniao-kickoff.md", "year": 2026}
+    ]
+  },
+
+  "market_share": {
+    "current_revenue_brl": 1000000,
+    "current_share_of_sam_pct": 0.4,
+    "target_share_of_sam_pct": 9.2,
+    "gap_to_som_brl": 22000000,
+    "gap_to_som_pct": 2200,
+    "commentary": "Amanda captura hoje uma fatia mínima (~0,4%) do SAM regional estimado. O gap percentual até o SOM (2.200%) parece extremo, mas reflete o teto de mercado PLENAMENTE MADURO — não uma meta de curto prazo. Atingi-lo exigiria resolver, em paralelo: (1) capacidade operacional (hoje limitada a 8 obras simultâneas, teto de ~R$5M/ano mesmo em regime cheio); e (2) comunicação do diferencial real (hoje 99% da carteira vem de indicação, sem motor de aquisição digital próprio). A meta declarada pela cliente (R$6M/ano) é um passo intermediário muito mais realista no curto prazo.",
+    "client_annual_revenue_goal_brl": 6000000,
+    "client_annual_revenue_goal_source": "Kickoff V4 (2026-06-08) — meta verbal da cliente: 'minha meta é fechar 10 projetos grandes e faturar no mínimo R$500.000 por mês'",
+    "client_goal_vs_som_note": "A meta declarada pela cliente no kickoff (R$6M/ano) representa ~26% do SOM de mercado calculado (R$23M) — uma meta de curto/médio prazo bem mais conservadora que o teto de mercado, o que é saudável dado que ainda depende de resolver CRM e capacidade operacional. Não há uma segunda meta registrada em outra fonte (cliente sem workspace V4MOS conectado).",
+    "enderecavel_value_brl": 125500000,
+    "enderecavel_composition": "50% do SAM estimado (R$251M) corresponde a clientes que buscam o modelo turnkey completo (projeto + interiores + gestão de obra) = R$125,5M. Os outros 50% correspondem a clientes que buscam apenas parte do serviço (só projeto arquitetônico, ou só execução de obra com projeto de terceiros).",
+    "enderecavel_note": "O SAM de R$251M/ano inclui clientes que querem contratar só uma parte do serviço — perfil que Amanda recusa por decisão estratégica deliberada (ela só fecha o pacote completo, conforme registrado no ICP e na SWOT). O Mercado Endereçável real dela é a metade do SAM que busca esse modelo turnkey integrado, hoje raro na região. Dentro desse endereçável, o SOM de R$23M representa ~18,3% de captura — nível de líder de nicho consolidado, não de player marginal. A razão SOM/SAM (9,2%) parece baixa isoladamente, mas a razão SOM/Endereçável (18,3%) mostra que, dentro do que ela de fato persegue, o potencial de liderança é real."
+  },
+
+  "competitors": [
+    {
+      "name": "Eduardo Muzi",
+      "positioning": "Projetos com forte apelo estético de alto padrão, com posicionamento editorial no site — 'parece um editorial de arquitetura', segundo a própria auditoria de design feita para Amanda.",
+      "channels": ["Instagram", "site próprio (editorial)", "indicação"],
+      "strengths": ["Melhor direção de arte de site entre os concorrentes diretos mapeados (muito espaço em branco, fotografia protagonista)", "Forte apelo estético/visual, reconhecido inclusive pela concorrência"],
+      "weaknesses": ["Projeto executivo tecnicamente fraco — já gerou retrabalho documentado em obra que a Amanda precisou assumir e redesenhar (vigas do projeto estrutural não batiam com o arquitetônico)", "Site sem nenhuma prova social/depoimento", "Instagram mistura vida pessoal com projetos, reduzindo a percepção de padrão premium", "Vídeos em formato horizontal, não otimizados para consumo mobile"],
+      "estimated_pricing": "Não divulgado publicamente (padrão do setor) — estimado na mesma faixa da Amanda dado o mesmo território de clientes, R$400-550 mil em honorários de projeto+interiores [E]",
+      "digital_score": 6,
+      "digital_details": {
+        "website": "Melhor direção de arte do grupo, mas zero prova social",
+        "instagram": "Mistura vida pessoal com projetos; capas de vídeo pixeladas em alguns posts",
+        "google": "Não auditado nesta rodada",
+        "active_ads": "Não identificados nesta pesquisa"
+      }
+    },
+    {
+      "name": "Ricardo Gaspari",
+      "positioning": "Referência consolidada no condomínio Atenas (Jundiaí), atuação do projeto à execução final — modelo de negócio quase idêntico ao da Amanda, mas sem investimento equivalente em comunicação digital.",
+      "channels": ["Indicação local dentro do condomínio Atenas", "site institucional", "pouca presença em Instagram/publicidade"],
+      "strengths": ["Dominância territorial estabelecida e de longa data no condomínio Atenas", "Tempo de mercado consolidado na região"],
+      "weaknesses": ["Site institucional datado (estilo 2015-2018), sem personalidade de marca — avaliação direta da equipe V4: 'se tirar as fotos de fundo, não dá para saber o que ele faz'", "Investimento mínimo em Instagram/publicidade digital", "Não constrói branding próprio, depende quase inteiramente de reputação territorial de boca a boca"],
+      "estimated_pricing": "Não divulgado publicamente [E] — estimado em faixa semelhante à Amanda, dado o modelo de negócio quase idêntico",
+      "digital_score": 3,
+      "digital_details": {
+        "website": "Institucional datado, sem prova social",
+        "instagram": "Presença mínima",
+        "google": "Não auditado nesta rodada",
+        "active_ads": "Nenhum identificado"
+      }
+    },
+    {
+      "name": "Guedes e Bisoli",
+      "positioning": "Organização de portfólio e prova social robusta — comunicação que se aproxima de um 'catálogo de alto padrão', com filtro visual consistente em todas as fotos do Instagram.",
+      "channels": ["Instagram (feed com filtro padronizado)", "site com boa organização e depoimentos", "Google Ads (testado, com variação de criativos por ambiente/pessoa)"],
+      "strengths": ["Melhor uso de provas sociais e organização de portfólio entre os concorrentes diretos mapeados", "Filtro visual consistente no Instagram cria reconhecimento de marca sem depender de repetir o logo", "Testa criativos variados (mesmo copy, ambientes/pessoas diferentes) em mídia paga"],
+      "weaknesses": ["Direção de arte 'no meio-termo' — nem tão popular quanto Ricardo Gaspari, nem tão refinada quanto Eduardo Muzi", "Amanda já ouviu críticas técnicas de terceiros sobre qualidade de projeto executivo, embora sem confirmação direta"],
+      "estimated_pricing": "Não divulgado publicamente [E] — estimado em faixa semelhante ao mercado de alto padrão da região",
+      "digital_score": 7,
+      "digital_details": {
+        "website": "Bem organizado, com depoimentos e clientes",
+        "instagram": "Feed com filtro consistente, parece catálogo premium",
+        "google": "Ativo em Google Ads",
+        "active_ads": "Sim — testes de ambiente/pessoa identificados na análise de tráfego"
+      }
+    },
+    {
+      "name": "Vitor Dias Arquitetura",
+      "positioning": "'Arquitetura que transforma espaços em experiências de viver' — atuação multi-praça (Jundiaí, Alphaville, Campinas) com ambição de escala nacional.",
+      "channels": ["Site institucional", "Instagram", "indicação multi-regional"],
+      "strengths": ["Escala maior — presença em múltiplas praças", "Discurso consistente de tradução da personalidade do cliente no traço arquitetônico"],
+      "weaknesses": ["Presença/território específico em Jundiaí mais diluído do que a Amanda, que domina o Terras da Alvorada", "Discurso genérico, semelhante ao restante do setor ('transformar espaços em experiências')"],
+      "estimated_pricing": "Não divulgado publicamente [E]",
+      "digital_score": 6,
+      "digital_details": {
+        "website": "Institucional, discurso genérico do setor",
+        "instagram": "Presença regular",
+        "google": "Não auditado nesta rodada",
+        "active_ads": "Não identificado"
+      }
+    },
+    {
+      "name": "Adriana Consulin Arquitetura",
+      "positioning": "'Transforma ambientes em experiências memoráveis' — forte capital de mídia acumulado (prêmios CasaCor, aparições em TV).",
+      "channels": ["TV (Bora Decorar/Band)", "CasaCor e Campinas Decor", "Instagram", "site institucional"],
+      "strengths": ["Maior prova social midiática do grupo (20+ anos de mercado, portfólio internacional, prêmios em eventos do setor)", "Participação em eventos de grande visibilidade (CasaCor)"],
+      "weaknesses": ["Sede em Campinas, não em Jundiaí — presença territorial mais diluída na região específica da Amanda", "Discurso também genérico ('transformar ambientes em experiências memoráveis')"],
+      "estimated_pricing": "Não divulgado publicamente [E] — provavelmente ticket mais alto dado o capital de mídia acumulado",
+      "digital_score": 7,
+      "digital_details": {
+        "website": "Institucional com forte prova social midiática",
+        "instagram": "Presença consistente",
+        "google": "Não auditado nesta rodada",
+        "active_ads": "Não identificado"
+      }
+    }
+  ],
+
+  "competitive_map": {
+    "axis_x": "Generalista (múltiplas praças/regiões) ←→ Especialista territorial (nicho e local)",
+    "axis_y": "Estética pura (portfólio/imagem) ←→ Controle técnico-financeiro comunicado (processo e previsibilidade)",
+    "positions": [
+      {"name": "Eduardo Muzi", "quadrant": "Especialista territorial + Estética pura"},
+      {"name": "Ricardo Gaspari", "quadrant": "Especialista territorial + Estética pura (mais fraca, institucional datado)"},
+      {"name": "Guedes e Bisoli", "quadrant": "Especialista territorial + Estética pura (com boa prova social)"},
+      {"name": "Vitor Dias Arquitetura", "quadrant": "Generalista + Estética pura"},
+      {"name": "Adriana Consulin Arquitetura", "quadrant": "Generalista + Estética pura"},
+      {"name": "Amanda Ferraz (posição sugerida)", "quadrant": "Especialista territorial + Controle técnico-financeiro comunicado"}
+    ],
+    "empty_spaces": "O quadrante 'Especialista territorial + Controle técnico-financeiro comunicado' está vazio — nenhum concorrente mapeado comunica processo, planilha ou previsibilidade financeira com a mesma força que Amanda já tem internamente, mas ainda não comunica publicamente.",
+    "crowded_spaces": "O quadrante 'Especialista territorial + Estética pura' é o mais disputado — Eduardo Muzi, Ricardo Gaspari e Guedes e Bisoli competem todos ali, brigando por sutilezas de portfólio e direção de arte, sem diferenciação real de processo."
+  },
+
+  "trends": [
+    {
+      "trend": "Gestão de obra com controle de cronograma e orçamento em tempo real virou expectativa básica no segmento de alto padrão, não mais diferencial.",
+      "evidence": "Fontes do setor apontam que, para 2026, 'o nível de controle precisa ser mais rigoroso, acompanhando o cronograma em tempo real... além de uma gestão financeira precisa para garantir que o orçamento seja respeitado' (Weiku, Dabus Arquitetura, tendências de arquitetura 2026)."
+    },
+    {
+      "trend": "O segmento de médio-alto padrão brasileiro cresce mais rápido que o mercado imobiliário geral.",
+      "evidence": "R$30 bilhões em VGV lançado em 2025 (crescimento de 20% sobre 2024), contra projeção de apenas 10% de crescimento geral do mercado imobiliário para 2026, segundo a CBIC (fonte: Papo Imobiliário, Portas)."
+    },
+    {
+      "trend": "Jundiaí se consolida como polo de crescimento para o alto padrão, com novos lançamentos e forte demanda por casas de 4 suítes entre R$1,5M e R$4M.",
+      "evidence": "Relatórios do mercado imobiliário local (Chenquer & Camargo, Roberto Appires, 2025/2026) confirmam aquecimento do segmento na região, com novos empreendimentos como Alphaville Jundiaí e Reserva da Ermida."
+    }
+  ],
+
+  "threats": [
+    {
+      "threat": "Queda de 17% nos financiamentos imobiliários em 2025, impulsionada pela Selic a 15%, afetando principalmente o segmento de médio e alto padrão.",
+      "potential_impact": "Clientes que dependem de financiamento (não fecham 100% à vista) podem adiar a decisão de investir nos próximos 12 meses, reduzindo o volume de novos contratos fechados — já sentido pela própria Amanda, que orienta clientes para carta de crédito como alternativa."
+    },
+    {
+      "threat": "Escassez de mão de obra qualificada no setor, já relatada diretamente pela Amanda, aumentando o prazo médio de obra para ~2 anos.",
+      "potential_impact": "Prazos mais longos aumentam o risco de insatisfação do cliente (a dor mais crítica do ICP é justamente medo de obra atrasada) e reduzem a velocidade de giro do pipeline de 8 obras simultâneas nos próximos 12 meses."
+    }
+  ],
+
+  "unexploited_opportunity": {
+    "description": "Ocupar o território 'A única arquiteta de alto padrão da região que mostra o controle financeiro real da obra — não só a planta bonita' — nenhum dos 5 concorrentes mapeados (Eduardo Muzi, Ricardo Gaspari, Guedes e Bisoli, Vitor Dias, Adriana Consulin) comunica processo, planilha ou previsibilidade financeira como diferencial público.",
+    "why_nobody_does_it": "(1) A maioria dos escritórios de arquitetura vende principalmente estética/portfólio, porque historicamente é o que gera mais engajamento em redes sociais e revistas do setor — expor processo financeiro parece 'menos bonito' e menos compartilhável. (2) Mostrar controle financeiro exige expor vulnerabilidade real (nem toda obra é perfeita), o que a maioria dos concorrentes evita por medo de parecer menos 'mágico' ou aspiracional aos olhos do público. (3) Comunicar isso de forma crível exige ter, de fato, um sistema implementado (planilha, prestação de contas, processo documentado) — a maioria dos concorrentes menores mapeados simplesmente não tem esse processo estruturado para mostrar, mesmo que quisesse copiar a estratégia.",
+    "feasibility": "alta"
+  },
+
+  "market_jtbd": {
+    "current_solutions": "A maioria do mercado regional resolve contratando separadamente: um arquiteto para o projeto, uma construtora/empreiteiro para a execução, e às vezes um decorador para os interiores — três contratos, três responsáveis, sem garantia de compatibilização técnica entre eles.",
+    "alternatives": [
+      {"type": "direct", "description": "Contratar um concorrente direto (Eduardo Muzi, Ricardo Gaspari ou Guedes e Bisoli) que também oferece projeto+execução, mas sem o mesmo nível de controle financeiro transparente comunicado."},
+      {"type": "indirect", "description": "Contratar um arquiteto só para o projeto e uma construtora/empreiteira avulsa para a obra, aceitando o risco de incompatibilização técnica entre os dois — o cenário que a própria Amanda já viu se materializar em obras que assumiu de terceiros."},
+      {"type": "diy", "description": "O próprio cliente (geralmente o marido, no comitê de decisão do casal) assume diretamente a gestão da obra, coordenando fornecedores e empreiteiros sem apoio profissional dedicado."},
+      {"type": "inaction", "description": "Adiar a decisão de construir, mantendo o capital investido em aplicações financeiras em vez de imobilizar em construção — comportamento já observado no mercado de alto padrão em 2025/2026 devido à Selic alta e à queda nos financiamentos imobiliários."}
+    ],
+    "cost_of_inaction": "Quem adia a decisão ou tenta o caminho DIY corre o risco real de obra atrasada, orçamento estourado e retrabalho técnico — exatamente as dores mais críticas já mapeadas no ICP da Amanda. Cada mês de atraso é capital imobilizado sem retorno, especialmente relevante no cenário atual de Selic alta, em que manter o dinheiro aplicado compete diretamente com a decisão de construir."
+  },
+
+  "real_differentials": [
+    {
+      "differential": "Projeto executivo tecnicamente compatibilizado, evitando retrabalho em obra",
+      "status": "confirmed",
+      "icp_relevance": "Resolve diretamente a dor mais crítica do ICP: medo de contratar alguém tecnicamente fraco e só descobrir o erro durante a execução ('não imaginei que ficaria assim')."
+    },
+    {
+      "differential": "Recusa formal de comissionamento de fornecedores (RT), com o desconto repassado em nota fiscal ao cliente",
+      "status": "confirmed",
+      "icp_relevance": "Atende diretamente ao job funcional do marido no comitê de decisão (controle financeiro, transparência) — nenhum dos 5 concorrentes mapeados comunica isso publicamente."
+    },
+    {
+      "differential": "Presença territorial consolidada (40+ projetos entregues no condomínio Terras da Alvorada)",
+      "status": "confirmed",
+      "icp_relevance": "Reduz o risco percebido de quem recebeu indicação — 'já rolou ali perto', segundo a própria lógica de decisão do ICP mapeada na persona."
+    },
+    {
+      "differential": "Comunicação pública do controle financeiro/processo estruturado (conceito da planilha, prestação de contas periódica)",
+      "status": "potential",
+      "icp_relevance": "Resolveria a objeção mais recorrente do ICP ('turnkey deve custar mais caro') e ocuparia o único território de mensagem vazio entre os concorrentes mapeados.",
+      "action_needed": "Criar conteúdo educativo mostrando o CONCEITO do processo (não os dados internos da planilha, que são documento privado) — ação já ranqueada como prioridade 2 na SWOT e no diagnóstico de maturidade."
+    },
+    {
+      "differential": "Presença dominante em condomínios emergentes (Almarias, Quinta da Primavera)",
+      "status": "aspirational",
+      "icp_relevance": "Replicaria o sucesso territorial do Terras da Alvorada em novos condomínios ainda sem 'arquiteto-referência', mas essa dominância ainda não foi conquistada — depende de execução deliberada nos próximos meses.",
+      "action_needed": "Investir em conteúdo/mídia segmentada especificamente para esses condomínios, conforme já recomendado na SWOT (estratégia SO1)."
+    }
+  ],
+
+  "honesty_alert": "Os valores de SAM e SOM regionais desta pesquisa são estimativas bottom-up [E], construídas a partir de dados públicos parciais (não existe estatística oficial granular para 'arquitetura residencial de altíssimo padrão sob encomenda' na microrregião de Jundiaí — os dados públicos disponíveis tratam do mercado imobiliário geral ou de lançamentos de incorporadoras). A ordem de grandeza é defensável (triangulada por 3 métodos que convergem), mas os números absolutos devem ser tratados como direção estratégica, não como previsão financeira precisa. O salto entre o faturamento atual (R$1M) e o SOM de mercado (R$23M) é grande porque representa o teto TOTALMENTE maduro do mercado — não uma meta de 12 meses; a meta real de curto prazo da própria cliente (R$6M/ano, ~26% do SOM) é a referência mais realista para os próximos ciclos de planejamento."
+}

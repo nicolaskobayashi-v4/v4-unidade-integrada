@@ -1,0 +1,80 @@
+{
+  "skill": "ee-s1-swot",
+  "cliente": "Chopp Colina Orlandia",
+  "gerado_em": "2026-05-17",
+  "nota": "ee-s1-diagnostico-maturidade pendente (sem workspace V4MOS) — SWOT executada com dados de briefing e pesquisa de mercado.",
+
+  "manchete": "Cláudio tem o melhor produto do canal e o melhor serviço — mas em Franca ele não existe. Cada semana sem presença ativa é uma semana que a Rizatti consolida mais um ponto de venda.",
+
+  "forcas": [
+    { "id": "F1", "descricao": "Qualidade percebida do produto — 'chopp sem dor de cabeça no dia seguinte' (feedback orgânico de Orlândia)", "comunicavel": true, "impacto": "alto" },
+    { "id": "F2", "descricao": "Serviço superior — instalação, asseio, equipamento revisado, chope pronto na entrega", "comunicavel": true, "impacto": "alto" },
+    { "id": "F3", "descricao": "Trave congelada — equipamento premium de R$30k que concorrentes de delivery não têm", "comunicavel": true, "impacto": "alto" },
+    { "id": "F4", "descricao": "Consignação — deixa barril, cobra só o consumido. Alta taxa de conversão comprovada", "comunicavel": true, "impacto": "alto" },
+    { "id": "F5", "descricao": "Atendimento no domingo — diferencial operacional já praticado em Orlândia", "comunicavel": true, "impacto": "medio-alto" },
+    { "id": "F6", "descricao": "Portfólio INBEB — Colina Pilsen + Serra Gerais (IPA, Lager, Witbier)", "comunicavel": true, "impacto": "medio" },
+    { "id": "F7", "descricao": "Curva de aprendizado concluída — 2,5 anos de operação em Orlândia", "comunicavel": false, "impacto": "medio" },
+    { "id": "F8", "descricao": "Cláudio como operador proativo — busca eventos, investe em equipamentos", "comunicavel": false, "impacto": "medio" }
+  ],
+
+  "fraquezas": [
+    { "id": "Fr1", "descricao": "Base de clientes 100% não mapeada — sem CRM, sem dados de fidelidade", "urgencia": "critica" },
+    { "id": "Fr2", "descricao": "Atendimento todo por WhatsApp sem processo — maioria dos contatos são curiosos que não convertem", "urgencia": "critica" },
+    { "id": "Fr3", "descricao": "Marca desconhecida em Franca — zero presença, zero reputação", "urgencia": "critica" },
+    { "id": "Fr4", "descricao": "Presença digital incipiente — impulsionamento sem estratégia, sem tráfego pago estruturado", "urgencia": "alta" },
+    { "id": "Fr5", "descricao": "Sem processo comercial ativo — não prospecta, não faz follow-up sistemático", "urgencia": "alta" },
+    { "id": "Fr6", "descricao": "Aluguel de R$4.500/mês em Franca com renda zero ainda — risco financeiro real", "urgencia": "alta" },
+    { "id": "Fr7", "descricao": "Logística limitada a 1 Fiorino — restrição de escala para atender duas cidades", "urgencia": "media" },
+    { "id": "Fr8", "descricao": "Dependência do proprietário — Cláudio gerencia tudo: ponto único de falha operacional", "urgencia": "media" }
+  ],
+
+  "oportunidades": [
+    { "id": "O1", "descricao": "Território Colina aberto em Franca — sem distribuidor oficial. Ser o primeiro define o posicionamento da marca", "janela": "imediata", "impacto": "alto" },
+    { "id": "O2", "descricao": "Demanda reprimida documentada — concorrentes sem chopeiras 10 dias antes da Páscoa", "janela": "imediata", "impacto": "alto" },
+    { "id": "O3", "descricao": "Diferencial de domingo — maioria dos concorrentes de barril não atende. Ecobier é único, até 13h", "janela": "imediata", "impacto": "medio-alto" },
+    { "id": "O4", "descricao": "Setor calçadista em queda em 2026 — consumo em casa cresce, delivery mais atraente que bar", "janela": "curto prazo", "impacto": "medio-alto" },
+    { "id": "O5", "descricao": "Empório A Venda — 13 torneiras de chopp artesanal em Franca. Ponto premium prioritário", "janela": "imediata", "impacto": "medio-alto" },
+    { "id": "O6", "descricao": "CRM e digitalização — 90% dos distribuidores sem base mapeada. Vantagem estrutural para quem implementar primeiro", "janela": "curto prazo", "impacto": "medio" },
+    { "id": "O7", "descricao": "Demanda por variedade de estilos (IPA, especiais) — Serra Gerais como diferencial em pontos premium", "janela": "medio prazo", "impacto": "medio" },
+    { "id": "O8", "descricao": "Formula Chopp como parceiro potencial — se compra chopp de terceiros, Cláudio pode ser fornecedor", "janela": "a confirmar", "impacto": "medio" }
+  ],
+
+  "ameacas": [
+    { "id": "A1", "descricao": "Rizatti consolida pontos de venda enquanto Cláudio ainda monta a operação — comodato Ambev imbatível nos bares", "probabilidade": "alta", "impacto": "critico" },
+    { "id": "A2", "descricao": "Revenda informal de Antarctica — terceiros compram via app a ~R$9,90/L e revendem sem nota", "probabilidade": "alta", "impacto": "alto" },
+    { "id": "A3", "descricao": "Heineken com preços agressivos em Franca — cria âncora de preço baixo no mercado", "probabilidade": "alta", "impacto": "medio-alto" },
+    { "id": "A4", "descricao": "Queda do setor calçadista em 2026 — compressão de renda reduz gastos com lazer", "probabilidade": "media-alta", "impacto": "medio" },
+    { "id": "A5", "descricao": "Rota do Chopp Franca — 10 anos de mercado local, relacionamentos que Cláudio não tem", "probabilidade": "media", "impacto": "medio" },
+    { "id": "A6", "descricao": "Sem exclusividade territorial formal com INBEB em Franca — outra distribuidora pode abrir o mercado em paralelo", "probabilidade": "media", "impacto": "alto" }
+  ],
+
+  "combinacoes_estrategicas": {
+    "forca_oportunidade": [
+      { "combo": "F1+F2 × O1", "descricao": "Qualidade + serviço como posicionamento inaugural. Primeiro cliente bem atendido em Franca gera prova social imediata." },
+      { "combo": "F4 × O2", "descricao": "Consignação proativa para os primeiros 30 clientes — elimina risco de marca desconhecida, aproveita demanda reprimida." },
+      { "combo": "F3 × O5", "descricao": "Trave congelada no Empório A Venda — demonstração em evento coloca Colina no mapa premium de Franca de uma vez." },
+      { "combo": "F5 × O3", "descricao": "Atendimento de domingo comunicado ativamente — diferencial mais raro do mercado, custo zero para implementar." }
+    ],
+    "fraqueza_oportunidade": [
+      { "combo": "Fr1+Fr2 × O6", "descricao": "Implementar CRM antes de entrar em Franca — cada novo cliente entra no sistema desde o primeiro pedido." },
+      { "combo": "Fr3 × O1+O2", "descricao": "Marca desconhecida + território aberto = liberdade de construir o posicionamento certo desde o início, sem reverter percepção ruim." }
+    ],
+    "fraqueza_ameaca": [
+      { "combo": "Fr6 × A1", "descricao": "Aluguel alto + bares dominados pela Rizatti: foco total no delivery B2C nos primeiros 90 dias." },
+      { "combo": "Fr3 × A2+A3", "descricao": "Marca nova + concorrência desleal: tirar a decisão do campo de preço e colocar no campo da experiência via degustação e consignação." },
+      { "combo": "Fr7 × A5", "descricao": "Logística limitada + concorrente com 10 anos local: focar em 2-3 bairros âncora e dominar antes de expandir." }
+    ]
+  },
+
+  "alavanca_prioritaria": {
+    "descricao": "Cláudio tem os três antídotos para as três objeções principais de Franca — e precisa usá-los todos juntos nos primeiros 30 dias.",
+    "objecoes_e_respostas": [
+      { "objecao": "Não conheço a marca", "resposta": "Consignação proativa: experimenta sem risco" },
+      { "objecao": "Pode dar problema no equipamento", "resposta": "Serviço: instalação feita por ele, suporte incluso" },
+      { "objecao": "Domingo não tem quem entregue", "resposta": "Operar domingo desde o dia 1. Comunicar ativamente." }
+    ],
+    "meta_primeiros_30_dias": "10 clientes com consignação → 8 fechamentos → 4 viram recorrentes. Cada recorrente de 30L/semana = R$1.320/mês de receita estável."
+  },
+
+  "alimenta_skills": ["ee-s2-posicionamento", "ee-s1-auditoria-comunicacao", "ee-s3-brandbook"]
+}

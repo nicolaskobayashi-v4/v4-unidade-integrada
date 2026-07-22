@@ -1,0 +1,84 @@
+{
+  "client_name": "MW Software (UZTS)",
+  "skill": "ee-s3-crm-setup",
+  "version": 3,
+  "generated_at": "2026-07-16",
+  "status": "completed — como pipeline conceitual, não como setup de ferramenta paga",
+  "data_source": "ee-s4-diagnostico-comercial (v5) + reunião real S4 (07/07/2026, confirma 'CRM leve desde o dia 1, não precisa ser robusto') + diretriz do operador (16/07/2026): CRM setup como ferramenta paga não é necessário para este cliente — avaliar se a lógica de pipeline ainda faz sentido.",
+  "nota_versao": "v3: reversão da recomendação de ferramenta (Kommo), a pedido do operador. Mantida a estrutura de pipeline (2 pipelines, etapas, regra de segurança) porque ela é tool-agnostic e continua fazendo sentido — na reunião real, o próprio Lucas Calefi confirmou ao vivo que o CRM do Horizonte 1 'não precisa ser robusto', pode ser uma planilha ou um projeto open-source básico do GitHub. O que muda é: este documento agora entrega a LÓGICA (o que rastrear, em que ordem, com qual rede de segurança) para implementar em qualquer meio — planilha, Notion, Airtable ou um CRM gratuito — e não mais um guia de configuração de uma ferramenta específica.",
+
+  "summary": "O valor real deste documento não é qual ferramenta usar — é a estrutura de 2 pipelines paralelos: um para gerenciar o PARCEIRO (recrutamento, comissão, performance) e outro, bem mais enxuto, para o cliente que vem via parceiro — que entra no controle já perto do fim do funil, porque quem prospecta, fecha e onboarda é o próprio parceiro. Essa lógica funciona numa planilha simples tanto quanto num CRM pago; o que não pode faltar, em qualquer meio escolhido, é a etapa de rede de segurança contra o padrão de churn já conhecido (cliente instalado, ninguém usando).",
+  "summary_headline": "O que importa aqui não é a ferramenta — é a etapa de rede de segurança que impede repetir o churn da distribuidora de bebidas. Isso roda numa planilha tão bem quanto num CRM pago.",
+
+  "summary_highlights": [
+    { "category": "posicao", "label": "Ferramenta", "value": "Planilha ou CRM básico gratuito", "subtext": "Confirmado ao vivo na reunião real — 'não precisa ser robusto'", "tone": "green" },
+    { "category": "maturidade", "label": "CRM hoje", "value": "0 — manual", "subtext": "\"Clone de WhatsApp\" + planilha, visível só pra 1-2 pessoas", "tone": "red" },
+    { "category": "posicao", "label": "Estrutura", "value": "2 pipelines", "subtext": "Parceiros (gestão de canal) + Clientes (2 variantes: via parceiro / orgânico)", "tone": "blue" },
+    { "category": "risco", "label": "Ponto de falha conhecido", "value": "Instalado ≠ Ativado", "subtext": "Caso real de churn (distribuidora de bebidas) por isso", "tone": "red" },
+    { "category": "posicao", "label": "Acesso do parceiro à ferramenta", "value": "Nenhum (H1) / Auto-report leve (H2)", "subtext": "Parceiro nunca precisa abrir a ferramenta interna — reporta por WhatsApp", "tone": "yellow" }
+  ],
+
+  "summary_key_findings": [
+    { "category": "contexto", "text": "O modelo de negócio é: o parceiro prospecta, fecha E faz o onboarding do cliente final — a MW só recebe o cliente depois de implementado, idealmente já ativado. Isso significa que a MW não opera funil de venda nem de instalação para clientes via parceiro, só confirma ativação, dá suporte e paga comissão." },
+    { "category": "ameaca", "text": "O cenário 'ideal' (parceiro entrega já ativado) não é garantido — o mínimo aceitável é 'no máximo o onboarding do parceiro', ou seja, pode chegar só instalado. Esse é exatamente o padrão que já gerou um churn real (distribuidora de bebidas: sistema instalado, ninguém usando) — por isso o pipeline mantém uma etapa de rede de segurança, não confia cegamente no relato do parceiro." },
+    { "category": "vantagem", "text": "A reunião real de 07/07/2026 confirmou ao vivo que o CRM do Horizonte 1 'não precisa ser um CRM robusto — se vocês conseguirem resolver com uma planilha, tá ótimo', incluindo a sugestão de usar um projeto open-source básico do GitHub. Isso valida a decisão de não investir em ferramenta paga antes de provar o modelo." },
+    { "category": "acao", "text": "Manter a estrutura de pipeline (2 pipelines, etapas, campo 'trazido por', regra de segurança) independente de qual ferramenta for escolhida — é essa lógica que evita repetir o padrão de churn, não a marca do software." },
+    { "category": "acao", "text": "No Horizonte 2 (10-15+ parceiros externos), se o volume justificar uma ferramenta mais robusta, escolher com base em WhatsApp nativo (não plugin) — é o único canal digital real desse público. RD Station já foi testado e descartado em outra conta por não ser chat-first." }
+  ],
+
+  "key_leverage_point": {
+    "headline": "A etapa de 'confirmação de ativação' é a única rede de segurança entre o modelo de parceria (parceiro fecha e onboarda sozinho) e o padrão de churn que a MW já viveu — e isso vale em qualquer ferramenta.",
+    "context": "Como o parceiro assume prospecção, fechamento e onboarding, a MW perde a visibilidade que teria se fizesse esse trabalho ela mesma. O único jeito de não repetir o erro da distribuidora de bebidas (cliente instalado, comissão contando, ninguém usando) é checar objetivamente se o 1º cupom fiscal foi emitido — não confiar no relato de que o cliente 'está ativado'. Isso é uma coluna a mais numa planilha, não uma feature exclusiva de CRM pago.",
+    "numbered_reasons": [
+      "O cenário mínimo aceitável do parceiro é entregar 'no máximo o onboarding' — ou seja, ativação não é garantida no momento do handoff.",
+      "O caso da distribuidora de bebidas prova que 'instalado' e 'sendo usado' são estados diferentes, e que ninguém percebeu a diferença até virar cancelamento.",
+      "Comissão recorrente só faz sentido pagar sobre cliente realmente ativo — sem essa etapa, a MW arrisca pagar comissão sobre cliente que nunca vai gerar receita recorrente de verdade."
+    ],
+    "discussion_anchor": "Ponto de discussão: quem monitora e age quando um cliente fica parado em 'aguardando confirmação de ativação' além do prazo — o próprio parceiro (primeira linha) ou o Gestor de Canais (segunda linha)?"
+  },
+
+  "honesty_alert": "Esta estrutura de pipeline não resolve, sozinha, o padrão histórico de 'frear' o crescimento por medo operacional — ela só dá visibilidade pra decisão ser tomada com dado. Se a MW não usar essa visibilidade pra realmente agir (ex.: quando um cliente trava em 'aguardando ativação'), a planilha (ou qualquer ferramenta escolhida) vira só mais um registro bonito e inútil, do mesmo jeito que o RD Station virou inútil na outra conta do Marcos.",
+
+  "ferramenta": {
+    "recomendacao": "Planilha compartilhada (Google Sheets) ou um CRM gratuito/open-source básico — a escolha específica é operacional, não estratégica. O que importa é implementar a estrutura de pipeline abaixo, não o nome do software.",
+    "confirmado_em_reuniao_real": "'Não precisa ser um CRM robusto. Se vocês conseguirem se resolver com uma planilha, tá ótimo (...) dá até pra pegar no GitHub uns projetos de graça, um CRM basicão open source que funciona muito bem.' — Lucas Calefi, reunião de 07/07/2026.",
+    "se_o_volume_crescer": "Se no Horizonte 2 o volume (10-15+ parceiros externos) justificar uma ferramenta mais robusta, priorizar WhatsApp como canal nativo (não integração por plugin) — é o único canal digital real desse público. RD Station já foi testado e descartado em outra conta do Marcos (cliente Dr. Breno) por ser orientado a e-mail marketing/lead scoring B2B, não a conversa em WhatsApp."
+  },
+
+  "estrutura_pipelines": {
+    "pipeline_parceiros": {
+      "objetivo": "Gerenciar o relacionamento com o parceiro em si — não a conversa de venda dele com o cliente final, que acontece fora do controle da MW.",
+      "etapas": ["Aplicação recebida", "Em análise (checklist de qualificação de parceiro)", "Aprovado — ativo", "Aprovado com ressalva", "Inativo / reavaliar"],
+      "campos_customizados": ["% de comissão (10%, confirmado)", "Região de atuação", "Nº de clientes trazidos", "Data da última indicação", "Perfil (contador / consultor TI / revendedor / associação / rede pessoal-piloto)"]
+    },
+
+    "pipeline_clientes_via_parceiro": {
+      "objetivo": "Cliente entra no controle perto do FIM do funil, não no início — porque prospecção, fechamento e onboarding são feitos pelo próprio parceiro, fora do sistema da MW.",
+      "etapas": [
+        { "etapa": "Recebido do parceiro", "descricao": "Parceiro reporta o fechamento — pode chegar já ativado (cenário ideal) ou só instalado (cenário mínimo aceitável)." },
+        { "etapa": "Aguardando confirmação de ativação", "descricao": "Só existe se o cliente não chegou já ativado. Rede de segurança contra o padrão de churn já conhecido (cliente instalado, ninguém usando)." },
+        { "etapa": "Ativo", "descricao": "1º cupom fiscal emitido confirmado — é o gatilho que inicia a contagem de comissão recorrente do parceiro." },
+        { "etapa": "Em risco / Cancelado", "descricao": "Sem emissão recente ou sinalização de cancelamento — dispara reavaliação de suporte e ajuste de comissão." }
+      ],
+      "campo_obrigatorio": "\"Trazido por: [parceiro]\" — vínculo que sustenta o cálculo de comissão recorrente.",
+      "regra_de_seguranca": "Se o cliente entrar em 'Aguardando confirmação de ativação' e não emitir o 1º cupom em N dias (a definir com o operador), alerta — primeiro pro parceiro responsável, escalando pro Gestor de Canais só se o parceiro não resolver."
+    },
+
+    "pipeline_clientes_organico": {
+      "objetivo": "Único funil onde a MW de fato opera prospecção, qualificação e onboarding — porque não existe parceiro fazendo esse trabalho no canal do link na bio.",
+      "etapas": ["Lead", "Qualificado", "Instalado", "Ativado (1º cupom emitido)", "Retido / Em risco"],
+      "nota": "Corresponde ao funil de aquisição orgânica já desenhado nesta consultoria (link na bio → WhatsApp → onboarding assistido por cadência D0/D+1/D+3 → ativação). A qualificação e cadência podem começar manuais (Marcos) e evoluir pra automação (bot) só quando o volume justificar."
+    }
+  },
+
+  "acesso_do_parceiro_por_horizonte": {
+    "horizonte_1": "Nenhum acesso direto à ferramenta interna. Parceiros-piloto (2-4, rede pessoal de confiança) reportam handoffs por WhatsApp; Marcos/Gestor de Canais registra manualmente na planilha. Volume baixo não justifica fricção de treinar parceiro externo em qualquer ferramenta nova.",
+    "horizonte_2": "Ainda sem acesso completo — usar um fluxo leve de auto-report (bot dedicado ao parceiro, se/quando a MW automatizar) só para reportar handoffs ('novo cliente ativado? me conta aqui'), sem o parceiro nunca precisar abrir a ferramenta interna. Preserva o princípio low-touch mesmo do lado interno, e evita que o Marcos vire gargalo registrando manualmente 10-15+ parceiros."
+  },
+
+  "pendente_confirmacao_operador": [
+    "Prazo N de dias para a regra de segurança da etapa 'Aguardando confirmação de ativação' antes de disparar alerta.",
+    "Quem primeiro recebe o alerta de estagnação: o próprio parceiro ou direto o Gestor de Canais.",
+    "Qual planilha/ferramenta específica será usada no Horizonte 1 (Google Sheets é o caminho mais simples, mas cabe ao operador decidir)."
+  ]
+}

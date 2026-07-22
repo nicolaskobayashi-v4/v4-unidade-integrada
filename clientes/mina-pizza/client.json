@@ -1,0 +1,411 @@
+{
+  "meta": {
+    "name": "Mina Pizza",
+    "slug": "mina-pizza",
+    "workspace_id": null,
+    "created_at": "2026-07-03",
+    "modelo_venda": "pdv"
+  },
+  "briefing": {
+    "identification": {
+      "name": "Mina Pizza",
+      "contact_name": "Roberto Calafiori",
+      "contact_role": "Sócio-administrador",
+      "segment": "Alimentação — restaurante à la carte (almoço) e pizzaria (jantar)",
+      "annual_revenue": "R$ 1.720.000 (aprox., soma dos últimos 12 meses informados)",
+      "years_in_market": "36 anos (fundada em 1989)",
+      "location": "São Vicente, SP — Av. Prefeito José Monteiro, 1045, Loja 1 e 2 (dentro de praça de alimentação)",
+      "website": null,
+      "instagram": "@minapizzas",
+      "whatsapp": null,
+      "gmb": false
+    },
+    "product": {
+      "main_product": "Pratos executivos/marmita no almoço (carro-chefe atual), pizzas à noite e pastéis",
+      "ticket": "Pizza R$50-58 | Prato feito/marmita R$30-37 | Pastel R$9-15 (estimado)",
+      "billing_model": "unico",
+      "sales_cycle": "imediato (compra por impulso/necessidade, modelo PDV)",
+      "active_customers": "Base antiga e fiel; média de 250 pedidos de pizza/mês",
+      "most_profitable": "Prato feito/marmita à la carte (~64% do faturamento)",
+      "growth_potential": "Pizza — meta é sair de 30% para 50% do faturamento total",
+      "revenue_breakdown": {
+        "pizza": {
+          "pct": 30,
+          "annual_brl": 516000,
+          "source": "declarado por Roberto em múltiplas fontes (kick-off, call de qualificação)",
+          "confidence": "alta"
+        },
+        "prato_feito_marmita": {
+          "pct": 64,
+          "annual_brl": 1100800,
+          "source": "declarado (Roberto: 'refeições' = maior fatia; kick-off), com pastel deduzido dessa fatia",
+          "confidence": "média — não separado explicitamente de pastel pelo Roberto"
+        },
+        "pastel": {
+          "pct": 6,
+          "annual_brl": 103200,
+          "source": "ESTIMADO [E] — Roberto não trouxe % específico; pastel é elogiado nas avaliações mas nunca foi tratado como linha de faturamento separada. Estimativa conservadora carve-out da fatia de 'refeições', baseada em ticket menor (R$9-15) e natureza de item de acompanhamento/impulso, não refeição principal",
+          "confidence": "baixa — estimativa, não declarado"
+        },
+        "total_annual_brl": 1720000,
+        "note": "Pizza (30%) é o único número que Roberto confirmou com precisão e consistência em várias conversas. Prato feito/marmita e pastel foram inferidos a partir de 'refeições = maior fatia' (kick-off) + estimativa de carve-out para pastel — vale confirmar os dois com o Roberto quando possível."
+      }
+    },
+    "icp": {
+      "best_customers": "Roberto não convive com o público (gestão remota), mas as avaliações reais do Google (10 positivas revisadas) dão um perfil bem mais claro do que ele descreve: (1) clientes de décadas — pelo menos uma avaliação cita 35 anos de frequência, sinal de lealdade real e não só conveniência; (2) fluxo de quem já está no Carrefour (compras, estacionamento) e aproveita a praça de alimentação; (3) fãs específicos dos pastéis fritos na hora, citados repetidamente como diferencial; (4) grupos/famílias fazendo refeição no local (ex.: grupo de 8 pessoas almoçando); (5) pessoas com mobilidade reduzida/idosos/gestantes — avaliam o espaço plano e acessível como ponto positivo. Fonte: avaliações reais do Google, não confirmado verbalmente pelo Roberto — apresentar a ele como leitura, não como fato que ele validou.",
+      "not_customers": "Roberto não define isso e não há dado direto — mas as avaliações sugerem que quem busca ambiente silencioso/sofisticado tende a não voltar (é praça de alimentação, com barulho e \"desconforto do ambiente\" citados como algo que \"faz parte\"), e quem tem baixa tolerância a atendimento inconsistente por telefone/balcão também não fideliza. Inferência a partir de avaliações, não confirmada pelo operador — validar.",
+      "problems_before": "Sem resposta específica do Roberto, mas as avaliações positivas revelam 3 dores reais antes da compra: (1) fome dentro da praça de alimentação do Carrefour, quer algo rápido sem sair do shopping; (2) quer comida caseira/prato do dia decente sem pagar preço de restaurante chique; (3) já é cliente antigo mantendo um ritual de décadas (pastel, pizza) — não está comparando concorrentes ativamente, está sustentando um hábito. Fonte: avaliações reais, não confirmado pelo operador.",
+      "results_after": "Sem resposta específica do Roberto, mas as avaliações positivas mostram 3 ganhos reais quando dá certo: (1) entrega rápida e comida saborosa (pizza de massa fina e crocante, pastel bem recheado, feito na hora); (2) ambiente prático e acessível (estacionamento do Carrefour, espaço plano, bom pra cadeira de rodas/idosos/gestantes); (3) sensação de tradição e confiança — \"trinta e cinco anos frequentando, não precisa nem dizer que é bom\". Fonte: avaliações reais, não confirmado pelo operador.",
+      "churn_reasons": "As 10 avaliações negativas do Google dão motivos concretos e recorrentes, bem além do \"é uma pizzaria\" do Roberto: (1) ATENDIMENTO RÍSPIDO é a queixa mais repetida — atendente de telefone descrita como grossa, desliga sem se despedir; balcão sem nenhum sorriso; uma avaliação chega a dizer que \"os funcionários têm cara de aviso prévio\" e \"o patrão tem jeito de capataz\" — sinal de clima organizacional ruim vazando pro cliente; (2) QUEDA DE QUALIDADE percebida por cliente antigo e fiel: \"até entendo o motivo dos aumentos dos valores, mas não justifica a queda da qualidade\" — clássico sinal de churn silencioso; (3) INCONSISTÊNCIA no prato do dia — arroz requentado e empapado, feijão e legumes sem tempero, salada de maionese malfeita com legumes congelados; (4) PROBLEMA DE HIGIENE relatado — funcionária do caixa manuseou salada com a mão suja de dinheiro, sem lavar, sem resolução quando reclamado na hora; (5) temperatura/frescor: pizza chegando fria ou reaquecimento mal feito; (6) inconsistência operacional de entrega — cliente informado que não entregam no bairro dele, mesmo tendo recebido entrega ali 2 semanas antes. A maioria é problema operacional (atendimento, cozinha, gestão de equipe), não de marketing — mais tráfego sem corrigir isso tende a acelerar reclamação, não fidelização."
+    },
+    "competition": {
+      "competitors": [
+        {
+          "name": "Restaurante de frango frito (vizinho na mesma praça de alimentação)",
+          "perceived_differential": "concorrência direta de almoço, mesmo espaço físico"
+        },
+        {
+          "name": "Girafas (rede nacional)",
+          "perceived_differential": "marca nacional consolidada, mas fechou a unidade da praça recentemente"
+        },
+        {
+          "name": "Pizzarias locais / concorrência digital",
+          "perceived_differential": "presença digital mais forte, sem a tradição local da Mina Pizza"
+        }
+      ],
+      "real_differential": null,
+      "why_choose_us": "Confiança e qualidade — 36 anos de tradição no mesmo local (percepção declarada no kick-off, aprofundar)"
+    },
+    "brand": {
+      "adjectives": null,
+      "voice_tone": "Simples e direto, sem infantilização — tom de pizzaria de bairro, adequado a um público mais velho (São Vicente). Não é descontraído no sentido de gírias/piadas — é acessível e maduro.",
+      "admired_brands": null,
+      "current_colors": null,
+      "has_logo": null,
+      "restrictions": null
+    },
+    "digital_situation": {
+      "paid_traffic": false,
+      "platforms": [
+        "ifood",
+        "instagram",
+        "delivery_proprio_neemo"
+      ],
+      "monthly_investment": "R$ 0 hoje (histórico: R$200 pontual em impulsionamento no Instagram, sem resultado)",
+      "current_results": "iFood 'Mina Pizzas & Grill': 4,7 estrelas (47 avaliações), 1.0km, delivery R$8. Google Meu Negócio 'Mina Praia Grill & Pizza': 3,9 estrelas (113 avaliações) — MAS com localização incorreta no mapa (pino aparece fora do shopping/Carrefour onde a loja realmente fica). Roberto não sabia da existência do GMB até ver print (achava que 'nem Google nós temos'). Instagram @minapizzas: 44 posts, 555 seguidores, 673 seguindo, ZERO comentários em qualquer postagem (conteúdo existe e tem qualidade visual razoável, mas engajamento nulo). Bio desatualizada: diz \"aberto todos os dias 18:00 as 22:00\", mas o negócio já vende almoço desde 9h — informação errada pro cliente. Tem link de delivery próprio via plataforma Neemo (deliveryapp.neemo.com.br/delivery/12596/menu) — canal de pedido direto que não tinha sido mapeado antes, além do iFood.",
+      "crm": "Não há base de clientes utilizável para marketing. A maioria dos pedidos entra por telefone ou iFood — no telefone existe um sisteminha de PDV que reconhece número/endereço via Bina, mas Roberto não acessa esse banco de dados; no iFood o cliente é da plataforma, sem dados cedidos ao lojista. Não é CRM de marketing, é só identificação operacional do pedido.",
+      "lead_sources": "Fluxo físico da praça de alimentação; clientes antigos via telefone; iFood (~47 avaliações ativas, 4,7 estrelas — canal mais saudável do que Roberto percebe); app 99 (recém-cadastrado, não ativado)",
+      "conversion_rate": null,
+      "biggest_pain": "Zero marketing intencional; atendimento telefônico é gargalo (1 atendente, 2 linhas); GMB mal localizado manda cliente pro lugar errado; raio de entrega limitado a 3-5km; atendimento por telefone/balcão com reclamações recorrentes de rispidez; qualidade inconsistente no prato do dia (tempero, comida requentada)"
+    },
+    "accesses": {
+      "meta_business": false,
+      "google_ads": false,
+      "google_analytics": false,
+      "google_search_console": false,
+      "instagram_admin": true,
+      "website_admin": false,
+      "crm": false,
+      "gmb": "GMB existe (113 avaliações, 3,9 estrelas) mas Roberto não sabia disso — provável que não tenha acesso admin/não tenha reivindicado a conta. A confirmar e reivindicar.",
+      "ifood_admin": true,
+      "whatsapp_business": false
+    },
+    "sales_module": null
+  },
+  "research": {
+    "fetched_at": null
+  },
+  "connectors": {
+    "fetched_at": null,
+    "integrations": null
+  },
+  "progress": {
+    "current_week": 2,
+    "skills": {
+      "ee-s1-diagnostico-maturidade": {
+        "status": "completed",
+        "checkpoint": 0,
+        "started_at": "2026-07-03T13:20:00Z",
+        "completed_at": "2026-07-03T13:45:00Z"
+      },
+      "ee-s1-swot": {
+        "status": "completed",
+        "checkpoint": 0,
+        "started_at": "2026-07-03T14:00:00Z",
+        "completed_at": "2026-07-03T14:30:00Z"
+      },
+      "ee-s1-persona-icp": {
+        "status": "completed",
+        "checkpoint": 0,
+        "started_at": "2026-07-03T15:15:00Z",
+        "completed_at": "2026-07-03T15:45:00Z"
+      },
+      "ee-s1-auditoria-comunicacao": {
+        "status": "completed",
+        "checkpoint": 0,
+        "started_at": "2026-07-09T09:20:00Z",
+        "completed_at": "2026-07-09T09:40:00Z"
+      },
+      "ee-s2-pesquisa-mercado": {
+        "status": "completed",
+        "checkpoint": 0,
+        "started_at": "2026-07-09T10:00:00Z",
+        "completed_at": "2026-07-09T10:45:00Z"
+      },
+      "ee-s2-posicionamento": {
+        "status": "completed",
+        "checkpoint": 0,
+        "started_at": "2026-07-18T20:30:00Z",
+        "completed_at": "2026-07-18T21:00:00Z"
+      },
+      "ee-s2-diagnostico-midia": {
+        "status": "completed",
+        "checkpoint": 0,
+        "started_at": "2026-07-18T21:15:00Z",
+        "completed_at": "2026-07-18T21:30:00Z"
+      },
+      "ee-s2-diagnostico-criativos": {
+        "status": "completed",
+        "checkpoint": 0,
+        "started_at": "2026-07-18T21:45:00Z",
+        "completed_at": "2026-07-18T22:00:00Z"
+      },
+      "ee-s2-diagnostico-organico-ig": {
+        "status": "completed",
+        "checkpoint": 0,
+        "started_at": "2026-07-18T22:15:00Z",
+        "completed_at": "2026-07-18T22:30:00Z"
+      },
+      "ee-s1-arquitetura-presenca": {
+        "status": "pending",
+        "checkpoint": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-manual-marca": {
+        "status": "completed",
+        "checkpoint": 0,
+        "started_at": "2026-07-18T23:00:00Z",
+        "completed_at": "2026-07-18T23:30:00Z"
+      },
+      "ee-s3-landing-page": {
+        "status": "pending",
+        "checkpoint": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-copy-anuncios": {
+        "status": "pending",
+        "checkpoint": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-criativos-anuncios": {
+        "status": "pending",
+        "checkpoint": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-crm-setup": {
+        "status": "pending",
+        "checkpoint": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-forecast-midia": {
+        "status": "pending",
+        "checkpoint": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-pdv-base-ativa": {
+        "status": "pending",
+        "checkpoint": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-pdv-gmn": {
+        "status": "pending",
+        "checkpoint": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-pdv-experiencia": {
+        "status": "pending",
+        "checkpoint": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-pdv-regua-whatsapp": {
+        "status": "pending",
+        "checkpoint": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s5-scripts-sdr": {
+        "status": "pending",
+        "checkpoint": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s5-sdr-ia-config": {
+        "status": "pending",
+        "checkpoint": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-revisao-semanal": {
+        "status": "completed",
+        "checkpoint": 0,
+        "started_at": "2026-07-20T10:00:00Z",
+        "completed_at": "2026-07-20T10:30:00Z"
+      }
+    }
+  },
+  "history": [
+    {
+      "ts": "2026-07-03T12:00:00Z",
+      "skill": "ee-novo-cliente",
+      "checkpoint": 0,
+      "decision": "Cliente cadastrado a partir da base de conhecimento (kick-off form, qualificação BANT/SPICED, diagnóstico V4MOS, transcrição de onboarding). Sem integração V4MOS (credencial testada retornou 403 — provável ausência de Google/Facebook Ads conectado). Módulo vendas: não. Faltam campos de ICP e marca, a confirmar na reunião de kick-off."
+    },
+    {
+      "ts": "2026-07-03T13:00:00Z",
+      "skill": "ee-s1-persona-icp",
+      "checkpoint": 0,
+      "decision": "Kick-off ao vivo: Roberto não tem convivência com o público (gestão remota) e não sabe descrever os melhores clientes com precisão. Perfil reconhecido: trabalhadores/frequentadores fixos da região que almoçam no balcão (recorrência de PDV) + clientes antigos de delivery por telefone. best_customers preenchido com esse contexto; not_customers/problems_before/results_after/churn_reasons seguem em aberto."
+    },
+    {
+      "ts": "2026-07-03T13:15:00Z",
+      "skill": "ee-s1-persona-icp",
+      "checkpoint": 0,
+      "decision": "Roberto respondeu not_customers/problems_before/results_after/churn_reasons de forma genérica ('é uma pizzaria', 'é commodity'), sem reconhecer segmentação ou dor específica — registrado como está, sinalizado como genérico para aprofundar depois (equipe de balcão tem contato direto com cliente, Roberto não). Tom de voz definido: simples e direto, sem infantilização, adequado a público mais velho de São Vicente."
+    },
+    {
+      "ts": "2026-07-03T13:20:00Z",
+      "skill": "ee-s1-diagnostico-maturidade",
+      "checkpoint": 0,
+      "decision": "Confirmado no kick-off: maioria dos pedidos entra por telefone (sisteminha PDV não acessado por Roberto) ou iFood (dados da plataforma, não cedidos). Não há base de clientes própria utilizável para marketing/CRM — reforça score crítico no pilar CRM."
+    },
+    {
+      "ts": "2026-07-03T13:35:00Z",
+      "skill": "ee-s1-diagnostico-maturidade",
+      "checkpoint": 0,
+      "decision": "Operador trouxe prints do kick-off que corrigem a análise: (1) GMB 'Mina Praia Grill & Pizza' EXISTE — 3,9★/113 avaliações — mas com pino no lugar errado do mapa (fora do shopping/Carrefour); Roberto não sabia da existência dele. (2) iFood 'Mina Pizzas & Grill' ativo e saudável — 4,7★/47 avaliações — contradiz a leitura de 'negócio 100% analógico'. (3) Avaliações reais revelam reclamações recorrentes de comida sem tempero e de pessoas em situação de rua incomodando o salão — sinais de churn que Roberto não reconhecia. Diagnóstico de maturidade recalculado com essa evidência antes de salvar (SEO e CRO revisados para cima; pilar 'presença mal gerenciada' > 'presença inexistente')."
+    },
+    {
+      "ts": "2026-07-03T13:45:00Z",
+      "skill": "ee-s1-diagnostico-maturidade",
+      "checkpoint": 0,
+      "decision": "Operador aprovou o diagnóstico revisado. Score geral 14/100 (crítico). Achado-chave: GMB e iFood já existem com 160 avaliações reais somadas (Google 3,9★/113, iFood 4,7★/47), mas GMB com endereço errado e nenhuma avaliação respondida. Prioridade 1 mudou de 'criar GMB' para 'corrigir e reivindicar GMB existente'. Output salvo em outputs/ee-s1-diagnostico-maturidade.json."
+    },
+    {
+      "ts": "2026-07-03T14:15:00Z",
+      "skill": "ee-s1-diagnostico-maturidade",
+      "checkpoint": 0,
+      "decision": "Correção de consistência pós-aprovação: removida a alegação não confirmada de 4 nomes de marca simultâneos (operador não lembrava), suavizada para o fato documentado (CNPJ com nome fantasia vazio). Reputação do Google recalibrada como mista/negativa (não equivalente ao iFood) — operador confirmou que as avaliações do Google falam mal especificamente."
+    },
+    {
+      "ts": "2026-07-03T14:30:00Z",
+      "skill": "ee-s1-swot",
+      "checkpoint": 0,
+      "decision": "SWOT aprovada pelo operador após 4 correções: prova social (Google) removida como força geral, mantendo só iFood; formação técnica do dono movida de força pra oportunidade; \"marca fragmentada 4 nomes\" removida (não confirmada, sem lembrança do operador) e substituída pelo fato documentado (CNPJ sem nome fantasia); app 99 removido das oportunidades (dado de call antiga, não confirmado); ameaça de nome fantasia removida por ser fraca. Salva em outputs/ee-s1-swot.json."
+    },
+    {
+      "ts": "2026-07-03T15:00:00Z",
+      "skill": "ee-novo-cliente",
+      "checkpoint": 0,
+      "decision": "Operador trouxe print do Instagram (@minapizzas: 44 posts, 555 seguidores, zero comentários, bio desatualizada, link de delivery próprio via Neemo não mapeado antes) e as 20 avaliações do GMB (10 positivas + 10 negativas) na íntegra. Isso substitui os campos genéricos de ICP (problems_before/results_after/churn_reasons) por dados reais e específicos extraídos das avaliações. Achados centrais: atendimento ríspido (telefone e balcão) e queda de qualidade no prato do dia são as causas de churn mais citadas — problema operacional, não de marketing."
+    },
+    {
+      "ts": "2026-07-03T15:45:00Z",
+      "skill": "ee-s1-persona-icp",
+      "checkpoint": 0,
+      "decision": "ICP/Persona aprovada apos 3 rodadas de ajuste: (1) mensagens-chave simplificadas para basico/universal (\"Comida de verdade.\" / \"Do jeito que voce lembra.\" / \"O point de sempre.\") em vez de frases longas e hiper-especificas; (2) dores reescritas com camada intrinseca por tras do que foi declarado nas avaliacoes (ex: atendimento ruim = sensacao de desrespeito apos decadas de lealdade, nao so o fato em si); (3) adicionados 2 segmentos secundarios (Jailson - trabalhador da regiao, baixa lealdade; Familia Andrade - pedido de fim de semana, ticket mais alto) alem da persona principal Marlene. Mensagem escolhida: funcional (\"Comida de verdade.\"), guardando a emocional para depois que atendimento/qualidade forem corrigidos operacionalmente. Salvo em outputs/ee-s1-persona-icp.json."
+    },
+    {
+      "ts": "2026-07-09T09:40:00Z",
+      "skill": "ee-s1-auditoria-comunicacao",
+      "checkpoint": 0,
+      "decision": "Auditoria de 6 canais aprovada sem ajustes. Score de comunicacao 19/100 (critico). Achado central: presenca digital real (GMB 113 avaliacoes, iFood 47/4.7 estrelas, Instagram 555 seguidores) tratada com silencio total - zero resposta a avaliacao, erros simples nao corrigidos (endereco GMB, horario Instagram). Atendimento ríspido por telefone/balcao identificado como o pior desalinhamento de tom e principal causa de churn. 5 quick wins mapeados, todos de baixo esforco e custo zero. Semana 1 completa (4/4 skills)."
+    },
+    {
+      "ts": "2026-07-09T10:45:00Z",
+      "skill": "ee-s2-pesquisa-mercado",
+      "checkpoint": 0,
+      "decision": "Pesquisa de mercado aprovada em 3 rodadas: (1) analise de pizza aprovada sem ajustes (TAM R$25bi, SAM R$39,6M, SOM R$1,1M, 3 concorrentes reais pesquisados); (2) operador pediu para complementar com prato feito/marmita e pastel, com percentuais de faturamento parcialmente estimados (pizza 30% confirmado, PF/marmita 64% e pastel 6% estimados); (3) operador enviou prints reais do iFood (busca \"Marmita\" e \"Pizza\" proximo a loja) que revelaram mercado de marmita muito mais saturado que o estimado (4+ concorrentes locais com 134-3702 avaliacoes) - SOM de marmita recalibrado para baixo (de R$2,6M para R$1,58M/ano). SOM combinado final: R$2,95M/ano, quase identico a meta comercial da V4 (R$2,4-3M). Achado acionavel: cardapio do iFood da Mina Pizza nao esta categorizado como \"Marmita\", provavel causa de invisibilidade nessa busca especifica. Semana 2 iniciada."
+    },
+    {
+      "ts": "2026-07-09T11:00:00Z",
+      "skill": "ee-s1-persona-icp",
+      "checkpoint": 0,
+      "decision": "Bug de renderizacao corrigido: critical_leakage_point estava salvo como string livre, mas o card \"Vazamento critico\" do portal (abaixo do funil da jornada) so extrai o campo .stage de um objeto estruturado, mostrando \"Vazamento critico em ?\" em branco. Convertido para {stage, evidence} com stage=\"Pos-compra / Recompra\". Nenhuma mudanca de conteudo/analise, so de formato."
+    },
+    {
+      "ts": "2026-07-18T20:15:00Z",
+      "skill": "ee-s1-swot",
+      "checkpoint": 0,
+      "decision": "Correcao pedida pelo operador em outputs ja aprovados da Semana 1 (ee-s1-swot, ee-s1-diagnostico-maturidade, ee-s1-auditoria-comunicacao, ee-s2-pesquisa-mercado): (1) removida toda mencao ao fechamento do Girafas na mesma praca como argumento estrategico/de venda — operador considerou comparacao com concorrente fechando irrelevante e de mau gosto; forcas/oportunidades/key_insight que dependiam disso foram reescritos ancorados so na tradicao propria (36 anos, avaliacoes reais, margem saudavel). (2) removida a fraqueza/acao 'CNPJ com nome fantasia vazio' de todos os outputs — operador considerou razao social vs nome fantasia irrelevante para qualquer analise estrategica (ex: McDonald's = Arcos Dourados no Brasil). SWOT recalculada para 4 forcas x 4 fraquezas (era 5). Prioridades/rankings renumerados nos arquivos afetados. Portal, consolidated e apresentacao re-renderizados."
+    },
+    {
+      "ts": "2026-07-18T21:00:00Z",
+      "skill": "ee-s2-posicionamento",
+      "checkpoint": 0,
+      "decision": "Posicionamento aprovado: Opcao B (\"A Redescoberta\") escolhida pelo operador — PUV e territorio de marca (Resistencia + Bairro + Redescoberta) ancorados em 36 anos de tradicao real (avaliacoes citando decadas de relacao, fundacao em 1989), sem qualquer comparacao com fechamento de concorrente (feedback do operador aplicado desde a primeira versao). Tagline recomendada: 'Comida de verdade, no mesmo lugar de sempre.' Slogan curto adicional pra bio do Instagram: '36 anos. Comida de verdade.' Honesty alert mantido: mensagem emocional forte ('do jeito que voce lembra') so depois de atendimento/consistencia corrigidos."
+    },
+    {
+      "ts": "2026-07-18T21:30:00Z",
+      "skill": "ee-s2-diagnostico-midia",
+      "checkpoint": 0,
+      "decision": "Gerado como plano de lancamento (is_launch_plan=true) — cliente nao investe em midia hoje (unico teste historico R$200 sem pixel/segmentacao). Operador pediu explicitamente para usar o benchmark de concorrentes ja levantado (Big Familia 63 anuncios ativos no Meta, La Braciera 48, Cafe Com Pizza Santos, Qbara, Gigantesca) como argumento pra convencer o Roberto a investir. Key_insight construido em cima disso. 3 cenarios de budget gerados (A R$1.500 / B R$2.280 recomendado / C R$5.000), Cenario B espelhando quase literalmente a estrutura de campanhas que o proprio time ja rascunhou no benchmark. Operador aprovou o Cenario B, sinalizando que o Roberto pode inicialmente pedir investimento menor (nao ajustou o cenario recomendado, so registrou a expectativa). Honesty alert mantido: GMB e atendimento (SWOT) precisam ser corrigidos antes do lancamento."
+    },
+    {
+      "ts": "2026-07-18T22:00:00Z",
+      "skill": "ee-s2-diagnostico-criativos",
+      "checkpoint": 0,
+      "decision": "Aprovado sem ajustes. Matriz aplicada aos 7 posts organicos do Instagram (unicos ativos visuais existentes — cliente nao tem anuncio pago ativo), score medio 13,1/25, 0 manter / 3 otimizar / 4 eliminar. Analise de concorrentes usou o benchmark real de midia paga (Big Familia, Qbara, La Braciera, Gigantesca, Cafe Com Pizza Santos). Key_insight: nenhum dos 7 posts usa prova social, enquanto o Qbara ja usa isso como criativo principal com so 3 anuncios ativos — mesmo gap identificado como hipotese H1 no diagnostico de midia. Briefing de producao pra Semana 3: 8 criativos (4 hooks x 2 formatos), prioridade Reels."
+    },
+    {
+      "ts": "2026-07-18T22:30:00Z",
+      "skill": "ee-s2-diagnostico-organico-ig",
+      "checkpoint": 0,
+      "decision": "Gerado via coleta manual (screenshots do operador, sem credencial Meta Graph API configurada) — cliente + 2 concorrentes top de digital_score da pesquisa de mercado (Imperio da Pizza @imperiodapizzasvoficial, Big Familia @bigfamiliapizzaria). Achado central: @minapizzas em 0 posts nos ultimos 90 dias (ultimo post real: mai/2023), contra ~3,1 posts/semana do Imperio e ~1,9 do Big Familia. like_count/engagement_proxy marcados como estimativa [E] (Instagram nao exibe numero exato nos prints); comments_count e contagem real. Aprovado sem ajustes."
+    },
+    {
+      "ts": "2026-07-18T23:00:00Z",
+      "skill": "ee-s2-diagnostico-midia",
+      "checkpoint": 0,
+      "decision": "Correcao pos-aprovacao: operador enviou prints do cardapio/vitrine do iFood (painel de Impulso/Ads nao acessivel, so o Roberto tem login). Ajustes aplicados: (1) platforms_active atualizado de [] para refletir que o iFood Impulso ja esta ativo (confirmado por Roberto na call de kick-off), mas orcamento/periodo seguem nao quantificados; (2) rating atualizado de 4,7/47 para 4,8/54 avaliacoes (dado mais recente, visivel no print); (3) key_insight e discussion_anchor reescritos pra usar o Impulso do iFood como prova de que o proprio Roberto ja validou que anuncio funciona. Print tambem confirmou visualmente a ausencia de categoria 'Marmita'/'Quentinha' no menu, reforcando achado ja mapeado na pesquisa de mercado."
+    },
+    {
+      "ts": "2026-07-18T23:10:00Z",
+      "skill": "ee-s2-diagnostico-midia",
+      "checkpoint": 0,
+      "decision": "Correcao: honesty_alert sobre desconto 'Exclusivo Clube' removido do output. Operador esclareceu que o desconto visto no print e do plano iFood Clube da propria pessoa que tirou o print (assinatura paga individual), nao um desconto configurado pelo Roberto/loja — nao reflete o ticket medio real pago pela maioria dos clientes. Premissa de ticket medio (pizza R$50-58, prato feito R$30-37) do briefing original mantida sem alteracao."
+    },
+    {
+      "ts": "2026-07-18T23:30:00Z",
+      "skill": "ee-s3-manual-marca",
+      "checkpoint": 0,
+      "decision": "Primeira skill da Semana 3 (modelo_venda=pdv, corrigido de modulo_vendas antigo para o novo campo). Aprovado sem ajustes. Formaliza o logo ja existente (script vermelho 'Mina' + bloco 'PIZZA') em vez de recriar do zero. Arquetipo Cara Comum + Cuidador. Cor primaria Vermelho Mina #C8102E + Preto Pizza #1A1A1A. Tipografia Oswald (display) + Nunito Sans (corpo), ambas Google Fonts. 3 direcoes de logo geradas para Midjourney (refinamento, simbolo sutil, selo/carimbo 1989) — chosen_direction ainda null, aguardando escolha do Roberto. Escopo: established nos Blocos 1-3, Bloco 4 reduzido (so digital/redes sociais/papelaria essencial, sem fachada/uniforme/embalagem dado o formato PDV dentro de praca de alimentacao), Bloco 5 sem comite formal dado o porte da operacao — tudo confirmado como DECISAO 4 pelo operador. Recomendacao de padronizar o nome 'Mina Pizza' em todos os canais tratada como orientacao pratica, nao como fraqueza estrategica (consistente com feedback anterior do operador sobre razao social vs nome fantasia)."
+    },
+    {
+      "ts": "2026-07-20T10:00:00Z",
+      "skill": "ee-s2-posicionamento",
+      "checkpoint": 0,
+      "decision": "Bugfix de renderizacao reportado pelo operador (print do portal): 'Mapa de Posicionamento Competitivo' aparecia com labels de eixo quebradas ('DECADAS) . MATURIDADE DIGITAL (BAIXA') e os 4 quadrantes vazios mesmo com concorrentes mapeados. Causa raiz: o renderer (portal.html) espera axis_x/axis_y no formato literal 'baixo -> alto' (splitAxis por regex) e client_position/quadrant dos concorrentes como codigo exato NE/NO/SE/SO — os valores salvos eram texto descritivo longo com parenteses, que quebrava o parser e nunca dava match exato. Corrigido em ee-s2-posicionamento.json (axis_x='Digital baixo -> Digital maduro', axis_y='Tradicao recente -> Tradicao decadas', client_position='NE', 3 concorrentes='SE') e replicado em ee-s3-manual-marca.json (mesma estrutura, renderer SVG separado que usa quadrant.slice(0,2) — adicionado tambem entry 'Mina Pizza' com is_client:true em NE, que antes nao aparecia no diagrama). Verificado com execucao real da funcao splitAxis (node) antes de salvar. Nenhuma mudanca de conteudo estrategico, so de formato de dado pro renderer funcionar."
+    },
+    {
+      "ts": "2026-07-20T10:15:00Z",
+      "skill": "ee-s2-diagnostico-midia",
+      "checkpoint": 0,
+      "decision": "Correcao de conteudo apontada pelo operador: campanha 'WhatsApp (reservas + aniversariantes)' no Cenario B nao faz sentido pra um PDV dentro de praca de alimentacao do Carrefour (nao ha reserva de mesa). Esse texto veio do rascunho original do proprio time no benchmark de midia paga ('videos focados em reservas'), carregado sem revisar contra o formato real do negocio. Trocado para 'WhatsApp (reativacao + aniversariantes)' — publico 3 agora e reativacao de clientes que sumiram (coerente com o achado central de retencao do ICP/SWOT), publico 4 segue aniversariantes do mes."
+    },
+    {
+      "ts": "2026-07-20T10:30:00Z",
+      "skill": "ee-revisao-semanal",
+      "checkpoint": 0,
+      "decision": "Primeira revisao semanal do ciclo, alvo Semana 2 (mais alta 100% completa). 2 evolucoes estrategicas mapeadas (ICP: generico->Marlene validada por avaliacoes reais; maturidade: 'sem presenca digital'->'presenca real nunca gerenciada'). 4 divergencias factuais encontradas, todas decididas pelo operador: F1 rating iFood desatualizado (4,7/47->4,8/54, total 160->167) em 5 outputs — ACEITAR, aplicado com _refinement_history registrado em cada arquivo; F2 client.json.progress.skills tinha ee-s2-diagnostico-cro e ee-s3-gmb-otimizacao (nao aplicaveis ao modelo pdv) — REMOVER, aplicado; F3 faltavam ee-s1-arquitetura-presenca + 4 stubs pdv + ee-s5-scripts-sdr/sdr-ia-config no tracking — ADICIONAR como pending, aplicado (execucao fica pra mais adiante); F4 current_week=3 incorreto (manual-marca e semana_4 no delivery-map real, nao semana_3 — prefixo do nome da skill nao indica a semana) — AJUSTAR pra 2, aplicado. 1 gap narrativo registrado (G1: consolidated.md lista secoes de modelos nao aplicaveis ao pdv — limitacao do renderer, fora do escopo de edicao de outputs). Output salvo em outputs/ee-revisao-semanal.json."
+    }
+  ]
+}

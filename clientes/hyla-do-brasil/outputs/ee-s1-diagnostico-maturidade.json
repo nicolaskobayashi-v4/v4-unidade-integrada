@@ -1,0 +1,153 @@
+{
+  "client_name": "Hyla do Brasil",
+  "skill": "ee-s1-diagnostico-maturidade",
+  "generated_at": "2026-06-22",
+  "data_source": "Kick-off S1 (16/06) + 1ª e 2ª reuniões comerciais (15/05, 19/05) + client.json + outputs/ee-s1-persona-icp",
+  "unavailable_reason": "Sem dados V4MOS conectados (organizationId confirmado, mas API retorna 403 'explicit deny in an identity-based policy' — escalado para o time da V4MOS, ver client.json.research.pendencias_a_confirmar_com_operador). Scores e métricas deste diagnóstico são baseados no briefing e nas estimativas verbais dos sócios, não em dados de plataforma. Marcado como estimated: true onde aplicável.",
+
+  "summary": "A Hyla tem audiência e operação reais (47-49 mil seguidores, ~R$14k/mês em mídia, 70-80 máquinas vendidas/mês), mas opera no escuro nos dois pilares que mais importam para crescer com segurança: CRM e Dados. Não existe CRM de fato — o C2S é um distribuidor de leads emprestado do setor imobiliário, não uma ferramenta de gestão de funil — e a própria equipe reconhece que só tem ~70-75% de precisão nos números do funil.",
+
+  "summary_headline": "Presença forte, mídia decente, mas CRM e Dados quase inexistentes — a Hyla decide hoje por estimativa, não por dashboard.",
+
+  "summary_highlights": [
+    { "category": "maturidade", "label": "Presença Digital", "value": "5/10", "subtext": "47-49k seguidores, mas site fraco e SEO reconhecidamente fraco", "tone": "yellow" },
+    { "category": "maturidade", "label": "Mídia Paga", "value": "5/10", "subtext": "~R$14k/mês ativos, mas sem visibilidade real de performance por canal", "tone": "yellow" },
+    { "category": "maturidade", "label": "Conversão", "value": "4/10", "subtext": "Demonstração converte bem (50-60%), mas funil até lá tem gargalos não medidos", "tone": "yellow" },
+    { "category": "maturidade", "label": "CRM", "value": "2/10", "subtext": "C2S distribui leads, mas não é CRM — zero nutrição/pós-venda automatizado", "tone": "red" },
+    { "category": "maturidade", "label": "Dados", "value": "2/10", "subtext": "Decisões por estimativa verbal; equipe reconhece ~70-75% de precisão", "tone": "red" },
+    { "category": "risco", "label": "Score geral", "value": "3,6/10", "subtext": "Maturidade digital baixa-média — estimado, sem dados V4MOS", "tone": "yellow" }
+  ],
+
+  "summary_key_findings": [
+    { "category": "vantagem", "text": "A Hyla já tem o ativo mais difícil de construir: audiência real e engajada (47-49 mil seguidores) e um produto com prova social espontânea forte (depoimentos, recordes de vendedoras, 17 anos de marca)." },
+    { "category": "ameaca", "text": "Zero CRM real significa que toda otimização de mídia, recrutamento ou pós-venda está competindo por dados que não existem de forma confiável — qualquer decisão de investimento maior corre risco de repetir o erro já cometido (dobrar budget de mídia sem dobrar resultado)." },
+    { "category": "contexto", "text": "O bloqueio atual de acesso à API da V4MOS (erro 403, já escalado) significa que este diagnóstico não pôde usar dados reais de Google Ads/Meta Ads — está fundamentado inteiramente em briefing e estimativas dos sócios." },
+    { "category": "acao", "text": "Antes de qualquer escala de investimento em mídia ou criativos, os dois pilares mais fracos (CRM e Dados) precisam de atenção — sem isso, a Hyla não vai conseguir medir se o investimento extra está funcionando." }
+  ],
+
+  "pilares": [
+    {
+      "id": "presenca",
+      "nome": "Presença Digital",
+      "score": 5,
+      "estimated": true,
+      "pontos_fortes": [
+        "Instagram oficial com ~47-49 mil seguidores, ativo",
+        "Conta secundária dedicada a recrutamento de associados (Hyla do Brasil Business)",
+        "Canal no YouTube ativo",
+        "17 anos de marca consolidada no segmento"
+      ],
+      "pontos_fracos": [
+        "Site em WordPress + WooCommerce + Elementor — avaliado pelo próprio operador V4 como 'ruim e cheio de gambiarras'",
+        "Performance mobile inconsistente dependendo do navegador, e-commerce limitado, sem integração TikTok Shop",
+        "SEO fraco — reconhecido pela própria equipe, preocupação crescente com buscas comparativas via IA generativa (ChatGPT/Gemini)",
+        "Conteúdo do YouTube é majoritariamente reaproveitamento de shorts do Instagram, sem produção própria",
+        "Sem assessoria de imprensa ativa hoje (só histórico oportunístico/gratuito na pandemia)"
+      ]
+    },
+    {
+      "id": "midia",
+      "nome": "Mídia Paga",
+      "score": 5,
+      "estimated": true,
+      "pontos_fortes": [
+        "Investimento ativo e consistente (~R$13.500-15.000/mês)",
+        "Mix concentrado e deliberado: Instagram + Google Ads/YouTube Pmax (decisão consciente de não pulverizar em TikTok/Facebook)",
+        "Lead qualificado por formulário restrito (boa prática — reduziram volume de leads de propósito para subir qualidade)"
+      ],
+      "pontos_fracos": [
+        "Já testaram dobrar o orçamento sem ganho proporcional — sinal de teto de eficiência não diagnosticado",
+        "CAC estimado em ~R$900/venda atribuída a mídia — alto frente à margem de 25-30% sobre um ticket de R$12-14,5k, mas sem dados reais de plataforma para validar onde está o desperdício",
+        "Sem visibilidade real de performance por campanha/criativo (V4MOS bloqueado)"
+      ]
+    },
+    {
+      "id": "conversao",
+      "nome": "Conversão (CRO)",
+      "score": 4,
+      "estimated": true,
+      "pontos_fortes": [
+        "Demonstração presencial converte fortemente quando o lead vem de indicação (50-60%)",
+        "Landing page de captação avaliada pela própria equipe como funcional"
+      ],
+      "pontos_fracos": [
+        "Lead frio de mídia converte só ~1 em 3 demonstrações realizadas — e não há dado confiável de quantas demonstrações agendadas de fato acontecem (sem taxa de no-show medida)",
+        "Gargalo real está na capacidade de demonstração (associados ativos), não no produto ou na oferta — qualquer ganho de conversão de mídia esbarra nesse limite físico",
+        "Site institucional com problemas técnicos (ver pilar Presença) prejudica a etapa de consideração para quem pesquisa antes de preencher o formulário"
+      ]
+    },
+    {
+      "id": "crm",
+      "nome": "CRM",
+      "score": 2,
+      "estimated": true,
+      "pontos_fortes": [
+        "C2S distribui leads de forma regionalizada com cadência de contato definida (2 ligações + 2 WhatsApp + 1 mensagem por até 10 dias úteis)"
+      ],
+      "pontos_fracos": [
+        "C2S é uma ferramenta emprestada do setor imobiliário, não um CRM de fato — não gerencia funil, não nutre, não automatiza pós-venda",
+        "Já testaram SDR interno (bom resultado) e SDR externo terceirizado (resultado igual ao vendedor sozinho) — sem comparação justa por falta de dados",
+        "Zero e-mail marketing ou nutrição de leads",
+        "Pós-venda é manual via SAC telefone/WhatsApp para revisão anual — funciona mas não escala e não é rastreável"
+      ]
+    },
+    {
+      "id": "dados",
+      "nome": "Dados / Analytics",
+      "score": 2,
+      "estimated": true,
+      "pontos_fortes": [
+        "Equipe tem consciência do problema — Cleiton verbalizou no kick-off que 'o grande problema do marketing é o controle dos dados'"
+      ],
+      "pontos_fracos": [
+        "Sem CRM real, não há dado confiável de funil — taxa de conversão por etapa é estimativa verbal dos sócios, com ~70-75% de precisão reconhecida pela própria equipe",
+        "V4MOS bloqueado (erro 403 de permissão, escalado para o time da plataforma) — sem dados reais de Google Ads/Meta Ads neste momento",
+        "Decisões de orçamento e canal são tomadas por memória/estimativa, não por dashboard"
+      ]
+    }
+  ],
+
+  "score_geral": 3.6,
+  "score_geral_estimated": true,
+
+  "tres_prioridades_evolucao": [
+    {
+      "prioridade": 1,
+      "acao": "Implementar um CRM real (mesmo que simples) para gestão de funil e pós-venda",
+      "porque": "É o pilar mais fraco e o que mais contamina os outros — sem CRM não há dado confiável de mídia, conversão ou recrutamento de associados. É também a skill já liberada no roadmap (ee-s3-crm-setup) sem precisar esperar nenhuma outra etapa.",
+      "skill_relacionada": "ee-s3-crm-setup"
+    },
+    {
+      "prioridade": 2,
+      "acao": "Resolver o bloqueio de acesso à API V4MOS e, em paralelo, instrumentar analytics próprio no site (GA4 e Pixel)",
+      "porque": "Sem dados reais de mídia, qualquer decisão de aumentar ou realocar investimento repete o risco já materializado (dobrar budget sem dobrar resultado). O bloqueio já foi escalado para o time da V4MOS; instrumentar analytics próprio reduz a dependência enquanto isso não é resolvido.",
+      "skill_relacionada": "ee-s2-diagnostico-midia"
+    },
+    {
+      "prioridade": 3,
+      "acao": "Tratar o site/e-commerce (WordPress + WooCommerce + Elementor) como prioridade técnica, não só estética",
+      "porque": "É o único ativo digital citado com problema técnico reconhecido tanto pelo cliente (não roda bem dependendo do navegador) quanto pelo operador V4 ('cheio de gambiarras') — investir em mídia para um destino tecnicamente fraco desperdiça parte do orçamento já validado como escasso.",
+      "skill_relacionada": "ee-s2-diagnostico-cro"
+    }
+  ],
+
+  "key_leverage_point": {
+    "headline": "CRM e Dados são os pilares mais fracos — e são também os que, corrigidos, tornam todos os outros mensuráveis.",
+    "context": "Presença e Mídia têm nota média (5/10) porque a Hyla já investe e já tem audiência — mas sem CRM e Dados, a empresa não sabe se esse investimento está rendendo o que poderia. O próprio time já viveu isso na prática: dobrou o orçamento de mídia uma vez e o resultado não dobrou, sem conseguir diagnosticar por quê. Resolver CRM primeiro é o que destrava a capacidade de medir (e corrigir) todos os outros pilares depois.",
+    "numbered_reasons": [
+      "ee-s3-crm-setup já está liberada no roadmap (depende só de ee-s1-persona-icp, já concluída) — não precisa esperar posicionamento ou pesquisa de mercado para começar",
+      "Sem CRM, o diagnóstico de mídia (ee-s2-diagnostico-midia) e o forecast (ee-s3-forecast-midia) vão continuar baseados em estimativa verbal, mesmo depois de resolvido o acesso à V4MOS",
+      "O ICP de recrutamento de associada (Beatriz, ver ee-s1-persona-icp) também depende de CRM para funcionar — hoje não há nem fila nem nutrição para candidatas a associada, só para leads de consumidor final"
+    ],
+    "discussion_anchor": "Vale propor priorizar ee-s3-crm-setup antes ou em paralelo com a pesquisa de mercado da semana 2 — é uma mudança de sequência em relação ao cronograma padrão, mas o diagnóstico de maturidade aponta isso como o gargalo mais urgente."
+  },
+
+  "honesty_alert": "Este diagnóstico foi feito inteiramente sem dados de plataforma (V4MOS bloqueado por erro de permissão na API, já escalado). Todos os scores são estimativas qualitativas baseadas no briefing e nas falas dos sócios nas reuniões — não são métricas medidas. Quando o acesso à V4MOS for resolvido, este diagnóstico deve ser refeito com dados reais antes de ser usado para qualquer decisão de orçamento.",
+
+  "alimenta_skills": [
+    "ee-s1-swot",
+    "ee-s2-diagnostico-midia",
+    "ee-s3-crm-setup",
+    "ee-revisao-semanal"
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "client_name": "Hyla do Brasil",
+  "skill": "ee-s2-posicionamento",
+  "generated_at": "2026-06-22",
+  "data_source": "ee-s1-persona-icp + ee-s1-swot + ee-s2-pesquisa-mercado + briefing/transcrições",
+  "correction_note": "21/07/2026 — 'garantia vitalícia' substituída por 'garantia de 15 anos' em todo o documento. Davi confirmou em transcrição ([S2] Pesquisa de Mercado, 01:16:55) que a garantia vitalícia 'é um projeto, hoje não existe'. O treinamento de uso, esse sim, é vitalício — mantido como benefício separado.",
+  "nota_metodologica": "Negócio de dois lados: PUV e mensagens estão desdobradas para consumidor final E candidata a associada, espelhando a estrutura de ICPs já mapeada. O território de marca, porém, é único — saúde respiratória doméstica — e serve aos dois públicos.",
+
+  "summary": "A Hyla hoje se comunica como 'mais um aspirador caro' quando na verdade tem o argumento mais forte do segmento: tecnologia patenteada que ataca a causa da alergia, não só a poeira, num país com mais de 20 milhões de asmáticos. O território de marca certo é 'a marca da saúde respiratória doméstica' — não 'limpeza' — e isso vale tanto para vender o produto quanto para recrutar associadas.",
+
+  "summary_headline": "A Hyla vende um aspirador, mas o argumento real é saúde — e ninguém mais no segmento está dizendo isso com essa força.",
+
+  "summary_highlights": [
+    { "category": "posicao", "label": "Território de marca", "value": "Saúde respiratória", "subtext": "Não 'limpeza' — eixo ainda pouco ocupado pelos concorrentes diretos", "tone": "green" },
+    { "category": "posicao", "label": "PUV consumidor", "value": "Testa antes de crer", "subtext": "Demonstração gratuita elimina o risco do ticket alto", "tone": "blue" },
+    { "category": "posicao", "label": "PUV associada", "value": "Renda recorrente", "subtext": "Comissão vitalícia em recompra — argumento ainda subcomunicado", "tone": "blue" },
+    { "category": "competicao", "label": "Vs. Rainbow/Vivenso", "value": "Meio do ticket", "subtext": "Não compete por preço mínimo nem máximo — ancora em saúde+atendimento", "tone": "blue" },
+    { "category": "risco", "label": "Alerta operacional", "value": "Demonstração é gargalo", "subtext": "Não prometer mais demonstração do que a capacidade de associados sustenta", "tone": "yellow" },
+    { "category": "oportunidade", "label": "Janela de mercado", "value": "Saúde ainda livre", "subtext": "20M+ asmáticos no Brasil, eixo pouco ocupado pela concorrência direta", "tone": "green" }
+  ],
+
+  "summary_key_findings": [
+    { "category": "vantagem", "text": "A tecnologia patenteada (separador autolimpante) não é um detalhe técnico — é a prova de que a Hyla ataca a causa da alergia (ácaros, poeira fina), não só o sintoma visível. Nenhum concorrente direto tem esse argumento disponível." },
+    { "category": "ameaca", "text": "Se a comunicação continuar ancorada em 'limpeza profunda' genérica, a Hyla compete pelo mesmo território que Rainbow e Vivenso já ocupam há anos — e perde a única vantagem que tem de verdade." },
+    { "category": "contexto", "text": "O comprador de ticket alto (R$12-14,5k) decide por confiança, não por especificação técnica. A demonstração gratuita já cumpre esse papel na prática — falta a comunicação dizer isso com a mesma clareza com que diz 'aspirador antialérgico'." },
+    { "category": "acao", "text": "O posicionamento de recrutamento de associadas precisa de uma PUV própria, hoje inexistente: a candidata não compra o produto, ela compra a oportunidade de transformar uma experiência boa em renda recorrente — esse argumento nunca foi formalizado." }
+  ],
+
+  "puv": {
+    "consumidor_final": {
+      "versao_completa": "O único aspirador a água com tecnologia patenteada que ataca a causa da sua alergia em casa — não só a poeira que você vê. Demonstração gratuita na sua casa, garantia de 15 anos, e 17 anos de resultado comprovado.",
+      "versao_curta": "O aspirador que você testa em casa antes de decidir — e que cuida da causa da sua alergia, não só da limpeza.",
+      "versao_headline": "Sua casa pode estar limpa e você continuar com alergia. O Hyla ataca a causa — não só a poeira que dá pra ver.",
+      "justificativa": "A decisora (Márcia) já desconfia de aspiradores caros e desconhecidos, e a objeção universal é preço. A PUV ataca isso com dois argumentos: (1) prova antes de pagar — a demonstração já existe na operação, só falta comunicar com força; (2) o produto resolve um problema mais profundo (causa da alergia) do que qualquer concorrente comunica."
+    },
+    "candidata_associada": {
+      "versao_completa": "Transforme a satisfação que você já teve como cliente Hyla em uma renda recorrente: comissão de até 30% em cada venda e 50% vitalício em toda recompra de quem você indicar — sem precisar saber vender, com treinamento e suporte completos.",
+      "versao_curta": "Você já confia no Hyla. Agora pode ganhar com ele também.",
+      "versao_headline": "Já é cliente Hyla? Você pode ganhar comissão vitalícia só por indicar quem você já indicaria de qualquer jeito.",
+      "justificativa": "Beatriz (candidata a associada) não busca 'ser vendedora' — busca renda extra com baixa barreira. A PUV ataca a objeção 'eu não sei vender' ao ancorar na prova social de já ser cliente satisfeita, não em habilidade comercial."
+    }
+  },
+
+  "posicionamento": {
+    "modelo": "Especialista em saúde respiratória doméstica que vende por demonstração — não é 'mais um aspirador premium', é a solução para um problema de saúde que a família sente todos os dias.",
+    "territorio": "Saúde antes de limpeza. Confiança antes de tecnologia. Prova antes de promessa.",
+    "antitese": "O oposto de aspirador genérico vendido por especificação técnica (potência, voltagem, capacidade do reservatório). O oposto da Rainbow, que aposta em vendedores agressivos e discurso de urgência. A Hyla fala de causa, não de sintoma — e prova antes de vender.",
+    "eixos": [
+      { "eixo": "Saúde × Limpeza genérica", "posicao": "Hyla é a marca da saúde respiratória em casa — limpeza é consequência, não o argumento principal" },
+      { "eixo": "Risco × Segurança", "posicao": "Demonstração gratuita elimina o risco de testar um produto de R$12-14,5k desconhecido — a confiança vem antes do pagamento" },
+      { "eixo": "Vendedora × Parceira de renda", "posicao": "Associada não é 'vendedora agressiva' (como a percepção sobre a Rainbow) — é uma cliente satisfeita que compartilha algo que já confia" },
+      { "eixo": "Genérico × Especializado", "posicao": "Foco em conforto + higiene + saúde — não tenta ser 'o aspirador para tudo'" }
+    ]
+  },
+
+  "canvas_4p": {
+    "produto": {
+      "principal": "Aspirador Hyla a água com separador de partículas autolimpante patenteado",
+      "outros": ["Aera (equalizador/purificador de ambientes)", "Nimbus (lavadora, R$3.000)", "Kit limpa-vidros", "Air Odorizer (R$149, item de recompra recorrente)", "Miniescova elétrica GST"],
+      "servicos_associados": ["Demonstração presencial gratuita e sem compromisso", "Treinamento de uso vitalício, incluindo a funcionária doméstica que vai operar", "Revisão anual preventiva (R$600-700)", "Garantia de 15 anos"],
+      "nao_faz": ["Venda sem demonstração prévia (vai contra o próprio modelo que mais converte)", "Concorrência por especificação técnica pura (potência, voltagem) — não é o argumento central"],
+      "diferenciais_produto": [
+        "Separador de partículas autolimpante — exclusivo, nenhum concorrente direto tem",
+        "Ataca ácaros e poeira fina (causa de alergia), não só sujeira visível",
+        "Garantia de 15 anos — motor com vida útil longa",
+        "17 anos de mercado e liderança no segmento no Brasil"
+      ]
+    },
+    "preco": {
+      "ticket_medio": "R$12.000-14.500",
+      "posicionamento_vs_concorrencia": "Acima do Vivenso (~R$12.000), abaixo da Rainbow (~R$21.000) — no meio do mercado, ancorado em saúde + atendimento + garantia, não no menor preço",
+      "formas_de_pagamento": ["Até 36x financiamento Santander", "Até 20x direto com a empresa", "Até 21x cartão", "Até 84x consignado (baixa adesão)"],
+      "filosofia": "Não competir pelo preço mais baixo (Vivenso ganha aí) nem pelo prestígio do mais caro (Rainbow ganha aí) — competir pela combinação saúde + prova (demonstração) + garantia, que nenhum dos dois comunica com a mesma força",
+      "comissionamento_associada": "Até ~30% por venda + 50% vitalício em toda recompra do cliente indicado — acima da média do setor, argumento de retenção de rede"
+    },
+    "praca": {
+      "fisico": "Venda direta nacional via rede de associados independentes (+100 cadastrados, ~35-50 ativos), concentração de 70% das vendas em São Paulo",
+      "raio_prioritario": "Grande São Paulo (onde já há densidade de associados) antes de qualquer expansão geográfica — conforme achado de ee-s2-pesquisa-mercado (penetração no SAM ainda muito baixa onde já opera)",
+      "digital": {
+        "atual": "Instagram oficial (pago + orgânico), Google Ads + YouTube Pmax, site/e-commerce (WordPress+WooCommerce+Elementor, tecnicamente fraco), Instagram Business para associadas (subutilizado)",
+        "a_construir": ["Funil estruturado de recrutamento em @hyladobrasilbusiness", "CRM de pós-venda e nutrição (ee-s3-crm-setup)", "Conteúdo de SEO/IA generativa ancorado em saúde respiratória"]
+      },
+      "canais_de_venda": [
+        "Demonstração presencial via associada (principal canal de fechamento)",
+        "Demonstração online quando não há associada na região",
+        "Indicação/cashback (canal mais rentável historicamente)",
+        "Lead de mídia paga → distribuído via C2S → demonstração"
+      ]
+    },
+    "promocao": {
+      "tom": "Saúde antes de limpeza. Direto, sem exagero, ancorado em prova (demonstração, garantia, anos de mercado) — não em urgência ou pressão de venda.",
+      "o_que_faz": [
+        "Conteúdo e anúncios ancorados nos 3 pilares (conforto, higiene, saúde), com saúde em primeiro plano",
+        "Formulário restrito de demonstração (já em uso, manter)",
+        "Programa de indicação/cashback como argumento de prova social",
+        "Conteúdo educativo sobre alergia/asma/qualidade do ar — aproveitando a tendência de busca via IA generativa"
+      ],
+      "o_que_nao_faz": [
+        "Comunicação que compete só por preço ou especificação técnica",
+        "Tom agressivo de vendedor (associado a Rainbow na percepção do próprio cliente)",
+        "Tratar recrutamento de associada como conteúdo genérico de 'oportunidade de negócio' sem ancorar em prova social real (cliente satisfeita)"
+      ],
+      "canais_priorizados": [
+        { "canal": "Instagram oficial", "objetivo": "Construir território de saúde com conteúdo + sustentar mídia paga de demonstração" },
+        { "canal": "Instagram Business (recrutamento)", "objetivo": "Funil estruturado de candidatas a associada, ancorado em depoimento de cliente satisfeita" },
+        { "canal": "Google Ads / YouTube Pmax", "objetivo": "Capturar busca ativa por solução de alergia/qualidade do ar, não só 'aspirador'" },
+        { "canal": "SEO de conteúdo / IA generativa", "objetivo": "Ocupar o espaço de busca comparativa ('qual aspirador é melhor para alergia') antes da concorrência" }
+      ]
+    }
+  },
+
+  "mensagens_por_segmento": {
+    "consumidor_final": {
+      "headline_lp": "Sua casa pode estar limpa e você continuar com alergia. O Hyla ataca a causa.",
+      "subheadline": "Demonstração gratuita na sua casa. Garantia de 15 anos. 17 anos cuidando da saúde respiratória das famílias brasileiras.",
+      "argumento_central": "Você não precisa confiar antes de testar. Agende uma demonstração gratuita e veja o resultado no seu próprio colchão.",
+      "objecoes_derrubadas": {
+        "e_muito_caro": "Veja o resultado antes de decidir — a demonstração é gratuita e sem compromisso, e o pagamento pode ser parcelado em até 36x",
+        "ja_tenho_aspirador": "Aspirador comum tira a poeira que você vê. O Hyla ataca os ácaros e partículas que causam a alergia",
+        "nunca_ouvi_falar": "17 anos de mercado, garantia de 15 anos, e milhares de famílias atendidas — peça a demonstração e veja com seus próprios olhos"
+      },
+      "cta": "Quero minha demonstração gratuita",
+      "tom": "Direto, sem exagero, focado em prova e em saúde — não em urgência de venda"
+    },
+    "candidata_associada": {
+      "headline_lp": "Você já confia no Hyla. Agora pode ganhar com ele também.",
+      "subheadline": "Comissão de até 30% por venda + 50% vitalício em toda recompra de quem você indicar. Sem precisar saber vender.",
+      "argumento_central": "Se você já é cliente satisfeita (ou conhece uma), já tem o argumento mais forte de vendas que existe: sua própria experiência.",
+      "objecoes_derrubadas": {
+        "nao_sei_vender": "Você não precisa vender — precisa compartilhar uma experiência que já teve. Treinamento e suporte completos inclusos.",
+        "nao_tenho_tempo": "Modelo flexível, compatível com a rotina de casa — você decide quanto tempo dedicar",
+        "e_se_eu_nao_vender_nada": "Suporte de um grupo de associadas e material de apoio prontos desde o primeiro dia"
+      },
+      "cta": "Quero saber como ser associada",
+      "formulario_campos": ["Nome", "Telefone", "Cidade/Estado", "Já é cliente Hyla? (sim/não)"],
+      "tom": "Acolhedor, ancorado em prova social real (depoimentos de associadas e clientes), não em promessa de ganho fácil"
+    }
+  },
+
+  "narrativa_de_marca": {
+    "historia": "Davi começou a vender aspiradores a água aos 16 anos, revendendo a concorrente americana Rainbow. Anos depois, fundou a Hyla do Brasil fazendo deliberadamente o oposto do que os concorrentes faziam: onde eles eram agressivos, a Hyla apostou em atendimento de excelência; onde eles vendiam genérico, a Hyla focou em saúde respiratória. Resultado: 17 anos depois, é referência do segmento no Brasil.",
+    "heroi": "A mãe/decisora que quer proteger a saúde da família em casa — e a associada que quer transformar uma boa experiência em renda própria.",
+    "vilao": "A causa invisível da alergia que nenhum aspirador comum resolve — e a desconfiança natural de pagar caro por algo que nunca se viu funcionar.",
+    "transformacao": "De 'sofro com alergia e não sei por quê' para 'eu vi funcionar na minha própria casa, antes de pagar um centavo'."
+  },
+
+  "key_leverage_point": {
+    "headline": "A frase que ainda não foi dita com força em nenhum canal da Hyla: 'a causa da sua alergia não é a poeira que você vê.' Quando essa frase virar a headline, a comunicação para de competir por 'mais um aspirador' e passa a competir por saúde — território onde a Hyla não tem concorrente direto.",
+    "context": "Hoje a comunicação da Hyla mistura conforto, higiene e saúde sem hierarquia clara. A pesquisa de mercado confirmou que saúde respiratória é uma motivação de massa (20M+ asmáticos, 30% com alergia respiratória) e que nenhum concorrente direto ocupa esse território com a mesma força que a tecnologia patenteada da Hyla permite. Reposicionar a comunicação — do produto às redes sociais, dos criativos à landing page — para liderar com saúde, não com limpeza, é a mudança que conecta todos os diagnósticos já feitos.",
+    "numbered_reasons": [
+      "A tecnologia patenteada (separador autolimpante) é a prova técnica de que a Hyla ataca causa, não sintoma — argumento que nenhum concorrente direto pode copiar instantaneamente",
+      "A demonstração gratuita já existe operacionalmente e já converte bem (50-60% via indicação) — falta só comunicá-la como parte central da prova de saúde, não como mero passo de venda",
+      "O mesmo território de saúde serve para recrutar associadas: quem já viveu a transformação de saúde em casa é a candidata mais natural a comunicar isso para outras pessoas"
+    ],
+    "discussion_anchor": "Antes de produzir qualquer criativo ou brandbook novo, validar com o cliente: a comunicação vai liderar com saúde respiratória (não com limpeza ou conforto) em todos os canais? Essa decisão de hierarquia entre os 3 pilares precisa ser tomada agora, antes da Semana 3."
+  },
+
+  "alerta_operacional": "Reforçar a demonstração gratuita como argumento central de marketing só é seguro se a capacidade de demonstração acompanhar — e ee-s1-swot já identificou isso como o gargalo atual (Fr3: só 35-50 associados ativos). Posicionar fortemente em torno de algo que a operação ainda não sustenta na escala da demanda pode aumentar o tempo de espera por demonstração e prejudicar exatamente a experiência que sustenta o posicionamento. Recomenda-se sequenciar: reforçar recrutamento de associadas (já recomendado desde a SWOT) antes ou junto com qualquer campanha que aumente a demanda por demonstração."
+}

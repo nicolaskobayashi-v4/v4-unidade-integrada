@@ -1,0 +1,175 @@
+{
+  "summary": "ICP principal da Mina Pizza é o cliente fiel de longa data de São Vicente (persona 'Marlene', 58 anos), não o turista ainda por conhecer a marca. O maior risco não é falta de aquisição — é erosão silenciosa dessa base por atendimento inconsistente e queda de qualidade, sem nenhum follow-up pra recuperar quem se afasta. Dois segmentos secundários (trabalhador da região, família de fim de semana) têm perfis de lealdade e urgência bem diferentes e merecem tratamento distinto no posicionamento.",
+  "client_name": "Mina Pizza",
+  "icp": {
+    "demographics": {
+      "type": "B2C",
+      "age_range": "35-65 anos, com concentração em 45+ (população mais velha, típica de São Vicente)",
+      "income_or_revenue": "Classe C/C+ — renda familiar estimada de R$3.000-7.000/mês, perfil típico da Baixada Santista",
+      "location": "São Vicente, SP — entorno do Carrefour da Av. Prefeito José Monteiro, incluindo fluxo de Santos",
+      "decision_maker_role": "Decide sozinho(a) ou em família — compra por impulso de fome/conveniência ou hábito de décadas, não é jornada de comparação planejada",
+      "education": "Ensino médio completo, majoritariamente — perfil popular/tradicional, não é público de nicho gourmet",
+      "other": {
+        "segmentos_secundarios": "Além de Marlene (ICP principal), dois segmentos secundários relevantes pra posicionamento futuro: (1) 'Jailson' — trabalhador da região que almoça ali durante a semana por proximidade/velocidade, zero lealdade emocional, decide por tempo de espera e preço, troca de lugar na primeira falha; (2) 'Família Andrade' — pais com filhos pequenos pedindo pizza no sábado à noite como programa de fim de semana, ticket mais alto, decisão do casal, mais carga emocional por envolver expectativa das crianças. Cada um pode exigir mensagem diferente na Semana 2 (posicionamento)."
+      }
+    },
+    "behavior": {
+      "decision_process": "Racional e por hábito — decisão rápida, pouco pesquisada, baseada em conveniência (já está no shopping) ou lealdade de longo prazo. Não é uma jornada ativa de comparação de concorrentes.",
+      "research_channels": ["Recomendação boca a boca / tradição familiar", "Busca dentro do iFood por 'pizza são vicente'", "Google, principalmente quando é visitante/turista da região"],
+      "main_objections": ["Atendimento por telefone é ruim, já aconteceu de desligarem na cara", "Preço subiu e a qualidade não acompanhou", "Comida às vezes chega fria ou sem tempero"],
+      "switching_triggers": "Uma experiência ruim específica (rispidez no telefone, comida sem tempero, item errado) some com décadas de lealdade — não é processo racional, é emocional e imediato",
+      "purchase_frequency": "Recorrente — semanal a mensal para os clientes fiéis; esporádica pra quem só passa pelo Carrefour"
+    },
+    "jobs": {
+      "functional": "Quando estou com fome dentro ou perto do Carrefour de São Vicente (compras, trabalho, de passagem), quero uma refeição rápida e saborosa sem esforço de decisão, para que eu resolva a fome sem perder tempo nem gastar muito.",
+      "emotional": "Quero sentir que ainda sou reconhecida e respeitada num lugar que já faz parte da minha rotina/história — não quero virar só mais um pedido anônimo depois de tantos anos.",
+      "social": "Quero poder levar família ou amigos num lugar que todo mundo já conhece e confia, sem risco de decepcionar ninguém — é um lugar 'de sempre', não uma novidade arriscada."
+    },
+    "pains": [
+      {
+        "pain": "Atendimento ríspido no telefone — mas a dor real é se sentir desrespeitada depois de décadas como cliente fiel, como se a lealdade dela não valesse nada pra quem atende.",
+        "intensity": "critical",
+        "current_workaround": "Muitos ainda ligam por hábito de décadas, ou migram pro iFood pra evitar o atendente"
+      },
+      {
+        "pain": "Comida às vezes fria, requentada ou sem tempero, principalmente no prato do dia — no fundo, é o medo de que o lugar em que ela sempre confiou esteja mudando pra pior, mexendo com a própria identidade de tradição que ela carrega.",
+        "intensity": "high",
+        "current_workaround": "Reclama na hora e às vezes não resolve; alguns simplesmente param de pedir aquele item"
+      },
+      {
+        "pain": "Preço subiu mas a qualidade não acompanhou — a dor não é o valor em si, é a sensação de que a relação de confiança de décadas virou só mais uma transação comum, como se estivesse sendo levada.",
+        "intensity": "high",
+        "current_workaround": "Continua comprando por hábito/lealdade, mas com desconfiança crescente"
+      },
+      {
+        "pain": "Pedido vem errado (item faltando/esquecido) — reforça a sensação de ser tratada como número, não como alguém que a casa já deveria reconhecer depois de tantos anos.",
+        "intensity": "medium",
+        "current_workaround": "Aceita o erro na maioria das vezes pra não ter que ligar de novo"
+      },
+      {
+        "pain": "Ambiente da praça de alimentação incomoda (barulho, situações desconfortáveis) — quer proteger um momento simples de conforto sem ter que negociar isso com o entorno.",
+        "intensity": "medium",
+        "current_workaround": "Prefere pedir delivery/viagem em vez de comer no local, ou aceita como 'faz parte' do lugar"
+      }
+    ],
+    "gains": [
+      {"gain": "Comida saborosa e feita na hora, com consistência (não fria, não sem tempero)", "type": "tangible"},
+      {"gain": "Entrega rápida, sem espera longa", "type": "tangible"},
+      {"gain": "Preço justo pelo que recebe — não sentir que está pagando caro por pouco", "type": "tangible"},
+      {"gain": "Sensação de tradição e confiança — 'é a pizzaria de sempre', sem risco de decepção", "type": "intangible"},
+      {"gain": "Ambiente prático e acessível (estacionamento do Carrefour, espaço plano)", "type": "tangible"}
+    ]
+  },
+  "persona": {
+    "name": "Marlene, 58 anos",
+    "photo_description": "Mulher de cerca de 55-60 anos, cabelo grisalho arrumado, vestindo roupa simples e prática (blusa e calça), com uma bolsa de compras do Carrefour na mão — expressão de quem está no meio de um dia corrido de tarefas, olhando o cardápio afixado no balcão da Mina Pizza dentro da praça de alimentação.",
+    "story": "Marlene mora perto do Carrefour de São Vicente há mais de 20 anos e conhece a Mina Pizza desde que era uma pizzaria pequena dentro da praça de alimentação. Vai ao shopping toda semana fazer compras e, quase sempre, para para almoçar ou levar um pastel pra casa — é rotina, não decisão. Nos últimos meses, porém, notou que o prato do dia às vezes vem sem gosto, e uma vez a atendente do telefone foi grossa quando ligou pra fazer um pedido pra família num domingo à noite. Ela ainda vai, porque conhece o lugar há décadas e confia na tradição, mas já comentou com as amigas que 'não é mais como antes' — e isso a deixa se perguntando se vale continuar voltando com a mesma frequência.",
+    "quote": "Eu já como aqui desde que meu filho era pequeno, mas ultimamente tá difícil — ou vem sem tempero, ou a mulher do telefone te trata mal. Eu ainda venho porque confio, mas não sei até quando."
+  },
+  "where_to_find": {
+    "digital_channels": [
+      "Grupos de bairro/vizinhança de São Vicente no Facebook",
+      "Perfis de 'o que fazer em São Vicente/Santos' no Instagram",
+      "Busca no iFood por 'pizza são vicente' e 'prato feito perto de mim'",
+      "Google Maps buscando 'restaurante praça de alimentação carrefour são vicente'"
+    ],
+    "keywords": ["pizza são vicente", "prato feito perto de mim", "restaurante carrefour são vicente", "pizzaria delivery são vicente", "pastel são vicente"],
+    "influencers": ["Páginas locais de gastronomia da Baixada Santista", "Perfis de turismo de praia de Santos/São Vicente"],
+    "communities": ["Grupos de bairro no Facebook/WhatsApp de moradores de São Vicente", "Comunidade de frequentadores do Carrefour São Vicente"]
+  },
+  "anti_persona": {
+    "description": "Perfis que consomem energia da operação sem virar recorrência real — o time deve saber dizer não pra esses.",
+    "profiles": [
+      {
+        "profile_name": "Turista de passagem sem tolerância a imprevisto",
+        "description": "Está na região só por um fim de semana, quer experiência perfeita e rápida; se pegar um dia de atendimento ruim, avalia mal e nunca mais volta — não tem histórico de relação pra 'perdoar' um deslize.",
+        "why_not": "Não tem paciência pra inconsistência operacional que a Mina Pizza ainda tem, e pode gerar dano de reputação desproporcional por uma experiência isolada.",
+        "signals": ["Pergunta sobre tempo de espera antes de pedir", "Sem histórico de pedido anterior", "Avalia no Google/iFood logo após a primeira experiência"],
+        "operational_rule": "Priorizar consistência mínima de atendimento antes de investir pesado em atrair esse público — ele não perdoa erro."
+      },
+      {
+        "profile_name": "Caçador de cupom do iFood",
+        "description": "Só pede quando tem desconto agressivo, sem intenção de virar cliente recorrente.",
+        "why_not": "Ticket baixo, sem lealdade, alto custo de aquisição via cupom sem retorno de recompra.",
+        "signals": ["Só aparece em promoção", "Nunca repete pedido fora de cupom", "Reclama de preço 'cheio' quando não tem desconto"],
+        "operational_rule": "Não desenhar a estratégia de mídia em torno de cupom agressivo — foco deve ser recompra de quem já confia na marca."
+      },
+      {
+        "profile_name": "Quem busca experiência gastronômica sofisticada",
+        "description": "Quer ambiente silencioso, atendimento de salão completo, pratos elaborados — não é o formato de balcão de praça de alimentação.",
+        "why_not": "A Mina Pizza é PDV simples dentro de shopping; tentar atender essa expectativa gera decepção e reclamação de ambiente/serviço.",
+        "signals": ["Pergunta sobre reserva de mesa", "Reclama do barulho/estrutura da praça de alimentação", "Espera cardápio degustação"],
+        "operational_rule": "Não comunicar como 'experiência gourmet' — deixar claro que é PDV rápido e tradicional, gerenciando expectativa antes da visita."
+      }
+    ],
+    "operational_rule": "Se o lead só aparece por cupom, exige experiência de salão completo, ou não tem tolerância a um deslize operacional isolado, não é prioridade de aquisição — o foco é o cliente recorrente que já confia na tradição da casa."
+  },
+  "buyer_journey": {
+    "description": "Jornada da Marlene, do gatilho de fome até a decisão de recompra.",
+    "stages": [
+      {"stage": "Gatilho", "trigger": "Fome durante compras no Carrefour, ou lembrança de um hábito antigo (ligar no fim de semana)", "mental_state": "Prático, sem grande deliberação", "primary_channel": "Presencial (já está no shopping) ou memória/hábito", "dominant_question": "O que eu como agora, rápido e sem crise?", "client_intervention": "Nenhuma hoje — decisão espontânea, não influenciada por comunicação ativa", "friction_today": "Nenhuma — é o ponto mais forte da jornada hoje", "duration_estimate": "Minutos"},
+      {"stage": "Escolha do canal de pedido", "trigger": "Decidiu que quer Mina Pizza, agora escolhe como pedir", "mental_state": "Neutro a levemente apreensivo (lembra de atendimento ruim no telefone)", "primary_channel": "Telefone, balcão presencial, ou iFood", "dominant_question": "Vou ligar (arriscar atendimento ruim) ou pedir pelo iFood (mais seguro, mas sem o toque pessoal de sempre)?", "client_intervention": "Nenhuma — não há WhatsApp Business nem cardápio digital próprio direcionando essa escolha", "friction_today": "Medo real de cair com o atendente ríspido do telefone", "duration_estimate": "Segundos a minutos"},
+      {"stage": "Pedido/Compra", "trigger": "Fez a ligação, foi ao balcão, ou finalizou no iFood", "mental_state": "Ansioso se por telefone; tranquilo se presencial ou iFood", "primary_channel": "Telefone / balcão / iFood", "dominant_question": "Será que dessa vez o atendimento vai ser bom?", "client_intervention": "Nenhuma intervenção de marca — depende de quem atende no momento", "friction_today": "Inconsistência entre atendentes — não há padrão de atendimento", "duration_estimate": "Minutos"},
+      {"stage": "Espera/Recebimento", "trigger": "Pedido feito, aguardando entrega ou retirada", "mental_state": "Expectativa — espera repetir a boa experiência de sempre", "primary_channel": "N/A (espera passiva)", "dominant_question": "Vai chegar quente e do jeito certo dessa vez?", "client_intervention": "Nenhuma", "friction_today": "Pizza às vezes chega fria; item errado ou faltando", "duration_estimate": "30-45 min (delivery) ou minutos (balcão)"},
+      {"stage": "Consumo/Avaliação", "trigger": "Comeu o pedido", "mental_state": "Satisfeita (maioria das vezes) ou frustrada (quando tempero/qualidade falha)", "primary_channel": "N/A", "dominant_question": "Valeu a pena o preço que paguei?", "client_intervention": "Nenhuma — ninguém pergunta como foi a experiência", "friction_today": "Sem follow-up ativo pra capturar feedback antes que vire reclamação pública", "duration_estimate": "Minutos a horas"},
+      {"stage": "Pós-compra / Recompra", "trigger": "Passou um tempo, sente fome de novo ou passa pelo Carrefour de novo", "mental_state": "Automático se a experiência foi boa; hesitante se teve falha recente", "primary_channel": "Memória/hábito, ou avaliação que deixou no Google/iFood", "dominant_question": "Vale repetir, ou dou uma chance pro concorrente dessa vez?", "client_intervention": "Nenhuma — não há régua de reativação nem resposta a avaliações negativas", "friction_today": "Sem tentativa de recuperar quem teve experiência ruim — cliente de décadas pode sumir sem ninguém perceber", "duration_estimate": "Dias a semanas"}
+    ],
+    "critical_leakage_point": {
+      "stage": "Pós-compra / Recompra",
+      "evidence": "Não é problema de descoberta (a Marlene já conhece a marca há décadas) — é ausência total de follow-up, com raiz já em 'Escolha do canal' (medo de cair com atendente ríspido). Um cliente fiel de 35 anos pode parar de voltar depois de uma ligação mal atendida ou um prato sem tempero, e ninguém na empresa sabe por quê: não há pergunta de satisfação, não há resposta a avaliação, não há reativação de quem sumiu."
+    }
+  },
+  "willingness_to_pay": {
+    "description": "Faixas de preço por produto principal, com base no ticket declarado e nas avaliações reais.",
+    "services": [
+      {"service": "Pizza (unidade/família)", "current_ticket_range": "R$50-58", "perceived_fair_range": "R$45-60", "premium_ceiling": "R$70 com recheio/qualidade perceptivelmente superior e consistência garantida", "elasticity": "baixa — cliente fiel aceita pagar mais se sentir que a qualidade voltou a ser consistente, mas está desconfiado com aumento recente sem melhora percebida", "pricing_lever": "Consistência de tempero/qualidade + atendimento melhor — não é o preço que afasta, é a percepção de queda de valor"},
+      {"service": "Prato do dia / executivo", "current_ticket_range": "R$30-37", "perceived_fair_range": "R$25-35", "premium_ceiling": "R$40 se vier consistentemente temperado e quente", "elasticity": "média — mais sensível a preço, já que tem concorrência direta (frango frito vizinho, lanchonetes)", "pricing_lever": "Consistência (não vir requentado/sem tempero) e velocidade de entrega no balcão"},
+      {"service": "Pastel", "current_ticket_range": "R$9-15 (estimado)", "perceived_fair_range": "R$9-15", "premium_ceiling": "R$18 se vier reconhecidamente bem recheado e fresco, como descrito nas avaliações", "elasticity": "baixa — é o produto mais elogiado, tem margem de aumentar preço sem perder cliente, desde que mantenha a qualidade", "pricing_lever": "Já é o produto mais forte de reputação — pode virar carro-chefe de marketing"}
+    ]
+  },
+  "objection_library": {
+    "description": "Objeções reais extraídas das avaliações e do comportamento observado.",
+    "objections": [
+      {"objection": "Já liguei uma vez e fui mal atendida, não quero passar por isso de novo", "subtext": "Medo real de repetir uma experiência ruim específica, não dúvida sobre o produto", "bad_response": "'Desculpa, vamos melhorar' — genérico, sem ação visível", "good_response": "Reconhecer o problema publicamente (responder a avaliação) e mostrar um canal alternativo mais confiável (WhatsApp com resposta padronizada) em vez de depender só do atendente do telefone", "when_to_use": "Resposta a avaliações negativas de atendimento no Google/iFood, e nas primeiras mensagens do WhatsApp Business quando for ativado"},
+      {"objection": "Antes era mais barato/melhor, agora não sei se vale o preço", "subtext": "Sente que a relação de confiança de décadas está sendo testada pelo aumento de preço sem melhora percebida", "bad_response": "'Nossos preços seguem a inflação como todo mundo' — justifica sem reconhecer a percepção do cliente", "good_response": "Comunicar especificamente o que mudou pra melhor (ingrediente, porção, tempero padronizado) quando corrigir os problemas de qualidade — dar um motivo concreto pro preço", "when_to_use": "Comunicação geral de marca após resolver os problemas de qualidade da cozinha"},
+      {"objection": "Prefiro ligar mesmo sabendo que às vezes é ruim, não confio em pedir por app", "subtext": "Resistência de hábito/idade ao digital, não rejeição real ao produto", "bad_response": "'Baixa o app, é mais fácil' — ignora a barreira real", "good_response": "Oferecer WhatsApp como ponte — mais familiar que um app, mas ainda mais confiável que o telefone com atendente ruim", "when_to_use": "Na ativação do WhatsApp Business, especialmente com clientes antigos"},
+      {"objection": "A praça de alimentação é barulhenta e às vezes tem gente incomodando", "subtext": "Prefere não comer no local por causa do ambiente, mesmo gostando da comida", "bad_response": "'Isso não é problema nosso, é do shopping' — tecnicamente verdade, mas não resolve a dor do cliente", "good_response": "Reforçar o delivery/retirada como alternativa fácil pra quem gosta da comida mas não do ambiente", "when_to_use": "Comunicação que destaca delivery/retirada como opção, não só consumo no local"},
+      {"objection": "Não sei se ainda é a mesma qualidade de antes", "subtext": "Cliente de longa data testando se ainda vale a lealdade", "bad_response": "'Sempre fomos os melhores da região' — afirmação vazia, sem prova", "good_response": "Usar prova social real e recente (avaliações específicas, ex: sobre o pastel) pra reforçar que a qualidade que ela lembra ainda existe em partes do cardápio", "when_to_use": "Posts/Stories no Instagram e respostas a avaliações"}
+    ]
+  },
+  "key_message": {
+    "chosen_message": "Comida de verdade.",
+    "approach": "functional",
+    "usage_context": "Headline de anúncios, bio do Instagram, base de todo material até a operação corrigir atendimento e consistência de qualidade",
+    "alternatives": [
+      {"message": "Comida de verdade.", "approach": "functional", "rationale": "Foco em qualidade/autenticidade sem prometer nada que a operação ainda não entrega de forma consistente — a mais segura pra usar agora."},
+      {"message": "Do jeito que você lembra.", "approach": "emotional", "rationale": "Mais forte emocionalmente pro público fiel (Marlene), mas arriscada agora: promete consistência que a cozinha e o atendimento ainda não garantem. Guardar pra depois que a operação corrigir o básico."},
+      {"message": "O point de sempre.", "approach": "social", "rationale": "Aposta em pertencimento/tradição local — funciona bem como mensagem secundária ou em conteúdo de marca, mas sozinha não comunica o que diferencia o produto."}
+    ]
+  },
+  "key_insight": {
+    "headline": "O cliente que a Mina Pizza mais precisa proteger não é quem ainda não conhece a marca — é a Marlene de 35 anos de casa que já está duvidando se volta.",
+    "context": "Diferente da maioria dos negócios, que precisam construir confiança do zero, a Mina Pizza já tem isso — o problema é que está deixando escapar sem perceber. Não há pergunta de satisfação, resposta a avaliação, ou tentativa de reconquistar quem sumiu.",
+    "numbered_reasons": [
+      "(1) Avaliações citam explicitamente 35 anos de relação sendo colocados em xeque por atendimento ruim recente — é erosão de um ativo raro, não falta de aquisição.",
+      "(2) O gatilho de compra (fome, hábito, passar no Carrefour) já funciona sozinho — o vazamento está depois, na experiência e no silêncio pós-venda.",
+      "(3) É mais barato reter quem já compra há décadas do que atrair turista novo — e a mídia paga (semana 2-3) só funciona de verdade se essa base parar de vazar primeiro."
+    ],
+    "discussion_anchor": "Antes de aprovar orçamento de aquisição, Roberto precisa decidir: quem vai entender por que a atendente do telefone trata cliente mal, e quem vai responder as avaliações negativas dessa semana?"
+  },
+  "honesty_alert": "Existe uma tensão real que precisa ser resolvida antes da Semana 3 (produção de criativos): a mensagem emocional ('do jeito que você lembra') seria a mais forte pra esse público fiel, mas seria desonesta enquanto os problemas de atendimento e consistência de tempero não forem corrigidos de verdade — prometer isso pra depois entregar comida fria é pior do que não prometer nada. Por isso a recomendação é a mensagem funcional por enquanto.",
+  "summary_headline": "O maior risco de churn da Mina Pizza não é falta de cliente novo — é a Marlene de décadas cansando de atendimento ríspido e comida inconsistente sem que ninguém perceba.",
+  "summary_highlights": [
+    {"category": "posicao", "label": "Perfil dominante", "value": "Cliente fiel 45+ de São Vicente", "subtext": "Recorrência de décadas, não descoberta nova", "tone": "blue"},
+    {"category": "risco", "label": "Maior vazamento na jornada", "value": "Pós-atendimento sem follow-up", "subtext": "Cliente de 35 anos pode sumir sem ninguém notar", "tone": "red"},
+    {"category": "oportunidade", "label": "Produto com maior WTP", "value": "Pastel", "subtext": "Mais elogiado nas avaliações, margem pra virar carro-chefe", "tone": "green"},
+    {"category": "janela", "label": "Objeção nº1 a resolver antes de mídia", "value": "Atendimento por telefone", "subtext": "Citada como motivo de churn mais que preço", "tone": "yellow"},
+    {"category": "competicao", "label": "Anti-persona a evitar", "value": "Caçador de cupom iFood", "subtext": "Sem lealdade, alto custo de aquisição sem retorno", "tone": "gray"}
+  ],
+  "summary_key_findings": [
+    {"category": "vantagem", "text": "36 anos de relação de confiança com clientes locais é um ativo que nenhum concorrente novo da praça consegue replicar rápido."},
+    {"category": "contexto", "text": "O ICP principal não é o turista de fim de semana (alvo da meta de crescimento) — é o morador antigo que já confia na marca. A estratégia de posicionamento (semana 2) vai precisar equilibrar reter esse público com atrair o novo, sem falar a mesma língua pros dois."},
+    {"category": "ameaca", "text": "Atendimento ríspido no telefone é citado como motivo de abandono mais do que preço ou concorrência — é o ponto mais urgente de correção, antes de qualquer investimento em atração."},
+    {"category": "acao", "text": "Resolver a consistência de atendimento e responder avaliações antes de rodar qualquer campanha evita que a mídia paga traga gente nova pra uma experiência que já está afastando quem é fiel."}
+  ]
+}

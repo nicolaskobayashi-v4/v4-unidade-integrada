@@ -1,0 +1,388 @@
+{
+  "client_name": "C Clean Serviços de Limpeza",
+  "skill": "ee-s2-diagnostico-cro",
+  "generated_at": "2026-05-04",
+  "data_source": "Fetch direto de https://cclean.com.br/ + briefing S1/S2 + ICP/Personas + Posicionamento aprovados",
+
+  "summary": "A LP cclean.com.br pede conversão antes de construir desejo, usa diferenciais genéricos que contradizem o posicionamento boutique premium aprovado, e não menciona nenhum dos três pilares do PUV real (26 anos, blindagem trabalhista, reposição 24h). A página atual converte por volume de intenção do Google Ads, não por persuasão — qualquer reconfiguração de mídia sem refatorar a LP desperdiça o ganho de eficiência.",
+
+  "summary_headline": "A LP atual vende limpeza genérica enquanto o posicionamento aprovado vende paz operacional — desalinhamento total entre mídia e página de destino.",
+
+  "summary_highlights": [
+    {
+      "category": "risco",
+      "label": "Headline do hero",
+      "value": "Genérica",
+      "subtext": "Não menciona nenhum diferencial real da CClean",
+      "tone": "red"
+    },
+    {
+      "category": "risco",
+      "label": "Prova social",
+      "value": "Zero",
+      "subtext": "Sem depoimentos, anos de mercado ou nº de clientes",
+      "tone": "red"
+    },
+    {
+      "category": "risco",
+      "label": "Ordem de conversão",
+      "value": "Invertida",
+      "subtext": "Formulário aparece antes da seção de dor/solução",
+      "tone": "red"
+    },
+    {
+      "category": "risco",
+      "label": "Imagens reais",
+      "value": "Ausentes",
+      "subtext": "Placeholders SVG no lugar de fotos da equipe",
+      "tone": "red"
+    },
+    {
+      "category": "maturidade",
+      "label": "PUV na LP",
+      "value": "0 de 3 pilares",
+      "subtext": "26 anos, blindagem trabalhista e reposição 24h: não aparecem",
+      "tone": "red"
+    },
+    {
+      "category": "oportunidade",
+      "label": "Potencial de melhoria",
+      "value": "Alto",
+      "subtext": "LP nova pode dobrar taxa de conversão sem mudar verba",
+      "tone": "green"
+    }
+  ],
+
+  "summary_key_findings": [
+    {
+      "category": "ameaca",
+      "text": "Os 3 pilares do PUV aprovado (26 anos de mercado, blindagem trabalhista, reposição garantida em 24h) não aparecem em nenhum lugar da LP atual. O visitante que chega pelo Google Ads não encontra o argumento que o convenceria a converter."
+    },
+    {
+      "category": "ameaca",
+      "text": "O formulário de contato está posicionado logo após o header — antes da seção de problema e diferenciais. A LP pede a conversão sem antes construir desejo, reduzindo drasticamente a taxa de preenchimento."
+    },
+    {
+      "category": "ameaca",
+      "text": "Os 5 diferenciais listados (Produtos Certificados, Alta Tecnologia, Máquinas de última geração) contradizem o posicionamento boutique premium aprovado. A CClean compete em pessoas e atendimento, não em tecnologia ou insumos."
+    },
+    {
+      "category": "contexto",
+      "text": "A LP tem estrutura básica funcional (seção hero, problema, ofertas, formulário, WhatsApp) — o problema não é ausência de estrutura, é o conteúdo que não reflete o posicionamento e o ICP reais."
+    },
+    {
+      "category": "acao",
+      "text": "A refatoração de copy e ordem das seções pode ser feita sem redesenho completo. Prioridade: headline do hero, trust signals, diferenciais reais e posicionamento correto do formulário."
+    }
+  ],
+
+  "page_audit": {
+    "url": "https://cclean.com.br/",
+    "page_type": "one-page LP (única página do site)",
+    "analytics_installed": null,
+    "analytics_unavailable_reason": "GA4 não verificado — acesso à conta não disponível. Métricas de sessão, bounce e conversão não rastreadas nesta auditoria.",
+    "mobile_first": false,
+    "mobile_note": "Site declarado como não mobile-first no S1. Não auditado no fetch — requer inspeção visual em dispositivo móvel.",
+
+    "sections": [
+      {
+        "section": "Header",
+        "content_found": "Logo 'C Clean' + CTA 'Fale Conosco Hoje' (link WhatsApp)",
+        "issues": ["Logo declarada como pequena no S1", "Falta número de telefone visível sem precisar clicar"],
+        "grade": "C"
+      },
+      {
+        "section": "Hero",
+        "headline": "Limpeza Profissional para Empresas e Condomínios em Joinville",
+        "subheadline": "Qualidade, Eficiência e Sustentabilidade para Ambientes Sempre Impecáveis",
+        "issues": [
+          "Headline descreve o serviço, não resolve a dor do ICP",
+          "Subheadline completamente genérica — qualquer concorrente poderia usar",
+          "Nenhum dos 3 pilares do PUV aparece: 26 anos, blindagem trabalhista, reposição 24h",
+          "Imagem placeholder SVG — sem foto de equipe real ou ambiente limpo",
+          "Sem trust signals: anos de mercado, nº de clientes, certificações"
+        ],
+        "grade": "D"
+      },
+      {
+        "section": "Formulário de contato",
+        "position": "2ª seção (logo após hero)",
+        "fields": ["Seu Nome", "Seu Telefone", "Seu email", "Assunto"],
+        "cta_label": "Enviar Contato",
+        "issues": [
+          "Posicionado antes da seção de problema/dor — pede conversão sem construir desejo",
+          "Campo 'Assunto' é genérico demais — não qualifica o lead",
+          "CTA 'Enviar Contato' é fraca — não comunica o próximo passo nem reduz fricção",
+          "Sem confirmação visual de envio descrita (possível ausência de feedback)",
+          "4 campos é razoável, mas 'email' pode ser barreira para conversão rápida por WhatsApp"
+        ],
+        "grade": "D"
+      },
+      {
+        "section": "Problema/Solução",
+        "headline": "Cansado de serviços de limpeza que não entregam qualidade?",
+        "subtext": "Ambientes sujos, equipe despreparada e falhas no atendimento?",
+        "issues": [
+          "Problema identificado como 'qualidade' — mas a dor real do ICP (síndico Roberto) é risco trabalhista e passivo jurídico, não qualidade de limpeza",
+          "Dor de Mariana (RH) — burnout com burocracia sindical — completamente ausente",
+          "Está posicionada DEPOIS do formulário — ordem incorreta"
+        ],
+        "grade": "C"
+      },
+      {
+        "section": "Cards de oferta",
+        "items": ["Empresarial", "Condomínios"],
+        "cta_label": "ENTRE EM CONTATO",
+        "issues": [
+          "Sem diferenciação de conteúdo entre os dois cards — o visitante não sabe o que cada um inclui",
+          "CTA idêntica nos dois — sem direcionamento por perfil",
+          "Oportunidade perdida: cada card poderia falar a linguagem da persona (Roberto vs. Mariana/Eduardo)"
+        ],
+        "grade": "C"
+      },
+      {
+        "section": "Diferenciais",
+        "headline": "Por que escolher a C Clean?",
+        "items": [
+          "Equipe Treinada — Profissionais uniformizados, treinados e comprometidos",
+          "Produtos Certificados — Utilizamos produtos ecológicos e seguros",
+          "Alta Tecnologia — Máquinas e equipamentos de última geração",
+          "Compromisso com Prazo — Atendimento rápido e eficaz",
+          "Planos Personalizados — Serviços sob medida para sua necessidade"
+        ],
+        "issues": [
+          "'Alta Tecnologia' e 'Produtos Certificados' contradizem o posicionamento boutique premium — CClean compete em pessoas e serviço, não em tecnologia/insumos",
+          "Ausente: '26 anos de mercado' — maior argumento de confiança",
+          "Ausente: 'Reposição garantida em 24h' — diferencial competitivo central vs. Grupo FT e Select",
+          "Ausente: 'Blindagem trabalhista' — principal Job-to-be-Done do ICP síndico",
+          "Ausente: 'Funcionários fixos no local' — diferencial vs. rotatividade dos concorrentes"
+        ],
+        "grade": "D"
+      },
+      {
+        "section": "CTA intermediária",
+        "text": "Orçamento sem compromisso e condições especiais para contratos mensais!",
+        "issues": ["Genérica", "Sem especificação de tempo de resposta ou próximo passo"],
+        "grade": "C"
+      },
+      {
+        "section": "Rodapé",
+        "content_found": "Links úteis, contatos, attribution 'Vitrum Digital & C Clean Limpeza' com logo Elementskit",
+        "issues": [
+          "Attribution da agência anterior (Vitrum) visível para o visitante — expose uma relação de fornecedor que não agrega valor ao ICP",
+          "Elementskit (builder WordPress) exposto — informação técnica irrelevante para o visitante"
+        ],
+        "grade": "C"
+      }
+    ],
+
+    "cta_analysis": {
+      "whatsapp_cta_count": 4,
+      "whatsapp_link": "https://wa.link/ghfulc",
+      "form_cta": "Enviar Contato",
+      "issues": [
+        "4 CTAs de WhatsApp idênticas sem contexto diferente — repetição sem intenção",
+        "Formulário e WhatsApp competem sem hierarquia clara — qual é o caminho primário?",
+        "Nenhuma CTA define o próximo passo: 'Receber orçamento em 24h', 'Falar com especialista', 'Agendar visita'"
+      ]
+    },
+
+    "trust_signals_audit": {
+      "years_in_market": false,
+      "client_count": false,
+      "testimonials": false,
+      "certifications": false,
+      "team_photos": false,
+      "case_studies": false,
+      "response_time_promise": false,
+      "note": "Zero trust signals na LP. Para o ICP descrito como 'cético e cauteloso' (Jeferson descreveu o perfil Roberto no S1), ausência de prova social é o maior travador de conversão."
+    }
+  },
+
+  "key_leverage_point": {
+    "headline": "A LP atual converte apesar de si mesma — qualquer visitante que fecha um contrato faz isso ignorando a página, não por causa dela.",
+    "context": "A estrutura básica existe mas o conteúdo não corresponde ao posicionamento nem ao ICP. O visitante que chega pelo Google Ads pesquisando 'terceirização de limpeza Joinville' encontra uma LP que fala de 'Alta Tecnologia' e 'Sustentabilidade' — não de blindagem trabalhista e reposição garantida. Refatorar o copy e reordenar as seções, sem redesenho completo, pode dobrar a taxa de conversão com a mesma verba de mídia.",
+    "numbered_reasons": [
+      "Headline do hero não conecta com a dor do ICP — o síndico não quer 'ambiente impecável', quer eliminar o risco trabalhista. A LP fala de produto, não de resultado.",
+      "Formulário antes da dor é o erro mais caro: o visitante chega sem desejo construído e a LP imediatamente pede dados. Taxa de abandono tende a ser altíssima nessa ordem.",
+      "Os 3 pilares do PUV (26 anos, blindagem trabalhista, reposição 24h) não aparecem em lugar nenhum — o principal argumento de fechamento está invisível para o lead mais qualificado."
+    ],
+    "discussion_anchor": "Refatorar copy e estrutura da LP é pré-requisito para qualquer ganho de mídia. Sem isso, dobrar a verba do Google Ads dobra só o desperdício."
+  },
+
+  "wireframe_proposed": {
+    "structure_note": "One-page LP — mesma estrutura atual, reorganizada e com copy refatorado. Sem mudança de plataforma (WordPress) nem redesign completo.",
+    "sections": [
+      {
+        "order": 1,
+        "section": "Header fixo",
+        "content": "Logo CClean | '26 anos de excelência em Joinville' | Telefone clicável | CTA 'Falar no WhatsApp' (verde)",
+        "rationale": "Trust signal imediato (26 anos) + acesso fácil ao contato sem scroll"
+      },
+      {
+        "order": 2,
+        "section": "Hero — Dor + Promessa",
+        "headline_proposto": "Terceirize a limpeza do seu condomínio ou empresa — e nunca mais se preocupe com falta, rescisão ou problema trabalhista.",
+        "subheadline_proposto": "A C Clean assume tudo: reposição garantida em 24h, blindagem trabalhista completa e atendimento direto. Há 26 anos protegendo o tempo e o caixa dos nossos clientes em Joinville.",
+        "cta": "Solicitar orçamento sem compromisso →",
+        "visual": "Foto real da equipe uniformizada em condomínio ou escritório da zona norte (substituir placeholder SVG)",
+        "rationale": "Conecta com Job-to-be-Done do ICP (paz operacional, não limpeza). Menciona os 3 pilares do PUV na primeira dobra."
+      },
+      {
+        "order": 3,
+        "section": "Trust bar — Números",
+        "content": "26 anos de mercado | 90+ clientes ativos | Reposição em até 24h | Joinville - zona norte",
+        "rationale": "Prova social objetiva. Para o ICP cauteloso, números reais eliminam objeção de 'empresa nova que pode falir' (dor de Mariana identificada no S2)."
+      },
+      {
+        "order": 4,
+        "section": "Identificação da dor",
+        "headline_proposto": "Você reconhece alguma dessas situações?",
+        "items": [
+          "Funcionária de limpeza faltou com atestado e você não tem cobertura",
+          "Medo de rescisão trabalhista com valor que pode comprometer o caixa do condomínio",
+          "Empresa de limpeza que some quando tem problema e você fica na mão",
+          "Ficou sabendo que seu funcionário tem direito a valor que você não calculou"
+        ],
+        "rationale": "Cada item é uma dor real mapeada nas personas Roberto, Mariana e Eduardo. Visitante se identifica antes do CTA."
+      },
+      {
+        "order": 5,
+        "section": "Solução + Diferenciais reais",
+        "headline_proposto": "A C Clean resolve tudo isso — e você nunca precisa se preocupar de novo.",
+        "items": [
+          "Reposição garantida em 24h — faltou? Mandamos substituta no próximo dia útil",
+          "Blindagem trabalhista total — férias, atestados, rescisões: problema nosso, não seu",
+          "Funcionários fixos e de longa data — mesma profissional no seu ambiente, sem rotatividade",
+          "Atendimento direto com os responsáveis — sem call center, sem terceiros",
+          "26 anos de mercado em Joinville — empresa consolidada com histórico real"
+        ],
+        "rationale": "Substitui os 5 diferenciais genéricos atuais pelos 5 argumentos reais que fecham contrato com o ICP."
+      },
+      {
+        "order": 6,
+        "section": "Segmentação por perfil",
+        "headline_proposto": "Para quem é a C Clean?",
+        "card_condominios": {
+          "titulo": "Síndicos e administradoras de condomínio",
+          "copy": "Condomínios verticais pequenos e médios na zona norte de Joinville. A C Clean elimina o risco trabalhista que mantém síndicos acordados à noite.",
+          "cta": "Quero orçamento para condomínio →"
+        },
+        "card_empresas": {
+          "titulo": "Escritórios, clínicas e pequenas empresas",
+          "copy": "De 1x por semana a tempo integral. Você cuida do seu negócio — nós cuidamos do ambiente.",
+          "cta": "Quero orçamento para minha empresa →"
+        },
+        "rationale": "Personaliza a mensagem por perfil sem criar páginas separadas. CTAs específicas qualificam o lead antes do contato."
+      },
+      {
+        "order": 7,
+        "section": "Prova social — Depoimentos",
+        "headline_proposto": "O que dizem nossos clientes (alguns há mais de 15 anos)",
+        "note": "Coletar 2-3 depoimentos reais de síndicos e donos de empresa da base atual. Formato: nome, cargo, tempo de cliente, texto curto.",
+        "fallback": "Se não houver depoimentos aprovados para publicar: usar métricas objetivas — 'Atendemos X condomínios na zona norte de Joinville. Nosso cliente médio fica conosco por Y anos.'",
+        "rationale": "Para o ICP cauteloso, prova social de pares (outros síndicos) é o argumento mais convincente disponível."
+      },
+      {
+        "order": 8,
+        "section": "Formulário + CTA principal",
+        "headline_proposto": "Receba seu orçamento em até 1 dia útil",
+        "fields": ["Nome", "Telefone (WhatsApp)", "Tipo: Condomínio / Empresa / Outro"],
+        "cta": "Quero meu orçamento gratuito →",
+        "secondary_cta": "Ou fale agora pelo WhatsApp →",
+        "removed_fields": ["Email (barreira sem benefício para esse ICP)", "Assunto (substituído por seleção tipo)"],
+        "rationale": "Formulário no momento certo (após desejo construído). Reduzido para 3 campos — menos fricção. CTA com promessa de tempo de resposta."
+      },
+      {
+        "order": 9,
+        "section": "Rodapé",
+        "content": "Endereço | Telefone | Email | Instagram | Horário de atendimento",
+        "removed": "Attribution 'Vitrum Digital' e referência a Elementskit",
+        "rationale": "Rodapé limpo. Attribution de agência não agrega valor ao visitante."
+      }
+    ]
+  },
+
+  "priority_fixes": [
+    {
+      "priority": 1,
+      "fix": "Reescrever headline e subheadline do hero com PUV real",
+      "effort": "Baixo — apenas copy",
+      "impact": "Alto",
+      "rationale": "Primeira coisa que o visitante lê. Conexão com dor do ICP aumenta tempo na página e intenção de converter."
+    },
+    {
+      "priority": 2,
+      "fix": "Mover formulário para após a seção de diferenciais",
+      "effort": "Baixo — reordenação de blocos no WordPress",
+      "impact": "Alto",
+      "rationale": "Converter depois de construir desejo. Essa mudança sozinha pode elevar significativamente o preenchimento."
+    },
+    {
+      "priority": 3,
+      "fix": "Substituir os 5 diferenciais genéricos pelos 5 argumentos reais",
+      "effort": "Baixo — apenas copy",
+      "impact": "Alto",
+      "rationale": "Alinha a LP ao posicionamento aprovado. Elimina contradição com 'boutique premium'."
+    },
+    {
+      "priority": 4,
+      "fix": "Adicionar trust bar com números reais (26 anos, 90+ clientes, reposição 24h)",
+      "effort": "Baixo",
+      "impact": "Médio-alto",
+      "rationale": "Para ICP cauteloso, números objetivos eliminam objeções sem precisar de depoimentos."
+    },
+    {
+      "priority": 5,
+      "fix": "Remover attribution Vitrum Digital e Elementskit do rodapé",
+      "effort": "Baixíssimo",
+      "impact": "Baixo mas rápido",
+      "rationale": "Exposição de fornecedor anterior sem benefício. Limpeza imediata."
+    },
+    {
+      "priority": 6,
+      "fix": "Coletar e publicar 2-3 depoimentos reais de clientes existentes",
+      "effort": "Médio — requer ação do cliente (pedir autorização e texto)",
+      "impact": "Alto",
+      "rationale": "Prova social de pares é o argumento mais persuasivo para o ICP síndico cauteloso."
+    },
+    {
+      "priority": 7,
+      "fix": "Substituir placeholders SVG por fotos reais da equipe",
+      "effort": "Médio — requer fotografia",
+      "impact": "Médio",
+      "rationale": "Humaniza a marca e reforça o posicionamento de empresa com pessoas reais vs. grande corporação fria."
+    }
+  ],
+
+  "kpis_to_track": [
+    {
+      "kpi": "Taxa de conversão LP (visitas → leads)",
+      "current": null,
+      "current_unavailable_reason": "GA4 não instalado",
+      "target": "3-5%",
+      "target_basis": "Benchmark B2B local de serviços com LP otimizada"
+    },
+    {
+      "kpi": "Taxa de preenchimento do formulário",
+      "current": null,
+      "current_unavailable_reason": "Sem rastreamento de eventos de formulário",
+      "target": "> 30% dos que chegam ao formulário",
+      "target_basis": "Meta após reposicionamento do formulário para após a seção de diferenciais"
+    },
+    {
+      "kpi": "Cliques no WhatsApp",
+      "current": null,
+      "current_unavailable_reason": "Sem rastreamento de eventos de clique",
+      "target": "Rastrear via UTM + evento no GTM",
+      "target_basis": "Baseline a definir após instalar rastreamento"
+    }
+  ],
+
+  "dependencies_met": {
+    "ee-s1-persona-icp": "completed",
+    "ee-s2-posicionamento": "completed"
+  },
+
+  "honesty_alert": "Auditoria realizada via fetch de HTML — sem acesso a analytics, heatmap ou gravações de sessão. Os problemas de copy e estrutura identificados são objetivos e verificáveis. O impacto estimado em taxa de conversão é baseado em benchmarks de mercado B2B local, não em dados históricos da CClean. Após instalar GA4 e Google Tag Manager (ação prioritária de ee-s2-diagnostico-midia), a baseline real estará disponível para validar as hipóteses deste diagnóstico."
+}

@@ -1,0 +1,131 @@
+{
+  "client_name": "Hyla do Brasil",
+  "skill": "ee-s2-diagnostico-criativos",
+  "generated_at": "2026-07-08",
+  "data_source": "Apresentação de design 'HYLA DO BRASIL - DPMV - DESIGN.pptx' (Natália Terciotti, designer V4/SCN&Co) + narração completa (TEXTO HYLA DIAGNOSTICO DESIGN.md) + transcrição da reunião ao vivo [S3] de 08/07/2026 (Anotações do Gemini), todos em base-de-conhecimento/. Cruzado com ee-s1-auditoria-comunicacao, ee-s1-persona-icp, ee-s2-posicionamento e ee-s2-diagnostico-midia.",
+
+  "summary": "As fotografias da Hyla já são um diferencial real — avaliadas como superiores à concorrência direta (Rainbow, Vivenso) — mas falta um sistema de identidade visual (tipografia, paleta, composição consistentes) que amarre isso em algo reconhecível sem depender do logo. Nos 2 criativos de tráfego pago avaliados em detalhe, o problema é o mesmo dos dois: falta CTA explícito e a marca aparece discreta demais. A nova identidade internacional da Hyla (lançamento oficial confirmado para 13/08/2026) aponta a direção: menos elementos, mais espaço negativo, fotografia editorial, mensagem de 'estilo de vida' em vez de 'como limpar'.",
+
+  "summary_headline": "Hyla já tem o ativo mais difícil de construir (fotografia real, ambientes bons) — falta o sistema que transforma isso em identidade reconhecível sem depender do logo.",
+
+  "summary_highlights": [
+    { "category": "maturidade", "label": "Criativos de tráfego pago avaliados", "value": "2 (detalhado)", "subtext": "Ambos com veredito 'otimizar' — score médio 16,5/25", "tone": "yellow" },
+    { "category": "oportunidade", "label": "Diferencial já existente", "value": "Fotografia", "subtext": "Avaliada como superior à Rainbow e Vivenso pela própria designer", "tone": "green" },
+    { "category": "risco", "label": "CTA em criativos pagos", "value": "Ausente", "subtext": "Nos 2 criativos analisados, nenhum tem chamada para ação explícita", "tone": "red" },
+    { "category": "competicao", "label": "Concorrentes (Rainbow, Vivenso)", "value": "Mesmo patamar", "subtext": "Nenhum executa a linguagem 'quiet luxury' que a Hyla Internacional já validou", "tone": "blue" },
+    { "category": "janela", "label": "Lançamento oficial da nova marca", "value": "13/08/2026", "subtext": "Workshop confirmado na reunião — manual, fontes e diretrizes chegam nessa data", "tone": "blue" }
+  ],
+
+  "summary_key_findings": [
+    { "category": "vantagem", "text": "As fotografias da Hyla já são um diferencial real (avaliadas por Natália como superiores à concorrência) — o problema não é o material bruto, é a falta de um sistema (tipografia, paleta, composição) que una as peças em identidade reconhecível." },
+    { "category": "ameaca", "text": "Rainbow usa imagens geradas por IA com aspecto artificial e muda a identidade visual completamente em datas comemorativas; Vivenso tem baixa diferenciação sem o logo. Nenhum dos dois executa a linguagem 'quiet luxury' da nova Hyla Internacional — mas a Hyla Brasil também ainda não. A janela está aberta para os dois lados." },
+    { "category": "acao", "text": "Os 2 criativos de tráfego pago avaliados compartilham o mesmo problema: ausência de CTA explícito e marca pouco presente. São ajustes rápidos ('o designer não vai levar 10, 15 minutos', nas palavras da Natália) e não dependem da chegada do manual oficial (13/08) para serem testados." },
+    { "category": "contexto", "text": "A reunião revelou dois problemas técnicos fora do escopo de design que impactam diretamente a mídia paga: o site foi hackeado recentemente (conteúdo de apostas/cassino injetado, chegou a bloquear as campanhas do Google — já resolvido) e as tags de rastreamento não estão centralizadas no GTM (Analytics isolado). Na própria reunião, o coordenador da V4 (Lucas Calefi) já repassou ao vivo para o cliente o achado de ee-s2-diagnostico-midia sobre conversões mal configuradas — inclusive citando o mesmo exemplo (page_view sendo contado como 'conversão boa') — mostrando que o diagnóstico de mídia já está sendo operacionalizado na conversa com o cliente." }
+  ],
+
+  "total_creatives_analyzed": 2,
+  "average_score": 16.5,
+  "counts": { "keep_count": 0, "optimize_count": 2, "eliminate_count": 0 },
+  "creative_matrix_note": "Natália avaliou qualitativamente (não em escala numérica) — os scores hook/clareza/ICP/CTA/visual abaixo são uma tradução interpretativa dessa avaliação qualitativa para o formato padrão da skill, marcados estimated:true. A amostra é pequena (2 criativos detalhados na apresentação, não um lote completo de biblioteca de anúncios) — recomenda-se uma rodada futura avaliando o restante da conta de anúncios ativa.",
+
+  "creative_matrix": [
+    {
+      "creative_name": "Anúncio estático — 'Livre das alergias' (benefícios + produto)",
+      "type": "Estático",
+      "format": "Imagem única",
+      "verdict": "otimizar",
+      "estimated": true,
+      "hook_score": 4,
+      "clarity_score": 4,
+      "icp_coherence_score": 3,
+      "cta_score": 2,
+      "visual_score": 3,
+      "total_score": 16,
+      "main_issue": "Sem CTA explícito no criativo (só o botão automático da plataforma) e baixo contraste em textos secundários — especialmente 'livre das alergias' — prejudicando a leitura no celular, onde a maioria vê o anúncio.",
+      "preview": { "source": "unavailable", "note": "Referenciado na apresentação de design (PPT), sem link/arquivo de imagem individual disponível neste momento." }
+    },
+    {
+      "creative_name": "Vídeo — Antes/depois (sujeira acumulada)",
+      "type": "Vídeo",
+      "format": "Reels/Feed",
+      "verdict": "otimizar",
+      "estimated": true,
+      "hook_score": 5,
+      "clarity_score": 4,
+      "icp_coherence_score": 3,
+      "cta_score": 2,
+      "visual_score": 3,
+      "total_score": 17,
+      "main_issue": "Hook forte (antes/depois desperta curiosidade e prende atenção nos primeiros segundos — ponto mais elogiado da análise), mas sem CTA de fechamento, marca pouco presente (sem vinheta/logo no encerramento), e testado com trilha sonora em versão desalinhada ao posicionamento (a versão com a música 'Lula Young', mais intensa/tensa, performou pior; a versão vencedora real já usa uma música instrumental alegre, mais leve).",
+      "preview": { "source": "unavailable", "note": "Referenciado na apresentação de design (PPT), sem link/arquivo de vídeo individual disponível neste momento." }
+    }
+  ],
+
+  "competitor_analysis": [
+    {
+      "name": "Vivenso Brasil",
+      "strategy_observed": "Feed organizado, paleta de cores consistente entre publicações, uso forte de fotografias reais de pessoas utilizando o produto em ambientes do dia a dia — gera naturalidade e credibilidade.",
+      "hook_pattern": "Fotografias reais de uso do produto no cotidiano (não apenas produto em fundo neutro).",
+      "what_to_avoid": "Falta de elementos visuais exclusivos — sem o logotipo, difícil identificar que o conteúdo é da Vivenso. Diagramação irregular em posts com muito texto (elementos grudados ou espaço excessivo). Elementos gráficos genéricos, estilo 'template pronto', que reduzem a percepção de produto premium.",
+      "gap_para_cliente": false,
+      "note": "Análise de presença orgânica no Instagram (não confirmada como biblioteca de anúncios pagos ativos). Segundo Natália, Vivenso e Rainbow estão em nível visual semelhante entre si — evoluir a identidade da Hyla não exige um esforço desproporcional para superá-los."
+    },
+    {
+      "name": "Grupo Rainbow",
+      "strategy_observed": "Feed organizado e bem produzido, transmite profissionalismo, mas o reconhecimento da marca depende muito da repetição da cor azul e da presença constante do produto em destaque — não de um sistema de identidade próprio.",
+      "what_to_avoid": "Falta de padronização tipográfica (mistura fonte manuscrita, serifada e sem serifa entre posts). Uso frequente de imagens geradas por IA com aspecto artificial (cores muito saturadas, iluminação exagerada, cenários pouco naturais) — reduz a percepção de sofisticação. Identidade visual muda completamente em campanhas temáticas/comemorativas, desconectando esses posts do restante do feed.",
+      "gap_para_cliente": false,
+      "note": "Análise de presença orgânica no Instagram (não confirmada como biblioteca de anúncios pagos ativos)."
+    }
+  ],
+
+  "patterns_identified": [
+    { "pattern": "Falta de sistema de identidade visual unificador", "example": "Se o logotipo é retirado de vários posts do Instagram da Hyla, fica difícil identificar rapidamente que o conteúdo é da marca — falta consistência de tipografia, fotografia e composição que una as peças." },
+    { "pattern": "Posts estáticos institucionais bem construídos, mas isolados no feed", "example": "Existe um intervalo muito grande entre um post estático e outro por causa do alto volume de vídeos — a linguagem visual que já existe (boa) se perde por falta de repetição/frequência, não por qualidade." },
+    { "pattern": "Identidade visual desaparece em datas comemorativas", "example": "Tipografia, paleta e diagramação mudam completamente em posts de Dia das Mães/Natal — o usuário entende que é um post de data comemorativa, mas não que é da Hyla especificamente." },
+    { "pattern": "Excesso de informação disputando atenção no site institucional", "example": "O banner principal do site comunica produto, selo, título grande, subtítulo, vários textos, menu e botão de ação simultaneamente, sem hierarquia clara — diferente da referência internacional, que foca em uma ideia principal por vez." }
+  ],
+
+  "production_briefing": {
+    "hook_direction": "Focar na experiência e no resultado (bem-estar, qualidade de vida, conforto), não no ato de limpar em si ou em especificações técnicas — a mudança de mensagem é de 'veja como limpar' para 'veja a vida que você pode viver'.",
+    "priority_format": "Vídeo (Reels/Stories) com fotografia editorial e iluminação natural consistente, gravado organicamente (a matriz internacional proíbe uso de IA em vídeos de demonstração — já fiscalizado ativamente). Manter posts estáticos institucionais para datas comemorativas e conteúdo educativo, mas com frequência maior para não se perderem entre os vídeos.",
+    "visual_elements": [
+      "Espaço negativo generoso (linguagem 'quiet luxury')",
+      "Tipografia serifada para peças editoriais/institucionais, combinada com a fonte sans atual para o dia a dia",
+      "Paleta com tons mais escuros/elegantes para criar contraste em datas comemorativas e campanhas",
+      "CTA explícito em todo criativo de tráfego pago ('Agende uma demonstração', 'Saiba mais', 'Conheça a Hyla')",
+      "Vinheta de fechamento com logotipo em vídeos (preferível a vinheta de abertura)",
+      "Trilha sonora instrumental e suave (piano, jazz leve, bossa nova contemporânea) em vez de músicas intensas ou agitadas",
+      "Elementos principais dentro da margem de segurança, posicionados mais para cima na tela (o olhar do usuário começa pela parte superior)"
+    ],
+    "avoid_elements": [
+      "Imagens focando no problema (pessoas espirrando, nariz entupido, incômodo) — focar no resultado/solução (respirar fundo, bem-estar)",
+      "Trends populares genéricas desalinhadas com um produto premium de ticket alto",
+      "Uso de IA em vídeos de demonstração de produto — proibido pela matriz internacional e ativamente monitorado no Instagram da Hyla Brasil",
+      "Variação de tipografia entre posts e capas de vídeo",
+      "Mudança completa de identidade visual em campanhas comemorativas — a identidade deve continuar presente mesmo com o tema sazonal",
+      "Imagens de baixa qualidade ou com aspecto de montagem em posições de destaque (ex.: seção final da landing page, hoje avaliada como pixelada)"
+    ]
+  },
+
+  "key_insight": {
+    "headline": "O maior ganho não é mudar peça por peça — é seguir o exemplo da própria Hyla Internacional: fazer o cliente reconhecer a marca pela fotografia, tipografia e direção de arte, mesmo sem ver o logo.",
+    "context": "A conclusão da própria análise de design resume bem: o desafio da Hyla não está no produto, que já é excelente, nem na fotografia, que já é um diferencial — está em construir um sistema visual consistente o suficiente para que qualquer peça, em qualquer canal, seja reconhecida como Hyla antes mesmo de aparecer o logotipo.",
+    "numbered_reasons": [
+      "A Hyla já tem o ativo mais difícil de construir: fotografias com boa iluminação natural e ambientes reais, avaliadas como diferencial frente aos concorrentes diretos (Rainbow usa muita imagem gerada por IA com aspecto artificial) — falta só o sistema que amarre tudo.",
+      "Rainbow e Vivenso estão no mesmo patamar visual entre si, e nenhum dos dois executa a linguagem 'quiet luxury' que a Hyla Internacional já validou globalmente — a janela de diferenciação está aberta, e superá-los não exige um esforço desproporcional.",
+      "O lançamento oficial da nova identidade (workshop confirmado para 13/08/2026) dá um prazo real para consolidar o manual — mas os ajustes de criativos de tráfego pago (CTA, trilha sonora, vinheta de fechamento) são rápidos e não dependem de esperar a marca oficial para começar a ser testados."
+    ],
+    "discussion_anchor": "Vale validar com Davi/Fábio se a produção de criativos de tráfego pago (CTA, áudio, vinheta) pode começar a ser testada já, em paralelo à espera do manual oficial de 13/08 — são ajustes que, segundo a própria Natália, um designer resolve em poucos minutos e não dependem da identidade visual nova para funcionar."
+  },
+
+  "honesty_alert": "Este output cobre especificamente a seção de 'Análise de Criativos para Tráfego Pago' da apresentação de design da Natália — a apresentação completa é bem mais ampla (identidade visual orgânica no Instagram, análise de concorrentes, site institucional, landing page) e alimenta outras skills que ainda não foram atualizadas com esse material: ee-s2-diagnostico-organico-ig (posts/feed), ee-s2-diagnostico-cro (site e landing page) e possivelmente ee-s3-identidade-visual, que estava marcada como bloqueada até a definição da conferência da matriz — a reunião confirmou que a definição já aconteceu e o lançamento oficial está marcado para 13/08/2026, o que pode desbloquear essa skill. Os scores do creative_matrix (hook/clareza/ICP/CTA/visual) são interpretação própria da análise qualitativa da Natália, não notas numéricas atribuídas por ela — marcados estimated:true. Apenas 2 criativos de tráfego pago foram detalhados na apresentação (não uma varredura completa da biblioteca de anúncios ativa da conta).",
+
+  "alimenta_skills": [
+    "ee-s2-diagnostico-organico-ig",
+    "ee-s2-diagnostico-cro",
+    "ee-s3-identidade-visual",
+    "ee-s3-brandbook",
+    "ee-revisao-semanal"
+  ]
+}

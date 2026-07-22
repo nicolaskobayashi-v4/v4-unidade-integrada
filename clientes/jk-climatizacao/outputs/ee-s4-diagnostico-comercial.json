@@ -1,0 +1,128 @@
+{
+  "client_name": "JK Climatização",
+  "skill": "ee-s4-diagnostico-comercial",
+  "version": 1,
+  "generated_at": "2026-07-09",
+  "data_source": "S4 Diagnóstico Comercial (01/07/2026) + 3 Entrevistas Comerciais — André Krueger, Marlon Da Costa, Pedro Weege Semeraro (22/06/2026) + S3 Diagnóstico de Marketing (19/06/2026) + ee-s1-persona-icp (09/07/2026)",
+  "nota_metodologica": "Depende formalmente de ee-s1-persona-icp (concluída em 09/07/2026 como backfill retroativo). NÃO depende, na árvore oficial, de ee-s3-brandbook nem ee-s3-crm-setup — mas ambos seguem pendentes e são citados abaixo como pré-requisito prático para a maturidade do funil proposto.",
+
+  "summary": "A JK não tem um problema de geração de leads — no verão, Pedro recebe 20-25 leads/dia. O problema é que nenhum deles recebe follow-up: André reconhece textualmente nunca ter pensado em montar um fluxo de reengajamento antes desta reunião. Sem CRM, sem critério de qualificação e sem cadência, o funil converte no que sobra de atenção humana disponível, não no potencial real da demanda.",
+  "summary_headline": "JK recebe até 25 leads/dia no verão e não faz follow-up em nenhum — o gargalo comercial não é demanda, é processo.",
+
+  "summary_highlights": [
+    { "category": "maturidade", "label": "Follow-up estruturado", "value": "0/10", "subtext": "André: 'nunca tinha pensado em fazer um fluxo de followup'", "tone": "red" },
+    { "category": "posicao", "label": "Volume de leads (verão)", "value": "20-25/dia", "subtext": "Só Pedro, via WhatsApp — inverno cai a quase zero orgânico", "tone": "blue" },
+    { "category": "risco", "label": "CRM", "value": "Inexistente", "subtext": "R$80mil já gastos num sistema que não emplacou; hoje é WhatsApp + planilha", "tone": "red" },
+    { "category": "oportunidade", "label": "Resposta em 5min", "value": "60% de chance", "subtext": "Benchmark citado na reunião — JK hoje não mede tempo de resposta", "tone": "green" },
+    { "category": "janela", "label": "Prospecção ativa", "value": "7 clientes/dia", "subtext": "Meta seria maior (André cita 100/dia); Marlon/Pedro sabem mas não executam", "tone": "yellow" },
+    { "category": "competicao", "label": "Qualificação de lead", "value": "Ordem de chegada", "subtext": "Pedro: 'vou por ordem da pessoa que me mandou a mensagem'", "tone": "red" }
+  ],
+
+  "summary_key_findings": [
+    { "category": "vantagem", "text": "No único cliente oculto já testado na própria JK, Pedro se destacou dos concorrentes por fazer perguntas investigativas, enviar orçamento formal por e-mail (único a fazer isso) e perguntar sobre PMOC (também único) — o time tem instinto comercial melhor que a concorrência quando o lead chega, só falta processo depois." },
+    { "category": "contexto", "text": "A benchmark de mercado citada na reunião é dura: conversão 'normal' de lead para venda é ~10%, e o fechamento depende de responder em até 5 minutos (60% de chance) — a chance cai a cada minuto de demora. A JK não mede nenhuma dessas variáveis hoje." },
+    { "category": "ameaca", "text": "Rotatividade recente (saída de uma colaboradora-chave em fev/2026 que fazia o filtro de atendimento) concentrou tarefas em Marlon sem redesenho de processo — o funil hoje depende de duas pessoas segurando conhecimento tácito, não de um processo documentado." },
+    { "category": "acao", "text": "Instituir cadência mínima de follow-up (D+1, D+3, D+7, mínimo 12 tentativas antes de considerar o lead perdido) e um critério de priorização de 1 a 5 estrelas — hoje Pedro responde só por ordem de chegada, tratando um lead de 10+ aparelhos igual a uma limpeza avulsa de ar-condicionado." }
+  ],
+
+  "estrutura_comercial_atual": {
+    "pessoas": [
+      { "nome": "André Krueger", "papel": "Gestor comercial + fecha negociações grandes/contas industriais pessoalmente", "observacao": "Ainda é 'a cara' da empresa nas negociações relevantes — dependência pessoal que ele mesmo quer reduzir" },
+      { "nome": "Pedro Weege Semeraro", "papel": "Recebe 100% dos leads novos via WhatsApp (pessoa física, contatos novos), filtra informação, registra num grupo interno 'agendamentos'", "observacao": "Sem autonomia para fechar orçamento sozinho — 'entra lead e sai agendamento', repassa decisão de preço para Marlon/André, o que já sinaliza ao cliente que ele 'não é capaz de fazer o orçamento'" },
+      { "nome": "Marlon Da Costa", "papel": "Escolhe o técnico por tabela de prioridade, agenda, atende diretamente clientes recorrentes com contrato (sem passar por Pedro), faz prospecção ativa em campo 3x/semana", "observacao": "Descrito por André como 'braço direito' — concentrou tarefas extras desde a saída de uma colaboradora em fev/2026" }
+    ],
+    "papeis_propostos_pela_agencia_ainda_nao_implementados": {
+      "pedro": "Inside Sales completo — script, CRM, qualificação, orçamento e fechamento (OS), com autonomia real",
+      "marlon": "Onboarding + Farmer — agendamento, execução, expansão/retenção de carteira",
+      "handover": "Passagem de bastão explícita entre os dois papéis, hoje inexistente (retrabalho e informação se perdendo entre Pedro e Marlon já foi flagrado no cliente oculto interno)"
+    }
+  },
+
+  "funil_atual": {
+    "fluxo_leads_novos": [
+      "Canal WhatsApp/indicação → Pedro faz primeiro contato e qualifica com perguntas investigativas",
+      "Pedro registra num grupo interno 'agendamentos' já com provisão de valor estimado",
+      "Marlon escolhe o técnico pela tabela de prioridade técnica e agenda",
+      "Marlon avisa Pedro para confirmar com o cliente",
+      "Técnico executa o serviço",
+      "FIM — sem pós-venda estruturado, sem follow-up se a proposta for recusada"
+    ],
+    "fluxo_clientes_recorrentes": [
+      "Empresa com contrato manda solicitação direto num grupo de manutenção (às vezes monitorado pelo próprio André)",
+      "Marlon atende diretamente, sem passar por Pedro",
+      "Execução → laudo técnico → fim do ciclo até a próxima necessidade"
+    ],
+    "gargalo_central": "Se a proposta é recusada no primeiro contato, o lead é considerado perdido — não existe cadência de reengajamento, nem para leads novos nem para clientes que 'pediram para ligar depois'."
+  },
+
+  "processo_de_qualificacao_hoje": {
+    "existe_criterio_formal": false,
+    "como_funciona_na_pratica": "Pedro atende por ordem de chegada da mensagem, com leve prioridade a clientes já existentes só quando o volume é muito alto ('não costuma acontecer muito'). Marlon prioriza clientes fidelizados com contrato 'por feeling', a não ser que outro lead novo pareça mais urgente.",
+    "ferramentas": "Nenhum CRM — WhatsApp direto + planilhas Excel/Sheets + um ERP interno ('RP'/'ORP') só para consulta de clientes já cadastrados. Tentativa anterior de sistema de gestão de campo custou ~R$80.000 e nunca foi adotada pela equipe.",
+    "dados_disponiveis": "Duas planilhas simples: (1) contagem de chamados por tipo e total de agendamentos; (2) planilha nova (iniciada em jun/2026) de prospecção ativa diária, ainda sem fluxo de reengajamento. André resume: 'ninguém utiliza esses dados por enquanto'."
+  },
+
+  "benchmarks_vs_realidade_jk": [
+    { "metrica": "Conversão lead → venda", "benchmark_mercado": "~10% (referência citada na reunião)", "realidade_jk": null, "unavailable_reason": "Não medido — sem CRM, JK não sabe sua própria taxa de conversão hoje" },
+    { "metrica": "Chance de fechamento respondendo em até 5 min", "benchmark_mercado": "~60%, caindo a cada minuto de atraso", "realidade_jk": null, "unavailable_reason": "Tempo de resposta não é medido nem monitorado hoje" },
+    { "metrica": "Tentativas de follow-up até o fechamento", "benchmark_mercado": "6 a 12 tentativas (D+1/D+3/D+7 recomendado)", "realidade_jk": "0 — 'nunca tinha pensado em fazer um fluxo de followup' (André, 01/07/2026)", "tone": "red" },
+    { "metrica": "Prospecção ativa diária (Marlon/Pedro)", "benchmark_interno_desejado": "~100 contatos/dia, segundo a própria meta informal do André", "realidade_jk": "7 clientes/dia em 3 dias consecutivos na semana anterior à reunião — WhatsApp chegou a travar por limite de envio no mesmo período, mas o volume real ficou muito abaixo da meta" },
+    { "metrica": "Forecast/previsão de vendas do mês", "benchmark_mercado": "Pipeline com dado (CRM)", "realidade_jk": "Inexistente — André, textualmente: 'como é que eles sabem quanto que vai fechar esse mês? Não sabem... e você? Não sei.'" },
+    { "metrica": "Rampagem de novo vendedor até maturidade", "benchmark_mercado": "Mínimo 3 meses de rampa, maturidade plena ~1,5 ano de casa (referência citada na reunião)", "realidade_jk": "Sem processo de onboarding comercial documentado — dependência de aprendizado tácito" }
+  ],
+
+  "mapa_de_objecoes": [
+    { "objecao": "Preço / 'achou caro'", "frequencia": "alta", "origem": "Registrado como motivo real de perda em exemplo de CRM apresentado na reunião", "resposta_recomendada": "Ver biblioteca de objeções de ee-s1-persona-icp — ancorar em custo de parada vs. custo de preventiva, hoje só usado informalmente por André" },
+    { "objecao": "Omissão proposital de informação pelo cliente para forçar visita técnica", "frequencia": "comum em Blumenau, segundo André", "origem": "'o cliente ele querer omitir certas informações para que tu vá até lá e resolva o problema dele'", "resposta_recomendada": "Treinar perguntas de qualificação mais diretas na primeira mensagem, sem depender da visita para descobrir o real escopo" },
+    { "objecao": "Adiamento sazonal ('me liga em setembro')", "frequencia": "alta no inverno", "origem": "André confirma que não há reengajamento ativo além de uma anotação simples do mês de retorno", "resposta_recomendada": "Cadência de reativação D+30/D+60/D+90 no período de baixa, em vez de esperar passivamente o cliente retornar" },
+    { "objecao": "Produto não se encaixa (ex.: cliente quer evaporativo) ou produto em falta", "frequencia": "pontual", "origem": "Motivos de perda citados em exemplo de CRM na reunião", "resposta_recomendada": "Desqualificar rápido e educadamente — já mapeado como ICP não-ideal em ee-s1-persona-icp" },
+    { "objecao": "Desconfiança em fornecer CPF/CNPJ logo no primeiro contato", "frequencia": "não quantificada", "origem": "Identificado como erro potencial tanto em concorrentes quanto na própria JK — pedir dado sensível cedo demais, antes do cliente estar inclinado à compra", "resposta_recomendada": "Adiar coleta de documento para depois da qualificação inicial" },
+    { "objecao": "Linguagem técnica excessiva ('análise de carga térmica', 'split') assusta cliente leigo", "frequencia": "identificada tanto na JK quanto nos concorrentes testados no cliente oculto", "origem": "'maldição do conhecimento' — termo usado na própria reunião de diagnóstico", "resposta_recomendada": "Simplificar linguagem no primeiro contato, reservar termo técnico para a validação com o gerente de manutenção (persona Marcos Zimmermann)" }
+  ],
+
+  "criterios_de_qualificacao_1_a_5_estrelas": {
+    "principio": "Hoje Pedro atende por ordem de chegada — uma limpeza avulsa de ar-condicionado recebe a mesma prioridade que uma indústria com 10+ aparelhos. A proposta abaixo usa o ICP já validado em ee-s1-persona-icp como critério de corte.",
+    "escala": [
+      { "estrelas": 5, "perfil": "B2B corporativo/industrial (icp-1), 10+ aparelhos, dentro do raio de 300km, sinal de urgência (quebra, pico de calor, auditoria próxima)", "acao": "Prioridade máxima — resposta imediata, escalar para negociação com André se ticket for alto" },
+      { "estrelas": 4, "perfil": "B2B2C alto padrão (icp-2) — arquiteto/construtora com obra confirmada em andamento, dentro do raio", "acao": "Prioridade alta — resposta rápida, Marlon ou André conduzem por envolver ticket de projeto (R$90-120k)" },
+      { "estrelas": 3, "perfil": "B2B corporativo com menos de 10 aparelhos mas dentro do raio, ou B2C residencial com potencial real de contrato recorrente", "acao": "Prioridade média — atendido por Pedro dentro da cadência padrão, sem urgência de escalar" },
+      { "estrelas": 2, "perfil": "B2C residencial avulso comum (icp-3), dentro do raio, sem sinal de recorrência", "acao": "Atendido no fluxo normal, sem prospecção ativa adicional — não é o cliente que a estratégia busca priorizar" },
+      { "estrelas": 1, "perfil": "Fora do raio de 300km, busca sistema evaporativo (fora do escopo técnico), ou sinaliza decisão 100% por menor preço comparando com MEI informal", "acao": "Resposta cortês e objetiva; desqualificar/redirecionar sem investir tempo de prospecção" }
+    ]
+  },
+
+  "sla_por_score": [
+    { "estrelas": "5", "tempo_de_resposta_alvo": "Imediato (até 5 minutos) — benchmark citado na reunião dá 60% de chance de fechamento nessa janela", "cadencia_de_followup": "D+1, D+3, D+7 — mínimo 12 tentativas antes de considerar perdido" },
+    { "estrelas": "4", "tempo_de_resposta_alvo": "Até 15 minutos", "cadencia_de_followup": "D+1, D+3, D+7 — mínimo 12 tentativas" },
+    { "estrelas": "3", "tempo_de_resposta_alvo": "Até 1 hora (dentro do expediente)", "cadencia_de_followup": "D+1, D+3 — mínimo 6 tentativas" },
+    { "estrelas": "2", "tempo_de_resposta_alvo": "Mesmo dia útil", "cadencia_de_followup": "1 tentativa de follow-up (D+3), sem cadência estendida" },
+    { "estrelas": "1", "tempo_de_resposta_alvo": "Mesmo dia útil, resposta padrão de desqualificação", "cadencia_de_followup": "Nenhuma — não reengajar" }
+  ],
+
+  "funil_proposto": {
+    "etapas_crm": ["Lead entra", "Conexão", "Qualificação (aplicar escala 1-5 estrelas)", "Proposta/Orçamento", "Follow-up (se sem retorno)", "Ganho (agendamento) ou Perdido (com motivo registrado)", "Onboarding/Execução (agendamento + cobrança)", "Retenção/Expansão (contrato recorrente)"],
+    "cadencia_padrao": "D+1, D+3, D+7 — mínimo 12 tentativas antes de considerar o lead perdido (referência citada na reunião: até 14 tentativas já foram necessárias num caso real relatado pelo próprio André)",
+    "pre_requisito_de_infraestrutura": "Depende de um CRM leve funcional (ver ee-s3-crm-setup, ainda pendente) — hoje o controle é WhatsApp + planilha manual, insuficiente para sustentar uma cadência de 12 tentativas rastreadas por lead."
+  },
+
+  "key_leverage_point": {
+    "headline": "A JK não perde venda por falta de lead — perde por falta de follow-up. E isso já foi reconhecido pelo próprio André na hora, ao vivo, na reunião de diagnóstico.",
+    "context": "No verão, Pedro recebe até 25 leads por dia. Mesmo assim, se a primeira proposta não emplaca, o lead simplesmente para de ser trabalhado — não existe segunda tentativa, D+1, D+3 ou qualquer cadência. André verbalizou isso na própria reunião: 'eu nunca tinha pensado em fazer um fluxo de followup'. É o gargalo de maior alavancagem porque não depende de mais mídia, mais gente ou mais tecnologia cara — depende de instituir uma cadência simples.",
+    "numbered_reasons": [
+      "O benchmark de mercado citado na reunião (6-12 tentativas até o fechamento) está muito acima do que a JK faz hoje (0 tentativas de reengajamento formal)",
+      "Pedro já demonstra instinto comercial acima da média no primeiro contato (único a enviar orçamento formal e perguntar sobre PMOC no cliente oculto testado) — o problema não é a primeira conversa, é o que acontece depois dela",
+      "Sem CRM, cada follow-up depende de alguém lembrar manualmente — a cadência só vira hábito real se tiver ferramenta mínima sustentando (ver ee-s3-crm-setup)"
+    ],
+    "discussion_anchor": "Vale perguntar direto ao André: ele topa comprometer Pedro e Marlon com uma cadência mínima (D+1/D+3/D+7) já nas próximas semanas, mesmo antes do CRM estar pronto — testando com planilha simples enquanto isso, para não esperar a ferramenta ideal pra começar a fechar o gargalo mais barato de resolver?"
+  },
+
+  "honesty_alert": "Todos os benchmarks de mercado citados neste diagnóstico (conversão de 10%, janela de 5 minutos, 6-12 tentativas de follow-up) vieram de referências gerais trazidas pela V4 na reunião, não de dados setoriais formalmente citados com fonte publicada — tratar como referência de bom senso comercial, não como benchmark certificado do setor de climatização. Da mesma forma, a JK não tem nenhum dado histórico real de conversão, ticket médio ou ciclo de vendas medido — 'ninguém utiliza esses dados por enquanto', nas palavras do próprio André. Qualquer meta definida a partir deste diagnóstico precisa ser validada com dados reais assim que o CRM leve (ee-s3-crm-setup) existir.",
+
+  "pendente_confirmacao_operador": [
+    "Confirmar com André se ele topa comprometer a cadência mínima D+1/D+3/D+7 mesmo antes do CRM estar pronto (usando planilha simples de transição)",
+    "Definir quem assume formalmente o papel de 'Inside Sales completo' proposto para Pedro — inclui dar autonomia real de fechar orçamento sem repassar para Marlon/André",
+    "Validar a escala de 1 a 5 estrelas com o time (Pedro e Marlon) antes de formalizar — eles conhecem nuances de campo que este diagnóstico, feito de fora, pode não capturar"
+  ],
+
+  "alimenta_skills": ["ee-s4-cliente-oculto", "ee-s5-scripts-sdr", "ee-s5-sdr-ia-config", "ee-s3-crm-setup"]
+}

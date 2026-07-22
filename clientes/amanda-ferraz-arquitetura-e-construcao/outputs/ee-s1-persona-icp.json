@@ -1,0 +1,425 @@
+{
+  "client_name": "Amanda Ferraz Arquitetura e Construção",
+  "summary": "ICP é o casal de 35-60 anos com patrimônio consolidado ('dinheiro velho') investindo R$5-7 milhões (escalando a R$10M+) em construção residencial em Jundiaí/RMC: ela escolhe o escritório pela confiança e escuta, ele valida o investimento pela planilha e controle financeiro. O diferencial real defensável é técnico (projeto executivo sem retrabalho, zero comissionamento de fornecedor) — mas o portfólio raso do site (3 projetos) vaza prova social justo na fase de comparação com concorrentes.",
+
+  "summary_headline": "O casal 35-60 anos de 'dinheiro velho' é o ICP: ela escolhe pela confiança, ele aprova pela planilha — mas o site raso (3 projetos) perde a comparação no momento decisivo.",
+
+  "summary_highlights": [
+    {
+      "category": "posicao",
+      "label": "Ticket médio",
+      "value": "R$450-500 mil + 12% gestão",
+      "subtext": "Obra de R$5-7M, escalando a R$10M+",
+      "tone": "blue"
+    },
+    {
+      "category": "competicao",
+      "label": "Concorrente mais direto",
+      "value": "Eduardo Muzi",
+      "subtext": "Disputa obra por obra na mesma região",
+      "tone": "yellow"
+    },
+    {
+      "category": "janela",
+      "label": "Ciclo de decisão",
+      "value": "60 dias",
+      "subtext": "Do 1º contato à assinatura do contrato",
+      "tone": "blue"
+    },
+    {
+      "category": "oportunidade",
+      "label": "Gap de WTP",
+      "value": "+R$100-150 mil",
+      "subtext": "Teto premium aceito com garantia técnica",
+      "tone": "green"
+    },
+    {
+      "category": "risco",
+      "label": "Vazamento no funil",
+      "value": "Portfólio raso (3 projetos)",
+      "subtext": "Perde comparação na fase decisiva",
+      "tone": "red"
+    },
+    {
+      "category": "maturidade",
+      "label": "Fonte de leads hoje",
+      "value": "~99% indicação",
+      "subtext": "Digital só valida, não gera lead frio ainda",
+      "tone": "gray"
+    }
+  ],
+
+  "summary_key_findings": [
+    {
+      "category": "vantagem",
+      "text": "O diferencial técnico real (projeto executivo sem retrabalho + zero comissionamento de fornecedor, repassado em nota ao cliente) é defensável e nenhum concorrente direto reivindica isso com a mesma força ou consistência."
+    },
+    {
+      "category": "contexto",
+      "text": "O comitê de decisão é sempre o casal: a esposa escolhe pela confiança e escuta, o marido valida pelo controle financeiro (planilha, cronograma). Toda peça de comunicação precisa responder às duas perguntas na mesma mensagem."
+    },
+    {
+      "category": "ameaca",
+      "text": "O site tem apenas 3 projetos sem case study (contexto, metragem, resultado) — isso vaza prova social justamente no estágio 'consciente da marca', quando a família compara Amanda com Ricardo Gaspari e Guedes e Bisoli, que têm portfólio mais robusto."
+    },
+    {
+      "category": "acao",
+      "text": "Expandir o portfólio do site para ao menos 6 obras com case studies antes de escalar tráfego pago — hoje investir em aquisição levaria o lead para um site que perde a comparação na hora certa."
+    },
+    {
+      "category": "acao",
+      "text": "Criar conteúdo educativo para os estágios 'consciente do problema/solução' (ex: o custo real de gerenciar a obra sozinho, a matemática do comissionamento oculto de mercado) — hoje ausente na comunicação atual."
+    }
+  ],
+
+  "icp": {
+    "demographics": {
+      "type": "B2C",
+      "age_range": "35-60 anos (concentração majoritária), casais heterossexuais entre 30 e 70 anos no total da carteira",
+      "income_or_revenue": "Patrimônio consolidado ('dinheiro velho', não emergente) com capacidade de investir R$5-7 milhões em construção residencial, podendo escalar a R$10 milhões+",
+      "location": "Jundiaí-SP e Região Metropolitana de Campinas (Vinhedo, Valinhos, Itupeva); atende também São Paulo capital (ex: Perdizes) via indicação de clientes atuais",
+      "company_size": null,
+      "decision_maker_role": "Comitê de decisão do casal: a esposa escolhe o escritório (avalia empatia, escuta, sensibilidade — 'quem tem que gostar de mim é a esposa'); o marido decide o investimento com base em números e controle (planilha, cronograma, gestão de obra)",
+      "education": "Superior completo, majoritariamente com pós-graduação — perfil executivo ou de profissão liberal consolidada",
+      "other": {
+        "profissoes_recorrentes": "Executivos C-level, diretores (ex: TI, financeiro), médicos, empresários consolidados, incorporadores da região",
+        "condominios_de_forca": "Terras da Alvorada (Jundiaí, onde Amanda já entregou 40+ projetos e é referência local), Alphaville Jundiaí, Almarias, Quinta da Primavera"
+      }
+    },
+    "behavior": {
+      "decision_process": "Decisão em comitê familiar, não individual. A escolha do escritório é predominantemente emocional (confiança, escuta) pela esposa, validada racionalmente pelo marido (planilha, cronograma, controle financeiro). O fechamento nasce quase sempre de indicação — a busca fria (Google/Instagram) serve para validar quem já foi recomendado, não para descobrir a Amanda do zero.",
+      "research_channels": [
+        "Indicação direta de amigos/família do mesmo condomínio que já foram clientes",
+        "Instagram @arqamandaferraz — para validar a indicação e ver o portfólio antes da primeira reunião",
+        "Google Meu Negócio — avaliações e fotos, especialmente quando comparando 2-3 opções",
+        "Busca por corretores/terrenos em condomínios específicos da região de Jundiaí, antes mesmo de decidir o arquiteto"
+      ],
+      "main_objections": [
+        "Turnkey deve custar muito mais caro que contratar projeto, obra e decoração separados",
+        "Ela dá conta do meu porte de obra e mantém o padrão com tantos projetos simultâneos?",
+        "Gerenciar a obra eu mesmo é economia — sempre foi assim na minha família/círculo",
+        "Que condições consigo fechando projeto, obra e decoração juntos?"
+      ],
+      "switching_triggers": "Obra travada, atrasada ou com orçamento estourado com o profissional/construtora atual; indicação forte e recente de alguém de confiança que passou pela experiência com a Amanda Ferraz",
+      "purchase_frequency": "Compra única de altíssimo valor, não recorrente. Ciclo de decisão comercial de ~60 dias do primeiro contato até a assinatura do contrato; a execução da obra em si dura, em média, 2 anos."
+    },
+    "jobs": {
+      "functional": "Quando decido investir na casa que será o maior projeto da minha vida, quero um único responsável que projete, gerencie e execute com custo e prazo sob controle, para que eu não precise coordenar arquiteto, empreiteiro e fornecedores nem conviver com estouros, atrasos e retrabalho.",
+      "emotional": "Quero participar apenas das decisões que me dão prazer — a planta, os acabamentos, o 3D — para sentir orgulho do maior projeto da minha vida sem carregar o peso do canteiro de obra.",
+      "social": "Quero que cada ambiente traduza quem eu sou, meu êxito e meu bom gosto, para que meu sucesso seja percebido sem que eu precise dizer uma única palavra sobre isso."
+    },
+    "pains": [
+      {
+        "pain": "Obra atrasada e orçamento estourado sem ninguém explicar claramente para onde foi o dinheiro — o medo de descobrir, meses depois, que perdeu o controle financeiro do maior investimento da vida.",
+        "intensity": "critical",
+        "current_workaround": "Tenta acompanhar de perto pessoalmente ou terceiriza a fiscalização para um parente/amigo sem formação técnica"
+      },
+      {
+        "pain": "Sábados e domingos virando reunião de canteiro de obra, tomando o tempo que deveria ser da família — o pedreiro liga quando falta o último saco de cimento e o fim de semana vira apagar incêndio.",
+        "intensity": "high",
+        "current_workaround": "Reserva os fins de semana para 'resolver a obra', sacrificando lazer e tempo de qualidade com a família"
+      },
+      {
+        "pain": "Medo de contratar um profissional tecnicamente fraco e só descobrir o erro na hora da execução — a frase mais cara do mercado, 'não imaginei que ficaria assim'.",
+        "intensity": "high",
+        "current_workaround": "Pede várias opiniões e referências antes de fechar, o que alonga o ciclo de decisão e gera ansiedade"
+      },
+      {
+        "pain": "Ter que coordenar dezenas de fornecedores e prestadores diferentes (uma obra desse porte envolve mais de 400 pessoas), sem saber em quem confiar tecnicamente nem comercialmente.",
+        "intensity": "medium",
+        "current_workaround": "Confia em indicações soltas de conhecidos, sem curadoria centralizada de fornecedores"
+      },
+      {
+        "pain": "Achar que economiza contratando projeto e execução separados e descobrir depois que vai pagar 2-3 vezes mais por retrabalho de incompatibilização técnica.",
+        "intensity": "medium",
+        "current_workaround": "Fecha primeiro com o profissional mais barato e só percebe o erro quando o problema já apareceu em obra"
+      }
+    ],
+    "gains": [
+      {
+        "gain": "Participar de apenas 10 a 12 encontros ao longo de toda a obra (~2 anos), só nas decisões que realmente importam — planta, acabamentos, 3D.",
+        "type": "tangible"
+      },
+      {
+        "gain": "Ter uma planilha financeira de ~25 etapas com prestação de contas quinzenal, sabendo exatamente para onde foi cada real investido, com notas e recibos.",
+        "type": "tangible"
+      },
+      {
+        "gain": "Zero retrabalho — projeto executivo compatibilizado antecipa problemas antes da obra começar, evitando meses de atraso e custo extra.",
+        "type": "tangible"
+      },
+      {
+        "gain": "Ver a casa aprovada em 3D antes de qualquer compra, eliminando a possibilidade de surpresa negativa no resultado final.",
+        "type": "intangible"
+      },
+      {
+        "gain": "Sentir orgulho e status ao mostrar uma casa que reflete verdadeiramente a identidade da família, e não um projeto genérico repetido de portfólio de arquiteto.",
+        "type": "intangible"
+      }
+    ]
+  },
+
+  "persona": {
+    "name": "Renata Albuquerque",
+    "photo_description": "Mulher de 44 anos, elegante mas descontraída, cabelo castanho preso em um coque baixo, blazer bege sobre uma blusa de linho branco. Está de pé na sala de estar da casa em construção — ainda com piso protegido por lona, mas já com as esquadrias e a marcenaria instaladas —, segurando uma amostra de tecido numa mão e olhando para a obra com uma mistura de ansiedade e expectativa. Luz natural entrando por uma janela ampla ainda sem cortina.",
+    "story": "Renata e o marido Marcelo (diretor financeiro de uma multinacional) compraram um terreno de 1.200m² no condomínio Terras da Alvorada, em Jundiaí, há oito meses. Antes de decidir o arquiteto, ela ouviu pelo menos três histórias de amigas do condomínio sobre obras que atrasaram um ano e meio, orçamentos que dobraram no meio do caminho, e sábados perdidos brigando com empreiteiro. Ela trabalha meio período como consultora e não tem disponibilidade (nem paciência) para virar gestora de obra nos fins de semana. Marcelo, por outro lado, só vai aprovar o investimento se enxergar uma planilha clara mostrando onde cada real será gasto — ele já disse que não vai 'financiar acerto de contas por WhatsApp'. Renata quer uma casa que pareça deles, não uma repetição do que já viu em revista, e sonha em decidir só o que realmente gosta: a planta, os acabamentos, a decoração.",
+    "quote": "A gente já ouviu tanta história de amiga que passou dois anos brigando com pedreiro no fim de semana que eu simplesmente não quero isso pra mim. Se eu tiver que escolher entre economizar um pouco e ter minha vida de volta, eu escolho minha vida — mas o Marcelo só assina se a planilha fechar."
+  },
+
+  "where_to_find": {
+    "digital_channels": [
+      "Grupos e conversas informais de moradores do condomínio Terras da Alvorada (Jundiaí) — onde Amanda já entregou 40+ projetos e é referência local consolidada",
+      "Instagram @arqamandaferraz, acessado principalmente para validar indicação recebida (não para descoberta fria)",
+      "Perfis de arquitetura editorial que esse público também segue: @estudioarthurcasas, @jacobsenarquitetura, perfil da arquiteta Marília Zima (admirada pela própria Amanda como referência técnica+estética)",
+      "Google Meu Negócio ao pesquisar 'arquiteto alto padrão Jundiaí' ou 'arquiteto turnkey residencial'",
+      "Corretores de imóveis/terrenos de alto padrão da região (ponto de entrada antes mesmo de decidir o arquiteto — oportunidade de mídia hoje pouco explorada)"
+    ],
+    "keywords": [
+      "arquiteto alto padrão Jundiaí",
+      "arquiteto turnkey residencial",
+      "arquiteta Amanda Ferraz",
+      "projeto casa condomínio Jundiaí",
+      "gerenciamento de obra alto padrão"
+    ],
+    "influencers": [
+      "Marília Zima (arquiteta — referência técnica e estética admirada pela própria Amanda Ferraz)",
+      "Studio Arthur Casas e Jacobsen Arquitetura (referências estéticas de arquitetura editorial)",
+      "Flávio Augusto (empresário — referência de comunicação 'fora da casinha' citada pela própria Amanda)",
+      "Casa Vogue e ArchDaily (publicações de referência estética do segmento)"
+    ],
+    "communities": [
+      "Moradores e grupos de WhatsApp dos condomínios Terras da Alvorada, Almarias e Quinta da Primavera (Jundiaí)",
+      "Rede de fornecedores/lojistas de alto padrão da região (marmorarias, iluminação) que já indicam Amanda por não praticar comissionamento oculto (RT)",
+      "Eventos do setor como CasaCor e Campinas Decor — concorrentes diretos (ex: Adriana Consulin) participam ativamente, Amanda ainda não tem presença ali (oportunidade)"
+    ]
+  },
+
+  "anti_persona": {
+    "description": "Perfis que consomem a capacidade escassa do escritório (máximo 8 obras simultâneas) sem entregar o retorno ou o encaixe esperado pelo modelo de negócio.",
+    "profiles": [
+      {
+        "profile_name": "Classe B em transição",
+        "description": "Quer construir alto padrão, mas o orçamento real disponível é de classe média-alta consolidada, não patrimônio de alto padrão. Compara preço com construtoras populares e considera o modelo turnkey 'caro demais'.",
+        "signals": [
+          "Pergunta o preço por m² antes de qualquer briefing ou apresentação do processo",
+          "Menciona orçamento total (terreno + obra) abaixo de R$4 milhões",
+          "Compara a proposta com construtora de prédio popular ou empreiteira avulsa",
+          "Tenta negociar o percentual de gestão de obra (12%) antes de entender o modelo completo"
+        ],
+        "why_not": "O ticket não cobre a estrutura de equipe fixa e a capacidade é limitada a 8 obras simultâneas — atender esse perfil ocupa uma vaga escassa que poderia ir para um cliente de R$5-7 milhões ou mais.",
+        "operational_rule": "Se o orçamento total declarado (terreno + obra) for abaixo de R$4 milhões, direcionar com transparência para outro profissional adequado ao porte, sem tentar 'encaixar' o cliente à força."
+      },
+      {
+        "profile_name": "Quer só uma fatia do serviço",
+        "description": "Cliente que quer contratar apenas o design de interiores, ou apenas a execução de obra a partir de um projeto arquitetônico de terceiros, sem fechar o pacote completo.",
+        "signals": [
+          "Já tem projeto arquitetônico pronto de outro profissional e quer só a execução da obra",
+          "Pede orçamento apenas de design de interiores, sem mencionar projeto ou obra",
+          "Diz explicitamente que 'só precisa de decoração' para um espaço já construído"
+        ],
+        "why_not": "Design de interiores isolado não é lucrativo para o escritório — só existe como parte necessária da execução da obra. Projetos externos chegam mal compatibilizados tecnicamente e geram retrabalho que a equipe precisa redesenhar do zero, corroendo a margem.",
+        "operational_rule": "Recusar educadamente fechamentos parciais, explicando que o modelo só funciona com o pacote completo (projeto + interiores + gestão de obra) por causa do risco técnico real de incompatibilização entre disciplinas."
+      },
+      {
+        "profile_name": "Quer microgerenciar a obra",
+        "description": "Cliente ansioso que insiste em acompanhar cada decisão de perto, questionar cada fornecedor individualmente e estar presente constantemente no canteiro.",
+        "signals": [
+          "Pede para visitar a obra semanalmente sem necessidade técnica real",
+          "Quer aprovar cada compra individualmente, sem confiar na gestão centralizada",
+          "Questiona repetidamente a escolha de fornecedores parceiros de longa data do escritório"
+        ],
+        "why_not": "Trava o próprio diferencial central do serviço — a gestão de obra existe justamente para liberar o tempo e a energia do cliente. Esse perfil gera desgaste para a equipe interna e atrasa decisões que já deveriam estar resolvidas.",
+        "operational_rule": "A própria Amanda já recusa esse perfil ativamente — sinalizar isso já na reunião de briefing e oferecer, se o cliente insistir em acompanhar de perto, um contrato de escopo reduzido (só projeto, sem gestão de obra)."
+      }
+    ],
+    "operational_rule": "Se o cliente pede para negociar o modelo (fechar só uma parte do serviço, orçamento total abaixo de R$4 milhões, ou controle direto sobre a escolha de fornecedores), a resposta é 'não' com transparência total — a capacidade de 8 obras simultâneas é escassa demais para ser ocupada por quem não valoriza o pacote completo."
+  },
+
+  "buyer_journey": {
+    "description": "Jornada de decisão adaptada dos 5 níveis de consciência já mapeados pela própria cliente (do terreno à assinatura), com o pós-venda incluído como sexto estágio.",
+    "stages": [
+      {
+        "stage": "Gatilho — Compra do terreno",
+        "trigger": "Compra de terreno em condomínio de alto padrão na região de Jundiaí/RMC",
+        "mental_state": "Empolgação misturada com incerteza — 'o que fazer com esse terreno agora?'",
+        "primary_channel": "Indicação informal, corretor de imóveis, rede de amigos do condomínio",
+        "dominant_question": "Por onde eu começo — arquiteto, empreiteiro, ou os dois ao mesmo tempo?",
+        "client_intervention": "Nenhuma hoje — o cliente ainda não sabe que a Amanda existe nesta fase",
+        "friction_today": "Amanda ainda não está posicionada para captar nessa fase (mira quem já busca 'arquiteto', não quem está comprando terreno)",
+        "duration_estimate": "Dias a poucas semanas"
+      },
+      {
+        "stage": "Consciente do problema",
+        "trigger": "Amigo ou conhecido do mesmo condomínio relata obra atrasada, orçamento estourado, fim de semana perdido em canteiro",
+        "mental_state": "Ansiedade antecipada — medo de repetir a mesma experiência ruim relatada por terceiros",
+        "primary_channel": "Conversas informais, grupos de WhatsApp do condomínio",
+        "dominant_question": "Como eu evito virar mais um caso de obra que nunca acaba?",
+        "client_intervention": "Praticamente nenhuma — conteúdo educativo direcionado a esse estágio ainda não existe na comunicação atual",
+        "friction_today": "A objeção 'gerenciar a obra eu mesmo é economia, sempre foi assim' ainda domina o imaginário desse público sem contraponto",
+        "duration_estimate": "Semanas a poucos meses"
+      },
+      {
+        "stage": "Consciente da solução",
+        "trigger": "Descobre que existe um modelo turnkey (projeto + obra + decoração com um único responsável)",
+        "mental_state": "Interesse cauteloso — pressupõe que deve ser caro demais",
+        "primary_channel": "Instagram e Google (pesquisa termos como 'arquiteto turnkey' ou similar)",
+        "dominant_question": "Turnkey não deve custar muito mais caro que contratar tudo separado?",
+        "client_intervention": "Site institucional e Instagram — mas comunicam pouco hoje sobre o modelo turnkey e seu custo-benefício real",
+        "friction_today": "Falta conteúdo educativo explicando a matemática do modelo (comissionamento oculto do mercado tradicional vs. transparência da Amanda)",
+        "duration_estimate": "1 a 2 semanas"
+      },
+      {
+        "stage": "Consciente da marca",
+        "trigger": "Recebe indicação específica da Amanda Ferraz, ou encontra o perfil dela organicamente durante a pesquisa",
+        "mental_state": "Interesse concreto, mas ainda em dúvida entre 2-3 opções de escritório",
+        "primary_channel": "Instagram @arqamandaferraz, Google Meu Negócio, site institucional",
+        "dominant_question": "Ela dá conta do meu porte de obra e mantém o padrão com tantos projetos simultâneos?",
+        "client_intervention": "Portfólio do site (hoje só 3 projetos, considerado raso) e avaliações do Google Meu Negócio (poucas e desatualizadas)",
+        "friction_today": "Portfólio raso e poucas avaliações recentes reduzem a prova social justamente no momento crítico de comparação com concorrentes",
+        "duration_estimate": "Poucos dias"
+      },
+      {
+        "stage": "Totalmente consciente / Decisão",
+        "trigger": "Já decidiu por Amanda, falta só alinhar cronograma, forma de pagamento e data de início",
+        "mental_state": "Confiança, mas ainda quer validar os números com o marido/parceiro",
+        "primary_channel": "Reunião presencial de briefing no escritório",
+        "dominant_question": "Que condições consigo fechando projeto, obra e decoração juntos?",
+        "client_intervention": "Reunião de briefing com apresentação da planilha financeira e do processo — ponto forte comprovado, converte bem presencialmente",
+        "friction_today": "Nenhuma relevante identificada — é a etapa mais bem resolvida do funil hoje",
+        "duration_estimate": "1 a 2 semanas, dentro do ciclo de venda total de 60 dias"
+      },
+      {
+        "stage": "Pós-compra / Execução",
+        "trigger": "Contrato assinado, início da obra",
+        "mental_state": "Tranquilidade progressiva, conforme a prestação de contas quinzenal confirma o controle prometido",
+        "primary_channel": "WhatsApp direto com a equipe + planilha financeira compartilhada",
+        "dominant_question": "Está tudo dentro do prazo e do orçamento combinado?",
+        "client_intervention": "Planilha de 25 etapas, prestação de contas quinzenal, 10-12 encontros presenciais ao longo de toda a obra",
+        "friction_today": "Processo hoje é manual (planilha em Excel), sem CRM — risco de falha de comunicação se a Amanda não estiver pessoalmente disponível",
+        "duration_estimate": "~2 anos"
+      }
+    ],
+    "critical_leakage_point": "O maior vazamento hoje é no estágio 'Consciente da marca': quando a família pesquisa a Amanda Ferraz para comparar com 2-3 opções, encontra um portfólio raso (apenas 3 projetos sem case study) e poucas avaliações recentes no Google — justamente no momento em que a prova social pesa mais na validação do marido. Ricardo Gaspari (presença consolidada em condomínio específico) e Guedes e Bisoli (boa organização de portfólio e provas sociais) competem melhor nesse ponto exato do funil."
+  },
+
+  "willingness_to_pay": {
+    "description": "Faixas de preço praticadas e percebidas para os três componentes principais do serviço, com base nos valores confirmados pela própria cliente em reunião de kickoff.",
+    "services": [
+      {
+        "service": "Projeto arquitetônico + interiores (casa de 350-400m²)",
+        "current_ticket_range": "R$450.000 - R$500.000",
+        "perceived_fair_range": "R$400.000 - R$550.000",
+        "premium_ceiling": "R$600.000+ para clientes que já tiveram experiência ruim com projeto mal compatibilizado — dispostos a pagar mais por garantia técnica explícita",
+        "elasticity": "baixa — aceita pagar mais quando entende que o projeto executivo evita retrabalho caro em obra",
+        "pricing_lever": "Garantia técnica (zero retrabalho por compatibilização completa entre disciplinas) e exclusividade do pacote turnkey"
+      },
+      {
+        "service": "Gestão de obra (percentual sobre valor investido)",
+        "current_ticket_range": "12% sobre o valor investido na obra",
+        "perceived_fair_range": "10% a 15%, dependendo do porte e complexidade da obra",
+        "premium_ceiling": "Até 15% aceito quando a remuneração é atrelada ao avanço físico da obra (cliente só paga quando a obra anda de verdade)",
+        "elasticity": "média — sensível ao percentual isolado, mas aceita quando entende o modelo de risco compartilhado",
+        "pricing_lever": "Remuneração pelo avanço (risco compartilhado com o cliente) + recusa formal de comissionamento de fornecedores, com a economia repassada em nota fiscal"
+      },
+      {
+        "service": "Execução da obra completa (material + mão de obra)",
+        "current_ticket_range": "R$5.500 - R$8.000/m² (da obra seca até decorada)",
+        "perceived_fair_range": "R$6.000 - R$9.000/m² para o padrão de acabamento entregue",
+        "premium_ceiling": "Acima de R$10.000/m² para o segmento altíssimo padrão que Amanda quer escalar (obras acima de R$10 milhões)",
+        "elasticity": "baixa — público já espera pagar premium pela localização e padrão do condomínio",
+        "pricing_lever": "Previsibilidade total via planilha de 25 etapas com prestação de contas quinzenal, sem comissionamento oculto de fornecedores"
+      }
+    ]
+  },
+
+  "objection_library": {
+    "description": "Catálogo de objeções reais levantadas pela própria cliente e observadas no processo comercial atual, com respostas testadas ou recomendadas.",
+    "objections": [
+      {
+        "objection": "Turnkey deve custar muito mais caro que contratar cada parte separado",
+        "subtext": "Ainda não entende que contratar separado (arquiteto + empreiteiro + decorador) já embute comissionamento oculto e risco de retrabalho — está comparando preço nominal, não custo total.",
+        "bad_response": "Não é caro, é justo pelo trabalho.",
+        "good_response": "Mostrar a matemática real: cada projeto externo que chega para execução precisa ser redesenhado (custo extra invisível), e o comissionamento de fornecedores no modelo tradicional (10-30%) sai do bolso do próprio cliente de forma oculta — o modelo turnkey já embute esse desconto direto em nota fiscal.",
+        "when_to_use": "Reunião de briefing, ao apresentar a proposta comercial"
+      },
+      {
+        "objection": "Ela dá conta do meu porte de obra com tantos projetos simultâneos?",
+        "subtext": "Medo de virar 'mais um número' e não receber atenção proporcional ao investimento feito.",
+        "bad_response": "Temos capacidade, pode ficar tranquilo.",
+        "good_response": "Mostrar a planilha de 25 etapas e a prestação de contas quinzenal como prova de que existe processo — não depende só da disponibilidade pessoal da Amanda. Citar o limite deliberado de 8 obras simultâneas como prova de que ela recusa volume em troca de qualidade.",
+        "when_to_use": "Apresentação comercial, quando o cliente pergunta sobre capacidade"
+      },
+      {
+        "objection": "Gerenciar a obra eu mesmo é economia, sempre foi assim",
+        "subtext": "Ainda não vivenciou o custo real (tempo, estresse, retrabalho) de gerenciar uma obra sozinho — está comparando só o custo monetário direto.",
+        "bad_response": "Você vai perder tempo e vai se arrepender.",
+        "good_response": "Contar um caso real (com autorização do cliente) de alguém que tentou gerenciar sozinho e trocou para o modelo turnkey depois de um retrabalho caro — deixar o dado falar, não a ameaça.",
+        "when_to_use": "Primeira conversa ou reunião de qualificação, quando o lead ainda está no estágio 'consciente do problema'"
+      },
+      {
+        "objection": "Que condições consigo fechando projeto, obra e decoração juntos?",
+        "subtext": "Já decidiu, só está validando o pacote financeiro antes de assinar — sinal de proximidade do fechamento.",
+        "bad_response": "Deixar essa resposta para depois, sem números concretos.",
+        "good_response": "Apresentar a planilha financeira detalhada com o desconto de pacote já calculado, mostrando a economia real de contratar os três serviços juntos versus separado.",
+        "when_to_use": "Reunião de fechamento comercial"
+      },
+      {
+        "objection": "Não imaginei que ficaria assim",
+        "subtext": "Trauma de experiência anterior (própria ou de terceiros) onde o resultado final não bateu com a expectativa criada.",
+        "bad_response": "Confia em mim, vai ficar ótimo.",
+        "good_response": "Mostrar que toda decisão é aprovada em 3D antes de qualquer compra — 'cada etapa aprovada antes de existir' — eliminando de fato a possibilidade dessa surpresa.",
+        "when_to_use": "Apresentação do processo, reunião de fachada e 3D"
+      },
+      {
+        "objection": "Preciso de financiamento — vou conseguir dentro do prazo?",
+        "subtext": "Ansiedade real ligada à restrição bancária atual (o teto de financiamento da Caixa caiu para ~R$2,25 milhões) — medo de comprometer o cronograma da obra por questão financeira externa.",
+        "bad_response": "Isso é problema do banco, não é com a gente.",
+        "good_response": "Orientar sobre carta de crédito como alternativa (taxa mais baixa, aceita por qualquer banco) e ajustar o cronograma da obra ao fluxo real de liberação do financiamento.",
+        "when_to_use": "Reunião de briefing inicial, quando o cliente menciona depender de financiamento"
+      },
+      {
+        "objection": "Prefiro contratar quem já fez um projeto no meu condomínio",
+        "subtext": "Prova social geográfica pesa mais que portfólio genérico — quer ver que 'já rolou' ali perto, referindo-se por exemplo a concorrentes como Ricardo Gaspari no condomínio Atenas.",
+        "bad_response": "Meus projetos são melhores que os dele.",
+        "good_response": "Mostrar os 40+ projetos já entregues pela Amanda no condomínio Terras da Alvorada como prova equivalente (e maior) de presença territorial consolidada, sem citar ou comparar diretamente com o concorrente.",
+        "when_to_use": "Quando o lead menciona um concorrente específico do próprio condomínio"
+      }
+    ]
+  },
+
+  "key_message": {
+    "chosen_message": "Você vive sua vida. Nós vivemos a obra.",
+    "approach": "emotional",
+    "usage_context": "Bio do Instagram, headline do site, anúncios de topo e meio de funil, apresentação comercial. Aprovada pelo operador em 19/07 (decisão registrada em history) — a Amanda quer a abordagem emocional como mensagem-chave principal.",
+    "alternatives": [
+      {
+        "message": "Você vive sua vida. Nós vivemos a obra.",
+        "approach": "emotional",
+        "rationale": "APROVADA. Frase já validada no site e no manual de copywriting da própria marca — comunica com força o job emocional (tempo preservado) e é reconhecível pela cliente como autêntica à sua voz."
+      },
+      {
+        "message": "Um único responsável. Projeto, obra e decoração, sem imprevistos.",
+        "approach": "functional",
+        "rationale": "Recomendada inicialmente por ser o território menos ocupado pelos concorrentes (nenhum reivindica controle operacional com a mesma clareza), mas não escolhida — o operador preferiu a força emocional já validada na voz da marca."
+      },
+      {
+        "message": "Uma casa com a sua identidade, não o portfólio do arquiteto.",
+        "approach": "social",
+        "rationale": "Ataca a queixa real que Amanda relata ouvir de ex-clientes de concorrentes ('o arquiteto me impôs o que eu tinha que fazer'), mas depende de o público já estar comparando portfólios — funciona melhor em estágio mais avançado do funil do que como mensagem de topo."
+      }
+    ]
+  },
+
+  "key_insight": {
+    "headline": "A dor mais cara do ICP não é estética — é o medo de virar mais um caso de obra atrasada, e nenhum concorrente local resolve isso de forma visível.",
+    "context": "Eduardo Muzi, Ricardo Gaspari e Guedes e Bisoli competem majoritariamente no território estético ('projetos bonitos'). Nenhum comunica de forma sistemática o controle financeiro real e a garantia técnica que Amanda genuinamente tem — planilha de 25 etapas, zero comissionamento de fornecedor, projeto executivo sem retrabalho. A planilha em si é documento interno (contém valores negociados e nomes de fornecedores) e não deve ser exposta publicamente — o que precisa ser comunicado é o CONCEITO do processo estruturado (existência de um método com etapas e prestação de contas periódica), não os números ou parceiros por trás dele.",
+    "numbered_reasons": [
+      "O comitê de decisão é sempre o casal — mensagens que falam só com a 'esposa sonhadora' perdem o marido, que é quem efetivamente libera o investimento.",
+      "A objeção mais recorrente ('turnkey deve custar mais caro') só se resolve mostrando a matemática real do comissionamento oculto do mercado — hoje essa conta nunca é apresentada publicamente pela marca.",
+      "O portfólio raso do site (3 projetos sem case study) é o ponto exato onde Amanda perde para concorrentes na fase de comparação — antes mesmo de chegar à reunião de briefing, etapa em que ela converte muito bem."
+    ],
+    "discussion_anchor": "Decisão tomada em 19/07: a mensagem-chave principal é emocional ('Você vive sua vida. Nós vivemos a obra'). A planilha de 25 etapas é documento interno e não será exposta com valores/fornecedores — cabe às próximas skills (posicionamento, brandbook, landing page) traduzir o CONCEITO do processo estruturado em prova visual pública (ex: um infográfico genérico das etapas, sem dados proprietários) que sustente a mensagem emocional sem expor informação sensível."
+  },
+
+  "honesty_alert": "A capacidade operacional máxima da Amanda é de 8 obras simultâneas — um limite deliberado para manter qualidade, não um teto arbitrário. Investir pesado em geração de demanda (tráfego pago, conteúdo de topo de funil) sem antes resolver os gargalos internos já identificados (ausência de CRM, processos que dependem da cabeça da própria Amanda) corre o risco real de gerar leads qualificados que a operação não vai conseguir atender a tempo. O gargalo mais urgente hoje pode não ser aquisição de demanda, e sim capacidade e organização interna — vale essa conversa antes de acelerar mídia paga."
+}

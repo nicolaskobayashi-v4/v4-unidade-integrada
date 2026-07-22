@@ -1,0 +1,317 @@
+{
+  "client_name": "C Clean Serviços de Limpeza",
+  "skill": "ee-s2-diagnostico-midia",
+  "generated_at": "2026-05-04",
+  "data_source": "briefing + entrevistas S1/S2 (sem workspace V4MOS — métricas declaradas por Jeferson)",
+
+  "summary": "Google Ads autogerenciado há 10 anos sem otimização técnica concentra 100% do investimento em mídia paga (R$1.500–R$3.000/mês) com configuração crítica: raio geográfico com falhas, tag de conversão possivelmente quebrada, 3 campanhas sobrepostas e alto volume de candidatos a emprego consumindo verba. Meta Ads e canais orgânicos com investimento zero. Upside conservador de 40–60% de ganho de eficiência apenas com reorganização técnica do Google Ads.",
+
+  "summary_headline": "100% do investimento em mídia está no Google Ads — autogerenciado, tecnicamente quebrado, sem rastreamento real há pelo menos 10 anos.",
+
+  "summary_highlights": [
+    {
+      "category": "maturidade",
+      "label": "Investimento mensal",
+      "value": "R$1.500–R$3.000",
+      "subtext": "100% em Google Ads, sem diversificação",
+      "tone": "yellow"
+    },
+    {
+      "category": "risco",
+      "label": "Canais ativos",
+      "value": "1 de 4",
+      "subtext": "Google Ads ativo. Meta, Instagram, orgânico: zero.",
+      "tone": "red"
+    },
+    {
+      "category": "risco",
+      "label": "Rastreamento",
+      "value": "Possivelmente quebrado",
+      "subtext": "800 cliques vs. <10% em contatos reais",
+      "tone": "red"
+    },
+    {
+      "category": "risco",
+      "label": "Campanhas ativas",
+      "value": "3 sobrepostas",
+      "subtext": "Criadas por assistentes do Google em momentos diferentes",
+      "tone": "red"
+    },
+    {
+      "category": "oportunidade",
+      "label": "Upside de eficiência",
+      "value": "+40–60%",
+      "subtext": "Estimado só com reconfiguração técnica",
+      "tone": "green"
+    },
+    {
+      "category": "posicao",
+      "label": "Meta Ads",
+      "value": "R$0/mês",
+      "subtext": "Canal de demanda latente nunca explorado",
+      "tone": "gray"
+    }
+  ],
+
+  "summary_key_findings": [
+    {
+      "category": "ameaca",
+      "text": "A tag de conversão do Google Ads está possivelmente mal configurada: 800 cliques reportados vs. menos de 10% de contatos reais. Sem rastreamento confiável, qualquer decisão de otimização de verba está cega."
+    },
+    {
+      "category": "ameaca",
+      "text": "Raio geográfico com falhas críticas: campanhas recebem cliques de outros estados e até de Moçambique, consumindo verba fora do território de atendimento (zona norte de Joinville)."
+    },
+    {
+      "category": "ameaca",
+      "text": "Alto volume de candidatos a emprego clicando nos anúncios — principal dor declarada por Jeferson. Provável causa: ausência de palavras-chave negativas como 'emprego', 'vaga', 'trabalho', 'salário'."
+    },
+    {
+      "category": "contexto",
+      "text": "3 campanhas sobrepostas criadas por assistentes diferentes do Google ao longo dos anos — sem clareza de qual performa melhor, com risco de auto-concorrência e fragmentação de orçamento."
+    },
+    {
+      "category": "vantagem",
+      "text": "Mesmo com configuração precária, o Google Ads entrega ~10 orçamentos/dia — sinal de demanda real. Após reconfiguração, a expectativa é aumentar taxa de qualificação sem aumentar verba."
+    },
+    {
+      "category": "acao",
+      "text": "Meta Ads nunca foi testado para B2B local. Dados de ICP (síndicos de condomínios, gestores de RH, donos de clínicas) têm correspondência direta com segmentação de interesses no Facebook/Instagram."
+    }
+  ],
+
+  "data_availability": {
+    "v4mos_connected": false,
+    "v4mos_workspace_id": null,
+    "metrics_source": "declarativo",
+    "unavailable_reason": "Workspace V4MOS não conectado — todas as métricas são declaradas por Jeferson em entrevistas S1/S2. Métricas reais de impressões, CTR, CPC e ROAS não disponíveis para validação quantitativa."
+  },
+
+  "channels": {
+    "google_ads": {
+      "status": "ativo",
+      "investment_monthly_min": 1500,
+      "investment_monthly_max": 3000,
+      "investment_monthly_avg": 2250,
+      "managed_by": "Jeferson Pereira (autogerenciado)",
+      "years_active": 10,
+      "technical_health": "crítico",
+      "campaigns_count": 3,
+      "campaigns_note": "3 campanhas criadas por assistentes distintos do Google em momentos diferentes. Sem estratégia unificada de palavras-chave, sem segmentação de audiência, sem divisão por funil.",
+      "conversion_tracking": "possivelmente quebrado",
+      "conversion_tracking_note": "800 cliques reportados na interface vs. menos de 10% em contatos reais chegando por WhatsApp/formulário. Divergência sugere tag instalada incorretamente ou disparando em evento errado.",
+      "geographic_issues": "Raio com falhas — recebe cliques de outros estados e de Moçambique. Joinville não delimitado corretamente. Zona norte não configurada como prioridade.",
+      "audience_issues": "Alto volume de candidatos a emprego clicando nos anúncios. Ausência de palavras-chave negativas ('emprego', 'vaga', 'trabalho', 'salário', 'contratando'). Ausência de segmentação de audiência negativa.",
+      "estimated_qualified_lead_rate": "< 10%",
+      "leads_per_day_declared": 10,
+      "rejection_rate_note": "Grande parte dos ~10 contatos/dia recusados por localidade incorreta ou perfil não-ICP (candidatos a emprego)",
+      "cac_tracked": false,
+      "roas_tracked": false,
+      "estimated": true,
+      "estimation_basis": "Dados declarados por Jeferson em S1 (15/04/2026)"
+    },
+    "meta_ads": {
+      "status": "inativo",
+      "investment_monthly": 0,
+      "unavailable_reason": "Nunca utilizado. Sem histórico de campanhas. Canal não explorado.",
+      "opportunity_note": "ICP da CClean (síndicos, gestores de RH, donos de pequenas empresas em Joinville zona norte) tem correspondência alta com segmentação de Facebook/Instagram Ads por interesse + localização + cargo."
+    },
+    "instagram_organico": {
+      "status": "inativo",
+      "investment_monthly": 0,
+      "last_post": "desconhecido — parado há anos",
+      "followers": "desconhecido",
+      "unavailable_reason": "Instagram abandonado sem publicações há anos. Sem estratégia de conteúdo ativa.",
+      "opportunity_note": "Concorrente Macaiama (similar porte) tem estratégia orgânica forte com vídeos ASMR e dicas — gera prova social que dispensa esforço de vendas."
+    },
+    "google_meu_negocio": {
+      "status": "desconhecido",
+      "investment_monthly": 0,
+      "unavailable_reason": "Status de GMB não auditado no S1/S2. Será avaliado no S3 (diagnóstico CRO)."
+    },
+    "indicacao": {
+      "status": "ativo",
+      "investment_monthly": 0,
+      "note": "Canal não estruturado. Funciona organicamente mas sem programa formal de referral. LTV médio estimado em R$34.800/ano sugere alto valor em indicação qualificada.",
+      "opportunity_note": "Base de 90 clientes com retenção histórica excepcional. Um programa simples de indicação pode gerar 2-3 novos clientes qualificados/mês sem custo adicional."
+    },
+    "whatsapp_business": {
+      "status": "em implementação",
+      "investment_monthly": 0,
+      "note": "IA de filtragem em implementação para separar candidatos a emprego de leads comerciais. Ainda sem dados de eficácia."
+    }
+  },
+
+  "google_ads_audit": {
+    "overall_grade": "D",
+    "overall_note": "Campanha funcional mas tecnicamente quebrada. Entrega volume de cliques, mas conversões não rastreadas, leads desqualificados dominam, e verba é desperdiçada em tráfego fora da área de atendimento.",
+    "issues": [
+      {
+        "severity": "crítico",
+        "issue": "Tag de conversão possivelmente mal configurada",
+        "impact": "Impossível saber o CAC real. Decisões de verba são feitas às cegas. Sem dados de conversão, o algoritmo do Google não consegue otimizar para o objetivo certo.",
+        "fix": "Instalar/revisar Google Tag Manager + configurar conversão por lead (WhatsApp clicado ou formulário enviado). Validar disparo com Preview Mode antes de ativar."
+      },
+      {
+        "severity": "crítico",
+        "issue": "Raio geográfico com falhas — cliques de outros estados e Moçambique",
+        "impact": "Parte do orçamento desperdiçada em usuários sem possibilidade de conversão. Eleva CPC médio e piora Quality Score.",
+        "fix": "Configurar geolocalização por raio (máx. 15km do centro operacional na zona norte) com opção 'Presença: pessoas em ou que pesquisam frequentemente seu local de destino' substituída por 'Presença: pessoas em seu local de destino'."
+      },
+      {
+        "severity": "crítico",
+        "issue": "Alto volume de candidatos a emprego — ausência de palavras-chave negativas",
+        "impact": "Principal dor declarada por Jeferson. Gera trabalho manual de triagem, desperdício de verba, degradação do histórico de qualidade da conta.",
+        "fix": "Adicionar lista de palavras-chave negativas (mínimo 50 termos): 'emprego', 'vaga', 'trabalhar', 'salário', 'contratando', 'CLT', 'carteira assinada', 'processo seletivo', 'currículo', 'candidatar', etc."
+      },
+      {
+        "severity": "alto",
+        "issue": "3 campanhas sobrepostas sem estratégia definida",
+        "impact": "Risco de auto-concorrência (mesmo cliente disputando palavras entre campanhas próprias — eleva CPC). Fragmentação de orçamento dificulta o aprendizado do algoritmo.",
+        "fix": "Auditar as 3 campanhas e consolidar em 1-2 campanhas com segmentação clara: (1) Search — palavras de intenção de compra para condomínios, (2) Search — palavras de intenção de compra para escritórios/empresas. Pausar campanhas redundantes."
+      },
+      {
+        "severity": "alto",
+        "issue": "Sem segmentação por público-alvo ou audiências de remarketing",
+        "impact": "Campanhas disparam para qualquer pesquisador sem priorizar o ICP definido (síndico, RH, dono de empresa). Sem RLSA, usuários que já visitaram o site não são recuperados.",
+        "fix": "Configurar audiências de remarketing (site visitors). Criar camadas de ajuste de lance por cargo/interesse no Display. Aplicar RLSA (Remarketing Lists for Search Ads)."
+      },
+      {
+        "severity": "médio",
+        "issue": "Sem extensões de anúncio configuradas adequadamente",
+        "impact": "Perda de espaço visual na SERP. Concorrentes com extensões de sitelink, chamada e destaque ocupam mais espaço e têm CTR maior.",
+        "fix": "Configurar: extensões de sitelink (3-4 páginas relevantes), extensões de chamada (telefone com horário), extensões de destaque ('26 anos de mercado', 'Reposição em 24h', 'Zona norte de Joinville'), extensão de localização."
+      },
+      {
+        "severity": "médio",
+        "issue": "Sem separação de budget por intenção de compra (ToFu vs. BoFu)",
+        "impact": "Verba pode estar indo para termos genéricos de topo de funil com baixa intenção de compra em vez de concentrar em 'contratar limpeza Joinville' e similares.",
+        "fix": "Mapear palavras por intenção (alta: 'contratar empresa de limpeza Joinville', média: 'terceirização de limpeza', baixa: 'limpeza de condomínio'). Alocar 70% do budget em palavras de alta intenção."
+      }
+    ]
+  },
+
+  "investment_summary": {
+    "total_monthly_investment": 2250,
+    "total_monthly_investment_note": "Estimativa central do range declarado (R$1.500–R$3.000)",
+    "estimated": true,
+    "breakdown": [
+      { "channel": "Google Ads", "investment": 2250, "percentage": 100 },
+      { "channel": "Meta Ads", "investment": 0, "percentage": 0 },
+      { "channel": "Orgânico/SEO", "investment": 0, "percentage": 0 },
+      { "channel": "Indicação", "investment": 0, "percentage": 0 }
+    ],
+    "revenue_monthly": 250000,
+    "midia_over_revenue_pct": 0.9,
+    "benchmark_note": "Empresas B2B de serviços locais com faturamento similar tipicamente investem 3-5% do faturamento em mídia. CClean investe ~0,9% — abaixo do benchmark, mas com alta ineficiência. O problema não é volume de verba, é qualidade da configuração."
+  },
+
+  "key_leverage_point": {
+    "headline": "Reorganizar o Google Ads existente entregará +40-60% de leads qualificados sem aumentar um centavo de verba.",
+    "context": "O canal já funciona e gera ~10 contatos/dia mesmo quebrado. Com tag de conversão correta, raio geográfico ajustado e palavras-chave negativas implementadas, o volume de leads válidos (síndicos, gestores, donos de empresa) deve subir drasticamente enquanto os candidatos a emprego somem do radar.",
+    "numbered_reasons": [
+      "Tag de conversão quebrada significa que o algoritmo do Google está otimizando para o objetivo errado — ao corrigir, o Smart Bidding passa a priorizar os perfis que realmente convertem",
+      "Palavras-chave negativas eliminam o desperdício imediato com candidatos a emprego — estimativa conservadora: 30-40% do tráfego atual é desse perfil",
+      "Raio geográfico correto concentra a verba em Joinville zona norte — área onde CClean realmente atende e onde já tem 90 clientes ativos como prova social"
+    ],
+    "discussion_anchor": "Antes de abrir Meta Ads ou qualquer novo canal, consolidar e corrigir o Google Ads existente — é a alavanca de maior impacto com menor risco e sem investimento adicional."
+  },
+
+  "channel_opportunities": [
+    {
+      "channel": "Meta Ads (Facebook + Instagram)",
+      "priority": "alta",
+      "rationale": "ICP bem definido (síndico, RH, dono de empresa) com segmentação possível por cargo + interesse + localização. Demanda latente — o cliente não está pesquisando ativamente, mas pode ser impactado no momento certo. Custo por lead B2B local tipicamente mais baixo que Google para esse perfil.",
+      "suggested_investment": "R$500–R$800/mês inicial",
+      "format": "Campanha de geração de leads com formulário nativo (Lead Ads). Objetivo: 20-30 leads qualificados/mês adicionais.",
+      "creative_angle": "Dor do síndico (atestado surpresa, risco trabalhista) + diferencial CClean (26 anos, reposição 24h)."
+    },
+    {
+      "channel": "Google Meu Negócio (GMB)",
+      "priority": "alta",
+      "rationale": "Searches locais por 'empresa de limpeza Joinville' e termos similares têm alta intenção de compra. Perfil GMB otimizado com fotos, posts e avaliações pode gerar leads qualificados com custo zero.",
+      "suggested_investment": "R$0 (apenas tempo de setup)",
+      "format": "Otimizar perfil: categoria, área de atendimento, horário, fotos de equipe, posts mensais, solicitação de avaliações de clientes existentes.",
+      "creative_angle": "26 anos de empresa, equipe própria, zona norte de Joinville — diferencial vs. concorrentes sem histórico."
+    },
+    {
+      "channel": "Programa de Indicação",
+      "priority": "média",
+      "rationale": "90 clientes com retenção média histórica de anos. Cada indicação qualificada vale LTV estimado de R$34.800/ano. Sem programa formal, essa alavanca está dormindo.",
+      "suggested_investment": "R$0–R$200/mês (brindes/cashback por indicação convertida)",
+      "format": "Comunicação via WhatsApp para base ativa: oferecer desconto em serviço ou brinde por cada novo cliente indicado que fechar contrato.",
+      "creative_angle": "Tom de parceria e reconhecimento — cliente de longa data sendo valorizado."
+    },
+    {
+      "channel": "Instagram Orgânico",
+      "priority": "baixa (médio prazo)",
+      "rationale": "Canal de construção de autoridade e prova social. Concorrente Macaiama (porte similar) usa com sucesso para reduzir esforço de vendas. Não gera leads imediatos, mas reduz fricção de fechamento.",
+      "suggested_investment": "Principalmente tempo. R$0–R$300/mês em produção mínima.",
+      "format": "2-3 posts/semana: antes e depois de ambientes, depoimentos de síndicos, bastidores da equipe. Foco em prova social, não em produto.",
+      "creative_angle": "26 anos de empresa familiar, equipe de longa data, cases de condomínios reais da zona norte."
+    }
+  ],
+
+  "recommended_media_plan": {
+    "phase": "Fase 1 — Correção (1-30 dias)",
+    "total_investment": "R$1.500–R$3.000 (mesmo orçamento atual)",
+    "actions": [
+      "Corrigir tag de conversão Google Ads via Google Tag Manager",
+      "Consolidar 3 campanhas em 2 (condomínios + escritórios/empresas)",
+      "Implementar lista de 50+ palavras-chave negativas (emprego/vagas)",
+      "Corrigir raio geográfico para zona norte de Joinville (15km)",
+      "Configurar extensões de anúncio (sitelink, chamada, destaque, localização)",
+      "Ativar Google Meu Negócio com perfil otimizado"
+    ],
+    "expected_outcome": "Redução de 70-80% de leads de candidatos a emprego. Aumento de 40-60% de leads qualificados sem aumentar verba. Rastreamento real de CAC pela primeira vez."
+  },
+
+  "recommended_media_plan_phase2": {
+    "phase": "Fase 2 — Expansão (30-90 dias)",
+    "total_investment_increment": "+ R$500–R$800 para Meta Ads",
+    "actions": [
+      "Lançar campanha Meta Ads de geração de leads (síndicos + gestores de RH em Joinville zona norte)",
+      "Implementar programa de indicação para base atual de 90 clientes",
+      "Iniciar produção mínima de conteúdo para Instagram (2x/semana)",
+      "Configurar relatório de mídia mensal com métricas reais (CAC, ROAS, leads qualificados)"
+    ],
+    "expected_outcome": "Diversificação de canais reduz dependência de 100% em Google Ads. Meta Ads pode trazer 15-25 leads adicionais/mês a custo inferior ao Google para esse perfil de ICP."
+  },
+
+  "kpis_to_track": [
+    {
+      "kpi": "CAC (Custo de Aquisição de Cliente)",
+      "current": null,
+      "current_unavailable_reason": "Tag de conversão sem configuração confiável",
+      "target": "< R$500",
+      "target_basis": "LTV de R$34.800/ano — CAC de R$500 representa payback em 2 semanas de contrato"
+    },
+    {
+      "kpi": "Leads qualificados/mês (Google Ads)",
+      "current": "~30 estimados (10/dia × ~10% qualificados)",
+      "target": "80-100",
+      "target_basis": "Manutenção do volume atual com reconfiguração técnica"
+    },
+    {
+      "kpi": "Taxa de qualificação de leads",
+      "current": "< 10% (candidatos a emprego dominam)",
+      "target": "> 60%",
+      "target_basis": "Benchmark B2B local após reconfiguração"
+    },
+    {
+      "kpi": "Taxa de conversão lead → orçamento",
+      "current": null,
+      "current_unavailable_reason": "Sem CRM ou rastreamento de funil",
+      "target": "30-50%",
+      "target_basis": "Débora faz triagem e Jeferson visita — processo presencial tende a converter bem"
+    },
+    {
+      "kpi": "Novos clientes/mês via mídia paga",
+      "current": "2-3",
+      "target": "5-7",
+      "target_basis": "Meta de crescimento de R$250k para R$440k em 12-18 meses"
+    }
+  ],
+
+  "honesty_alert": "Este diagnóstico é 100% baseado em dados declarativos — sem acesso à conta Google Ads, sem V4MOS conectado, sem dados de GA4. Os problemas identificados são altamente prováveis com base nas evidências relatadas por Jeferson, mas podem haver causas adicionais não visíveis nesta auditoria. A primeira ação recomendada no S3 é garantir acesso à conta Google Ads para auditoria técnica direta antes de executar qualquer mudança. Reconfigurar campanhas sem ver os dados reais é substituir um problema por outro."
+}

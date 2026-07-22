@@ -1,0 +1,405 @@
+{
+  "client_name": "Instituto Salotti de Odontologia Digital",
+  "skill": "ee-s1-swot",
+  "generated_at": "2026-05-05",
+  "data_source": "Formulário pré-kickoff (25/04) + Plano ROI SPICED (23/04) + S1 Kickoff (29/04) + ee-s1-persona-icp",
+  "maturidade_dependency_note": "ee-s1-diagnostico-maturidade waivado: cliente tem zero canais digitais ativos para o novo posicionamento. A ausência de maturidade digital é em si um dado crítico registrado como fraqueza.",
+
+  "summary": "O Instituto Salotti tem infraestrutura técnica e autoridade clínica raras em Jundiaí — suficientes para ocupar o posicionamento de clínica premium dominante na cidade. O problema não é capacidade: é que nenhum desses ativos está sendo comunicado enquanto o custo fixo corre e o faturamento cai. A janela para ocupar o vácuo de mercado existe, mas não é infinita.",
+
+  "summary_headline": "Instituto Salotti tem o 'avião' — tecnologia, autoridade e estrutura de nível europeu. O problema é que o avião está na rodoviária enquanto os custos correm.",
+
+  "summary_highlights": [
+    {
+      "category": "posicao",
+      "label": "Forças estruturais",
+      "value": "6 diferenciais únicos",
+      "subtext": "Infraestrutura + autoridade + velocidade sem paralelo local",
+      "tone": "green"
+    },
+    {
+      "category": "risco",
+      "label": "Presença digital",
+      "value": "Zero",
+      "subtext": "Nenhum ativo construído para o novo posicionamento",
+      "tone": "red"
+    },
+    {
+      "category": "janela",
+      "label": "Vácuo de mercado",
+      "value": "Aberto agora",
+      "subtext": "Nenhuma clínica ocupa quiet luxury completo em Jundiaí",
+      "tone": "green"
+    },
+    {
+      "category": "risco",
+      "label": "Faturamento atual",
+      "value": "R$86k/mês",
+      "subtext": "Em queda. Custo fixo alto. Janela curta.",
+      "tone": "red"
+    },
+    {
+      "category": "oportunidade",
+      "label": "Combinação crítica",
+      "value": "Tecnologia × Vácuo",
+      "subtext": "Assimetria estratégica — dificílima de replicar",
+      "tone": "green"
+    },
+    {
+      "category": "maturidade",
+      "label": "Urgência de ação",
+      "value": "Alta",
+      "subtext": "Cada mês sem presença digital é mês de oportunidade perdida",
+      "tone": "yellow"
+    }
+  ],
+
+  "summary_key_findings": [
+    {
+      "category": "vantagem",
+      "text": "A combinação de tecnologia digital completa (tomógrafo, lab próprio, cirurgia guiada) + autoridade do Dr. Salotti (mestrado, professor, 22 anos) é praticamente impossível de replicar rapidamente por qualquer concorrente em Jundiaí. É uma vantagem estrutural real."
+    },
+    {
+      "category": "ameaca",
+      "text": "O vácuo de mercado premium em Jundiaí é real mas temporário. Um concorrente bem capitalizado que perceba essa oportunidade e chegue primeiro com comunicação forte pode ocupar o espaço antes que o Instituto Salotti construa presença digital."
+    },
+    {
+      "category": "ameaca",
+      "text": "Faturamento em queda (R$86k) com custo fixo alto e dependência total de indicação cria uma janela crítica: se a captação digital não for ativada nos próximos 60–90 dias, a pressão financeira pode forçar decisões erradas (abrir para convênios novamente, cortar investimentos)."
+    },
+    {
+      "category": "contexto",
+      "text": "O Google Avaliações do perfil Joy Care possivelmente tem reviews negativos do período de descredenciamento de convênios. Pacientes insatisfeitos com o processo de saída são um risco ativo para a reputação da nova marca."
+    },
+    {
+      "category": "acao",
+      "text": "A combinação estratégica prioritária é Força × Oportunidade: usar a infraestrutura tecnológica real como prova de autoridade para ocupar o posicionamento premium antes que o vácuo seja preenchido por outro. Isso exige presença digital ativa nos próximos 30 dias."
+    }
+  ],
+
+  "forcas": [
+    {
+      "id": "F1",
+      "titulo": "Autoridade técnica do Dr. Salotti — irreproduzível no curto prazo",
+      "descricao": "22 anos de formação, 4 especializações, mestrado em odontologia digital em conclusão, professor na área. Nível de qualificação que levaria anos para um concorrente replicar.",
+      "impacto": "alto",
+      "comunicavel": true,
+      "como_comunicar": "Autoridade técnica demonstrada em cases reais, não em títulos. Posts sobre planejamento digital, resultados previsíveis, tecnologia aplicada."
+    },
+    {
+      "id": "F2",
+      "titulo": "Infraestrutura completa de diagnóstico e execução em um único local",
+      "descricao": "Tomógrafo, scanner intraoral, câmera intraoral, RX panorâmico, laboratório de próteses próprio, fresadoras. Tudo em uma consulta, sem encaminhar para terceiros.",
+      "impacto": "alto",
+      "comunicavel": true,
+      "como_comunicar": "Argumento de agilidade e conveniência: 'O que outras clínicas levam 4 consultas, a gente faz em uma'."
+    },
+    {
+      "id": "F3",
+      "titulo": "Velocidade e previsibilidade via odontologia digital",
+      "descricao": "Coroa em 1,5h (vs 7–10 dias). Implante guiado em 10 min (vs 1h+). Reabilitação completa em 2 meses (vs 6 meses). Resultado previsível antes de começar.",
+      "impacto": "alto",
+      "comunicavel": true,
+      "como_comunicar": "Comparativos diretos com o processo convencional. Cases com tempo de tratamento como protagonista."
+    },
+    {
+      "id": "F4",
+      "titulo": "Cirurgia guiada — implante sem corte, sem dor, sem pontos",
+      "descricao": "Diferencial técnico que elimina as duas maiores objeções do ICP 55+: medo de cirurgia e medo de dor. Pouquíssimas clínicas em Jundiaí comunicam isso.",
+      "impacto": "alto",
+      "comunicavel": true,
+      "como_comunicar": "Conteúdo específico sobre cirurgia guiada. Depoimentos de pacientes que tinham medo e não sentiram dor."
+    },
+    {
+      "id": "F5",
+      "titulo": "Sedação consciente (óxido nitroso) disponível",
+      "descricao": "Equipamento disponível e habilitação para uso. Diferencial para pacientes com fobia de dentista — segmento significativo e mal atendido.",
+      "impacto": "médio-alto",
+      "comunicavel": true,
+      "como_comunicar": "Comunicação direta para quem tem medo de dentista. 'Você pode tratar sem sentir ansiedade'."
+    },
+    {
+      "id": "F6",
+      "titulo": "Imóvel próprio da família — autonomia e previsibilidade de custo fixo",
+      "descricao": "Sem sócios, sem risco de despejo, sem aumento de aluguel. Estabilidade que clínicas em prédios comerciais não têm.",
+      "impacto": "médio",
+      "comunicavel": false,
+      "como_comunicar": "Argumento interno de sustentabilidade financeira — não é diferencial de comunicação ao paciente."
+    },
+    {
+      "id": "F7",
+      "titulo": "Fabiana Volpe — gestora com 27 anos de experiência em saúde",
+      "descricao": "Fechamento comercial estruturado, processo de gestão em implantação, experiência em administração de clínicas. Preenche o gap de vendas do Dr.",
+      "impacto": "alto",
+      "comunicavel": false,
+      "como_comunicar": "Fator interno de execução — viabiliza a operação do novo modelo."
+    },
+    {
+      "id": "F8",
+      "titulo": "Gabi — secretária há 10 anos, memória institucional",
+      "descricao": "Parceria de longa data, confiança construída, conhece a base de pacientes histórica.",
+      "impacto": "médio",
+      "comunicavel": false,
+      "como_comunicar": "Fator de continuidade e qualidade no atendimento — contribui para NPS mas não é argumento externo."
+    },
+    {
+      "id": "F9",
+      "titulo": "Consulta paga com diagnóstico completo — filtro natural do ICP",
+      "descricao": "Não há avaliação gratuita. Quem agenda e paga pela consulta já comprovou disposição a investir. Taxa de conversão tende a ser alta.",
+      "impacto": "médio-alto",
+      "comunicavel": true,
+      "como_comunicar": "Comunicar o valor da consulta (o que ela inclui) como experiência — não como custo."
+    }
+  ],
+
+  "fraquezas": [
+    {
+      "id": "Fr1",
+      "titulo": "Zero ativos digitais para o Instituto Salotti",
+      "descricao": "Sem Instagram, sem site, sem Google Ads, sem perfil GMB atualizado. O paciente que recebe uma indicação e vai pesquisar online não encontra nada — ou encontra a Joy Care desatualizada.",
+      "impacto": "crítico",
+      "sanavel": true,
+      "prazo_estimado": "30–60 dias para presença mínima viável",
+      "acao": "Construção de presença digital como prioridade máxima do projeto."
+    },
+    {
+      "id": "Fr2",
+      "titulo": "Dr. Salotti autodeclarado fraco em vendas — único ponto de falha comercial",
+      "descricao": "Todo o fechamento depende de Fabiana. Se ela estiver ausente, o processo comercial para. Risco operacional real em fase de crescimento.",
+      "impacto": "alto",
+      "sanavel": true,
+      "prazo_estimado": "60–90 dias para estruturar processo com scripts e fluxo documentado",
+      "acao": "Scripts de atendimento + funil documentado que qualquer pessoa possa operar."
+    },
+    {
+      "id": "Fr3",
+      "titulo": "Faturamento em queda com custo fixo alto — margem de erro pequena",
+      "descricao": "R$86k/mês em queda após descredenciamento. Estrutura física, equipe e equipamentos geram custo fixo relevante. Janela curta para reversão.",
+      "impacto": "crítico",
+      "sanavel": true,
+      "prazo_estimado": "Reversão necessária em 60–90 dias",
+      "acao": "Ativar NRR da base histórica enquanto captação digital é construída."
+    },
+    {
+      "id": "Fr4",
+      "titulo": "Base de pacientes antiga com baixo reaproveitamento",
+      "descricao": "Público era de convênio — perfil diferente do ICP atual. Reaproveitamento declarado como 'baixíssimo'. Não há carteira qualificada para trabalhar imediatamente.",
+      "impacto": "alto",
+      "sanavel": "parcialmente",
+      "prazo_estimado": "Triagem da base pode revelar pacientes oportunidade em 30 dias",
+      "acao": "Triagem da base histórica para identificar pacientes com poder aquisitivo que nunca acessaram os serviços premium."
+    },
+    {
+      "id": "Fr5",
+      "titulo": "Recall e relacionamento pós-tratamento inexistente",
+      "descricao": "Acompanhamento feito manualmente em caderno. Sem régua de relacionamento, sem pesquisa de satisfação, sem programa de indicação estruturado.",
+      "impacto": "médio-alto",
+      "sanavel": true,
+      "prazo_estimado": "30 dias com CRM novo em operação",
+      "acao": "Configurar CRM com réguas de recall e pesquisa de satisfação."
+    },
+    {
+      "id": "Fr6",
+      "titulo": "Google Avaliações possivelmente comprometido pelo período de descredenciamento",
+      "descricao": "Pacientes de convênio que foram descredenciados podem ter deixado reviews negativos no perfil Joy Care / GMB. Esse histórico aparece para quem pesquisa.",
+      "impacto": "alto",
+      "sanavel": "parcialmente",
+      "prazo_estimado": "60–90 dias para diluir com novas avaliações positivas",
+      "acao": "Auditar GMB atual. Solicitar ativamente avaliações de pacientes satisfeitos da base histórica."
+    },
+    {
+      "id": "Fr7",
+      "titulo": "Trauma da equipe de atendimento com período de transição",
+      "descricao": "Gabi e equipe passaram por período caótico de reclamações de pacientes de convênio. Postura pode ser reativa e defensiva com novos contatos.",
+      "impacto": "médio",
+      "sanavel": true,
+      "prazo_estimado": "30–60 dias com treinamento e novo fluxo de atendimento",
+      "acao": "Script de atendimento + treinamento de postura para o novo posicionamento premium."
+    },
+    {
+      "id": "Fr8",
+      "titulo": "Sem estacionamento — reforma de 3–4 meses",
+      "descricao": "Bairro com pouca vaga na rua. Paciente premium valoriza comodidade e pode escolher outra clínica por esse fator.",
+      "impacto": "médio",
+      "sanavel": true,
+      "prazo_estimado": "3–4 meses (já em andamento)",
+      "acao": "Enquanto reforma não conclui, indicar estacionamentos próximos proativamente ao agendar."
+    },
+    {
+      "id": "Fr9",
+      "titulo": "Histórico de 15+ agências sem resultado — ceticismo instalado",
+      "descricao": "Dr. Salotti e Fabiana têm baixa tolerância a processo sem resultado rápido. Risco de interrupção prematura do projeto se métricas não aparecerem em 30–60 dias.",
+      "impacto": "médio",
+      "sanavel": "gerenciável",
+      "acao": "Estabelecer métricas de progresso claras e realistas desde o início. Resultados intermediários visíveis (GMB ativo, Instagram publicando, primeiro lead digital)."
+    }
+  ],
+
+  "oportunidades": [
+    {
+      "id": "O1",
+      "titulo": "Vácuo do posicionamento premium em Jundiaí",
+      "descricao": "Nenhuma clínica opera no nível quiet luxury odontológico completo em Jundiaí — experiência sensorial + tecnologia integrada + narrativa premium consistente. O espaço está aberto.",
+      "impacto": "alto",
+      "janela": "12–18 meses antes de ser ocupado por concorrente",
+      "forca_que_alavanca": ["F1", "F2", "F3"]
+    },
+    {
+      "id": "O2",
+      "titulo": "Jundiaí: envelhecimento + alta renda + foco em qualidade de vida",
+      "descricao": "Perfil demográfico ideal para reabilitação oral e odontologia digital premium. Crescimento urbano com perfil de consumo favorável.",
+      "impacto": "alto",
+      "janela": "Tendência de longo prazo — sustentável",
+      "forca_que_alavanca": ["F3", "F4", "F5"]
+    },
+    {
+      "id": "O3",
+      "titulo": "Pacientes internacionais — brasileiros na Europa e EUA",
+      "descricao": "Custo-benefício extremo. Pagam em Real o equivalente ao que pagariam em Euro. Poucos atendimentos necessários — ideal para diagnóstico digital rápido. Quase nenhuma clínica de Jundiaí explora esse canal.",
+      "impacto": "alto",
+      "janela": "Imediata — canal não explorado",
+      "forca_que_alavanca": ["F2", "F3", "F1"]
+    },
+    {
+      "id": "O4",
+      "titulo": "Indicações de casas de repouso e geriatras",
+      "descricao": "Parcerias com geriatras e instituições de cuidado ao idoso para encaminhar casos de reabilitação funcional. Canal de altíssima qualidade de lead e ticket elevado.",
+      "impacto": "médio-alto",
+      "janela": "30–60 dias para iniciar contatos",
+      "forca_que_alavanca": ["F4", "F5", "F1"]
+    },
+    {
+      "id": "O5",
+      "titulo": "Parcerias corporativas — executivos e profissionais liberais de Jundiaí",
+      "descricao": "Empresas com benefit de saúde, convênios médicos para executivos, planos corporativos. Canal que o ICP primário (Ricardo) já usa.",
+      "impacto": "médio",
+      "janela": "60–90 dias para estruturar",
+      "forca_que_alavanca": ["F1", "F9"]
+    },
+    {
+      "id": "O6",
+      "titulo": "NRR — base histórica com pacientes oportunidade",
+      "descricao": "Mesmo com reaproveitamento declarado baixo, a base histórica provavelmente contém pacientes que fizeram tratamentos simples e nunca foram apresentados ao portfólio premium. Triagem pode revelar oportunidades imediatas.",
+      "impacto": "médio-alto",
+      "janela": "Imediata — pode gerar faturamento em 30 dias",
+      "forca_que_alavanca": ["F8", "F9"]
+    },
+    {
+      "id": "O7",
+      "titulo": "Ortodontia digital (alinhadores) — demanda crescente em adultos",
+      "descricao": "Adultos 30–50 anos cada vez mais abertos a alinhadores. Mercado crescente com ticket intermediário (Curva B) que serve como porta de entrada para tratamentos maiores.",
+      "impacto": "médio",
+      "janela": "Tendência de médio prazo",
+      "forca_que_alavanca": ["F2", "F3"]
+    }
+  ],
+
+  "ameacas": [
+    {
+      "id": "A1",
+      "titulo": "Risco Brasil — instabilidade econômica",
+      "descricao": "Tratamentos de alto valor são os primeiros cortados em crise. Público premium sofre menos, mas a decisão de investir R$25–30k é postergada em cenário de incerteza.",
+      "probabilidade": "alta",
+      "impacto": "médio-alto",
+      "mitigacao": "Posicionamento de valor claro e comunicação de ROI (tratamento que dura vs tratamento que refaz) reduz sensibilidade a ciclos econômicos."
+    },
+    {
+      "id": "A2",
+      "titulo": "Fiscalização CROSP — mercantilização da odontologia",
+      "descricao": "Jundiaí tem fiscalização ativa do CROSP sobre publicidade odontológica. Antes/depois, promessas de resultado, linguagem de vendas podem gerar notificações.",
+      "probabilidade": "média",
+      "impacto": "alto",
+      "mitigacao": "Todo conteúdo deve ser revisado com as normas do CFO/CROSP. Evitar: promessas de resultado, comparações diretas, linguagem de 'venda'. Preferir: educação, autoridade, experiência."
+    },
+    {
+      "id": "A3",
+      "titulo": "Concorrente bem capitalizado ocupa o vácuo premium antes do Instituto",
+      "descricao": "O vácuo de mercado está visível para qualquer player que analise Jundiaí. Uma clínica de rede ou um dentista recém-chegado com investimento em marketing pode ocupar o espaço.",
+      "probabilidade": "média",
+      "impacto": "alto",
+      "mitigacao": "Velocidade de execução. Quanto mais rápido a presença digital for construída, mais difícil fica para um entrante reposicionar a narrativa."
+    },
+    {
+      "id": "A4",
+      "titulo": "Reviews negativos do período de convênio no Google",
+      "descricao": "Pacientes insatisfeitos com o processo de descredenciamento podem ter deixado avaliações negativas. Esse histórico é o primeiro contato digital do paciente que pesquisa.",
+      "probabilidade": "alta",
+      "impacto": "alto",
+      "mitigacao": "Auditoria imediata do GMB. Respostas profissionais a reviews negativos. Campanha de coleta ativa de avaliações com pacientes satisfeitos."
+    },
+    {
+      "id": "A5",
+      "titulo": "Dependência de indicação com canal temporariamente enfraquecido",
+      "descricao": "Descredenciamento de convênios pode ter reduzido a base de pacientes que faz indicações ativas. O canal mais qualificado está momentaneamente mais fraco.",
+      "probabilidade": "alta",
+      "impacto": "médio-alto",
+      "mitigacao": "Ativar pacientes históricos satisfeitos como promotores. Estruturar programa de indicação."
+    },
+    {
+      "id": "A6",
+      "titulo": "Custo crescente de materiais e equipamentos odontológicos premium",
+      "descricao": "Materiais alemães e equipamentos de nível europeu são cotados em moeda forte. Pressão de margem em cenário de dólar alto.",
+      "probabilidade": "média",
+      "impacto": "médio",
+      "mitigacao": "Comunicação de qualidade premium justifica repasse de preço. Posicionamento de valor protege margem."
+    }
+  ],
+
+  "combinacoes_estrategicas": [
+    {
+      "tipo": "Força × Oportunidade — Alavancar",
+      "combinacao": "F1+F2+F3 × O1",
+      "titulo": "Ocupar o vácuo premium de Jundiaí agora — janela assimétrica",
+      "descricao": "A tecnologia + autoridade do Dr. Salotti é irreproduzível rapidamente. O vácuo de mercado existe. A combinação cria uma assimetria estratégica rara: o Instituto tem as credenciais para ocupar o topo do mercado de Jundiaí antes que qualquer concorrente possa reagir — desde que construa presença digital nos próximos 30–60 dias.",
+      "prioridade": "máxima"
+    },
+    {
+      "tipo": "Força × Oportunidade — Alavancar",
+      "combinacao": "F4+F5 × O2",
+      "titulo": "Cirurgia guiada + sedação = porta de entrada para o ICP 55+ de Jundiaí",
+      "descricao": "A combinação de cirurgia sem dor e sedação consciente elimina as duas maiores barreiras do mercado mais rentável (idosos com reabilitação complexa). Em uma cidade de envelhecimento progressivo, isso é uma vantagem competitiva direta.",
+      "prioridade": "alta"
+    },
+    {
+      "tipo": "Fraqueza × Oportunidade — Converter",
+      "combinacao": "Fr1 × O1",
+      "titulo": "Urgência de construção digital — o vácuo não espera",
+      "descricao": "Zero presença digital + vácuo de mercado = urgência máxima. Cada mês sem Instagram, site e GMB é um mês em que um concorrente pode publicar um post e ser lembrado primeiro.",
+      "prioridade": "máxima"
+    },
+    {
+      "tipo": "Fraqueza × Oportunidade — Converter",
+      "combinacao": "Fr4 × O6",
+      "titulo": "Triagem da base histórica — faturamento imediato",
+      "descricao": "A base antiga tem pacientes que passaram pela clínica em época de convênio mas nunca foram apresentados ao portfólio premium atual. Identificar e reativar esses pacientes pode gerar faturamento nos primeiros 30 dias sem custo de aquisição.",
+      "prioridade": "alta"
+    },
+    {
+      "tipo": "Força × Ameaça — Proteger",
+      "combinacao": "F1+F2 × A2",
+      "titulo": "Autoridade técnica como escudo contra restrições do CROSP",
+      "descricao": "Conteúdo baseado em educação técnica e autoridade (não em promoção ou comparação) é mais resistente à fiscalização do CROSP e simultaneamente mais eficaz com o ICP premium que quer confiar, não ser convencido.",
+      "prioridade": "alta"
+    },
+    {
+      "tipo": "Fraqueza × Ameaça — Mitigar",
+      "combinacao": "Fr3+Fr1 × A3",
+      "titulo": "Risco de insolvência se captação não for ativada em 60–90 dias",
+      "descricao": "Faturamento em queda + zero presença digital + concorrente potencial percebendo o vácuo = cenário de risco real se o projeto não entregar resultados iniciais visíveis em 60–90 dias.",
+      "prioridade": "crítica"
+    }
+  ],
+
+  "key_leverage_point": {
+    "headline": "A combinação de tecnologia real + vácuo de mercado + urgência financeira cria uma janela estratégica estreita: os próximos 60–90 dias definem se o Instituto Salotti ocupa o topo do mercado de Jundiaí ou precisa lutar por espaço depois.",
+    "context": "A clínica tem tudo que o mercado premium de Jundiaí não encontra em nenhum concorrente: tecnologia de nível europeu, velocidade de tratamento, cirurgia sem dor e autoridade técnica real. O problema é que nada disso está sendo comunicado enquanto o custo fixo corre. A janela existe, mas um concorrente com marketing ativo pode começar a ocupar o espaço de percepção antes que o Instituto construa a sua presença.",
+    "numbered_reasons": [
+      "O vácuo de posicionamento premium em Jundiaí é real e verificável — não há clínica com quiet luxury completo. Mas vácuos de mercado são temporários: quem chegar primeiro com comunicação consistente fica na memória do paciente",
+      "A urgência financeira (faturamento em queda, custo fixo alto) não é apenas ameaça — é acelerador: força a construção rápida de ativos digitais que, uma vez prontos, trabalham 24h gerando leads qualificados",
+      "A combinação Força × Oportunidade aqui é assimétrica — os ativos do Dr. Salotti levaram 22 anos para ser construídos. Um concorrente não pode copiar isso em 6 meses. A comunicação pode ser construída em 60 dias."
+    ],
+    "discussion_anchor": "A pergunta para o Dr. Salotti e Fabiana não é 'vamos fazer marketing?' — é 'vamos ocupar o espaço que só nós podemos ocupar, antes que alguém perceba que ele está vazio?'"
+  },
+
+  "honesty_alert": "O contexto financeiro (faturamento em queda, custo fixo alto, histórico de 15 agências sem resultado) cria pressão por resultados rápidos que pode ser incompatível com o tempo necessário para construir posicionamento de marca premium. Posicionamento de quiet luxury leva 3–6 meses para gerar leads consistentes. O plano de ação precisa contemplar uma fase de NRR (reativar base histórica) para gerar faturamento de curto prazo enquanto os ativos digitais de longo prazo são construídos. Prometer crescimento acelerado sem esse paralelo é vender ilusão."
+}

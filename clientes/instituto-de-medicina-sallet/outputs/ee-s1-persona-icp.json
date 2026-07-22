@@ -1,0 +1,420 @@
+{
+  "client_name": "Instituto de Medicina Sallet",
+  "summary": "ICP do Instituto de Medicina Sallet: mulher de 30-48 anos, classe C/C+, com convênio corporativo, que já tentou caneta GLP-1 e platôu ou recuperou peso — decide operar em até 15 anos, mas só fecha quando a família aprova (~80% dos casos). O diferencial real do Instituto (equipe transdisciplinar + protocolo ERAS) resolve o medo de abandono da persona, mas hoje esbarra num pós-operatório sem automação que já gera reclamação pública.",
+  "data_source": "manual",
+
+  "icp": {
+    "demographics": {
+      "type": "B2C",
+      "age_range": "30-48 anos (núcleo real do volume via convênio corporativo); a pesquisa de mercado anterior mapeia janela mais ampla de 20-50 anos, especialmente mais jovem no público de tratamentos clínicos GLP-1",
+      "income_or_revenue": "Classe C/C+; renda familiar/individual na faixa de R$5-7k/mês no público de convênio corporativo (perfil de referência: Gerente de RH, R$7k). O pacote 'Bariátrica para Todos' mira explicitamente C/D, sem esse teto de renda",
+      "location": "São Paulo, Grande SP, ABC, Baixada Santista e Campinas — foco declarado de mídia paga (fora dessa região gera lead frustrado/descartável); atendimento recebe também pacientes de MG, Sul, RJ, BA e casos internacionais via telemedicina, mas isso não deve guiar segmentação de mídia",
+      "company_size": null,
+      "decision_maker_role": "Ela mesma inicia a busca, mas a decisão final de operar é fortemente influenciada pela família (~80% dos casos, segundo o cliente) — cônjuge/pais/filhos precisam estar convencidos antes do fechamento",
+      "education": "Ensino superior completo (perfis de referência validados: Gerente de RH, Supervisora Comercial) [E]",
+      "other": {
+        "cobertura_convenio": "98% do volume atual vem de convênio médico corporativo (grandes empresas: Amazon, Coca-Cola, GM) — a decisão de operar já chega filtrada por essa cobertura"
+      }
+    },
+    "behavior": {
+      "decision_process": "Mista: extremamente racional/pesquisada (compara preço, avaliação, técnica, depoimentos) e ao mesmo tempo emocional (busca alívio de anos de frustração) — mas raramente individual: depende de aprovação implícita da família em ~80% dos casos, e da aprovação/cobertura do convênio corporativo",
+      "research_channels": [
+        "Instagram (perfis de referência e prova social de pacientes reais)",
+        "TikTok (conteúdo mais jovem — ainda incipiente para o Sallet)",
+        "Busca por IA (ChatGPT/assistentes) e Google",
+        "YouTube (vídeos longos, entrevistas, podcasts como Salcast)",
+        "Indicação direta de amigas/familiares que já operaram (maior peso real na decisão)"
+      ],
+      "main_objections": [
+        "Vale pagar particular (R$19-30 mil) em vez de esperar/tentar via convênio?",
+        "Tenho medo de complicação cirúrgica e da recuperação",
+        "Já tentei caneta (GLP-1) e tive resultado — será que preciso mesmo operar?",
+        "Essa clínica vai me tratar como número ou vai me acompanhar de verdade no pós-operatório?"
+      ],
+      "switching_triggers": "Platô ou reganho de peso após uso de GLP-1 sem acompanhamento; piora de comorbidade (diabetes, apneia, dor articular); recomendação forte de médico/familiar; frustração com atendimento massificado em clínica anterior",
+      "purchase_frequency": "Compra única (procedimento, não recorrente) — mas a decisão pode amadurecer por até 15 anos antes de acontecer; delay médio de ~3 meses entre entrada no funil digital e realização da cirurgia"
+    },
+    "jobs": {
+      "functional": "Quando bate o platô (ou o reganho) depois de anos tentando emagrecer sozinha — inclusive já tendo usado canetas GLP-1 — e uma comorbidade (diabetes, apneia, dor articular) começa a assustar, eu quero uma cirurgia definitiva com equipe que me acompanhe do pré ao pós-operatório, para que eu resolva o peso de vez sem virar 'mais um caso' abandonado depois da alta.",
+      "emotional": "Quero ter a segurança de que não vou ficar sozinha na recuperação nem no pós-operatório de longo prazo — e a tranquilidade de que finalmente vou parar de sofrer o efeito sanfona.",
+      "social": "Quero que minha família pare de se preocupar comigo e veja que tomei uma decisão séria e responsável pela minha saúde — não uma solução rápida ou 'de aparência'."
+    },
+    "pains": [
+      {
+        "pain": "Efeito sanfona: já tentou emagrecer sozinha várias vezes (dietas, academia, e mais recentemente canetas GLP-1) e sempre recupera o peso — não acredita mais em solução 'por conta própria'",
+        "intensity": "critical",
+        "current_workaround": "Usa canetas emagrecedoras (Tirzepatida/GLP-1) por conta própria ou com acompanhamento fraco, muitas vezes compradas informalmente ('canetas do Paraguai')"
+      },
+      {
+        "pain": "Comorbidades que já assustam de verdade — diabetes tipo 2, hipertensão, apneia do sono, dor articular — e o medo de que piorem antes de conseguir agir",
+        "intensity": "critical"
+      },
+      {
+        "pain": "Medo do procedimento cirúrgico em si: cicatriz, anestesia, risco de complicação, tempo de recuperação que pode custar o emprego",
+        "intensity": "high"
+      },
+      {
+        "pain": "Já viveu gordofobia em atendimentos de saúde anteriores — médico que julgou, tratou com desdém ou não levou a sério a dor dela",
+        "intensity": "high"
+      },
+      {
+        "pain": "Barreiras burocráticas do convênio corporativo (anos de exigência de tentativa prévia documentada) que atrasam ou impedem a autorização da cirurgia",
+        "intensity": "medium"
+      }
+    ],
+    "gains": [
+      {
+        "gain": "Remissão ou controle real de diabetes tipo 2, hipertensão, apneia do sono e dores articulares",
+        "type": "tangible"
+      },
+      {
+        "gain": "Alta hospitalar em menos de 24h (protocolo ERAS) — recuperação rápida o suficiente para não comprometer o emprego",
+        "type": "tangible"
+      },
+      {
+        "gain": "Fazer a cirurgia com cobertura 100% pelo convênio corporativo, ou — se não tiver convênio — um pacote acessível e transparente ('Bariátrica para Todos')",
+        "type": "tangible"
+      },
+      {
+        "gain": "Acompanhamento transdisciplinar (cirurgião, endócrino, nutri, psicólogo, educador físico) — não ficar sozinha na jornada",
+        "type": "intangible"
+      },
+      {
+        "gain": "Recuperar autoestima e mobilidade física sem depender de remédio para sempre",
+        "type": "intangible"
+      }
+    ]
+  },
+
+  "persona": {
+    "name": "Patrícia Almeida",
+    "photo_description": "Mulher de 36 anos, expressão de cansaço contido misturado com esperança — retratada em ambiente de escritório corporativo (é gerente de RH), roupa social discreta, provavelmente num horário de almoço corrido entre reuniões. Rosto arredondado, sorriso comedido — típico de quem está prestes a tomar uma decisão grande mas ainda não contou pra todo mundo.",
+    "story": "Patrícia tem 36 anos, é gerente de RH numa multinacional em Campinas e convive com obesidade e as comorbidades que vieram junto (pré-diabetes, apneia leve) há mais de uma década. Já tentou de tudo: dietas, academia, e há 8 meses começou a usar uma caneta GLP-1 por conta própria — perdeu 12kg nos primeiros 3 meses, mas estacionou e já recuperou 4kg. Tem convênio corporativo forte (categoria das grandes empresas que o Instituto atende), mas o RH da própria empresa dela nunca falou sobre isso abertamente — descobriu que a cirurgia era coberta pesquisando sozinha, à noite, no Instagram. Tem medo de virar 'mais um número' numa clínica popular, e tem medo ainda maior de que a família ache que ela está 'desistindo fácil' ao optar pela cirurgia em vez de insistir na caneta.",
+    "quote": "Eu já tentei de tudo. A caneta até funcionou um tempo, mas travou e eu já voltei a engordar. Não quero mais remendo — quero resolver isso de vez, com gente que continue cuidando de mim depois, não só no dia da cirurgia."
+  },
+
+  "where_to_find": {
+    "digital_channels": [
+      "Perfis de pacientes reais que compartilham antes/depois de bariátrica no Instagram (ex.: @institutosallet, contas de pacientes)",
+      "Grupos fechados no Facebook/WhatsApp de 'pós-bariátrica' e 'emagrecimento com caneta'",
+      "TikTok — conteúdo de transformação corporal e depoimentos, mesmo sendo canal ainda incipiente para o Sallet",
+      "Buscas por IA (ChatGPT, Gemini) e Google para dúvidas sobre risco, preço e convênio"
+    ],
+    "keywords": [
+      "cirurgia bariátrica São Paulo",
+      "cirurgia bariátrica convênio [nome do convênio]",
+      "bariátrica preço particular",
+      "efeitos colaterais caneta emagrecedora",
+      "platô Mounjaro Ozempic",
+      "recuperação cirurgia bariátrica quanto tempo",
+      "bariátrica para todos Sallet"
+    ],
+    "influencers": [
+      "Dr. Rubens Arnoni (@drjoserubensarnoni) — benchmark de linguagem jovem e reels virais, admirado pelo cliente apesar de ser concorrente direto",
+      "Dr. Eduardo Pachu — conteúdo de centro cirúrgico, alta acessibilidade e carisma",
+      "Perfis de pacientes que compartilham a própria jornada de emagrecimento — a prova social pesa mais que autoridade médica pura"
+    ],
+    "communities": [
+      "Grupos de WhatsApp/Facebook de pacientes pós-bariátrica trocando experiência",
+      "Comunidades internas de RH/benefícios em grandes empresas (Amazon, Coca-Cola, GM) onde corre boca a boca sobre cobertura do convênio",
+      "Rede de indicação familiar/amigas — o maior canal de aquisição real do Instituto"
+    ]
+  },
+
+  "anti_persona": {
+    "description": "Perfis que consomem tempo do time e verba de mídia sem nunca converter — a equipe já reconhece parte deles informalmente como 'lead ruim'.",
+    "profiles": [
+      {
+        "profile_name": "Sem intenção real de tratar a obesidade",
+        "description": "Preenche formulário ou manda mensagem por curiosidade, pressão de terceiros, ou para 'ver quanto custa', sem intenção real de agir — não tem urgência nem motivação própria.",
+        "signals": [
+          "Pergunta só preço no primeiro contato, sem contar história ou comorbidade",
+          "Some depois da primeira resposta e não retorna nenhuma das 3 tentativas automáticas do Omniplus",
+          "Diz explicitamente que 'só quer saber' ou está 'pesquisando pra outra pessoa' sem nunca confirmar interesse próprio"
+        ],
+        "why_not": "Consome tempo do time comercial e verba de mídia sem conversão nunca acontecer — é o 'lead ruim' que a própria equipe já identifica hoje",
+        "operational_rule": "Se não responder a nenhuma das 3 tentativas automáticas do Omniplus em 4 dias, marcar como desistente e não insistir manualmente"
+      },
+      {
+        "profile_name": "Fora da área de atendimento",
+        "description": "Mora fora de SP/Grande SP/Campinas/Baixada Santista/ABC e busca a cirurgia, mas não tem viabilidade logística real para acompanhar pré e pós-operatório presencialmente.",
+        "signals": [
+          "CEP ou DDD fora da região de atuação, sem plano de viagem definido",
+          "Pergunta sobre acompanhamento 100% remoto sem nunca mencionar vinda a SP/Campinas",
+          "Já se frustrou antes por não conseguir agendar por causa da distância"
+        ],
+        "why_not": "Gera frustração no lead e desperdiça verba de mídia paga sem conversão realista — o próprio Instituto já opta por concentrar mídia paga na região core",
+        "operational_rule": "Segmentação geográfica de mídia paga já deve excluir essas praças; se entrar por orgânico, oferecer só a telemedicina de pré-consulta e ser transparente sobre a necessidade de deslocamento"
+      },
+      {
+        "profile_name": "Convênio sem cobertura para tratamento clínico",
+        "description": "Busca tratamento com canetas GLP-1 ou balão acreditando que o convênio vai cobrir — quase nenhum convênio cobre esses tratamentos hoje.",
+        "signals": [
+          "Pergunta explicitamente 'meu convênio cobre a caneta/balão?' logo no primeiro contato",
+          "Fica irritado ou desiste ao saber que é 100% particular",
+          "Confunde tratamento clínico com cirurgia (que sim tem cobertura ampla)"
+        ],
+        "why_not": "Gera atrito e reclamação (inclusive no Google Meu Negócio) quando descobre que não há cobertura — a própria marca já decidiu remover qualquer menção a convênio nessa comunicação",
+        "operational_rule": "Nunca mencionar convênio na comunicação de tratamentos clínicos (caneta/balão) — regra de marca já confirmada pelo cliente; o time de atendimento deve esclarecer isso logo no primeiro contato para não gerar falsa expectativa"
+      }
+    ],
+    "operational_rule": "Se o lead não demonstrar intenção real de tratar a obesidade, estiver fora da região de atendimento presencial, ou buscar tratamento clínico esperando cobertura de convênio, sinalizar imediatamente e não escalar para o comercial como prioridade — direcionar para o fluxo padrão de nutrição (ou desistência) sem consumir verba extra de mídia paga nesses perfis."
+  },
+
+  "buyer_journey": {
+    "description": "Jornada de decisão da Patrícia, do platô na caneta GLP-1 até a indicação pós-cirúrgica.",
+    "stages": [
+      {
+        "stage": "Gatilho",
+        "trigger": "Platô ou reganho de peso após uso de canetas GLP-1 sem acompanhamento, piora de comorbidade, ou alerta médico/familiar",
+        "mental_state": "Cansaço e urgência silenciosa — já tentou sozinha e sente que 'dessa vez precisa ser diferente'",
+        "primary_channel": "Reflexão pessoal + conversas informais com família/amigas que já passaram pela cirurgia",
+        "dominant_question": "Será que chegou a hora de considerar a cirurgia de verdade?",
+        "client_intervention": "Nenhuma ainda — esse gatilho acontece fora do funil digital do Instituto",
+        "friction_today": "Instituto não tem presença nesse momento de dúvida inicial (falta conteúdo educativo capturando quem está platôzando com caneta)",
+        "duration_estimate": "Semanas a poucos meses (dentro de um ciclo de decisão total que pode levar até 15 anos)"
+      },
+      {
+        "stage": "Pesquisa",
+        "trigger": "Decide procurar informação sobre cirurgia bariátrica",
+        "mental_state": "Cautela e desconfiança — já foi mal atendida antes (gordofobia), tem medo de clínica popular",
+        "primary_channel": "Instagram, Google, buscas por IA, YouTube",
+        "dominant_question": "Quem é confiável e quem realmente entende do assunto?",
+        "client_intervention": "Anúncios Meta/Google, perfil do Instagram, conteúdo do Dr. Sallet",
+        "friction_today": "Meta Ads performa abaixo do esperado segundo o próprio cliente; site institucional defasado (de 2023) prejudica a primeira impressão",
+        "duration_estimate": "Dias a poucas semanas"
+      },
+      {
+        "stage": "Consideração",
+        "trigger": "Já reduziu a lista para 2-4 opções (Sallet, GOC, Imec, Medicina em Foco, BariMais)",
+        "mental_state": "Comparação racional combinada com busca por prova social emocional",
+        "primary_channel": "Avaliações no Google, depoimentos em vídeo, comparação de preço/pacote",
+        "dominant_question": "Esse médico/instituto realmente resolve o meu problema e me acompanha depois?",
+        "client_intervention": "Depoimentos, prova social, conteúdo do Dr. Sallet, landing page de tratamentos",
+        "friction_today": "Falta depoimento em vídeo específico para tratamentos clínicos (caneta); concorrentes como Imec e BariMais têm nota melhor no Google (4,9-5,0 vs Sallet) e mais volume de prova social",
+        "duration_estimate": "1-3 semanas"
+      },
+      {
+        "stage": "Decisão",
+        "trigger": "Convence a família (~80% dos casos) e confirma cobertura do convênio ou fecha pacote particular",
+        "mental_state": "Ansiedade misturada com alívio de finalmente decidir",
+        "primary_channel": "WhatsApp (atendimento humano via Omniplus), contato direto com a equipe",
+        "dominant_question": "Isso vai ser coberto? Quando consigo agendar?",
+        "client_intervention": "Atendimento humano via WhatsApp após resposta ao fluxo automático do Omniplus",
+        "friction_today": "CRM poluído (+20 mil contatos duplicados) e divergência entre RD Marketing e RD CRM comprometem o acompanhamento confiável desse estágio",
+        "duration_estimate": "Dias a 2-3 semanas para agendar avaliação"
+      },
+      {
+        "stage": "Pré-operatório",
+        "trigger": "Avaliação inicial aprovada, inicia o preparo",
+        "mental_state": "Mistura de ansiedade pré-cirúrgica e esperança",
+        "primary_channel": "Consultas presenciais/telemedicina com a equipe transdisciplinar",
+        "dominant_question": "Estou realmente pronta e segura para operar?",
+        "client_intervention": "Acompanhamento transdisciplinar (endócrino, nutri, psicólogo, educador físico)",
+        "friction_today": "Nenhuma fricção crítica relatada nesse estágio — é o ponto mais forte da operação",
+        "duration_estimate": "3 a 6 meses de preparo"
+      },
+      {
+        "stage": "Pós-operatório e indicação",
+        "trigger": "Cirurgia realizada, alta em menos de 24h (protocolo ERAS)",
+        "mental_state": "Vulnerabilidade no pós-imediato, depois orgulho e vontade de indicar",
+        "primary_channel": "WhatsApp, redes sociais próprias, boca a boca",
+        "dominant_question": "Vou continuar sendo acompanhada ou fico por conta própria agora?",
+        "client_intervention": "Funil pós-cirúrgico (~3.564 contatos) — hoje subaproveitado",
+        "friction_today": "Falta de automação no pós-operatório gera sensação de abandono e reclamações concentradas no Google Meu Negócio, apesar de ser a maior fonte potencial de indicação",
+        "duration_estimate": "Contínuo (acompanhamento de 6-12 meses no caso do 'Bariátrica para Todos')"
+      }
+    ],
+    "critical_leakage_point": "O maior vazamento não é na aquisição, é no pós-operatório: o funil de ~3.564 pacientes que já operaram (a maior fonte potencial de indicação, já que ~80% da decisão de novos pacientes vem de influência familiar/boca a boca) está sem automação — gera reclamações concentradas no Google Meu Negócio em vez de gerar as indicações que sustentam o principal canal de aquisição real do Instituto."
+  },
+
+  "willingness_to_pay": {
+    "description": "Faixas de preço por serviço principal, cruzando dado real de briefing/base de conhecimento com benchmarking de concorrentes.",
+    "services": [
+      {
+        "service": "Cirurgia Bariátrica Particular Convencional",
+        "current_ticket_range": "R$30.000 (ticket cheio observado)",
+        "perceived_fair_range": "R$20.000-30.000 — o mercado já viu o concorrente Instituto Medicina em Foco expor R$20.980 à vista, o que baliza a percepção de 'justo'",
+        "premium_ceiling": "R$30.000+ aceito apenas com prova extremamente forte de acompanhamento pós-operatório e recuperação rápida (ERAS) — sem isso, o preço do concorrente vira âncora de comparação direta",
+        "elasticity": "média — sensível à comparação direta de preço com o Instituto Medicina em Foco, que expõe valor e argumento custo-benefício vs Mounjaro",
+        "pricing_lever": "Autoridade de 25+ anos do Dr. Sallet + protocolo ERAS (alta em <24h) + acompanhamento transdisciplinar completo"
+      },
+      {
+        "service": "Bariátrica para Todos (pacote popular)",
+        "current_ticket_range": "R$13.900 + honorários + custo hospitalar ≈ R$20.400 total",
+        "perceived_fair_range": "R$18.000-22.000 — mira explicitamente classes C/D que hoje veem a cirurgia como inacessível",
+        "premium_ceiling": "R$20.400 já é o teto definido pela diretoria como 'imbatível' — qualquer aumento reduz a promessa central do produto (acessibilidade)",
+        "elasticity": "alta — o público-alvo tem sensibilidade de preço real (é por isso que o produto existe), pouco espaço para subir sem perder a proposta",
+        "pricing_lever": "Parcelamento + inclusão de pré-operatório, OPME, custo hospitalar e 6-12 meses de acompanhamento no pacote fechado, sem surpresa de custo extra"
+      },
+      {
+        "service": "Tratamento Clínico com Canetas GLP-1 (Tirzepatida) com acompanhamento",
+        "current_ticket_range": null,
+        "perceived_fair_range": "Até R$1.200/mês parece ser o teto que o mercado já paga informalmente — acompanhamento médico precisa caber nessa faixa ou justificar claramente o excedente",
+        "premium_ceiling": "Acima de R$1.200/mês só se justificado por acompanhamento transdisciplinar completo — o que falta no uso informal ('canetas do Paraguai')",
+        "elasticity": "baixa — a paciente já paga isso informalmente sem acompanhamento; o desafio não é preço, é convencer que o acompanhamento vale o mesmo valor ou pouco a mais",
+        "pricing_lever": "Segurança médica e supervisão transdisciplinar que o uso informal/online não oferece — combate direto ao mercado das canetas sem procedência",
+        "unavailable_reason": "Ticket específico cobrado pelo próprio Instituto para o tratamento clínico com acompanhamento não constava no briefing nem na base de conhecimento — só o gasto informal do paciente (R$1.200/mês) está documentado"
+      },
+      {
+        "service": "Balão Intragástrico",
+        "current_ticket_range": null,
+        "perceived_fair_range": null,
+        "premium_ceiling": null,
+        "elasticity": "média [E]",
+        "pricing_lever": "Alternativa ágil frente às barreiras dos convênios — atrai quem quer resultado rápido sem cirurgia",
+        "unavailable_reason": "Ticket do balão intragástrico não constava nos documentos de briefing/base de conhecimento — descrito apenas qualitativamente no planejamento anterior"
+      }
+    ]
+  },
+
+  "objection_library": {
+    "description": "Objeções reais mapeadas a partir do briefing e das transcrições de kickoff/check-in, com resposta boa e ruim para orientar copy, SDR e atendimento.",
+    "objections": [
+      {
+        "objection": "Vale a pena pagar particular (R$19-30 mil) em vez de esperar ou brigar com o convênio?",
+        "subtext": "Ela desconfia que vai gastar uma fortuna sem necessidade, ou que ainda vai enfrentar a mesma burocracia depois",
+        "bad_response": "'Temos parcelamento facilitado' — responde só a objeção de preço, ignora a real dúvida sobre valer a pena vs convênio",
+        "good_response": "Mostrar que 98% dos pacientes do Instituto operam pelo convênio corporativo (Amazon, Coca-Cola, GM) com cobertura ampla — e que o particular só entra quando o convênio tem barreira real, com o pacote 'Bariátrica para Todos' como alternativa transparente de R$20.400 tudo incluso",
+        "when_to_use": "Primeira resposta no WhatsApp/atendimento, antes de qualquer negociação de valor"
+      },
+      {
+        "objection": "Já tentei caneta (GLP-1) e até funcionou — será que preciso mesmo operar?",
+        "subtext": "Não quer admitir que o remédio não resolveu de vez; medo de estar 'desistindo fácil' ao optar pela cirurgia",
+        "bad_response": "'Cirurgia é sempre melhor que remédio' — soa como venda forçada e desqualifica a experiência dela com a caneta",
+        "good_response": "Validar que GLP-1 tem resultado real, mas é transitório (frase do próprio Dr. Sallet) — reforçar que quem já testou caneta e platôu é exatamente quem mais se beneficia da definitividade da cirurgia, com equipe que evita o efeito sanfona de novo",
+        "when_to_use": "Conteúdo educativo (Instagram/anúncios) e nas primeiras conversas com o time de atendimento"
+      },
+      {
+        "objection": "Tenho medo do procedimento, da cicatriz, de complicação",
+        "subtext": "Medo genuíno da cirurgia em si — não é sobre preço ou convênio",
+        "bad_response": "'É rápido e simples' — minimiza o medo real dela, soa raso",
+        "good_response": "Apresentar o protocolo ERAS com dado concreto (alta em menos de 24h) e depoimentos reais de pacientes (ex.: paciente que emagreceu 70kg) mostrando a recuperação de fato",
+        "when_to_use": "Landing page de cirurgia, anúncios de remarketing, e-mails assinados pelo Dr. Sallet"
+      },
+      {
+        "objection": "Essa clínica vai me tratar como só mais um número, ou vai me acompanhar de verdade depois?",
+        "subtext": "Já viveu gordofobia/desdém em atendimentos de saúde anteriores",
+        "bad_response": "'Temos os melhores médicos do Brasil' — fala de autoridade técnica, não do medo emocional de abandono",
+        "good_response": "Explicar a equipe transdisciplinar completa (cirurgião, endócrino, nutri, psicólogo, educador físico) e o funil de acompanhamento pós-cirúrgico — reconhecendo internamente que esse funil precisa de mais automação hoje, mas é onde o diferencial real mora",
+        "when_to_use": "Conteúdo institucional, bio do Instagram, primeira ligação/mensagem"
+      },
+      {
+        "objection": "Meu convênio cobre o tratamento com caneta/balão?",
+        "subtext": "Confunde a cobertura ampla da cirurgia com os tratamentos clínicos, que quase nenhum convênio cobre",
+        "bad_response": "Ignorar a pergunta ou deixar vago 'depende do seu plano' — gera falsa esperança e reclamação depois",
+        "good_response": "Ser direto e transparente: tratamentos clínicos (caneta/balão) são praticamente sempre particulares; já a cirurgia tem ampla cobertura — e é por isso que a comunicação desses produtos não deve mencionar convênio (regra de marca confirmada pelo cliente)",
+        "when_to_use": "Primeiro contato de WhatsApp na landing page de tratamentos clínicos"
+      },
+      {
+        "objection": "Vou engordar tudo de novo depois, como aconteceu com a caneta?",
+        "subtext": "Trauma de recaída — não acredita em solução permanente",
+        "bad_response": "'A cirurgia é definitiva, ponto' — soa como promessa vazia sem explicar o porquê",
+        "good_response": "Explicar que a diferença é o acompanhamento transdisciplinar de longo prazo, não só o procedimento — e que o funil pós-cirúrgico existe justamente para evitar reganho, reconhecendo que a operação está reforçando esse braço agora",
+        "when_to_use": "Remarketing e conteúdo educativo sobre a diferença entre cirurgia e GLP-1"
+      },
+      {
+        "objection": "Moro longe, dá pra fazer tudo por telemedicina?",
+        "subtext": "Quer viabilidade sem entender que parte do processo exige presença física",
+        "bad_response": "'Sim, atendemos o Brasil todo' — gera expectativa que vira frustração depois (o próprio Instituto já reconhece esse tipo de lead como de baixa conversão)",
+        "good_response": "Ser transparente: a pré-consulta pode ser por telemedicina, mas cirurgia e acompanhamento presencial exigem deslocamento até SP/Campinas — por isso o foco de mídia paga é justamente Grande SP/Campinas/Baixada Santista",
+        "when_to_use": "Qualificação inicial no WhatsApp, antes de agendar qualquer consulta"
+      }
+    ]
+  },
+
+  "key_message": {
+    "chosen_message": "Bariátrica com alta em 24h e acompanhamento completo — sem ficar sozinha depois.",
+    "approach": "functional",
+    "usage_context": "Anúncios de topo/meio de funil (Meta e Google), headline da landing page de cirurgia, bio institucional do Instagram",
+    "alternatives": [
+      {
+        "message": "Bariátrica com alta em 24h e acompanhamento completo — sem ficar sozinha depois.",
+        "approach": "functional",
+        "rationale": "GOC já domina autoridade técnica pura e Imec já domina 'simplicidade' (Bariátrica Simplificada) — a funcional do Sallet é a única com prova concreta e exclusiva (protocolo ERAS, 25+ anos) que nenhum concorrente do comparativo expõe com o mesmo nível de detalhe. Escolhida pelo operador."
+      },
+      {
+        "message": "Chega de efeito sanfona. Aqui você não larga a mão de ninguém.",
+        "approach": "emotional",
+        "rationale": "Território já ocupado pela BariMais ('cuidado humanizado, sem burocracia', 4,9★/470 avaliações) — e promete algo que o pós-operatório sem automação ainda não sustenta na prática, com risco de aumentar as reclamações já concentradas no Google Meu Negócio"
+      },
+      {
+        "message": "A decisão que sua família vai reconhecer como certa, não como desistência.",
+        "approach": "social",
+        "rationale": "Território menos disputado pelos concorrentes, mas mais frio como gancho de anúncio — funciona melhor como mensagem de suporte/remarketing do que como mensagem primária de aquisição"
+      }
+    ]
+  },
+
+  "summary_headline": "Patrícia (30-48 anos) platôu na caneta GLP-1 e teme abandono no pós-operatório — dor que nenhum concorrente resolve, mas que o próprio CRM do Instituto ainda não sustenta.",
+
+  "summary_highlights": [
+    {
+      "category": "posicao",
+      "label": "Núcleo do ICP",
+      "value": "30-48 anos, classe C/C+",
+      "subtext": "98% chega via convênio corporativo (Amazon, Coca-Cola, GM)",
+      "tone": "blue"
+    },
+    {
+      "category": "competicao",
+      "label": "Território emocional ocupado",
+      "value": "BariMais 4,9★ (470 av.)",
+      "subtext": "Já domina 'cuidado humanizado, sem burocracia' — a brecha do Sallet",
+      "tone": "red"
+    },
+    {
+      "category": "janela",
+      "label": "Decisão pode levar 15 anos",
+      "value": "3 meses (lead → cirurgia)",
+      "subtext": "Delay real de conversão — não julgar performance de mídia no mês 0",
+      "tone": "yellow"
+    },
+    {
+      "category": "oportunidade",
+      "label": "WTP tratamento clínico",
+      "value": "R$1.200/mês já pago informalmente",
+      "subtext": "Paciente já paga isso em canetas sem acompanhamento médico",
+      "tone": "green"
+    },
+    {
+      "category": "risco",
+      "label": "Maior vazamento real",
+      "value": "Pós-operatório sem automação",
+      "subtext": "3.564 pacientes = maior fonte de indicação, hoje gerando reclamação no GMN",
+      "tone": "red"
+    }
+  ],
+
+  "summary_key_findings": [
+    {
+      "category": "vantagem",
+      "text": "Autoridade de 25+ anos do Dr. Sallet e protocolo ERAS (alta em <24h) são provas concretas que nenhum concorrente do comparativo expõe com o mesmo nível de detalhe."
+    },
+    {
+      "category": "contexto",
+      "text": "98% do volume vem de convênio corporativo — a decisão da persona já chega filtrada pela cobertura do plano da empresa onde trabalha, não por comparação de preço em mercado aberto."
+    },
+    {
+      "category": "ameaca",
+      "text": "BariMais (4,9★, 470 avaliações) já ocupa o território de 'cuidado humanizado, sem burocracia' que seria o diferencial natural do Sallet — e a queixa recorrente no Google Meu Negócio do próprio Instituto é justamente sensação de abandono no pós-operatório."
+    },
+    {
+      "category": "acao",
+      "text": "Antes de reforçar a comunicação emocional de 'acompanhamento completo', corrigir a régua de pós-operatório (campo de data em texto trava a automação) — hoje a promessa e a operação estão desalinhadas."
+    }
+  ],
+
+  "key_insight": {
+    "headline": "Patrícia platôu na caneta e tem medo de virar 'mais um número' — mas é o próprio Sallet quem ainda não resolveu isso no pós-operatório.",
+    "context": "A pesquisa de mercado já identificou que a decisão de operar é lenta (até 15 anos) e que ~80% depende da aprovação da família. O gatilho mais forte hoje não é 'querer emagrecer' — é o platô ou reganho depois de usar canetas GLP-1 sem supervisão. Só que o diferencial que resolveria esse medo (acompanhamento transdisciplinar ponta a ponta) esbarra num CRM quebrado e numa régua pós-cirúrgica sem automação, que já gera reclamação pública no Google Meu Negócio.",
+    "numbered_reasons": [
+      "(1) BariMais já ocupa a mensagem de 'humanização sem burocracia' — copiar esse território é jogo perdido; precisa ser provado com operação, não com adjetivo",
+      "(2) O ativo mais forte do Sallet (Dr. Sallet em vídeo) já converte bem no topo de funil — o gargalo real está depois da cirurgia, não antes",
+      "(3) Corrigir a automação do pós-operatório antes de vender 'acompanhamento completo' na comunicação evita prometer algo que a própria operação ainda não entrega"
+    ],
+    "discussion_anchor": "Decidir com o cliente: a Semana 3 (ee-s3-crm-setup) deve virar prioridade tática antes ou junto da comunicação emocional prometer 'acompanhamento completo' — ou o risco é gerar mais reclamação no GMN, não menos."
+  },
+
+  "honesty_alert": "A promessa de 'acompanhamento completo' que mais diferencia o Instituto Sallet hoje é também seu ponto mais frágil operacionalmente: o funil pós-cirúrgico (~3.564 contatos) não tem automação funcional (bug de campo de data em texto trava a régua), e isso já gera reclamações concentradas no Google Meu Negócio. Por isso a mensagem-chave escolhida (funcional, ancorada em ERAS e autoridade) evita essa promessa até o CRM ser corrigido — mas o operador deve alinhar com o cliente se ee-s3-crm-setup precisa ser priorizado antes de qualquer comunicação emocional sobre acompanhamento."
+}

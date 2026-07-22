@@ -1,0 +1,448 @@
+{
+  "meta": {
+    "name": "Chopp Colina Orlandia",
+    "slug": "chopp-colina-orlandia",
+    "razao_social": "Cláudio K. (distribuidor Orlândia — CNPJ a confirmar)",
+    "workspace_id": null,
+    "created_at": "2026-05-17",
+    "modulo_vendas": true,
+    "nota": "DPMV 5 semanas. Foco principal: expansão para Franca (380k hab). Operação atual: choperia + distribuição em Orlândia. Produto: Chopp Colina Pilsen (fábrica INBEB — Industrial Norte Paranaense de Bebidas, Londrina). Contrato: R$1.200 em 12x no cartão."
+  },
+  "briefing": {
+    "empresa": "Chopp Colina Orlandia",
+    "segmento": "Distribuição de chope + bar/choperia — B2C delivery, choperia própria, pontos de revenda, eventos",
+    "instagram": "https://www.instagram.com/colinachopp_orl/ — Ativo. Impulsionamento ~R$50/semana. Conteúdo produzido por designer freelancer local (artes visuais, sem estratégia). Identidade visual: preto e amarelo + logo Colina.",
+    "whatsapp": "Canal principal de vendas e atendimento. Sem automação, sem abordagem ativa.",
+    "localizacao": {
+      "sede": "Orlândia, SP (cidade ~45-50 min de Ribeirão Preto)",
+      "expansao": "Franca, SP (~50-100 km de Orlândia, ~380 mil hab) — operação a ser iniciada"
+    },
+    "tempo_mercado_anos": "~2,5 anos de choperia + distribuição (antes: distribuição pura)",
+    "stakeholders": [
+      {
+        "nome": "Cláudio K.",
+        "cargo": "Proprietário e distribuidor",
+        "email": "claudiojkj@gmail.com",
+        "perfil": "Decisor final. Opera distribuição + choperia em Orlândia. Quer expandir para Franca. Já tem experiência no setor, atua de forma proativa (busca eventos na prefeitura, investe em equipamentos). Preocupação: concorrência desproporcional da Ambev em pontos de venda fixos.",
+        "decisor": true
+      },
+      {
+        "nome": "Gustavo Argenta de Oliveira Argenta",
+        "cargo": "Supervisor SP — INBEB (representa a fábrica Colina)",
+        "perfil": "Referência técnica e comercial da fábrica. Supervisiona estado de SP + expansão RJ. Parceiro estratégico no projeto."
+      },
+      {
+        "nome": "Renato Ramos Modesto",
+        "cargo": "Gerente Comercial Shop — INBEB (representa a fábrica Colina)",
+        "perfil": "14 anos na Ambev, 26 anos no setor. Idealizador da profissionalização da rede de distribuidores Colina. Defensor de estratégia assertiva para Franca (evitar 'montar loja por montar'). Visão estratégica forte — referência em operações de 50-60k litros/mês."
+      }
+    ],
+    "equipe_v4_scn": {
+      "lucas_calefi": "Coordenador de operações SCN&Co — responsável pela condução do DPMV",
+      "luiz_ricardo_freitas": "V4 Company — suporte no projeto"
+    },
+    "produtos": {
+      "principal": "Chopp Colina Pilsen — produto principal, maior volume",
+      "outros": [
+        "Serra Gerais (linha premium)",
+        "Outros estilos (IPA, especiais — demanda por nicho)"
+      ],
+      "producao": "Fábrica INBEB (Industrial Norte Paranaense de Bebidas LTDA) em Londrina — https://www.inbeb.com.br/. Portfólio INBEB: Colina, Serra Gerais, Spoller, Maceió, OVNI Bier. Parceria com Brooklyn e Menex confirmada.",
+      "diferenciais_produto": [
+        "Temperatura do chope (feedback positivo dos clientes — 'sem dor de cabeça no dia seguinte')",
+        "Atendimento personalizado e suporte pós-venda completo",
+        "Revisão, asseio e manutenção dos equipamentos inclusos",
+        "Chope pronto para consumo imediato na entrega",
+        "Consignação de 1 barril de 30L para eventos — alta conversão de vendas"
+      ],
+      "ponto_de_diferenciacao": "Serviço e suporte técnico superior à concorrência — enquanto concorrentes entregam equipamento sujo ou com refrigeração ruim, Cláudio garante que o produto chegue perfeito."
+    },
+    "matematica_negocio": {
+      "preco_litro": 11.0,
+      "custo_litro": "R$5-6",
+      "margem_bruta_estimada": "~45-55% por litro",
+      "barril_30l_preco": 330,
+      "barril_50l_preco": 550,
+      "chopeira_locacao_avulsa": 150,
+      "trave_congelada_locacao": 500,
+      "trave_congelada_gratuita_a_partir_de_litros": 300,
+      "volume_mensal_atual_litros": 7750,
+      "volume_choperia_propria_litros": 3275,
+      "volume_distribuicao_externa_litros": 4475,
+      "vendas_semana_orlândia": "~10 vendas de chopeiras/semana",
+      "capacidade_maquinas": 30,
+      "aluguel_franca": 4500,
+      "nota": "Volume de abril 2026: 7.750L total. Quase metade vai para a choperia própria (3.275L). Ticket médio delivery: R$330 (30L) a R$550 (50L). Competindo com Antarctica a R$9,90/L em vendas ilegais (revenda sem nota)."
+    },
+    "operacoes": {
+      "orlandia": {
+        "tipo": "Distribuição + Choperia/Bar",
+        "logistica": "Fiorino. Entregador período tarde (clientes em casa após 17h).",
+        "choperia": "Ponto de referência da marca na cidade. Bar de calçada. Shows ao vivo quintas e sextas. Desafio: público jovem de baixo consumo ocupa mesas, afasta perfil familiar.",
+        "distribuicao": "Delivery de chopeiras (mínimo 30L). Consignação de barril para eventos. Trave congelada (R$30k investimento) para grandes eventos."
+      },
+      "franca": {
+        "tipo": "Distribuição (fase inicial) — sem bar",
+        "status": "Em planejamento — ponto comercial em negociação (2 meses de carência no aluguel)",
+        "estrategia": "Tripla: delivery B2C + pontos fixos de revenda + participação em eventos",
+        "inicio_com_maquinas": "10-15 chopeiras",
+        "diferencial_entrada": "Fachada visível + carro de entrega zero + profissionalização da comunicação",
+        "nota": "Começa do zero em Franca — sem público, sem network local. Necessário construir marca do início."
+      }
+    },
+    "assets": {
+      "instagram_orlandia": "https://www.instagram.com/colinachopp_orl/",
+      "site_cerveja_colina": "https://www.cervejacolina.com.br/",
+      "pagina_distribuidores_colina": "https://www.cervejacolina.com.br/distribuidores/",
+      "site_serra_gerais": "https://cervejaserrasgerais.com.br/",
+      "site_inbeb": "https://www.inbeb.com.br/"
+    },
+    "canais_digitais": {
+      "instagram": "https://www.instagram.com/colinachopp_orl/ — Ativo. Foco em comunicação visual. Impulsionamento irregular (R$50/semana). Sem estratégia de funil.",
+      "whatsapp": "Canal principal de vendas. Sem automação. Maioria de mensagens são curiosos que não convertem.",
+      "trafego_pago": "Apenas impulsionamento básico — sem Google Ads, sem Meta Ads estruturado.",
+      "crm": "Inexistente — base de clientes não mapeada. Meta: implementar CRM (ferramenta a definir).",
+      "identidade_visual": "Padrão: preto e amarelo + logo Colina. Aviso legal de proibição de venda para menores obrigatório. Sem restrições criativas severas da fábrica."
+    },
+    "concorrentes": {
+      "franca": [
+        {
+          "nome": "Rizat",
+          "tipo": "Grande revendedor Ambev",
+          "ameaca": "alta",
+          "nota": "Vende diretamente ao consumidor final via app Biz a preço acessível. Principal ameaça em Franca."
+        },
+        {
+          "nome": "Heineken",
+          "tipo": "Marca premium multinacional",
+          "ameaca": "alta",
+          "nota": "Praticando preços agressivos em Franca."
+        },
+        {
+          "nome": "Ecober",
+          "tipo": "Distribuidor local",
+          "ameaca": "média"
+        },
+        {
+          "nome": "Palazo",
+          "tipo": "Distribuidor local",
+          "ameaca": "média"
+        },
+        {
+          "nome": "Boreal",
+          "tipo": "Distribuidor local",
+          "ameaca": "média"
+        }
+      ],
+      "orlandia": [
+        {
+          "nome": "Ambev / Antarctica",
+          "tipo": "Marca dominante",
+          "ameaca": "alta",
+          "nota": "Domina bares com comodato (fachada, mesas, cervejeiras). Percepção de status da marca dificulta entrada do Colina. Preço de atacado igual ao de app — impossível competir em preço puro."
+        },
+        {
+          "nome": "Revenda informal de Antarctica",
+          "tipo": "Concorrência ilegal",
+          "ameaca": "alta",
+          "nota": "Terceiros compram Antarctica no app Ambev (custo) e revendem a R$9,90/L sem nota — concorrência desleal direta."
+        }
+      ]
+    },
+    "desafios_criticos": [
+      "Base de clientes 100% não mapeada — sem CRM, sem dados de fidelidade",
+      "Concorrência desleal de revenda informal de Antarctica a R$9,90/L",
+      "Atendimento via WhatsApp gera maioria de curiosos sem conversão",
+      "Choperia com problema de público jovem de baixo consumo (afasta perfil familiar)",
+      "Expansão para Franca sem network local e aluguel alto (R$4.500/mês)",
+      "Sazonalidade crescente — pico cada vez mais concentrado em dezembro",
+      "Ambev impossibilita entrada em pontos de venda fixos via comodato agressivo"
+    ],
+    "oportunidades_identificadas": [
+      "Franca: concorrentes ficaram sem chopeiras elétricas 10 dias antes da Páscoa — mercado mal abastecido",
+      "Colina é referência de qualidade na região — 'sem dor de cabeça no dia seguinte'",
+      "Consignação de barril tem altíssima taxa de conversão (produto no local = venda garantida)",
+      "Trave congelada é diferencial de equipamento para grandes eventos — concorrentes não têm",
+      "Operações de alta performance no Brasil chegam a 50-60k litros/mês — escala possível",
+      "Digitalização: 90% dos distribuidores não têm base de clientes mapeada — vantagem ao implementar CRM",
+      "Franca é cidade maior que Orlândia — potencial de volume significativamente superior"
+    ],
+    "icp_inicial": {
+      "primario": "Pessoa física adulta que faz eventos (churrascos, aniversários, confraternizações) em Orlândia e Franca — pede barril de 30L em delivery",
+      "secundario": "Proprietário de pequeno estabelecimento (pizzaria, espetinho, lanchonete) que aceita pontos de revenda",
+      "terciario": "Organizador de eventos corporativos ou festas maiores — usa trave congelada",
+      "perfil_etario": "Diversificado — jovens a idosos em Orlândia. Franca: a mapear.",
+      "nota": "Público sem recorte rígido. Entrega exige documento de identidade para evitar venda a menores."
+    },
+    "contrato_v4": {
+      "tipo": "DPMV — Diagnóstico e Planejamento de Marketing e Vendas",
+      "duracao_semanas": 5,
+      "valor": "R$1.200 em 12x no cartão",
+      "valor_original_listado": "R$70.250 (pacote completo separado)",
+      "garantia": "Satisfação total — reembolso integral em até 24h após entrega final se não satisfeito",
+      "kickoff": "2026-05-13",
+      "proxima_reuniao": "2026-05-20T09:00:00-03:00",
+      "formato_reunioes": "Online, 2h/semana com Cláudio",
+      "pos_dpmv_opcoes": [
+        "Execução própria (plano entregue)",
+        "Contratação de execução pela V4 (R$2.800-4.500/mês)",
+        "Contratação de terceiros",
+        "Reembolso (se não satisfeito)"
+      ]
+    }
+  },
+  "research": {
+    "questoes_claudio_audios_2026-05-14": {
+      "fonte": "Áudios enviados por Cláudio K. no WhatsApp em 14/05/2026",
+      "perguntas": [
+        "Concorrentes em Franca fazem entrega aos domingos? Até que horário?",
+        "Existe plantão / atendimento fora de horário em Franca? Como funciona?",
+        "Em Orlândia: Cláudio atende até 13h no domingo, depois atende sob demanda na loja. Como o mercado de Franca se compara?",
+        "Nota: um concorrente de Cláudio em Orlândia não faz entrega domingo — cliente que precisa tem que pedir sábado ou fica sem. Isso pode ser diferencial em Franca também."
+      ]
+    }
+  },
+  "connectors": {
+    "fetched_at": null,
+    "workspace_id": null,
+    "integrations": {}
+  },
+  "progress": {
+    "current_week": 3,
+    "proxima_reuniao": "2026-05-20T09:00:00-03:00",
+    "proxima_reuniao_pauta": "Pesquisa de mercado de Franca — concorrentes, estabelecimentos noturnos (bares, lanchonetes, pizzarias), oportunidades locais.",
+    "cronograma_dpmv": {
+      "semana_1": "Kickoff + briefing (concluída em 13/05)",
+      "semana_2": "Pesquisa de mercado (Franca) + Diagnóstico de ativos de marketing",
+      "semana_3": "Planos de ação (marketing + distribuição)",
+      "semana_4": "Análise de vendas e distribuição",
+      "semana_5": "Entrega do planejamento final"
+    },
+    "skills": {
+      "ee-s1-diagnostico-maturidade": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null,
+        "nota": "Sem workspace V4MOS ainda. Mídia paga só impulsionamento básico (R$50/semana)."
+      },
+      "ee-s1-swot": {
+        "status": "completed",
+        "version": 1,
+        "started_at": "2026-05-17",
+        "completed_at": "2026-05-17",
+        "nota": "Executada sem ee-s1-diagnostico-maturidade (sem workspace V4MOS ainda)."
+      },
+      "ee-s1-persona-icp": {
+        "status": "completed",
+        "version": 1,
+        "started_at": "2026-05-17",
+        "completed_at": "2026-05-17"
+      },
+      "ee-s1-auditoria-comunicacao": {
+        "status": "completed",
+        "version": 1,
+        "started_at": "2026-05-17",
+        "completed_at": "2026-05-17"
+      },
+      "ee-s2-pesquisa-mercado": {
+        "status": "completed",
+        "version": 1,
+        "started_at": "2026-05-17",
+        "completed_at": "2026-05-17",
+        "nota": "Foco em Franca: mapeamento de concorrentes + estabelecimentos noturnos (bares, pizzarias, lanchonetes). Questão específica de Cláudio: logística de domingo e plantão dos concorrentes."
+      },
+      "ee-s2-posicionamento": {
+        "status": "completed",
+        "version": 1,
+        "started_at": "2026-05-17",
+        "completed_at": "2026-05-17"
+      },
+      "ee-s2-diagnostico-midia": {
+        "status": "completed",
+        "version": 1,
+        "started_at": "2026-06-20",
+        "completed_at": "2026-06-20",
+        "nota": "Executado sem V4MOS (sem workspace_id). Baseado em dados de busca apresentados na reunião S3 (11.590 buscas/mes Franca) e estrutura de 3 grupos de campanha ja definida pela equipe."
+      },
+      "ee-s2-diagnostico-criativos": {
+        "status": "completed",
+        "version": 1,
+        "started_at": "2026-05-29",
+        "completed_at": "2026-05-29"
+      },
+      "ee-s2-diagnostico-cro": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-identidade-visual": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null,
+        "nota": "Identidade existente: preto e amarelo + logo Colina. Padronizar comunicação — manual de identidade visual a criar."
+      },
+      "ee-s3-brandbook": {
+        "status": "completed",
+        "version": 2,
+        "started_at": "2026-06-20",
+        "completed_at": "2026-06-20",
+        "nota": "Manual de tom de voz baseado em dados reais do cliente oculto e entrevista comercial — não inventado. Arquétipo: Prestativo/Herói prático. 5 pilares de tom de voz documentados com evidência real. CORREÇÃO: diagnóstico de criativos (S2) recomendou mudar para azul, mas reunião S3 confirmou manter preto e amarelo — brandbook usa a decisão real. V2 adicionada em 20/06: versão expandida no formato completo de manual de copywriting (header, fatos/beneficios, PUV, publico-alvo, JTBD, processos de decisao, niveis de consciencia, ICP detalhado, arquetipo, narrativas, ferramentas retoricas, palavras, canais). V1 mantida intacta em ee-s3-brandbook.md/json — nao foi sobrescrita."
+      },
+      "ee-s3-landing-page": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null,
+        "nota": "LP de delivery (Orlândia e Franca) — principal canal de conversão a criar."
+      },
+      "ee-s3-copy-anuncios": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-criativos-anuncios": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-crm-setup": {
+        "status": "completed",
+        "version": 1,
+        "started_at": "2026-06-21",
+        "completed_at": "2026-06-21",
+        "nota": "Plataforma recomendada: Kommo. 2 pipelines (Delivery B2C / Eventos+Revenda B2B). 6 motivos de perda padronizados. 5 reguas de automacao por ICP. Mensagens rapidas formalizadas a partir do que o Claudio ja usa. Playbook comercial minimo. Alerta: CRM nao pode engessar o tom de atendimento que ja e validado como o melhor da praca."
+      },
+      "ee-s3-forecast-midia": {
+        "status": "completed",
+        "version": 1,
+        "started_at": "2026-06-20",
+        "completed_at": "2026-06-20",
+        "nota": "Forecast 3 meses sem GOG CLI disponivel (planilha nao gerada, entregue como tabelas em .md/.json). Cenario base: 73 vendas / R$28.908 receita / ROI 7,2x no trimestre, investimento total R$4.000. Pre-requisito critico: LP + pixel antes de escalar."
+      },
+      "ee-s3-gmb-otimizacao": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null,
+        "nota": "Google Meu Negócio para Orlândia e futuramente Franca."
+      },
+      "ee-s4-diagnostico-comercial": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null,
+        "nota": "Semana 4 do DPMV. Análise do funil, perfil de clientes, estratégia de distribuição para Franca."
+      },
+      "ee-s4-cliente-oculto": {
+        "status": "in_progress",
+        "version": 1,
+        "started_at": "2026-05-17",
+        "completed_at": null,
+        "nota": "Roteiro estruturado em outputs/ee-s4-cliente-oculto-roteiro.md. 7 concorrentes mapeados. Persona definida. Cronograma: iniciar ter 19/05, teste de domingo 24/05, fechar seg 25/05. Dado mais urgente: testar quem atende domingo — mandar mensagem no dom 18/05 às 10h para Boreal, Ecobier e Praemi."
+      }
+    }
+  },
+  "history": [
+    {
+      "ts": "2026-05-04T00:00:00-03:00",
+      "skill": "ee-novo-cliente",
+      "checkpoint": 1,
+      "decision": "[Reunião Comercial V4] Matheus Nunes + Cláudio K. Contexto: distribuidora + choperia em Orlândia. Quer expandir para Franca. Produto Colina Pilsen (fábrica Londrina). Volume abril: 7.750L (3.275L para choperia própria). Desafios: base de clientes não mapeada, concorrência desleal Ambev, atendimento só WhatsApp, público jovem de baixo consumo na choperia, aluguel alto em Franca (R$4.500). Oportunidades: Franca sem chopeiras na Páscoa, qualidade reconhecida do produto, consignação funciona bem. V4 propôs DPMV 5 semanas R$1.200/12x. Garantia total de satisfação. Kickoff agendado para 13/05."
+    },
+    {
+      "ts": "2026-05-13T11:00:00-03:00",
+      "skill": "ee-novo-cliente",
+      "checkpoint": 2,
+      "decision": "[S1 Kickoff] Reunião com Cláudio K., Gustavo Argenta e Renato Ramos Modesto (fábrica INBEB). Estrutura confirmada: distribuição + choperia em Orlândia + expansão para Franca (380k hab, ~50-100km). Proposta de valor: qualidade + suporte técnico superior (equipamentos limpos, refrigeração correta, chope pronto na entrega). Concorrentes Franca: Rizatti (Ambev, app Biz), Heineken, Boreal, Formula Chopp, Rota do Chopp. Estratégia Franca: tripla — delivery + pontos fixos + eventos. Início com 10-15 chopeiras. Diferencial de equipamento: trave congelada (R$30k investimento — cedida grátis a partir de 300L). Volume benchmark: operações de 50-60k litros/mês são possíveis no setor. Próximos passos: Lucas envia lista de acessos, Cláudio preenche formulário complementar. Próxima reunião: 20/05 às 09h para pesquisa de mercado."
+    },
+    {
+      "ts": "2026-05-17T00:00:00-03:00",
+      "skill": "ee-s2-pesquisa-mercado",
+      "checkpoint": 1,
+      "decision": "[Pesquisa de Mercado] Franca: 365k hab, PIB per capita R$40.778, salário médio 2.2 min, setor calçadista em queda (-11,1% jan-fev/2026). Colina NÃO tem distribuidor em Franca — território aberto. Rizatti (Ambev): dominante, 5k pontos de venda em 27 cidades, app Biz para B2C — principal ameaça nos bares. Formula Chopp (2022): foco em eventos com Chopp Truck — concorrente em eventos, não delivery puro. Boreal Franca: distribuidor oficial (16) 3432-9666. Rota do Chopp: delivery desde 2016. Diferencial domingo: Ecobier faz até 13h, maioria não atende — ser o distribuidor que atende domingo é diferencial imediato. Empório A Venda: 13 torneiras de chopp artesanal — alvo B2B prioritário. Recomendação: formalizar exclusividade com INBEB, definir horário de domingo desde o lançamento, iniciar network local."
+    },
+    {
+      "ts": "2026-05-17T00:00:00-03:00",
+      "skill": "ee-s4-cliente-oculto",
+      "checkpoint": 1,
+      "decision": "[Cliente Oculto — Roteiro] 7 concorrentes priorizados: Rizatti/Biz (🔴), Boreal Franca (🔴), Ecobier (🟡), Palazzo (🟡), Praemi Chopp (🟡), Formula Chopp (🟢), Rota do Chopp (🟢). Persona definida: 'João', churrasco 30 pessoas no domingo. Cenário A (delivery simples) para 6 concorrentes. Cenário B (evento) para Formula Chopp. Foco: preços barril 30L/50L, horário de domingo, processo de entrega, follow-up. Cronograma: iniciar 19/05, reunião 20/05, teste domingo 24/05, fechar 25/05. Ação mais urgente: mandar mensagem no domingo 18/05 às 10h para Boreal, Ecobier e Praemi — registrar quem responde."
+    },
+    {
+      "ts": "2026-05-17T00:00:00-03:00",
+      "skill": "ee-s1-persona-icp",
+      "checkpoint": 1,
+      "decision": "[Posicionamento] PUV curta: 'O chopp que não te deixa na mão — nem no domingo.' 4 pilares: (1) Pronto para servir — instalação e asseio inclusos; (2) Atende no domingo — único distribuidor de barril confirmado em Franca; (3) Experimenta sem risco — consignação como argumento de entrada; (4) Qualidade percebida — 'sem dor de cabeça no dia seguinte'. Todos os 4 pilares existem na operação mas nenhum está comunicado hoje. Alerta: pilar 'domingo' precisa ser resolvido operacionalmente (escala do funcionário) antes de ser comunicado. Território: próximo, prestativo, competente — fala como fornecedor de confiança, não grande marca. Diferencial estratégico vs Rizatti: serviço que ela nunca vai oferecer (instalação, suporte, domingo, consignação)."
+    },
+    {
+      "ts": "2026-05-17T00:00:00-03:00",
+      "skill": "ee-s1-auditoria-comunicacao",
+      "checkpoint": 1,
+      "decision": "[Auditoria de Comunicação] @colinachopp_orl ativo mas 100% focado em choperia (bar/shows/happy hour) — zero conteúdo de delivery. Engajamento crítico: 3 likes em post recente, sem hashtags. WhatsApp sem processo ou boas-vindas. GMB Franca: inexistente (crítico criar antes do lançamento). LP: inexistente (sem destino para anúncios). Google Ads: inexistente. Meta Ads: boosting básico R$50/sem sem pixel. CRM: inexistente. Facebook: 1.024 curtidas, espelho do Instagram. Untappd listado passivamente. Problema central: dois negócios (choperia + delivery) com uma única voz — e a voz errada para Franca. Sequência de ativação: GMB Franca → WhatsApp Business → Highlight Delivery → mix 60/40 → LP → pixel → Google Ads."
+    },
+    {
+      "ts": "2026-05-17T00:00:00-03:00",
+      "skill": "ee-s1-persona-icp",
+      "checkpoint": 1,
+      "decision": "[ICP & Personas] 3 ICPs definidos: (1) Anfitrião — Rodrigo, 38, delivery 30L, principal para Franca, canal Instagram→WhatsApp, gatilho: churrasco/feriado, objeção: '30L é muito' + 'prefiro Antarctica'; (2) Organizador de evento — Patrícia, 42, 50-150 pessoas, trave congelada, argumento de fechamento: consignação; (3) Ponto de revenda B2B — Seu Antônio, 52, espetinho/pizzaria sem comodato Ambev, abordagem: visita + degustação + primeiro barril consignado. Objeção universal: marca desconhecida em Franca — resposta é degustação + prova social ('chopp sem dor de cabeça'). Insight de aquisição: consignação proativa para os primeiros 30 clientes em Franca elimina risco percebido de marca nova."
+    },
+    {
+      "ts": "2026-05-17T00:00:00-03:00",
+      "skill": "ee-s1-swot",
+      "checkpoint": 1,
+      "decision": "[SWOT] Forças críticas: qualidade percebida (chopp sem dor de cabeça), serviço superior (instalação+asseio), trave congelada, consignação, atendimento domingo. Fraquezas críticas: base de clientes não mapeada, sem processo comercial ativo, marca desconhecida em Franca, aluguel R$4.500/mês com renda zero. Oportunidade prioritária: território Colina aberto em Franca — ser o primeiro define posicionamento da marca. Ameaça crítica: Rizatti consolida bares com comodato enquanto Cláudio monta a operação. Alavanca: três antídotos simultâneos nos primeiros 30 dias em Franca — consignação (derruba objeção de marca), serviço (derruba objeção de equipamento), domingo (derruba objeção de disponibilidade). Meta: 10 consignações → 8 fechamentos → 4 recorrentes = R$1.320/mês cada."
+    },
+    {
+      "ts": "2026-05-29T00:00:00Z",
+      "skill": "ee-s2-diagnostico-criativos",
+      "checkpoint": 1,
+      "decision": "Diagnóstico completo. Grade geral D-. 0% alinhamento com 4 pilares do posicionamento. Zero Reels. Benchmark @choppcolinabauru (7.571 seg) vs @colinachopp_orl (zero delivery). 9 criativos mapeados: C1 hero shot, C2 highlight delivery, C3 carrossel pilares, C4-C9 Reels e templates. Alavanca: Highlight delivery custo zero imediato."
+    },
+    {
+      "ts": "2026-06-20T00:00:00Z",
+      "skill": "ee-s3-brandbook",
+      "checkpoint": 1,
+      "decision": "Brandbook gerado a partir de evidência real (cliente oculto S4, entrevista comercial 05/06, reunião S3 29/05). Arquétipo Prestativo/Herói prático confirmado pelo melhor resultado entre concorrentes no cliente oculto. 5 pilares: consultivo, direto, disponível, remove risco do outro lado, adapta tom sem perder essência. Identificada e corrigida contradição: diagnóstico de criativos recomendou azul, mas decisão real da equipe (S3) foi manter preto/amarelo — brandbook segue a decisão real."
+    },
+    {
+      "ts": "2026-06-20T00:00:00Z",
+      "skill": "ee-s2-diagnostico-midia",
+      "checkpoint": 1,
+      "decision": "Diagnostico sem dados V4MOS. Meta Ads atual: R$50/semana sem pixel, objetivo errado (engajamento). Google Ads inexistente apesar de 11.590 buscas/mes em Franca. Recomendado: R$1.100/mes no lancamento (R$500 Google + R$600 Meta), 3 grupos de campanha (aniversariantes, churrasco/chopp, casamentos). Bloqueador: LP + pixel antes de escalar."
+    },
+    {
+      "ts": "2026-06-20T00:00:00Z",
+      "skill": "ee-s3-forecast-midia",
+      "checkpoint": 1,
+      "decision": "Forecast de midia paga 3 meses gerado com premissas de mercado (sem V4MOS). Cenarios conservador/base/otimista construidos. ROI base 7,2x no trimestre. Alerta: capacidade de apenas 10-15 chopeiras em Franca pode virar gargalo operacional se demanda de midia superar oferta."
+    },
+    {
+      "ts": "2026-06-20T00:00:01Z",
+      "skill": "ee-s3-brandbook",
+      "checkpoint": 2,
+      "decision": "Gerada v2 do brandbook seguindo template de manual de copywriting completo (formato de referencia fornecido pelo operador). Conteudo 100% baseado em dados reais ja levantados (persona/ICP, SWOT, posicionamento, cliente oculto, entrevista comercial, reuniao S3) — nenhum dado novo inventado. V1 (tom de voz + exemplos antes/depois) preservada sem alteracoes. Arquivos: ee-s3-brandbook-v2.md + ee-s3-brandbook-v2.json."
+    },
+    {
+      "ts": "2026-06-21T00:00:00Z",
+      "skill": "plano-final-consolidado",
+      "checkpoint": 1,
+      "decision": "Nao existe skill ee-s5-planejamento-final no catalogo. Consolidado manualmente plano de acao final cruzando todos os outputs S1-S4 + analise de GTM/canais (Bullseye Traction) feita em sessao. Modelo de GTM definido: Founder-Led como motor principal (comprovado em cliente oculto), Channel-Led+Partner-Led como motores de expansao, Marketing-Led como camada de suporte (forecast corrigido mostra midia paga isolada com contribuicao liquida modesta). Documento salvo em outputs/plano-final-consolidado.md."
+    },
+    {
+      "ts": "2026-06-21T00:00:01Z",
+      "skill": "ee-s3-crm-setup",
+      "checkpoint": 1,
+      "decision": "CRM estruturado em Kommo com 2 pipelines (ciclos diferentes: B2C mesmo dia vs B2B/eventos 7-60 dias). Motivos de perda padronizados direto do diagnostico comercial S4. Reguas de reativacao por ICP alinhadas a estimativa de recompra (Anfitriao 30-45 dias, Organizador por data anual, Ponto de Revenda semanal). Mensagens rapidas formalizam o que o Claudio ja faz manualmente no WhatsApp. Plano de implementacao em 5 sprints, terminando em validacao real do CAC e taxa de recompra estimados no forecast."
+    },
+    {
+      "ts": "2026-06-21T00:00:02Z",
+      "skill": "plano-acao-5w1h",
+      "checkpoint": 1,
+      "decision": "Lidas as 6 transcricoes de reuniao (Reuniao Comercial 04/05, S1 13/05, S2 21/05, S3 29/05, Entrevista Comercial 05/06, S4 12/06) e extraidas todas as acoes/compromissos mencionados, organizados em plano de acao 5W1H metodologia Falconi. 29 acoes mapeadas em 7 blocos tematicos. 5 concluidas, 24 sem data definida (marcadas Pendente de definicao, nao inventadas). 3 bloqueadores criticos: escala de domingo, ponto comercial Franca, landing page. Identificado que reuniao final estava agendada para 19/06 (ja passou em relacao a hoje 21/06) sem transcricao registrada na base - sinalizado para o operador confirmar. Salvo em outputs/plano-acao-5w1h.md + .json."
+    }
+  ]
+}

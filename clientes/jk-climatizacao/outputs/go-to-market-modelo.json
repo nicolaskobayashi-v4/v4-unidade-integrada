@@ -1,0 +1,47 @@
+{
+  "client_name": "JK Climatização",
+  "titulo": "Modelo de Go-To-Market recomendado",
+  "generated_at": "2026-07-10",
+  "nota": "Deliverable ad-hoc solicitado para compor a apresentação ao cliente. Não é uma das skills do catálogo padrão.",
+  "data_source": "ee-s1-persona-icp + ee-s4-diagnostico-comercial + forecast-midia-paga-12-meses (v1 e v2) + planilha de keywords (v1 09/07 e v2 10/07/2026)",
+
+  "modelo_recomendado": "Sales-Led Growth",
+  "summary_headline": "O universo de contas-alvo da JK é finito e identificável (10+ aparelhos, raio 150-300km) — isso pede venda ativa relacional, não um motor de marketing de massa. A pesquisa de keywords (v1 e v2) confirma: o volume de busca B2B/PMOC específico é mínimo e não muda com mais dados.",
+
+  "justificativa": [
+    { "razao": "Universo de contas finito e mapeável", "detalhe": "ICP principal é 'empresa com 10+ aparelhos, raio 150-300km de Pomerode' — uma lista de contas específicas, não um público de massa. Condição clássica para abordagem direta de vendas." },
+    { "razao": "Volume de busca B2B/PMOC é estruturalmente baixo", "detalhe": "Confirmado DUAS VEZES: v1 (09/07) mostrou ~62 buscas/mês para termos B2B/industriais (dedup); v2 (10/07, 3x mais dados) mostrou ~68/mês — praticamente inalterado. Mais pesquisa de keyword não vai destravar esse volume; ele é estruturalmente pequeno." },
+    { "razao": "Ciclo de venda é consultivo e multi-etapas", "detalhe": "Comprador (gatekeeper) inicia, gerente técnico valida, André fecha. Resolve-se com relacionamento e autoridade técnica (ART, PMOC, 26 anos de mercado), não com conteúdo ou anúncio." },
+    { "razao": "26 anos de prova real", "detalhe": "A JK cresceu 100% de forma orgânica via indicação, sem nunca ter feito marketing estruturado — evidência de que o motor de crescimento real sempre foi vendas/relacionamento. O trabalho é profissionalizar isso (ee-s4-diagnostico-comercial, ee-s5-scripts-sdr), não substituí-lo." },
+    { "razao": "Economia da conta favorece esforço alto por lead", "detalhe": "Ticket B2B de R$2.700-15.000/mês com LTV de até 36 meses justifica CAC alto por conta trabalhada individualmente — o oposto da lógica de marketing de baixo CAC/alto volume." }
+  ],
+
+  "o_que_significa_na_pratica": "Pedro vira Inside Sales de verdade (autonomia, script de objeção, scoring 1-5⭐ de ee-s4-diagnostico-comercial), Marlon expande a prospecção ativa (já faz 3x/semana) para um modelo de contas-alvo mapeadas, e a mídia paga (Google Ads) vira alimentadora de leads pro time de vendas trabalhar — não a estratégia em si.",
+
+  "atualizacao_10_07_2026": "A nova planilha de keywords (1.517 linhas vs 535) NÃO muda a recomendação — pelo contrário, reforça: o volume B2B/PMOC específico ficou praticamente igual (62→68/mês) mesmo com 3x mais dados de pesquisa. A mudança real foi no volume geral (triplicou, puxado por 'instalação de ar condicionado', ~2.750/mês) — isso fortalece o papel do Media-Led Growth como complementar (ver abaixo), mas não desloca o Sales-Led do centro da estratégia pro segmento B2B, que é o foco estratégico do cliente.",
+
+  "modelos_complementares": [
+    {
+      "modelo": "Partner-Led Growth",
+      "papel": "Complementar mais forte",
+      "justificativa": "Já existe embrionário — arquitetos indicando pra obras de alto padrão (persona Beatriz Silveira, ee-s1-persona-icp). Formalizar: programa de indicação com construtoras, escritórios de engenharia, distribuidores de equipamento HVAC, síndicos/administradoras prediais, associações comerciais. Estende alcance sem custo de mídia."
+    },
+    {
+      "modelo": "Marketing-Led Growth",
+      "papel": "Complementar de suporte",
+      "justificativa": "Não como gerador de volume (baixo demais no segmento B2B), mas como munição de credibilidade pro time de vendas: conteúdo técnico sobre PMOC/compliance, LinkedIn (André como voz técnica), site sem a 'linha branca' confundindo posicionamento. Sustenta o ciclo consultivo longo."
+    },
+    {
+      "modelo": "Media-Led Growth",
+      "papel": "Tático, com peso maior que o inicialmente estimado",
+      "justificativa": "O Google Ads modelado no forecast gera o lead que o time de vendas trabalha. ATUALIZAÇÃO 10/07: a planilha de keywords nova revelou 'instalação de ar condicionado' como maior cluster de demanda real (~2.750/mês, dedup) — oportunidade legítima de usar como wedge de entrada pro B2B (empresa que instala pode virar contrato de manutenção depois), desde que segmentado por geografia/perfil de imóvel, não tratado como tráfego genérico de baixo valor."
+    },
+    {
+      "modelo": "Community-Led Growth",
+      "papel": "Não recomendado agora",
+      "justificativa": "Não há hoje uma comunidade de prática natural pra JK 'dona' (diferente de SaaS ou marca de consumo). Forçar isso agora dilui recurso escasso do time reduzido. Pode virar ideia de médio prazo (ex: grupo de gestores de facilities sobre compliance PMOC)."
+    }
+  ],
+
+  "alimenta_skills": ["ee-s2-posicionamento"]
+}

@@ -1,0 +1,335 @@
+{
+  "client_name": "Mina Pizza",
+  "scope": "established",
+  "summary": "Manual de Marca da Mina Pizza: formaliza a identidade visual já existente (script vermelho 'Mina' + bloco 'PIZZA') em vez de recriar do zero, aplicando o território 'Resistência + Bairro + Redescoberta' definido no posicionamento (S2). Arquétipo Cara Comum + Cuidador, tipografia Oswald + Nunito Sans, e Bloco 4 mantido pragmaticamente digital-first (sem fachada/uniforme/embalagem, dado o formato de PDV dentro de praça de alimentação do Carrefour).",
+  "summary_headline": "Manual de marca formaliza o logo e o tom que a Mina Pizza já tem — arquétipo Cara Comum + Cuidador, tipografia Oswald + Nunito Sans, aplicações focadas em digital.",
+  "summary_highlights": [
+    {"category": "posicao", "label": "Arquétipo definido", "value": "Cara Comum + Cuidador", "subtext": "Pertencimento e confiança, não status", "tone": "blue"},
+    {"category": "maturidade", "label": "Escopo do manual", "value": "Established (B1-3) + B4 reduzido", "subtext": "Fachada/uniforme fora — PDV dentro de praça de alimentação", "tone": "yellow"},
+    {"category": "oportunidade", "label": "Logo", "value": "Formalizado, não recriado", "subtext": "Script vermelho 'Mina' + bloco 'PIZZA' já em uso", "tone": "green"},
+    {"category": "risco", "label": "Nome inconsistente entre canais", "value": "3 variações hoje", "subtext": "iFood, GMB e Instagram usam nomes diferentes", "tone": "red"},
+    {"category": "janela", "label": "3 direções de logo geradas", "value": "Refinamento · símbolo sutil · selo/carimbo", "subtext": "Aguardando escolha do Roberto pra gerar no Midjourney", "tone": "blue"}
+  ],
+  "summary_key_findings": [
+    {"category": "vantagem", "text": "A marca já tem identidade visual com personalidade real (script vermelho manuscrito) — não é preciso começar do zero, só formalizar e aplicar com consistência."},
+    {"category": "contexto", "text": "Formato de PDV dentro de praça de alimentação do Carrefour limita aplicações de fachada/sinalização própria — o escopo do manual prioriza digital, onde a marca realmente aparece hoje."},
+    {"category": "ameaca", "text": "O nome da marca varia entre 3 grafias diferentes nos canais digitais ('Mina Pizzas & Grill' no iFood, 'Mina Praia Grill & Pizza' no GMB, 'minapizzas' no Instagram) — prejudica reconhecimento, não é questão legal/de razão social."},
+    {"category": "acao", "text": "Padronizar 'Mina Pizza' como nome único em todos os canais e aplicar a paleta vermelho/preto + tipografia Oswald/Nunito Sans consistentemente a partir da próxima peça produzida."}
+  ],
+
+  "block1_strategic_foundations": {
+    "presentation": {
+      "opening_letter": "Este manual não inventa uma marca nova pra Mina Pizza — formaliza o que 36 anos de operação já construíram, e dá a quem for produzir qualquer peça (nós, um designer, o próprio Roberto) uma régua clara de como usar isso com consistência.",
+      "manifesto_short": "Trinta e seis anos no mesmo lugar. Comida de verdade, sem enrolação.",
+      "manifesto_narrative": "Antes de existir aplicativo de comida, antes do Carrefour virar point de bairro, já tinha gente pedindo pizza na Mina. Trinta e seis anos depois, a receita não mudou e o endereço também não — mas o mundo ao redor mudou várias vezes. A Mina Pizza nunca investiu um real em comunicação, e mesmo assim segue ali, servindo quem já é cliente há décadas. Não vendemos experiência gourmet nem promessa vazia — vendemos comida de verdade, feita como sempre foi, pro cliente que já sabe o que quer e não tem paciência pra decepção. Agora é hora de contar essa história pra quem ainda não a conhece.",
+      "navigation_instructions": "Bloco 1 explica o porquê (estratégia). Bloco 2 define como a marca fala. Bloco 3 define como a marca se parece visualmente. Bloco 4 mostra onde isso tudo se aplica na prática. Bloco 5 define quem aprova o quê. Quem for produzir uma peça nova deve consultar Blocos 2 e 3 antes de começar, e Bloco 4 para ver se já existe um padrão pronto pra aquele tipo de aplicação."
+    },
+    "essence": {
+      "purpose": "Ser o lugar de comida de verdade que a região de São Vicente pode confiar de olhos fechados, geração após geração.",
+      "vision": "Ser reconhecida como a pizzaria e marmitaria mais tradicional e confiável da Baixada Santista — redescoberta por quem nunca soube que ela existia.",
+      "mission": "Servir comida consistente, feita com o mesmo cuidado de sempre, num ambiente prático e acessível dentro do Carrefour de São Vicente.",
+      "values": [
+        {"name": "Consistência", "behavior_yes": "Mesmo tempero, mesmo cuidado, todo santo dia", "behavior_no": "Variar receita ou porção conforme o movimento do dia"},
+        {"name": "Proximidade sem exagero", "behavior_yes": "Tratar cliente antigo com atenção direta e reconhecimento", "behavior_no": "Ser frio/ríspido OU forçar intimidade e gírias que não combinam com o público"},
+        {"name": "Transparência", "behavior_yes": "Assumir erro publicamente e corrigir (responder avaliação negativa com contexto)", "behavior_no": "Ignorar reclamação ou apagar comentário incômodo"},
+        {"name": "Praticidade", "behavior_yes": "Resolver a fome do cliente rápido, sem fricção nem informação errada", "behavior_no": "Complicar o pedido com processos longos ou horário/endereço desatualizados"}
+      ],
+      "promise": "Você sempre sabe o que vai encontrar na Mina Pizza — nem sempre perfeito, mas sempre de verdade.",
+      "big_idea": "Trinta e seis anos de tradição que a maioria da cidade ainda não conhece.",
+      "brand_pillars": [
+        {"name": "Tradição Viva", "description": "36 anos não é nostalgia parada — é prova de que a fórmula funciona, todos os dias."},
+        {"name": "Bairro de Verdade", "description": "Faz parte da rotina de quem mora, trabalha ou passa por São Vicente — não é destino, é hábito."},
+        {"name": "Comida sem Enrolação", "description": "Sabor caseiro, sem discurso gourmet, sem promessa vazia."},
+        {"name": "Redescoberta", "description": "Existe há décadas, mas ainda tem muita gente que nunca soube — a comunicação existe pra mudar isso, não pra reinventar o produto."}
+      ]
+    },
+    "positioning": {
+      "statement": "Para moradores de São Vicente e visitantes de fim de semana da Baixada Santista, a Mina Pizza é a pizzaria (e marmitaria) mais tradicional da praça de alimentação do Carrefour, porque está no mesmo lugar há 36 anos, com clientes que já pedem daqui há mais de três décadas.",
+      "territory": "Resistência + Bairro + Redescoberta",
+      "archetype_dominant": {
+        "name": "O Cara Comum (Everyman)",
+        "justification": "A marca não vende status, exclusividade ou aspiração — vende pertencimento e confiança. É 'a pizzaria que já é de todo mundo', acessível, sem pretensão, o oposto do discurso gourmet que afastaria o próprio ICP (anti-persona já mapeada rejeita explicitamente experiência sofisticada)."
+      },
+      "archetype_secondary": {
+        "name": "O Cuidador",
+        "justification": "O cuidado através da consistência e do tempo (36 anos servindo a mesma comunidade) sustenta a lealdade da Marlene — não é indulgência efusiva, é constância que cuida sem alarde."
+      },
+      "competitive_matrix": {
+        "axis_x": "Digital baixo → Digital maduro",
+        "axis_y": "Tradição recente → Tradição décadas",
+        "client_position": "NE",
+        "competitors": [
+          {"name": "Mina Pizza", "quadrant": "NE", "is_client": true},
+          {"name": "Império da Pizza", "quadrant": "SE"},
+          {"name": "Big Família", "quadrant": "SE"},
+          {"name": "Caseirinha da Mãe / O Marmiteiro / Alecrim", "quadrant": "SE"}
+        ]
+      },
+      "puv": "A Mina Pizza serve o mesmo point do Carrefour de São Vicente há 36 anos — o tipo de lugar que cliente já frequenta há décadas e recomenda sem pensar duas vezes."
+    },
+    "audience_persona": {
+      "primary_persona": {
+        "name": "Marlene, 58 anos",
+        "photo_description": "Mulher de cerca de 55-60 anos, cabelo grisalho arrumado, vestindo roupa simples e prática, com uma bolsa de compras do Carrefour na mão — expressão de quem está no meio de um dia corrido de tarefas, olhando o cardápio afixado no balcão da Mina Pizza dentro da praça de alimentação.",
+        "age": "58 anos (faixa do ICP: 35-65, concentração em 45+)",
+        "income": "Classe C/C+ — renda familiar estimada de R$3.000-7.000/mês, perfil típico da Baixada Santista",
+        "occupation": "Não declarada formalmente — perfil de quem faz compras semanais no Carrefour, ensino médio completo, público popular/tradicional",
+        "main_pain": "Atendimento ríspido no telefone e comida às vezes fria/sem tempero — no fundo, medo de que o lugar em que confiou por décadas esteja mudando pra pior",
+        "purchase_motivators": "Hábito de décadas, conveniência (já está no Carrefour fazendo compras), tradição e confiança sem risco de decepção"
+      },
+      "secondary_persona": {
+        "name": "Jailson",
+        "description": "Trabalhador da região que almoça ali durante a semana por proximidade e velocidade, zero lealdade emocional — decide por tempo de espera e preço, troca de lugar na primeira falha."
+      },
+      "anti_persona": {
+        "description": "Perfis que consomem energia da operação sem virar recorrência real.",
+        "profiles": [
+          {"name": "Quem busca experiência gastronômica sofisticada", "why_not": "A Mina Pizza é PDV simples dentro de shopping; comunicar como 'experiência gourmet' gera decepção e reclamação de ambiente/serviço."},
+          {"name": "Caçador de cupom do iFood", "why_not": "Ticket baixo, sem lealdade, alto custo de aquisição sem retorno de recompra."}
+        ]
+      },
+      "buyer_journey_summary": "Da fome/hábito (gatilho forte, sem fricção) até a escolha do canal de pedido (fricção real: medo de atendimento ruim no telefone) e o pós-compra (vazamento crítico: zero follow-up, cliente de décadas pode sumir sem ninguém perceber)."
+    },
+    "history_culture": {
+      "origin": "Fundada em 1989 dentro da praça de alimentação do Carrefour de São Vicente, SP — a mesma loja (Loja 1 e 2) até hoje.",
+      "milestones": [
+        "1989 — Fundação da Mina Pizza dentro do Carrefour de São Vicente",
+        "Roberto assume a administração e usa caixa acumulado para comprar a parte do ex-sócio",
+        "Adoção de delivery via iFood — presença digital mínima, mas decisiva pra sobrevivência do negócio",
+        "2026 — Início da estruturação estratégica com a V4 Company, primeira vez que a marca investe em comunicação de forma intencional"
+      ],
+      "culture": "Operação gerida remotamente por Roberto (sócio-administrador), com equipe de balcão/cozinha no dia a dia. Cultura formada muito mais pela rotina operacional do que por processos formais de marca — este manual é o primeiro documento desse tipo na história da empresa.",
+      "legacy": "36 anos de relação direta com a comunidade de São Vicente — clientes que citam décadas de frequência nas próprias avaliações. O legado a preservar é a confiança construída, não qualquer elemento visual específico (que nunca foi formalizado antes)."
+    }
+  },
+
+  "block2_verbal_identity": {
+    "personality": {
+      "scales": [
+        {"trait_low": "Formal", "trait_high": "Informal", "position": 6},
+        {"trait_low": "Sério", "trait_high": "Divertido", "position": 4},
+        {"trait_low": "Jovem", "trait_high": "Maduro", "position": 8},
+        {"trait_low": "Luxuoso", "trait_high": "Acessível", "position": 9},
+        {"trait_low": "Reservado", "trait_high": "Caloroso", "position": 6},
+        {"trait_low": "Moderno", "trait_high": "Tradicional", "position": 7}
+      ],
+      "archetype_applied": "Cara Comum (base) + Cuidador (calor): a marca fala como um vizinho de décadas — direto, sem pose, mas que demonstra cuidado através da constância, não de efusividade.",
+      "as_a_person": "A Mina Pizza é como aquele vizinho de décadas que você cumprimenta sem precisar pensar — não é o mais descolado da rua, mas é o mais confiável. Fala pouco e direto, não tenta ser engraçadinho, trata todo mundo com o mesmo respeito simples, e você sabe que pode contar com ele porque ele nunca saiu do lugar."
+    },
+    "tone_of_voice": {
+      "pillars": [
+        {"name": "Direto sem ser seco", "definition": "Vai direto ao ponto, sem economizar respeito.", "manifestation": "Frases curtas, sem gírias forçadas, sem explicação excessiva antes do CTA."},
+        {"name": "Maduro, não careta", "definition": "Fala com adulto, não com criança nem com adolescente.", "manifestation": "Evita emoji em excesso, gírias de internet e linguagem 'descolada' que soa artificial pro público 45+."},
+        {"name": "Acolhedor com constância", "definition": "O calor vem da consistência, não da efusividade.", "manifestation": "Reconhece o cliente antigo, agradece com simplicidade, nunca exagera no entusiasmo."},
+        {"name": "Honesto mesmo quando dói", "definition": "Reconhece erro em vez de justificar.", "manifestation": "Responde avaliação negativa admitindo o problema antes de explicar o contexto."}
+      ],
+      "channel_variations": [
+        {"channel": "Instagram (posts/bio)", "adaptation": "Tom direto, hashtags locais (não genéricas de banco de imagem), fotos reais do produto e do bairro."},
+        {"channel": "WhatsApp", "adaptation": "Respostas rápidas, sem forçar intimidade, catálogo claro, sem gírias de vendedor."},
+        {"channel": "Respostas a avaliação (Google/iFood)", "adaptation": "Reconhece o problema primeiro, sem se defender; agradece elogio sem exagero."},
+        {"channel": "Atendimento telefônico/balcão", "adaptation": "Tom simples e cordial — é o canal mais crítico (maior causa de churn identificada na S1), precisa de treinamento alinhado a este manual, não só comunicação digital."}
+      ],
+      "say_dont_say": [
+        {"situation": "Cliente reclama que já foi mal atendido ao telefone", "say": "Reconhecer o problema publicamente e mostrar canal alternativo mais confiável (ex: WhatsApp)", "dont_say": "'Desculpa, vamos melhorar' sem ação visível", "reason": "Genérico sem ação visível não reconstrói confiança."},
+        {"situation": "Cliente questiona se o preço ainda vale a pena", "say": "Comunicar o que mudou pra melhor (ingrediente, tempero padronizado) quando corrigido", "dont_say": "'Nossos preços seguem a inflação como todo mundo'", "reason": "Justificar sem reconhecer a percepção do cliente soa defensivo."},
+        {"situation": "Cliente prefere ligar mesmo sabendo que é arriscado", "say": "Oferecer WhatsApp como ponte mais confiável, sem forçar", "dont_say": "'Baixa o app, é mais fácil'", "reason": "Ignora a barreira real de hábito/idade do público."},
+        {"situation": "Cliente reclama do ambiente da praça de alimentação", "say": "Reforçar delivery/retirada como alternativa fácil", "dont_say": "'Isso não é problema nosso, é do shopping'", "reason": "Tecnicamente verdade, mas não resolve a dor do cliente."},
+        {"situation": "Cliente de longa data testando se a qualidade ainda é a mesma", "say": "Usar prova social real e recente (avaliação específica)", "dont_say": "'Sempre fomos os melhores da região'", "reason": "Afirmação vazia sem prova é irrelevante pro cliente cético."},
+        {"situation": "Responder avaliação de 1 estrela injusta/exagerada", "say": "Responder com contexto e educação, sem apagar", "dont_say": "Apagar o comentário ou ignorar", "reason": "Apagar parece esconder; quem lê a resposta educada confia mais na marca."},
+        {"situation": "Post no Instagram anunciando novidade", "say": "'Pastel novo — mesmo jeito de sempre de fazer, sabor novo' (ancorar no que já é confiável)", "dont_say": "'Descubra a revolução do nosso cardápio!!!'", "reason": "Exagero de linguagem quebra o tom maduro e direto da marca."},
+        {"situation": "Cliente pergunta sobre horário de funcionamento", "say": "Responder com horário certo (almoço desde 9h, jantar até 22h) e atualizar todos os canais", "dont_say": "Deixar bio/GMB desatualizados", "reason": "Informação errada gera frustração antes mesmo do primeiro contato."}
+      ]
+    },
+    "editorial_guidelines": {
+      "vocabulary_categorized": {
+        "essence_words": ["tradição", "de verdade", "bairro", "confiança", "consistência"],
+        "valued_repeated": ["36 anos", "comida de verdade", "point de sempre", "feito na hora", "São Vicente"],
+        "audience_connection": ["Carrefour", "praça de alimentação", "prato do dia", "pastel", "delivery"]
+      },
+      "official_glossary": [
+        {"term": "Point", "definition": "Termo usado na comunicação pra se referir à Mina Pizza como lugar de referência/rotina, não como estabelecimento formal."}
+      ],
+      "forbidden_terms": [
+        {"term": "Gourmet", "use_instead": "Comida de verdade / feito com cuidado"},
+        {"term": "Revolucionário / revolução", "use_instead": "Novidade / do jeito de sempre, com uma novidade"},
+        {"term": "Sofisticado", "use_instead": "Simples e bem feito"}
+      ],
+      "form_of_address": "Você — tratamento direto e respeitoso, nunca 'tu' informal demais nem 'senhor(a)' excessivamente formal. A idade do público (45+) pede respeito sem distanciamento.",
+      "emoji_punctuation": "Uso moderado — no máximo 1 emoji relevante por post/mensagem (🍕 ou similar), nunca fileira de emojis. Sem excesso de exclamação (máx. 1 por frase).",
+      "grammar_rules": "Frases curtas. Português correto sem ser rebuscado. Evitar gírias de internet/juvenis. Números institucionais por extenso ('trinta e seis anos'); numerais em contexto de preço/promoção."
+    },
+    "naming_taxonomy": {
+      "master_brand_name": "Mina Pizza",
+      "guidance": "Padronizar 'Mina Pizza' em todos os canais digitais (Instagram, iFood, GMB, WhatsApp). Hoje o nome varia entre 'Mina Pizzas & Grill' (iFood), 'Mina Praia Grill & Pizza' (GMB) e 'minapizzas' (Instagram). Não é uma questão legal — a razão social pode seguir diferente do nome de fachada, como em qualquer empresa — é questão de reconhecimento: o cliente precisa encontrar o mesmo nome em qualquer canal que buscar."
+    },
+    "storytelling": {
+      "story_arc": {
+        "act1_before": "Uma pequena pizzaria dentro de uma praça de alimentação, como tantas outras, tentando se firmar em 1989.",
+        "act2_different": "36 anos depois, ainda no mesmo lugar — mantendo a receita e a relação com quem já é cliente há décadas, mesmo sem nunca ter investido em comunicação.",
+        "act3_after": "Agora redescoberta: a mesma tradição, mas visível pra quem nunca soube que ela existia."
+      },
+      "frameworks": ["Antes/depois da redescoberta digital", "Cliente de décadas como prova viva"],
+      "opening_hooks": ["Trinta e seis anos e ainda tem gente que não sabe que a gente existe.", "Desde 1989 no mesmo lugar — a massa não mudou, o forno também não."]
+    },
+    "slogan_tagline_signatures": {
+      "slogan": "36 anos. Comida de verdade.",
+      "tagline": "Comida de verdade, no mesmo lugar de sempre.",
+      "verbal_signatures": ["Mina Pizza — desde 1989, no mesmo lugar.", "O point de sempre.", "Comida de verdade."]
+    }
+  },
+
+  "block3_visual_identity_core": {
+    "logo": {
+      "concept": "O logo atual já contém boa parte do DNA que a marca precisa: 'Mina' em script vermelho transmite calor humano e tradição manuscrita/artesanal, 'PIZZA' em bloco condensado ancora a categoria com clareza imediata. Este manual não desenha um logo novo do zero — formaliza e refina o que já existe, garantindo consistência de uso daqui pra frente.",
+      "style_description": "Lockup misto: wordmark script/cursivo em vermelho para 'Mina' (calor, tradição, toque manuscrito/artesanal) combinado com wordmark em caixa alta condensada/bold para 'PIZZA' (ancora categoria com clareza imediata, típico de sinalização de pizzaria). O contraste de peso e registro entre os dois elementos cria hierarquia visual sem precisar de símbolo/ícone adicional. Fundo circular preto opcional para aplicações compactas (avatar de redes sociais, favicon).",
+      "visual_attributes": {
+        "form_language": "Misto — script orgânico ('Mina') + bloco geométrico condensado ('PIZZA'), contraste intencional entre os dois registros",
+        "weight": "Médio a bold — 'PIZZA' em peso mais pesado que 'Mina' pra criar hierarquia",
+        "balance": "Assimétrico controlado — os dois elementos empilhados verticalmente, não lado a lado",
+        "negative_space": "Equilibrado — funciona tanto em versão com fundo circular quanto solto",
+        "color_application": "Duotone — vermelho ('Mina') + preto/branco ('PIZZA'), sem gradientes",
+        "personality_in_form": "O script vermelho traduz o pilar 'Acolhedor com constância' (calor humano, toque manuscrito remete a algo feito à mão); o bloco condensado preto/branco traduz 'Direto sem ser seco' (clareza imediata, sem enfeite).",
+        "scalability": "Versão com círculo preto funciona bem em tamanhos pequenos (avatar, favicon); versão solta (só o wordmark) funciona melhor em aplicações largas (banner, cardápio).",
+        "differentiation_from_competitors": "Império da Pizza usa coroa/dourado (registro de realeza/luxo aspiracional) e Big Família usa amarelo/preto mais genérico — o script vermelho manuscrito da Mina é o único registro 'feito à mão' entre os concorrentes pesquisados, reforçando o território de tradição/artesanal sem precisar dizer isso em palavras."
+      },
+      "design_principles": [
+        "Clareza acima de enfeite — 'PIZZA' sempre legível à distância, mesmo em tamanho pequeno",
+        "O script 'Mina' nunca perde legibilidade por estilização excessiva",
+        "Vermelho é a cor de reconhecimento — nunca substituir por outra cor de destaque",
+        "Simplicidade que envelhece bem — evitar elementos que datam o logo (gradientes, sombras 3D, efeitos de tendência)"
+      ],
+      "anatomy": {
+        "symbol": "Nenhum símbolo/ícone separado — a força está no wordmark duplo",
+        "wordmark": "'Mina' (script vermelho) + 'PIZZA' (bloco condensado preto/branco)",
+        "lockup": "Empilhado verticalmente, 'Mina' acima de 'PIZZA', opcionalmente dentro de círculo preto"
+      },
+      "construction_grid": "Grid não formalizado no logo atual — recomenda-se que o designer desenhe um grid de construção na próxima rodada de refinamento, mantendo a proporção atual entre os dois elementos como referência.",
+      "clear_space": "Espaço de respiro mínimo equivalente à altura da letra 'P' de PIZZA ao redor de todo o lockup.",
+      "min_max_size": {
+        "min_digital_px": "120px de largura (versão círculo) / 80px de altura (versão solta)",
+        "min_print_mm": "25mm de largura",
+        "max_recommended": "Sem limite máximo definido — testar legibilidade em aplicações grandes na próxima rodada"
+      },
+      "official_versions": [
+        {"name": "Círculo completo (Mina + Pizza + fundo preto)", "use_case": "Avatar de redes sociais, favicon, aplicações compactas"},
+        {"name": "Wordmark solto (sem círculo)", "use_case": "Cabeçalhos, banners largos, materiais impressos"},
+        {"name": "Monocromática (preto ou branco sólido)", "use_case": "Aplicações de baixo contraste, carimbos, gravação"}
+      ],
+      "logo_directions": [
+        {"direction": "Refinamento do atual", "concept": "Mantém a estrutura script + bloco existente, só refina proporção e kerning", "prompt": "Minimalist wordmark logo, cursive red script text 'Mina' above bold condensed black sans-serif text 'PIZZA', clean vector style, white background, Italian pizzeria branding, no additional icons, refined typography, high contrast"},
+        {"direction": "Com símbolo sutil", "concept": "Adiciona um elemento gráfico discreto (ex: fatia estilizada) sem poluir o wordmark", "prompt": "Wordmark logo for traditional pizzeria 'Mina Pizza', cursive red script for 'Mina', bold black condensed sans-serif for 'PIZZA', subtle minimal pizza slice icon integrated above or beside text, vector flat design, warm but simple, no gradients"},
+        {"direction": "Versão selo/carimbo", "concept": "Formato circular tipo selo, reforça tradição e ano de fundação (1989), boa pra embalagem/carimbo", "prompt": "Circular badge/stamp logo, 'Mina Pizza' text arranged in circle, small text 'desde 1989' at bottom, red and black color scheme, vintage bakery/pizzeria stamp style, clean vector, traditional but not old-fashioned"}
+      ],
+      "chosen_direction": null
+    },
+    "incorrect_uses": [
+      {"rule": "Não distorcer o wordmark (esticar ou comprimir)", "visual_demo": "distort_x", "reason": "Quebra a proporção entre o script e o bloco, perdendo a hierarquia visual"},
+      {"rule": "Não trocar a cor vermelha por outra cor de destaque", "visual_demo": "recolor_red", "reason": "Vermelho é o principal elemento de reconhecimento da marca"},
+      {"rule": "Não aplicar sombra ou efeito 3D", "visual_demo": "drop_shadow", "reason": "Contradiz o princípio de simplicidade que envelhece bem"},
+      {"rule": "Não usar sobre fundo de baixo contraste", "visual_demo": "low_contrast", "reason": "Compromete a legibilidade, especialmente do script vermelho"},
+      {"rule": "Não rotacionar o logo", "visual_demo": "rotated", "reason": "A hierarquia vertical (Mina acima de Pizza) é intencional e não deve ser alterada"},
+      {"rule": "Não adicionar contorno/outline ao redor do texto", "visual_demo": "outlined", "reason": "Contornos artificiais quebram a leveza do script manuscrito"}
+    ],
+    "color_system": {
+      "primary": [
+        {"name": "Vermelho Mina", "hex": "#C8102E", "rgb": "rgb(200, 16, 46)", "cmyk": "0, 92, 77, 22", "role": "Cor primária de marca — usada no wordmark 'Mina' e em CTAs", "justification": "Cor já em uso no logo atual — remete a apetite/comida sem ser genérica como o vermelho de fast-food corporativo, mantendo o tom quente do script manuscrito."}
+      ],
+      "secondary": [
+        {"name": "Preto Pizza", "hex": "#1A1A1A", "rgb": "rgb(26, 26, 26)", "cmyk": "0, 0, 0, 90", "role": "Wordmark 'PIZZA', textos institucionais, fundo do avatar circular", "justification": "Já em uso no logo atual — contraste forte com o vermelho e com fundo branco."}
+      ],
+      "neutrals": [
+        {"name": "Branco", "hex": "#FFFFFF", "role": "Fundo padrão, texto sobre preto/vermelho"},
+        {"name": "Cinza Quente", "hex": "#F5F1EC", "role": "Fundo alternativo (cardápio digital, LP), mais quente que branco puro"}
+      ],
+      "functional": [
+        {"name": "Sucesso", "hex": "#2E7D32", "role": "Confirmação de pedido/ação"},
+        {"name": "Atenção", "hex": "#F9A825", "role": "Avisos, promoções por tempo limitado"}
+      ],
+      "proportions": {
+        "dominant_pct": 60,
+        "support_pct": 30,
+        "accent_pct": 10,
+        "dominant_color": "Branco/Cinza Quente",
+        "support_color": "Preto Pizza",
+        "accent_color": "Vermelho Mina"
+      },
+      "wcag_contrast_matrix": [
+        {"foreground": "#1A1A1A", "background": "#FFFFFF", "label": "Preto sobre branco (texto padrão)", "ratio": 18.1, "level": "AAA"},
+        {"foreground": "#C8102E", "background": "#FFFFFF", "label": "Vermelho sobre branco (CTA/destaque)", "ratio": 5.4, "level": "AA"},
+        {"foreground": "#FFFFFF", "background": "#C8102E", "label": "Branco sobre vermelho (botão CTA)", "ratio": 5.4, "level": "AA"},
+        {"foreground": "#FFFFFF", "background": "#1A1A1A", "label": "Branco sobre preto (avatar/fundo escuro)", "ratio": 18.1, "level": "AAA"}
+      ]
+    },
+    "typography": {
+      "primary_family": {
+        "name": "Oswald",
+        "source": "Google Fonts",
+        "google_fonts_url": "https://fonts.google.com/specimen/Oswald",
+        "embed_url": "https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap",
+        "weights_permitted": ["400", "500", "600", "700"],
+        "license": "Open Font License"
+      },
+      "secondary_family": {
+        "name": "Nunito Sans",
+        "source": "Google Fonts",
+        "google_fonts_url": "https://fonts.google.com/specimen/Nunito+Sans",
+        "embed_url": "https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap",
+        "weights_permitted": ["400", "600", "700"],
+        "license": "Open Font License"
+      },
+      "hierarchy": [
+        {"level": "H1", "font": "Oswald", "weight": "700", "size_px": 48, "line_height": "1.1", "use_case": "Headline principal (LP hero, capa de posts institucionais)"},
+        {"level": "H2", "font": "Oswald", "weight": "600", "size_px": 32, "line_height": "1.2", "use_case": "Subtítulos de seção"},
+        {"level": "H3", "font": "Oswald", "weight": "500", "size_px": 22, "line_height": "1.3", "use_case": "Títulos de card/destaque (ex: nome de prato em destaque)"},
+        {"level": "Body", "font": "Nunito Sans", "weight": "400", "size_px": 16, "line_height": "1.5", "use_case": "Texto corrido, descrição de produto, legendas de post"},
+        {"level": "Caption/CTA", "font": "Nunito Sans", "weight": "700", "size_px": 14, "line_height": "1.4", "use_case": "Botões de CTA, rótulos pequenos, texto de rodapé"}
+      ],
+      "fallbacks": "Oswald → Arial Narrow, sans-serif / Nunito Sans → Helvetica, Arial, sans-serif",
+      "justification": "Oswald traduz o pilar 'Direto sem ser seco' — condensada e bold, remete a sinalização de pizzaria clássica sem ser genérica. Nunito Sans equilibra com um corpo de texto mais macio/humanista, evitando que a comunicação fique fria demais para o tom 'Acolhedor com constância'."
+    },
+    "iconography": {
+      "style": "Outline simples, sem preenchimento",
+      "stroke_weight_px": 2,
+      "corner_style": "Levemente arredondado",
+      "grid": "24x24px",
+      "color_default": "Preto Pizza (#1A1A1A); vermelho só para ícone de destaque único por tela"
+    },
+    "photography": {
+      "art_direction": "Fotografia real do produto e do balcão — nunca banco de imagem. Luz natural ou quente, close-up mostrando textura (queijo derretendo, massa crocante, recheio do pastel). Pessoas reais (equipe, clientes com autorização) em vez de modelos.",
+      "mood_keywords": ["caseiro", "quente", "real", "sem pose", "apetitoso"],
+      "do_dont": [
+        {"type": "do", "rule": "Fotografar comida recém-feita, com vapor/textura visível"},
+        {"type": "do", "rule": "Usar avaliações reais como prova social visual"},
+        {"type": "dont", "rule": "Usar banco de imagem genérico de pizza"},
+        {"type": "dont", "rule": "Composições muito estilizadas/editoriais que destoam do tom acessível"}
+      ]
+    }
+  },
+
+  "block4_applications": {
+    "principle": "Toda aplicação prioriza consistência de nome ('Mina Pizza' em todos os canais), cor vermelho/preto e o tom 'direto sem ser seco'. Dado o formato de PDV dentro de praça de alimentação (sem fachada própria controlável) e a operação enxuta (sem equipe de marketing dedicada), o escopo deste bloco foca em digital + redes sociais + papelaria essencial — fachada, uniforme e embalagem ficam fora por ora, sem ROI claro dado o formato do negócio.",
+    "applications": [
+      {"category": "social_media", "name": "Avatar e bio do Instagram", "specs": "Avatar: versão círculo do logo, 320x320px mínimo. Bio: até 150 caracteres, incluindo '36 anos', horário correto e o slogan.", "mockup": {"type": "ig_avatar_bio", "description": "Avatar com logo círculo vermelho/preto; bio com emoji único (🍕), horário 9h-22h corrigido, slogan 'Comida de verdade, no mesmo lugar de sempre.'", "data": {}}},
+      {"category": "social_media", "name": "Template de post de feed", "specs": "1080x1080px, foto real ocupando 70%+ do quadro, headline em Oswald bold quando houver texto sobreposto (<20% da área, regra Meta)", "mockup": {"type": "ig_feed_post", "description": "Foto de produto real (ex: pastel sendo aberto) com tarja preta inferior contendo nome do produto em Oswald + preço opcional em Nunito Sans", "data": {}}},
+      {"category": "social_media", "name": "Template de Stories/Reels", "specs": "1080x1920px, hook em texto grande nos primeiros 3s, logo círculo no canto", "mockup": {"type": "ig_story", "description": "Vídeo vertical de bastidor (massa sendo feita) com texto 'Mesmo jeito de sempre' em Oswald branco sobre fundo escuro semitransparente", "data": {}}},
+      {"category": "digital_ui", "name": "Perfil do WhatsApp Business", "specs": "Foto de perfil = logo círculo; descrição com horário e site; catálogo com fotos reais padronizadas", "mockup": {"type": "whatsapp_business", "description": "Perfil com nome 'Mina Pizza', descrição institucional curta, catálogo organizado por categoria (Pizzas, Pratos Executivos, Pastéis)", "data": {}}},
+      {"category": "digital_ui", "name": "Perfil do Google Meu Negócio", "specs": "Nome padronizado 'Mina Pizza', endereço corrigido, categoria principal + secundárias, fotos reais em alta resolução", "mockup": {"type": "gmb_card", "description": "Card de perfil com nome único 'Mina Pizza' (substituindo 'Mina Praia Grill & Pizza'), horário correto, álbum de fotos categorizado", "data": {}}},
+      {"category": "digital_ui", "name": "Favicon / ícone de app", "specs": "Versão simplificada do logo círculo, legível em 16x16px", "mockup": {"type": "favicon_scaling", "description": "Logo círculo reduzido a elemento mínimo legível, mantendo o contraste vermelho sobre preto", "data": {}}},
+      {"category": "sales_marketing", "name": "Cardápio digital (Neemo/PDF)", "specs": "Categorias claras incluindo 'Marmita/Quentinha' (gap já mapeado na pesquisa de mercado), fotos padronizadas, preços visíveis", "mockup": {"type": "one_pager", "description": "Cardápio organizado por categoria com fotos reais uniformes, tipografia Oswald para nomes de prato e Nunito Sans para descrição", "data": {}}},
+      {"category": "stationery", "name": "Assinatura de e-mail/WhatsApp institucional", "specs": "Nome + 'Mina Pizza — desde 1989' + telefone/WhatsApp + endereço", "mockup": {"type": "email_signature", "description": "Assinatura simples texto + logo pequeno, usada em comunicação institucional (ex: com fornecedores, V4)", "data": {}}}
+    ]
+  },
+
+  "block5_governance": {
+    "brand_owner": "Roberto Calafiori (sócio-administrador) — decisor final sobre qualquer aplicação da marca, mesmo operando remotamente.",
+    "approval_process": [
+      {"step": "Produção do material (post, criativo, peça impressa) seguindo este manual", "responsible": "Equipe V4 (designer/social media)", "estimated_time": "1-3 dias úteis"},
+      {"step": "Revisão de aderência ao manual (cor, tipografia, tom de voz)", "responsible": "V4 (checklist interno)", "estimated_time": "Poucas horas"},
+      {"step": "Aprovação final antes de publicar", "responsible": "Roberto Calafiori", "estimated_time": "24-48h (opera remotamente)"}
+    ],
+    "review_cadence": "Revisão leve a cada 6 meses, ou sempre que um novo canal/aplicação for adicionado. Dado o porte da operação (loja única, sem equipe de marketing interna), não há necessidade de revisão trimestral formal nem de comitê de marca formal — a governança fica concentrada no próprio Roberto + squad V4.",
+    "committee": null
+  },
+
+  "completed_at": "2026-07-18T23:30:00Z"
+}

@@ -1,0 +1,43 @@
+{
+  "client_name": "JK Climatização",
+  "titulo": "Protocolo de Handover — Pedro → Marlon",
+  "generated_at": "2026-07-10",
+  "nota": "Deliverable ad-hoc, sugerido pelo Claude e aprovado pelo operador — resolve o ponto mais citado como problema em todas as fontes comerciais (ee-s4-diagnostico-comercial, entrevistas 22/06). Usa as ferramentas que a JK já tem hoje (WhatsApp, grupo 'agendamentos') — não depende do CRM estar pronto.",
+  "data_source": "ee-s4-diagnostico-comercial + Entrevista Comercial André Krueger (22/06) + drawflow-midia-e-captura.md",
+
+  "summary": "O handover Pedro→Marlon é o ponto mais citado como problema no processo comercial da JK — já causou até o envio de um áudio pro cliente errado no cliente oculto interno. Este protocolo define um gatilho exato, um checklist de 10 campos obrigatórios, um template de mensagem pronto pro WhatsApp e uma regra de confirmação — tudo executável com as ferramentas que a JK já usa hoje.",
+  "summary_headline": "10 campos obrigatórios e uma confirmação de leitura resolvem o ponto que o cliente oculto já expôs: informação se perdendo entre Pedro e Marlon.",
+
+  "gatilho": "Handover acontece no exato momento em que Pedro emite a Ordem de Serviço (cliente aceitou o orçamento). Antes disso o lead é 100% do Pedro; depois, 100% do Marlon — sem meio-termo.",
+
+  "checklist_obrigatorio": [
+    { "campo": "Nome completo (pessoa ou empresa)", "motivo": "Básico, mas hoje se perde no repasse de boca" },
+    { "campo": "Contato confirmado (telefone/WhatsApp)", "motivo": "Marlon confirma direto, sem voltar pro Pedro" },
+    { "campo": "Endereço/local exato do serviço", "motivo": "Alimenta a escolha do técnico pela tabela de prioridade" },
+    { "campo": "Tipo de cliente: novo ou recorrente/contrato", "motivo": "Muda o tratamento e o histórico disponível" },
+    { "campo": "Score de qualificação 1-5⭐", "motivo": "Mesma régua definida em ee-s4-diagnostico-comercial" },
+    { "campo": "Tipo de serviço (avulso/recorrente/obra)", "motivo": "Define critério de agendamento e SLA" },
+    { "campo": "Detalhes técnicos da qualificação", "motivo": "Nº de aparelhos, tipo, urgência, restrições de acesso — Marlon não repete a pergunta" },
+    { "campo": "Valor acordado/provisionado", "motivo": "Já é prática hoje — só formaliza como obrigatório" },
+    { "campo": "Observações da conversa", "motivo": "Promessas feitas, objeções resolvidas, prazo combinado" },
+    { "campo": "Data/hora combinada ou janela de disponibilidade", "motivo": "Evita agendar em horário que o cliente já recusou" }
+  ],
+
+  "template_mensagem_whatsapp": "🔄 HANDOVER — [nome do cliente]\n📞 Contato: [telefone]\n📍 Local: [endereço]\n🏷️ Tipo: [ ] Novo  [ ] Recorrente/contrato\n⭐ Score: [1-5]\n🔧 Serviço: [avulso / recorrente / obra]\n🛠️ Detalhes técnicos: [nº aparelhos, tipo, urgência, restrições de acesso]\n💰 Valor combinado: R$ [valor]\n📝 Observações: [promessas, objeções resolvidas, prazo]\n🗓️ Data/horário: [combinado ou janela]\n\n@Marlon — confirma recebido?",
+
+  "confirmacao_obrigatoria": "Marlon precisa reagir (👍 ou 'recebido, seguindo') antes de agir. Se faltar informação, pergunta pro Pedro NO GRUPO — nunca liga direto pro cliente sem contexto (é isso que gerou o áudio trocado no cliente oculto).",
+
+  "script_apresentacao_cliente": "Perfeito, [nome]! Vou te passar agora pro Marlon, que cuida do agendamento e da execução — já contei pra ele tudo que você me falou, então você não vai precisar repetir nada. Qualquer coisa, ele já tá com todos os detalhes.",
+
+  "casos_especiais": [
+    { "caso": "Cliente recorrente com contrato", "regra": "Vai direto pro Marlon (não passa pelo Pedro) — mas precisa de mini-registro (contrato, unidade, natureza da solicitação) pra não depender só da memória do Marlon." },
+    { "caso": "Handover de volta (Marlon→Pedro) — pergunta operacional simples", "regra": "Marlon pode falar direto com o cliente (ex.: confirmar horário)." },
+    { "caso": "Handover de volta (Marlon→Pedro) — pergunta comercial/sensível", "regra": "Sempre volta pro Pedro (preço, objeção, condição especial) — Marlon nunca decide isso sozinho." }
+  ],
+
+  "compatibilidade_futura_crm": "Quando ee-s3-crm-setup existir, os 10 campos do checklist viram campos obrigatórios no card do CRM antes de mudar de etapa (Proposta→Ganho→Onboarding) — o sistema não deixa avançar se faltar campo. Nenhum campo muda, só migra de mensagem de WhatsApp pra campo de sistema.",
+
+  "como_medir_ate_ter_crm": "Sabrina ou André revisam 5 handovers por semana (amostragem no grupo 'agendamentos'): template completo? Marlon confirmou? Houve retrabalho ou pedido de informação faltante depois? Mais de 1x/semana de 'faltou informação' = protocolo precisa de ajuste, não só mais cobrança de disciplina.",
+
+  "alimenta_skills": ["ee-s3-crm-setup", "ee-s5-scripts-sdr"]
+}

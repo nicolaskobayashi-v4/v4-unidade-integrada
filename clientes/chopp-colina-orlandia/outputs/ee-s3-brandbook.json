@@ -1,0 +1,132 @@
+{
+  "skill": "ee-s3-brandbook",
+  "cliente": "Chopp Colina Orlandia",
+  "gerado_em": "2026-06-20",
+
+  "manchete": "A marca do Colina não é um logo — é o Cláudio respondendo WhatsApp às 23h30 e resolvendo o problema antes de vender o barril. O brandbook não inventa um tom de voz: ele documenta o que já funciona e ensina o próximo vendedor a fazer igual.",
+
+  "correcao_importante": {
+    "assunto": "Identidade visual — cores",
+    "descricao": "O diagnóstico de criativos (ee-s2-diagnostico-criativos) recomendou migrar para azul + branco (cores da marca oficial Cerveja Colina). Essa recomendação foi feita sem acesso à reunião S3 (29/05), onde ficou definido manter preto e amarelo — a justificativa discutida foi reconhecimento de marca e redução de esforço cognitivo do público que já associa essas cores ao Colina Orlândia.",
+    "decisao_final": "Manter preto e amarelo. Padronizar fontes e aplicação (não mudar paleta).",
+    "acao": "Desconsiderar a recomendação de mudança de cor no ee-s2-diagnostico-criativos. Esse brandbook usa preto e amarelo como base."
+  },
+
+  "arquetipo_marca": {
+    "primario": "O Prestativo (Caregiver) com traço de Heroi prático",
+    "descricao": "Marca que resolve o problema antes que o cliente precise insistir. Não é a marca mais bonita ou mais conhecida — é a que atende, instala, garante e está disponível quando ninguém mais está.",
+    "evidencia": "Cliente oculto (S4): atendimento do Cláudio avaliado como o melhor entre todos os concorrentes testados — nota mais alta tanto por humanos quanto por duas IAs diferentes. Diagnóstico comercial: vendedor nível 'pleno, quase sênior' — atendimento consultivo é o ponto mais forte.",
+    "nao_e": "Não é a marca premium aspiracional (isso é papel da Serra Gerais). Não é a marca institucional de cervejaria grande (isso é papel da fábrica INBEB). É o distribuidor de bairro que virou referência por fazer o básico bem feito, sempre."
+  },
+
+  "pilares_tom_de_voz": [
+    {
+      "pilar": "Consultivo, não vendedor",
+      "descricao": "Antes de empurrar produto, entende o problema. 'Descoberta e diagnóstico vêm antes da venda' — confirmado como diferencial real do Cláudio frente a TODOS os concorrentes testados.",
+      "exemplo_real": "Cliente perguntou sobre barril de 30L para 30-40 pessoas. Cláudio questionou a quantidade ('acho que a quantidade tá pequena') em vez de só vender o que foi pedido — evitando frustração do cliente no dia do evento.",
+      "aplicar_em": "Todo primeiro contato deve fazer 1-2 perguntas de diagnóstico antes de falar preço."
+    },
+    {
+      "pilar": "Direto e sem enrolação",
+      "descricao": "Frases curtas, objetivas. Sem jargão de vendedor, sem '5x mais incrível', sem comparação institucional com concorrentes.",
+      "exemplo_real": "Mensagem padrão de WhatsApp do Cláudio: 'o valor do litro do chope é tanto, pegando barril de 30/50, a chopeira tá inclusa. A gente deixa pronto, instalado no cliente em 5 minutos.'",
+      "aplicar_em": "Toda copy de anúncio e post deve caber em 2-3 frases. Cortar adjetivos vazios."
+    },
+    {
+      "pilar": "Disponível, sem horário comercial rígido",
+      "descricao": "O Cláudio responde fora de horário porque sabe que isso fecha venda. Esse comportamento real é um diferencial — não inventado, comprovado pelo cliente oculto (concorrentes demoraram 1h+ para responder e perderam pontos).",
+      "exemplo_real": "'Mas cara, responder o cara 11 da noite é uma garantia maior de você fechar.' — fala do próprio Cláudio sobre sua prática.",
+      "aplicar_em": "Comunicação pode mencionar disponibilidade ('Manda mensagem a qualquer hora') sem prometer SLA formal — é prática real, não promessa de marketing."
+    },
+    {
+      "pilar": "Remove o risco do outro lado",
+      "descricao": "A virtude comercial mais forte do Cláudio: tira o medo do parceiro antes de vender. Consignação, equipamento sem custo, responsabilidade do barril estragado é dele — não do cliente.",
+      "exemplo_real": "'Se sobrar um barril aberto eu vou levar embora. Não é prejuízo para vocês.' — usado para fechar parceria com quermesse que tinha medo de trabalhar com chopp.",
+      "aplicar_em": "Toda copy de objeção deve focar em remover risco percebido, não em convencer com adjetivos."
+    },
+    {
+      "pilar": "Adapta o tom, não a essência",
+      "descricao": "Cláudio fala diferente com médico/advogado (formal) e com cliente 'mano' (descolado, brincadeira), mas a mensagem central é igual: resolve seu problema, sem enrolação.",
+      "exemplo_real": "Com cliente formal, usa linguagem polida. Com cliente que brinca primeiro, devolve a brincadeira. Nunca finge afiliação que não tem (recusou usar jargão religioso que não pratica, mesmo para fechar venda).",
+      "aplicar_em": "Em copy de anúncios segmentados, varia o tom por público (ex: casais vs. churrasco com amigos) mas mantém a mesma proposta de valor."
+    }
+  ],
+
+  "vocabulario": {
+    "usar": [
+      "chopp / shop (Cláudio usa os dois — 'shop' é o termo coloquial real, pode aparecer em copy mais informal de Stories)",
+      "entrega + instala + retira (sempre os três juntos — é o pacote completo)",
+      "consignado / sem risco",
+      "pronto pra servir",
+      "atende",
+      "resolve",
+      "garantia",
+      "churrasco, festa, evento, aniversário, casamento (linguagem de ocasião, não de produto)",
+      "domingo (quando confirmado operacionalmente)"
+    ],
+    "evitar": [
+      "premium / sofisticado (isso é papel da Serra Gerais, não da linha Pilsen de delivery)",
+      "o melhor chopp do Brasil / frases de efeito sem prova (identificado como erro de concorrente no cliente oculto: 'somos os melhores de Franca' sem justificar)",
+      "comparação direta com Antarctica/Brahma (citar concorrente no meio do argumento de venda já foi identificado como erro real — 'na hora que o cara ouve Antarctica e Brahma, ele já pensa em pedir uma Brahma')",
+      "jargão de marketing ('sinergia', 'experiência incrível', 'qualidade superior')",
+      "linguagem institucional de cervejaria grande",
+      "promessas operacionais não garantidas (ex: 'atende domingo' antes de resolver escala)"
+    ],
+    "nota_registro": "Cláudio varia entre formal e informal dependendo do cliente. A comunicação institucional (Instagram, anúncios, site) deve usar o registro médio: direto e caloroso, sem gíria pesada, mas sem formalidade corporativa."
+  },
+
+  "narrativa_de_marca": {
+    "historia_compartilhavel": "Cláudio saiu de um emprego de 12 anos no meio da pandemia para tocar o Colina sozinho, quando todo mundo estava fechando empresa. Hoje, mesmo com a demanda caindo em Orlândia, ele decidiu repetir a aposta: ir para uma cidade onde ainda não tem ninguém fazendo o que ele faz bem. A diferença entre ele e os concorrentes de cidades maiores (Bauru, Ribeirão, São José do Rio Preto) não é o produto — é que ele responde, ele resolve, ele tá lá.",
+    "frase_ancora": "'Eu sou melhor do que vocês três na venda' — não pela cidade, pelo jeito de atender.",
+    "uso_recomendado": "Pode virar Reel ou post de 'quem somos' nos Highlights — autenticidade vende mais que produção. Gravar o Cláudio falando isso com as próprias palavras, sem roteiro decorado."
+  },
+
+  "regras_por_canal": {
+    "instagram_feed_organico": {
+      "tom": "Direto, com CTA claro quando o post é de venda. CTA sutil, não botão de link automático (decisão tomada em reunião — botões automáticos ficam reservados para mídia paga).",
+      "formato_preferido": "Vídeo > foto estática (dado real: vídeo, especialmente mostrando o Cláudio ou o dia a dia, gera engajamento maior).",
+      "regra_cta": "Posts de evento/prato: CTA opcional. Posts de venda direta de chopp: CTA obrigatório ('leva o chope pra casa', 'reserva o seu').",
+      "evitar": "Arte institucional poluída visualmente, sem mensagem de venda clara — identificado como erro recorrente nos criativos atuais."
+    },
+    "whatsapp": {
+      "tom": "Consultivo primeiro, venda depois. Sempre 1-2 perguntas de diagnóstico antes do preço.",
+      "mensagem_padrao_referencia": "O valor do litro do chope é tanto, pegando barril de 30/50, a chopeira tá inclusa. A gente deixa pronto, instalado no cliente em 5 minutos.",
+      "regra_velocidade": "Responder o mais rápido possível mesmo fora de horário comercial — dado real do cliente oculto: 5 minutos de demora = -30% de chance de fechar; 20+ minutos = -95%.",
+      "regra_proximo_passo": "Nunca terminar conversa só com 'obrigado'. Sempre deixar um próximo passo (\"vou deixar reservado dois barris para você\", \"posso confirmar até as 18h?\").",
+      "separacao_canais": "Quando a operação de Franca estiver rodando, separar WhatsApp de choperia (reservas, horário restrito) do WhatsApp de distribuição/delivery (resposta rápida, qualquer horário)."
+    },
+    "anuncios_pagos": {
+      "tom": "Direto e segmentado por intenção, não institucional.",
+      "grupos_de_campanha_definidos": [
+        "Aniversariantes do mês (Meta Ads — segmentação por data)",
+        "Público de churrasco/chopp — foco em qualidade e instalação",
+        "Casamentos e eventos — foco em confiabilidade e consignação"
+      ],
+      "cta_recomendado": "'Leva o chope pra casa' / 'Reserva o seu barril' — linguagem de ação direta, não institucional.",
+      "evitar_citar_concorrente": "Nunca mencionar Antarctica/Brahma no copy — risco de o cliente lembrar do concorrente no momento de decisão."
+    }
+  },
+
+  "exemplos_antes_depois": [
+    {
+      "contexto": "Post de venda de barril",
+      "antes": "Melhores Porções + Melhor Chopp da cidade. Venha conferir!",
+      "depois": "Chopp gelado, chopeira instalada, sem dor de cabeça. Leva pra casa hoje — R$330 o barril de 30L. Chama no WhatsApp.",
+      "motivo": "Versão 'antes' é institucional e sem CTA de venda. Versão 'depois' tem produto, preço e ação clara."
+    },
+    {
+      "contexto": "Resposta a objeção de marca desconhecida",
+      "antes": "Somos os melhores de Franca!",
+      "depois": "Primeira vez aqui em Franca mesmo. Mas em Orlândia o pessoal fala que é o chopp que não dá dor de cabeça no dia seguinte. Testa.",
+      "motivo": "Frase de efeito sem prova foi identificada como erro real de concorrente (Ecobier) no cliente oculto. Versão corrigida usa prova social real."
+    },
+    {
+      "contexto": "Mensagem automática de boas-vindas no WhatsApp",
+      "antes": "Atenção amantes de chope! O mega desconto segue firme para deixar seu fim de semana ainda melhor.",
+      "depois": "Opa, boa tarde! Pra quantas pessoas é a festa? E pra qual data? Já te passo o tamanho certo do barril e o valor.",
+      "motivo": "Versão 'antes' é o erro real identificado num concorrente (Boreal) — mensagem genérica sem fazer pergunta de diagnóstico. Versão corrigida já inicia o atendimento consultivo."
+    }
+  ],
+
+  "alimenta_skills": ["ee-s3-landing-page", "ee-s3-copy-anuncios", "ee-s3-criativos-anuncios", "ee-s3-crm-setup"]
+}

@@ -1,0 +1,222 @@
+{
+  "client_name": "Mina Pizza",
+  "summary": "Posicionamento da Mina Pizza: PUV ancorada em 36 anos no mesmo local do Carrefour de São Vicente, ocupando o território 'Resistência + Bairro + Redescoberta' — único cruzamento de tradição e potencial digital maduro entre os concorrentes pesquisados. Tagline recomendada: 'Comida de verdade, no mesmo lugar de sempre.'",
+  "summary_headline": "Mina Pizza pode ocupar 'Tradição Redescoberta' — território vago entre os concorrentes pesquisados, mas a janela fecha se o atendimento não for corrigido antes de comunicar.",
+  "summary_highlights": [
+    {
+      "category": "posicao",
+      "label": "Território escolhido",
+      "value": "Resistência + Bairro + Redescoberta",
+      "subtext": "36 anos no mesmo lugar do Carrefour",
+      "tone": "blue"
+    },
+    {
+      "category": "competicao",
+      "label": "Território do líder digital",
+      "value": "Império da Pizza: Escala + Realeza",
+      "subtext": "43K seguidores, sem narrativa de tradição",
+      "tone": "gray"
+    },
+    {
+      "category": "janela",
+      "label": "Tempo até concorrência ocupar",
+      "value": "12-18 meses estimado",
+      "subtext": "Império/Big Família têm budget pra copiar a narrativa",
+      "tone": "yellow"
+    },
+    {
+      "category": "oportunidade",
+      "label": "ICP principal + ticket",
+      "value": "Marlene, 45+, R$30-58/pedido",
+      "subtext": "Cliente fiel de décadas, não turista novo",
+      "tone": "green"
+    },
+    {
+      "category": "risco",
+      "label": "Pior cenário",
+      "value": "Comunicar tradição sem corrigir atendimento",
+      "subtext": "Amplifica percepção de queda de qualidade",
+      "tone": "red"
+    }
+  ],
+  "summary_key_findings": [
+    {
+      "category": "vantagem",
+      "text": "36 anos no mesmo lugar, com clientes que citam décadas de relação nas próprias avaliações, é prova concreta que nenhum concorrente pesquisado consegue replicar rápido."
+    },
+    {
+      "category": "contexto",
+      "text": "Nenhum concorrente de pizza ou marmita pesquisado combina tradição de décadas com execução digital madura — é a única combinação vaga identificada na pesquisa de mercado da Semana 2."
+    },
+    {
+      "category": "ameaca",
+      "text": "Atendimento ríspido e inconsistência no prato do dia são a razão nº1 de churn segundo as próprias avaliações — comunicar tradição sem corrigir isso primeiro arrisca amplificar a queda de confiança em vez de reverter."
+    },
+    {
+      "category": "acao",
+      "text": "A mensagem funcional 'Comida de verdade' (já validada na Semana 1) segue como base até os quick wins operacionais (GMB, avaliações, WhatsApp) da SWOT serem executados — só depois liberar a mensagem emocional mais forte."
+    }
+  ],
+  "positioning_map": {
+    "axis_x": "Digital baixo → Digital maduro",
+    "axis_y": "Tradição recente → Tradição décadas",
+    "client_position": "NE",
+    "justification": "A Mina Pizza está migrando do quadrante NO (tradição alta, digital baixíssimo — onde está hoje de fato) para ocupar o NE (tradição alta + digital maduro) — o único cruzamento identificado na pesquisa de mercado (Semana 2) onde nenhum concorrente pesquisado, em pizza ou marmita, está presente. Império da Pizza, Big Família e os líderes de marmita ocupam o SE (digital maduro, mas tradição recente ou inexistente).",
+    "competitor_positions": [
+      {
+        "name": "Império da Pizza",
+        "quadrant": "SE"
+      },
+      {
+        "name": "Big Família",
+        "quadrant": "SE"
+      },
+      {
+        "name": "Caseirinha da Mãe / O Marmiteiro / Alecrim",
+        "quadrant": "SE"
+      }
+    ]
+  },
+  "positioning_statements": [
+    {
+      "label": "A Tradição Local",
+      "statement": "Para clientes que já conhecem o Carrefour de São Vicente, a Mina Pizza é a pizzaria e marmitaria de bairro que está no mesmo lugar há 36 anos, porque gerações inteiras de moradores já cresceram pedindo daqui.",
+      "justification": "Reforça a base fiel existente (Marlene) com o diferencial mais defensável — tempo de casa real, comprovado pelas próprias avaliações que citam décadas de relação.",
+      "bet": "Prioriza retenção e prova social sobre aquisição agressiva de público novo.",
+      "risk": "Pode soar 'parado no tempo' se a comunicação não mostrar também presença digital viva."
+    },
+    {
+      "label": "A Redescoberta",
+      "statement": "Para moradores de São Vicente e visitantes de fim de semana da Baixada Santista, a Mina Pizza é a pizzaria (e marmitaria) mais tradicional da praça de alimentação do Carrefour, porque está no mesmo lugar há 36 anos, com clientes que já pedem daqui há mais de três décadas.",
+      "justification": "Ocupa diretamente o único território vago identificado na pesquisa de mercado — tradição de décadas + potencial digital maduro — usando prova social real (avaliações que citam '35 anos frequentando') como evidência. Serve tanto a retenção (Marlene reconhece a história) quanto a aquisição (turista descobre algo que já existia).",
+      "bet": "Aposta em contar a história de tradição de forma ativa pela primeira vez, via canais digitais que hoje estão praticamente mudos.",
+      "risk": "Exige execução rápida e consistente (GMB, Instagram, avaliações) pra não virar discurso vazio — se a presença digital continuar fraca, a promessa de 'redescoberta' não se sustenta."
+    },
+    {
+      "label": "O Point Prático do Carrefour",
+      "statement": "Para quem está com fome dentro ou perto do Carrefour de São Vicente, a Mina Pizza é o point rápido e de confiança pra resolver a refeição sem crise, porque já faz parte da rotina de quem mora ou trabalha ali há décadas.",
+      "justification": "Foca no job funcional mais imediato (resolver fome rápido) e serve bem o segmento secundário Jailson (trabalhador, baixa lealdade, decide por conveniência).",
+      "bet": "Prioriza conversão rápida e conveniência sobre construção de marca diferenciada.",
+      "risk": "É o território mais genérico dos três — qualquer concorrente de praça de alimentação pode reivindicar 'rápido e prático', reduzindo a defensabilidade a médio prazo."
+    }
+  ],
+  "chosen_statement": "Para moradores de São Vicente e visitantes de fim de semana da Baixada Santista, a Mina Pizza é a pizzaria (e marmitaria) mais tradicional da praça de alimentação do Carrefour, porque está no mesmo lugar há 36 anos, com clientes que já pedem daqui há mais de três décadas.",
+  "puv": "A Mina Pizza serve o mesmo point do Carrefour de São Vicente há 36 anos — o tipo de lugar que cliente já frequenta há décadas e recomenda sem pensar duas vezes.",
+  "bio_slogan": {
+    "recommended": "36 anos. Comida de verdade.",
+    "alternative": "O point de sempre, há 36 anos.",
+    "justification": "Versão curta pra bio do Instagram e assinatura — reaproveita o número (prova concreta) e a mensagem-chave 'Comida de verdade' já validada na Semana 1, sem repetir a PUV completa."
+  },
+  "canvas_4p": {
+    "product": {
+      "delivers": "Não vendemos só pizza, marmita ou pastel — vendemos o point de confiança de quem já não precisa decidir onde comer perto do Carrefour, porque a resposta já existe há 36 anos.",
+      "transformation": "ANTES: cliente com fome no meio das compras do Carrefour, sem querer arriscar em lugar novo ou repetir má experiência recente. DEPOIS: pede de um lugar que ele (ou a região) já confia há décadas, com comida consistente e atendimento que reconhece quem ele é.",
+      "doesnt_deliver": "Não somos um restaurante de ambiente silencioso e sofisticado — somos PDV de praça de alimentação, rápido e sem luxo. E não vamos prometer 'do jeito que você lembra' até corrigir o atendimento por telefone e a consistência do prato do dia — isso vem antes de qualquer promessa emocional."
+    },
+    "price": {
+      "positioning": "mid-market",
+      "justification": "Preço alinhado ao bairro e ao público fiel — não é o preço que afasta hoje (elasticidade baixa no cliente fiel), é a percepção de queda de qualidade sem contrapartida. Comunicar preço só depois de garantir consistência, nunca isolado.",
+      "anchoring": "Ancorar pelo tempo de casa, não pelo desconto: '36 anos cobrando o preço justo de sempre' em vez de comparação direta com concorrente."
+    },
+    "place": {
+      "main_channel": "iFood + Google Meu Negócio corrigido",
+      "main_channel_justification": "É onde o ICP principal (Marlene) já busca e onde a prova social já existe organicamente (4,8★/54 no iFood); antes de qualquer mídia paga, o básico desses dois canais precisa estar impecável (SWOT: prioridade WT1).",
+      "support_channel": "WhatsApp Business (ainda não ativado) — ponte entre o hábito do telefone e a confiabilidade que falta hoje.",
+      "avoid_channels": [
+        {
+          "channel": "TikTok Ads",
+          "reason": "ICP principal tem 45+ anos e não é o público do formato; produção de vídeo não é prioridade quando o básico (GMB, avaliações) ainda está quebrado."
+        },
+        {
+          "channel": "LinkedIn Ads",
+          "reason": "Produto é B2C local de baixo ticket — canal irrelevante para o modelo de negócio."
+        }
+      ]
+    },
+    "promotion": {
+      "tone": "Simples e direto, sem infantilização — tom de pizzaria de bairro, maduro, adequado ao público de São Vicente (conforme brand.voice_tone do briefing).",
+      "top_funnel_message": "Ainda tem gente que não sabe que a Mina Pizza está aqui há 36 anos, no mesmo lugar dentro do Carrefour.",
+      "bottom_funnel_message": "Comida de verdade, do jeito que sempre foi — peça agora pelo iFood ou WhatsApp."
+    }
+  },
+  "brand_territory": {
+    "three_words": [
+      "Resistência",
+      "Bairro",
+      "Redescoberta"
+    ],
+    "description": "Mina Pizza não é 'mais uma pizzaria nova tentando conquistar espaço' — é quem já está no mesmo lugar há 36 anos, com clientes que citam décadas de relação nas próprias avaliações. Não é nostalgia parada no tempo: é tradição real sendo redescoberta agora, por canais digitais que a marca nunca usou de verdade até hoje.",
+    "competitor_territories": [
+      {
+        "competitor": "Império da Pizza",
+        "territory": "Escala + Realeza + Diversão"
+      },
+      {
+        "competitor": "Big Família",
+        "territory": "Praticidade + Família + Execução"
+      },
+      {
+        "competitor": "Líderes de marmita (Caseirinha da Mãe, O Marmiteiro, Alecrim)",
+        "territory": "Caseiro + Conveniência + Volume"
+      }
+    ],
+    "availability_justification": "Nenhum concorrente pesquisado, em pizza ou marmita, combina os 3 ao mesmo tempo — o diferencial é documentado (avaliações reais citando décadas de relação, fundação em 1989), não aspiracional."
+  },
+  "taglines": [
+    {
+      "tagline": "36 anos no mesmo lugar. Ainda tem gente descobrindo.",
+      "tone": "Redescoberta / orgulho discreto",
+      "justification": "Comunica o território de forma factual e verificável, sem prometer nada emocional — funciona como convite pra quem ainda não conhece.",
+      "best_use": "Site, capa do Instagram, anúncios de awareness"
+    },
+    {
+      "tagline": "Comida de verdade, no mesmo lugar de sempre.",
+      "tone": "Funcional + tradição",
+      "justification": "Reaproveita a mensagem-chave já validada na Semana 1 ('Comida de verdade.') — mantém consistência entre entregas e não faz nenhuma promessa emocional arriscada enquanto o atendimento não estiver corrigido.",
+      "best_use": "Assinatura, bio, anúncios de conversão"
+    },
+    {
+      "tagline": "36 anos. O point de sempre.",
+      "tone": "Direto / prova de tempo",
+      "justification": "Combina o número (prova concreta) com a mensagem alternativa 'O point de sempre' já mapeada no ICP da Semana 1 — boa opção pra reforço institucional sem depender de comparação com concorrente.",
+      "best_use": "Anúncios institucionais, posts de aniversário/data comemorativa"
+    }
+  ],
+  "recommended_tagline": "Comida de verdade, no mesmo lugar de sempre.",
+  "operator_direction": {
+    "strongest_differential": "36 anos no mesmo local, comprovado por avaliações reais que citam décadas de relação — a confirmar com o Roberto se esse é o diferencial que ele sente mais forte no dia a dia, ou se é a comida (pastel) que ele destacaria primeiro.",
+    "desired_position": "Ocupar o quadrante 'Tradição alta + Maturidade digital alta' — vago entre os concorrentes pesquisados.",
+    "positioning_restrictions": [
+      "Não comunicar como experiência gourmet/sofisticada (anti-persona já mapeada)",
+      "Não prometer 'do jeito que você lembra' até atendimento e consistência de tempero serem corrigidos",
+      "Não usar comparação com fechamento de concorrentes como argumento de venda"
+    ],
+    "desired_tone": "Simples e direto, sem infantilização — conforme brand.voice_tone do briefing"
+  },
+  "key_insight": {
+    "headline": "O território 'Tradição Redescoberta' está vago — mas fecha assim que Império da Pizza ou Big Família decidirem contar uma história de décadas que elas não têm.",
+    "context": "Nenhum concorrente pesquisado combina tradição de 36+ anos com execução digital madura. A vantagem da Mina Pizza é real e documentada (avaliações reais citando décadas de relação, fundação em 1989), mas hoje está invisível digitalmente — ninguém conta essa história.",
+    "numbered_reasons": [
+      "(1) Nenhum concorrente em pizza ou marmita pesquisado comunica história de décadas — é lacuna de narrativa, não de produto.",
+      "(2) A prova já existe e é gratuita de usar: 113 avaliações no Google e 47 no iFood, muitas citando explicitamente décadas de relação com a casa.",
+      "(3) A janela fecha rápido se um concorrente com mais budget perceber o mesmo vácuo — o Império já tem escala pra 'comprar' uma narrativa de tradição via storytelling, mesmo sem ter os 36 anos reais."
+    ],
+    "discussion_anchor": "Antes de aprovar qualquer criativo ou campanha, Roberto precisa decidir: vamos comunicar os 36 anos AGORA (mesmo com atendimento ainda inconsistente) ou esperar corrigir a operação primeiro? Esperar demais entrega esse território de graça pro Império ou pro Big Família.",
+    "feasibility": "alta — diferencial é verdadeiro, documentado, e de baixo custo pra comunicar (não exige investimento em produto, só em narrativa e canais)."
+  },
+  "honesty_alert": "O território é verdadeiro e sustentável, mas a mensagem emocional mais forte ('do jeito que você lembra') continua arriscada enquanto atendimento por telefone e consistência do prato do dia não forem corrigidos — comunicar tradição sem isso pode amplificar a percepção de queda de qualidade em vez de reforçar confiança. A PUV e o território aqui focam em localização/resistência (sustentáveis mesmo hoje), não em prometer experiência perfeita — mas a Semana 3 (produção) não deve usar a mensagem emocional até a operação confirmar a correção.",
+  "completed_at": "2026-07-18T21:00:00Z",
+  "refined_in": "ee-revisao-semanal",
+  "_refinement_history": [
+    {
+      "ts": "2026-07-20T10:30:00Z",
+      "review": "ee-revisao-semanal",
+      "semana": 2,
+      "updates": [
+        "U1"
+      ],
+      "evolutions_applied": [],
+      "note": "Rating do iFood atualizado de 4,7★/47 avaliações para 4,8★/54 (total combinado com Google de 160 para 167), com base em print real mais recente enviado pelo operador."
+    }
+  ]
+}

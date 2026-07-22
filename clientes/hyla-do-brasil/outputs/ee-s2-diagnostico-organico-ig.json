@@ -1,0 +1,105 @@
+{
+  "client_name": "Hyla do Brasil",
+  "skill": "ee-s2-diagnostico-organico-ig",
+  "generated_at": "2026-07-08",
+  "data_source": "Apresentação de design de Natália Terciotti (S3, 08/07/2026) + complemento de social media de Geovanna Mohr (mesma reunião) + transcrição ao vivo + client.json (pesquisas ad-hoc de concorrentes já realizadas: ad-hoc-pesquisa-concorrente-rainbow, ad-hoc-pesquisa-concorrente-vivenso). Sem acesso à Instagram Graph API (business_discovery) nesta rodada — métricas quantitativas (seguidores exatos, posts/90d, engajamento por post, distribuição de formato) marcadas como indisponíveis onde não há dado real.",
+
+  "summary": "O Instagram oficial da Hyla (@hyladobrasiloficial) já tem os dois ativos mais difíceis de construir — fotografia de boa qualidade com luz natural e um hábito consistente de responder comentários (bom para o algoritmo do Meta) — mas carece de um sistema de identidade visual que amarre tudo: sem o logotipo, é difícil identificar rapidamente que um post é da Hyla. Destaques desatualizados, excesso de influenciadores nos stories, e identidade que desaparece em datas comemorativas são os pontos de ajuste mais rápidos. Rainbow (~19 mil seguidores) e Vivenso (~25 mil) estão abaixo da Hyla (~47-49 mil) em audiência, mas nenhum dos três executa ainda a linguagem 'quiet luxury' que a Hyla Internacional acabou de validar — janela de diferenciação aberta.",
+
+  "summary_headline": "Hyla já lidera em audiência e tem ativos fortes (fotografia, resposta a comentários) — falta o sistema visual que transforma isso em identidade reconhecível.",
+
+  "summary_highlights": [
+    { "category": "posicao", "label": "Seguidores @hyladobrasiloficial", "value": "~47-49 mil", "subtext": "Maior audiência entre os 3 concorrentes diretos analisados", "tone": "green" },
+    { "category": "competicao", "label": "Rainbow (@gruporainbowbrasil)", "value": "~19 mil", "subtext": "Menor audiência apesar de 30 anos de mercado — presença fragmentada em vários perfis regionais", "tone": "blue" },
+    { "category": "competicao", "label": "Vivenso", "value": "~25 mil", "subtext": "Entre Rainbow e Hyla", "tone": "blue" },
+    { "category": "risco", "label": "Reconhecimento sem logo", "value": "Baixo", "subtext": "Sem o logotipo, difícil identificar que um post é da Hyla — falta sistema visual unificador", "tone": "red" },
+    { "category": "maturidade", "label": "Dados quantitativos de engajamento", "value": "Indisponível", "subtext": "Requer Instagram Graph API ou export de Insights — não coletado nesta rodada", "tone": "gray" }
+  ],
+
+  "summary_key_findings": [
+    { "category": "vantagem", "text": "A Hyla já tem a maior audiência entre os concorrentes diretos analisados (~47-49 mil vs ~19-25 mil), fotografias avaliadas como diferencial (luz natural, ambientes reais) e um hábito consistente de responder comentários — sinal positivo para a distribuição orgânica no algoritmo do Meta." },
+    { "category": "ameaca", "text": "Sem um sistema visual (tipografia, paleta, composição) que una as peças, o reconhecimento da marca depende quase inteiramente do logotipo — o oposto do objetivo da nova identidade internacional." },
+    { "category": "contexto", "text": "O Instagram está migrando para uma experiência 'vídeo-primeiro' (já em teste beta em algumas contas, abrindo direto nos Reels) — reforça a recomendação de priorizar vídeo sobre posts estáticos, mantendo estáticos para conteúdo institucional/educativo com frequência maior para não se perderem no feed." },
+    { "category": "acao", "text": "Ajustes rápidos e de baixo esforço: atualizar destaques desatualizados, reduzir para no máximo 2 vídeos por influenciador nos destaques (hoje excesso de conteúdo torna a navegação cansativa), e usar capas de vídeo como ferramenta de identidade visual, já que aplicar a identidade dentro do próprio vídeo é mais difícil." }
+  ],
+
+  "client_account": {
+    "username": "hyladobrasiloficial",
+    "followers_count": 48000,
+    "followers_count_estimated": true,
+    "posts_90d": null,
+    "unavailable_reason": "Contagem exata de seguidores, posts no período e métricas de engajamento por post requerem Instagram Graph API (business_discovery) ou export manual do Instagram Insights — não coletado nesta rodada. Seguidores usam a faixa já estabelecida no briefing (47-49 mil), não reverificada nesta sessão."
+  },
+
+  "competitor_accounts": [
+    {
+      "name": "Grupo Rainbow",
+      "username_note": "Maior conta identificada na pesquisa ad-hoc: @gruporainbowbrasil (handle não reverificado nesta sessão)",
+      "followers_count": 19000,
+      "followers_count_estimated": true,
+      "posts_90d": null,
+      "source_note": "Número de ad-hoc-pesquisa-concorrente-rainbow (client.json history) — presença fragmentada em 5+ contas regionais, esta é a maior."
+    },
+    {
+      "name": "Vivenso (Pro-Aqua)",
+      "username_note": "Handle exato não confirmado nesta sessão",
+      "followers_count": 25000,
+      "followers_count_estimated": true,
+      "posts_90d": null,
+      "source_note": "Número de ad-hoc-pesquisa-concorrente-vivenso (client.json history)."
+    }
+  ],
+
+  "format_distribution": {
+    "by_account": [],
+    "unavailable_reason": "Distribuição por formato (estático/carrossel/Reels/vídeo) requer acesso à API do Instagram — não coletado nesta rodada.",
+    "insight": "Qualitativamente, o time já confirmou que estáticos performam mal hoje ('a pessoa acaba passando ali, nem curtiu') e que a demanda é predominantemente por vídeo — inclusive pela facilidade de reaproveitar conteúdo gerado por associados."
+  },
+
+  "cadence": {
+    "by_account": [],
+    "unavailable_reason": "Cadência de publicação (posts/semana, dia e horário preferidos) requer acesso à API do Instagram — não coletado nesta rodada.",
+    "insight": "Postagens diárias já confirmadas como prática atual do time (Geovanna: 'muito bom isso para manter o engajamento de forma padrão')."
+  },
+
+  "engagement_benchmark": {
+    "by_account": [],
+    "unavailable_reason": "Likes médios, comentários médios e taxa de engajamento requerem acesso à API do Instagram — não coletado nesta rodada."
+  },
+
+  "client_winning_patterns": [
+    { "pattern": "Fotografia com luz natural e ambientes reais", "seen_in_count": null, "recommendation": "Manter e ampliar — avaliado como diferencial frente a Rainbow (que usa muita imagem gerada por IA com aspecto artificial) e Vivenso." },
+    { "pattern": "Resposta consistente a comentários", "seen_in_count": null, "recommendation": "Manter — sinal positivo para o algoritmo do Meta (Instagram e Facebook), que entende isso como perfil engajado com a audiência." },
+    { "pattern": "Bio clara e bem estruturada, já diferenciando conta oficial de perfis de associados", "seen_in_count": null, "recommendation": "Manter — Geovanna destacou como ponto raramente elogiado em diagnósticos ('normalmente é o ponto que eu mais trago críticas')." },
+    { "pattern": "Volume alto de vídeos gerados por associados (demonstrações reais)", "seen_in_count": null, "recommendation": "Ativo competitivo único — nenhum concorrente tem uma rede de associados gerando esse volume de conteúdo autêntico. Ampliar incentivo para associados postarem, já que gera resultado comercial direto relatado (leads chegando diretamente para a associada que postou)." }
+  ],
+
+  "competitor_patterns_missing": [
+    {
+      "pattern": "Linguagem visual 'quiet luxury' consistente (espaço negativo, fotografia editorial, uma mensagem por peça)",
+      "seen_in_count": null,
+      "seen_in_competitors": [],
+      "why_works": "Nenhum concorrente direto (Rainbow, Vivenso) executa essa linguagem hoje — ambos ainda comunicam por excesso de informação e repetição de cor/produto, não por sistema visual. A referência real está na Hyla Internacional, não nos concorrentes locais.",
+      "how_to_apply": "Adotar o conceito antes mesmo do manual oficial chegar (13/08): menos elementos gráficos, mais espaço negativo, uma ideia central por post — ver ee-s3-identidade-visual."
+    }
+  ],
+
+  "next_actions": [
+    { "priority": 1, "action": "Atualizar destaques do perfil (muitos são muito antigos) e reduzir para no máximo 2 vídeos por influenciador nos destaques de recomendação", "impact": "alto", "effort": "baixo" },
+    { "priority": 2, "action": "Selecionar influenciadores mais atuais/relevantes — os hoje presentes nos destaques têm baixa relevância atual nas redes", "impact": "medio", "effort": "medio" },
+    { "priority": 3, "action": "Priorizar Reels/vídeo sobre posts estáticos, acompanhando a mudança do Instagram para experiência 'vídeo-primeiro' (já em teste beta)", "impact": "alto", "effort": "medio" },
+    { "priority": 4, "action": "Manter posts estáticos institucionais e educativos (quebram objeções), mas aumentar a frequência para não se perderem entre os vídeos", "impact": "medio", "effort": "baixo" },
+    { "priority": 5, "action": "Aplicar identidade visual via capa dos vídeos (já que aplicar dentro do vídeo em si é mais difícil — depende do ambiente/cenário de cada demonstração)", "impact": "medio", "effort": "baixo" },
+    { "priority": 6, "action": "Manter identidade visual presente mesmo em posts de datas comemorativas — hoje a identidade desaparece completamente nesses posts", "impact": "medio", "effort": "baixo" },
+    { "priority": 7, "action": "Cuidado com conteúdo viral genérico (trends) que atrai lead curioso fora do ICP (ex.: público jovem/recém-casado financiando apartamento) em vez da persona real da Hyla", "impact": "medio", "effort": "baixo" }
+  ],
+
+  "honesty_alert": "Este diagnóstico é qualitativo, baseado na análise da designer (Natália) e da gestora de social media (Geovanna) apresentada ao cliente em 08/07/2026 — não em dados quantitativos extraídos via API do Instagram. Seguidores da Hyla e dos 2 concorrentes usam números já estabelecidos em pesquisas anteriores deste projeto (marcados estimated:true), não reverificados nesta sessão. Métricas de engajamento, distribuição de formato, cadência de publicação e posts individuais (top/bottom por engajamento) não estão disponíveis — para completar esse diagnóstico com dados quantitativos reais, seria necessário acesso à Instagram Graph API (business_discovery) ou um export manual do Instagram Insights, similar ao que o operador já forneceu para o diagnóstico de mídia paga (Google Ads/Meta Ads) e para o GA4.",
+
+  "alimenta_skills": [
+    "ee-s3-identidade-visual",
+    "ee-s3-brandbook",
+    "ee-s3-criativos-anuncios",
+    "ee-revisao-semanal"
+  ]
+}

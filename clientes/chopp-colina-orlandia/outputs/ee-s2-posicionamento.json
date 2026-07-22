@@ -1,0 +1,102 @@
+{
+  "skill": "ee-s2-posicionamento",
+  "cliente": "Chopp Colina Orlandia",
+  "gerado_em": "2026-05-17",
+
+  "manchete": "O Colina não vai ganhar de Antarctica na força de marca. Vai ganhar sendo o distribuidor que entrega pronto, atende no domingo e deixa você experimentar sem risco — coisas que a Rizatti nunca vai fazer.",
+
+  "posicionamento": {
+    "modelo": "Distribuidor de chopp de referência em serviço — compete na experiência completa, não em preço mínimo nem reconhecimento de marca.",
+    "territorio": "Próximo, prestativo, competente. Como um fornecedor de confiança que você pode ligar no domingo. Sem corporativismo.",
+    "antitese": "O oposto de distribuidora que entrega e some. O oposto de Antarctica via app sem ninguém para instalar. O oposto de concorrente que não atende no domingo."
+  },
+
+  "puv": {
+    "completa": "Chopp Colina — qualidade reconhecida, entregue e instalado na sua casa ou evento. O único distribuidor em Franca que atende no domingo e deixa o barril consignado para você experimentar sem risco.",
+    "curta": "O chopp que não te deixa na mão — nem no domingo.",
+    "stories": "Chopp Colina: entrega, instala, atende domingo. R$330 o barril de 30L."
+  },
+
+  "pilares": [
+    {
+      "id": 1,
+      "nome": "Pronto para servir",
+      "o_que_e": "Instalação, asseio e refrigeração garantidos na entrega",
+      "o_que_cliente_ouve": "Chega e já pode servir. Sem dor de cabeça.",
+      "status_comunicacao": "não comunicado — zero conteúdo de instalação no Instagram"
+    },
+    {
+      "id": 2,
+      "nome": "Atende no domingo",
+      "o_que_e": "Único distribuidor de barril em Franca com atendimento confirmado aos domingos",
+      "o_que_cliente_ouve": "Liguei no domingo e atenderam — isso não acontecia antes.",
+      "status_comunicacao": "não comunicado em nenhum touchpoint",
+      "alerta": "Resolver escala operacional de domingo ANTES de comunicar"
+    },
+    {
+      "id": 3,
+      "nome": "Experimenta sem risco",
+      "o_que_e": "Consignação: você paga só o que consumir. Primeiro pedido sem compromisso total.",
+      "o_que_cliente_ouve": "Nunca ouvi falar? Tudo bem — testa primeiro.",
+      "status_comunicacao": "consignação existe mas nunca foi comunicada como benefício"
+    },
+    {
+      "id": 4,
+      "nome": "Qualidade percebida",
+      "o_que_e": "Chopp sem dor de cabeça no dia seguinte — feedback orgânico de Orlândia, não argumento de vendedor",
+      "o_que_cliente_ouve": "Parece lenda, mas faz diferença no dia seguinte.",
+      "status_comunicacao": "está só na boca do cliente, nunca na comunicação digital"
+    }
+  ],
+
+  "canvas_4p": {
+    "produto": {
+      "linha_principal": [
+        { "produto": "Barril Colina Pilsen 30L + chopeira", "preco": 330, "incluso": "entrega, instalação, retirada" },
+        { "produto": "Barril Colina Pilsen 50L + chopeira", "preco": 550, "incluso": "entrega, instalação, retirada" },
+        { "produto": "Locação avulsa chopeira", "preco": 150 }
+      ],
+      "linha_eventos": [
+        { "produto": "Trave congelada", "preco": "grátis (mín. 300L) / R$500 evento menor" }
+      ],
+      "linha_premium": ["Serra Gerais IPA", "Serra Gerais Lager", "Serra Gerais Witbier"],
+      "nao_faz": ["Entregas abaixo de 30L", "Bares com comodato Ambev ativo"]
+    },
+    "preco": {
+      "preco_litro": 11.0,
+      "posicionamento": "Meio do mercado — acima da revenda informal (R$9,90/L sem instalação), abaixo do premium de bar",
+      "argumento_anti_preco": "O preço inclui a chopeira, a entrega, a instalação e a retirada. Você não paga nada separado.",
+      "regra": "Não competir por preço mínimo. Se o cliente compara só R$/L com revenda sem nota, não é o ICP."
+    },
+    "praca": {
+      "orlandia": "Delivery B2C + choperia + eventos (atual)",
+      "franca": "Delivery B2C + eventos (lançamento — sem bar)",
+      "canais_entrada": ["Instagram → WhatsApp (principal)", "Google Meu Negócio (descoberta local)", "Visita comercial (B2B)", "Indicação (eventos)"],
+      "estrategia_franca": "Dominar 2-3 bairros âncora antes de expandir para a cidade toda. Prioridade: bairros próximos ao ponto comercial + Jardim Francano (Empório A Venda)."
+    },
+    "promocao": {
+      "tom": "Próximo, direto, prestativo. Como um vizinho que entende de chopp.",
+      "faz": ["Fotos de barril sendo entregue e instalado", "Depoimentos reais ('sem dor de cabeça')", "Posts de 'atendemos domingo'", "Calculadora de volume", "Bastidores: higienização de equipamento"],
+      "nao_faz": ["Agenda de shows como conteúdo principal de delivery", "Linguagem de grande marca", "Comparação direta com Ambev/Antarctica", "Promessas operacionais não garantidas"]
+    }
+  },
+
+  "mensagens_por_touchpoint": {
+    "instagram_stories": "Chopp Colina na sua casa. 30L com chopeira — R$330. Entregamos, instalamos, buscamos depois. Atendemos domingo. 📲 Chama no WhatsApp.",
+    "whatsapp_boas_vindas": "Olá! Aqui é o Cláudio da Colina Chopp 🍺. Para quanto tempo e quantas pessoas é o evento? Com essa informação já te passo o tamanho certo do barril e o valor.",
+    "gmb_franca_descricao": "Distribuidora de Chopp Colina em Franca — delivery de barril para churrascos, festas e eventos. Chopeira inclusa, entrega e instalação. Atendemos domingo.",
+    "abordagem_b2b": "O chopp Colina tem margem melhor que cerveja em lata e os clientes bebem mais. A gente instala a chopeira, faz a manutenção e repõe quando precisar. Quer experimentar um barril sem compromisso?",
+    "eventos_grandes": "Para festa de 50 a 150 pessoas, a gente calcula o volume exato, leva a trave congelada e deixa um barril extra consignado. Você só paga o que consumir."
+  },
+
+  "objecoes_e_respostas": [
+    { "objecao": "Prefiro Antarctica — conheço a marca", "resposta": "Entendo. A gente deixa um barril consignado pro seu evento. Você experimenta e decide. Se não gostar, não cobra nada pelo que sobrou." },
+    { "objecao": "Achei mais barato em outro lugar", "resposta": "O preço da gente inclui a chopeira, a entrega e a instalação. Você paga quanto de locação de chopeira no outro? E a entrega?" },
+    { "objecao": "Nunca ouvi falar do Colina em Franca", "resposta": "É a primeira vez aqui em Franca mesmo. Mas nossos clientes em Orlândia falam que é o chopp que não dá dor de cabeça no dia seguinte. Experimenta." },
+    { "objecao": "Domingo tem quem entrega?", "resposta": "A gente atende domingo de manhã. Pode mandar mensagem até às 14h." }
+  ],
+
+  "alerta_operacional": "O pilar 'Atende no domingo' precisa ser resolvido operacionalmente ANTES de ser comunicado. Cláudio mencionou nos áudios de 14/05 que o funcionário tem direito a folga de domingo por mês. Resolver a escala (Cláudio cobre? Plantão rotativo?) antes de lançar o diferencial na comunicação.",
+
+  "alimenta_skills": ["ee-s3-brandbook", "ee-s3-landing-page", "ee-s3-copy-anuncios", "ee-s2-diagnostico-midia"]
+}

@@ -1,0 +1,250 @@
+{
+  "client_name": "FROC — Frutas Desidratadas",
+  "skill": "ee-s2-posicionamento",
+  "generated_at": "2026-05-05",
+  "data_source": "ee-s1-persona-icp + ee-s1-swot + ee-s2-pesquisa-mercado + kickoff + briefing",
+  "nota_metodologica": "Posicionamento B2B industrial — lógica diferente do B2C. O 'cliente' é uma empresa comprando insumo para seu processo produtivo. O argumento não é emocional — é operacional: consistência, documentação, velocidade e risco zero de teste.",
+
+  "summary": "A FROC se posiciona como o fornecedor especializado de maçã desidratada que elimina a principal barreira do B2B industrial: o risco de testar um fornecedor novo. Amostra grátis + processo sem conservantes + entrega em 2 dias formam a tríade que derruba as três objeções centrais dos dois ICPs. A PUV é diferente por segmento, mas o território de marca é único: 'o fornecedor que facilita sua vida, não complica'.",
+
+  "summary_headline": "FROC é o único fornecedor de maçã desidratada que você testa sem pagar — e que entrega documentação pronta para sua qualidade aprovar.",
+
+  "summary_highlights": [
+    {
+      "category": "posicao",
+      "label": "Modelo de posicionamento",
+      "value": "Fornecedor especializado",
+      "subtext": "B2B — facilidade + confiabilidade + velocidade",
+      "tone": "blue"
+    },
+    {
+      "category": "posicao",
+      "label": "Diferencial #1",
+      "value": "Amostra grátis",
+      "subtext": "Único no mercado — elimina risco de teste",
+      "tone": "green"
+    },
+    {
+      "category": "posicao",
+      "label": "Diferencial #2",
+      "value": "Sem conservantes",
+      "subtext": "Por processo, não por escolha — argumento técnico real",
+      "tone": "green"
+    },
+    {
+      "category": "posicao",
+      "label": "Território de marca",
+      "value": "Direto e técnico",
+      "subtext": "Sem firula. Fala a língua do comprador.",
+      "tone": "blue"
+    },
+    {
+      "category": "risco",
+      "label": "Erro a evitar",
+      "value": "Falar para o consumidor",
+      "subtext": "Toda comunicação deve ser para o comprador B2B",
+      "tone": "red"
+    },
+    {
+      "category": "oportunidade",
+      "label": "PUV por LP",
+      "value": "2 mensagens distintas",
+      "subtext": "Pet food ≠ Alimentação humana — nunca misturar",
+      "tone": "green"
+    }
+  ],
+
+  "summary_key_findings": [
+    {
+      "category": "vantagem",
+      "text": "A amostra grátis não é só um benefício — é o próprio posicionamento. Em um mercado B2B onde qualquer comprador racional resiste a testar fornecedor novo, a FROC elimina essa resistência antes da conversa de preço começar. Isso é diferenciação estrutural, não tática."
+    },
+    {
+      "category": "ameaca",
+      "text": "O maior risco de posicionamento da FROC é manter a comunicação atual (B2C/snacks) nas novas peças por inércia ou comodidade. Qualquer anúncio, LP ou post que fale 'alimentos saudáveis para você' em vez de 'ingrediente para sua linha de produção' é dinheiro jogado fora."
+    },
+    {
+      "category": "contexto",
+      "text": "Para o ICP pet food (Rafael), o argumento de posicionamento é operacional: consistência de qualidade, entrega rápida e sem risco de teste. Para o ICP alimentação humana (Camila), é técnico-documental: APPCC, laudo microbiológico, rastreabilidade de origem. A mesma empresa, dois posicionamentos de entrada."
+    },
+    {
+      "category": "acao",
+      "text": "A origem 'São Joaquim — capital da maçã' precisa estar em todas as peças como âncora de credibilidade. Para um comprador que nunca ouviu falar da FROC, 'fabricante em São Joaquim, SC' comunica mais confiança do que qualquer promessa — é como dizer que o vinho é de Bordeaux."
+    }
+  ],
+
+  "puv": {
+    "versao_completa": "Fornecedor especializado de maçã desidratada sem conservantes de São Joaquim — amostra grátis para qualificar, documentação técnica pronta para homologar e entrega em 2 dias quando você precisar.",
+    "versao_curta": "O fornecedor de maçã desidratada que você testa antes de comprar — e que entrega no prazo, sempre.",
+    "versao_headline_pet": "Maçã desidratada sem conservantes para ração premium — amostra grátis, entrega em 2 dias.",
+    "versao_headline_alimentacao": "Maçã desidratada de São Joaquim para indústria alimentícia — amostra técnica grátis, documentação APPCC disponível.",
+    "justificativa": "O ICP B2B tem três objeções para fornecedor novo: (1) risco de qualidade ruim, (2) risco de entrega atrasada, (3) risco de processo de homologação lento. A PUV derruba as três: amostra grátis elimina o risco de qualidade, entrega em 2 dias elimina o risco de prazo, e documentação pronta elimina o risco de homologação.",
+    "pilares": [
+      {
+        "pilar": "Teste sem risco",
+        "argumento_tecnico": "Amostra de 200-500g enviada sem custo — cliente valida qualidade antes de qualquer pedido",
+        "traducao_para_o_comprador": "Você não precisa confiar em nós. Teste primeiro. A amostra é grátis.",
+        "diferencial_competitivo": "Polpa Brasil (principal concorrente no nicho pet) cobra pela amostra",
+        "icp_primario": "Rafael e Camila"
+      },
+      {
+        "pilar": "Ingrediente limpo com argumento técnico",
+        "argumento_tecnico": "Processo de desidratação com tempo corte-secagem < 1 minuto elimina necessidade de conservantes ou clarificantes quimicamente",
+        "traducao_para_o_comprador": "Pet food: 'maçã sem conservantes no rótulo da sua ração'. Alimentação humana: 'ingrediente natural que passa na sua auditoria de qualidade'.",
+        "diferencial_competitivo": "Não é uma escolha de marketing — é uma consequência do processo. Argumento técnico verificável.",
+        "icp_primario": "Camila (homologação) e Rafael (rótulo da ração)"
+      },
+      {
+        "pilar": "Velocidade de entrega",
+        "argumento_tecnico": "Produto em estoque com entrega em 2 dias após pedido + opção de pagamento 30-120 dias",
+        "traducao_para_o_comprador": "Linha de produção não para por falta de ingrediente. E o prazo de pagamento acomoda seu fluxo de caixa.",
+        "diferencial_competitivo": "Entrega em 2 dias é superior à maioria dos fornecedores de ingredientes industriais",
+        "icp_primario": "Rafael"
+      },
+      {
+        "pilar": "Origem rastreável",
+        "argumento_tecnico": "São Joaquim, SC — capital nacional da maçã. 34% da produção brasileira. Produtores de pequena escala com controle individual de qualidade.",
+        "traducao_para_o_comprador": "Rastreabilidade de origem que vai no seu laudo de homologação e, se quiser, no rótulo do produto final.",
+        "diferencial_competitivo": "Origem geográfica específica tem valor em rótulos premium — 'maçã desidratada de São Joaquim' é mais forte que 'maçã desidratada brasileira'",
+        "icp_primario": "Camila e fabricantes de produtos com claim de origem"
+      }
+    ]
+  },
+
+  "posicionamento": {
+    "modelo": "Fornecedor especializado B2B — não é commoditie, não é premium aspiracional. É o parceiro de suprimentos que facilita a vida do comprador.",
+    "territorio": "Direto, técnico, confiável. Fala a língua do comprador, não do consumidor final.",
+    "antitese": "O oposto de fornecedor genérico que manda catálogo e some. O oposto de comunicação B2C apelativa com 'alimentos saudáveis para você'. A FROC fala com quem compra para produzir, não para comer.",
+    "eixos": [
+      {
+        "eixo": "Especialização × Generalismo",
+        "posicao": "Especialização em maçã desidratada para uso industrial — não vende tudo para todos"
+      },
+      {
+        "eixo": "Risco × Segurança",
+        "posicao": "Elimina o risco de testar fornecedor novo — amostra grátis é a garantia operacional"
+      },
+      {
+        "eixo": "Commoditie × Diferenciado",
+        "posicao": "Ingrediente diferenciado por processo (sem conservantes) e origem (São Joaquim) — não compete só por preço"
+      },
+      {
+        "eixo": "Burocrático × Ágil",
+        "posicao": "Entrega em 2 dias, documentação pronta, amostra sem processo — facilidade é o produto"
+      }
+    ]
+  },
+
+  "canvas_4p": {
+    "produto": {
+      "principal": "Maçã desidratada em cubos/slices para uso industrial (pet food + alimentação humana)",
+      "outros": ["Cenoura desidratada", "Beterraba desidratada", "Tomate desidratado"],
+      "servicos_associados": ["Amostra grátis para qualificação", "Documentação técnica completa (ficha técnica, laudo microbiológico, APPCC)", "Private label para distribuidores e redes"],
+      "nao_faz": ["Produto snack B2C (fora do escopo atual)", "Pedidos abaixo de 400kg (sem exceção para não travar operação)"],
+      "diferenciais_produto": [
+        "Sem conservantes por processo (< 1 min corte-desidratação)",
+        "Cor natural clara sem clarificantes",
+        "Produção padronizada — consistência lote a lote",
+        "Validade de 12 meses em estoque",
+        "Rastreabilidade de origem: São Joaquim, SC"
+      ]
+    },
+    "preco": {
+      "preco_kg": 28,
+      "pedido_minimo_kg": 400,
+      "ticket_minimo": 11200,
+      "prazo_pagamento": "30, 75 ou até 120 dias",
+      "frete": "FOB (por conta do cliente) — avaliar incluir no preço para simplificar comparação",
+      "posicionamento": "Levemente acima da concorrência — sustentado por amostra grátis, documentação e entrega rápida",
+      "filosofia": "Não competir por preço mínimo. Se o comprador só decide por R$/kg, não é o ICP da FROC.",
+      "ancoragem": "ROI do comprador: custo de trocar de fornecedor (tempo de homologação, risco de qualidade) vs diferença de preço FROC × concorrente = FROC quase sempre ganha"
+    },
+    "praca": {
+      "fisico": "Fábrica em São Joaquim, SC — entrega nacional via transportadora (frete FOB)",
+      "raio_prioritario": "Sul e Sudeste (logística e proximidade com maiores clusters de pet food e alimentos funcionais)",
+      "digital": {
+        "atual": "Site institucional + WhatsApp + Instagram (foco errado) + LinkedIn (cópia Instagram)",
+        "a_construir": ["LP pet food", "LP alimentação humana", "Google Ads Search", "Meta Ads", "LinkedIn content B2B"]
+      },
+      "canais_de_venda": [
+        "Inbound via LP + Google Ads (a construir)",
+        "Vendedor interno via cold call + Prospectei (ativo)",
+        "Representantes comerciais (em recrutamento)",
+        "Distribuidores tipo Nutrassou (em negociação)",
+        "Feiras: APAS Show (prioritária)"
+      ]
+    },
+    "promocao": {
+      "tom": "Direto, técnico, sem firula. Fala com quem compra para produzir. Zero apelo emocional B2C.",
+      "o_que_faz": [
+        "Google Ads Search com palavras de intenção industrial",
+        "LPs específicas por segmento com CTA de amostra grátis",
+        "Meta Ads de suporte (impacto em decisores com conteúdo técnico)",
+        "LinkedIn com conteúdo B2B: processo produtivo, certificações, origem",
+        "Instagram com foco em fábrica e ingrediente industrial (não snack)",
+        "Materiais técnicos para feiras: fichas técnicas, amostras físicas, laudos"
+      ],
+      "o_que_nao_faz": [
+        "Comunicação B2C — 'alimentos saudáveis para você'",
+        "Posts de lifestyle ou receitas",
+        "Influenciadores (contexto futuro — snack B2C, fora do escopo)",
+        "Conteúdo genérico sem especificidade técnica"
+      ],
+      "canais_priorizados": [
+        {"canal": "Google Ads Search", "objetivo": "Capturar demanda ativa — quem busca 'maçã desidratada fornecedor'"},
+        {"canal": "LP pet food", "objetivo": "Converter tráfego Google em lead qualificado com amostra grátis como gancho"},
+        {"canal": "LP alimentação humana", "objetivo": "Converter com ficha técnica + amostra — atende o processo formal de Camila"},
+        {"canal": "LinkedIn", "objetivo": "Alcançar Camila (analista de compras) e gerentes de suprimentos que não buscam ativamente"},
+        {"canal": "Meta Ads", "objetivo": "Topo/meio de funil — impactar Rafael no Facebook e atingir gestores de compras por interesse"}
+      ]
+    }
+  },
+
+  "mensagens_por_segmento": {
+    "pet_food": {
+      "headline_lp": "Maçã desidratada para ração pet — amostra grátis, entrega em 2 dias, São Joaquim (SC)",
+      "subheadline": "Ingrediente padronizado para fabricantes de ração natural. Sem conservantes. Pedido mínimo 400kg.",
+      "argumento_central": "Você não precisa confiar no nosso produto antes de testar. A amostra é grátis — 200 a 500g. Se aprovar, 400kg em 2 dias.",
+      "objecoes_derrubadas": {
+        "e_muito_caro": "Nosso preço é competitivo para a qualidade entregue. Se quiser comparar, peça a amostra grátis e teste antes de negociar.",
+        "nunca_ouvi_falar": "Por isso a amostra existe. Teste zero risco.",
+        "frete_fob": "Frete por conta do cliente. Para pedidos maiores, podemos incluir no valor — fale conosco."
+      },
+      "cta": "Quero minha amostra grátis",
+      "tom": "Direto, prático, sem enrolação. Rafael decide rápido — a LP não pode ter mais de 3 scrolls."
+    },
+    "alimentacao_humana": {
+      "headline_lp": "Maçã desidratada de São Joaquim para granola, barrinhas e torrones — documentação completa para homologação",
+      "subheadline": "Ingrediente natural sem conservantes para indústria alimentícia. Rastreabilidade de origem. Amostra técnica grátis.",
+      "argumento_central": "Sua área de qualidade precisa de APPCC, laudo microbiológico e ficha técnica antes de qualquer pedido. Temos tudo pronto — e ainda enviamos amostra grátis para análise técnica.",
+      "objecoes_derrubadas": {
+        "empresa_nova": "Fazemos parte de um grupo empresarial com mais de [X] anos em São Joaquim. Nossa fábrica passou por renovação completa de maquinário em março de 2026.",
+        "preciso_da_ficha_tecnica": "Disponível imediatamente — solicite junto com a amostra.",
+        "meu_gestor_precisa_aprovar": "Envie os documentos para análise. Nossa equipe suporta o processo de homologação."
+      },
+      "cta": "Solicitar amostra + ficha técnica",
+      "formulario_campos": ["Nome", "Empresa", "CNPJ", "Produto de interesse (granola / barrinha / torrão / outro)", "Volume estimado mensal"],
+      "tom": "Técnico mas acessível. Camila quer eficiência — cada informação que ela não precisa pedir é um passo a menos no processo de homologação."
+    }
+  },
+
+  "narrativa_de_marca": {
+    "historia": "A FROC nasceu de um grupo familiar de São Joaquim que há anos domina a produção de maçã na Serra Catarinense. Em vez de deixar a maçã de padrão industrial sem destino, criamos um processo de desidratação que transforma esse insumo em ingrediente premium para a indústria — sem conservantes, sem clarificantes, com entrega rápida e documentação completa.",
+    "heroi": "O comprador — seja Rafael querendo um fornecedor confiável, ou Camila querendo que sua área de qualidade aprove sem drama. A FROC não vende produto, facilita a vida de quem precisa comprar.",
+    "vilao": "O risco de testar fornecedor novo. A burocracia de homologação. O atraso de entrega. A inconsistência de qualidade entre lotes.",
+    "transformacao": "De comprador que resiste a trocar de fornecedor → para comprador que testa, aprova e recompra com previsibilidade."
+  },
+
+  "key_leverage_point": {
+    "headline": "A FROC tem o posicionamento certo — 'teste antes de comprar' — mas esse argumento ainda não existe em nenhuma peça de comunicação digital. Quando a LP disser isso na primeira dobra, o ciclo de vendas vai mudar.",
+    "context": "Todo o posicionamento da FROC pode ser resumido em uma frase que ainda não foi dita em nenhum canal: 'Você não precisa confiar em nós antes de testar. A amostra é grátis.' Isso quebra a objeção central de qualquer fornecedor novo em B2B antes que o vendedor precise dizer uma palavra. O Google Ads leva o Rafael até a LP. A LP diz essa frase. O Rafael pede a amostra. O vendedor qualifica. O ciclo está fechado.",
+    "numbered_reasons": [
+      "A frase 'amostra grátis' precisa estar na headline da LP — não no quarto scroll. Comprador B2B não lê até o final antes de decidir se é relevante para ele",
+      "Para Camila (alimentação humana), 'documentação completa disponível' na headline elimina a principal objeção antes do contato — ela sabe que não vai ter que correr atrás de papel",
+      "A origem 'São Joaquim — capital da maçã' funciona como prova implícita de qualidade sem precisar declarar — é o equivalente de colocar 'Champagne' em vez de 'vinho espumante' no rótulo"
+    ],
+    "discussion_anchor": "Antes de escrever o copy das LPs, validar com Driélly: 'A documentação técnica (APPCC, laudo microbiológico, ficha técnica) está pronta para enviar hoje? Se não, a LP 2 não pode ir no ar.'"
+  },
+
+  "alerta_operacional": "Posicionamento de 'entrega em 2 dias' precisa ser operacionalmente garantido antes de comunicar. Se o estoque estiver zerado em algum momento, o argumento central da LP 1 (pet food) fica falso. Validar com Driélly se o compromisso de 2 dias é sustentável em todos os cenários — incluindo pico de demanda após as campanhas rodarem."
+}

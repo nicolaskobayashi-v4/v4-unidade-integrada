@@ -1,0 +1,94 @@
+{
+  "skill": "ee-s3-forecast-midia",
+  "cliente": "Chopp Colina Orlandia",
+  "gerado_em": "2026-06-20",
+  "nota_metodologica": "Sem GOG CLI disponível neste ambiente — entregue como JSON + MD com tabelas prontas para colar em Google Sheets. Sem dados V4MOS reais de campanha (workspace_id null); premissas baseadas em benchmarks de mercado para anúncios locais de alta intenção + dados de busca apresentados na reunião S3 (29/05) + taxa de conversão intuitiva citada pelo Cláudio na entrevista comercial (05/06). Recalibrar com CAC real após o mês 1 de campanha rodando.",
+
+  "manchete": "R$1.100 no primeiro mês de Franca pode virar entre R$5.700 e R$10.300 em receita atribuível a mídia paga — mas só se a Landing Page e o pixel estiverem prontos antes do primeiro real investido. Sem isso, o forecast vira só uma planilha bonita.",
+
+  "premissas": {
+    "ticket_medio": {
+      "valor": 396.00,
+      "calculo": "70% barril 30L (R$330) + 30% barril 50L (R$550) = R$396 ponderado",
+      "fonte": "briefing.matematica_negocio"
+    },
+    "margem_bruta_percentual": "45-55% (assumido 50% para o modelo)",
+    "google_ads": {
+      "cpc_medio_assumido": 1.20,
+      "fonte_intervalo": "R$0,34 a R$2,00 — dado apresentado em reunião S3 (29/05)",
+      "taxa_clique_para_contato": "12% (padrão para busca de alta intenção local)",
+      "taxa_contato_para_venda": "25% (conservador frente aos 33% que Cláudio cita para Orlândia — mercado novo em Franca, sem reputação ainda)"
+    },
+    "meta_ads": {
+      "custo_por_lead_assumido": 20.00,
+      "racional": "Funil mais frio que busca — segmentação por interesse/data, não intenção ativa",
+      "taxa_contato_para_venda": "20% (mais frio que Google)"
+    },
+    "fora_do_escopo_deste_forecast": [
+      "Vendas de pontos de venda fixos (PDV) — 1.225 mapeados em Franca, ciclo de vendas via abordagem comercial direta, não mídia paga",
+      "Choperia própria de Orlândia — canal físico, não impactado por mídia digital de Franca",
+      "Eventos grandes via trave congelada — ciclo de venda B2B/indicação, não anúncio"
+    ]
+  },
+
+  "investimento_por_mes": {
+    "mes_1": {"google_ads": 500, "meta_ads": 600, "total": 1100},
+    "mes_2": {"google_ads": 600, "meta_ads": 700, "total": 1300},
+    "mes_3": {"google_ads": 700, "meta_ads": 900, "total": 1600},
+    "total_trimestre": 4000
+  },
+
+  "cenarios": {
+    "conservador": {
+      "descricao": "Campanha com curva de aprendizado lenta, sem otimização ativa, mercado reagindo devagar à marca nova",
+      "mes_1": {"vendas_atribuidas": 14, "receita": 5544, "roi": "5,0x"},
+      "mes_2": {"vendas_atribuidas": 16, "receita": 6336, "roi": "4,9x"},
+      "mes_3": {"vendas_atribuidas": 19, "receita": 7524, "roi": "4,7x"},
+      "total_trimestre": {"vendas": 49, "receita": 19404, "investimento": 4000, "roi": "4,9x"}
+    },
+    "base": {
+      "descricao": "Cenário esperado — campanha otimizada nas primeiras 2-3 semanas, LP e pixel funcionando desde o dia 1",
+      "mes_1": {"vendas_atribuidas": 19, "receita": 7524, "roi": "6,8x"},
+      "mes_2": {"vendas_atribuidas": 24, "receita": 9504, "roi": "7,3x"},
+      "mes_3": {"vendas_atribuidas": 30, "receita": 11880, "roi": "7,4x"},
+      "total_trimestre": {"vendas": 73, "receita": 28908, "investimento": 4000, "roi": "7,2x"}
+    },
+    "otimista": {
+      "descricao": "Brand awareness cresce rápido (boca a boca de Orlândia chega em Franca), taxa de conversão se aproxima dos 33% que Cláudio já tem em Orlândia",
+      "mes_1": {"vendas_atribuidas": 25, "receita": 9900, "roi": "9,0x"},
+      "mes_2": {"vendas_atribuidas": 33, "receita": 13068, "roi": "10,1x"},
+      "mes_3": {"vendas_atribuidas": 42, "receita": 16632, "roi": "10,4x"},
+      "total_trimestre": {"vendas": 100, "receita": 39600, "investimento": 4000, "roi": "9,9x"}
+    }
+  },
+
+  "tabela_detalhada_google_ads": [
+    {"mes": 1, "investimento": 500, "cliques_estimados": 416, "contatos_whatsapp": 50, "vendas": 12, "receita": 4752},
+    {"mes": 2, "investimento": 600, "cliques_estimados": 500, "contatos_whatsapp": 60, "vendas": 15, "receita": 5940},
+    {"mes": 3, "investimento": 700, "cliques_estimados": 583, "contatos_whatsapp": 70, "vendas": 18, "receita": 7128}
+  ],
+
+  "tabela_detalhada_meta_ads": [
+    {"mes": 1, "investimento": 600, "leads_estimados": 30, "vendas": 6, "receita": 2376},
+    {"mes": 2, "investimento": 700, "leads_estimados": 35, "vendas": 7, "receita": 2772},
+    {"mes": 3, "investimento": 900, "leads_estimados": 45, "vendas": 9, "receita": 3564}
+  ],
+
+  "marcos_de_recalibragem": [
+    {"momento": "Final do mês 1", "acao": "Substituir CPC e taxa de conversão assumidos pelos dados reais do Google Ads/Meta Ads Manager. Recalcular cenário base do mês 2."},
+    {"momento": "Final do mês 2", "acao": "Avaliar se algum dos 3 grupos de campanha (aniversariantes, churrasco/chopp, casamentos) está performando muito acima ou abaixo — realocar orçamento."},
+    {"momento": "Final do mês 3", "acao": "Decidir se o investimento do trimestre 2 aumenta, mantém ou se redireciona parte da verba para CRM/automação de reativação de leads não convertidos."}
+  ],
+
+  "ponto_de_alavancagem": "O cenário base entrega 7,2x de ROI em 3 meses — mas esse número só existe se a Landing Page e o pixel estiverem no ar antes do primeiro clique pago. Sem destino de conversão, todo o cálculo deste forecast vira inválido.",
+
+  "alerta_operacional": "Este forecast modela apenas o canal de mídia paga. Não inclui capacidade operacional — Cláudio inicia Franca com 10-15 chopeiras disponíveis. Se a demanda gerada pela mídia paga superar a capacidade de máquinas disponível, o gargalo passa a ser operacional, não de marketing. Acompanhar utilização de chopeiras junto com o CAC.",
+
+  "entrega_planilha": {
+    "status": "não gerado neste ambiente — GOG CLI indisponível",
+    "alternativa": "Tabelas estruturadas em formato markdown no ee-s3-forecast-midia.md, prontas para colar em Google Sheets",
+    "acao_recomendada": "Operador pode copiar as tabelas do .md direto para uma planilha, ou solicitar geração da planilha em ambiente com GOG CLI configurado"
+  },
+
+  "alimenta_skills": ["ee-s3-copy-anuncios", "ee-s3-criativos-anuncios", "ee-s5-scripts-sdr"]
+}

@@ -1,0 +1,773 @@
+{
+  "client_name": "Instituto de Medicina Sallet",
+  "summary": "Auditoria de 5 canais do Instituto de Medicina Sallet: score de comunicação 39/100. O canal mais forte (anúncios) já prova eficiência real (melhor criativo a R$3,14/lead) mas está mal gerenciado — o vencedor está pausado enquanto anúncios fracos seguem ativos — e o CRM quebrado torna invisível o que acontece depois do lead.",
+  "icp_reference": "Patrícia Almeida, 36 anos, gerente de RH, plateau no uso de caneta GLP-1, decide operar em até 15 anos mas só fecha com aprovação da família (~80% dos casos). Mensagem-chave aprovada: funcional — 'Bariátrica com alta em 24h e acompanhamento completo — sem ficar sozinha depois.'",
+
+  "channels_audited": [
+    {
+      "name": "site",
+      "url_or_handle": "https://sallet.com.br/",
+      "score": 25,
+      "classification": "low",
+      "screenshots_analyzed": false,
+      "audit_details": {
+        "value_proposition": {
+          "present": null,
+          "clear": null,
+          "aligned_with_icp": null,
+          "notes": "Sem screenshot analisado nesta rodada. Evidência disponível é o autorrelato da própria Bárbara (marketing interno) no kickoff: site é de 2023, 'já é ruim só de olhar' — indício forte de proposta de valor datada visualmente, mesmo sem confirmação item a item do checklist."
+        },
+        "visual_consistency": {
+          "consistent": null,
+          "professional": null,
+          "notes": "Não verificável sem screenshot. Risco relevante: manual de identidade visual já existe (paleta azul + logo espiral definidos), mas não há confirmação de que o site atual reflete esse manual."
+        },
+        "mobile_experience": {
+          "responsive": null,
+          "speed": null,
+          "notes": "Não verificável sem acesso direto/screenshot mobile nesta rodada."
+        },
+        "additional_notes": "Score atribuído de forma conservadora com base em evidência qualitativa documentada (autoavaliação negativa do próprio time do cliente), não em inspeção direta. Recomenda-se screenshot desktop + mobile para refinar este score."
+      },
+      "gaps": [
+        {
+          "gap": "Site institucional desatualizado (versão de 2023), classificado pelo próprio time de marketing do cliente como 'ruim só de olhar'",
+          "evidence": "Kickoff 26/05/2026: 'Site atual é de 2023 (defasado, já é ruim só de olhar)' — declaração direta da Bárbara Elizabeth",
+          "impact": "high"
+        },
+        {
+          "gap": "Duas novas landing pages (cirúrgica e tratamentos clínicos) estão em produção fora do site institucional principal, o que pode gerar inconsistência de navegação entre o domínio principal e as LPs",
+          "evidence": "Check-in 08/07/2026: LPs hospedadas no 'software próprio da V4', formulário integrado ao RD Station",
+          "impact": "medium"
+        }
+      ],
+      "recommendations": [
+        {
+          "action": "Solicitar ao operador screenshot desktop + mobile do site atual para completar a auditoria item a item (proposta de valor, prova social, CTA, SEO técnico)",
+          "priority": "immediate",
+          "effort": "low"
+        },
+        {
+          "action": "Priorizar redesign do site no pipeline de produção (ee-s3-identidade-visual + ee-s3-landing-page), usando a paleta e o logo já aprovados no manual de marca",
+          "priority": "medium_term",
+          "effort": "high"
+        }
+      ]
+    },
+    {
+      "name": "instagram",
+      "url_or_handle": "@institutosallet",
+      "score": 42,
+      "classification": "medium",
+      "screenshots_analyzed": false,
+      "audit_details": {
+        "content_quality": {
+          "speaks_to_icp": true,
+          "frequency": "Não quantificada na base de conhecimento — sem dado de posts/semana",
+          "engagement_level": "Alto quando é o Dr. Sallet falando sem roteiro; historicamente baixo quando é conteúdo com outros profissionais da equipe (nutricionistas, psicólogas); Dra. Ana Caroline é a segunda figura com bom engajamento",
+          "notes": "Modelo com influenciadoras testado por ~1 ano não gerou resultado direto em consultas nem engajamento. TikTok em estágio inicial, baixa tração — formato 'aula' do Dr. Sallet não converte no TikTok."
+        },
+        "visual_consistency": {
+          "consistent": null,
+          "professional": null,
+          "notes": "Sem screenshot de feed/bio analisado nesta rodada."
+        },
+        "additional_notes": "Perfil claramente ativo e com pelo menos 1 formato comprovadamente eficiente (vídeo do Dr. Sallet), mas dependente quase inteiramente dessa única figura — risco de concentração já evidenciado pelos testes que falharam (influenciadoras, TikTok, outros profissionais)."
+      },
+      "gaps": [
+        {
+          "gap": "Estratégia de conteúdo concentrada quase 100% no Dr. Sallet — os demais formatos testados (outros profissionais, influenciadoras, TikTok) não engajam nem convertem",
+          "evidence": "Kickoff 26/05/2026: conteúdo com outros profissionais 'não engaja'; influenciadoras testadas por 1 ano sem resultado; TikTok com baixa tração",
+          "impact": "high"
+        },
+        {
+          "gap": "Nenhum screenshot de bio/feed foi analisado nesta rodada — não é possível confirmar CTA, link na bio, destaques organizados",
+          "evidence": "Ausência de material visual fornecido para este canal",
+          "impact": "medium"
+        }
+      ],
+      "recommendations": [
+        {
+          "action": "Solicitar screenshots de bio + últimos 9 posts + destaques para completar a auditoria visual deste canal",
+          "priority": "immediate",
+          "effort": "low"
+        },
+        {
+          "action": "Validar e escalar um segundo formato replicável (ex: Dra. Ana Caroline em vídeos curtos, já validada como segunda melhor performer) para reduzir a dependência de uma única pessoa",
+          "priority": "short_term",
+          "effort": "medium"
+        }
+      ]
+    },
+    {
+      "name": "anuncios",
+      "url_or_handle": "Meta Ads — conta Instituto de Medicina Sallet",
+      "score": 52,
+      "classification": "medium",
+      "screenshots_analyzed": true,
+      "audit_details": {
+        "social_proof": {
+          "present": true,
+          "type": "Depoimento em vídeo de paciente ('Hoje eu eliminei 43 quilos')",
+          "quality": "moderate",
+          "notes": "Os 2 anúncios com depoimento de paciente (formato vídeo) têm score de apenas 32% e 20% — prova social presente, mas não está entre os criativos mais eficientes, sugerindo problema de segmentação/oferta associado, não de conceito criativo"
+        },
+        "cta": {
+          "present": true,
+          "visible": true,
+          "action_oriented": true,
+          "notes": "Vídeos do Dr. Sallet usam CTA verbal direto ('Portanto, não perca mais tempo') — tom coerente com a marca, mas alto CTR (3,86-4,00%) não se traduz no menor custo por lead"
+        },
+        "content_quality": {
+          "speaks_to_icp": true,
+          "frequency": "21 criativos ativos analisados no período de 90 dias (24/04 a 22/07/2026)",
+          "engagement_level": "CTR médio de 2,66% no conjunto — mas com dispersão grande: melhor criativo 4,00%, pior com 0% de resultado apesar de gasto",
+          "notes": "Boa variedade de formato (estático, vídeo, carrossel) e de segmentação (Lookalike, Interesse, Remarketing, Demográfico, Advantage+) — estrutura de funil existe, mas sem rotina de poda de criativos fracos"
+        },
+        "additional_notes": "Relatório Meta Analyser (24/04-22/07/2026): R$7.494,81 investidos, 696 resultados, custo médio R$10,77/resultado, CTR médio 2,66%, alcance 99.247, 21 anúncios. Melhor criativo (estático, 'Dez_2024') converte a R$3,14/lead com 92% de score — mas está PAUSADO. Pelo menos 3 anúncios ATIVOS têm score abaixo de 30% (13%, 28%, 32%) e seguem consumindo verba sem gerar resultado proporcional. Os 2 vídeos do Dr. Sallet têm o maior CTR do conjunto (3,98-4,00%) mas custo por lead 10x maior que o melhor estático (R$29,86 e R$42,98 vs R$3,14), e ambos estão marcados 'SUBSTITUIR' pelo próprio relatório."
+      },
+      "gaps": [
+        {
+          "gap": "O criativo de melhor performance (score 92%, R$3,14/lead) está pausado, enquanto anúncios com score abaixo de 30% seguem ativos",
+          "evidence": "Relatório Meta Analyser: 'Dez_2024_Estático' marcado PAUSADO com score 92%; anúncios #14, #19 e #21 marcados ATIVO com score 28%, 32% e 13% respectivamente",
+          "impact": "high"
+        },
+        {
+          "gap": "Vídeos com Dr. Sallet geram o maior CTR do conjunto (engajamento) mas o maior custo por lead — descolamento entre atenção capturada e eficiência de conversão",
+          "evidence": "Vídeos 'Jan_2025_Vídeo' com CTR 3,98% e 4,00% mas custo/resultado de R$29,86 e R$42,98 (vs média geral R$10,77) — ambos marcados 'SUBSTITUIR'",
+          "impact": "high"
+        },
+        {
+          "gap": "Falta depoimento em vídeo específico para o tratamento clínico (caneta) — usa depoimentos de balão gástrico como substituto temporário",
+          "evidence": "Check-in 08/07/2026: 'Depoimentos em vídeo: só existem para balão gástrico; não há para caneta ainda (produto muito recente)'",
+          "impact": "medium"
+        },
+        {
+          "gap": "Campanhas parecem otimizar para objetivos diferentes (formulário vs. conversa por mensagem) misturados na mesma leitura agregada de performance",
+          "evidence": "Anúncio #15 registra resultado como 'CONVERSAS POR MENSAGEM' enquanto a maioria registra 'LEADS (FORMULÁRIO)' — dificulta comparação direta de CPL entre criativos",
+          "impact": "medium"
+        }
+      ],
+      "recommendations": [
+        {
+          "action": "Reativar imediatamente o criativo 'Dez_2024_Estático' (melhor score, menor CPL)",
+          "priority": "immediate",
+          "effort": "low"
+        },
+        {
+          "action": "Pausar ou substituir os anúncios ativos com score abaixo de 30%",
+          "priority": "immediate",
+          "effort": "low"
+        },
+        {
+          "action": "Investigar por que os vídeos do Dr. Sallet (alto CTR) não convertem lead barato — testar mudança de oferta/CTA no clique, não no vídeo em si",
+          "priority": "short_term",
+          "effort": "medium"
+        },
+        {
+          "action": "Gravar 1-2 depoimentos reais de pacientes do tratamento clínico (caneta) para reforçar prova social nesse funil específico",
+          "priority": "short_term",
+          "effort": "medium"
+        }
+      ]
+    },
+    {
+      "name": "google_meu_negocio",
+      "url_or_handle": "Perfil GMB do Instituto de Medicina Sallet (URL não levantada nesta rodada)",
+      "score": 30,
+      "classification": "low",
+      "screenshots_analyzed": false,
+      "audit_details": {
+        "additional_notes": "accesses.gmb=true no briefing (perfil existe e reivindicado), mas nenhum dado de nota, volume de reviews, fotos ou posts consta na base de conhecimento — diferente dos 4 concorrentes diretos, cujas notas (4,5★ a 5,0★) já estão documentadas no benchmarking anterior da V4/SCN&Co. A única evidência qualitativa disponível é negativa: reclamações concentradas no GMN por falta de acompanhamento pós-operatório."
+      },
+      "gaps": [
+        {
+          "gap": "Reclamações concentradas no Google Meu Negócio, atribuídas pelo próprio cliente à falta de acompanhamento no pós-operatório",
+          "evidence": "Kickoff 26/05/2026 e check-in 08/07/2026: 'Reclamações no Google são majoritariamente sobre pós-cirúrgico (falta de acompanhamento)'",
+          "impact": "high"
+        },
+        {
+          "gap": "Nota e volume de reviews do próprio Instituto não constam em nenhum documento da base de conhecimento, ao contrário dos 4 concorrentes diretos já benchmarkados (4,5★ a 5,0★)",
+          "evidence": "Planejamento estratégico V4/SCN&Co (15/06/2026) documenta rating de GOC, Imec, Medicina em Foco e BariMais, mas não do próprio Instituto Sallet",
+          "impact": "medium"
+        }
+      ],
+      "recommendations": [
+        {
+          "action": "Levantar nota atual e volume de reviews do GMB do Instituto para fechar o gap de benchmark competitivo",
+          "priority": "immediate",
+          "effort": "low"
+        },
+        {
+          "action": "Definir SLA de resposta a reviews (especialmente negativos) e ativar régua de contato pós-operatório para gerar reviews de pacientes satisfeitos",
+          "priority": "short_term",
+          "effort": "medium"
+        }
+      ]
+    },
+    {
+      "name": "whatsapp",
+      "url_or_handle": "+55 11 3046-9393 (WhatsApp institucional, integrado via Omniplus)",
+      "score": 45,
+      "classification": "medium",
+      "screenshots_analyzed": false,
+      "audit_details": {
+        "additional_notes": "Fluxo documentado em detalhe nas transcrições: lead cai no formulário → RD Station → Omniplus dispara 1ª mensagem automática → se responde em até 1 dia, cai para atendente humano → se não responde, 3 mensagens automáticas ao longo de 4 dias → no 4º dia sem resposta, marcado 'desistente'. Se o lead clica direto no botão de WhatsApp (sem passar pelo formulário), cai direto no atendimento humano. Estrutura de automação e follow-up existe e é relativamente sofisticada — mas a integração com o CRM (RD Station) está comprometida por duplicação de mais de 20 mil contatos, o que invalida a leitura de quantos leads efetivamente avançam depois desse fluxo."
+      },
+      "gaps": [
+        {
+          "gap": "Integração com o CRM (RD Station) tem mais de 20 mil contatos duplicados — o sistema cria negociação nova em vez de atualizar a existente quando os dados batem",
+          "evidence": "Kickoff 26/05/2026 e planejamento V4/SCN&Co 15/06/2026: '+20.000 contatos travados no funil de entrada, com duplicação de registros'",
+          "impact": "high"
+        },
+        {
+          "gap": "SLA de até 1 dia para virar atendimento humano é lento frente ao ideal do setor (<5min em horário comercial)",
+          "evidence": "Fluxo documentado no kickoff: 'se responde em até 1 dia, cai para atendente humano'",
+          "impact": "medium"
+        },
+        {
+          "gap": "Nenhuma menção a mensagem de ausência configurada fora do horário comercial",
+          "evidence": "Ausência de qualquer referência a fluxo de ausência nas transcrições de kickoff/check-in, que descrevem em detalhe a saudação e o fluxo de cobrança",
+          "impact": "medium"
+        },
+        {
+          "gap": "Campo de data de pós-cirurgia está em formato texto (não numérico) no RD Station, impedindo automação da régua de acompanhamento pós-operatório",
+          "evidence": "Check-in 08/07/2026: decisão tomada de criar campo novo de data; Bárbara vai subir base retroativa (~1 ano de histórico) via Excel",
+          "impact": "high"
+        }
+      ],
+      "recommendations": [
+        {
+          "action": "Configurar mensagem de ausência fora do expediente comercial",
+          "priority": "immediate",
+          "effort": "low"
+        },
+        {
+          "action": "Priorizar ee-s3-crm-setup com foco em deduplicação de contatos e correção do campo de data (texto → numérico) para destravar a régua pós-operatória",
+          "priority": "short_term",
+          "effort": "high"
+        },
+        {
+          "action": "Reduzir o SLA de resposta humana de até 1 dia para uma janela menor (ex: 1-2h em horário comercial), mesmo que o fluxo automático continue cobrindo o restante do tempo",
+          "priority": "short_term",
+          "effort": "medium"
+        }
+      ]
+    }
+  ],
+
+  "gap_matrix": [
+    {
+      "rank": 1,
+      "channel": "anuncios",
+      "gap": "Criativo de melhor performance (92% score, R$3,14/lead) está pausado enquanto anúncios com <30% de score seguem ativos",
+      "impact": "high",
+      "effort": "low",
+      "recommended_action": "Reativar o criativo #1 e pausar/substituir os anúncios ativos com score abaixo de 30%",
+      "quadrant": "quick_win"
+    },
+    {
+      "rank": 2,
+      "channel": "crm_whatsapp",
+      "gap": "CRM (RD Station) com 20 mil+ contatos duplicados impede leitura confiável de conversão do lead até o fechamento",
+      "impact": "high",
+      "effort": "high",
+      "recommended_action": "Priorizar ee-s3-crm-setup para deduplicação e correção da regra de negócio de pós-operatório",
+      "quadrant": "strategic_project"
+    },
+    {
+      "rank": 3,
+      "channel": "google_meu_negocio",
+      "gap": "Reclamações concentradas no GMN por falta de acompanhamento pós-operatório, sem régua de resposta ativa documentada",
+      "impact": "high",
+      "effort": "medium",
+      "recommended_action": "Definir SLA de resposta a reviews e ativar régua de contato pós-operatório (~3.564 contatos represados)",
+      "quadrant": "strategic_project"
+    },
+    {
+      "rank": 4,
+      "channel": "site",
+      "gap": "Site institucional de 2023 considerado defasado pelo próprio time de marketing do cliente ('ruim só de olhar')",
+      "impact": "high",
+      "effort": "high",
+      "recommended_action": "Priorizar redesign no pipeline de ee-s3-identidade-visual + ee-s3-landing-page",
+      "quadrant": "strategic_project"
+    },
+    {
+      "rank": 5,
+      "channel": "anuncios",
+      "gap": "Vídeos do Dr. Sallet têm o maior CTR do conjunto mas o maior custo por lead — descolamento entre atenção e conversão",
+      "impact": "high",
+      "effort": "medium",
+      "recommended_action": "Investigar oferta/CTA pós-clique desses vídeos antes de cortar o formato (o problema pode não ser o vídeo, e sim o que vem depois)",
+      "quadrant": "strategic_project"
+    },
+    {
+      "rank": 6,
+      "channel": "instagram",
+      "gap": "Estratégia de conteúdo depende quase 100% do Dr. Sallet — formatos alternativos testados (TikTok, influenciadoras) não geraram resultado",
+      "impact": "medium",
+      "effort": "medium",
+      "recommended_action": "Validar e escalar a Dra. Ana Caroline como segundo formato replicável",
+      "quadrant": "strategic_project"
+    },
+    {
+      "rank": 7,
+      "channel": "anuncios",
+      "gap": "Falta depoimento em vídeo específico para tratamentos clínicos (caneta) — usa depoimento de balão como substituto",
+      "impact": "medium",
+      "effort": "low",
+      "recommended_action": "Gravar 1-2 depoimentos reais de pacientes do tratamento com caneta",
+      "quadrant": "quick_win"
+    },
+    {
+      "rank": 8,
+      "channel": "whatsapp",
+      "gap": "Sem mensagem de ausência configurada fora do horário comercial",
+      "impact": "medium",
+      "effort": "low",
+      "recommended_action": "Configurar mensagem de ausência no WhatsApp Business",
+      "quadrant": "quick_win"
+    },
+    {
+      "rank": 9,
+      "channel": "google_meu_negocio",
+      "gap": "Nota e volume de reviews do Instituto não constam na base de conhecimento, ao contrário dos 4 concorrentes diretos já benchmarkados",
+      "impact": "medium",
+      "effort": "low",
+      "recommended_action": "Operador levantar rating/volume de reviews atual do GMB do Instituto",
+      "quadrant": "quick_win"
+    },
+    {
+      "rank": 10,
+      "channel": "anuncios",
+      "gap": "Campanhas otimizam para objetivos diferentes (formulário vs. conversa por mensagem) misturados na mesma leitura de performance",
+      "impact": "medium",
+      "effort": "low",
+      "recommended_action": "Padronizar objetivo de otimização por funil antes de comparar CPL entre criativos",
+      "quadrant": "quick_win"
+    }
+  ],
+
+  "executive_summary": {
+    "overall_assessment": "O Instituto de Medicina Sallet tem o canal de anúncios como o mais maduro dos 5 auditados — já existe volume (21 criativos), variedade de formato e segmentação de funil, e o time já provou que sabe produzir um criativo eficiente (R$3,14/lead). O problema não é falta de know-how, é falta de manutenção: o melhor anúncio está pausado, e o pior segue ativo. Esse padrão de 'sabe fazer, mas não mantém' se repete em outros canais — o Instagram depende quase inteiramente do Dr. Sallet, e o WhatsApp tem uma automação de atendimento relativamente sofisticada, mas alimentada por um CRM com mais de 20 mil contatos duplicados que torna invisível o que realmente acontece depois do lead. Site e Google Meu Negócio foram avaliados com evidência qualitativa (sem screenshot direto nesta rodada) e ambos apontam para o mesmo padrão: ativos existem, mas estão desatualizados ou subaproveitados.",
+    "top_problems": [
+      {
+        "problem": "O criativo mais eficiente da conta está pausado enquanto anúncios fracos seguem no ar",
+        "evidence": "Criativo #1 (estático, 'Dez_2024') tem score 92% e R$3,14/lead mas está marcado PAUSADO; ao menos 3 anúncios ATIVOS têm score abaixo de 30% (13%, 28%, 32%)",
+        "impact": "Uma fração relevante dos R$7.494,81 investidos em 90 dias está sendo mal alocada — reequilibrar essa verba pode aumentar o volume de leads sem aumentar o investimento",
+        "action": "Reativar o criativo #1 e pausar/substituir os de score <30% ainda esta semana"
+      },
+      {
+        "problem": "CRM quebrado torna invisível o que acontece depois do lead",
+        "evidence": "RD Station com mais de 20 mil contatos duplicados e divergência de métricas entre RD Marketing e RD CRM",
+        "impact": "Impossível medir com confiança a taxa de conversão lead → consulta → cirurgia; decisões de mídia ficam baseadas só em CPL de topo de funil, não em resultado real",
+        "action": "Priorizar ee-s3-crm-setup com foco em deduplicação e correção do campo de data (texto → numérico) que trava a régua de pós-operatório"
+      },
+      {
+        "problem": "Comunicação depende de 1 pessoa e 1 canal para manter o tom certo, sem redundância comprovada",
+        "evidence": "Conteúdo com outros profissionais historicamente não engaja; influenciadoras testadas por 1 ano sem resultado; TikTok com baixa tração",
+        "impact": "Risco de concentração — se a participação do Dr. Sallet reduzir, não há um segundo formato validado para sustentar o mesmo nível de engajamento",
+        "action": "Testar e validar um segundo formato replicável (Dra. Ana Caroline em vídeos curtos) com orçamento controlado, antes de precisar dele"
+      }
+    ],
+    "communication_score": 39
+  },
+
+  "competitor_benchmark": {
+    "description": "Benchmark canal a canal contra os 4 concorrentes diretos já mapeados no planejamento estratégico anterior (V4/SCN&Co, 15/06/2026), agrupados por território de posicionamento dominante.",
+    "groups": [
+      {
+        "name": "Autoridade Técnica Premium",
+        "members": ["Dr. Almino Ramos / Gastro Obeso Center (GOC)"],
+        "positioning": "Autoridade técnica máxima, submarca premium 'GOC ONE — Centro de Otimização Metabólica', valor não exposto"
+      },
+      {
+        "name": "Conteúdo e Linguagem Jovem",
+        "members": ["Dr. Rubens Arnoni / Imec"],
+        "positioning": "'Bariátrica Simplificada' — reels virais, linguagem jovem, pacientes reais, admirado pelo próprio cliente Sallet como benchmark de estilo"
+      },
+      {
+        "name": "Preço Transparente e Humanização",
+        "members": ["Dr. Rodrigo Barbosa / Instituto Medicina em Foco", "BariMais / Dr. Thales Galvão"],
+        "positioning": "Preço exposto e comparação direta com custo de canetas (Medicina em Foco); 'cuidado humanizado, sem burocracia' (BariMais) — a brecha de humanização que seria natural do Sallet"
+      }
+    ],
+    "benchmark_by_channel": [
+      {
+        "channel": "site",
+        "client_score": 25,
+        "best_in_class_score": 65,
+        "gap": 40,
+        "best_practice_observed": "Instituto Medicina em Foco expõe preço à vista (R$20.980) e compara diretamente cirurgia x Mounjaro/Tirzepatida ao longo de 5 anos, reduzindo a objeção de custo antes mesmo do contato humano",
+        "opportunity_for_client": "Sallet pode replicar a lógica de comparação de custo no site/LP do 'Bariátrica para Todos' — não necessariamente expondo o preço da cirurgia particular, mas comparando o custo do pacote popular vs. gasto acumulado com canetas em 12-24 meses"
+      },
+      {
+        "channel": "instagram",
+        "client_score": 42,
+        "best_in_class_score": 80,
+        "gap": 38,
+        "best_practice_observed": "Imec/Dr. Rubens Arnoni produz reels virais com linguagem jovem e pacientes reais sob um conceito único e memorável ('Bariátrica Simplificada')",
+        "opportunity_for_client": "O Sallet já tem o ativo certo (Dr. Sallet engaja mais que qualquer outro formato testado) mas falta um conceito/território único como o da Imec — testar um formato de reel curto com ele, replicando a autenticidade que já funciona em vídeo longo"
+      },
+      {
+        "channel": "anuncios",
+        "client_score": 52,
+        "best_in_class_score": null,
+        "gap": null,
+        "best_practice_observed": null,
+        "opportunity_for_client": null,
+        "unavailable_reason": "A base de conhecimento não contém dados de Meta Ads Library ou benchmark de anúncios ativos dos concorrentes — apenas dados de rating/GMB e posicionamento de conteúdo orgânico"
+      },
+      {
+        "channel": "google_meu_negocio",
+        "client_score": 30,
+        "best_in_class_score": 96,
+        "gap": 66,
+        "best_practice_observed": "Instituto Medicina em Foco tem nota 5,0★ com mais de 2.000 cirurgias e 300 avaliações — maior volume de prova social documentado do comparativo",
+        "opportunity_for_client": "Ativar a régua de pós-operatório (hoje sem automação) para converter os ~3.564 pacientes já operados em reviews reais — o Sallet tem mais matéria-prima de prova social (pacientes satisfeitos) do que qualquer concorrente, só não está capturando"
+      },
+      {
+        "channel": "whatsapp",
+        "client_score": 45,
+        "best_in_class_score": null,
+        "gap": null,
+        "best_practice_observed": null,
+        "opportunity_for_client": null,
+        "unavailable_reason": "Nenhum dado documentado sobre a configuração de WhatsApp Business dos concorrentes diretos"
+      }
+    ],
+    "strategic_read": "O Sallet está estruturalmente mais atrás em prova social pública (GMB, site) do que em capacidade de produção de conteúdo — o ativo mais forte do comparativo (Dr. Sallet em vídeo) já compete de igual para igual com o benchmark de conteúdo do setor (Imec). O gap real não é falta de talento ou verba, é falta de captura: os ~3.564 pacientes pós-operados são a maior fonte de prova social não aproveitada do comparativo inteiro, e nenhum concorrente documentado tem uma base de pacientes satisfeitos tão grande parada sem automação."
+  },
+
+  "journey_friction_map": {
+    "description": "Funil estimado a partir do relatório de criativos Meta Ads (90 dias) cruzado com o fluxo de atendimento documentado (RD Station + Omniplus) e o ciclo real de decisão da persona.",
+    "stages": [
+      {
+        "stage": "Exposição (alcance dos anúncios)",
+        "current_volume": "99.247 (alcance total, relatório de 90 dias)",
+        "leakage_pct": null,
+        "root_cause": null,
+        "fix_effort": "low",
+        "fix_impact_estimate": "Base do funil — não há vazamento a corrigir aqui, é o ponto de partida"
+      },
+      {
+        "stage": "Clique / engajamento",
+        "current_volume": "~2.640 cliques estimados (CTR médio 2,66% sobre o alcance) [E]",
+        "leakage_pct": 97.3,
+        "root_cause": "Esperado para mídia paga de topo de funil — a maior parte do alcance nunca clica, isso é normal e não é o vazamento crítico",
+        "fix_effort": "low",
+        "fix_impact_estimate": "Reativar o criativo #1 (CTR 3,86%) e pausar os de score <30% já eleva o CTR médio do conjunto sem custo adicional"
+      },
+      {
+        "stage": "Lead (formulário/conversa)",
+        "current_volume": "696 resultados em 90 dias (relatório Meta Ads)",
+        "leakage_pct": 73.6,
+        "root_cause": "Estimado a partir da diferença entre cliques e leads — parte é natural (nem todo clique vira lead), mas parte é inflada pela mistura de objetivos de campanha (formulário x conversa por mensagem), que dificulta uma leitura limpa deste estágio",
+        "fix_effort": "low",
+        "fix_impact_estimate": "Padronizar o objetivo de otimização por campanha melhora a leitura real deste estágio, mesmo sem mudar o volume"
+      },
+      {
+        "stage": "Resposta humana (WhatsApp/Omniplus)",
+        "current_volume": null,
+        "leakage_pct": null,
+        "root_cause": "CRM com 20 mil+ contatos duplicados impede saber quantos dos 696 leads efetivamente chegaram a um atendente humano dentro do SLA de até 1 dia",
+        "fix_effort": "high",
+        "fix_impact_estimate": "Sem correção do CRM, este estágio permanece invisível independentemente de qualquer melhoria em mídia"
+      },
+      {
+        "stage": "Agendamento de avaliação",
+        "current_volume": null,
+        "leakage_pct": null,
+        "root_cause": "Mesma causa-raiz do estágio anterior — dado não confiável hoje",
+        "fix_effort": "high",
+        "fix_impact_estimate": "Depende da correção do CRM para virar um número real"
+      },
+      {
+        "stage": "Fechamento (cirurgia realizada)",
+        "current_volume": "~80 cirurgias/mês atuais (vs. patamar histórico de 120/mês)",
+        "leakage_pct": null,
+        "root_cause": "Delay médio de 3 meses entre entrada no funil e cirurgia — parte dos 696 leads deste relatório ainda está 'em trânsito' e não deve ser lida como perdida",
+        "fix_effort": "medium",
+        "fix_impact_estimate": "Leitura de performance deveria ser sempre retroativa (mês N fecha resultado do mês N-3), não comparando lead do mês corrente com cirurgia do mês corrente"
+      },
+      {
+        "stage": "Pós-operatório e indicação",
+        "current_volume": "~3.564 contatos no funil pós-cirúrgico",
+        "leakage_pct": null,
+        "root_cause": "Falta de automação (bug de campo de data em texto) gera sensação de abandono e reclamações no GMN, em vez de gerar as indicações que sustentam o principal canal de aquisição real do Instituto (boca a boca, ~80% de influência familiar na decisão de novos pacientes)",
+        "fix_effort": "high",
+        "fix_impact_estimate": "Automatizar essa régua tem potencial de gerar mais indicação orgânica do que qualquer otimização de mídia paga, dado o peso do boca a boca na decisão"
+      }
+    ],
+    "biggest_leakage_summary": "O vazamento mais crítico não tem um número confiável hoje — e essa é a própria descoberta: o CRM com 20 mil+ contatos duplicados torna invisível tudo que acontece entre o lead (696 em 90 dias) e o fechamento (~80 cirurgias/mês). Até essa base ser corrigida, qualquer otimização de mídia paga está sendo decidida às cegas depois do clique.",
+    "projected_funnel_90d_realistic": "Mantendo o mesmo budget de ~R$7.500/90 dias, reativar o criativo #1 (R$3,14/lead) e pausar os anúncios ativos com score <30% pode reduzir o CPL médio de R$10,77 para algo entre R$7-8, projetando 950-1.050 leads no próximo trimestre em vez de 696 — um ganho de 35-50% em volume sem aumento de investimento [E]. Esse ganho, porém, só vira cirurgia a mais se o CRM for corrigido em paralelo — senão os leads extras se perdem na mesma névoa de hoje."
+  },
+
+  "tone_of_voice_analysis": {
+    "description": "Auditoria de coerência entre o tom prometido pela marca (autoridade + acolhimento transdisciplinar) e o tom real praticado em cada canal.",
+    "brand_voice_target": {
+      "pillars": [
+        "Autoridade técnica consolidada (25+ anos do Dr. Sallet, 30 anos de Instituto)",
+        "Acolhimento transdisciplinar ('não tratamos só o peso, tratamos você por inteiro')",
+        "Direto e sem rodeios (Dr. Sallet fala sem roteiro, formatos longos como entrevistas/podcast)",
+        "Institucional e sério (herança de 30 anos, não é clínica popular)"
+      ],
+      "avoid": [
+        "Não é descontraído/jocoso",
+        "Não é 'vendedor' agressivo ou de urgência artificial",
+        "Não pode soar frio ou corporativo — contradiria o pilar de acolhimento"
+      ]
+    },
+    "channel_drift": [
+      {
+        "channel": "site",
+        "actual_tone": "Não analisado via screenshot nesta rodada — mas o próprio time descreve o site (2023) como 'ruim só de olhar', o que já contradiz visualmente a promessa de autoridade/solidez institucional antes mesmo do visitante ler qualquer texto",
+        "target_alignment": "baixa",
+        "drift_notes": "A forma (design datado) contradiz o conteúdo (autoridade de 25+ anos) — quem chega pode inferir descuido ou desatualização, o oposto do pilar de autoridade",
+        "fix": "Priorizar redesign no pipeline de ee-s3-identidade-visual/ee-s3-landing-page usando o manual de marca já aprovado",
+        "example": "Autoavaliação da Bárbara Elizabeth no kickoff: 'já é ruim só de olhar'"
+      },
+      {
+        "channel": "instagram",
+        "actual_tone": "Quando é o Dr. Sallet falando sem roteiro, o tom é caloroso e autoritativo ao mesmo tempo — alinhado. Quando é conteúdo de outros profissionais ou influenciadoras contratadas, o tom se dilui e o engajamento cai",
+        "target_alignment": "parcial",
+        "drift_notes": "A marca depende quase 100% de 1 pessoa para manter o tom certo — os formatos testados fora desse padrão (TikTok, influenciadoras) não sustentam o mesmo alinhamento nem geram resultado",
+        "fix": "Validar a Dra. Ana Caroline como segundo formato replicável antes de testar mais formatos novos",
+        "example": null
+      },
+      {
+        "channel": "anuncios",
+        "actual_tone": "Vídeos do Dr. Sallet ('Portanto, não perca mais tempo') mantêm o tom direto e autoritativo, com o maior CTR do conjunto (3,98-4,00%) — mas o custo por lead desses vídeos é 10x o do melhor estático, sugerindo que a promessa do vídeo não está sendo capturada de forma eficiente depois do clique",
+        "target_alignment": "parcial",
+        "drift_notes": "O tom do vídeo está correto e engaja — o desalinhamento não é de voz, é de eficiência pós-clique (oferta/CTA da LP pode não sustentar a mesma promessa)",
+        "fix": "Testar o mesmo tom/hook em formato estático ou carrossel, mais barato de produzir e testar",
+        "example": "'Portanto, não perca mais tempo' (criativo marcado 'SUBSTITUIR' apesar de CTR de 3,98%)"
+      },
+      {
+        "channel": "google_meu_negocio",
+        "actual_tone": null,
+        "target_alignment": "nenhum",
+        "drift_notes": "Sem screenshot ou dado de posts/respostas do GMB na base de conhecimento — impossível avaliar tom das respostas a reviews",
+        "fix": "Solicitar screenshot do perfil GMB e histórico recente de respostas a reviews",
+        "example": null
+      },
+      {
+        "channel": "whatsapp",
+        "actual_tone": "Fluxo majoritariamente automatizado (Omniplus) nos primeiros contatos — a lógica documentada é operacional/utilitária (mensagens de cobrança de resposta), sem evidência de que o tom acolhedor/transdisciplinar da marca aparece nessas mensagens automáticas",
+        "target_alignment": "media",
+        "drift_notes": "Risco de a primeira interação do lead soar robótica, contradizendo o pilar de acolhimento logo no momento mais sensível (alguém decidindo tratar a própria obesidade)",
+        "fix": "Revisar o copy das mensagens automáticas do Omniplus para incorporar o tom acolhedor, mesmo sendo fluxo automatizado",
+        "example": null
+      }
+    ],
+    "coherence_score": 45
+  },
+
+  "url_audit": {
+    "description": "URLs e canais críticos a verificar pelo operador antes de qualquer nova onda de mídia.",
+    "urls": [
+      {
+        "url": "https://sallet.com.br/",
+        "purpose": "Site institucional principal",
+        "status_expected": "Proposta de valor clara na primeira dobra, alinhada à mensagem-chave funcional aprovada ('alta em 24h e acompanhamento completo')",
+        "verify_checklist": [
+          "Headline reflete a mensagem-chave aprovada?",
+          "CTA principal visível sem scroll?",
+          "Site carrega em <3s no mobile?",
+          "Pixel do Meta e Google Tag instalados?",
+          "Menção a convênio aparece só nas seções de cirurgia, nunca nas de tratamento clínico?"
+        ]
+      },
+      {
+        "url": "Landing page 'Bariátrica Agendamento' (tratamentos cirúrgicos) — hospedada no software próprio da V4",
+        "purpose": "Captura de lead para cirurgia (particular e 'Bariátrica para Todos')",
+        "status_expected": "Formulário integrado ao RD Station funcionando; menção a convênio presente (cobertura real aqui)",
+        "verify_checklist": [
+          "Formulário dispara corretamente para o RD Station?",
+          "Depoimento em vídeo do paciente que emagreceu 70kg está publicado?",
+          "Mini-bio/selos do Dr. Sallet estão no topo, como decidido no check-in?"
+        ]
+      },
+      {
+        "url": "Landing page de tratamentos não cirúrgicos (caneta/balão) — hospedada no software próprio da V4",
+        "purpose": "Captura de lead para tratamento clínico (GLP-1/balão)",
+        "status_expected": "Nenhuma menção a convênio (regra de marca); 1 CTA principal só; ícones substituídos por imagens reais",
+        "verify_checklist": [
+          "Confirmar remoção de qualquer selo/menção a convênio",
+          "Confirmar CTA único ('Agendar minha avaliação'), sem botão duplicado",
+          "Prova social/depoimentos reposicionados para cima, logo após a explicação dos tratamentos",
+          "Narrativa em espiral (jornada/etapas) da LP antiga foi reaproveitada?"
+        ]
+      },
+      {
+        "url": "https://www.instagram.com/institutosallet/",
+        "purpose": "Perfil Instagram institucional",
+        "status_expected": "Bio com CTA claro e link funcional; destaques organizados",
+        "verify_checklist": [
+          "Bio comunica claramente o que o Instituto faz e para quem?",
+          "Link da bio está funcional e atualizado?",
+          "Destaques cobrem: Sobre nós, Serviços, Depoimentos, FAQ?"
+        ]
+      },
+      {
+        "url": "Perfil Google Meu Negócio do Instituto (URL não levantada)",
+        "purpose": "Prova social local e canal de reclamação pós-operatório",
+        "status_expected": "Nota e volume de reviews competitivos com o benchmarking (4,5-5,0★); reviews negativos respondidos",
+        "verify_checklist": [
+          "Qual a nota atual e o volume de reviews?",
+          "Reviews negativos recentes têm resposta da clínica?",
+          "Descrição e categorias estão atualizadas?",
+          "Posts/atualizações recentes existem?"
+        ]
+      },
+      {
+        "url": "WhatsApp Business +55 11 3046-9393",
+        "purpose": "Atendimento e qualificação de leads (via Omniplus)",
+        "status_expected": "Mensagem de ausência configurada; SLA de resposta humana reduzido frente ao atual (até 1 dia)",
+        "verify_checklist": [
+          "Existe mensagem de ausência fora do horário comercial?",
+          "Catálogo de serviços está preenchido?",
+          "Tempo real de resposta humana está sendo medido?"
+        ]
+      }
+    ]
+  },
+
+  "quick_wins": [
+    {
+      "action": "Reativar o criativo 'Dez_2024_Estático' no Meta Ads, que está pausado apesar de ter o melhor score (92%) e o menor custo por lead (R$3,14) de toda a conta",
+      "channel": "anuncios",
+      "time_estimate": "15min",
+      "expected_impact": "Reduz o CPL médio da conta imediatamente, sem custo adicional de produção",
+      "who_does_it": "operator",
+      "steps": [
+        "Acessar o Gerenciador de Anúncios da conta Instituto Sallet",
+        "Localizar o criativo 'Dez_2024_Estático_0s_Perene'",
+        "Reativar o conjunto de anúncios/campanha correspondente",
+        "Confirmar orçamento disponível para o conjunto reativado"
+      ]
+    },
+    {
+      "action": "Pausar os anúncios ativos com score de performance abaixo de 30% que seguem consumindo budget sem gerar resultado proporcional",
+      "channel": "anuncios",
+      "time_estimate": "30min",
+      "expected_impact": "Libera verba para realocar nos criativos vencedores, sem aumentar o investimento total",
+      "who_does_it": "operator",
+      "steps": [
+        "Revisar o relatório Meta Analyser mais recente",
+        "Identificar todos os anúncios ATIVOS com score <30%",
+        "Pausar cada um e registrar o motivo (baixa eficiência)",
+        "Redirecionar o orçamento liberado para os criativos com score >70%"
+      ]
+    },
+    {
+      "action": "Padronizar o objetivo de otimização por campanha (formulário vs. conversa por mensagem) para permitir leitura comparável de CPL entre criativos",
+      "channel": "anuncios",
+      "time_estimate": "1h",
+      "expected_impact": "Leitura de performance mais confiável nos próximos relatórios",
+      "who_does_it": "operator",
+      "steps": [
+        "Mapear quais campanhas hoje otimizam para 'conversa por mensagem' vs. 'formulário'",
+        "Decidir um objetivo padrão por etapa de funil (ex: topo = mensagem, meio/fundo = formulário)",
+        "Ajustar as campanhas divergentes"
+      ]
+    },
+    {
+      "action": "Configurar mensagem de ausência no WhatsApp Business fora do horário comercial",
+      "channel": "whatsapp",
+      "time_estimate": "30min",
+      "expected_impact": "Evita que o lead fique sem qualquer retorno fora do expediente, reduzindo a sensação de abandono já identificada como problema recorrente",
+      "who_does_it": "client_team",
+      "steps": [
+        "Acessar as configurações do WhatsApp Business/Omniplus",
+        "Redigir mensagem de ausência alinhada ao tom acolhedor da marca",
+        "Definir horário de disparo automático (fora do expediente)"
+      ]
+    },
+    {
+      "action": "Levantar a nota atual e o volume de reviews do Google Meu Negócio do Instituto",
+      "channel": "google_meu_negocio",
+      "time_estimate": "15min",
+      "expected_impact": "Fecha o gap de benchmark competitivo (hoje os 4 concorrentes diretos têm rating documentado e o Sallet não)",
+      "who_does_it": "operator",
+      "steps": [
+        "Acessar o perfil GMB do Instituto",
+        "Registrar nota média e volume total de reviews",
+        "Registrar quantos reviews negativos recentes não têm resposta"
+      ]
+    }
+  ],
+
+  "summary_headline": "Instituto Sallet já sabe produzir anúncio eficiente (R$3,14/lead) — mas ele está pausado, e um CRM com 20 mil contatos duplicados torna invisível tudo que acontece depois do lead.",
+
+  "summary_highlights": [
+    {
+      "category": "maturidade",
+      "label": "Score de Comunicação",
+      "value": "39/100",
+      "subtext": "5 canais auditados — nenhum acima de 55/100",
+      "tone": "yellow"
+    },
+    {
+      "category": "risco",
+      "label": "Coerência de tom",
+      "value": "45/100",
+      "subtext": "Depende quase só do Dr. Sallet para manter o tom certo",
+      "tone": "red"
+    },
+    {
+      "category": "oportunidade",
+      "label": "Quick win imediato",
+      "value": "Reativar criativo #1",
+      "subtext": "Pausado, mas custa R$3,14/lead vs média de R$10,77",
+      "tone": "green"
+    },
+    {
+      "category": "competicao",
+      "label": "Gap vs melhor GMB",
+      "value": "~66 pontos",
+      "subtext": "Medicina em Foco: 5,0★/300 av. — Sallet sem rating documentado",
+      "tone": "red"
+    },
+    {
+      "category": "risco",
+      "label": "Budget mal alocado",
+      "value": "3+ anúncios ativos <30%",
+      "subtext": "Seguem consumindo verba sem gerar lead proporcional",
+      "tone": "red"
+    }
+  ],
+
+  "summary_key_findings": [
+    {
+      "category": "vantagem",
+      "text": "O criativo de melhor performance (estático, R$3,14/lead, CTR 3,86%) prova que o Instituto já sabe produzir um anúncio eficiente — só não está no ar."
+    },
+    {
+      "category": "contexto",
+      "text": "696 leads gerados em 90 dias via Meta Ads (R$7.494,81 investidos), mas o CRM tem 20 mil+ contatos duplicados — não é possível medir com confiança quantos desses 696 avançaram no funil."
+    },
+    {
+      "category": "ameaca",
+      "text": "Concorrentes diretos (Imec 4,9★/371 av., BariMais 4,9★/470 av., Medicina em Foco 5,0★/300 av.) têm prova social pública documentada muito mais forte do que o Sallet — que não tem sequer um rating de GMB registrado nesta auditoria."
+    },
+    {
+      "category": "acao",
+      "text": "Reativar o criativo pausado de melhor performance e pausar os anúncios ativos com score abaixo de 30% — ação de custo zero, executável ainda esta semana."
+    }
+  ],
+
+  "key_insight": {
+    "headline": "O anúncio mais barato do Instituto (R$3,14/lead) está pausado, enquanto pelo menos 3 anúncios ativos com menos de 30% de score seguem consumindo a mesma verba.",
+    "context": "Isso não é falta de know-how — o time já provou que sabe fazer um criativo eficiente. É falta de rotina de manutenção: sem uma poda periódica dos criativos fracos e reativação dos fortes, o budget de mídia se dilui entre 21 anúncios quando deveria estar concentrado nos 5-6 que realmente entregam lead barato.",
+    "numbered_reasons": [
+      "(1) O criativo #1 (92% de score, R$3,14/lead) está marcado PAUSADO no relatório mais recente",
+      "(2) Pelo menos 3 anúncios ATIVOS têm score abaixo de 30% (13%, 28%, 32%) e continuam no ar",
+      "(3) Reequilibrar essa verba entre os criativos vencedores pode elevar o volume de leads em 90 dias sem aumentar o investimento"
+    ],
+    "discussion_anchor": "Antes de aprovar mais budget para o 'Bariátrica para Todos' ou qualquer criativo novo, vale decidir com o cliente se a V4 assume uma rotina quinzenal de poda de criativos — sem isso, esse mesmo problema se repete a cada novo lançamento."
+  },
+
+  "honesty_alert": "Esta auditoria tem um problema de visibilidade dentro dela mesma: o canal de anúncios foi avaliado com dado real e detalhado (relatório Meta Analyser), mas Site, Instagram e Google Meu Negócio foram avaliados sem screenshot direto — os scores desses 3 canais usam evidência qualitativa documentada em reuniões (ex: autoavaliação do próprio time sobre o site) e devem ser tratados como estimativa inicial, a refinar assim que o operador fornecer capturas de tela. Além disso, o problema de fundo do Instituto não é criativo — é que o CRM quebrado (20 mil+ contatos duplicados) torna impossível medir com confiança o que acontece depois do lead, então qualquer otimização de mídia paga daqui em diante está sendo decidida parcialmente às cegas até o ee-s3-crm-setup corrigir essa base."
+}

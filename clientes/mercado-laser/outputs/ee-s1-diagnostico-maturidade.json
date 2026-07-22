@@ -1,0 +1,159 @@
+{
+  "client_name": "Mercado Laser",
+  "skill": "ee-s1-diagnostico-maturidade",
+  "generated_at": "2026-06-26",
+  "data_source": "Kick-off 15/06 + reuniões de venda (08/06) e onboarding (11/06) + form de kick-off + outputs/ee-s1-persona-icp",
+  "unavailable_reason": "Sem dados V4MOS conectados (sem organizationId do workspace; operador confirmou que não há nada relevante lá hoje). Scores e métricas deste diagnóstico são baseados no briefing e nos relatos verbais de Júlio/Vinícius/Igor, não em dados de plataforma. Marcado como estimated: true.",
+
+  "summary": "O Mercado Laser investe em mídia paga há tempo e tem ativos reais (Instagram orgânico crescendo, base de ~7.000 clientes, atendimento humano rápido), mas opera sem nenhuma camada de mensuração: zero pixel instalado, zero CRM dedicado, e a reativação de base manual via WhatsApp já causou um bloqueio da própria plataforma. O score vale igualmente para os dois funis (máquina e peça) — nenhum dos dois tem tracking hoje.",
+
+  "summary_headline": "Mercado Laser investe em mídia há tempo mas opera no escuro: zero pixel, zero CRM dedicado, e o WhatsApp já levou bloqueio por uso manual — quase tudo que existe não pode ser medido.",
+
+  "summary_highlights": [
+    { "category": "maturidade", "label": "Presença Digital", "value": "4/10", "subtext": "Instagram orgânico forte (10,9k) e Mercado Livre rodando, mas BestBeam incompleto e site sem popup/remarketing", "tone": "yellow" },
+    { "category": "maturidade", "label": "Mídia Paga", "value": "2/10", "subtext": "Meta sem campanha ativa, Google parado por saldo — histórico de gestão fraudulenta do ex-funcionário", "tone": "red" },
+    { "category": "maturidade", "label": "Conversão (CRO)", "value": "3/10", "subtext": "Atendimento humano forte (resposta em 5min), mas zero captura de lead e CTA já saiu errado uma vez", "tone": "red" },
+    { "category": "maturidade", "label": "CRM", "value": "2/10", "subtext": "Base de ~7.000 clientes existe, mas reativação manual já causou bloqueio do WhatsApp", "tone": "red" },
+    { "category": "maturidade", "label": "Dados/Analytics", "value": "1/10", "subtext": "Nenhum pixel instalado, ninguém sabe CPA/taxa de conversão, decisão histórica era 'por feeling'", "tone": "red" },
+    { "category": "risco", "label": "Score geral", "value": "2,4/10", "subtext": "Crítico — abaixo da faixa baixa de e-commerce geral (estimado, sem dados V4MOS)", "tone": "red" }
+  ],
+
+  "summary_key_findings": [
+    { "category": "vantagem", "text": "O Mercado Laser já tem dois ativos difíceis de construir do zero: uma base real de ~7.000 clientes cadastrados e um Instagram com crescimento orgânico genuíno (10,9k seguidores), sem nunca ter comprado seguidor." },
+    { "category": "ameaca", "text": "Zero pixel e zero CRM significam que qualquer real investido em mídia nova compete por dados que não existem — e a empresa já viveu o pior cenário possível: um ex-funcionário que gerenciava tráfego mal e ainda desviava parte do atendimento de WhatsApp para si mesmo." },
+    { "category": "contexto", "text": "Não há organizationId V4MOS conectado, então este diagnóstico não usa nenhum dado real de plataforma — está fundamentado inteiramente em briefing e relato verbal dos sócios/equipe." },
+    { "category": "acao", "text": "Antes de qualquer campanha nova rodar com orçamento maior, pixel (Meta+Google) e roteamento correto do WhatsApp precisam estar resolvidos — sem isso, o Daniel corre o risco de repetir, com dinheiro novo, o mesmo erro que motivou a demissão do funcionário anterior: gastar sem saber o que funcionou." }
+  ],
+
+  "pilares": [
+    {
+      "id": "presenca",
+      "nome": "Presença Digital",
+      "score": 4,
+      "estimated": true,
+      "pontos_fortes": [
+        "Instagram com ~10,9 mil seguidores, crescimento 100% orgânico recente puxado pelo Vinícius",
+        "Presença em marketplaces: Mercado Livre com vendas diárias, Magalu começando a vender",
+        "E-commerce funcional na Tray com catálogo técnico detalhado",
+        "20 anos de marca consolidada no segmento, ~7.000 clientes cadastrados"
+      ],
+      "pontos_fracos": [
+        "BestBeam (linha premium) ainda em construção no momento do kick-off — marca sem site funcional ainda",
+        "Site sem popup de captura de lead nem ferramentas básicas de remarketing (apontado pelo próprio vendedor V4 na reunião de 08/06)",
+        "Sem indicação de blog/conteúdo SEO ou status de Google Meu Negócio confirmado",
+        "Listas de transmissão de WhatsApp como única forma de reativação — já gerou bloqueio da própria plataforma"
+      ]
+    },
+    {
+      "id": "midia",
+      "nome": "Mídia Paga",
+      "score": 2,
+      "estimated": true,
+      "pontos_fortes": [
+        "Contas de Google Ads e Meta Ads já existem, com acesso admin confirmado",
+        "Já investiam ~R$2.000/mês combinado — não é histórico zero"
+      ],
+      "pontos_fracos": [
+        "Nenhuma campanha ativa no Meta Ads no momento do kick-off",
+        "Google Ads parado por saldo esgotado (última visualização dia 13)",
+        "Sem teste A/B — 'só uma campanha exclusiva' segundo o próprio Júlio",
+        "Não sabem CPA/CPL — indicadores eram vistos só pelo ex-funcionário e pelo diretor",
+        "Histórico de gestão fraudulenta: ex-funcionário desligado por 'venda por fora' (desviava clientes)"
+      ]
+    },
+    {
+      "id": "conversao",
+      "nome": "Conversão (CRO)",
+      "score": 3,
+      "estimated": true,
+      "pontos_fortes": [
+        "Atendimento via WhatsApp responde em até 5 minutos na maioria dos casos",
+        "Condições de pagamento claras (12x sem juros, 7% desconto à vista, parcelamento em boleto)",
+        "Catálogo com descrição técnica detalhada, ajuda quem já sabe o que procura",
+        "Possui prova social segundo o form de kick-off (não detalhada)"
+      ],
+      "pontos_fracos": [
+        "Sem popup de captura de lead em nenhum dos dois sites",
+        "CTA de WhatsApp do site já esteve configurado para o número errado/pessoal de um colaborador, segundo teste do vendedor V4",
+        "Sem nenhum pixel ou analytics de conversão — Igor reconhece que parte dos ~3.000 acessos/mês 'entra e sai' sem ser atendida",
+        "Sem dado de taxa de conversão real para nenhum dos dois ICPs (máquina ou peça)"
+      ]
+    },
+    {
+      "id": "crm",
+      "nome": "CRM",
+      "score": 2,
+      "estimated": true,
+      "pontos_fortes": [
+        "Base relevante (~7.000 clientes cadastrados na Tray, todos já compradores)",
+        "CRM dedicado já é bônus contratado no projeto V4, a caminho de ser implementado"
+      ],
+      "pontos_fracos": [
+        "CRM hoje é só o nativo da Tray — não tem pipeline, scoring ou nutrição",
+        "Reativação de base é manual via lista de transmissão semanal — já causou bloqueio do WhatsApp por frequência alta",
+        "Indicadores de venda só eram acessíveis num computador específico, não disponíveis a todo o time",
+        "Zero automação de pós-venda ou follow-up"
+      ]
+    },
+    {
+      "id": "dados",
+      "nome": "Dados/Analytics",
+      "score": 1,
+      "estimated": true,
+      "pontos_fortes": [
+        "Equipe reconhece o problema e já pediu ajustes de tracking ao time V4 no kick-off"
+      ],
+      "pontos_fracos": [
+        "Nenhum pixel instalado — nem Meta, nem Google",
+        "Google Analytics e Search Console não confirmados",
+        "Não sabem CPA, taxa de conversão, nem quantos dos ~3.000 acessos/mês são efetivamente atendidos",
+        "Decisões de mídia historicamente tomadas 'por feeling', sem dado, segundo o próprio Júlio"
+      ]
+    }
+  ],
+
+  "score_geral": 2.4,
+  "score_geral_estimated": true,
+  "nota_segmentacao": "Score vale igualmente para os dois funis mapeados em ee-s1-persona-icp (comprador de máquina e comprador de peça) — nenhum dos dois tem qualquer camada de tracking hoje.",
+
+  "tres_prioridades_evolucao": [
+    {
+      "prioridade": 1,
+      "acao": "Instalar pixel Meta + Google e configurar eventos básicos (Lead, Purchase) antes de qualquer campanha nova rodar",
+      "porque": "É o pilar mais fraco (1/10) e o que mais contamina os outros — sem pixel, mídia paga, CRO e CRM seguem sem dado real, e o Daniel corre risco de repetir o erro do ex-funcionário com dinheiro novo.",
+      "skill_relacionada": "ee-s2-diagnostico-midia"
+    },
+    {
+      "prioridade": 2,
+      "acao": "Implementar o CRM dedicado (já bônus do contrato) com pipeline básico por etapa",
+      "porque": "A lista de transmissão manual já causou bloqueio do WhatsApp; sem CRM, a base de ~7.000 clientes não tem taxa de conversão por etapa nem nutrição.",
+      "skill_relacionada": "ee-s3-crm-setup"
+    },
+    {
+      "prioridade": 3,
+      "acao": "Corrigir o roteamento do WhatsApp dos anúncios/site e adicionar popup de captura de lead",
+      "porque": "É vazamento de lead ativo e de baixo esforço para resolver — o CTA já apontou pro número errado uma vez, e parte dos 3.000 acessos/mês hoje 'entra e sai' sem ser capturada.",
+      "skill_relacionada": "ee-s2-diagnostico-cro"
+    }
+  ],
+
+  "key_leverage_point": {
+    "headline": "Dados/Analytics (1/10) é o pilar mais fraco — e é o que, corrigido, torna todos os outros mensuráveis.",
+    "context": "Mídia, CRM e CRO andam às cegas porque não existe nenhuma camada de tracking. A equipe já reconhece o problema, mas até o pixel ser instalado não dá pra saber se R$2.000 ou R$20.000/mês de investimento estão funcionando, nem para qual dos dois funis (máquina ou peça).",
+    "numbered_reasons": [
+      "Sem pixel, o diagnóstico de mídia da Semana 2 (ee-s2-diagnostico-midia) vai continuar baseado em estimativa, mesmo depois de rodar campanha nova",
+      "O CRM dedicado (bônus já contratado) só vira ferramenta de decisão se tiver dado entrando — hoje a base de 7.000 clientes não tem nem taxa de conversão por etapa",
+      "Instalar pixel é a ação de menor esforço e maior efeito cascata da lista — é literalmente o primeiro passo prático do contrato de tráfego pago"
+    ],
+    "discussion_anchor": "Vale o Daniel tratar a instalação de pixel como item #0 antes mesmo da primeira campanha nova rodar."
+  },
+
+  "honesty_alert": "Este diagnóstico foi feito inteiramente sem dados de plataforma (sem organizationId V4MOS conectado e sem nenhum pixel/analytics configurado no site). Todos os scores são estimativas qualitativas baseadas no kick-off e nas falas de Júlio/Vinícius/Igor — não são métricas medidas. Deve ser refeito com dados reais depois que pixel e CRM estiverem rodando.",
+
+  "alimenta_skills": [
+    "ee-s1-swot",
+    "ee-s2-diagnostico-midia",
+    "ee-s3-crm-setup",
+    "ee-revisao-semanal"
+  ]
+}

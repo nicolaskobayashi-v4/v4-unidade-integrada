@@ -1,0 +1,463 @@
+{
+  "meta": {
+    "name": "Instituto Salotti de Odontologia Digital",
+    "slug": "instituto-salotti",
+    "nome_anterior": "Joy Care Odontologia",
+    "nome_rebranding_oficial": "Instituto Salotti de Odontologia Digital",
+    "workspace_id": null,
+    "created_at": "2026-05-05",
+    "modulo_vendas": true
+  },
+
+  "briefing": {
+    "empresa": "Instituto Salotti de Odontologia Digital",
+    "segmento": "Odontologia Digital — Reabilitação Oral, Implantes, Estética e Cirurgia Guiada",
+    "site": null,
+    "site_nota": "Site fora do ar. Nenhum ativo digital construído para o novo Instituto Salotti. Tudo será criado do zero.",
+    "instagram": "joycare.odontologia (marca antiga — será descontinuada)",
+    "localizacao": "Jundiaí, SP — bairro tradicional, imóvel próprio (casa sobrado 240m²), sem estacionamento próximo (reforma planejada para criar vagas)",
+    "tempo_mercado_anos": 11,
+    "operacao_desde": "2015 (como Joy Care desde 2016)",
+    "modelo_negocio": "B2C — consultas e tratamentos odontológicos particulares premium. Migração 100% de convênios para particular (decisão tomada ~março 2026)",
+
+    "faturamento_mensal_atual": 86000,
+    "faturamento_nota": "Declarado por Luiz Salotti na reunião comercial (23/04). Em queda após descredenciamento de convênios.",
+    "meta_crescimento": "Dobrar o faturamento com o reposicionamento",
+    "meta_novos_pacientes_mes": 10,
+    "ticket_medio_alvo": "R$25.000–R$30.000 por paciente",
+    "ticket_range": "R$500 (limpeza) a R$100.000 (reabilitação total)",
+    "curva_abc": {
+      "A": "Implantes e próteses complexas (maior faturamento)",
+      "B": "Canais, restaurações elaboradas, cirurgias, alinhadores (Clear Correct/Straumann)",
+      "C": "Limpeza, clareamento, restaurações simples — usados como porta de entrada/fidelização"
+    },
+
+    "stakeholders": [
+      {
+        "nome": "Dr. Luiz Salotti",
+        "cargo": "Sócio-proprietário e Dentista Responsável",
+        "email": "salottile@hotmail.com",
+        "formacao": "22 anos de formação, 4 especializações, mestrado em odontologia digital em conclusão, professor na área",
+        "perfil": "Extremamente técnico, fraco em vendas por autodeclaração. Sério, honesto, comprometido. Não fará trends ou conteúdo amador.",
+        "decisor": true
+      },
+      {
+        "nome": "Fabiana Volpe (Fabi)",
+        "cargo": "Gestora Administrativa — fechamento comercial e gestão",
+        "email": "fvolpe1975@gmail.com",
+        "perfil": "Enfermeira há 27 anos, experiência em administração de clínicas. Na clínica há ~1,5 mês. Responsável pela apresentação de preços e fechamento.",
+        "decisor": true
+      },
+      {
+        "nome": "Gabi",
+        "cargo": "Secretária / Gerente de Unidade",
+        "perfil": "10 anos na clínica. Responde WhatsApp, recepciona pacientes. Parceira de longa data do Dr.",
+        "decisor": false
+      },
+      {
+        "nome": "Dra. Giovana",
+        "cargo": "Adequação inicial / Limpeza",
+        "decisor": false
+      }
+    ],
+
+    "equipe_dentistas": "Dr. Luiz Salotti + 3 dentistas especialistas (modelo diarista: Endodontista, Ortodontista, Clínica Geral). Equipe enxuta por estratégia.",
+
+    "servicos": [
+      "Reabilitação Oral completa",
+      "Implantes (cirurgia guiada — sem corte, sem dor, sem pontos)",
+      "Próteses (laboratório próprio — confecção interna)",
+      "Estética dentária: lentes de porcelana, facetas, coroas",
+      "Ortodontia digital — alinhadores Clear Correct (Straumann)",
+      "Clareamento dental",
+      "Cirurgias Guiadas",
+      "Sedação consciente (óxido nitroso — gás do riso)",
+      "Diagnóstico completo: tomografia + escaneamento intraoral + fotos profissionais + câmera intraoral",
+      "Limpeza (porta de entrada / fidelização)"
+    ],
+    "nao_atende": [
+      "Pediatria",
+      "Endodontia com microscópio",
+      "Lentes de resina (facetas diretas)",
+      "Implantes zigomáticos",
+      "Convênios (descredenciado)"
+    ],
+
+    "estrutura_tecnologica": {
+      "tomografo": true,
+      "laboratorio_digital_proprio": true,
+      "fresadoras": true,
+      "scanner_intraoral": true,
+      "camera_intraoral": true,
+      "rx_panoramico": true,
+      "sedacao_consciente": true,
+      "oxido_nitroso": true,
+      "cirurgia_guiada": true,
+      "software_planejamento_digital": true,
+      "nota": "Equipamentos de nível Europa/EUA. Laboratório próprio garante controle total do fluxo de próteses, agilidade e qualidade. Todo diagnóstico feito em uma única consulta."
+    },
+
+    "processo_comercial": {
+      "captacao": "WhatsApp (principal) + Indicação. Zero canais digitais ativos para o novo posicionamento.",
+      "triagem": "IA em implementação no WhatsApp para cobrir horário fora do comercial e filtro inicial",
+      "consulta": {
+        "modelo": "Consulta paga com diagnóstico completo (não há avaliação gratuita)",
+        "inclui": "Fotos profissionais + tomografia (R$400) + escaneamento intraoral",
+        "valor_consulta": "~R$380 (abaixo do preço de médicos renomados por posicionamento estratégico)",
+        "objetivo": "Diagnóstico digital completo + plano de tratamento + encantamento técnico"
+      },
+      "fechamento": "Fabiana apresenta o plano financeiro e fecha no mesmo dia. Meta de 90% de fechamento na consulta.",
+      "pos_venda": "Recall e acompanhamento atual feito manualmente (caderno). Em reestruturação com novo CRM.",
+      "canais_ativos": ["WhatsApp", "Indicação"],
+      "canais_inativos": ["Instagram", "Google Ads", "Site", "Facebook"]
+    },
+
+    "canais_aquisicao": {
+      "whatsapp_business": true,
+      "instagram": false,
+      "google_ads": false,
+      "meta_ads": false,
+      "indicacao": true,
+      "parcerias_corporativas": true,
+      "nota": "Nenhum canal digital ativo para o novo posicionamento. Tudo do zero."
+    },
+
+    "investimento_midia_mensal": {
+      "atual": 0,
+      "estimativa_futura_execucao": "R$4.000–R$8.000/mês (assessoria V4 pós-diagnóstico)"
+    },
+
+    "stack_tecnologico": {
+      "crm": "Novo sistema de gestão implementado (específico para clínicas odontológicas, desenvolvido por dentistas). Em treinamento.",
+      "whatsapp_business": "Número novo, logo Instituto Salotti. IA em treinamento para triagem.",
+      "erp": null,
+      "site": null,
+      "redes_sociais": "Zero ativos construídos para Instituto Salotti"
+    },
+
+    "contexto_reposicionamento": {
+      "situacao_anterior": "Joy Care operava com convênios como porta de entrada desde 2015. Pacientes de convênio fechavam tratamentos de alto valor (implantes, próteses). Nos últimos 2 anos o modelo entrou em colapso — pacientes de convênio pararam de fechar tratamentos caros.",
+      "decisao": "Descredenciamento total dos convênios (~março 2026). Decisão tomada em ~1 semana após chegada de Fabiana.",
+      "urgencia": "Queima de barcos. A clínica tem custo fixo alto e faturamento de R$86k/mês — precisa de captação ativa imediata para cobrir a operação.",
+      "rebranding": "Joy Care → Instituto Salotti de Odontologia Digital. Novo logo pronto no papel. Lançamento junto com reforma da clínica (3-4 meses). WhatsApp novo já rodando com marca nova.",
+      "reforma": "Criação de vagas de estacionamento (bairro sem estacionamento próximo). Duração estimada 3-4 meses.",
+      "agencia_anterior": "Doacom — ainda ativa, sendo cancelada. Mais de 15 agências em 10 anos sem resultado.",
+      "frustracao_historica": "Todas as agências geravam leads focados em preço. Luiz não tinha tempo/paciência para tocar projetos. Hoje tem Fabiana para isso."
+    },
+
+    "posicionamento_desejado": {
+      "conceito": "Quiet luxury odontológico — excelência técnica + tecnologia de ponta + atendimento humanizado e exclusivo",
+      "diferencial_central": "Odontologia Digital: planejamento 100% digital que entrega previsibilidade, agilidade e segurança. Coroa em 1,5h. Implante sem corte em 10 min. Diagnóstico completo em uma consulta.",
+      "tom": "Sério, limpo, assertivo. Sem trends, sem dancinhas, sem conteúdo amador. Autoridade técnica sem ser frio.",
+      "referencia_design": "Clínica Ipioni (aconchegante + excelência técnica). Sem referência visual única definida.",
+      "nao_fara": "TikTok, posts semanais obrigatórios, conteúdo que comprometa a imagem profissional do Dr."
+    },
+
+    "icp": {
+      "primario": {
+        "perfil": "Adulto 35–60 anos, renda média-alta, Jundiaí e região",
+        "decisor": "Chefe da família ou profissional bem remunerado que cuida de si mesmo",
+        "ticket_medio": "R$20.000–R$30.000",
+        "dores": ["Dor ou funcionalidade comprometida", "Estética (sorriso, autoestima)", "Medo de dentista", "Traumas com serviços mal executados em outras clínicas"],
+        "medos": ["Custo financeiro elevado", "Retrabalho", "Dor durante o tratamento", "Demora", "Perda de tempo"],
+        "gatilho": "Dor, perda de dente, estética comprometida — raramente busca por funcionalidade sem dor",
+        "validacao": "Recebe indicação → valida no Instagram → valida no Google"
+      },
+      "secundario": {
+        "perfil": "Pacientes internacionais — brasileiros na Europa (Suíça, Bélgica) que vêm ao Brasil para tratamento",
+        "racional": "Custo-benefício excepcional (pagam em Real equivalente ao que pagariam em Euro). Buscam rapidez e assertividade.",
+        "oportunidade": "Tráfego pago segmentado para brasileiros no exterior"
+      },
+      "terceiro": {
+        "perfil": "Idosos / indicações de casas de repouso",
+        "racional": "Reabilitação funcional de alto ticket. Luiz com interesse estratégico nesse segmento."
+      }
+    },
+
+    "concorrentes": {
+      "diretos": [
+        {
+          "nome": "ROF",
+          "posicao": "Principal concorrente premium em Jundiaí",
+          "nota": "Foco ligeiramente diferente do Instituto Salotti"
+        }
+      ],
+      "indiretos": "Clínicas que capturam por preço e indicação, sem foco em resultado. Fazer tratamento em SP como alternativa para público premium.",
+      "vazio_mercado": "Nenhuma clínica em Jundiaí opera no nível quiet luxury odontológico completo (experiência sensorial + tecnologia integrada + narrativa premium consistente). Espaço aberto para ocupação dominante.",
+      "forcas_concorrentes": "Moderado"
+    },
+
+    "swot_inicial": {
+      "forcas": [
+        "Dr. Salotti: 22 anos de formação, 4 especializações, mestrado, professor de odontologia digital",
+        "Infraestrutura completa de diagnóstico e execução em um único local (tomógrafo, scanner, laboratório próprio, fresadoras)",
+        "Tecnologia de nível Europa/EUA — cirurgia guiada, sedação consciente, óxido nitroso",
+        "Velocidade: coroa em 1,5h vs 7-10 dias no convencional; implante guiado em 10 min",
+        "Imóvel próprio (família) — autonomia e consistência, sem dependência de aluguel",
+        "Gabi: secretária/gerente há 10 anos — parceria e memória institucional",
+        "Consulta paga com diagnóstico completo — filtra desde o início o paciente que valoriza qualidade"
+      ],
+      "fraquezas": [
+        "Zero ativos digitais para o novo posicionamento (Instagram, site, Google)",
+        "Dr. Salotti autodeclarado fraco em vendas — depende de Fabiana para fechamento",
+        "Base de pacientes anterior com baixo reaproveitamento (era convênio, novo público é outro)",
+        "Recall e relacionamento com pacientes feito manualmente (caderno) — sem processo estruturado",
+        "Estacionamento insuficiente — reforma necessária (3-4 meses)",
+        "Agência anterior (Doacom) ainda ativa mas sendo cancelada — transição pendente",
+        "Trauma da equipe de atendimento com período de descredenciamento de convênios"
+      ],
+      "oportunidades": [
+        "Vácuo no mercado premium de Jundiaí — nenhuma clínica com quiet luxury completo",
+        "Jundiaí: cidade com alta capacidade de consumo, envelhecimento progressivo, foco em qualidade de vida",
+        "Pacientes internacionais (brasileiros na Europa) — custo-benefício extremo",
+        "Indicações de casas de repouso (idosos, reabilitação de alto ticket)",
+        "Parcerias corporativas — empresas com benefícios de saúde para executivos",
+        "Ortodontia digital (alinhadores) — segmento com forte demanda por comunicação clara"
+      ],
+      "ameacas": [
+        "Risco Brasil — instabilidade econômica afeta diretamente decisão de tratamentos eletivos de alto valor",
+        "Alta vigilância sanitária em Jundiaí sobre 'mercantilização da Odontologia' (CROSP)",
+        "Custo fixo alto com faturamento em queda após descredenciamento — margem de erro pequena",
+        "Concorrentes com preço mais baixo capturando pacientes que não reconhecem o valor",
+        "Dependência total de indicação enquanto canais digitais não estiverem rodando"
+      ]
+    },
+
+    "missao": "Oferecer um cuidado individualizado que une sensibilidade humana e excelência clínica, proporcionando a cada paciente uma experiência pautada em atenção, respeito e confiança.",
+    "visao": "Integrar tecnologia avançada e um cuidado profundamente humano para oferecer tratamentos precisos, seguros, mais ágeis e previsíveis.",
+    "valores": ["Honestidade", "Verdade", "Conforto", "Segurança", "Precisão", "Humanização"],
+
+    "contrato_v4": {
+      "modalidade": "10 parcelas",
+      "valor_parcela": 2191,
+      "valor_total": 22000,
+      "cashback": "Valor integral convertido em desconto na mensalidade de execução futura (torna o diagnóstico gratuito se seguirem com assessoria)",
+      "data_assinatura": "2026-04-23",
+      "inicio_projeto": "2026-04-28",
+      "semanas": 5,
+      "entregaveis_contratados": [
+        "Diagnóstico e planejamento estratégico completo",
+        "ICP e Persona definidos com dados",
+        "Proposta Única de Valor (PUV)",
+        "Landing page de alta conversão",
+        "Manual de Comunicação (para treinar IA do WhatsApp)",
+        "Manual de identidade visual",
+        "Plano de ação 12 meses",
+        "Forecast de mídia",
+        "Scripts para WhatsApp / funil de vendas"
+      ],
+      "garantia": "Reembolso total se, 24h após entrega, cliente comprovar ausência de direcionamento estratégico aplicável"
+    }
+  },
+
+  "research": {},
+
+  "connectors": {
+    "fetched_at": null,
+    "workspace_id": null,
+    "integrations": {}
+  },
+
+  "progress": {
+    "current_week": 1,
+    "proxima_reuniao": "2026-05-08T15:00:00-03:00",
+    "proxima_reuniao_pauta": "S2 — Pesquisa de mercado e posicionamento",
+    "skills": {
+      "ee-s1-diagnostico-maturidade": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null,
+        "nota": "Sem workspace V4MOS. Canais digitais zerados — sem dados de mídia."
+      },
+      "ee-s1-swot": {
+        "status": "completed",
+        "version": 1,
+        "started_at": "2026-04-29",
+        "completed_at": "2026-05-05"
+      },
+      "ee-s1-persona-icp": {
+        "status": "completed",
+        "version": 1,
+        "started_at": "2026-04-29",
+        "completed_at": "2026-05-05"
+      },
+      "ee-s1-auditoria-comunicacao": {
+        "status": "completed",
+        "version": 1,
+        "started_at": "2026-04-29",
+        "completed_at": "2026-05-05"
+      },
+      "ee-s2-pesquisa-mercado": {
+        "status": "completed",
+        "version": 1,
+        "started_at": "2026-05-05",
+        "completed_at": "2026-05-05"
+      },
+      "ee-s2-posicionamento": {
+        "status": "completed",
+        "version": 1,
+        "started_at": "2026-05-05",
+        "completed_at": "2026-05-05"
+      },
+      "ee-s2-diagnostico-midia": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null,
+        "nota": "Zero histórico de mídia para o novo posicionamento. Diagnóstico será de estrutura e oportunidade, não de performance."
+      },
+      "ee-s2-diagnostico-criativos": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s2-diagnostico-cro": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-identidade-visual": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null,
+        "nota": "Novo logo já pronto no papel (rebranding). Arquivos solicitados ao fornecedor."
+      },
+      "ee-s3-brandbook": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-landing-page": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-copy-anuncios": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-criativos-anuncios": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-crm-setup": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null,
+        "nota": "Novo CRM implementado (sistema específico para clínicas). Em treinamento."
+      },
+      "ee-s3-forecast-midia": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-gmb-otimizacao": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null,
+        "nota": "GMB existente com avaliações do período de convênio — possíveis reviews negativos do processo de descredenciamento."
+      },
+      "ee-s4-diagnostico-comercial": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s4-cliente-oculto": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s5-scripts-sdr": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null,
+        "nota": "Manual de Comunicação é entregável contratado prioritário — alimentará IA do WhatsApp."
+      },
+      "ee-s5-sdr-ia-config": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      }
+    }
+  },
+
+  "history": [
+    {
+      "ts": "2026-04-23T10:55:00-03:00",
+      "skill": "ee-novo-cliente",
+      "checkpoint": 1,
+      "decision": "[Reunião Comercial V4] Clínica em transição urgente: descredenciamento de convênios após 6 meses de prejuízo. Faturamento atual R$86k/mês. Mais de 15 agências em 10 anos sem resultado. Contratação motivada pela chegada de Fabiana (gestora) que permitiu que o projeto fosse tocado. Proposta: R$22.000 em 10x R$2.191 com cashback em futura execução. Contrato assinado na reunião."
+    },
+    {
+      "ts": "2026-04-28T00:00:00-03:00",
+      "skill": "ee-novo-cliente",
+      "checkpoint": 2,
+      "decision": "[Início do projeto] 28/04/2026. Participantes V4/SCN&Co: Lucas Calefi, Geovanna, Sabrina (gestora de projetos), Felipe (tráfego), Natália (design)."
+    },
+    {
+      "ts": "2026-04-29T16:00:00-03:00",
+      "skill": "ee-s1-swot",
+      "checkpoint": 1,
+      "decision": "[S1 Kickoff] Forças: Dr. Salotti com 22 anos + 4 especializações + mestrado; infraestrutura completa (tomógrafo, lab digital, scanner); cirurgia guiada; imóvel próprio; Gabi há 10 anos. Fraquezas: zero ativos digitais; Dr. fraco em vendas; base anterior sem reaproveitamento; recall manual (caderno); trauma da equipe. Oportunidades: vácuo no mercado premium Jundiaí; pacientes internacionais; casas de repouso; parcerias corporativas. Ameaças: risco Brasil; fiscalização CROSP sobre mercantilização; custo fixo alto com faturamento em queda."
+    },
+    {
+      "ts": "2026-05-05T00:00:00-03:00",
+      "skill": "ee-s1-swot",
+      "checkpoint": 1,
+      "decision": "[SWOT] Combinação crítica: F1+F2+F3 (autoridade+tecnologia+velocidade) × O1 (vácuo premium Jundiaí) = janela assimétrica de 12-18 meses. Fraqueza crítica: zero ativos digitais + faturamento em queda cria risco de insolvência se captação não for ativada em 60-90 dias. Combinação Fr3+Fr1×A3 identificada como risco prioritário. Plano precisa de duas velocidades: NRR da base histórica (curto prazo) + construção digital (médio prazo). Ameaça específica: reviews negativos do período de convênio no Google (alta probabilidade, alto impacto). CROSP de Jundiaí com fiscalização ativa sobre mercantilização — todo conteúdo precisa ser revisado antes de publicar."
+    },
+    {
+      "ts": "2026-04-29T16:00:00-03:00",
+      "skill": "ee-s1-persona-icp",
+      "checkpoint": 1,
+      "decision": "[S1 Kickoff] ICP primário: adultos 35-60 anos, renda média-alta, Jundiaí. Ticket R$25-30k (range R$500-R$100k). Decisor: chefe da família ou profissional bem remunerado. Gatilho: dor ou estética. Valida via Instagram + Google após indicação. Medo de retrabalho, custo, dor e perda de tempo. ICP secundário: brasileiros no exterior (Europa) para tratamento de custo-benefício. Terceiro: idosos/casas de repouso (reabilitação funcional)."
+    },
+    {
+      "ts": "2026-05-05T00:00:00-03:00",
+      "skill": "ee-s1-persona-icp",
+      "checkpoint": 1,
+      "decision": "[Persona/ICP] 3 personas definidas: Ricardo (48, empresário — quer resolver de uma vez, sem tempo para processo longo), Beatriz (42, profissional liberal — quer sorriso natural, medo de resultado artificial), Hélio (64, aposentado — reabilitação funcional, medo de cirurgia, filho adulto co-decide). JTBD central: ninguém compra odontologia, compra resultado previsível com mínima disrupção da rotina. Maior concorrente: procrastinação do próprio paciente. Alavanca: cirurgia guiada + sedação consciente eliminam as duas maiores objeções do ICP 55+. Validação digital acontece em Instagram + Google após indicação — presença digital inexistente é barreira crítica."
+    },
+    {
+      "ts": "2026-04-29T16:00:00-03:00",
+      "skill": "ee-s1-auditoria-comunicacao",
+      "checkpoint": 1,
+      "decision": "[S1 Kickoff] Zero ativos digitais para Instituto Salotti. Instagram Joy Care (joycare.odontologia) será descontinuado. Site fora do ar. WhatsApp novo criado com novo logo. Nenhuma conta de anúncios existente. Novo CRM implementado mas em treinamento. IA do WhatsApp em implementação para triagem fora do horário comercial."
+    },
+    {
+      "ts": "2026-05-05T01:00:00-03:00",
+      "skill": "ee-s2-pesquisa-mercado",
+      "checkpoint": 1,
+      "decision": "[Pesquisa de Mercado] TAM Jundiaí: R$120M/ano (odontologia total). SAM (premium particular ICP): R$25M/ano (~4.000 pacientes/ano × ticket médio R$6.500). SOM atual: R$1M/ano = 4% do SAM. SOM meta 18 meses: R$2,5M/ano = 10% do SAM (10 pacientes/mês × ticket blended R$12k). Jundiaí: 12º PIB per capita do Brasil (R$147.597), 15ª maior economia nacional. Vácuo de posicionamento premium confirmado — nenhum concorrente com quiet luxury odontológico completo. ROF é o principal concorrente premium. Ticket blended realista para mix de tratamentos: R$10-15k (não R$25-30k uniformes). Setor crescendo 7%/ano com aceleração no segmento premium."
+    },
+    {
+      "ts": "2026-05-05T02:00:00-03:00",
+      "skill": "ee-s2-posicionamento",
+      "checkpoint": 1,
+      "decision": "[Posicionamento] Modelo: boutique de odontologia digital — especialização máxima, volume restrito, resultado garantido por tecnologia. Território: quiet luxury odontológico (conceito DOA COMM mantido). PUV central: 'Você vê o resultado antes de começar. E resolve em semanas o que levaria meses.' 4 pilares: Previsibilidade (planejamento digital), Agilidade (lab próprio, coroa em 1,5h), Sem dor (cirurgia guiada + sedação), Autoridade técnica (Dr. Salotti). Risco principal: Dr. Salotti fala para dentistas ao invés de para pacientes — tradução de ativo técnico para benefício humano é o trabalho central. Pergunta para S2: 'Quando paciente pergunta por que vale o preço, o que vocês respondem?'"
+    },
+    {
+      "ts": "2026-05-05T00:00:00-03:00",
+      "skill": "ee-s1-auditoria-comunicacao",
+      "checkpoint": 1,
+      "decision": "[Auditoria Comunicação] 1 de 6 touchpoints ativos (WhatsApp). Nova marca desenvolvida pela DOA COMM: conceito quiet luxury sólido, paleta verde+marrom, símbolo 'S' geométrico — alinhado ao ICP. RISCO CRÍTICO: arquivos editáveis da marca estão com a DOA COMM que está sendo cancelada — transferência urgente antes do encerramento do contrato. GMB status desconhecido com alta probabilidade de reviews negativos do período de convênio. Instagram e site do Instituto Salotti inexistentes. Plano de construção em 3 fases: (1) Urgente 7 dias: transferir arquivos + reservar handle Instagram + auditar GMB + registrar domínio. (2) 15-30 dias: Instagram mínimo + GMB atualizado + LP. (3) 30-60 dias: Google Ads + Meta Ads."
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "name": "Instituto de Medicina Sallet",
+    "slug": "instituto-de-medicina-sallet",
+    "workspace_id": null,
+    "created_at": "2026-07-20",
+    "modulo_vendas": false
+  },
+  "briefing": {
+    "identification": {
+      "name": "Instituto de Medicina Sallet",
+      "contact_name": "Bárbara Elizabeth",
+      "contact_role": "Marketing interno / responsável operacional pelo projeto",
+      "segment": "Saúde — cirurgia bariátrica e metabólica, tratamento da obesidade e doenças metabólicas (via cirurgia, tratamentos clínicos com GLP-1 e balão intragástrico, com acompanhamento transdisciplinar)",
+      "annual_revenue": null,
+      "years_in_market": "30 anos como Instituto de Medicina Sallet (antiga UBIMED, criada há 13-14 anos, migrada para a marca pessoal do Dr. Sallet). Dr. José Afonso Sallet atua como cirurgião bariátrico há mais de 25 anos",
+      "location": "São Paulo (SP) e Campinas (SP) — atendimento hospitalar em ambas; atua também com telemedicina para pré-consulta e atende pacientes de todo o Brasil e internacionais",
+      "website": "https://sallet.com.br/",
+      "instagram": "@institutosallet",
+      "whatsapp": "+55 11 3046-9393",
+      "gmb": true
+    },
+    "product": {
+      "main_product": "Cirurgia bariátrica e metabólica + tratamentos alternativos integrados (balão intragástrico, tratamentos clínicos com canetas GLP-1/Tirzepatida), sempre vinculados a acompanhamento transdisciplinar (cirurgiões, endocrinologistas, nutricionistas, psicólogos, psiquiatras, educadores físicos)",
+      "ticket": "Cirurgia particular convencional: ~R$30.000. Pacote popular 'Bariátrica para Todos' (novo, lançamento em jul/2026): ~R$20.400 (R$13.900 + honorários + custo hospitalar). Via convênio médico: cobertura integral pelo plano (98% do volume atual)",
+      "billing_model": "projeto",
+      "sales_cycle": "Decisão pode amadurecer por até 15 anos; preparo pré-operatório dura de 3 a 6 meses; delay médio de 3 meses entre entrada no funil digital e realização da cirurgia",
+      "active_customers": "~80 cirurgias/mês atualmente (patamar histórico: 120/mês). 98% via convênio médico corporativo (ex.: Amazon, Coca-Cola, GM), ~4 cirurgias/mês no particular",
+      "most_profitable": "Segmento particular tem maior margem individual mas baixíssimo volume (~4/mês). O grosso do faturamento (98% do volume) vem de convênio, com margem mais apertada",
+      "growth_potential": "'Bariátrica para Todos' (pacote popular recém-lançado, verba inicial de R$5.000/mês liberada pela diretoria) e tratamentos clínicos com GLP-1/canetas com acompanhamento — capturar o público que hoje migra para canetas sem supervisão médica"
+    },
+    "icp": {
+      "best_customers": "Mulheres de 20 a 50 anos, classe C/C+, profissionais ativas com rotina corrida, que convivem há anos com obesidade e histórico de tentativas frustradas de emagrecimento. Majoritariamente com convênio médico corporativo (ex.: Amazon, Coca-Cola, GM). Decisão de operar fortemente influenciada pela família (~80% dos casos) — não compram 'emagrecimento', compram autoestima, saúde e esperança de solução sustentável",
+      "not_customers": "Pessoas fora da região de São Paulo/Grande SP/Campinas/Baixada Santista (barreira logística real, geram frustração e desperdício de verba); pessoas sem interesse genuíno em tratar a obesidade ('lead ruim' = quem 'nem quer emagrecer')",
+      "problems_before": [
+        "Efeito sanfona e exaustão após múltiplas tentativas de emagrecimento",
+        "Medo do procedimento cirúrgico e de cicatrizes",
+        "Platô ou reganho de peso após uso de canetas GLP-1 sem acompanhamento médico",
+        "Preconceito médico (gordofobia) vivido em experiências de saúde anteriores"
+      ],
+      "results_after": [
+        "Emagrecimento definitivo com remissão/controle de comorbidades (diabetes tipo 2, hipertensão, apneia do sono, dores articulares)",
+        "Recuperação rápida via protocolo ERAS (alta hospitalar em menos de 24h)",
+        "Acompanhamento transdisciplinar completo — não fica sozinho(a) na jornada",
+        "Retomada de mobilidade, autoestima e autonomia física"
+      ],
+      "churn_reasons": "Não há churn no sentido de assinatura recorrente (é procedimento único), mas há abandono de funil por: barreiras burocráticas impostas pelo convênio (exige anos de tentativa prévia), opção por canetas emagrecedoras sem acompanhamento (efeito temporário que adia a decisão), e falta de operação ativa no pós-operatório (gera reclamações concentradas no Google Meu Negócio e sensação de abandono)"
+    },
+    "competition": {
+      "competitors": [
+        {
+          "name": "Dr. Almino Ramos / Gastro Obeso Center (GOC)",
+          "perceived_differential": "Concorrente direto #1 ('arqui-inimigo' citado pela equipe). Autoridade técnica máxima, submarca premium GOC ONE ('Centro de Otimização Metabólica'), rebranding recente, avaliação 4,5★ (156 av.)"
+        },
+        {
+          "name": "Dr. Rubens Arnoni / Imec",
+          "perceived_differential": "Benchmark de conteúdo do mercado — linguagem jovem e acessível, reels altamente virais, conceito 'Bariátrica Simplificada'. Melhor avaliação do comparativo: 4,9★ (371 av.)"
+        },
+        {
+          "name": "Dr. Rodrigo Barbosa / Instituto Medicina em Foco",
+          "perceived_differential": "Preço exposto e transparente (R$20.980 à vista, pacote completo), conteúdo de conversão por preço comparando bariátrica x Mounjaro/Tirzepatida em 5 anos. Avaliação 5,0★ (300 av.)"
+        },
+        {
+          "name": "BariMais / Dr. Thales Galvão",
+          "perceived_differential": "Posiciona-se em 'cuidado humanizado, sem burocracia' — ocupa a brecha de humanização que seria natural do Sallet. Avaliação 4,9★ (470 av.), 2º maior volume de prova social do funil"
+        }
+      ],
+      "real_differential": "Equipe transdisciplinar completa e integrada (não é só 'bisturi') + autoridade e tempo de mercado do Dr. Sallet (30 anos de Instituto, 25+ anos como cirurgião bariátrico) + protocolo ERAS (alta em <24h) + ampla cobertura de convênios corporativos de grande porte",
+      "why_choose_us": "Segurança de operar com referência nacional consolidada, acompanhamento completo do pré ao pós-operatório por equipe multidisciplinar, recuperação rápida (ERAS), ampla aceitação de convênios, e agora também um pacote acessível ('Bariátrica para Todos') para quem não tem convênio nem quer entrar na fila do SUS"
+    },
+    "brand": {
+      "adjectives": null,
+      "voice_tone": "profissional",
+      "admired_brands": [
+        "Dr. Rubens Arnoni (@drjoserubensarnoni) — referência de estilo de conteúdo admirada explicitamente pelo cliente (linguagem simples, jovem, vídeos virais), apesar de também figurar como concorrente direto na análise de benchmarking"
+      ],
+      "current_colors": "Paleta azul definida em manual key visual já entregue: #43505f, #d6dfeb, #416996, #b4c5da, #84a4c9, #002c55",
+      "has_logo": true,
+      "restrictions": "PROIBIDO uso da cor verde em qualquer peça (associação pessoal do Dr. Sallet, torcedor de time rival ao verde). Logo espiral deve ser preservado sem alterações. Comunicação de tratamentos clínicos (canetas/balão) NUNCA deve mencionar convênios — quase nenhum cobre esses tratamentos, e isso gera ruído e frustração no atendimento."
+    },
+    "digital_situation": {
+      "paid_traffic": true,
+      "platforms": [
+        "google_ads",
+        "meta_ads"
+      ],
+      "monthly_investment": "R$8.000/mês (37,5% Meta Ads / 62,5% Google Ads) + R$5.000/mês adicionais aprovados pela diretoria para o lançamento do 'Bariátrica para Todos'",
+      "current_results": "Melhor mês histórico: 1.069 leads (janeiro). CPC Google Ads na faixa de R$10-14 com taxa de conversão de 15-20% nas campanhas de pesquisa (auditoria de junho/2026). Percepção do cliente: Google performa melhor que Meta",
+      "crm": "RD Station CRM + RD Station Marketing, integrado ao Omniplus (automação de WhatsApp)",
+      "lead_sources": "Majoritariamente orgânico + indicação (boca a boca de pacientes e família — decisão de operar tem ~80% de influência familiar); tráfego pago responde por ~40% do volume; convênio corporativo (Amazon, Coca-Cola, GM) traz grande parte da base atual",
+      "conversion_rate": "Não mensurável com confiabilidade hoje — CRM poluído (mais de 20.000 contatos duplicados travados no funil de entrada) impede leitura precisa do funil",
+      "biggest_pain": "CRM poluído e não confiável (duplicação de registros, divergência entre métricas do RD Marketing e do RD CRM), ausência de leitura retroativa de performance (delay de 3 meses entre lead e cirurgia não é considerado na análise mensal), funil pós-cirúrgico sem automação (gera reclamações no Google Meu Negócio) e regra de data de pós-cirurgia quebrada (campo em formato texto em vez de número, bloqueando automações)"
+    },
+    "accesses": {
+      "meta_business": true,
+      "google_ads": true,
+      "google_analytics": null,
+      "google_search_console": null,
+      "instagram_admin": null,
+      "website_admin": null,
+      "crm": true,
+      "gmb": true,
+      "whatsapp_business": true
+    },
+    "sales_module": null
+  },
+  "research": {
+    "fetched_at": null
+  },
+  "connectors": {
+    "fetched_at": null,
+    "integrations": null
+  },
+  "progress": {
+    "current_week": 1,
+    "skills": {
+      "ee-s1-diagnostico-maturidade": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s1-swot": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s1-persona-icp": {"status": "completed", "version": 1, "checkpoint": 2, "started_at": "2026-07-22T00:00:00Z", "completed_at": "2026-07-22T00:00:00Z"},
+      "ee-s1-auditoria-comunicacao": {"status": "completed", "version": 1, "checkpoint": 2, "started_at": "2026-07-22T00:00:00Z", "completed_at": "2026-07-22T00:00:00Z"},
+      "ee-s2-pesquisa-mercado": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s2-posicionamento": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s2-diagnostico-midia": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s2-diagnostico-criativos": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s2-diagnostico-cro": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s3-identidade-visual": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s3-brandbook": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s3-landing-page": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s3-copy-anuncios": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s3-criativos-anuncios": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s3-crm-setup": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s3-forecast-midia": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s3-gmb-otimizacao": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null}
+    }
+  },
+  "history": [
+    {
+      "ts": "2026-07-20T00:00:00Z",
+      "skill": "ee-novo-cliente",
+      "checkpoint": 0,
+      "decision": "Cliente cadastrado sem workspace V4MOS e sem módulo vendas. Operador forneceu diretamente 3 documentos de altíssimo valor em vez de pesquisa automática: transcrição de kickoff (26/05/2026), transcrição de check-in (08/07/2026) e o planejamento estratégico completo já produzido pela unidade V4/SCN&Co (15/06/2026, com SWOT, personas, TAM/SAM/SOM, benchmarking de 4 concorrentes e plano de mídia). Briefing pré-preenchido a partir desses documentos — pendente confirmação do operador para: contato principal do projeto, faturamento anual total, 3 adjetivos de marca, marcas admiradas visualmente, WhatsApp institucional e status de acesso ao CRM."
+    },
+    {
+      "ts": "2026-07-20T00:00:00Z",
+      "skill": "ee-novo-cliente",
+      "checkpoint": 1,
+      "decision": "Briefing confirmado pelo operador. Contato principal do projeto: Bárbara Elizabeth (marketing interno). WhatsApp institucional: +55 11 3046-9393. Acesso ao CRM (RD Station) confirmado como disponível para a V4. Marca admirada pelo cliente: Dr. Rubens Arnoni (@drjoserubensarnoni) — admiração pelo ESTILO DE CONTEÚDO, mesmo sendo concorrente direto na análise de benchmarking; usar como referência de linguagem/formato, não de posicionamento. Faturamento anual total e os 3 adjetivos de personalidade de marca seguem em aberto (não bloqueiam início da Semana 1; adjetivos serão fechados em ee-s3-brandbook). ALERTA REGISTRADO PARA SKILLS FUTURAS: operador sinalizou que as metas de volume de leads herdadas do planejamento V4/SCN&Co anterior (KR2 = 1.069 leads/mês como benchmark de sucesso; KR1 = 60 cirurgias/mês via canal digital) precisarão ser revisadas/recalibradas — não tratar esses números como meta definitiva em ee-s1-diagnostico-maturidade, ee-s2-posicionamento ou ee-s3-forecast-midia sem antes confirmar com o operador o novo patamar desejado."
+    },
+    {
+      "ts": "2026-07-22T00:00:00Z",
+      "skill": "ee-s1-persona-icp",
+      "checkpoint": 2,
+      "decision": "ICP e Persona aprovados sem ajustes. Persona principal: Patrícia Almeida, 36 anos, gerente de RH, platôu no uso de caneta GLP-1 (perfil reaproveitado do planejamento V4/SCN&Co anterior, enriquecido com JTBD/dores/anti-persona/buyer journey/WTP/objection library). Mensagem-chave escolhida: Opção A (funcional） — 'Bariátrica com alta em 24h e acompanhamento completo — sem ficar sozinha depois', preferida à emocional/social porque nenhum concorrente do comparativo expõe prova tão concreta (ERAS + 25 anos), e porque a emocional colidiria com a fragilidade real hoje no pós-operatório (CRM sem automação, reclamações no GMN). HONESTY ALERT registrado: a promessa de 'acompanhamento completo' não deve virar eixo emocional de comunicação até o ee-s3-crm-setup corrigir a régua de pós-operatório — sinalizar ao cliente se isso deve ser priorizado."
+    },
+    {
+      "ts": "2026-07-22T00:00:00Z",
+      "skill": "ee-s1-auditoria-comunicacao",
+      "checkpoint": 2,
+      "decision": "Auditoria aprovada sem ajustes (score de comunicação 39/100). Canal de anúncios avaliado com dado real (relatório Meta Analyser fornecido pelo operador: 21 criativos, R$7.494,81/90 dias, 696 leads, R$10,77/lead médio) — achado principal: melhor criativo (92% score, R$3,14/lead) está PAUSADO enquanto 3+ anúncios ativos com score <30% seguem consumindo verba. Site/Instagram/GMB avaliados sem screenshot (só evidência qualitativa das transcrições) — sinalizado como honesty_alert, scores desses 3 canais devem ser refinados quando o operador enviar capturas de tela. CRM (RD Station, 20 mil+ contatos duplicados) identificado como bloqueador transversal que invalida a leitura de conversão pós-lead — reforça a prioridade de ee-s3-crm-setup já sinalizada em ee-s1-persona-icp."
+    }
+  ]
+}

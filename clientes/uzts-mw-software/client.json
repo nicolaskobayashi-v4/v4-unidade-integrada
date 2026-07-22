@@ -1,0 +1,394 @@
+{
+  "meta": {
+    "name": "MW Software (UZTS)",
+    "slug": "uzts-mw-software",
+    "razao_social": "MW Software",
+    "workspace_id": null,
+    "created_at": "2026-07-06",
+    "modulo_vendas": true,
+    "nota": "Contrato é o produto DPMV (Diagnóstico e Planejamento de Marketing e Vendas), 5 semanas / 40 dias. Confirmado com o operador (06/07/2026) que a etapa de Produção (identidade visual, brandbook, landing page, copy/criativos de anúncios, CRM, forecast, GMB) TAMBÉM está inclusa no escopo — não é um módulo separado para este cliente. Escopo: Kick-off (S1) → Pesquisa de Mercado (S2) → Diagnóstico de Marketing (S3: mídia paga + criativos + CRO) → Produção (identidade visual, brandbook, landing page, copy, criativos, CRM, forecast, GMB) → Diagnóstico de Vendas (S4: comercial + cliente oculto) → Plano de Marketing e Vendas consolidado (semana 5, formato genérico — sem scripts SDR/config de IA formais, confirmado com o operador). Comercial fechado por Guilherme Carvalho do Espírito Santo (V4) em reunião de 01/06/2026, handoff para operação em 05/06/2026 (Matheus Nunes). Valor negociado ~R$19.108 (tabela cheia R$70.250, cortada em >50% pra viabilizar a parceria), pagamento no cartão, início 09/06/2026. Garantia contratual é sobre aplicabilidade da entrega, não sobre resultado de vendas — não é serviço de execução."
+  },
+
+  "briefing": {
+    "empresa": "MW Software",
+    "segmento": "Automação comercial, gestão empresarial e softwares personalizados — fábrica de software sob medida (ERP para engenharia, saúde, indústria) que também desenvolve e vende o produto próprio de prateleira UZTS.",
+    "produto_foco_contrato": "UZTS Light — emissor fiscal 100% offline (NFC-e) + PDV simplificado, para micro e pequeno comércio de bairro (padarias, mercearias, conveniências). Roda localmente na máquina do lojista, sem dependência de nuvem, com backup automático dos dados fiscais. Integra nativamente com Smart POS Stone e Cielo. NÃO faz gestão de estoque completa (só baixa simples), não emite nota para PJ — isso é papel do UZTS Standard.",
+    "produto_irmao": "UZTS Standard — ERP completo em nuvem (estoque, compras, faturamento PJ, financeiro), voltado a operações mais complexas (ex: restaurante com comanda eletrônica via celular do garçom). Ticket mais alto, exige mais suporte consultivo no onboarding.",
+    "ticket_uzts_light": "R$80,00 a R$97,00/mês (faixa confirmada pelo operador em 06/07/2026; SAM foi calculado com ticket médio R$80/mês). Margem líquida unitária de apenas R$32,00/venda — número crítico: qualquer canal de aquisição/atendimento com custo ou toque humano alto inviabiliza a unit economics. Preço é desconto estratégico deliberado vs. concorrência regional (Next PDV cobra R$120/mês).",
+    "site": "usits.com.br — desatualizado, comunica só o UZTS Standard, não menciona o UZTS Light ainda (confirmado pelo próprio Vladimir no kick-off).",
+    "instagram": "@uzts.sistema — 311 seguidores, 31 posts, perfil em estágio inicial, sem Linktree, bio genérica. Conteúdo hoje é focado no Standard; o Light ainda não tem comunicação própria.",
+    "tempo_mercado_anos": 20,
+    "sede": "Nova Lima - MG (Grande BH). ~2.689 estabelecimentos comerciais ativos mapeados na cidade, ~403 no segmento alimentar (filtro 15%).",
+    "estrutura_equipe": "8 pessoas no total (incluindo os sócios). Equipe enxuta, sem área comercial estruturada (sem SDR/Closer dedicado) — Marcos Pedrosa (terceirizado) acumula mídia + comercial informalmente. Empresa está avaliando contratar pessoal de vendas ao longo dos 40 dias do projeto.",
+    "marca_registrada": "UZTS já depositado no INPI há ~2 anos (dez/2024), ainda na primeira etapa de avaliação — processo lento.",
+
+    "stakeholders": [
+      {
+        "nome": "Vladimir Fernandes (Wladimir)",
+        "cargo": "Sócio responsável pela MW Software",
+        "perfil": "Decisor final. Estilo direto e cético com planejamento muito aberto — prefere produto 'fechado' e objetivo ('tem isso e isso, pronto, acabou'). Fez as contas de cabeça no kick-off sobre quantas licenças (500-571) são necessárias para pagar o investimento na V4. Hobby: pescaria, marcenaria/carpintaria.",
+        "decisor": true
+      },
+      {
+        "nome": "Elmo Nunes",
+        "cargo": "Sócio / administrativo",
+        "perfil": "Veio de 18 anos na área da saúde e 13 anos em mineração, sempre em função administrativa. Hoje na MW Software cuidando de gestão/operação.",
+        "decisor": true
+      },
+      {
+        "nome": "Marcos Pedrosa",
+        "cargo": "Terceirizado — mídia e comercial",
+        "perfil": "Formado em Comunicação Social/Relações Públicas. Presta serviço para várias empresas em paralelo (clínicas odontológicas, estética, pousadas). Cuida hoje de gerenciamento de mídia e informalmente também do lado comercial — não é uma função full-time dedicada à MW.",
+        "decisor": false
+      }
+    ],
+
+    "equipe_v4_scn": {
+      "guilherme_carvalho_espirito_santo": "Comercial V4 — conduziu a reunião de fechamento (01/06/2026) e negociou o valor final",
+      "matheus_nunes": "Fez o handoff comercial→operação (05/06/2026), confirmou início do projeto e cobrança",
+      "lucas_calefi_goncalves": "Coordenador de Planejamento, Estratégia e Gestão (SCN&Co/V4) — conduziu o kick-off (11/06/2026)",
+      "sabrina_souza_da_silva": "Account manager / gestora de projetos (SCN&Co/V4)",
+      "lucas_silva_antonio": "Copywriter / gerente de projetos (SCN&Co/V4)"
+    },
+
+    "produtos_mercado": {
+      "submercados": [
+        "Fábrica de softwares sob medida (engenharia, mineração, indústria, serviços)",
+        "Gestão de saúde e clínicas",
+        "Sistemas ERP para varejo (UZTS Standard)",
+        "Frente de caixa (UZTS/PDV Light)",
+        "Integração com meios de pagamento (Smart POS Stone/Cielo)"
+      ]
+    },
+
+    "mercado_tam_sam_som": {
+      "tam": "~R$41,87 bi/ano no Brasil em 2025 (SaaS de gestão/automação comercial), projeção R$116,60 bi em 2027",
+      "sam": "~R$81,6 milhões/ano em Minas Gerais — 85.000 estabelecimentos-alvo (34.000 padarias/confeitarias + 51.000 minimercados/mercearias/conveniências), ticket médio R$80/mês",
+      "som": "Nova Lima-MG: R$96.000/ano ARR (R$8.000/mês MRR), 100 clientes ativos = 25% de share local. Necessário reter 500-571 licenças para amortizar o investimento na V4 (~R$19.108)."
+    },
+
+    "personas": [
+      {
+        "nome": "Seu Geraldo, o Sobrevivente do Balcão",
+        "perfil": "58 anos, dono de mercearia, ensino fundamental, bairro periférico de Nova Lima. Gestão 100% analógica (papel de pão, caderninho de fiado). Pavor de o sistema cair com a internet e travar a fila na frente dos fregueses. Zero tolerância a softwares complexos."
+      },
+      {
+        "nome": "Dona Maria, a Chegada do Balcão",
+        "perfil": "45 anos, proprietária de padaria, Região Metropolitana de BH. Maturidade digital intermediária (usa WhatsApp para fornecedores). Maior dor: sistemas 100% em nuvem que caem com instabilidade de internet e cobranças-surpresa em ferramentas que prometiam ser gratuitas."
+      },
+      {
+        "nome": "Otávio, o Empreendedor de Primeira Viagem",
+        "perfil": "28 anos, dono de conveniência, Região Metropolitana de BH. Nativo digital (YouTube/Instagram) mas sem capital para sistemas caros. Medo paralisante de errar no fiscal e travar o negócio recém-aberto (MEI)."
+      }
+    ],
+
+    "icp": "Pequenos comércios de bairro (padarias, mercearias, conveniências), faturamento baixo-médio, 1-2 funcionários no caixa, gestão manual/papel de pão, necessidade principal = emissão rápida de cupom obrigatório + PDV offline estável. Canal de aquisição ideal: parcerias com escritórios de contabilidade locais (não é tráfego pago).",
+
+    "job_to_be_done_geral": "Quando estou gerenciando meu pequeno comércio de bairro, eu quero facilitar o atendimento e regularizar os registros de vendas, para que eu possa manter meu negócio aberto e evitar multas fiscais.",
+
+    "puv": "A solução prática e indispensável para controlar vendas e ficar em dia com o fisco — emissor fiscal offline mais simples e estável do mercado para o pequeno lojista tradicional.",
+
+    "gatilho_regulatorio": "Resolução SEF nº 5.981/25 extingue definitivamente notas fiscais manuais a partir de 01/08/2026 em MG, e o fim da dispensa de NFC-e para microempresas (receita ≤ R$120.000/ano) força regularização fiscal — motor de urgência principal para a campanha.",
+
+    "concorrentes_diretos": ["Stone (ERP+POS)", "Conta Azul", "Bling", "Next PDV (concorrente local direto em Nova Lima/BH, R$120/mês, suporte presencial)", "Stoffel Sistemas (offline, teste grátis 15 dias)", "Linear Sistemas"],
+
+    "canais_recomendados_s3": [
+      "Contadores como canal de distribuição principal (CAC muito menor que mídia paga, incentivo natural de retenção de carteira dos escritórios)",
+      "Associações comerciais / sindicatos patronais / CDL",
+      "Parcerias com adquirentes de maquininha (Stone, Cielo, PagSeguro)",
+      "Distribuidores/representantes que já vendem equipamentos de PDV/balanças pro mesmo público",
+      "SEO/conteúdo educacional de cauda longa sobre a Reforma Tributária (não pago)",
+      "Meta Ads: campanha 1 de alcance/awareness sobre a reforma tributária (barata, ~R$33/1000 alcançados), campanha 2 de captação de parceiros",
+      "Google Ads e LinkedIn Ads: NÃO recomendados — CPC muito alto e concorrência pulverizada (Bling domina)"
+    ],
+
+    "diagnostico_criativos_resumo": "Perfil Instagram tem boa base de design individual (paleta, contraste, tipografia) mas falta arquitetura de grid, manual de identidade visual e direção de arte consistente — ainda comunica só o Standard, o Light não tem comunicação própria.",
+
+    "diagnostico_produto_ux": "Levantamento do PDV UZTS Lite (tela de login, vendas, recebimento) encontrou vários problemas de usabilidade: mensagens de erro vagas/robóticas, ícones de ação destrutiva mal sinalizados, modal sobre modal, formatação numérica perigosa em valores recebidos, ausência de prevenção de erros. Relevante para qualquer trabalho futuro de CRO/produto, mas fora do escopo de marketing em si."
+  },
+
+  "alertas_urgentes": [
+    {
+      "ts_descoberta": "2026-06-30T00:00:00-03:00",
+      "tema": "Canal de WhatsApp da UZTS pode estar desconectado ou sem crédito",
+      "descricao": "Descoberto ao vivo na reunião real de 30/06/2026 (ee-s3-diagnostico-marketing), durante uma checagem informal de cliente oculto: Lucas Calefi mandou uma mensagem de teste ('boa noite') pro WhatsApp vinculado ao Instagram/bio da UZTS e ela não foi recebida. Marcos confirmou que 'não tem um fluxo significativo, ninguém chega através desse número', e que a última mensagem recebida ali tinha sido de um operador avisando que precisava colocar CRÉDITO no número. Wladimir foi checar ao vivo e confirmou que o WhatsApp do celular estava desconectado/descarregado. A reunião terminou com Wladimir dizendo apenas 'vou dar uma olhada' — nunca voltou a esse ponto pra confirmar que foi resolvido, em nenhuma transcrição posterior.",
+      "por_que_importa": "Todo o funil de aquisição desenhado nesta consultoria (link na bio, QR code, formulário de parceiro, scripts de WhatsApp) depende desse canal estar ativo e recebendo mensagem. Se ainda estiver desconectado ou sem crédito, qualquer lead gerado por mídia paga, orgânico ou indicação de parceiro cai num canal morto — sem que ninguém perceba, porque não há alerta automático pra 'WhatsApp caiu'.",
+      "acao_recomendada": "Confirmar com Vladimir/Marcos, antes de qualquer outra coisa: (1) o número de WhatsApp usado no link da bio/Instagram está conectado agora; (2) se é um número comum ou WhatsApp Business API com crédito pré-pago — se for API paga, checar saldo; (3) considerar um teste periódico simples (ex: alguém manda mensagem de teste 1x/semana) até existir uma automação real monitorando isso.",
+      "status": "aberto — nunca confirmado como resolvido em nenhuma reunião ou documento posterior"
+    }
+  ],
+
+  "connectors": {
+    "fetched_at": null,
+    "workspace_id": null,
+    "integrations": {},
+    "nota": "Não há evidência de conectores V4MOS (Google Ads/Facebook Ads) para este cliente na base de conhecimento — MW Software roda campanhas de mídia própria (Marcos Pedrosa), não via workspace V4MOS. Confirmar com o operador se há workspace_id antes de tentar rodar v4mos_fetch.sh."
+  },
+
+  "progress": {
+    "current_week": 5,
+    "skills": {
+      "ee-s1-diagnostico-maturidade": {
+        "status": "completed",
+        "version": 1,
+        "started_at": "2026-06-11T00:00:00-03:00",
+        "completed_at": "2026-06-11T00:00:00-03:00",
+        "nota": "Qualitativo, sem dados V4MOS (sem conectores confirmados). Baseado no kick-off: empresa sem área comercial estruturada, site/redes desatualizados, produto novo (Light) ainda sem comunicação própria."
+      },
+      "ee-s1-swot": {
+        "status": "completed",
+        "version": 1,
+        "started_at": "2026-06-18T00:00:00-03:00",
+        "completed_at": "2026-06-18T00:00:00-03:00",
+        "nota": "Forças: 100% offline, preço agressivo, 20 anos de mercado. Fraquezas: equipe enxuta, zero comercial estruturado. Oportunidades: Reforma Tributária (obrigatoriedade NFC-e a partir de 01/08/2026). Ameaças: Next PDV e Stoffel na região, app gratuito NFF da SEF/MG."
+      },
+      "ee-s1-persona-icp": {
+        "status": "completed",
+        "version": 1,
+        "started_at": "2026-06-18T00:00:00-03:00",
+        "completed_at": "2026-06-18T00:00:00-03:00",
+        "nota": "3 personas (Seu Geraldo, Dona Maria, Otávio) + segmentação ICP/secundário/não-ideal + 3 Jobs-to-be-Done mapeados. Alavanca: canal de aquisição ideal é contador local, não mídia paga."
+      },
+      "ee-s1-auditoria-comunicacao": {
+        "status": "completed",
+        "version": 1,
+        "started_at": "2026-06-30T00:00:00-03:00",
+        "completed_at": "2026-06-30T00:00:00-03:00",
+        "nota": "Auditoria de Instagram (@uzts.sistema), site (usits.com.br) e produto/PDV. Perfil comunica só o Standard; site desatualizado; UX do PDV Lite com vários problemas de usabilidade."
+      },
+      "ee-s2-pesquisa-mercado": {
+        "status": "completed",
+        "version": 1,
+        "started_at": "2026-06-18T00:00:00-03:00",
+        "completed_at": "2026-06-18T00:00:00-03:00",
+        "nota": "TAM R$41,87bi / SAM R$81,6mi (MG) / SOM R$96k ARR (Nova Lima). Concorrentes diretos mapeados: Stone, Conta Azul, Bling, Next PDV, Stoffel, Linear."
+      },
+      "ee-s2-posicionamento": {
+        "status": "completed",
+        "version": 1,
+        "started_at": "2026-06-18T00:00:00-03:00",
+        "completed_at": "2026-06-18T00:00:00-03:00",
+        "nota": "PUV definida em torno de 'afastar o Leão' (urgência fiscal) + simplicidade offline. Comparativo direto contra cada concorrente (Stone, Bling, Next PDV, Conta Azul, Stoffel)."
+      },
+      "ee-s2-diagnostico-midia": {
+        "status": "completed",
+        "version": 1,
+        "started_at": "2026-06-30T00:00:00-03:00",
+        "completed_at": "2026-06-30T00:00:00-03:00",
+        "nota": "Recomendação central: contador como canal de distribuição principal, não mídia paga. Meta Ads só para awareness da reforma tributária + captação de parceiros. Google/LinkedIn Ads desaconselhados (CPC alto)."
+      },
+      "ee-s2-diagnostico-criativos": {
+        "status": "completed",
+        "version": 1,
+        "started_at": "2026-06-30T00:00:00-03:00",
+        "completed_at": "2026-06-30T00:00:00-03:00",
+        "nota": "Benchmarking Stone/Bling/Nuvemshop/iFood/parceiros. Falta manual de identidade visual, grid e direção de arte consistente."
+      },
+      "ee-s2-diagnostico-organico-ig": {
+        "status": "completed",
+        "version": 1,
+        "started_at": "2026-06-30T00:00:00-03:00",
+        "completed_at": "2026-06-30T00:00:00-03:00",
+        "nota": "@uzts.sistema em estágio inicial (311 seguidores), sem Linktree, comunica só o Standard. Plano de ação: reformular bio, postagens com gancho na dor do comerciante, parcerias com contadores/GMB."
+      },
+      "ee-s2-diagnostico-cro": {
+        "status": "completed",
+        "version": 1,
+        "started_at": "2026-06-30T00:00:00-03:00",
+        "completed_at": "2026-06-30T00:00:00-03:00",
+        "nota": "Benchmark de LPs de parceiros (Nuvemshop, Stone, Bling, iFood) + heurísticas de usabilidade aplicadas nas telas do próprio PDV UZTS Lite (login, vendas, recebimento)."
+      },
+      "ee-s3-identidade-visual": { "status": "completed", "version": 1, "started_at": "2026-07-16T00:00:00-03:00", "completed_at": "2026-07-16T00:00:00-03:00", "nota": "Substituída pelo Relatório de Diagnóstico UX/UI (Relatorio_Diagnostico_UX_UI_UZTS_Lite_Identidade_V4.pdf na base de conhecimento) em vez do fluxo tradicional de identidade visual — decisão do operador (16/07/2026)." },
+      "ee-s3-brandbook": { "status": "completed", "version": 1, "started_at": "2026-07-16T00:00:00-03:00", "completed_at": "2026-07-16T00:00:00-03:00", "nota": "Entregue como 'Manual de Copywriting — MW Software (UZTS Lite)' na base de conhecimento. PUV, personas refinadas, arquétipo (Sábia + Cuidadora), tom de voz, estruturas narrativas (PAS/BAB/AIDA), ferramentas retóricas, palavras-chave e adaptação por canal." },
+      "ee-s3-landing-page": { "status": "in_progress", "version": 1, "started_at": "2026-07-16T00:00:00-03:00", "completed_at": null, "nota": "Copy completa entregue ('Copy LP _ UZTS Lite _ MW Software.md' na base de conhecimento — 4 seções, foco em parceiros contadores/TI, comissão 10%, prova social). Design ainda em finalização pelo designer Nícolas Kobayashi (externo)." },
+      "ee-s3-copy-anuncios": { "status": "completed", "version": 1, "started_at": "2026-07-16T00:00:00-03:00", "completed_at": "2026-07-16T00:00:00-03:00", "nota": "Copy entregue em 'COPY - 3 CRIATIVOS _ MW SOFTWARE.md' — 1 criativo B2C (comerciante, gancho 'caixa travou') + 1 criativo B2B2C (parceiros/consultores de TI, gancho renda extra + Reforma Tributária)." },
+      "ee-s3-criativos-anuncios": { "status": "in_progress", "version": 0, "started_at": "2026-07-16T00:00:00-03:00", "completed_at": null, "nota": "Copy pronta (ver ee-s3-copy-anuncios); peças visuais em execução por designer externo." },
+      "ee-s3-crm-setup": {
+        "status": "completed",
+        "version": 3,
+        "started_at": "2026-07-07T00:00:00-03:00",
+        "completed_at": "2026-07-16T00:00:00-03:00",
+        "nota": "v3 (16/07/2026): revertida a recomendação de ferramenta paga (Kommo) a pedido do operador ('CRM setup não é necessário, avalie se a pipeline faz sentido'). Mantida a estrutura de 2 pipelines (Parceiros + Clientes com 2 variantes: via parceiro e orgânico) como lógica tool-agnostic — validada palavra por palavra pela reunião real de 07/07/2026, onde o próprio Lucas Calefi confirmou que o CRM do H1 'não precisa ser robusto, pode ser planilha ou um projeto open-source básico do GitHub'. Entregue como outputs/ee-s3-crm-setup.json/.md v3."
+      },
+      "ee-s3-forecast-midia": {
+        "status": "completed",
+        "version": 2,
+        "started_at": "2026-07-16T00:00:00-03:00",
+        "completed_at": "2026-07-16T00:00:00-03:00",
+        "nota": "v2 gerado em outputs/ee-s3-forecast-midia.json/.md. v1: forecast de receita 3 meses do H1 (mídia = só awareness, clientes vêm da rede pessoal de parceiros). v2 (a pedido do operador): estendido pra 12 meses, com funil completo mídia→parceiro ativo→clientes/mês. Produtividade de regime do parceiro ancorada numa referência REAL da reunião de 07/07/2026 ('traz 10 caras por ano' = ~0,83 cliente/mês), não inventada. Projeção mês 12: 51 parceiros ativos, 212 clientes acumulados, MRR líquido ~R$16.886/mês. Alerta de capacidade: modelo cruza ~30 parceiros ativos por volta do mês 8 — teto de 1 Gestor + 1 Coordenador de Ativação com a cadência de reunião mensal (dia 15) do CHA — recomenda decisão explícita (2º Coordenador ou throttle de investimento) antes de chegar lá, não reativamente. CAC por parceiro ~R$250, payback ~12-13 meses (canal de retorno de médio prazo)."
+      },
+      "ee-s3-gmb-otimizacao": { "status": "cancelled", "version": 0, "started_at": null, "completed_at": null, "nota": "Removida do escopo — operador confirmou em 16/07/2026 que não é mais um entregável para este cliente." },
+      "ee-s4-diagnostico-comercial": {
+        "status": "completed",
+        "version": 6,
+        "started_at": "2026-07-06T00:00:00-03:00",
+        "completed_at": "2026-07-16T00:00:00-03:00",
+        "nota": "v5 (16/07/2026): apresentado e discutido ao vivo com Vladimir e Marcos em reunião real de 07/07/2026 (transcrição em base-de-conhecimento/[S4]...). A reunião confirmou o rascunho v4 sem contradições e travou os números em aberto: comissão 10% recorrente (referência Bling), teto de 10 clientes novos/mês no H1, CRM leve = planilha/open-source (não ferramenta paga). Adicionou 2 peças novas: CHA+KPIs do cargo Gestor de Canais de Parcerias (competência/habilidade/atitude + ritmo operacional: reunião dia 15, review trimestral, 1:1 mensal) e o funil bowtie com métricas CR1-CR7 (Awareness→Educação→Priorização→Seleção→Commit→Onboarding→Retenção e Expansão). Primeiro parceiro-piloto já identificado, com reunião agendada pelo próprio cliente. v6 (16/07/2026): releitura de todas as transcrições em busca de promessas feitas ao cliente e não cumpridas — achado: Lucas Calefi prometeu CHA de 'outros cargos' no material final (linha 617 da transcrição S4), incluindo um cargo de 'Responsável por Suporte/Onboarding' que ele mesmo colocou no organograma do H1 mas nunca formalizou. Adicionado esse papel à topologia do H1 + seção cha_kpi_responsavel_suporte_onboarding completa (construída por esta consultoria, não é transcrição literal — sinalizado para validação do operador)."
+      },
+      "ee-s4-cliente-oculto": {
+        "status": "completed",
+        "version": 1,
+        "started_at": "2026-06-30T00:00:00-03:00",
+        "completed_at": "2026-06-30T00:00:00-03:00",
+        "nota": "Correção em 16/07/2026: não é uma skill cancelada, é uma skill SUBSTITUÍDA — e essa substituição já foi comunicada ao cliente ao vivo na reunião real de 30/06/2026. Lucas Calefi explicou: 'como não tem o produto em si ali pra gente fazer o cliente oculto, dá pra considerar essa análise de usabilidade como um cliente oculto, basicamente' — ou seja, o Relatório de Diagnóstico UX/UI (entregue como substituto de ee-s3-identidade-visual) É o cliente oculto oficial deste projeto, não um cancelamento. Referência pro operador: se o cliente perguntar 'cadê meu cliente oculto', a resposta é 'está no relatório de UX/UI', não 'foi cancelado'. Ver também: na mesma reunião, Lucas testou ao vivo o WhatsApp do UZTS como uma checagem informal adicional de cliente oculto — ver alertas_urgentes."
+      },
+      "ee-s5-scripts-sdr": {
+        "status": "completed",
+        "version": 1,
+        "started_at": "2026-07-16T00:00:00-03:00",
+        "completed_at": "2026-07-16T00:00:00-03:00",
+        "nota": "Redo solicitado pelo operador — a versão anterior ('UZTS LITE - MODELO DE ROTEIRO - MENSAGEM WHATSAPP.md', na base de conhecimento) tinha os campos certos mas tom corporativo e gatilho de urgência artificial ('priorizando DDD 31'), e o cliente não gostou muito. v1 reescreve usando o Manual de Copywriting (arquétipo Sábia+Cuidadora) + o gancho de urgência já validado ao vivo pelo cliente na reunião real (proposta da Sabrina: gatilho de comentário no Instagram + urgência 01/08/2026 + botões de perfil) + as regras de comunicação comercial que o próprio Lucas Calefi orientou ao vivo (nome certo, não forçar intimidade, sempre próximo passo, nunca abrir com áudio). Entregue em outputs/ee-s5-scripts-sdr.json/.md."
+      },
+      "ee-s5-sdr-ia-config": {
+        "status": "not_applicable",
+        "version": 1,
+        "started_at": "2026-07-07T00:00:00-03:00",
+        "completed_at": null,
+        "nota": "Operador confirmou em 16/07/2026 que configuração de IA no Patagon/Kommo não é um entregável para este cliente (consistente com CRM setup também ter revertido pra planilha/pipeline conceitual). v1 gerado anteriormente (outputs/ee-s5-sdr-ia-config.json/.md) mantido só como referência de bastidor — não será apresentado ao cliente como entregável formal."
+      },
+      "ee-revisao-semanal": { "status": "pending", "version": 0, "started_at": null, "completed_at": null, "nota": "Ainda pendente — falta a finalização externa de landing page/criativos antes de rodar a consolidação final de portal. O plano-de-marketing-e-vendas-consolidado já cobre boa parte do papel de consolidação, mas não substitui esta skill." },
+      "plano-de-marketing-e-vendas-consolidado": {
+        "status": "completed",
+        "version": 2,
+        "started_at": "2026-07-16T00:00:00-03:00",
+        "completed_at": "2026-07-16T00:00:00-03:00",
+        "nota": "v1: gerado a partir da leitura do PDF oficial de 157 páginas (instalado poppler via brew pra conseguir ler), compilando todos os planos de ação espalhados pelo deck com o eixo central sendo o GTM Motion Partner-Led (validação cruzada com o slide oficial 'GO TO MARKETING', pág. 153). v2 (16/07/2026): 3 pontos verificados com o operador — (1) a linha do tempo H1=1 ano/H2=2 anos/H3=3+ anos não era divergente, foi preenchida pelo próprio operador com base nesta análise; cliente quer agilizar especificamente o H3 pra recuperar o investimento mais rápido, recomendado fazer isso por critério cumprido, não calendário; (2) a menção a 'Claude Code' na análise competitiva NÃO é erro — é referência real a concorrentes que usam IA de geração de código pra montar sistemas baratos, mantida no deck; (3) os slides KPI-SDR/CHA-Closer/KPI-Diretor Comercial (com 'recompras de cursos') eram slides ocultos do Google Slides trazidos pelo export em PDF, confirmados e já excluídos pelo operador; os placeholders de forecast/drawflow já foram substituídos na apresentação final."
+      }
+    }
+  },
+
+  "history": [
+    {
+      "ts": "2026-06-01T00:00:00-03:00",
+      "skill": "ee-novo-cliente",
+      "checkpoint": 1,
+      "decision": "[Reunião comercial V4 — Fechamento] Guilherme Carvalho do Espírito Santo (V4) com Vladimir Fernandes e Marcos Pedrosa. Apresentado o DPMV. Valor de tabela R$70.250 (12x R$3.746), negociado para baixo (~metade) até fechar por volta de R$19.108 no cartão, parcelado. Garantia contratual: devolução se não fizer sentido no fim do projeto (garantia de aplicabilidade, não de resultado de vendas)."
+    },
+    {
+      "ts": "2026-06-05T00:00:00-03:00",
+      "skill": "ee-novo-cliente",
+      "checkpoint": 2,
+      "decision": "[Handoff comercial→operação] Matheus Nunes confirma contrato assinado, início do projeto em 09/06/2026, cobrança no cartão em 12/06/2026."
+    },
+    {
+      "ts": "2026-06-11T00:00:00-03:00",
+      "skill": "ee-onboarding",
+      "checkpoint": 1,
+      "decision": "Kick-off (Semana 1) conduzido por Lucas Calefi Gonçalves e time SCN&Co. Empresa: MW Software, produto foco UZTS Light (PDV/emissor fiscal offline para microempreendedor), sediada em Nova Lima-MG, 8 pessoas no total. Sem equipe comercial estruturada — Marcos Pedrosa cobre mídia e comercial informalmente. Marca UZTS depositada no INPI há ~2 anos, ainda em avaliação."
+    },
+    {
+      "ts": "2026-06-18T00:00:00-03:00",
+      "skill": "ee-s2-pesquisa-mercado",
+      "checkpoint": 1,
+      "decision": "Pesquisa de mercado e posicionamento entregues: TAM/SAM/SOM, concorrentes diretos (Stone, Conta Azul, Bling, Next PDV, Stoffel, Linear), 3 personas, ICP, JTBD e PUV ('afastar o Leão')."
+    },
+    {
+      "ts": "2026-06-30T00:00:00-03:00",
+      "skill": "ee-s2-diagnostico-midia",
+      "checkpoint": 1,
+      "decision": "Diagnóstico de marketing entregue: mídia paga (recomendação central — contador como canal principal, não mídia paga), criativos (falta manual de identidade visual), social/Instagram (@uzts.sistema em estágio inicial) e CRO/usabilidade do PDV Lite."
+    },
+    {
+      "ts": "2026-07-06T00:00:00-03:00",
+      "skill": "ee-onboarding",
+      "checkpoint": 3,
+      "decision": "Onboarding formal do cliente no sistema (client.json criado). Cliente já tinha pasta e base de conhecimento com S1-S3 completos (PDF consolidado). Progresso reconstruído a partir da base de conhecimento existente. Semana atual definida como 4 (Diagnóstico de Vendas/Comercial), a pedido do operador. Operador confirmou: (1) a etapa de Produção (identidade visual/brandbook/landing/copy/criativos/CRM/forecast/GMB) ESTÁ inclusa no escopo deste cliente, não é módulo à parte; (2) a semana final é um plano consolidado genérico, sem scripts SDR/config de IA formais."
+    },
+    {
+      "ts": "2026-07-06T00:00:00-03:00",
+      "skill": "ee-s4-diagnostico-comercial",
+      "checkpoint": 1,
+      "decision": "Entrevista comercial com Marcos Pedrosa realizada. Principais achados: Marcos já opera com método comercial maduro em outra conta (PS Institute) — cadência de follow-up, scripts de objeção, programa de indicação, critério de desqualificação de lead suspeito, retenção pós-venda — mas isso nunca foi portado ao UZTS Light. Sem CRM funcional (RD Station já falhou numa outra conta). Padrão histórico identificado: a MW já acelerou aquisição e recuou por medo operacional pelo menos 2x antes desta consultoria — motivo real de terem chamado a V4. Caso de churn real (distribuidora de bebidas) por baixa maturidade digital sem suporte previsto."
+    },
+    {
+      "ts": "2026-07-07T00:00:00-03:00",
+      "skill": "ee-s4-diagnostico-comercial",
+      "checkpoint": 2,
+      "decision": "Operador definiu a estratégia de Horizonte 1 do roadmap comercial: iniciar com poucos parceiros controlados (rede pessoal dos sócios/Marcos), não recrutamento aberto a contadores/consultores externos — para manter controle de execução antes de escalar. Draft v2 do diagnóstico gerado (outputs/ee-s4-diagnostico-comercial.json/.md) com topologia do time do Horizonte 1 (Marcos como gestor de canal/curador do playbook + 2-4 parceiros-piloto, sem SDR/Closer), premissas de execução (teto de clientes/mês definido a priori, CRM leve desde o dia 1, compromisso de não frear reativamente) e justificativas estratégicas. Pendente: teto exato de clientes/mês, identificação nominal dos parceiros-piloto, decisão sobre ferramenta de CRM."
+    },
+    {
+      "ts": "2026-07-07T00:00:00-03:00",
+      "skill": "ee-s4-diagnostico-comercial",
+      "checkpoint": 3,
+      "decision": "Detalhado o Horizonte 2 do roadmap comercial (v3 do diagnóstico): abertura a parceiros externos (contadores, consultores de TI, revendedores) só após o Horizonte 1 comprovar playbook documentado + suporte testado + nenhum episódio de freio reativo. Topologia: Marcos evolui de curador prático para gestor de rede, entra 1 novo headcount (Coordenador de Ativação de Parceiros, meio período), rede de 10-15 parceiros externos, e piloto de IA/bot no WhatsApp para primeiro contato. Premissas centrais: comissionamento formalizado por escrito, critério de qualificação de PARCEIRO (distinto do critério de cliente final do H1), CRM leve de fato em uso (não só planejado), e novo teto/critério de desaceleração recalibrado para o volume maior."
+    },
+    {
+      "ts": "2026-07-07T00:00:00-03:00",
+      "skill": "ee-s4-diagnostico-comercial",
+      "checkpoint": 4,
+      "decision": "Detalhado o Horizonte 3 do roadmap comercial (v4 do diagnóstico): expansão nacional só após o Horizonte 2 comprovar CAC sustentável, funil low-touch funcionando, churn conhecido e nenhum episódio de freio reativo. Topologia: Gerente de Expansão (evolução do Coordenador do H2) + Coordenadores Regionais por praça nova + suporte técnico remoto formalizado (N1 + escalonamento) + Marcos como guardião do playbook/auditor de qualidade (não opera mais diretamente). Premissas centrais: escolher praças com perfil semelhante a MG, validar compliance fiscal regional (regras de NFC-e variam por SEF estadual), suporte 100% remoto com SLA, e novo teto/critério de desaceleração por praça — expansão de 1-2 praças por ciclo, não simultânea em muitas regiões."
+    },
+    {
+      "ts": "2026-07-07T00:00:00-03:00",
+      "skill": "ee-s3-crm-setup",
+      "checkpoint": 1,
+      "decision": "Gerado v1 do CRM setup (outputs/ee-s3-crm-setup.json/.md), a partir de duas rodadas de refinamento com o operador: (1) formulário de aplicação de parceiro já publicado como Artifact; (2) modelo de parceria esclarecido pelo operador — o parceiro prospecta, fecha E faz o onboarding, a MW só recebe o cliente depois de implementado (idealmente já ativado). Recomendação: Kommo + Patagon (WhatsApp nativo, RD Station já descartado em outra conta). Estrutura de 2 pipelines: Parceiros (gestão de canal) e Clientes com 2 variantes — via parceiro (entra perto do fim do funil, com etapa de rede de segurança 'aguardando confirmação de ativação' pra não repetir o churn da distribuidora de bebidas) e orgânico (funil completo, único onde a MW opera prospecção/qualificação). Acesso do parceiro ao Kommo: nenhum no H1, bot de auto-report no H2 (nunca login completo)."
+    },
+    {
+      "ts": "2026-07-07T00:00:00-03:00",
+      "skill": "ee-s3-crm-setup",
+      "checkpoint": 2,
+      "decision": "v2: reconsideração de custo a pedido do operador — nenhum CRM pago no Horizonte 1 (WhatsApp Business grátis + planilha compartilhada, dado o volume baixo de 2-4 parceiros-piloto e a margem apertada de R$32/venda). Kommo + Patagon confirmados como recomendação só a partir do Horizonte 2, mantidos por serem o único par com integração de IA já pronta neste sistema (trocar de CRM implicaria reconstruir a automação do zero). Comparados e descartados: Bitrix24, HubSpot free, Octadesk (sem integração Patagon pronta)."
+    },
+    {
+      "ts": "2026-07-07T00:00:00-03:00",
+      "skill": "ee-s5-sdr-ia-config",
+      "checkpoint": 1,
+      "decision": "Gerado v1 (outputs/ee-s5-sdr-ia-config.json/.md), pulando formalmente a dependência de ee-s5-scripts-sdr/ee-s3-brandbook (ambos pendentes) por já existir conteúdo suficiente reaproveitável. Dois fluxos configurados: cliente orgânico (funil completo com cadência D0/D+1/D+3 e critério de desqualificação herdados do método do Marcos) e auto-report do parceiro (só H2, sem o parceiro nunca abrir o Kommo). 3 gatilhos de escalonamento humano + 5 cenários de teste com leads simulados. Pronto pra ativar, mas só entra em produção junto com o Kommo no Horizonte 2 — no H1 os mesmos roteiros são seguidos manualmente pelo Marcos."
+    },
+    {
+      "ts": "2026-07-16T00:00:00-03:00",
+      "skill": "ee-panorama-geral",
+      "checkpoint": 1,
+      "decision": "Operador trouxe adição de vários arquivos novos à base de conhecimento (Manual de Copywriting, Relatório de Diagnóstico UX/UI, Copy LP, Copy de 3 criativos, roteiro de WhatsApp anterior, transcrição real da reunião S4 de 07/07/2026) e reconciliou o panorama do projeto: ee-s3-identidade-visual substituída pelo relatório de UX/UI; ee-s3-brandbook entregue (Manual de Copywriting); ee-s3-landing-page com copy pronta e design em finalização externa; ee-s3-copy-anuncios entregue, ee-s3-criativos-anuncios em execução externa; ee-s3-gmb-otimizacao e ee-s4-cliente-oculto removidos do escopo; ee-s3-forecast-midia confirmado como próximo passo; ee-s5-scripts-sdr entregue mas o cliente não gostou do tom, pediu redo; ee-s3-crm-setup confirmado como 'não necessário como ferramenta, avaliar se a pipeline faz sentido'; ee-s5-sdr-ia-config confirmado como não-entregável."
+    },
+    {
+      "ts": "2026-07-16T00:00:00-03:00",
+      "skill": "ee-s4-diagnostico-comercial",
+      "checkpoint": 5,
+      "decision": "v5: reconciliado com a transcrição real da reunião de 07/07/2026 (Vladimir + Marcos + Sabrina + Lucas Calefi). Confirmação sem contradições do rascunho v4 construído nesta consultoria — validação forte do método. Números travados: comissão 10% recorrente (referência Bling), teto de até 10 clientes novos/mês no H1, CRM leve = planilha/open-source básico (não ferramenta paga). Confirmado também que o formulário de aplicação de parceiro (Artifact publicado nesta consultoria) foi literalmente apresentado ao cliente na reunião e usado como base real do formulário, com a orientação de ignorar apenas os textos de copy genéricos e manter a estrutura de campos. Adicionadas 2 peças que faltavam: CHA+KPIs do Gestor de Canais de Parcerias e o funil bowtie CR1-CR7. Marcada como completed."
+    },
+    {
+      "ts": "2026-07-16T00:00:00-03:00",
+      "skill": "ee-s3-crm-setup",
+      "checkpoint": 3,
+      "decision": "v3: revertida a recomendação de ferramenta paga (Kommo+Patagon) a pedido do operador — CRM setup como configuração de ferramenta não é necessário para este cliente. Mantida e validada a estrutura de pipeline (2 pipelines, etapas, rede de segurança de ativação) como lógica tool-agnostic, confirmada palavra por palavra pela reunião real ('não precisa ser CRM robusto, pode ser planilha ou projeto open-source do GitHub'). Marcada como completed."
+    },
+    {
+      "ts": "2026-07-16T00:00:00-03:00",
+      "skill": "ee-s5-scripts-sdr",
+      "checkpoint": 1,
+      "decision": "Redo do roteiro de WhatsApp de aquecimento de parceiro, a pedido do operador (cliente não gostou muito da versão anterior). Reescrito com o tom do Manual de Copywriting (arquétipo Sábia+Cuidadora) + o gancho de urgência que já foi validado ao vivo pelo cliente na reunião real (gatilho de comentário no Instagram + urgência 01/08/2026 + botões de qualificação de perfil, proposta original da Sabrina) + regras de comunicação comercial reais (nome certo, não forçar intimidade, sempre próximo passo, nunca abrir com áudio, evitar gatilho de escassez artificial como o 'DDD 31 priorizado' da versão anterior, que não tinha lastro real). Entregue em outputs/ee-s5-scripts-sdr.json/.md, marcada como completed."
+    },
+    {
+      "ts": "2026-07-16T00:00:00-03:00",
+      "skill": "ee-s3-forecast-midia",
+      "checkpoint": 1,
+      "decision": "Gerado v1 (outputs/ee-s3-forecast-midia.json/.md). Achado central: no Horizonte 1, os clientes vêm do canal de parceiros-piloto pessoais, não da mídia paga — a mídia serve só de aquecimento/awareness sobre a Reforma Tributária, sem meta de conversão direta atribuível (R$800-1.000/mês, CPM R$33/1000). O motor de receita real do H1 é o canal pessoal sem custo de mídia. Forecast de receita 3 meses conservador (ramp-up 2→6→12 clientes acumulados dentro do teto de 10/mês), ticket médio R$88,50, comissão 10% (R$8,85/cliente), margem líquida R$23,15/cliente. Prévia direcional do Horizonte 2 incluída. Alerta de honestidade: descarta explicitamente a projeção do material comercial original (788 vendas/mês sob R$3-5k de mídia e 70% de eficiência) por incompatível com o modelo de canal atual."
+    },
+    {
+      "ts": "2026-07-16T00:00:00-03:00",
+      "skill": "ee-s3-forecast-midia",
+      "checkpoint": 2,
+      "decision": "v2: estendido pra 12 meses a pedido do operador, com funil completo mídia→parceiro ativo→clientes/mês por parceiro. Etapas: investimento→leads(MQL, CPL R$30 estimado)→aprovados(20%)→novos ativos(60% de ativação)→estoque de ativos (churn 8%/mês)→clientes/mês (produtividade média). Produtividade de regime ancorada numa referência REAL da reunião de 07/07/2026 (parceiro que 'traz 10 caras por ano' ≈ 0,83 cliente/mês), com curva de ramp-up estimada pros primeiros meses de cada parceiro. Projeção mês 12: 51 parceiros ativos, 212 clientes acumulados, MRR líquido ~R$16.886/mês. Alerta de capacidade: modelo cruza ~30 parceiros ativos por volta do mês 8, teto de 1 Gestor + 1 Coordenador de Ativação — recomendado decidir ANTES (2º Coordenador ou throttle de investimento) em vez de reagir depois, mesma lógica de critério-definido-antes já usada no H1. CAC por parceiro ~R$250, payback ~12-13 meses."
+    },
+    {
+      "ts": "2026-07-16T00:00:00-03:00",
+      "skill": "ee-panorama-geral",
+      "checkpoint": 2,
+      "decision": "A pedido do operador, releitura de todas as transcrições em busca de promessas feitas ao cliente e não cumpridas. 3 achados: (1) URGENTE — na reunião real de 30/06/2026, Lucas Calefi testou ao vivo o WhatsApp vinculado ao Instagram/bio da UZTS (mandou mensagem de teste) e ela não foi recebida; Marcos confirmou que não há fluxo significativo chegando por esse número e que a última mensagem recebida avisava que faltava crédito; Wladimir confirmou ao vivo que o WhatsApp estava desconectado; a reunião terminou sem confirmar resolução — registrado em alertas_urgentes no client.json, já que todo o funil desenhado depende desse canal. (2) Lucas Calefi prometeu CHA de 'outros cargos' no material final (transcrição S4, linha 617) além do Gestor de Canais — identificado como o cargo de Responsável por Suporte/Onboarding, que ele mesmo colocou no organograma do H1 mas nunca formalizou; CHA construído e adicionado em ee-s4-diagnostico-comercial v6. (3) 'Cliente oculto' não foi cancelado pelo cliente — na reunião real de 30/06/2026, Lucas Calefi já tinha explicado ao vivo que o Relatório de Diagnóstico UX/UI SUBSTITUI o cliente oculto (não tinha comercial estruturado pra fazer mystery shopping de vendas); corrigido o status de ee-s4-cliente-oculto de 'cancelled' pra 'completed', com nota explicando a substituição já comunicada ao cliente."
+    },
+    {
+      "ts": "2026-07-16T00:00:00-03:00",
+      "skill": "plano-de-marketing-e-vendas-consolidado",
+      "checkpoint": 1,
+      "decision": "Operador enviou o PDF oficial de 157 páginas ('OFICIAL | MW SOFTWARE / UZTS - DIAGNÓSTICO E PLANEJAMENTO DE MARKETING E VENDAS') e pediu compilação de todos os planos de ação num único planejamento, com foco no GTM Motion de parceiros. Precisou instalar poppler (brew) pra conseguir ler o PDF, já que a ferramenta de leitura depende dele. Gerado outputs/plano-de-marketing-e-vendas-consolidado.json/.md: valida que o GTM Partner-Led recomendado nesta consultoria bate exatamente com o slide oficial 'GO TO MARKETING' (pág. 153) — dupla confirmação independente. Compila os 6 eixos do plano (canal de parceiros, mídia como amplificador, produto/onboarding, marca/comunicação, estrutura comercial, funil bowtie) e substitui o placeholder de forecast da pág. 156 (marcado 'DELETAR NA APRESENTAÇÃO FINAL') pelo forecast real de 3 e 12 meses já construído. Encontrados 3 erros no deck oficial a corrigir antes do envio ao cliente: menção incoerente a 'Claude Code' como concorrente (pág. 147), CHA/KPI genéricos de outro cliente mencionando 'recompras de cursos' (págs. 117-120), placeholders de forecast/drawflow ainda presentes. Sinalizada pendência de reconciliar a linha do tempo oficial (H1=1 ano/H2=2 anos/H3=3+ anos) com o modelo desta consultoria (transição por critério cumprido)."
+    },
+    {
+      "ts": "2026-07-16T00:00:00-03:00",
+      "skill": "plano-de-marketing-e-vendas-consolidado",
+      "checkpoint": 2,
+      "decision": "Operador respondeu aos 3 pontos levantados: (1) a linha do tempo H1/H2/H3 do deck oficial foi preenchida com base na própria análise desta consultoria, não era divergência — e o cliente quer agilizar especificamente o Horizonte 3 pra recuperar o investimento no sistema mais rápido (recomendado fazer isso por critério cumprido, não calendário, pra não repetir o padrão histórico); (2) a menção a 'Claude Code' NÃO é erro — é referência real a concorrentes que usam ferramentas de IA de geração de código pra montar sistemas baratos por conta própria, mantida no deck; (3) os slides KPI-SDR/CHA-Closer/KPI-Diretor Comercial eram slides ocultos do Google Slides trazidos sem querer pelo export em PDF (Google exporta ocultos junto), já excluídos pelo operador; placeholders de forecast/drawflow já substituídos na apresentação final. Documento atualizado para v2 refletindo tudo isso."
+    }
+  ]
+}

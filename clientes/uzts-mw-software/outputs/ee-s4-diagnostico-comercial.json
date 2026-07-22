@@ -1,0 +1,353 @@
+{
+  "client_name": "MW Software (UZTS)",
+  "skill": "ee-s4-diagnostico-comercial",
+  "version": 6,
+  "generated_at": "2026-07-16",
+  "status": "completed — apresentado e discutido com o cliente em reunião real de 07/07/2026 (ver base-de-conhecimento/[S4] MW Software... transcrição). v5 reconcilia o rascunho v4 (construído nesta consultoria) com o que foi de fato validado ao vivo com Vladimir e Marcos: todas as premissas e horizontes do v4 se confirmaram sem contradição — a reunião real serviu para travar os números em aberto (comissão 10%, teto de 10 clientes/mês) e adicionar 2 peças que faltavam: o CHA+KPI do Gestor de Canais de Parcerias e o funil bowtie com métricas CR1-CR7. v6 (16/07/2026): releitura das transcrições em busca de promessas não cumpridas — adicionado o cargo 'Responsável por Suporte/Onboarding' à topologia do H1 (que o próprio Lucas Calefi tinha colocado no organograma real mas nunca formalizou com CHA) + seção cha_kpi_responsavel_suporte_onboarding, construída por esta consultoria a partir do framing geral já dado (não é transcrição literal — validar com o operador).",
+  "data_source": "client.json + base-de-conhecimento (kick-off 11/06, pesquisa de mercado 18/06, diagnóstico de marketing 30/06, Entrevista Comercial Marcos 06/07) + instruções do operador de 06/07 e 07/07/2026",
+  "nota_versao": "v4: adiciona o detalhamento completo do Horizonte 3 (expansão nacional) — topologia do time, premissas e justificativas — a pedido do operador. v3: detalhou o Horizonte 2 (abertura a parceiros externos). v2: incorporou a Entrevista Comercial com Marcos Pedrosa (06/07/2026) e a diretriz do operador para o Horizonte 1 (parceiros controlados). Revisão principal em relação à v1: Marcos NÃO é um gargalo de competência — ele já opera com metodologia comercial madura em outras contas (PS Institute/dentista) e é reconhecido pelos próprios sócios como decisivo pra virar o jogo comercial da MW. O gargalo real é que essa metodologia nunca foi portada para o UZTS Light, e a empresa tem um padrão histórico de acelerar aquisição e depois 'frear' por medo de não dar conta operacionalmente — isso aconteceu pelo menos duas vezes antes desta consultoria.",
+
+  "summary": "A MW Software não tem estrutura comercial formalizada para o UZTS Light, mas isso não é falta de competência: Marcos Pedrosa já demonstrou, em outras contas que atende, um método comercial maduro (cadência de follow-up D+24h/D+3/D+8, script de objeções documentado, programa de indicação, critério de desqualificação de lead suspeito, comunidade pós-venda). O problema é que esse método nunca foi portado pro UZTS Light, e a empresa tem um padrão recorrente de acelerar aquisição e depois frear por medo operacional — já aconteceu duas vezes. Por isso o Horizonte 1 do roadmap comercial começa deliberadamente pequeno: poucos parceiros controlados (majoritariamente da rede pessoal dos sócios/Marcos), não abertura ampla a contadores/consultores desconhecidos.",
+  "summary_headline": "Marcos já sabe vender bem — o que falta é portar esse método pro UZTS Light sem repetir o padrão de acelerar e depois frear. Por isso o Horizonte 1 começa pequeno e controlado.",
+
+  "summary_highlights": [
+    { "category": "maturidade", "label": "Método comercial do Marcos", "value": "Maduro (em outras contas)", "subtext": "Follow-up cadenciado, scripts de objeção, indicação — só falta portar pro UZTS", "tone": "green" },
+    { "category": "maturidade", "label": "Estrutura formal p/ UZTS Light", "value": "0/10", "subtext": "Sem CRM funcional, sem funil, sem cadência aplicada a este produto", "tone": "red" },
+    { "category": "risco", "label": "Padrão histórico", "value": "2x freou o crescimento", "subtext": "Medo de não dar conta operacionalmente já parou a aquisição antes", "tone": "red" },
+    { "category": "risco", "label": "Margem unitária", "value": "R$32/venda", "subtext": "Ticket R$80-97/mês — erro de qualificação custa caro", "tone": "red" },
+    { "category": "posicao", "label": "Horizonte 1", "value": "Parceiros controlados", "subtext": "Rede pessoal dos sócios/Marcos, não recrutamento aberto", "tone": "blue" },
+    { "category": "janela", "label": "Gatilho regulatório", "value": "01/08/2026", "subtext": "Fim da dispensa de NFC-e força regularização fiscal em MG", "tone": "green" }
+  ],
+
+  "summary_key_findings": [
+    { "category": "vantagem", "text": "Marcos Pedrosa já opera, em outra conta (curso PS Institute), com um método comercial sofisticado: cadência de follow-up (D+24h, D+3, D+8), script de objeções documentado ('achei caro' → comparação de ROI; 'não tenho cartão' → parcelamento; 'sem data' → visibilidade de calendário futuro), programa de indicação com desconto, critério de desqualificação de lead suspeito (já recusou vender pra um lead sem confirmação de credencial), e comunidade pós-venda (grupo de WhatsApp + encontro presencial mensal com cross-sell). Esse know-how é o maior ativo comercial da MW hoje — só não foi aplicado ao UZTS Light." },
+    { "category": "ameaca", "text": "A empresa já tentou acelerar aquisição pelo menos duas vezes (inclusive via feiras) e recuou por conta própria porque temeu não conseguir dar suporte operacional ao volume — segundo o próprio Marcos, foi esse padrão que motivou contratar a V4 agora ('preparar a casa' antes de acelerar de novo)." },
+    { "category": "contexto", "text": "Não existe CRM funcional hoje. A tentativa de usar RD Station num outro cliente (Dr. Breno) não deu certo com a atendente; hoje o controle é feito por 'clone de WhatsApp' + planilha manual, visível só para Marcos e o dono. Isso já causou perda de follow-up ('cara ficou pra trás')." },
+    { "category": "ameaca", "text": "Um caso real de churn (distribuidora de bebidas) mostrou o custo de vender pra um perfil de baixa maturidade digital sem prever o suporte necessário — o cliente pagava R$599 (com PDV) e cancelou porque achava a interface difícil (2 telas, 20 segundos por produto) e não tinha ninguém mais jovem/digital pra operar. Ticket baixo + churn evitável = prejuízo desproporcional." },
+    { "category": "acao", "text": "Horizonte 1: recrutar poucos parceiros controlados (rede pessoal de Vladimir/Elmo/Marcos, não desconhecidos) para portar e documentar o método comercial do Marcos ao UZTS Light com risco mínimo, antes de abrir o canal para contadores/consultores externos." }
+  ],
+
+  "key_leverage_point": {
+    "headline": "O método comercial já existe — só não foi portado pro UZTS Light. O Horizonte 1 é o momento de fazer essa transferência com risco controlado.",
+    "context": "Marcos não precisa aprender a vender: ele já demonstrou, no curso PS Institute, follow-up estruturado, scripts de objeção e um programa de indicação que funciona (ex.: fechamento da Dra. Marja depois de meses de silêncio, usando reativação por ligação + urgência genuína de calendário). O que falta é aplicar exatamente essa disciplina ao UZTS Light, com parceiros de confiança, documentando o que funciona antes de abrir pra fora.",
+    "numbered_reasons": [
+      "A empresa já pagou o preço de acelerar sem playbook — recuou duas vezes por medo de não dar conta. O Horizonte 1 evita repetir isso ao ser deliberadamente pequeno desde o início, não uma reação de pânico no meio da execução.",
+      "Margem de R$32/venda não perdoa erro de qualificação (caso da distribuidora de bebidas) — parceiros de confiança reduzem a chance de vender para quem não vai usar/vai cancelar.",
+      "Todo o material que falta (script de objeção pro UZTS, cadência de follow-up, critério de qualificação) pode ser copiado quase 1:1 do que o Marcos já usa no PS Institute — é adaptação, não invenção."
+    ],
+    "discussion_anchor": "Ponto de discussão com o stakeholder: comprometer-se, desta vez, com um teto de clientes/mês definido ANTES de começar — para que a decisão de acelerar ou não seja tomada com dado, não com medo reativo no meio do caminho."
+  },
+
+  "honesty_alert": "O risco real deste horizonte não é comercial, é comportamental: a MW já demonstrou um padrão de recuar no meio da execução quando o volume cresce mais rápido do que a capacidade percebida de suporte. Se esse padrão se repetir — mesmo com o Horizonte 1 sendo pequeno — a consultoria vai gerar mais um diagnóstico bem-feito que não vira execução. O compromisso de não frear reativamente precisa ser explícito entre Vladimir, Elmo e Marcos antes de começar.",
+
+  "cenario_atual": {
+    "estrutura_hoje": "Nenhuma estrutura comercial formal dedicada ao UZTS Light. Marcos Pedrosa (terceirizado, atende em paralelo clínica odontológica/PS Institute, estética e pousadas) acumula mídia + comercial da MW informalmente. NÃO é falta de competência — Marcos demonstrou na entrevista de 06/07 um método comercial maduro em outras contas — é falta de aplicação desse método ao produto UZTS Light especificamente.",
+    "metodo_ja_existente_marcos": {
+      "priorizacao_de_leads": "No PS Institute, prioriza por proximidade geográfica (DDD 31 primeiro) e por proximidade da data da turma (quem está perto de fechar recebe atenção primeiro).",
+      "cadencia_de_followup": "D+24h (contato inicial sem resposta) → D+3 dias → D+8 dias → se não fechar, oferece a próxima turma disponível, não insiste na mesma.",
+      "reativacao_de_lead_frio": "Ligação direta funciona mesmo em leads parados há meses (caso Dra. Marja: silêncio de dezembro a maio, reativado por ligação com gatilho de urgência de calendário e desconto de retenção de preço antigo — fechou e ainda trouxe indicação).",
+      "scripts_de_objecao_documentados": [
+        "'Achei caro' → comparação de ROI (ex.: 'quanto custa um procedimento na sua região vs. o investimento no curso')",
+        "'Não tenho cartão de crédito' → parcelamento direto em boleto vinculado à data de participação",
+        "'Não tenho disponibilidade de data' → visibilidade de calendário de turmas futuras + desconto de compromisso antecipado"
+      ],
+      "programa_de_indicacao": "Desconto de 10% na matrícula de quem indica um colega que também fecha — usa a rede de confiança do próprio cliente.",
+      "criterio_de_desqualificacao": "Já recusou vender para um lead com sinais de fraude/inconsistência (suposto dentista sem registro de CRO verificável, comportamento de perfil suspeito) mesmo com o lead disposto a pagar na hora — prioriza risco reputacional sobre venda pontual.",
+      "retencao_pos_venda": "Comunidade fechada no WhatsApp só para quem já comprou + encontro presencial mensal de networking, usado também para cross-sell entre os três cursos complementares (efeito de prova social interna)."
+    },
+    "canais_de_venda_historicos_uzts": [
+      "Boca a boca / indicação, apoiado nos 20+ anos de presença dos sócios (Vladimir e Elmo) no comércio local de Nova Lima",
+      "Feiras/eventos regionais — ex: E-Festival do Sebrae, onde venderam o UZTS Standard customizado (maior cliente recente veio daqui)",
+      "Venda oportunista via rede de clientes já existente do Standard/projetos sob medida"
+    ],
+    "padrao_historico_de_freio": "Pelo menos duas vezes a MW planejou e começou a executar uma aceleração de aquisição (inclusive via feiras) e, ao ver o volume de leads crescer, Vladimir decidiu 'frear' por medo de não conseguir dar suporte a todos — isso interrompeu a mensuração de resultado antes de aprender com ela. Foi esse padrão que motivou contratar a V4 agora, para 'preparar a casa' antes de acelerar de novo (nas palavras do próprio Marcos).",
+    "gargalos_identificados": [
+      { "gargalo": "Método comercial maduro do Marcos nunca foi portado/documentado especificamente para o UZTS Light.", "impacto": "alto", "pendente_entrevista": false },
+      { "gargalo": "Ausência de CRM funcional — tentativa com RD Station falhou em outra conta (não adotado pela atendente); hoje o controle do UZTS é via 'clone de WhatsApp' + planilha manual, visível só para 1-2 pessoas.", "impacto": "alto", "pendente_entrevista": false },
+      { "gargalo": "Padrão comportamental de frear reativamente o crescimento por medo de capacidade operacional, sem critério objetivo definido previamente.", "impacto": "alto", "pendente_entrevista": false },
+      { "gargalo": "Caso real de churn evitável por baixa maturidade digital do cliente sem suporte adequado previsto (distribuidora de bebidas).", "impacto": "médio", "pendente_entrevista": false },
+      { "gargalo": "Site (usits.com.br) e Instagram (@uzts.sistema) ainda não comunicam o UZTS Light (já mapeado na S3).", "impacto": "médio", "pendente_entrevista": false }
+    ]
+  },
+
+  "plano_gtm": {
+    "tese_central": "Minas Gerais (começando por Nova Lima e Grande BH) funciona como laboratório controlado: validar processo de aquisição via parceiros, unit economics (CAC x margem de R$32) e retenção antes de qualquer tentativa de expansão para outros estados.",
+    "meta_de_validacao": "Atingir as 500-571 licenças ativas identificadas no cálculo de SOM (necessárias para amortizar o investimento de ~R$19.108 na V4) usando exclusivamente os canais de baixo CAC (parceiros/contadores), sem depender de mídia paga direta.",
+    "criterio_de_avanco_para_expansao_nacional": "Só considerar expansão geográfica depois de comprovar em Nova Lima/Grande BH: (1) canal de parceiros funcionando com CAC sustentável dentro da margem de R$32, (2) funil low-touch rodando sem exigir toque humano caro, (3) taxa de churn conhecida e aceitável, (4) o padrão histórico de 'frear' foi rompido com dados reais de capacidade.",
+    "fase_atual": "Horizonte 1 — validação fechada com parceiros controlados em Nova Lima/Grande BH."
+  },
+
+  "roadmap_comercial_horizontes": {
+    "principio_geral": "Cada horizonte só se abre quando o anterior comprovar, com dado (não intenção), que a MW aguenta o próximo nível de volume — rompendo deliberadamente o padrão histórico de acelerar e depois frear.",
+
+    "horizonte_1_parceiros_controlados": {
+      "objetivo": "Não é gerar volume — é portar e documentar o método comercial que o Marcos já domina (follow-up, objeções, indicação, critério de desqualificação) para o UZTS Light, com risco mínimo, antes de abrir o canal para desconhecidos.",
+
+      "topologia_do_time": [
+        {
+          "papel": "Marcos Pedrosa — Gestor de Canal / Curador do Playbook",
+          "descricao": "Não vende ponta a ponta ele mesmo em volume — orienta, documenta e supervisiona os parceiros-piloto. Papel natural dado que ele já constrói esse tipo de material em outras contas (manual de objeções, vídeos de treinamento no YouTube não listado para o cliente IBDfan)."
+        },
+        {
+          "papel": "2 a 4 parceiros-piloto (rede pessoal, não recrutamento aberto)",
+          "descricao": "Prioritariamente pessoas de confiança direta de Vladimir, Elmo ou do próprio Marcos — podem incluir os próprios sócios usando a rede pessoal deles em Nova Lima, clientes já satisfeitos com potencial de indicação (ex.: perfil do João do churrasquinho, que já tem prova social gravada), ou amigos comerciantes. Não são contadores/consultores de TI externos ainda — essa abertura fica para o Horizonte 2."
+        },
+        {
+          "papel": "Sem SDR, sem Closer contratado nesta fase",
+          "descricao": "Volume deliberadamente baixo não justifica contratação — Marcos + parceiros-piloto cobrem a operação."
+        },
+        {
+          "papel": "1 responsável por captura de conhecimento (o próprio Marcos)",
+          "descricao": "Documenta em tempo real cada objeção nova, cada motivo de recusa, cada causa de abandono/churn — replicando exatamente o que ele já faz no PS Institute — para gerar o manual que sustenta o Horizonte 2."
+        },
+        {
+          "papel": "Responsável por Suporte/Onboarding (papel colocado pelo próprio Lucas Calefi no organograma do H1 apresentado ao cliente em 07/07/2026 — ainda sem nome definido)",
+          "descricao": "Cargo explicitamente incluído no H1 pela V4 ('coloquei aqui alguém de suporte que vai ter que ter alguém para prestar suporte... seria bom definir alguém como responsável por fazer o suporte, o treinamento, o onboarding desses clientes que forem entrando'), mas nunca formalizado com CHA/KPI — ver seção cha_kpi_responsavel_suporte_onboarding abaixo, adicionada em 16/07/2026 pra fechar essa pendência. Pode ser o próprio Marcos acumulando função no início do H1, mas o papel precisa existir de forma nomeada."
+        }
+      ],
+
+      "premissas_para_execucao": [
+        "Definir explicitamente um teto de novos clientes/mês para este horizonte (ex.: 5 a 10) ANTES de começar — decisão deliberada e não reativa, para não repetir o padrão de frear no meio da execução.",
+        "CRM leve funcionando desde o dia 1 — não precisa ser robusto (RD Station já falhou em outra conta), mas precisa sair do 'clone de WhatsApp + planilha na cabeça de duas pessoas' para algo minimamente compartilhável e rastreável (pré-requisito de ee-s3-crm-setup).",
+        "Cada parceiro-piloto vinculado a uma pessoa real de confiança direta — recrutamento fechado, não aberto, para reduzir risco reputacional numa fase em que o playbook ainda está sendo construído.",
+        "Incluir deliberadamente pelo menos 1-2 perfis de cliente 'difícil' (baixa maturidade digital, como o caso da distribuidora de bebidas) no grupo piloto, para testar e ajustar o suporte técnico ANTES de escalar para um público sem essa assistência.",
+        "Capacidade de suporte técnico calculada previamente — dado que a equipe de desenvolvimento é enxuta (4 pessoas incluindo os sócios), cada cliente novo precisa ter o custo de suporte estimado antes de aceitar.",
+        "Compromisso explícito e prévio de Vladimir/Elmo de não frear reativamente — combinar de antemão o critério objetivo (não o instinto no meio da execução) que vai decidir quando pausar ou acelerar o recrutamento de parceiros.",
+        "Script de qualificação/desqualificação documentado para o UZTS Light, adaptando o instinto que o Marcos já demonstrou no PS Institute (recusa de lead suspeito) para o perfil de risco deste produto (ex.: lojista que claramente não vai usar o sistema)."
+      ],
+
+      "justificativas_estrategicas": [
+        "Controla o risco reputacional numa fase em que o playbook para o UZTS Light ainda não existe — errar com uma pessoa de confiança custa muito menos (social e financeiramente) do que errar com um parceiro externo desconhecido que pode propagar má experiência.",
+        "Rompe deliberadamente o padrão histórico da empresa (acelerar e depois frear por medo) ao definir o teto e o critério de expansão ANTES de começar, não como reação no meio do caminho.",
+        "Aproveita o único ativo comercial já maduro que existe — o método do Marcos — e usa o Horizonte 1 justamente para portá-lo ao UZTS Light com poucos casos reais, em vez de tentar documentá-lo em teoria ou arriscar isso com uma rede grande e desalinhada.",
+        "A margem de R$32/venda não perdoa erro de qualificação (caso da distribuidora de bebidas) — testar com parceiros de confiança reduz a chance de gerar churn caro logo na largada.",
+        "Gera prova social genuína (não fabricada) para usar no Horizonte 2 — casos de sucesso com pessoas próximas viram material de recrutamento real quando a MW abrir o canal para contadores e consultores de TI externos."
+      ],
+
+      "meta_sugerida": "2-4 parceiros-piloto ativos, teto de 5-10 novos clientes/mês, com pelo menos 1 caso de baixa maturidade digital testado deliberadamente antes de considerar o Horizonte 2.",
+      "criterio_de_avanco_para_horizonte_2": "Playbook documentado (script de objeção, cadência de follow-up, critério de qualificação) + suporte técnico testado com perfil difícil + nenhum episódio de 'freio' reativo durante a execução do Horizonte 1."
+    },
+
+    "horizonte_2_abertura_a_parceiros_externos": {
+      "objetivo": "Sair do grupo fechado de pilotos (rede pessoal) e recrutar parceiros externos (contadores, consultores de TI, revendedores de equipamento) em escala, usando o playbook e a prova social que o Horizonte 1 produziu — sem repetir o padrão histórico de acelerar e depois frear, agora com risco maior porque o parceiro externo não tem o mesmo vínculo de confiança dos pilotos.",
+
+      "pre_requisito_de_entrada": "Só abre quando o Horizonte 1 comprovar (não prometer): playbook documentado (script de objeção, cadência de follow-up, critério de qualificação), suporte técnico testado com pelo menos 1 perfil de baixa maturidade digital, e nenhum episódio de 'freio' reativo durante a execução.",
+
+      "topologia_do_time": [
+        {
+          "papel": "Marcos Pedrosa — Gestor de Parcerias (papel evolui de 'curador prático' para 'gestor de rede')",
+          "descricao": "No Horizonte 1 ele treinava cada piloto pessoalmente; no Horizonte 2 ele não tem escala pra isso (segue atendendo outras contas em paralelo). Passa a gerenciar o playbook já documentado, delegando o onboarding de novos parceiros a material replicável (vídeos, checklist) em vez de presença 1:1."
+        },
+        {
+          "papel": "Coordenador(a) de Ativação de Parceiros (nova função, meio período ou terceirizada)",
+          "descricao": "Absorve o volume de recrutamento/onboarding que Marcos não consegue mais cobrir sozinho: recruta contadores/consultores/revendedores, aplica o critério de qualificação de parceiro (não só de cliente final), acompanha ativação e paga/confere comissão. É o único novo headcount necessário neste horizonte — ainda não é SDR de vendas ao lojista, é gestão de canal.",
+          "faixa_salarial_estimada": "R$1.800 a R$2.800/mês (meio período) ou comissão por parceiro ativado, a depender do volume — estimativa de mercado, confirmar orçamento com o operador.",
+          "estimated": true
+        },
+        {
+          "papel": "Rede de parceiros externos (10-15 no início deste horizonte)",
+          "descricao": "Contadores locais, consultores de TI/técnicos de informática, revendedores de PDV/balanças/maquininhas, associações comerciais — recrutados abertamente (não mais só rede pessoal), mas filtrados pelo critério de qualificação de parceiro definido nas premissas abaixo."
+        },
+        {
+          "papel": "IA/bot de WhatsApp para primeiro contato (piloto)",
+          "descricao": "Entra neste horizonte porque o volume não cabe mais em atendimento 100% pessoal do Marcos — faz a triagem inicial dos leads que os parceiros externos trazem, antes de qualquer humano entrar. Primeira aplicação prática do funil low-touch desenhado desde a v1 deste diagnóstico."
+        }
+      ],
+
+      "premissas_para_execucao": [
+        "Cumprir de fato o critério de avanço do Horizonte 1 (não abrir o Horizonte 2 'porque já faz um tempo' — abrir porque o playbook e o suporte foram testados com dado real).",
+        "Formalizar por escrito o modelo de comissionamento (10% sobre a mensalidade, recorrente enquanto o cliente indicado permanecer ativo — confirmado na reunião real de 07/07/2026 como a linha ideal, referência de mercado: Bling e outros ERPs praticam esse patamar) — parceiro externo não tem o vínculo de confiança dos pilotos, então a relação precisa ser sustentada por processo claro, não por informalidade.",
+        "Definir um critério de qualificação/desqualificação de PARCEIRO (distinto do critério de qualificação de cliente final já testado no Horizonte 1) — nem todo contador/consultor que se candidatar deve ser aceito; avaliar se ele tem a carteira certa (pequeno comércio de bairro) e se vai representar a marca com o mesmo padrão que os pilotos representaram.",
+        "Onboarding de parceiro precisa ser 100% replicável sem a presença pessoal do Marcos em cada ativação — vídeos e checklist gerados a partir da experiência real do Horizonte 1, não material genérico.",
+        "CRM leve precisa estar de fato em uso (não só planejado) — rastreando pipeline de 10-15+ parceiros simultaneamente é inviável na planilha manual que sustentou o Horizonte 1.",
+        "Redefinir o teto de crescimento e o critério objetivo de desaceleração para este novo volume — o mesmo princípio do Horizonte 1 (nada de decisão reativa no meio da execução), mas recalibrado, porque o volume esperado é maior.",
+        "Capacidade de suporte técnico dimensionada para o volume maior — se 4 pessoas de dev bastaram pro Horizonte 1, validar com dado (não estimativa) se bastam para o volume do Horizonte 2 antes de acelerar recrutamento de parceiros."
+      ],
+
+      "justificativas_estrategicas": [
+        "O Horizonte 1 gerou prova social genuína (casos reais, não fabricados) e um playbook testado — é isso que torna crível recrutar parceiros externos sem repetir o risco reputacional que se corria antes de qualquer coisa estar documentada.",
+        "Contadores e consultores de TI têm CAC muito menor que mídia paga (já validado no diagnóstico de mídia da S3) — mas essa vantagem de custo só se realiza se o parceiro souber exatamente o que dizer e como ativar, o que depende diretamente do playbook produzido no Horizonte 1.",
+        "Formalizar comissionamento e critério de qualificação de parceiro protege a marca precisamente porque, ao contrário do Horizonte 1, aqui não há mais o colchão de confiança pessoal dos pilotos — o processo precisa fazer o trabalho que a relação pessoal fazia antes.",
+        "Introduzir a IA no WhatsApp neste horizonte (e não antes) faz sentido economicamente: só agora o volume de leads via parceiros justifica o investimento de configurar a automação (ver ee-s5-sdr-ia-config) — no Horizonte 1 seria over-engineering para um punhado de clientes.",
+        "A meta de 500-571 licenças ativas (SOM) só é atingível em escala através de parceiros externos — os pilotos do Horizonte 1, por desenho, não geram esse volume; eles servem para aprender e provar o método, não para escalar."
+      ],
+
+      "meta_sugerida": "10-15 parceiros externos ativos recrutados, com pelo menos 1 novo teto de clientes/mês definido a priori e critério objetivo de desaceleração combinado antes de começar (mesmo princípio do Horizonte 1, recalibrado para o volume maior).",
+      "criterio_de_avanco_para_horizonte_3": "CAC sustentável dentro da margem de R$32/venda comprovado com os parceiros externos + funil low-touch (IA no WhatsApp) rodando sem depender de toque humano caro + churn conhecido e aceitável + nenhum episódio de 'freio' reativo durante a execução do Horizonte 2."
+    },
+
+    "horizonte_3_expansao_nacional": {
+      "objetivo": "Replicar o modelo de parceiros comissionados validado em MG em novas praças, sem o lastro de confiança pessoal dos sócios (20+ anos em Nova Lima) que sustentou os Horizontes 1 e 2 — o processo formalizado no H2 precisa, sozinho, fazer o trabalho que a reputação local fazia até aqui.",
+
+      "pre_requisito_de_entrada": "Só abre quando o Horizonte 2 comprovar: CAC sustentável dentro da margem de R$32/venda com parceiros externos, funil low-touch (IA no WhatsApp) rodando sem depender de toque humano caro, churn conhecido e aceitável, e nenhum episódio de 'freio' reativo durante a execução do H2.",
+
+      "topologia_do_time": [
+        {
+          "papel": "Gerente de Expansão / Comercial (evolução do Coordenador de Ativação de Parceiros do H2)",
+          "descricao": "Deixa de operar uma única região e passa a desenhar o playbook de entrada em praça nova: escolha de onde expandir, adaptação do processo de recrutamento de parceiros para um território sem relação pessoal prévia, e gestão dos coordenadores regionais."
+        },
+        {
+          "papel": "Coordenador(es) Regional(is) de Parceria — 1 por praça nova ou cluster de praças",
+          "descricao": "Reporta ao Gerente de Expansão. Roda localmente o mesmo modelo de parceiros comissionados (contadores, consultores de TI, revendedores) já validado no Horizonte 2, mas numa região onde a MW não tem histórico nem confiança pré-existente."
+        },
+        {
+          "papel": "Suporte técnico remoto formalizado (N1 + escalonamento)",
+          "descricao": "Precisa crescer além do 'duas, três pessoas' cogitado informalmente por Marcos na entrevista — a expansão nacional torna inviável qualquer acompanhamento presencial dos sócios fora de MG. Triagem de primeiro nível (via bot/FAQ) escalando só casos complexos para o time de dev."
+        },
+        {
+          "papel": "Marcos Pedrosa — Guardião do Playbook / Auditoria de Qualidade",
+          "descricao": "Deixa de operar diretamente e passa a auditar se novas praças estão seguindo o método documentado nos Horizontes 1 e 2, preservando o padrão de qualidade sem precisar estar fisicamente presente."
+        },
+        {
+          "papel": "Time de desenvolvimento (Vladimir, Elmo + equipe) — processo de priorização por praça",
+          "descricao": "Segue enxuto (a base é só 4 pessoas hoje) — precisa de um processo formal de priorização de chamados por região para não virar gargalo quando o volume vier de múltiplas praças simultaneamente."
+        }
+      ],
+
+      "premissas_para_execucao": [
+        "Cumprir de fato o critério de saída do Horizonte 2 (CAC, funil low-touch, churn e ausência de freio reativo comprovados com dado) — não expandir por ambição, expandir por evidência.",
+        "Escolher a(s) próxima(s) praça(s) com critério, não aleatoriamente: priorizar estados/regiões com perfil de comércio de bairro e pressão regulatória (reforma tributária/NFC-e) semelhante ao de MG, para maximizar a chance de repetir o resultado.",
+        "Validar compliance fiscal regional antes de vender em praça nova — regras de emissão de NFC-e podem variar por SEF estadual; o que foi validado para MG não pode ser presumido válido em outro estado sem checagem.",
+        "Formalizar suporte 100% remoto com SLA definido — sem a opção de visita presencial dos sócios que sustentou casos difíceis nos Horizontes 1 e 2 (ex.: distribuidora de bebidas).",
+        "CRM e infraestrutura de dados robustos o suficiente para gerenciar múltiplas regiões simultaneamente — o que bastou para uma rede única de 10-15 parceiros (H2) não necessariamente basta para várias praças em paralelo.",
+        "Redefinir, mais uma vez, teto de expansão por praça e critério objetivo de desaceleração — o mesmo princípio dos horizontes anteriores, mas agora com risco geograficamente disperso e mais difícil de perceber/reverter rápido do que um erro localizado em Nova Lima.",
+        "Garantir fluxo de caixa para sustentar o custo de setup de entrada em praça nova até atingir massa crítica — mesmo com CAC baixo via parceiros, abrir uma região nova tem custo inicial que uma expansão dentro de MG não tinha."
+      ],
+
+      "justificativas_estrategicas": [
+        "Só faz sentido expandir depois de provar — não presumir — que o modelo de parceiros comissionados funciona sem o lastro de confiança pessoal dos sócios; é exatamente isso que os Horizontes 1 e 2 testam antes deste ponto.",
+        "Escolher praças semelhantes a MG (mesmo perfil de comércio de bairro, mesma pressão regulatória) maximiza a chance de repetir o resultado em vez de descobrir do zero em cada novo estado.",
+        "Formalizar suporte remoto e comissionamento antes de expandir é o que permite crescer sem que o time físico de 4 pessoas vire gargalo insustentável — a mesma limitação que já causou o padrão histórico de 'frear' em escala local se tornaria catastrófica em escala nacional sem esse preparo.",
+        "Checar compliance fiscal regional evita repetir, em escala nacional, um erro que seria muito mais caro e visível do que o churn pontual de um cliente em Nova Lima.",
+        "Manter o mesmo princípio de teto + critério de desaceleração definido a priori é ainda mais crítico aqui: um erro de expansão espalhado por várias praças ao mesmo tempo é mais caro e mais difícil de reverter do que um erro localizado."
+      ],
+
+      "meta_sugerida": "1-2 praças novas por ciclo de expansão (não expansão simultânea em muitas regiões), com teto de clientes/mês por praça e critério de desaceleração definidos antes de abrir cada uma.",
+      "criterio_de_sucesso": "Praça nova replicando, dentro de uma margem aceitável, o CAC e a taxa de conversão observados em MG — sem depender de intervenção pessoal dos sócios."
+    }
+  },
+
+  "funil_atendimento": {
+    "principio": "Cada minuto de atendimento humano reduz a margem de R$32/venda — o funil precisa minimizar toque humano sem parecer robótico ou frio. No Horizonte 1, o toque humano (Marcos + parceiros-piloto) é aceitável porque o volume é pequeno e o objetivo é aprender, não escalar.",
+    "etapas": [
+      { "etapa": "Origem do lead", "descricao": "Horizonte 1: rede pessoal dos parceiros-piloto. Horizonte 2+: parceiro externo (contador/consultor de TI) indica ou lead chega via conteúdo educacional sobre a Reforma Tributária — não via tráfego pago direto." },
+      { "etapa": "Primeiro contato", "descricao": "Horizonte 1: contato direto do parceiro-piloto, supervisionado por Marcos. Horizonte 2+: IA no WhatsApp qualifica e responde FAQ antes de qualquer humano entrar." },
+      { "etapa": "Ativação/onboarding", "descricao": "Horizonte 1: onboarding assistido de perto (inclusive testando deliberadamente um perfil de baixa maturidade digital). Horizonte 2+: conteúdo automatizado (vídeos, checklist), sem visita nem call longa." },
+      { "etapa": "Exceção humana", "descricao": "Horizonte 2+: intervenção humana só quando o bot não resolve." },
+      { "etapa": "Retenção", "descricao": "CRM leve rastreia clientes ativos, churn e comissão devida — hoje inexistente, é pré-requisito desde o Horizonte 1." }
+    ],
+    "ferramentas_necessarias": [
+      "CRM leve (não precisa ser robusto — RD Station já falhou; o essencial é rastrear pipeline de parceiros + clientes ativos + comissão)",
+      "IA/bot de atendimento no WhatsApp para qualificação e FAQ (relevante a partir do Horizonte 2, quando o volume não permitir mais atendimento pessoal do Marcos)",
+      "Conteúdo de onboarding automatizado (vídeos, checklist) — pode começar a ser gravado já no Horizonte 1, documentando o que o Marcos ensina pessoalmente"
+    ],
+    "nota": "Esta é a espinha dorsal do que depois vira ee-s3-crm-setup (setup técnico do CRM) e possivelmente ee-s5-sdr-ia-config (config da IA), já confirmados como inclusos no escopo deste cliente."
+  },
+
+  "funil_bowtie_cr": {
+    "nota_fonte": "Modelo 'gravata borboleta' apresentado e confirmado na reunião real de 07/07/2026 — substitui a visão simplificada de funil linear por um modelo de 2 lados (aquisição + pós-venda), com uma métrica de conversão (CR) entre cada par de etapas.",
+    "etapas": [
+      { "etapa": "Awareness", "responsavel": "Marketing/MW", "descricao": "Cliente final ainda não sabe que a MW/UZTS existe. Trabalhado por conteúdo educacional sobre a Reforma Tributária." },
+      { "etapa": "Educação", "responsavel": "Compartilhado (MW inicia, parceiro reforça)", "descricao": "Cliente entende que precisa se regularizar e que existe uma solução." },
+      { "etapa": "Priorização", "responsavel": "Parceiro", "descricao": "O parceiro decide, dentro da carteira dele, quais clientes faz sentido indicar primeiro (ex.: cliente pequeno com CNPJ regular é priorizado sobre um caso complexo)." },
+      { "etapa": "Seleção", "responsavel": "Parceiro", "descricao": "Parceiro efetivamente escolhe e aborda o cliente selecionado." },
+      { "etapa": "Commit", "responsavel": "Parceiro", "descricao": "É a venda em si — cliente decide assinar." },
+      { "etapa": "Onboarding", "responsavel": "Parceiro + MW (a 4 mãos)", "descricao": "Passagem de bastão. Cenário ideal: parceiro faz o onboarding e entrega o cliente já ativo pra MW (mesma lógica de 'zero trabalho mínimo' usada quando um parceiro implementa um CRM). Ponto de maior atrito do Horizonte 1 — MW ainda está entendendo até onde cada parceiro quer/consegue ir." },
+      { "etapa": "Retenção e Expansão", "responsavel": "Compartilhado, com comissão pros dois lados", "descricao": "Suporte contínuo + trabalho de reter o cliente na base e eventualmente expandir pro UZTS Standard. Comissão de 10% continua valendo se o parceiro (ou o próprio cliente) expandir — vale pra qualquer produto MW, não só o Lite." }
+    ],
+    "metrica_cr": "CR1 a CR7 = taxa de conversão entre cada par de etapas consecutivas. Junto com CR, acompanhar sempre 2 outras dimensões por etapa: VM (volume/quantidade de pessoas) e tempo decorrido entre fases — as 3 juntas (conversão, volume, tempo) formam a leitura completa de saúde do funil por parceiro.",
+    "uso_pratico": "Serve pra avaliar parceiro individualmente (que parceiro converte bem do commit pro onboarding vs. qual trava ali) e pra decidir quando abrir o próximo horizonte — não abre H2 'porque já faz tempo', abre quando os CRs do H1 mostrarem playbook estável."
+  },
+
+  "cha_kpi_gestor_canais_parcerias": {
+    "nota_fonte": "CHA (Competência, Habilidade, Atitude) apresentado e validado com o cliente na reunião real de 07/07/2026 para o cargo de Gestor de Canais de Parcerias — cargo novo criado especificamente para o Horizonte 1, hoje ocupado por Marcos Pedrosa. Documento levemente genérico, no formato de descrição de vaga.",
+    "competencia": [
+      "Domínio sobre o portfólio de produtos (UZTS Lite e Standard)",
+      "Conhecimento regulatório fiscal (Reforma Tributária, obrigatoriedade de NFC-e a partir de 01/08/2026)",
+      "Conhecimento sobre modelos de parceria e comissionamento",
+      "Capacidade de aplicar critério de qualificação e desqualificação de parceiros",
+      "Conhecimento de CRM/pipeline (mesmo que básico — planilha ou ferramenta simples)"
+    ],
+    "habilidade": [
+      "Recrutar e ativar parceiros",
+      "Discurso de venda / condução de pitch",
+      "Elaboração de conteúdo e script de onboarding — o gestor de canais também treina o parceiro, não só recruta",
+      "Construção de materiais de apoio (adjacente ao papel de mercado conhecido como 'sales engagement': quem mantém script, pitch deck e treina o time)"
+    ],
+    "atitude": [
+      "Orientado a dado — usa os CRs do funil bowtie para decidir, não instinto",
+      "Constância operacional e rigor de follow-up ('vendedor tem que ser carnívoro, não herbívoro' — insistir em lead perdido, ir atrás, não só tirar pedido)",
+      "Postura ativa na busca de novas parcerias",
+      "Resiliência comercial (venda é atividade de sofrer rejeição com frequência)",
+      "Postura ética e alinhamento com a operação interna"
+    ],
+    "kpis_sugeridos": [
+      "Nº de parceiros ativos (que indicaram pelo menos 1 cliente nos últimos 60-90 dias)",
+      "Nº de clientes trazidos por mês, por parceiro",
+      "CR de cada etapa do funil bowtie, por parceiro (identifica onde cada um trava)",
+      "Taxa de handoff 'já ativado' vs 'só onboarding' na entrega do parceiro pra MW",
+      "Comissão paga/mês (soma) — serve tanto de KPI de canal quanto de controle financeiro"
+    ],
+    "ritmo_operacional": [
+      "Reunião mensal com cada parceiro, dia 15 (evita períodos de fechamento contábil de início/fim de mês)",
+      "Review trimestral mais ampla (retrospectiva + próximos passos, tom mais aspiracional)",
+      "1:1 interno mensal (referência: 'Gestão de Alta Performance', Andy Grove/Intel) — check-in de como o parceiro/liderado está se sentindo com o negócio, não só cobrança de meta"
+    ]
+  },
+
+  "cha_kpi_responsavel_suporte_onboarding": {
+    "nota_fonte": "Adicionado em 16/07/2026 pra fechar uma pendência real: o próprio Lucas Calefi incluiu 'alguém de suporte' no organograma do Horizonte 1 apresentado ao cliente em 07/07/2026, mas nunca formalizou o CHA/KPI desse cargo na reunião (diferente do Gestor de Canais, que teve CHA detalhado ao vivo). Este documento é CONSTRUÍDO por esta consultoria a partir do framing geral já dado ('responsável por fazer o suporte, o treinamento, o onboarding'), não uma transcrição literal do que foi apresentado ao cliente — vale validar com o operador antes de considerar oficial.",
+    "competencia": [
+      "Conhecimento funcional do UZTS Lite/Standard suficiente pra resolver dúvidas de instalação e configuração",
+      "Noção básica do hardware envolvido (impressora térmica, integração com Smart POS Stone/Cielo)",
+      "Entendimento do fluxo do produto o bastante pra explicar de forma simples pra usuários de baixa maturidade digital",
+      "Conhecimento do critério objetivo de 'ativação' (1º cupom fiscal emitido) — pra saber diferenciar cliente instalado de cliente realmente usando"
+    ],
+    "habilidade": [
+      "Comunicação didática adaptada ao nível de consciência do usuário — nunca abrir com jargão técnico (PDV, ERP) pra quem não sabe o que é isso",
+      "Paciência com usuários de baixa maturidade digital (perfil 'Seu Geraldo') sem soar impaciente ou técnico demais",
+      "Triagem: diferenciar dúvida simples (resolve com vídeo/tutorial) de problema técnico real (precisa escalar pro time de desenvolvimento)",
+      "Registro estruturado de cada chamado — o que foi perguntado, o que foi resolvido — pra alimentar o pipeline (ee-s3-crm-setup) e detectar dúvidas repetidas"
+    ],
+    "atitude": [
+      "Empatia genuína com quem tem medo de 'quebrar' o sistema ou fazer besteira",
+      "Proatividade em documentar problemas recorrentes pra virarem conteúdo de onboarding automatizado — reduz volume de chamado repetido ao longo do tempo",
+      "Disciplina de acompanhar ativamente os clientes parados na etapa 'aguardando confirmação de ativação' (ee-s3-crm-setup) — não deixar cliente instalado e não-usando passar despercebido, mesmo padrão que já causou o churn real da distribuidora de bebidas",
+      "Alinhamento com o Gestor de Canais — reporta padrões de dúvida e risco de churn, não trabalha isolado"
+    ],
+    "kpis_sugeridos": [
+      "Tempo médio de resposta a chamado",
+      "% de chamados resolvidos sem precisar escalar pro time de desenvolvimento",
+      "Taxa de clientes que emitem o 1º cupom fiscal dentro de N dias após o handoff (ver regra de segurança do ee-s3-crm-setup)",
+      "Nº de clientes recuperados que estavam 'instalado mas não ativado' antes de virarem churn"
+    ],
+    "ritmo_operacional": [
+      "Checagem diária (ou a cada poucos dias) dos clientes parados em 'aguardando confirmação de ativação'",
+      "Relatório semanal de dúvidas recorrentes pro Gestor de Canais — insumo pra melhorar o material de onboarding"
+    ],
+    "observacao": "No Horizonte 1, esse papel provavelmente é acumulado pelo próprio Marcos ou por alguém do time de desenvolvimento (4 pessoas hoje) — o ponto é que o papel precisa existir de forma nomeada e com essas responsabilidades claras, não ficar difuso ('todo mundo faz um pouquinho'), que é justamente o padrão que a entrevista comercial já tinha identificado como problema atual."
+  },
+
+  "canais_parceria": {
+    "tese": "Tráfego pago direto já foi descartado no diagnóstico de mídia (S3) por CPC alto frente ao ticket baixo. A partir do Horizonte 2, o canal comercial se torna uma rede de parceiros regionais comissionados atuando como força de vendas porta-a-porta, sem custo fixo para a MW.",
+    "perfis_de_parceiro_prioritarios_horizonte_2": [
+      { "perfil": "Contadores locais", "racional": "Já têm a confiança do lojista para tudo fiscal/tributário e incentivo de retenção de carteira com a obrigatoriedade de NFC-e a partir de 01/08/2026." },
+      { "perfil": "Consultores de TI / técnicos de informática locais", "racional": "Já atendem o pequeno comércio para outras demandas (manutenção de PC, rede) e podem agregar o UZTS Light ao portfólio." },
+      { "perfil": "Revendedores/representantes de equipamento de PDV, balanças e maquininhas", "racional": "Já têm relação física com o lojista no momento de compra de equipamento — ponto de venda natural para o software." },
+      { "perfil": "Associações comerciais / sindicatos patronais (CDL, sindilojas)", "racional": "Fazem comunicação institucional sobre a Reforma Tributária para a base de associados — canal de distribuição de conteúdo, não só de vendas diretas." }
+    ],
+    "modelo_comissionamento": "10% de comissão recorrente sobre a mensalidade do cliente indicado, enquanto ele permanecer ativo (confirmado com o cliente em reunião real de 07/07/2026 — referência de mercado Bling e outros ERPs). Se o parceiro (ou o cliente dele) expandir para o UZTS Standard no futuro, a comissão de 10% continua incidindo sobre o novo ticket — retenção e expansão valem para todos os produtos, não só o Lite. Alinha incentivo do parceiro com retenção, não só com a venda pontual, e elimina custo fixo de suporte comercial direto da MW.",
+    "meta_horizonte_2": "10-15 parceiros ativos externos recrutados nos primeiros 3 meses após validação do Horizonte 1.",
+    "teto_mensal_horizonte_1": "Confirmado em reunião real: no máximo 10 clientes novos/mês no Horizonte 1, limitado pela capacidade de suporte do time enxuto (4 pessoas)."
+  },
+
+  "pendente_confirmacao_operador": [
+    "[CONFIRMADO em 07/07/2026] Teto do Horizonte 1: até 10 clientes novos/mês.",
+    "[CONFIRMADO em 07/07/2026] Comissão: 10% recorrente sobre a mensalidade, válido também em expansão futura pro Standard.",
+    "[CONFIRMADO em 07/07/2026] Primeiro parceiro-piloto já identificado e com reunião agendada (relato do cliente na própria reunião).",
+    "[CONFIRMADO em 07/07/2026] CRM leve = planilha ou ferramenta open-source básica, não uma ferramenta paga — ver ee-s3-crm-setup.",
+    "Ainda em aberto: nomear os demais 1-3 parceiros-piloto além do já agendado."
+  ],
+
+  "alimenta_skills": ["ee-s4-cliente-oculto", "ee-s3-crm-setup", "ee-s5-scripts-sdr", "ee-s5-sdr-ia-config"]
+}

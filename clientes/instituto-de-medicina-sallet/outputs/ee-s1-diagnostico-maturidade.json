@@ -1,0 +1,255 @@
+{
+  "client_name": "Instituto de Medicina Sallet",
+  "summary": "Instituto de Medicina Sallet tem maturidade digital geral de 34/100 (Baixo, na média do setor Saúde/estética) — mas essa média esconde um CRM crítico (15/100) que invalida a leitura de performance de toda a mídia paga.",
+  "data_source": "manual",
+  "overall_score": 34,
+  "overall_classification": "low",
+  "summary_headline": "Instituto Sallet empata com a média do setor Saúde (34/100), mas o CRM crítico (15/100) esconde essa média — hoje é impossível saber quais R$8-13 mil/mês de mídia viram cirurgia de verdade.",
+  "summary_highlights": [
+    {
+      "category": "maturidade",
+      "label": "Score Geral",
+      "value": "34/100",
+      "subtext": "Baixo — tecnicamente na média do setor, mas mascarando desequilíbrio grave entre pilares",
+      "tone": "yellow"
+    },
+    {
+      "category": "risco",
+      "label": "CRM crítico",
+      "value": "15/100",
+      "subtext": "20 mil+ contatos duplicados travam toda a atribuição de resultado",
+      "tone": "red"
+    },
+    {
+      "category": "oportunidade",
+      "label": "Mídia Paga acima da média",
+      "value": "48/100",
+      "subtext": "Lookalike + públicos customizados já superam o setor, mesmo com budget pequeno",
+      "tone": "green"
+    },
+    {
+      "category": "posicao",
+      "label": "vs. Benchmark Setorial",
+      "value": "Na média (34 vs 34)",
+      "subtext": "Empate no geral esconde CRM 15 pts abaixo e SEO 6 pts abaixo do setor",
+      "tone": "blue"
+    },
+    {
+      "category": "janela",
+      "label": "Meta herdada em revisão",
+      "value": "60 cirurgias/mês via digital",
+      "subtext": "Meta do planejamento anterior — operador sinalizou necessidade de recalibrar",
+      "tone": "gray"
+    }
+  ],
+  "summary_key_findings": [
+    {
+      "category": "vantagem",
+      "text": "Estrutura de mídia paga (Lookalike + públicos customizados no Meta, conversão de 15-20% nas campanhas de pesquisa do Google) está acima da média do setor Saúde/estética, mesmo com budget pequeno (R$8.000/mês)."
+    },
+    {
+      "category": "contexto",
+      "text": "O setor Saúde/estética tem maturidade digital historicamente baixa (média 34/100) — o Instituto está tecnicamente 'na média', mas isso é um teto baixo para uma marca com 25+ anos de autoridade médica consolidada."
+    },
+    {
+      "category": "ameaca",
+      "text": "CRM crítico (15/100): mais de 20.000 contatos duplicados no funil de entrada, campo de data de cirurgia quebrado (bloqueia a régua de pós-operatório), e reclamações concentradas no Google Meu Negócio por falta de acompanhamento pós-cirúrgico."
+    },
+    {
+      "category": "acao",
+      "text": "Sanear o CRM é pré-condição, não tarefa paralela: sem dados limpos e leitura retroativa de 3 meses (delay real entre lead e cirurgia), a operação investe R$8-13 mil/mês sem saber qual campanha realmente vira cirurgia."
+    },
+    {
+      "category": "contexto",
+      "text": "A meta herdada do planejamento anterior (60 cirurgias/mês via digital, benchmark de 1.069 leads/mês) está sob revisão pelo operador — não deve ser tratada como meta fechada nas próximas skills (posicionamento, forecast de mídia)."
+    }
+  ],
+  "pillar_scores": [
+    {
+      "pillar": "midia_paga",
+      "score": 48,
+      "classification": "medium",
+      "estimated": true,
+      "highlight": "Estrutura de segmentação (lookalike + públicos customizados) supera a média do setor, mas o budget é pequeno frente à meta de triplicar o volume digital.",
+      "details": {
+        "strengths": [
+          "Uso de públicos Lookalike e customizados no Meta Ads (estrutura 'AT_Sallet_Cadastro_Geral' já auditada)",
+          "Taxa de conversão de LP de 15% a 20% nas campanhas de pesquisa do Google Ads (auditoria de junho/2026)",
+          "Acesso total à Business Manager do Meta já obtido; pixel em processo de configuração"
+        ],
+        "weaknesses": [
+          "Budget mensal (R$8.000, + R$5.000 aprovados para 'Bariátrica para Todos' ainda não plenamente alocados) é pequeno frente à meta de sair de 20 para 60 cirurgias/mês via digital",
+          "Sem leitura de CPA por cirurgia realizada — só por lead/clique, porque o CRM não sustenta a atribuição completa",
+          "Meta Ads performando abaixo do Google Ads na percepção do cliente, sem diagnóstico técnico que confirme a causa real"
+        ],
+        "metrics": {
+          "investimento_mensal": "R$8.000 (+ R$5.000 aprovados para Bariátrica para Todos, ainda em fase de alocação)",
+          "cpc_google_ads": "R$10,36 a R$14,19",
+          "taxa_conversao_lp_pesquisa": "15,06% a 19,60%",
+          "split_canais": "37,5% Meta Ads / 62,5% Google Ads"
+        }
+      }
+    },
+    {
+      "pillar": "criativos",
+      "score": 32,
+      "classification": "low",
+      "estimated": true,
+      "highlight": "Identidade visual consistente e paleta definida, mas zero depoimentos em vídeo para o produto estrategicamente mais importante do momento (tratamento com canetas).",
+      "details": {
+        "strengths": [
+          "Paleta de cores e key visual já formalizados em manual de marca entregue pela V4",
+          "Rotação de criativos planejada a cada 15 dias",
+          "Depoimentos em vídeo fortes disponíveis para o produto de balão gástrico (ex.: caso de paciente que emagreceu 70kg)"
+        ],
+        "weaknesses": [
+          "Nenhum depoimento em vídeo para tratamento com canetas GLP-1 — justamente onde o medo/ceticismo do paciente é maior e onde o concorrente-benchmark (Dr. Rubens Arnoni) é mais forte",
+          "Volume de criativos ainda baixo e recente — estáticos subindo agora, sem histórico de testes A/B",
+          "Erro recorrente de mencionar convênios em LP de tratamento clínico (que não é coberto) — já identificado e em correção"
+        ],
+        "metrics": {
+          "formato_dominante": "Estático + depoimento em texto",
+          "concorrente_benchmark_admirado": "Dr. Rubens Arnoni (@drjoserubensarnoni) — reels virais, referência de estilo citada pelo próprio operador"
+        }
+      }
+    },
+    {
+      "pillar": "cro",
+      "score": 38,
+      "classification": "low",
+      "estimated": true,
+      "highlight": "Duas landing pages em produção ativa com correções recentes de CTA e prova social, mas o site institucional (2023) está datado e sem dados de velocidade/analytics confirmados.",
+      "details": {
+        "strengths": [
+          "CTA único e claro após ajuste recente ('Agendar minha avaliação', removida duplicidade)",
+          "Segmentação de LP por intenção (tratamento cirúrgico x tratamento clínico) já em curso",
+          "Reaproveitamento validado de narrativa visual (jornada em espiral) que já performava bem na versão anterior"
+        ],
+        "weaknesses": [
+          "Site institucional (sallet.com.br) de 2023, descrito pela própria equipe como datado",
+          "Prova social incompleta na LP de tratamento clínico — sem nenhum vídeo de depoimento de caneta",
+          "Sem confirmação de tracking completo (GA4/heatmap) nem dados de velocidade de carregamento nesta rodada"
+        ],
+        "metrics": {
+          "landing_pages_ativas": 2,
+          "velocidade_carregamento": null,
+          "unavailable_reason": "Sem PageSpeed/Core Web Vitals coletado nesta rodada de diagnóstico manual"
+        }
+      }
+    },
+    {
+      "pillar": "crm",
+      "score": 15,
+      "classification": "critical",
+      "estimated": true,
+      "highlight": "Mais de 20.000 contatos duplicados no funil de entrada e régua de pós-operatório tecnicamente quebrada — o maior gargalo de todo o diagnóstico.",
+      "details": {
+        "strengths": [
+          "Ferramenta robusta já em uso (RD Station CRM + Marketing, integrado ao Omniplus/WhatsApp)",
+          "Funil pós-cirúrgico já existente (~3.564 contatos), com potencial de indicação mapeado",
+          "Acesso ao CRM confirmado disponível para a V4 (checkpoint de cadastro do cliente)"
+        ],
+        "weaknesses": [
+          "Mais de 20.000 contatos duplicados no funil de entrada — o sistema cria negociação nova em vez de atualizar a existente quando os dados batem",
+          "Campo de data de cirurgia em formato texto (não numérico) bloqueia toda a automação da régua de pós-operatório",
+          "Divergência recorrente entre as métricas do RD Marketing e do RD CRM — o próprio time não confia nos números que gera",
+          "Ausência de leitura retroativa de 3 meses (delay real entre entrada do lead e realização da cirurgia) na análise mensal de performance"
+        ],
+        "metrics": {
+          "contatos_funil_entrada": "20.292+",
+          "contatos_funil_pos_cirurgico": "~3.564",
+          "reclamacoes_gmb": "Concentradas em relatos de abandono no pós-operatório"
+        }
+      }
+    },
+    {
+      "pillar": "seo",
+      "score": 24,
+      "classification": "low",
+      "estimated": true,
+      "highlight": "O próprio Dr. Sallet não consegue aparecer bem organicamente nem para o próprio nome — sinal direto de autoridade digital baixa apesar de 25+ anos de autoridade offline.",
+      "details": {
+        "strengths": [
+          "Google Meu Negócio ativo e reivindicado",
+          "Presença em múltiplos canais (YouTube/Salcast, LinkedIn pessoal do Dr. Sallet, Instagram)",
+          "LinkedIn pessoal do Dr. Sallet já performa bem para parcerias institucionais/B2B (ex.: fornecedores como Johnson)"
+        ],
+        "weaknesses": [
+          "Site institucional desatualizado (2023), sem estratégia de blog/conteúdo indexado perceptível",
+          "Reclamações no Google Meu Negócio concentradas em pós-operatório e aparentemente sem resposta ativa",
+          "Frustração recorrente relatada pelo próprio Dr. Sallet por não aparecer no topo da busca orgânica nem para 'cirurgia bariátrica' nem para o próprio nome"
+        ],
+        "metrics": {
+          "gmb_status": "Ativo, com reclamações concentradas em pós-operatório"
+        }
+      }
+    }
+  ],
+  "executive_summary": "O Instituto de Medicina Sallet tem maturidade digital geral de 34/100 (Baixo) — um número que empata quase exatamente com a média do setor Saúde/estética (34/100). Na prática, isso significa que o Instituto está deixando demanda na mesa mesmo tendo 25+ anos de autoridade médica consolidada e um Dr. Sallet que é, sozinho, o principal ativo de comunicação do negócio: a marca tem lastro para estar muito acima da média, não empatada com ela. Pior: essa média esconde um desequilíbrio grave — mídia paga (48/100) está de fato acima do setor, mas CRM (15/100, Crítico) está 15 pontos abaixo do benchmark de serviços de saúde, e é esse pilar que decide se o resto do investimento gera resultado real ou só atividade.\n\nOs dois maiores gaps que estão custando resultado agora: primeiro, o CRM (RD Station) está com mais de 20.000 contatos duplicados no funil de entrada e um campo de data quebrado (texto em vez de número) que impede a régua de acompanhamento pós-operatório de funcionar — isso não é só um problema de organização, é o motivo pelo qual as reclamações no Google Meu Negócio se concentram em pacientes que se sentem abandonados após a cirurgia. Segundo, não existe hoje nenhuma leitura confiável de CPA por cirurgia realizada: o ciclo de decisão do paciente tem um delay médio de 3 meses entre o primeiro lead e o procedimento, e a operação não considera esse retroativo na leitura mensal — o próprio time já relatou casos de descobrir 'campanha que não está rodando bem' só no dia 28 do mês, quando já é tarde para agir.\n\nOs dois pontos fortes que precisam ser acelerados: a estrutura de mídia paga já usa públicos Lookalike e customizados no Meta, e as campanhas de pesquisa no Google Ads convertem entre 15% e 20% — números acima da média do setor mesmo com um budget pequeno (R$8.000/mês). E a marca tem um ativo raro: o Dr. Sallet gera engajamento muito acima de qualquer outro profissional da equipe, um diferencial de comunicação que a maioria dos concorrentes não tem. O caminho de maior retorno não é aumentar o investimento em aquisição — é sanear o CRM primeiro para que cada real investido em mídia (incluindo os R$5.000/mês recém-aprovados para o 'Bariátrica para Todos') possa, finalmente, ser medido até a cirurgia.",
+  "priorities": [
+    {
+      "rank": 1,
+      "action": "Sanear o CRM: deduplicar os 20.000+ contatos do funil de entrada no RD Station, corrigir o campo de data de cirurgia (texto → número) para destravar a régua de pós-operatório, e reorganizar a segmentação por funil real (cirúrgico, tratamento clínico/caneta, pós-operatório)",
+      "rationale": "Sem isso, é impossível medir o CPA real de mídia paga por cirurgia, medir taxa de conversão de verdade, ou automatizar o pós-operatório que hoje gera reclamações públicas no Google. É a pré-condição de todos os outros ganhos deste diagnóstico.",
+      "effort": "high",
+      "pillar": "crm",
+      "dependencies": ["Acesso pleno ao RD Station (já confirmado disponível para a V4)"]
+    },
+    {
+      "rank": 2,
+      "action": "Implementar leitura retroativa de performance de mídia — dashboard/rotina que compara coortes por mês de entrada do lead (não pelo mês corrente), respeitando o delay médio de 3 meses entre lead e cirurgia",
+      "rationale": "Hoje a operação toma decisão de mídia com dado incompleto — a Bárbara relatou o problema de só perceber uma campanha fraca no fim do mês, quando já não há tempo de agir. Essa correção destrava decisões semanais/quinzenais com base em dado real.",
+      "effort": "medium",
+      "pillar": "crm",
+      "dependencies": ["Prioridade 1 (CRM saneado)"]
+    },
+    {
+      "rank": 3,
+      "action": "Produzir prova social em vídeo para o tratamento com canetas GLP-1 — hoje não existe nenhum depoimento em vídeo para esse produto, só para balão gástrico",
+      "rationale": "É justamente no tratamento com canetas que o medo e o ceticismo do paciente são maiores, e é onde o concorrente-benchmark admirado pelo próprio cliente (Dr. Rubens Arnoni) já tem prova social forte. Fechar esse gap ataca diretamente uma objeção real da persona (Camila Silva).",
+      "effort": "medium",
+      "pillar": "criativos",
+      "dependencies": []
+    },
+    {
+      "rank": 4,
+      "action": "Atualizar o site institucional (datado desde 2023) com pelo menos as novas landing pages e mensagem de posicionamento atualizada",
+      "rationale": "O próprio Dr. Sallet já reclama de não aparecer bem organicamente para termos-chave — um site desatualizado é parte direta desse problema, além de prejudicar a primeira impressão de quem chega via indicação (canal de maior volume hoje).",
+      "effort": "high",
+      "pillar": "seo",
+      "dependencies": []
+    },
+    {
+      "rank": 5,
+      "action": "Implementar resposta ativa a avaliações no Google Meu Negócio, priorizando as reclamações concentradas em pós-operatório",
+      "rationale": "Quick win de baixo esforço e alto impacto de reputação — hoje as reclamações ficam sem resposta pública, o que reforça a percepção de abandono justamente no momento em que mais gera indicação (ou dano) à marca.",
+      "effort": "low",
+      "pillar": "seo",
+      "dependencies": []
+    }
+  ],
+  "sector_benchmark": {
+    "sector": "Saúde/estética — cirurgia bariátrica e metabólica",
+    "sector_average": 34,
+    "comparison": "at_average",
+    "pillar_comparison": [
+      {"pillar": "midia_paga", "client_score": 48, "sector_average": 38, "gap": 10, "position": "above"},
+      {"pillar": "criativos", "client_score": 32, "sector_average": 40, "gap": -8, "position": "below"},
+      {"pillar": "cro", "client_score": 38, "sector_average": 35, "gap": 3, "position": "above"},
+      {"pillar": "crm", "client_score": 15, "sector_average": 30, "gap": -15, "position": "critical_gap"},
+      {"pillar": "seo", "client_score": 24, "sector_average": 30, "gap": -6, "position": "below"}
+    ],
+    "key_insight": "O score geral empata com a média do setor, mas essa aparência de normalidade esconde um CRM 15 pontos abaixo do benchmark (o pior gap de todo o diagnóstico) compensado por uma mídia paga 10 pontos acima — ou seja, o Instituto está gerando demanda que o próprio sistema de dados não consegue processar nem comprovar."
+  },
+  "key_insight": {
+    "headline": "CRM crítico (15/100) é o gargalo sistêmico que invalida a leitura de toda a mídia paga",
+    "context": "O Instituto investe R$8.000 a R$13.000/mês em Google e Meta Ads com estrutura de segmentação até acima da média do setor — mas não existe hoje nenhuma forma confiável de saber quantas dessas campanhas realmente viram cirurgia. O RD Station tem mais de 20.000 contatos duplicados no funil de entrada, a régua de pós-operatório está tecnicamente quebrada (campo de data em formato texto), e o ciclo de decisão do paciente (delay médio de 3 meses entre lead e cirurgia) não é considerado na leitura mensal — o próprio time já relatou não confiar nos próprios números.",
+    "numbered_reasons": [
+      "(1) A duplicação de 20.000+ contatos impede segmentar quem já operou, quem desistiu e quem ainda está ativo no funil — o funil de entrada e o funil pós-cirúrgico se misturam",
+      "(2) Sem leitura retroativa de 3 meses, decisões de mídia são tomadas com dado incompleto — o time já reportou perceber 'campanha fraca' só no fim do mês, quando já é tarde para agir",
+      "(3) A automação de pós-operatório quebrada gera reclamações públicas no Google Meu Negócio, o que prejudica diretamente o pilar de SEO/reputação — um problema de CRM vira um problema de aquisição"
+    ],
+    "discussion_anchor": "Antes de aprovar qualquer aumento de verba de mídia — inclusive os R$5.000/mês já liberados para o 'Bariátrica para Todos' — o Instituto precisa decidir se sanear o CRM entra no escopo imediato do projeto V4. Sem isso, o novo investimento corre o mesmo risco de opacidade que o atual."
+  },
+  "honesty_alert": "O score geral (34/100) está tecnicamente na média do setor, mas isso é enganoso: o CRM é crítico (15/100) e compromete a confiabilidade de todos os outros números apresentados aqui — inclusive o próprio score de mídia paga, calculado a partir de dados de conversão que passam pelo mesmo CRM poluído. Além disso, a meta herdada do planejamento anterior (60 cirurgias/mês via canal digital, benchmark de 1.069 leads/mês) foi construída antes deste diagnóstico e precisa ser revisitada com o operador — investir mais em aquisição antes de sanear o CRM tende a esconder o problema, não resolvê-lo."
+}

@@ -1,0 +1,92 @@
+{
+  "skill": "ee-s1-swot",
+  "cliente": "Hyla do Brasil",
+  "gerado_em": "2026-06-22",
+  "nota": "Cruzamento de ee-s1-diagnostico-maturidade + ee-s1-persona-icp + briefing/transcrições (kick-off + reuniões comerciais). Sem dados V4MOS (API bloqueada por 403, escalado) — itens de mídia/CAC vêm de estimativa verbal dos sócios. Atualizado em 26/06 com 3 pesquisas ad-hoc: benchmark do canal de associados da Hyla França (outputs/canal-associados-benchmark-franca.md), análise do concorrente Rainbow (outputs/concorrente-rainbow-analise.md) e análise do concorrente Vivenso/Pro-Aqua (outputs/concorrente-vivenso-analise.md).",
+
+  "manchete": "A Hyla tem a tecnologia, a marca e a demonstração que converte — mas decide no escuro e está estrangulada pela própria capacidade de demonstrar o produto, não pela demanda.",
+
+  "forcas": [
+    { "id": "F1", "descricao": "Tecnologia patenteada exclusiva — separador de partículas autolimpante, nenhum concorrente direto tem", "comunicavel": true, "impacto": "alto" },
+    { "id": "F2", "descricao": "Atendimento 'VIP' e garantia de 15 anos — troca/conserto rápido, sem burocracia", "comunicavel": true, "impacto": "alto" },
+    { "id": "F3", "descricao": "Marca consolidada há 17 anos, líder do segmento no Brasil", "comunicavel": true, "impacto": "alto" },
+    { "id": "F4", "descricao": "Demonstração presencial converte fortemente quando o lead vem de indicação (50-60%)", "comunicavel": true, "impacto": "alto" },
+    { "id": "F5", "descricao": "Audiência real e engajada no Instagram (~47-49 mil seguidores)", "comunicavel": true, "impacto": "medio-alto" },
+    { "id": "F6", "descricao": "Comissionamento forte para associados (até ~30% por venda + 50% vitalício em recompra do cliente indicado) — retém quem já está dentro", "comunicavel": false, "impacto": "alto" },
+    { "id": "F7", "descricao": "Posicionamento de saúde (alergia, asma, rinite, purificação do ar) — diferencial real frente a concorrentes que só vendem 'limpeza'", "comunicavel": true, "impacto": "alto" },
+    { "id": "F8", "descricao": "Programa de indicação/cashback já estruturado, gerando recompra e novos clientes de forma orgânica", "comunicavel": true, "impacto": "medio" },
+    { "id": "F9", "descricao": "Maior audiência digital própria entre os 3 concorrentes diretos confirmada externamente — Hyla 47-49 mil seguidores vs. Vivenso 25 mil vs. maior conta da Rainbow 19 mil — mesmo com a Rainbow tendo 30 anos de mercado", "comunicavel": true, "impacto": "medio-alto" },
+    { "id": "F10", "descricao": "Plano de carreira de associados já é sofisticado no papel (5 níveis, Fast Track, Acelerador de Produção, comissionamento em rede, cashback em pontos) — competitivo ou superior ao benchmark internacional conhecido publicamente; o problema não é o desenho do incentivo", "comunicavel": false, "impacto": "medio" }
+  ],
+
+  "fraquezas": [
+    { "id": "Fr1", "descricao": "CRM inexistente de fato — o C2S distribui leads (emprestado do setor imobiliário) mas não gerencia funil nem nutre", "urgencia": "critica" },
+    { "id": "Fr2", "descricao": "Dados de funil com só ~70-75% de precisão reconhecida pela própria equipe — decisões por estimativa, não por dashboard", "urgencia": "critica" },
+    { "id": "Fr3", "descricao": "Capacidade de demonstração limitada — só ~35-50 associados ativos de mais de 100 cadastrados — é o gargalo físico da conversão, não o produto ou a oferta", "urgencia": "critica" },
+    { "id": "Fr4", "descricao": "Site/e-commerce tecnicamente fraco (WordPress + WooCommerce + Elementor, avaliado como 'cheio de gambiarras' pelo próprio operador V4)", "urgencia": "alta" },
+    { "id": "Fr5", "descricao": "SEO fraco — reconhecido pela própria equipe, risco crescente com buscas comparativas via IA generativa", "urgencia": "alta" },
+    { "id": "Fr6", "descricao": "Recrutamento de associadas tratado como employer branding secundário (posts esporádicos), não como funil estruturado de aquisição", "urgencia": "alta" },
+    { "id": "Fr7", "descricao": "Sem pós-venda/nutrição automatizada — recompra e revisão dependem de SAC manual, não escalável", "urgencia": "media" },
+    { "id": "Fr8", "descricao": "Já testaram dobrar o orçamento de mídia sem ganho proporcional, sem ter diagnosticado a causa", "urgencia": "media" },
+    { "id": "Fr9", "descricao": "Infraestrutura de suporte ao associado muito mais fraca que o benchmark internacional da própria marca: zero piso de renda nos primeiros meses, nenhuma mensagem explícita de que recrutar não tira nada do recrutado, sem cadência formal de treinamento/reunião, sem cargo de entrada 100% remoto, sem página/código de afiliado rastreável no e-commerce — a Hyla França tem as cinco coisas (ver outputs/canal-associados-benchmark-franca.md)", "urgencia": "alta" }
+  ],
+
+  "oportunidades": [
+    { "id": "O1", "descricao": "Recrutar associadas a partir da própria base de clientes satisfeitas — ICP de candidata a associada é, em essência, o mesmo ICP de consumidora (mulher classe A, mesma rede de indicação)", "janela": "imediata", "impacto": "alto" },
+    { "id": "O2", "descricao": "Posicionamento de saúde (alergia/asma/rinite) ainda pouco ocupado pelos concorrentes diretos — janela para ser 'a marca da saúde', não 'a marca da limpeza'", "janela": "imediata", "impacto": "alto" },
+    { "id": "O3", "descricao": "Mercado nacional pouco explorado — potencial estimado de até 21 milhões de pessoas (10% dos 210 milhões de brasileiros), hoje servido por poucas marcas sérias", "janela": "medio prazo", "impacto": "alto" },
+    { "id": "O4", "descricao": "Benchmark Hyla França — modelo híbrido tradicional+digital saiu de ~100-150/mês para 1.000+/mês investindo em time de associados, caminho já validado dentro da própria marca global", "janela": "medio prazo", "impacto": "alto" },
+    { "id": "O5", "descricao": "SEO e buscas comparativas via IA generativa (ChatGPT/Gemini) — usuários já pesquisam 'qual aspirador é melhor' antes de decidir; quem ocupar esse espaço primeiro ganha vantagem duradoura", "janela": "curto prazo", "impacto": "medio-alto" },
+    { "id": "O6", "descricao": "Digitalizar reativação de associadas inativas (alta volatilidade hoje tratada de forma informal) e comissionamento — ganho rápido sem depender de recrutar gente nova", "janela": "imediata", "impacto": "medio-alto" },
+    { "id": "O7", "descricao": "CRM de pós-venda/recompra de acessórios — recorrência de até 5 anos já comprovada na prática, mas sem sistematização", "janela": "curto prazo", "impacto": "medio" },
+    { "id": "O8", "descricao": "Parcerias com influenciadores e veículos editoriais de saúde/bem-estar — já tiveram cobertura gratuita na pandemia (Exame, Gazeta do Povo), espaço para repetir de forma deliberada", "janela": "medio prazo", "impacto": "medio" },
+    { "id": "O9", "descricao": "Nenhum dos 3 concorrentes diretos (Hyla, Rainbow, Vivenso) tem locação oficial do equipamento — existe demanda latente confirmada por mercados paralelos de terceiros (Bricolib/Kiwiiz na França, LOCLAV no Brasil para a Vivenso) que nenhuma marca capturou ainda. Ser a primeira a oferecer oficialmente reduz a fricção de preço sem precisar baixar o ticket da venda", "janela": "medio prazo", "impacto": "medio" },
+    { "id": "O10", "descricao": "Adotar mecanismos concretos já validados pela Hyla França no programa de associados: piso de renda nos primeiros meses, regra explícita de que recrutar não tira nada do recrutado, cadência fixa de treinamento/suporte (semanal + mensal), cargo de entrada 100% remoto ('associada digital'), e página/código de afiliado rastreável no e-commerce. Não depende de redesenhar a comissão (F10) — depende de construir a infraestrutura em volta dela", "janela": "curto prazo", "impacto": "alto" }
+  ],
+
+  "ameacas": [
+    { "id": "A1", "descricao": "Hyla Plus (fundada pelo ex-sócio/cunhado após a cisão societária) é concorrente direto interno, importa a mesma máquina e ganha relevância digital com o tempo", "probabilidade": "alta", "impacto": "alto" },
+    { "id": "A2", "descricao": "Alta volatilidade da equipe de associadas (saem e voltam por motivos pessoais) ameaça justamente o recurso que já é o gargalo da operação (capacidade de demonstração)", "probabilidade": "alta", "impacto": "alto" },
+    { "id": "A3", "descricao": "Conferência da matriz na Alemanha (17-24/06, em andamento) pode definir rebranding visual global que invalida materiais de marca/criativos já planejados no curto prazo", "probabilidade": "alta", "impacto": "medio" },
+    { "id": "A4", "descricao": "Rainbow disputa a mesma demonstração na casa do cliente, com vendedores falando mal da Hyla diretamente (relatado pelo próprio time) — confirmado externamente por padrão consistente de reclamação sobre venda agressiva (Reclame Aqui, Fórum da Casa, Portal da Queixa Portugal). Ameaça de comportamento de venda e prestígio histórico de marca (30 anos), não de preço ou presença digital — nesses dois pontos a Hyla já está na frente (ver F9 e outputs/concorrente-rainbow-analise.md)", "probabilidade": "alta", "impacto": "medio" },
+    { "id": "A7", "descricao": "Vivenso (Pro-Aqua) é concorrente de preço genuíno — confirmado externamente em R$6.500-9.990, 30-45% mais barato que a Hyla (R$12.000-14.500), gap maior do que a estimativa interna de ~15% sugeria. Reputação pública mais limpa que a Rainbow — não há vulnerabilidade de comportamento de venda pra explorar, a disputa é só de valor percebido (ver outputs/concorrente-vivenso-analise.md)", "probabilidade": "media-alta", "impacto": "medio-alto" },
+    { "id": "A8", "descricao": "Exposição cambial/política de importação — produto importado, sujeito a variação de custo fora do controle da empresa", "probabilidade": "media", "impacto": "alto se ocorrer" },
+    { "id": "A9", "descricao": "Pequenos concorrentes oportunistas entram e saem do mercado, capturando vendas pontuais por preço", "probabilidade": "media", "impacto": "baixo-medio" }
+  ],
+
+  "combinacoes_estrategicas": {
+    "forca_oportunidade": [
+      { "combo": "F4+F6 × O1", "descricao": "A demonstração que já converte bem (F4) e o comissionamento forte (F6) são, juntos, o argumento de recrutamento pronto — falta só direcioná-lo às clientes satisfeitas certas, em vez de tratá-lo como conteúdo orgânico esporádico." },
+      { "combo": "F1+F7 × O2", "descricao": "Tecnologia patenteada + pilares de saúde = posicionamento autêntico e defensável como 'a marca da saúde', diferente de qualquer concorrente que vende só 'limpeza'." },
+      { "combo": "F5 × O5", "descricao": "A audiência de 47-49 mil seguidores já existe e pode ser direcionada para conteúdo de SEO/IA generativa sobre saúde e alergia, capturando demanda de quem pesquisa comparativos antes de decidir." },
+      { "combo": "F3+F2 × O8", "descricao": "17 anos de marca + garantia de 15 anos são prova de solidez que facilita parcerias editoriais/influenciadores de saúde e bem-estar." },
+      { "combo": "F9 × O10", "descricao": "A maior audiência digital entre os 3 concorrentes diretos (F9) já dá à Hyla a base de candidatas/clientes satisfeitas necessária pra fazer o cargo de 'associada digital' (O10) decolar rápido — a audiência existe, falta só o cargo e a infraestrutura." },
+      { "combo": "F10 × O10", "descricao": "O plano de carreira já é competitivo (F10) — não precisa ser redesenhado, precisa ganhar a infraestrutura de suporte que falta (O10): piso de renda, regra anti-conflito comunicada, cadência de treinamento, cargo remoto." }
+    ],
+    "fraqueza_oportunidade": [
+      { "combo": "Fr1+Fr2 × O7", "descricao": "Implementar CRM antes de escalar qualquer mídia — cada venda nova entra num sistema de recompra desde o início, em vez de depender de SAC manual." },
+      { "combo": "Fr3+Fr6 × O1+O4", "descricao": "O gargalo de capacidade de demonstração (Fr3) e o recrutamento subaproveitado (Fr6) são o mesmo problema visto de dois ângulos — tratar recrutamento com a mesma estrutura de funil do consumidor final resolve os dois de uma vez, seguindo o caminho já validado pela Hyla França." },
+      { "combo": "Fr5 × O5", "descricao": "SEO fraco hoje é justamente a fraqueza que a oportunidade de buscas via IA generativa torna mais urgente de corrigir — quem corrigir primeiro ocupa o espaço." },
+      { "combo": "Fr9 × O10", "descricao": "A infraestrutura de suporte ao associado que falta (Fr9) tem solução concreta e testada — não é hipótese, é o que a própria Hyla França já roda (O10). É a fraqueza com o caminho de correção mais claro de toda a SWOT." }
+    ],
+    "fraqueza_ameaca": [
+      { "combo": "Fr3 × A2", "descricao": "Capacidade de demonstração já é gargalo E a equipe que demonstra é volátil — sem uma ação deliberada de recrutamento e retenção, qualquer crescimento de demanda esbarra duas vezes no mesmo limite." },
+      { "combo": "Fr4+Fr5 × A1", "descricao": "Site fraco e SEO fraco, justamente enquanto a concorrente interna (Hyla Plus) ganha espaço digital — risco de perder posição online exatamente onde a Hyla do Brasil está mais vulnerável." },
+      { "combo": "Fr2 × A3", "descricao": "Decisões sem dados confiáveis (Fr2) tornam mais arriscado reagir rápido a uma eventual mudança de identidade visual global (A3) — sem saber o que funciona hoje, fica mais difícil saber o que vale a pena refazer depois da conferência." },
+      { "combo": "Fr3 × A7", "descricao": "Quando o cliente compara com a Vivenso, a objeção é preço — e se a Hyla não tiver associada disponível pra demonstrar rápido e justificar o valor mais alto (Fr3), a venda vai pro concorrente mais barato por falta de prova, não por falta de argumento." }
+    ]
+  },
+
+  "alavanca_prioritaria": {
+    "descricao": "A Hyla tem dois problemas que parecem separados mas são o mesmo: não sabe medir o que funciona (Fr1+Fr2) e não consegue demonstrar o produto na escala que a demanda pediria (Fr3). Resolver recrutamento de associadas com a mesma estrutura de funil/CRM do consumidor final ataca os dois de uma vez — e usa exatamente a audiência (clientes satisfeitas) que a empresa já tem. O benchmark da Hyla França (O10) tira isso do campo da hipótese: não é 'recrutar mais', é replicar 5 mecanismos concretos que a própria marca já roda em outro país — piso de renda inicial, regra explícita de que recrutar não tira nada do recrutado, cadência fixa de treinamento/suporte, cargo de entrada 100% remoto, e página de afiliado rastreável no e-commerce. O plano de carreira em si (F10) já está pronto — o que falta é a infraestrutura em volta dele.",
+    "objecoes_e_respostas": [
+      { "objecao": "Não sabemos se vale investir mais em mídia", "resposta": "CRM real antes de escalar — sem isso, qualquer aumento de orçamento repete o erro já cometido (dobrar budget sem dobrar resultado)" },
+      { "objecao": "Capacidade de demonstração é o gargalo, não a demanda", "resposta": "Tratar recrutamento de associadas ('Hyla do Brasil Business') com o mesmo rigor de campanha, formulário e funil que a aquisição de clientes já tem — usando os 5 mecanismos já validados pela Hyla França (O10), não um programa novo do zero" },
+      { "objecao": "A Hyla Plus (concorrente interno) está ganhando espaço digital", "resposta": "Ocupar agora o posicionamento de saúde/autoridade (F1+F7) antes que a concorrente o faça — é um território ainda livre" },
+      { "objecao": "A Vivenso é mais barata, por que pagar mais pela Hyla?", "resposta": "Demonstração rápida e disponível é a prova que justifica o preço — sem associada disponível na hora, a objeção de preço vence por falta de prova, não por falta de argumento (Fr3 × A7)" }
+    ],
+    "meta_referencial": "Se a Hyla sair de ~50 para ~70-100 associadas ativas nos próximos meses (sem necessariamente aumentar o orçamento de mídia), a venda mensal sobe proporcionalmente — de 70-80 para a faixa de 100-150 máquinas que o próprio cliente já definiu como meta. Complemento de menor escopo: oferecer locação oficial (O9) seria a primeira marca do segmento a fazer isso — nenhum dos 3 concorrentes diretos tem programa próprio, só mercados paralelos de terceiros confirmando a demanda."
+  },
+
+  "alimenta_skills": ["ee-s2-posicionamento", "ee-s1-auditoria-comunicacao", "ee-s3-crm-setup", "ee-s3-brandbook"]
+}

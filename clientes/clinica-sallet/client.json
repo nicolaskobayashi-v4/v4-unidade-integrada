@@ -1,0 +1,303 @@
+{
+  "meta": {
+    "name": "Instituto de Medicina Sallet",
+    "slug": "clinica-sallet",
+    "workspace_id": null,
+    "created_at": "2026-05-18",
+    "modulo_vendas": false,
+    "contrato": "Anual — 12 meses",
+    "onboarding_data": "2026-05-15",
+    "agencia_anterior_encerramento": "2026-05-23",
+    "fase_atual": "pre-kickoff",
+    "fase_nota": "Outputs gerados antes do kick-off de imersão. Baseados em: reuniões de pré-venda (fev–abr/2026), Plano ROI SPICED e Growth Class (15/05). Devem ser revisados e enriquecidos após o kick-off."
+  },
+
+  "briefing": {
+    "empresa": "Instituto de Medicina Sallet",
+    "segmento": "Saúde — Cirurgia Bariátrica e Tratamento da Obesidade",
+    "site": "https://sallet.com.br/",
+    "instagram": "https://www.instagram.com/institutosallet/",
+    "localizacao": "São Paulo, SP",
+    "tempo_mercado_anos": 25,
+    "fundador": "Dr. José Afonso Salé",
+
+    "modelo_negocio": "B2C — tratamento multidisciplinar da obesidade, principalmente cirurgia bariátrica. Foco atual em migrar de 98% convênio para aumento de pacientes particulares.",
+    "volume_procedimentos_mes": "110 a 120 cirurgias/mês",
+    "mix_planos": {
+      "convenio_percentual": 98,
+      "particular_percentual": 2,
+      "meta_particular": "Aumentar participação de pacientes particulares"
+    },
+    "programas": [
+      {
+        "nome": "Bariátrica para Todos",
+        "publico": "Pacientes SUS",
+        "ticket": 4500
+      },
+      {
+        "nome": "Cirurgia Particular",
+        "ticket_min": 25000,
+        "ticket_max": 35000
+      }
+    ],
+
+    "stakeholders": [
+      {
+        "nome": "Dr. José Afonso Salé",
+        "cargo": "Diretor Clínico e Fundador",
+        "perfil": "Médico renomado, 25+ anos de carreira. Apareceu em Jô Soares, Ana Maria Braga, Globo Repórter, Band News, SBT Brasil. Preza fortemente pela ética — não vende tratamentos em que não acredita. Autoridade internacional com centros de excelência no mundo. Está retomando assessoria de imprensa.",
+        "decisor": true
+      },
+      {
+        "nome": "Marina",
+        "cargo": "Gerente Geral",
+        "perfil": "Parte do comitê de decisão. Menos disponível para reuniões. Receberá informações via Bárbara Elizabeth.",
+        "decisor": true
+      },
+      {
+        "nome": "Bárbara Elizabeth (Guedes)",
+        "cargo": "Coordenadora de Marketing",
+        "email": "barbara.guedes@sallet.com.br",
+        "perfil": "Ponto focal de comunicação com a V4. Vem de marketing agressivo (educação). Primeira vez em saúde — ainda adaptando ao marketing empático da área médica. Centraliza decisões operacionais.",
+        "decisor": true
+      },
+      {
+        "nome": "Dra. (esposa Dr. Salé)",
+        "cargo": "Participação ocasional no projeto",
+        "decisor": false
+      }
+    ],
+
+    "equipe_medica": {
+      "cirurgioes": 9,
+      "outros_profissionais": 11,
+      "especialidades": ["Nutricionistas", "Psicólogos", "Educadores Físicos", "Endocrinologistas", "Psiquiatras"],
+      "modelo": "Tratamento multidisciplinar"
+    },
+
+    "equipe_comercial": {
+      "atendimento": "5-6 pessoas",
+      "comercial": 2
+    },
+
+    "marketing_atual": {
+      "modelo": "100% digital",
+      "producao_organica": "Interna (Instagram, TikTok, vídeos, matérias)",
+      "assessoria_imprensa": "Externa — Dr. Salé em Band News e SBT Brasil. Sem metrificação (foco em posicionamento de marca).",
+      "restricao_importante": "Material do Dr. Salé em canais Globo (Jô Soares, Ana Maria Braga, Globo Repórter) NÃO pode ser usado em campanhas — restrição de direitos autorais da emissora."
+    },
+
+    "stack_tecnologico": {
+      "crm": "RD Station",
+      "agendamento": "Figle",
+      "atendimento_whatsapp_tel": "Omni Plus",
+      "midia_paga": ["Google Ads", "Meta Ads", "YouTube Pmax"],
+      "entrada_leads": "100% automatizada via WhatsApp",
+      "nutricao_leads": "E-mail (resultados decrescentes, exceto temas como canetas emagrecedoras)"
+    },
+
+    "base_leads": {
+      "total": 25000,
+      "plataforma": "RD Station",
+      "problema": "Agência anterior não diferenciava potenciais pacientes de recorrentes. Necessita higienização e segmentação (frios, quentes, já operados)."
+    },
+
+    "investimento_midia": {
+      "atual_mensal": 8000,
+      "teto_contrato_v4": 12000,
+      "canais": {
+        "google": "Principal canal de resultado",
+        "meta": "Desempenho inferior ao Google",
+        "youtube_pmax": true
+      },
+      "representatividade": "40% da aquisição de novos pacientes vem de mídia paga"
+    },
+
+    "desafio_principal": "Ascensão das canetas emagrecedoras (Ozempic, Wegovy, Mounjaro) a partir de jul/ago/set 2025 impactou fortemente a demanda por bariátrica. O que funcionava parou. O instituto quer se posicionar como a SOLUÇÃO DEFINITIVA quando as canetas falharem.",
+
+    "objetivos": [
+      "Aumentar volume de pacientes (curto prazo)",
+      "Aumentar pacientes particulares (curto e longo prazo)",
+      "Posicionar o instituto como autoridade vs. medicamentos emagrecedores",
+      "Reativar e qualificar base de 25k leads",
+      "Construir presença de longo prazo para quando 'as canetas derem errado'"
+    ],
+
+    "dores_agencia_anterior": [
+      "Reativa — diagnósticos tardios, 30 dias para ajustar rotas",
+      "Alta rotatividade de gestores de projeto",
+      "Usava sazonalidade como desculpa para resultados ruins",
+      "Comunicação genérica, sem personalização para linguagem médica",
+      "Sem acesso a BI próprio — dados vinham de plataformas hospitalares",
+      "CRM pós-operatório falho — sem fluxo de agendamento de retornos (30/60/90 dias)"
+    ],
+
+    "expectativas_v4": [
+      "Pragmatismo em métricas — dashboard diário",
+      "Mudança rápida de rota em campanhas",
+      "Equipe sênior dedicada que entenda linguagem empática e ética da medicina",
+      "Comunicação concreta — mostrar como vai fazer, não só o que vai fazer"
+    ],
+
+    "entregaveis_mensais_contrato": [
+      "12 criativos estáticos + 12 variações",
+      "2 Landing Pages",
+      "1 manutenção de website",
+      "1 Newsletter + 4 e-mails de conteúdo/mês",
+      "1 Material Rico por trimestre (ex: e-book)",
+      "Reuniões quinzenais + planejamento trimestral"
+    ],
+
+    "atende_estrangeiros": true,
+    "nota_atendimento_estrangeiro": "Dr. Salé é autoridade internacional — busca incomum da Turquia no Yahoo provavelmente relacionada à notoriedade do médico."
+  },
+
+  "research": {
+    "concorrentes_mencionados": [],
+    "diferenciais": [
+      "25+ anos de experiência e liderança em bariátrica no Brasil",
+      "Dr. Salé como autoridade médica reconhecida pela mídia nacional",
+      "Equipe multidisciplinar completa (9 cirurgiões + 11 profissionais de saúde)",
+      "Ética profissional inflexível — não vende tratamento sem acreditar nele",
+      "Volume: 110-120 cirurgias/mês",
+      "Programa 'Bariátrica para Todos' para democratizar acesso"
+    ],
+    "oportunidade_estrategica": "Canetas emagrecedoras têm evidências científicas de eficácia limitada a longo prazo e alta taxa de reganho de peso. O instituto deve se posicionar como 'a escolha certa quando a caneta não for suficiente' — capturando leads em jornada de conscientização."
+  },
+
+  "connectors": {
+    "fetched_at": null,
+    "workspace_id": null,
+    "integrations": {}
+  },
+
+  "progress": {
+    "current_week": 1,
+    "skills": {
+      "ee-s1-diagnostico-maturidade": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s1-swot": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s1-persona-icp": {
+        "status": "completed",
+        "version": 1,
+        "started_at": "2026-05-18T00:00:00-03:00",
+        "completed_at": "2026-05-18T00:00:00-03:00",
+        "fase": "pre-kickoff"
+      },
+      "ee-s1-auditoria-comunicacao": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s2-pesquisa-mercado": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s2-posicionamento": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s2-diagnostico-midia": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s2-diagnostico-criativos": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s2-diagnostico-cro": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-identidade-visual": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-brandbook": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-landing-page": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-copy-anuncios": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-criativos-anuncios": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-crm-setup": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-forecast-midia": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-gmb-otimizacao": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      }
+    }
+  },
+
+  "history": [
+    {
+      "ts": "2026-05-15T11:00:00-03:00",
+      "skill": "ee-onboarding",
+      "checkpoint": 1,
+      "decision": "Growth Class realizada com Bárbara Elizabeth. Transição da agência anterior formalizada para 23/05. Todos os ativos digitais (RD Station, Google Analytics, WordPress, gerenciadores Meta e Google) pertencem ao cliente e serão liberados para a V4. Próximos passos: liberar acessos, agendar kickoff de imersão."
+    },
+    {
+      "ts": "2026-05-18T00:00:00-03:00",
+      "skill": "ee-novo-cliente",
+      "checkpoint": 1,
+      "decision": "client.json criado com base nos documentos da base-de-conhecimento (Plano ROI SPICED, 3 reuniões de pré-venda e Growth Class). Cliente cadastrado no sistema. Aguardando início das skills de Semana 1."
+    },
+    {
+      "ts": "2026-05-18T00:00:00-03:00",
+      "skill": "ee-s1-persona-icp",
+      "checkpoint": 3,
+      "decision": "3 ICPs definidos. Horizonte 1 (agora): ICP 1 — Paciente Particular Decisor Tardio (38–58 anos, SP, R$10k+). Personas: Marcia (gatilho emocional/evento) e Roberto (gatilho médico/comorbidade). Horizonte 2 (fase 2): ICP 2 — Pós-Caneta em Crise. Objeção central: 'Já tentei tudo e não funcionou'. Pontos em aberto para validar no kick-off: split de gênero nos leads, relevância de canal de indicação médica (B2B), perfil dos 25k leads no RD Station."
+    }
+  ]
+}

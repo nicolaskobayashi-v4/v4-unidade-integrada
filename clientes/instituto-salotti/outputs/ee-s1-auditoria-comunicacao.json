@@ -1,0 +1,312 @@
+{
+  "client_name": "Instituto Salotti de Odontologia Digital",
+  "skill": "ee-s1-auditoria-comunicacao",
+  "generated_at": "2026-05-05",
+  "data_source": "S1 Kickoff (29/04) + Formulário pré-kickoff (25/04) + nova-marca.md (DOA COMM) + fetch Instagram Joy Care + briefing",
+
+  "summary": "O Instituto Salotti começa do zero em todos os canais digitais. A Joy Care tem presença digital abandonada que será descontinuada. A nova marca foi desenvolvida pela DOA COMM — conceito sólido e alinhado ao posicionamento quiet luxury, paleta verde+marrom diferenciada — mas está apenas no papel. Risco imediato: os arquivos de marca estão com a agência que está sendo cancelada. Nenhum touchpoint digital trabalha pela nova marca hoje.",
+
+  "summary_headline": "Instituto Salotti tem identidade visual premium pronta e arquivada — mas zero touchpoints digitais ativos para o público que precisa encontrá-la.",
+
+  "summary_highlights": [
+    {
+      "category": "risco",
+      "label": "Touchpoints ativos",
+      "value": "1 de 6",
+      "subtext": "Apenas WhatsApp novo está em operação",
+      "tone": "red"
+    },
+    {
+      "category": "risco",
+      "label": "Marca visual",
+      "value": "Pronta, não deployada",
+      "subtext": "Arquivos com a DOA COMM — transferência urgente",
+      "tone": "yellow"
+    },
+    {
+      "category": "risco",
+      "label": "Google Meu Negócio",
+      "value": "Status desconhecido",
+      "subtext": "Possíveis reviews negativos do período de convênio",
+      "tone": "red"
+    },
+    {
+      "category": "maturidade",
+      "label": "Joy Care Instagram",
+      "value": "Ativo mas abandonado",
+      "subtext": "Será descontinuado. Sem reaproveitamento.",
+      "tone": "gray"
+    },
+    {
+      "category": "oportunidade",
+      "label": "Conceito de marca",
+      "value": "Alinhado ao ICP",
+      "subtext": "Quiet luxury, verde+marrom — diferencia do padrão clínico",
+      "tone": "green"
+    },
+    {
+      "category": "oportunidade",
+      "label": "Oportunidade",
+      "value": "Construção limpa",
+      "subtext": "Sem legado ruim para carregar — tudo novo",
+      "tone": "green"
+    }
+  ],
+
+  "summary_key_findings": [
+    {
+      "category": "ameaca",
+      "text": "Os arquivos da nova marca (logo, brand manual, tipografia, variações) estão com a DOA COMM — agência que está sendo cancelada. Se os ativos não forem transferidos antes do encerramento do contrato, o Instituto Salotti perde o material produzido e pagou."
+    },
+    {
+      "category": "ameaca",
+      "text": "Google Meu Negócio está em status desconhecido. Alta probabilidade de ter reviews negativos do período de descredenciamento de convênios e de aparecer ainda como 'Joy Care' para quem pesquisa o Dr. Salotti ou odontologia em Jundiaí."
+    },
+    {
+      "category": "vantagem",
+      "text": "O conceito de marca desenvolvido pela DOA COMM é sólido e correto para o posicionamento: 'O verdadeiro luxo não é um troféu, é um segredo'. Paleta verde floresta + marrom diferencia totalmente do branco clínico padrão. Referências Aman, Minotti e Studio Nicholson são exatamente o universo do ICP."
+    },
+    {
+      "category": "contexto",
+      "text": "Joy Care tem presença digital ativa (Instagram @joycare.odontologia, Facebook 'Joy Care Odontologia Moderna') que será descontinuada. Sem aproveitamento de seguidores — o público é diferente do ICP atual. O histórico digital da Joy Care é mais risco do que ativo."
+    },
+    {
+      "category": "acao",
+      "text": "Ordem de prioridade para construção: (1) Transferir arquivos de marca da DOA COMM, (2) Auditar e recuperar GMB, (3) Criar Instagram do Instituto Salotti, (4) Criar/otimizar GMB com novo posicionamento, (5) Landing page, (6) Google Ads."
+    }
+  ],
+
+  "touchpoints_audit": [
+    {
+      "canal": "WhatsApp Business",
+      "status": "ativo — em transição",
+      "grade": "C",
+      "url": null,
+      "descricao": "Número novo criado para o Instituto Salotti. Logo novo aplicado. IA em implementação para triagem fora do horário comercial. Canal principal de entrada de leads.",
+      "pontos_positivos": [
+        "Número novo = sem histórico contaminado da Joy Care",
+        "Logo Instituto Salotti já aplicado",
+        "IA em configuração para cobrir horário off-comercial"
+      ],
+      "problemas": [
+        "IA ainda em treinamento — sem manual de comunicação definido para guiá-la",
+        "Equipe de atendimento (Gabi) ainda em adaptação pós-trauma do período de convênio",
+        "Sem script estruturado para triagem e qualificação de leads",
+        "Postura de atendimento premium ainda não padronizada"
+      ],
+      "prioridade_de_melhoria": "alta",
+      "acoes": [
+        "Aguardar Manual de Comunicação (entregável do projeto) para treinar IA",
+        "Treinamento de postura premium com Gabi antes do lançamento dos canais de captação",
+        "Definir horários de resposta humana vs IA"
+      ]
+    },
+    {
+      "canal": "Instagram — Joy Care (@joycare.odontologia)",
+      "status": "ativo — a ser descontinuado",
+      "grade": "D",
+      "url": "https://www.instagram.com/joycare.odontologia/",
+      "descricao": "Perfil ativo sob o nome 'Odontologia Moderna'. Marca antiga, conteúdo não auditado diretamente (Instagram não permite fetch). Será descontinuado com o rebranding.",
+      "pontos_positivos": [
+        "Existência do perfil garante que o handle não será tomado por terceiros enquanto não for desativado"
+      ],
+      "problemas": [
+        "Conteúdo e posicionamento da Joy Care contradizem o Instituto Salotti",
+        "Público atual (se houver) é de convênio — perfil errado para o ICP",
+        "Nome 'Odontologia Moderna' no perfil sem alinhamento com o novo conceito",
+        "Possíveis comentários ou posts negativos do período de descredenciamento visíveis"
+      ],
+      "prioridade_de_melhoria": "baixa — descontinuar",
+      "acoes": [
+        "Não investir em conteúdo ou seguidores nesse perfil",
+        "Criar novo perfil @institutoSalotti (ou similar) para a nova marca",
+        "Definir timing de arquivamento/desativação coordenado com lançamento da nova conta"
+      ]
+    },
+    {
+      "canal": "Instagram — Instituto Salotti",
+      "status": "inexistente",
+      "grade": "—",
+      "url": null,
+      "descricao": "Não existe perfil criado para a nova marca. Canal mais crítico para o ICP (Beatriz pesquisa aqui; Ricardo valida aqui; família de Hélio pesquisa aqui).",
+      "pontos_positivos": [],
+      "problemas": [
+        "Ausência total — handle ainda não reservado",
+        "Paciente que recebe indicação e pesquisa online não encontra nada",
+        "Validação digital bloqueada: indicação → Instagram (não encontra) → desiste ou escolhe concorrente"
+      ],
+      "prioridade_de_melhoria": "crítica",
+      "acoes": [
+        "Reservar handle imediatamente (mesmo antes de publicar — ocupar o @ para não perder)",
+        "Criar perfil com bio, foto e pelo menos 3 posts antes de qualquer campanha de mídia",
+        "Estratégia de conteúdo: autoridade técnica + cases + humanização — sem tendências"
+      ]
+    },
+    {
+      "canal": "Facebook — Joy Care Odontologia Moderna",
+      "status": "ativo — a ser descontinuado",
+      "grade": "D",
+      "url": null,
+      "descricao": "Página ativa mas desatualizada. Historicamente usada para vagas de emprego, segundo o formulário pré-kickoff. Sem relevância estratégica para o novo ICP.",
+      "pontos_positivos": [],
+      "problemas": [
+        "Conteúdo de vagas de emprego não está alinhado ao posicionamento premium",
+        "Marca Joy Care — não será aproveitada"
+      ],
+      "prioridade_de_melhoria": "baixa — arquivar",
+      "acoes": [
+        "Arquivar ou remover conteúdo antes do lançamento do Instagram novo",
+        "Criar nova página do Instituto Salotti vinculada à conta do Meta Ads quando ativar campanhas"
+      ]
+    },
+    {
+      "canal": "Site",
+      "status": "fora do ar",
+      "grade": "F",
+      "url": null,
+      "descricao": "Site da Joy Care estava fora do ar na verificação do S1. Nenhum site para o Instituto Salotti em construção ainda.",
+      "pontos_positivos": [],
+      "problemas": [
+        "Paciente que pesquisa no Google não encontra site — segunda barreira após Instagram",
+        "Sem landing page para campanhas de Google Ads futuras",
+        "Google pode não indexar a marca se não houver domínio ativo"
+      ],
+      "prioridade_de_melhoria": "alta",
+      "acoes": [
+        "Registrar domínio institutosalotti.com.br (ou similar) imediatamente",
+        "Landing page de uma página como prioridade mínima — suficiente para conversão e indexação",
+        "Site completo pode vir após lançamento da marca — não bloqueia o início"
+      ]
+    },
+    {
+      "canal": "Google Meu Negócio (GMB)",
+      "status": "desconhecido — auditoria necessária",
+      "grade": "?",
+      "url": null,
+      "descricao": "Status do perfil GMB não verificado. Alta probabilidade de existir sob 'Joy Care' com endereço atual. Possível presença de reviews negativos do período de descredenciamento.",
+      "pontos_positivos": [
+        "Se existir com avaliações positivas históricas, pode ser aproveitado com atualização"
+      ],
+      "problemas": [
+        "Reviews negativos do período de convênio são o risco mais imediato — primeiro contato do paciente que pesquisa",
+        "Perfil pode estar sob nome 'Joy Care' — não encontrável como Instituto Salotti",
+        "Sem foto atual, sem horário atualizado, sem posts recentes"
+      ],
+      "prioridade_de_melhoria": "crítica",
+      "acoes": [
+        "Auditar GMB imediatamente: verificar nome, avaliações, fotos, status",
+        "Responder profissionalmente a qualquer review negativo antes do lançamento",
+        "Atualizar perfil com novo nome, fotos da clínica, horários e descrição alinhada ao posicionamento",
+        "Campanha ativa de coleta de avaliações com pacientes satisfeitos históricos"
+      ]
+    },
+    {
+      "canal": "Google Ads",
+      "status": "inexistente",
+      "grade": "—",
+      "url": null,
+      "descricao": "Nenhuma conta de anúncios criada para o Instituto Salotti. Sem histórico de campanhas para o novo posicionamento.",
+      "pontos_positivos": [
+        "Começa do zero — sem campanhas quebradas ou histórico negativo para corrigir"
+      ],
+      "problemas": [
+        "Zero captação via intenção de busca ativa — paciente que pesquisa 'odontologia digital Jundiaí' não encontra o Instituto"
+      ],
+      "prioridade_de_melhoria": "média — pós-landing page",
+      "acoes": [
+        "Criar conta após ter landing page pronta",
+        "Estruturar campanhas de Search focadas em intenção de compra (reabilitação, implante, facetas Jundiaí)",
+        "Não ativar antes de ter rastreamento de conversão configurado (erro clássico)"
+      ]
+    },
+    {
+      "canal": "CRM / Sistema de Gestão",
+      "status": "em implementação",
+      "grade": "C",
+      "url": null,
+      "descricao": "Novo CRM implementado (sistema específico para clínicas odontológicas). Em treinamento. Substituirá o caderno de recall.",
+      "pontos_positivos": [
+        "Sistema novo sem legado contaminado",
+        "Específico para odontologia — campos e fluxos adequados"
+      ],
+      "problemas": [
+        "Em treinamento — ainda não operacional para gestão de leads digitais",
+        "Integração com WhatsApp e canais digitais ainda não configurada"
+      ],
+      "prioridade_de_melhoria": "alta",
+      "acoes": [
+        "Configurar régua de recall no CRM assim que operacional",
+        "Integrar WhatsApp ao CRM para rastreamento de leads",
+        "Será endereçado em ee-s3-crm-setup"
+      ]
+    }
+  ],
+
+  "nova_marca_audit": {
+    "desenvolvida_por": "DOA COMM (agência sendo cancelada)",
+    "status": "pronta no papel — não deployada",
+    "conceito": "O verdadeiro luxo não é um troféu, é um segredo. Posicionamento quiet luxury: alto padrão silencioso onde o protagonismo está no resultado (o sorriso), não na comunicação excessiva.",
+    "referencias_de_marca": [
+      "Aman Resorts — luxo pelo silêncio, não pelo mármore",
+      "Minotti — sofisticação que o corpo sente antes do olho notar",
+      "Studio Nicholson — quiet luxury na moda, sem logotipos evidentes"
+    ],
+    "paleta": {
+      "cores_principais": ["Verde Escuro #2e4630", "Verde Médio #4b6125", "Verde Oliva #636a30", "Verde Claro #bbbf97"],
+      "cores_secundarias": ["Bege #ede8d1", "Marrom Claro #8d7967", "Marrom Médio #634e3d", "Marrom Escuro #3c2422"],
+      "conceito_cromatico": "Verde floresta + marrom transmitem acolhimento, equilíbrio e confiança. Posicionam como 'menos clínica fria' e mais 'espaço de bem-estar'. Diferencia completamente do branco/azul padrão odontológico."
+    },
+    "simbolo": "Inicial 'S' de Salotti construída dentro de forma tridimensional. Geometria que remete à precisão digital e profundidade técnica. Grid de construção técnica — premium mas sem ostentação.",
+    "tipografia": "Selecionada para sofisticação, elegância e autoridade com ajustes personalizados para exclusividade.",
+    "versoes": ["Horizontal", "Vertical", "Positivo", "Negativo", "Variação Reduzida 1", "Variação Reduzida 2"],
+    "avaliacao_do_conceito": "Alinhado ao ICP e ao posicionamento aprovado. Verde+marrom é uma escolha corajosa que funciona — diferencia do mar de branco clínico e comunica acolhimento sem abrir mão da sofisticação. O conceito 'luxo silencioso' é exatamente o que o Dr. Salotti pediu: sem dancinhas, sem tendências, resultado que fala por si.",
+    "risco_critico": "Arquivos estão com a DOA COMM. Se o contrato for cancelado sem transferência formal dos arquivos editáveis (AI, PDF, PNG em todas as variações), o Instituto Salotti perde o ativo e precisa refazer. Isso é urgente.",
+    "acoes_urgentes": [
+      "Solicitar transferência de TODOS os arquivos editáveis antes de encerrar contrato com DOA COMM: .ai, .pdf, .png, .svg em todas as variações e tamanhos",
+      "Solicitar também: manual de identidade visual completo com especificações de uso"
+    ]
+  },
+
+  "key_leverage_point": {
+    "headline": "A marca está pronta e alinhada — o único obstáculo entre o Instituto Salotti e o mercado é a execução digital. Mas há um risco imediato: os arquivos da marca ainda estão com a agência que está sendo cancelada.",
+    "context": "O trabalho de branding da DOA COMM é sólido — conceito, paleta e símbolo estão corretos para o posicionamento quiet luxury. Isso é um ativo real que não precisa ser refeito. O que precisa acontecer é: (1) transferir os arquivos antes de cancelar o contrato, (2) construir os touchpoints digitais que colocam essa marca em frente ao ICP.",
+    "numbered_reasons": [
+      "A marca visual já existe e está alinhada — cada semana sem Instagram ativo é uma semana em que a Beatriz (ICP primário) pesquisa 'odontologia digital Jundiaí', não encontra nada do Instituto Salotti e pode escolher um concorrente",
+      "O GMB precisa ser auditado antes de qualquer campanha de mídia — reviews negativos visíveis no primeiro contato de busca destroem a conversão antes mesmo de o lead chegar à LP",
+      "Reservar o handle do Instagram custa zero e leva 2 minutos — perder o @ @institutoSalotti para alguém seria um problema desnecessário e irreversível"
+    ],
+    "discussion_anchor": "Antes de qualquer reunião de estratégia de conteúdo: transferir os arquivos de marca da DOA COMM e auditar o GMB. São as duas ações que desbloqueiam tudo o que vem depois."
+  },
+
+  "plano_de_construcao_digital": {
+    "fase1_urgente": {
+      "prazo": "Imediato — próximos 7 dias",
+      "acoes": [
+        "Solicitar transferência de todos os arquivos editáveis de marca da DOA COMM",
+        "Reservar handle do Instagram @institutoSalotti (ou variação disponível)",
+        "Auditar perfil GMB atual: avaliações, nome, fotos, status de verificação",
+        "Registrar domínio institutosalotti.com.br"
+      ]
+    },
+    "fase2_presenca_minima": {
+      "prazo": "15–30 dias",
+      "acoes": [
+        "Criar e configurar Instagram Instituto Salotti com bio, foto e 3–6 posts iniciais",
+        "Atualizar GMB com novo nome, fotos da clínica, horários e descrição premium",
+        "Coletar 5–10 avaliações Google de pacientes satisfeitos históricos",
+        "Landing page mínima (uma página) com formulário e WhatsApp"
+      ]
+    },
+    "fase3_captacao": {
+      "prazo": "30–60 dias",
+      "acoes": [
+        "Ativar Google Ads Search (palavras de intenção: implante, reabilitação, odontologia digital Jundiaí)",
+        "Ativar Meta Ads (segmentação ICP primário + pacientes internacionais)",
+        "Regularizar produção de conteúdo Instagram (2–3x semana)",
+        "Configurar CRM integrado ao WhatsApp para rastreamento de leads"
+      ]
+    }
+  },
+
+  "honesty_alert": "Esta auditoria foi realizada com base em informações declaradas no S1 e formulário pré-kickoff. Nenhum acesso direto ao Instagram Joy Care, ao GMB nem ao sistema interno foi possível nesta auditoria. As hipóteses sobre reviews negativos no GMB e sobre o estado do Instagram são baseadas no contexto relatado — devem ser verificadas com acesso real antes de qualquer ação de resposta ou atualização."
+}

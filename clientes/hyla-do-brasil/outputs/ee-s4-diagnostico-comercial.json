@@ -1,0 +1,154 @@
+{
+  "client_name": "Hyla do Brasil",
+  "skill": "ee-s4-diagnostico-comercial",
+  "generated_at": "2026-07-16",
+  "data_source": "2 testes reais de cliente oculto documentados: (1) WhatsApp, Lucas, 22/06/2026, Londrina/PR, atendido pela triagem central (Cleiton) — base-de-conhecimento/chat-whatsapp-hyla-do-brasil-cliente-oculto-01.txt; (2) WhatsApp, Nicolas, 12/06 a 05/07/2026, Londrina/PR, atendido diretamente por uma associada (Simone, baseada em Curitiba) — base-de-conhecimento/cliente-oculto-nicolas-02.md. Complementado por testes adicionais reportados verbalmente pelo operador (outros números, mesma região, e um teste cego em região distinta) + briefing do kick-off (funil C2S, comissionamento, volatilidade de associados) + ee-s1-persona-icp (biblioteca de objeções) + ee-s1-swot (Fr1, Fr3).",
+
+  "summary": "Dois testes reais, ambos em Londrina/PR mas por caminhos diferentes, convergem numa causa mais precisa do que 'ninguém faz follow-up'. Caso 1 (Lucas, 22/06): atendido pela triagem central (Cleiton), que respondeu rápido, confirmou cobertura e perguntou 'qual dia e horário' — e então nunca mais retornou (23+ dias de silêncio). Caso 2 (Nicolas, 12/06): atendido diretamente por uma associada engajada (Simone, de Curitiba, cobrindo a região à distância), que voltou a contatar por conta própria em 3 momentos ao longo de 3 semanas (18/06, 04/07, 05/07) — sem nenhuma cobrança do lead. A diferença de engajamento é real e importante. Mas o resultado final é o mesmo nos dois casos: **nenhuma demonstração foi agendada**. Mesmo com follow-up ativo, tudo foi negociado informalmente ('estarei na sua região nas próximas semanas') sem nunca virar uma data confirmada. Simone também revelou, por conta própria, que já existe uma representante local em treinamento em Londrina, ainda não liberada para demonstrações — confirma que a cobertura da região está sendo construída, só não está pronta.",
+
+  "summary_headline": "Dois testes reais, dois caminhos diferentes, mesmo resultado final: nenhuma demonstração agendada. A causa não é 'falta de follow-up' — é handoff inconsistente e ausência de um mecanismo real de agendamento.",
+
+  "summary_highlights": [
+    { "category": "maturidade", "label": "Tempo de 1º contato humano", "value": "Rápido nos 2 casos", "subtext": "Cleiton em 6 min; Simone no mesmo dia — essa etapa funciona bem nos dois caminhos", "tone": "green" },
+    { "category": "risco", "label": "Taxa de agendamento efetivo", "value": "0% em 2 testes", "subtext": "Nenhum dos 2 casos documentados converteu em data marcada, mesmo o com follow-up ativo", "tone": "red" },
+    { "category": "risco", "label": "Inconsistência de handoff", "value": "0 vs 3 contatos", "subtext": "Triagem central (Cleiton): zero follow-up. Associada engajada (Simone): 3 contatos proativos em 3 semanas.", "tone": "red" },
+    { "category": "oportunidade", "label": "Cobertura em construção", "value": "1 representante em treinamento", "subtext": "Simone revelou que já existe pipeline de cobertura local para Londrina, ainda não liberado", "tone": "yellow" },
+    { "category": "contexto", "label": "Padrão replicado", "value": "2 testes documentados + relatos", "subtext": "Mesma região (Londrina), dois canais de entrada diferentes, mesmo resultado final", "tone": "blue" }
+  ],
+
+  "summary_key_findings": [
+    { "category": "vantagem", "text": "O primeiro contato humano funciona bem nos dois caminhos testados — resposta rápida tanto pela triagem central (Cleiton, 6 min) quanto por uma associada engajada direto (Simone, mesmo dia). O problema não é atendimento inicial ruim." },
+    { "category": "vantagem", "text": "Quando a associada está genuinamente engajada, ela persiste por conta própria: Simone recontatou o lead em 3 momentos distintos ao longo de 3 semanas, sem nenhuma cobrança — inclusive avisando 'estarei na sua região nas próximas semanas'. Isso mostra que o problema não é cultura de atendimento ruim de forma generalizada." },
+    { "category": "ameaca", "text": "Mesmo com esse follow-up ativo, a demonstração nunca foi agendada — porque não existe um mecanismo estruturado de marcação. Tudo é negociado informalmente por WhatsApp, com promessas vagas de disponibilidade futura, nunca uma data e horário travados de fato. Esse é um achado mais forte que 'falta follow-up': mesmo com follow-up, falta estrutura." },
+    { "category": "ameaca", "text": "O caminho de entrada muda completamente o resultado: quando o lead passa pela triagem central (Cleiton) antes de chegar numa associada, o follow-up simplesmente não acontece (0 contatos em 23+ dias). Quando chega direto numa associada engajada, o follow-up acontece (3 contatos em 3 semanas) mas ainda esbarra na falta de agendamento estruturado. Isso aponta o handoff inicial como o ponto mais provável de perda de leads." },
+    { "category": "contexto", "text": "Simone revelou, sem ser perguntada, que já existe uma representante local em treinamento em Londrina, ainda não liberada para demonstrações — e que ela mesma cobre a região à distância, vindo de Curitiba. Confirma a leitura da SWOT (Fr3): a cobertura está sendo construída, só não está pronta, e depender de deslocamento de associadas de outras cidades adiciona fricção real de agenda." },
+    { "category": "acao", "text": "Dois pontos de intervenção específicos, não uma reforma de funil: (1) garantir que todo lead triado centralmente seja de fato repassado a uma associada em tempo hábil, com um gatilho automático se isso não acontecer; (2) substituir a negociação informal de data por um mecanismo estruturado de agendamento (ex.: horários específicos oferecidos, não perguntas abertas), mesmo quando o follow-up humano já está acontecendo bem." }
+  ],
+
+  "funnel_diagnosis": [
+    {
+      "stage": "Lead recebido → 1º contato humano",
+      "current_rate": 0.95,
+      "benchmark": 0.8,
+      "gap": 15,
+      "status": "ok",
+      "bottleneck": "Funciona bem — resposta automática instantânea + Cleiton pessoalmente em ~6 minutos no teste real (11:17→11:23). Taxa estimada a partir do teste de campo, não de volume histórico."
+    },
+    {
+      "stage": "1º contato → Endereço coletado + associada confirmada",
+      "current_rate": 0.9,
+      "benchmark": 0.7,
+      "gap": 20,
+      "status": "ok",
+      "bottleneck": "Também funciona — no teste real, Cleiton confirmou 'temos associadas em sua região' em 3 minutos após receber o endereço. Risco não testado: se essa confirmação verifica disponibilidade real ou é resposta padrão (ver achado sobre Londrina sem cobertura ativa)."
+    },
+    {
+      "stage": "Associada confirmada → Demonstração agendada (data/hora travada)",
+      "current_rate": 0.0,
+      "benchmark": 0.7,
+      "gap": -70,
+      "status": "critical",
+      "bottleneck": "GARGALO PRINCIPAL. 0 de 2 testes reais documentados (e relatos adicionais do operador) avançou desse ponto — mas por dois motivos diferentes. Caso 1 (Lucas, 22/06, via triagem central/Cleiton): pergunta 'qual dia e horário' às 14:29 e silêncio total depois, 23+ dias. Caso 2 (Nicolas, 12/06, via associada direta/Simone): follow-up ativo em 3 momentos ao longo de 3 semanas, mas sempre com promessas vagas ('estarei na sua região nas próximas semanas'), nunca uma data travada — mostra que mesmo com follow-up funcionando, falta um mecanismo estruturado de agendamento. Benchmark de 70% é meta operacional implícita (não é dado de mercado externo) — necessária para o cliente bater a meta de 100-150 vendas/mês a partir de ~30 demonstrações/mês já citada no briefing."
+    },
+    {
+      "stage": "Demonstração agendada → Demonstração realizada",
+      "current_rate": null,
+      "benchmark": null,
+      "gap": null,
+      "status": "unknown",
+      "bottleneck": "Sem dado — nenhum teste avançou até aqui. Taxa de no-show/reagendamento não é conhecida (já apontado como gap de dados na SWOT, Fr2)."
+    },
+    {
+      "stage": "Demonstração realizada → Venda",
+      "current_rate": 0.33,
+      "benchmark": 0.55,
+      "gap": -22,
+      "status": "low",
+      "bottleneck": "Dado do briefing do kick-off, não deste teste: lead frio de mídia paga converte ~1 em 3 demonstrações; lead de indicação converte 50-60%. Etapa saudável em si — o problema é que poucos leads pagos chegam até aqui, dado o gargalo anterior."
+    }
+  ],
+
+  "primary_bottleneck": {
+    "stage": "Associada confirmada → Demonstração agendada",
+    "description": "Dois testes reais isolam duas causas distintas para o mesmo resultado (zero demonstrações agendadas). Causa 1 — handoff inconsistente: quando o lead é triado centralmente (Cleiton) antes de chegar numa associada, o follow-up simplesmente não acontece — não existe dono claro para o momento em que a disponibilidade é confirmada e a pergunta de dia/horário é feita, nem gatilho para cobrar ou reatribuir se a associada não retomar contato via C2S. Causa 2 — ausência de mecanismo de agendamento: mesmo quando uma associada engajada assume o lead diretamente (caso Simone/Nicolas) e persiste por conta própria em múltiplos contatos, a marcação da visita continua dependendo de negociação informal por WhatsApp, sem data/hora efetivamente travada — 'estarei na região nas próximas semanas' não é um agendamento, é uma intenção. As duas causas precisam de correções diferentes.",
+    "estimated_improvement": "Duas frentes específicas, não uma reforma de funil: (1) para o handoff via triagem central — definir um dono claro pra travar a data depois da disponibilidade confirmada, com alerta automático se não houver confirmação em 24-48h; (2) para o agendamento em si, mesmo quando o follow-up humano já funciona — substituir a negociação aberta ('qual dia é melhor?') por horários específicos oferecidos no próprio fluxo de conversa, com confirmação e lembrete automáticos, para não depender só da boa vontade da associada em fechar a data. A segunda frente é a mais nova e talvez a de maior impacto: mesmo no caso onde o atendimento humano foi bom, a ausência de estrutura de agendamento ainda assim custou a conversão."
+  },
+
+  "objection_map": [
+    {
+      "objection": "É muito caro",
+      "type": "price",
+      "recommended_response": "Demonstração gratuita primeiro — o cliente vê o resultado antes de qualquer conversa de preço. Parcelamento facilitado (até 36x) reduz a barreira psicológica do valor total.",
+      "sdr_prevention": "Reforçar 'demonstração 100% gratuita, sem compromisso' logo na confirmação do agendamento — reduz a ansiedade de preço antes mesmo da visita."
+    },
+    {
+      "objection": "Já tenho um aspirador normal, não preciso",
+      "type": "need",
+      "recommended_response": "Ancorar em saúde, não em limpeza: 'não é sobre limpar mais, é sobre tirar da sua casa o que causa sua alergia' — reforçado com a demonstração ao vivo.",
+      "sdr_prevention": "Captar o motivo de saúde já na conversa inicial (alergia, asma, rinite) para a associada abrir a demonstração falando de causa, não de sintoma."
+    },
+    {
+      "objection": "Nunca ouvi falar da marca / não vejo na TV",
+      "type": "trust",
+      "recommended_response": "17 anos de mercado, garantia vitalícia/15 anos, e prova social local (clientes da região, depoimentos, associada que já atende ali).",
+      "sdr_prevention": "Mencionar tempo de mercado e garantia já na etapa de confirmação do agendamento, não só na demonstração."
+    },
+    {
+      "objection": "Preciso falar com meu marido/cônjuge primeiro",
+      "type": "authority",
+      "recommended_response": "Convidar o cônjuge para a demonstração desde o agendamento, quando possível — decisão em conjunto reduz desistência pós-visita.",
+      "sdr_prevention": "Perguntar já no agendamento se há mais alguém que participa da decisão, e sugerir incluir essa pessoa na visita."
+    },
+    {
+      "objection": "(Funcionária/governanta) é pesado, dá trabalho",
+      "type": "need",
+      "recommended_response": "Treinamento de uso incluído na demonstração, direcionado também para a funcionária, não só para a contratante.",
+      "sdr_prevention": "Perguntar se quem vai operar o equipamento no dia a dia estará presente na demonstração, e ajustar o roteiro para incluir essa pessoa."
+    }
+  ],
+
+  "qualification_criteria": {
+    "five_star": {
+      "profile": "Match direto com o ICP primário (Márcia): classe A/B, região com associada ativa confirmada de verdade (não só 'na região'), motivo de saúde explícito mencionado (alergia, asma, rinite), decisora ou casal disponível para a demonstração.",
+      "mandatory_signals": [
+        "Cidade/bairro com associada ativa confirmada nos últimos 30 dias (não apenas cadastro regional)",
+        "Motivo de saúde citado no formulário ou na conversa inicial",
+        "Endereço em região compatível com o ICP (classe A/B)",
+        "Confirmação de que a decisora (ou casal) estará presente na demonstração"
+      ],
+      "action": "Agendar em até 24h com confirmação ATIVA (ligação, não só mensagem assíncrona) — não deixar o agendamento depender só da associada retomar contato sozinha."
+    },
+    "four_star": {
+      "profile": "Match forte com o ICP, mas falta 1 sinal obrigatório (ex: motivo de saúde não mencionado espontaneamente, ou decisora ainda não confirmou presença do cônjuge).",
+      "mandatory_signals": [
+        "3 de 4 sinais do perfil 5 estrelas presentes"
+      ],
+      "action": "Agendar em até 48h, com uma pergunta de qualificação adicional na confirmação (ex: motivo de interesse) antes de travar a visita."
+    },
+    "three_star": {
+      "profile": "Interesse real, mas com incerteza operacional — o caso mais comum hoje é justamente 'região com cobertura fraca ou em construção' (ex: Londrina, que tem uma representante local em treinamento, ainda não liberada, e depende de cobertura por deslocamento de associadas de outras cidades).",
+      "mandatory_signals": [
+        "Endereço fora do raio de cobertura confiável de uma associada ativa E liberada para demonstração",
+        "Sem sinal claro de motivo de saúde"
+      ],
+      "action": "NÃO prometer disponibilidade sem checar cobertura real primeiro — incluindo se a associada da região está liberada para demonstração ou ainda em treinamento. Se a cobertura depender de deslocamento (associada de outra cidade), tratar isso explicitamente com o lead: dar uma janela de datas realista em vez de 'nas próximas semanas' vago. Ser transparente em vez de confirmar e depois deixar o lead sem resposta — é exatamente esse padrão que os dois testes de campo capturaram como falha, por caminhos diferentes."
+    },
+    "one_two_star": {
+      "profile": "Sem sinal de motivo de saúde, resistência a fornecer endereço completo, ou região sem nenhuma perspectiva de cobertura.",
+      "mandatory_signals": [
+        "Recusa ou hesitação forte em compartilhar endereço",
+        "Nenhum motivo de interesse além de curiosidade genérica"
+      ],
+      "action": "Nutrir (conteúdo educativo sobre saúde respiratória) em vez de insistir em agendamento imediato — não gastar capacidade escassa de demonstração num lead de baixa intenção."
+    }
+  },
+
+  "honesty_alert": "As taxas de conversão do funil neste diagnóstico vêm de uma amostra pequena e não-estatística: 2 testes de cliente oculto documentados em transcrição real de WhatsApp (22/06 e 12/06-05/07/2026, ambos em Londrina/PR mas por caminhos de entrada diferentes) + relatos verbais do operador sobre outros testes (números adicionais na região de Londrina e um teste cego em outra região), sem transcrição própria para esses últimos. Os dois testes documentados convergem no resultado final (zero demonstrações agendadas) mas por causas diferentes — isso é um sinal mais forte e mais específico que um N pequeno normalmente daria, mas ainda não deve ser lido como 'X% de todos os leads da Hyla falham aqui' até haver dados de volume real do CRM/C2S. Importante: os dois testes documentados são da MESMA região (Londrina, com cobertura fraca/em construção) — ainda não há teste de campo numa região de cobertura densa (ex.: São Paulo), recomendado antes de qualquer decisão de budget ligada a geografia (ver ee-s2-diagnostico-midia). As taxas de 'Demonstração realizada → Venda' (33%/55-60%) vêm do briefing do kick-off (relato verbal dos sócios), já marcadas como estimativa desde a SWOT (Fr2).",
+
+  "alimenta_skills": [
+    "ee-s4-cliente-oculto",
+    "ee-s5-scripts-sdr",
+    "ee-s5-sdr-ia-config",
+    "ee-revisao-semanal"
+  ]
+}

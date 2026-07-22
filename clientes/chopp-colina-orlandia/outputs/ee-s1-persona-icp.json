@@ -1,0 +1,155 @@
+{
+  "skill": "ee-s1-persona-icp",
+  "cliente": "Chopp Colina Orlandia",
+  "gerado_em": "2026-05-17",
+
+  "manchete": "O consumidor de Franca nunca ouviu falar do Colina — mas vai lembrar da primeira vez que tomou. O desafio não é o produto: é o acesso e a lembrança.",
+
+  "icps": [
+    {
+      "id": "icp-1-anfitriao",
+      "nome": "Anfitrião",
+      "descricao": "Consumidor final que faz churrasco ou reunião em casa",
+      "canal_entrada": "Instagram → WhatsApp",
+      "volume_tipico": "1 barril 30L",
+      "ticket": 330,
+      "frequencia": "Mensal a quinzenal",
+      "prioridade_franca": "principal",
+      "prioridade_orlandia": "principal"
+    },
+    {
+      "id": "icp-2-organizador",
+      "nome": "Organizador de Evento",
+      "descricao": "Pessoa que organiza festa maior (50-150 pessoas) — aniversários, confraternizações, casamentos pequenos",
+      "canal_entrada": "Instagram / indicação → WhatsApp",
+      "volume_tipico": "2-3 barris 50L ou trave congelada",
+      "ticket": "R$1.100-1.650 ou trave + 300L",
+      "frequencia": "Ocasional (2-4x/ano)",
+      "prioridade_franca": "secundario",
+      "prioridade_orlandia": "principal"
+    },
+    {
+      "id": "icp-3-ponto-revenda",
+      "nome": "Ponto de Revenda B2B",
+      "descricao": "Dono de espetinho, pizzaria ou lanchonete sem comodato Ambev",
+      "canal_entrada": "Visita comercial / indicação",
+      "volume_tipico": "1 barril/semana",
+      "ticket": "R$330-550/semana",
+      "frequencia": "Semanal",
+      "prioridade_franca": "secundario",
+      "prioridade_orlandia": "residual"
+    }
+  ],
+
+  "personas": [
+    {
+      "id": "rodrigo",
+      "nome": "Rodrigo",
+      "idade": 38,
+      "icp": "icp-1-anfitriao",
+      "frase": "Chopp num churrasco é outra coisa. Mas quando eu ligo, às vezes não tem chopeira disponível ou é só no sábado. No domingo não entregam.",
+      "perfil": "Trabalhador do setor calçadista ou prestador de serviços em Franca. Renda 3-5 salários mínimos. Anfitrião do grupo — faz churrasco a cada 15-30 dias.",
+      "jtbd": {
+        "funcional": "Ter chopp gelado e pronto para servir, sem dor de cabeça logística",
+        "emocional": "Ser o anfitrião que surpreendeu",
+        "social": "Que churrasco do Rodrigo — até chopp tinha"
+      },
+      "dores": [
+        "Concorrente não atende no domingo",
+        "Não sabe onde encontrar chopp por delivery em Franca",
+        "Já teve experiência ruim com chopeira mal instalada ou chopp quente",
+        "Acha que 30L é muito — subestima o volume necessário"
+      ],
+      "objecoes": [
+        "30 litros é muito — não vou conseguir beber tudo",
+        "Prefiro Antarctica que já conheço",
+        "Tem no app mais barato"
+      ],
+      "gatilho": "Aniversário, churrasco com mais de 10 pessoas, feriado, indicação de amigo",
+      "mensagem_que_converte": "Chopp Colina gelado na sua casa — barril de 30L com chopeira inclusa, entrega e instalação. Atendemos domingo. R$330.",
+      "canal_fechamento": "WhatsApp (mesmo dia)"
+    },
+    {
+      "id": "patricia",
+      "nome": "Patrícia",
+      "idade": 42,
+      "icp": "icp-2-organizador",
+      "frase": "Quando tem festa grande, a gente quer caprichar. Chopp é um diferencial — mas precisa de alguém de confiança, que não some no dia.",
+      "perfil": "Mulher, 35-50 anos. Organiza festas de aniversário, casamentos pequenos, 15 anos, confraternizações. Renda familiar média-alta. Compara fornecedores antes de decidir.",
+      "jtbd": {
+        "funcional": "Ter chopp suficiente para o evento todo, instalado e funcionando — sem ela gerenciar no dia",
+        "emocional": "Ser reconhecida por ter feito um evento impecável",
+        "social": "Convidados comentando positivamente sobre a qualidade"
+      },
+      "dores": [
+        "Fornecedor que some ou atrasa no dia do evento",
+        "Chopeira que trava ou não resfria direito",
+        "Não saber calcular quantos litros precisa",
+        "Medo de faltar ou sobrar demais"
+      ],
+      "objecoes": [
+        "Nunca ouvi falar do Colina",
+        "Vou com o que já usei antes",
+        "É muito caro para a quantidade de pessoas"
+      ],
+      "gatilho": "Data de evento com +30 dias de antecedência, indicação de quem usou",
+      "argumento_de_fechamento": "Consignação — Posso deixar um barril extra consignado. Você só paga o que consumir.",
+      "mensagem_que_converte": "Para festas de 50 a 150 pessoas — barril, chopeira elétrica ou trave congelada. Calculamos o volume certo para o seu evento. Instalamos e buscamos depois."
+    },
+    {
+      "id": "seu-antonio",
+      "nome": "Seu Antônio",
+      "idade": 52,
+      "icp": "icp-3-ponto-revenda",
+      "frase": "Chopp vende mais que cerveja e dá mais margem — mas eu não quero dor de cabeça com equipamento. E a Ambev não deixa eu trabalhar com outra marca.",
+      "perfil": "Dono de espetinho, pizzaria ou lanchonete. Faturamento R$30k-150k/mês. Sem comodato Ambev. Sensível a custo mas prioriza praticidade.",
+      "jtbd": {
+        "funcional": "Ter chopp disponível para clientes sem gerenciar manutenção de equipamento",
+        "emocional": "Oferecer algo diferente dos concorrentes sem muito esforço",
+        "social": "Ser o espetinho que tem chopp — diferencial no bairro"
+      },
+      "dores": [
+        "Chopeira que para e o fornecedor demora para resolver",
+        "Equipamento sujo que prejudica o sabor",
+        "Fornecedor que não repõe a tempo no fim de semana",
+        "Não sabe se o chopp vai ter giro suficiente"
+      ],
+      "objecoes": [
+        "Meus clientes pedem Antarctica — não vão aceitar outra marca",
+        "Não quero arriscar barril que não vende",
+        "Já tenho acordo com outro fornecedor"
+      ],
+      "gatilho": "Problema com fornecedor atual, concorrente próximo passou a oferecer chopp, visita comercial com amostra",
+      "mensagem_que_converte": "Chopeira instalada por nossa conta. Suporte técnico incluso. Reposição garantida. O chopp Colina tem feedback de qualidade superior — seus clientes vão notar.",
+      "abordagem": "Visita presencial + amostra de degustação + consignação do primeiro barril como teste sem risco"
+    }
+  ],
+
+  "objecao_universal": {
+    "descricao": "Em Franca, o Colina é desconhecido — barreira de marca presente em todos os ICPs",
+    "resposta": "Degustação + prova social: 'Toma primeiro. Nossos clientes de Orlândia falam que é o chopp que não dá dor de cabeça no dia seguinte. Você experimenta e decide.'",
+    "origem_do_argumento": "Feedback orgânico dos clientes de Orlândia — kick-off 01:05:54"
+  },
+
+  "anti_icp": [
+    "Quem quer menos de 30L",
+    "Estabelecimentos com comodato Ambev ativo",
+    "Quem exige exclusivamente Antarctica e não está aberto a teste",
+    "Menores de 18 anos (verificação de documento obrigatória na entrega)",
+    "Grandes eventos corporativos com +500 pessoas (escala além da capacidade inicial em Franca)"
+  ],
+
+  "insight_aquisicao": {
+    "descricao": "Consignação proativa como estratégia de aquisição — não só para eventos",
+    "proposta": "Para os primeiros 30 clientes em Franca, oferecer consignação: 'A gente deixa o barril. Você só paga o que consumir. O que sobrar a gente busca.'",
+    "justificativa": "Elimina o risco percebido de experimentar uma marca nova. É o diferencial mais difícil de copiar pela concorrência. Alta taxa de conversão confirmada por Cláudio no kick-off (01:03:33)."
+  },
+
+  "alimenta_skills": [
+    "ee-s1-auditoria-comunicacao",
+    "ee-s1-swot",
+    "ee-s2-posicionamento",
+    "ee-s3-copy-anuncios",
+    "ee-s3-crm-setup"
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "skill": "ee-s3-brandbook",
+  "versao": 2,
+  "cliente": "Chopp Colina Orlandia",
+  "gerado_em": "2026-06-20",
+  "nota": "Versão expandida do brandbook, seguindo template completo de manual de copywriting (header projeto, fatos/benefícios, PUV, público-alvo, JTBD, processos de decisão, níveis de consciência, ICP detalhado, arquétipo, tom de voz, estruturas narrativas, ferramentas retóricas, palavras, canais). A v1 (ee-s3-brandbook.json), focada em tom de voz e exemplos antes/depois, permanece válida e não foi alterada.",
+
+  "header_projeto": {
+    "projeto": "CHOPP COLINA ORLANDIA",
+    "nicho_subnicho": "Distribuição de chope artesanal — delivery B2C, ponto de revenda B2B e eventos",
+    "account_manager": "Lucas Calefi Gonçalves (Calefi — SCN&Co)",
+    "gestor_trafego": "A definir — mídia paga hoje sem gestor estruturado (boosting básico R$50/semana)",
+    "designer": "Freelancer local (Orlândia) — produção visual sem brandbook formal até este documento"
+  },
+
+  "informacoes_empresa": {
+    "historico": "~2,5 anos de operação combinada (choperia + distribuição) em Orlândia/SP. Produto: Chopp Colina Pilsen, fabricado pela INBEB (Londrina/PR). Expansão para Franca/SP (~380 mil hab), território sem distribuidor Colina hoje.",
+    "especialidade": "Distribuição de chope com serviço completo — entrega, instalação, suporte técnico, manutenção de equipamento e consignação de barril. Três frentes: delivery B2C, ponto de revenda B2B, eventos.",
+    "diferenciais": "Atendimento consultivo direto do proprietário (melhor avaliado entre concorrentes em cliente oculto); consignação como redutor de risco; trave congelada exclusiva na região; feedback orgânico de qualidade dos próprios clientes.",
+    "objetivo_estrategico": "Deixar de ser percebido como 'bar de bairro' em Orlândia e se afirmar como distribuidor de referência em serviço para Franca — competindo em experiência completa, não em preço nem reconhecimento de marca."
+  },
+
+  "fatos_e_beneficios": [
+    {"fato": "Entrega, instalação e retirada da chopeira inclusos no preço do barril.", "beneficio": "Chega e já pode servir, sem dor de cabeça logística — nada pago separado, sem risco de instalação errada."},
+    {"fato": "Consignação do barril — cliente paga apenas o que consumir.", "beneficio": "Teste sem risco — elimina o medo de investir numa marca desconhecida; argumento de conversão mais forte do Cláudio."},
+    {"fato": "Atendimento direto e pessoal do proprietário, resposta rápida mesmo fora do horário comercial.", "beneficio": "Resolve na hora, qualquer hora — validado como o melhor atendimento entre concorrentes testados em cliente oculto."},
+    {"fato": "Trave congelada disponível para eventos a partir de 300L (gratuita acima desse volume).", "beneficio": "Eleva o nível do evento sem custo extra — nenhum concorrente local possui esse equipamento."},
+    {"fato": "Produto com feedback orgânico de qualidade ('sem dor de cabeça no dia seguinte').", "beneficio": "Prova social real, não argumento de vendedor — ativo de marca mais valioso, ainda não comunicado digitalmente."},
+    {"fato": "Suporte técnico e manutenção do equipamento sem custo adicional.", "beneficio": "Sem dor de cabeça com chopeira suja ou mal refrigerada — resolve a principal queixa do setor segundo pesquisa de mercado."},
+    {"fato": "Margem de chope superior à cerveja em lata para pontos de revenda.", "beneficio": "Mais lucro por litro sem mudar a operação — argumento validado em abordagem comercial real do Cláudio."},
+    {"fato": "Atendimento aos domingos (sujeito a confirmação operacional da escala).", "beneficio": "Resolve o problema no dia que ninguém mais atende — diferencial real, mas que depende de resolver a escala interna primeiro."}
+  ],
+
+  "puv": {
+    "elaboracao": "Distribuidor de chope que entrega a experiência completa — produto, instalação e suporte — em vez de competir por menor preço ou reconhecimento de marca.",
+    "explicacao": "O Colina não vence a Rizatti/Antarctica em força de marca nem a revenda informal em preço (R$9,90/L sem nota). Vence entregando pronto para servir, atendendo quando o concorrente não atende (domingo) e permitindo testar sem risco (consignação) — atributos que uma revendedora corporativa estruturalmente não replica.",
+    "frases_de_impacto": [
+      "O chopp que não te deixa na mão — nem no domingo.",
+      "Chopp Colina — qualidade reconhecida, entregue e instalado na sua casa ou evento. O único distribuidor em Franca que deixa o barril consignado para você experimentar sem risco.",
+      "Chopp Colina: entrega, instala, atende domingo."
+    ]
+  },
+
+  "publico_alvo": {
+    "setor_atuacao": "Vertical 1 (B2C — Delivery e Eventos): pessoas físicas que organizam churrascos/aniversários/confraternizações em Orlândia e Franca. Vertical 2 (B2B — Ponto de Revenda): estabelecimentos sem comodato Ambev ativo em Franca.",
+    "porte_economico": "B2C: 3-5 salários mínimos (Anfitrião) a renda média-alta (Organizador). B2B: faturamento R$30k-150k/mês.",
+    "localizacao_abrangencia": "Orlândia/SP (atual) + Franca/SP (~380 mil hab, expansão, território aberto).",
+    "tempo_mercado_maturidade": "B2C: Anfitrião recorrente (15-30 dias); Organizador ocasional (2-4x/ano). B2B: estabelecimentos já operando, insatisfeitos com fornecedor atual ou sem fornecedor de chope.",
+    "modelo_negocio": "Delivery B2C de barril (30L/50L com chopeira inclusa). Revenda B2B com comodato + reposição. Eventos via consignação ou trave congelada.",
+    "gargalos_operacionais": "B2C: medo do chopp acabar, chopeira com problema, erro de cálculo de volume. B2B: chopeira sem suporte rápido, equipamento sujo, medo de desperdício, exclusividade Ambev.",
+    "perfil_tomador_decisao": "B2C: o próprio anfitrião/organizador, decisão pessoal via WhatsApp. B2B: o proprietário do estabelecimento, decisão pragmática.",
+    "influenciadores_usuarios_finais": "Convidados do evento (validação social) / clientes do estabelecimento (validação de sabor e giro).",
+    "janela_ciclo_compra": "Anfitrião: mesmo dia via WhatsApp. Organizador: 30+ dias, compara 2+ fornecedores. Ponto de revenda: iniciado por insatisfação ou visita comercial.",
+    "criterios_escolha": "Confiabilidade de entrega (inclusive domingo), equipamento limpo, possibilidade de testar antes (consignação), pacote de preço completo.",
+    "barreiras_objecoes": ["Nunca ouvi falar do Colina", "30 litros é muito", "Prefiro Antarctica que já conheço", "Meus clientes pedem Antarctica", "Já tenho comodato com a Ambev"],
+    "canais_comunicacao": "Instagram (descoberta), WhatsApp (fechamento), Google (busca local), visita comercial presencial (B2B).",
+    "fontes_informacao_setor": "Perfis de outros distribuidores da rede Colina (@choppcolinabauru, @colinachopp_votu, @colinachoppriopreto) como benchmark informal. Indicação local e boca a boca.",
+    "associacoes_entidades": "Não identificada associação formal do setor na região. Rede de distribuidores Colina (via INBEB) atua como entidade informal de boas práticas.",
+    "eventos_feiras": "Festas locais de grande porte (ex: Festa do SJA em São Joaquim da Barra), eventos com apoio de prefeituras (Orlândia, Votuporanga), feiras setoriais da fabricante (Brasil Brau)."
+  },
+
+  "jobs_to_be_done": {
+    "funcional": "Quando organizo um churrasco, evento ou preciso de chope no meu estabelecimento, quero o produto gelado, instalado e funcionando sem gerenciar logística ou equipamento, para focar no que importa sem dor de cabeça operacional.",
+    "emocional": "Quando recebo amigos/família ou organizo um evento, quero ser reconhecido como quem caprichou e surpreendeu, para sentir orgulho de ter sido anfitrião ou organizador impecável.",
+    "social": "Quando alguém comenta sobre meu evento ou estabelecimento, quero que a referência seja positiva e espontânea, para ser visto como alguém que entende do assunto e cuida dos detalhes."
+  },
+
+  "processos_de_decisao": {
+    "dores_e_medos": [
+      {"descricao": "Chopp acabar ou chopeira travar na hora do evento.", "beneficio": "Cálculo de volume consultivo + suporte técnico incluso."},
+      {"descricao": "Fornecedor que demora a responder no WhatsApp (atraso de 1h+ derruba até 95% da chance de fechamento, segundo cliente oculto).", "beneficio": "Atendimento direto e rápido do proprietário, inclusive fora de horário."},
+      {"descricao": "Investir em marca desconhecida (Colina em Franca) e se decepcionar, ou desperdiçar barril não vendido.", "beneficio": "Consignação — risco de desperdício fica com o distribuidor."},
+      {"descricao": "Equipamento sujo ou mal cuidado que prejudica o sabor.", "beneficio": "Revisão, asseio e manutenção inclusos — principal queixa do setor segundo pesquisa de mercado."},
+      {"descricao": "Atrito com a Ambev por testar outro fornecedor.", "beneficio": "Segmentação correta do ICP — Cláudio foca só em estabelecimentos sem comodato ativo."}
+    ],
+    "objecoes": [
+      {"descricao": "Nunca ouvi falar do Colina.", "beneficio": "Consignação + prova social real dos clientes de Orlândia."},
+      {"descricao": "30 litros é muito.", "beneficio": "Atendimento consultivo — 30L rende ~100 copos, suficiente para 10-15 pessoas por 4-5h."},
+      {"descricao": "Prefiro Antarctica / Meus clientes pedem Antarctica.", "beneficio": "Reposicionar a comparação: brand equity não serve de nada com chopeira mal instalada ou sem atendimento no domingo."},
+      {"descricao": "Já tenho acordo com outro fornecedor.", "beneficio": "Gatilho real de troca: maior parte das conversões vêm de insatisfeitos com fornecedor anterior; remove risco de testar."},
+      {"descricao": "É muito caro comparado à revenda informal R$9,90/L.", "beneficio": "Argumento anti-preço: o pacote já inclui chopeira, entrega, instalação e retirada."}
+    ],
+    "desejos": [
+      {"descricao": "Evento/churrasco com chope sem gerenciar logística.", "beneficio": "Pacote completo: entrega + instalação + retirada."},
+      {"descricao": "Evento impecável, volume calculado corretamente.", "beneficio": "Atendimento consultivo + consignação para margem de segurança."},
+      {"descricao": "Diferencial de cardápio sem risco de desperdício (ponto de revenda).", "beneficio": "Comodato + suporte técnico + reposição garantida."},
+      {"descricao": "Ser reconhecido como anfitrião/organizador/estabelecimento que se destacou.", "beneficio": "Prova social orgânica já existente em Orlândia, a levar para Franca."}
+    ],
+    "crencas_firmes": [
+      {"descricao": "Chope bem servido faz diferença real na experiência do evento.", "beneficio": "Qualidade percebida validada organicamente pelos clientes."},
+      {"descricao": "Quem responde rápido fecha mais venda, não importa o horário.", "beneficio": "Disponibilidade real do Cláudio, comprovada no cliente oculto."},
+      {"descricao": "É melhor testar antes de comprometer volume grande de algo desconhecido.", "beneficio": "Consignação alinhada diretamente a essa crença do cliente."}
+    ],
+    "crencas_remotas": [
+      {"descricao": "30 litros é pouco ou é muito — sem referência real de quantidade.", "beneficio": "Atendimento consultivo corrige com dado concreto (30L ≈ 100 copos)."},
+      {"descricao": "Chope é tudo igual, o que importa é o preço por litro.", "beneficio": "Diferenciação por serviço: preço informal não inclui chopeira, entrega nem instalação."},
+      {"descricao": "Não atender domingo é normal no setor.", "beneficio": "Romper essa crença com atendimento real é o diferencial mais fácil de comunicar e mais difícil de copiar."}
+    ]
+  },
+
+  "niveis_consciencia": [
+    {
+      "estagio": "Inconsciente",
+      "pensamento": "Já tenho fornecedor de chope ou uso cerveja em lata — nunca pensei que pudesse ter algo melhor.",
+      "objecoes": ["Cerveja em lata já resolve", "Chope dá trabalho", "Meu fornecedor atual já funciona"]
+    },
+    {
+      "estagio": "Consciente do Problema",
+      "pensamento": "Tive um churrasco em que o chope acabou, ou a chopeira do fornecedor atual quebrou e ficamos sem produto.",
+      "objecoes": ["Não confio em arriscar com fornecedor desconhecido", "Já tive experiência ruim com chopeira mal instalada", "Domingo nunca tem ninguém que atenda, isso é normal"]
+    },
+    {
+      "estagio": "Consciente da Solução",
+      "pensamento": "Existe distribuidor que entrega tudo pronto e permite testar com consignação antes de comprar volume grande.",
+      "objecoes": ["Várias distribuidoras prometem isso mas entregam errado", "Medo de fechar com alguém novo sem suporte garantido"]
+    },
+    {
+      "estagio": "Consciente do Produto",
+      "pensamento": "Soube que o Chopp Colina está chegando em Franca, mas Rizatti já está em todo lugar e Boreal/Ecobier já atendem minha região.",
+      "objecoes": ["Nunca ouvi falar do Colina", "Rizatti tem app e marca conhecida", "Por que arriscar com quem está chegando agora"]
+    },
+    {
+      "estagio": "Totalmente Consciente",
+      "pensamento": "Decidi testar o Chopp Colina com o primeiro barril consignado para ver na prática.",
+      "objecoes": ["A consignação cobre exatamente o quê", "Qual o horário exato de domingo", "Qual o tempo de resposta do suporte se a chopeira der problema"]
+    }
+  ],
+
+  "nivel_consciencia_geral": "Em Franca, a maior parte do público está nas zonas de Inconsciência e Consciência do Problema — nunca teve distribuidor Colina e aceita a ausência de atendimento dominical como normal. Em Orlândia, parte da base já está em Consciente do Produto ou Totalmente Consciente. A comunicação de lançamento em Franca deve criar consciência do problema antes de vender o produto diretamente — erro identificado nos concorrentes locais foi pular direto para o preço sem diagnosticar a necessidade.",
+
+  "personas": [
+    {
+      "nome": "Rodrigo, o Anfitrião do Churrasco Quinzenal",
+      "genero": "Masculino", "idade": 38,
+      "ocupacao_renda": "Setor calçadista ou prestador de serviços em Franca. 3-5 salários mínimos.",
+      "localizacao": "Franca, SP",
+      "redes_sociais": "Instagram (descoberta)",
+      "aparelhos": "Smartphone",
+      "por_que_precisa": "Faz churrasco a cada 15-30 dias, quer chope pronto sem gerenciar logística ou risco de faltar bebida.",
+      "estagio_percepcao": "Inconsciente / Consciente do Problema (em Franca)",
+      "pensa_sente": "Quer ser o anfitrião que surpreendeu; insegurança em pedir de fornecedor desconhecido; medo de errar o volume.",
+      "escuta": "Comentários de churrascos bem servidos; reclamações de chopeira mal instalada ou fornecedor que não atendeu domingo.",
+      "ve": "Posts de bar/choperia no Instagram do Colina, sem conteúdo de delivery.",
+      "fala_faz": "Pesquisa no Instagram, manda mensagem no WhatsApp, decide rápido se a resposta for ágil.",
+      "dores": "Concorrente que não atende domingo; não sabe onde achar chope delivery em Franca; experiência ruim anterior.",
+      "desejos": "Chope pronto e gelado sem dor de cabeça; ser o anfitrião que caprichou.",
+      "objecoes": ["30L é muito", "Prefiro Antarctica que já conheço", "Tem no app mais barato"],
+      "contexto": "Decide rápido pelo WhatsApp. Não compara marcas de cerveja, compara experiências de churrasco. Objeção de marca se resolve com prova social real, não argumento de vendedor."
+    },
+    {
+      "nome": "Patrícia, a Organizadora da Festa Familiar",
+      "genero": "Feminino", "idade": 42,
+      "ocupacao_renda": "Organizadora de festas há ~15 anos. Renda familiar média-alta.",
+      "localizacao": "Franca/Orlândia, SP",
+      "redes_sociais": "Instagram (pesquisa) e WhatsApp (cotação)",
+      "aparelhos": "Smartphone",
+      "por_que_precisa": "Chope suficiente para o evento, instalado e funcionando, sem gerenciar isso no dia.",
+      "estagio_percepcao": "Consciente do Problema / Consciente da Solução",
+      "pensa_sente": "Chope é diferencial de capricho, mas só com fornecedor de confiança que não some. Medo de constrangimento se faltar bebida.",
+      "escuta": "Convidados comentando sobre qualidade de bebida e atendimento em festas anteriores.",
+      "ve": "Compara pelo menos 2 fornecedores antes de decidir.",
+      "fala_faz": "Pede cotação detalhada, pergunta volume necessário, decide com 30+ dias de antecedência.",
+      "dores": "Fornecedor que some no dia; chopeira que trava; não saber calcular litros.",
+      "desejos": "Evento impecável; reconhecimento dos convidados.",
+      "objecoes": ["Nunca ouvi falar do Colina", "Vou com o que já usei antes", "Muito caro pra quantidade de pessoas"],
+      "contexto": "Decide com mais antecedência, compara ativamente. Argumento que mais pesa: consignação remove o medo de calcular errado o volume."
+    },
+    {
+      "nome": "Seu Antônio, o Dono do Espetinho que Quer Chopp no Cardápio",
+      "genero": "Masculino", "idade": 52,
+      "ocupacao_renda": "Dono de espetinho/pizzaria/lanchonete. Faturamento R$30k-150k/mês.",
+      "localizacao": "Franca, SP",
+      "redes_sociais": "Não é canal principal — decisão depende de visita presencial e indicação",
+      "aparelhos": "Smartphone (WhatsApp para negociação)",
+      "por_que_precisa": "Chope disponível pros clientes sem gerenciar manutenção de equipamento ou risco de desperdício.",
+      "estagio_percepcao": "Consciente da Solução / Consciente do Produto",
+      "pensa_sente": "Chope vende mais e dá mais margem que lata, mas não quer dor de cabeça com equipamento.",
+      "escuta": "Clientes reclamando de chope ruim ou falta de produto por reposição atrasada.",
+      "ve": "Concorrente ao lado oferecendo chope e ganhando clientes com isso.",
+      "fala_faz": "Negocia objetivamente, exige saber sobre suporte técnico e reposição antes de comprometer espaço no cardápio.",
+      "dores": "Chopeira sem suporte rápido; equipamento sujo; fornecedor que não repõe a tempo.",
+      "desejos": "Diferencial no cardápio sem esforço operacional adicional.",
+      "objecoes": ["Meus clientes pedem Antarctica", "Não quero arriscar barril que não vende", "Já tenho acordo com outro fornecedor"],
+      "contexto": "ICP mais pragmático, exige abordagem presencial com degustação + consignação do primeiro barril. Só é ICP válido sem comodato Ambev ativo."
+    }
+  ],
+
+  "comunicacao_marca": {
+    "arquetipos": [
+      {
+        "nome": "Prestativo (Caregiver)",
+        "caracteristicas": "Resolve o problema antes de vender; remove o risco do outro lado (consignação, garantia, responsabilidade pelo equipamento); disponibilidade real fora de horário.",
+        "exemplo": "Se sobrar um barril aberto, eu levo embora. Não é prejuízo para vocês."
+      },
+      {
+        "nome": "Cara Comum (Regular Guy/Gal)",
+        "caracteristicas": "Próximo, sem pose institucional; fala como vizinho que entende de chope; Cláudio é o rosto do negócio.",
+        "exemplo": "Aqui é o Cláudio da Colina Chopp. Pra quantas pessoas é o evento? Já te passo o tamanho certo do barril e o valor."
+      }
+    ],
+    "evitar": [
+      "Linguagem institucional de grande marca, frases de efeito sem prova, comparação direta com Antarctica/Brahma no argumento de venda.",
+      "Promessas operacionais não garantidas — comunicar 'atende domingo' antes de resolver escala interna, ou prazos que a capacidade atual de máquinas não sustenta."
+    ]
+  },
+
+  "tom_de_voz_posicionamento": {
+    "tom": "Consultivo, direto, caloroso e disponível.",
+    "pilares": [
+      "Atendimento consultivo — diagnóstico antes da venda",
+      "Remoção de risco — consignação, suporte técnico, responsabilidade do distribuidor",
+      "Disponibilidade real — resposta rápida fora de horário, atendimento domingo"
+    ],
+    "analogia": "A voz da marca soa como um vizinho de confiança que também entende de logística de festa — alguém que você liga de última hora, que pergunta antes de vender, que resolve no telefone."
+  },
+
+  "estrutura_narrativas": [
+    {"modelo": "PAS", "foco": "Anfitriões e Organizadores de Evento", "uso": "Captura o público no estágio Consciente do Problema — dor real, agitação da consequência social, solução completa."},
+    {"modelo": "BAB", "foco": "Pontos de Revenda (B2B)", "uso": "Contraste entre caos de fornecedor sem suporte e tranquilidade operacional do comodato Colina."},
+    {"modelo": "AIDA", "foco": "Anúncios de Conversão Rápida", "uso": "Captura demanda já existente em Franca (11.590 buscas/mês sobre chope/chopeira)."}
+  ],
+
+  "exemplos_narrativas": {
+    "pas": {"problema": "Seu chope acabou no meio do churrasco, ou o fornecedor não respondeu no domingo.", "agitacao": "O convidado lembra, o anfitrião fica com a fama de evento mal resolvido.", "solucao": "Chopp Colina — entrega, instala e atende domingo. Primeiro barril consignado."},
+    "bab": {"antes": "Chopeira quebrada sem suporte, reposição atrasada, cliente reclamando do sabor.", "depois": "Comodato com manutenção inclusa, reposição garantida, suporte técnico direto.", "ponte": "Teste com o primeiro barril consignado — sem investimento, sem risco."},
+    "aida": {"atencao": "Seu churrasco de domingo já tem chope garantido?", "interesse": "A maioria dos distribuidores de Franca não atende domingo — o Colina atende.", "desejo": "Barril 30L com chopeira inclusa, entrega e instalação — R$330. Primeiro pedido consignado.", "acao": "Chama no WhatsApp e garante o seu."}
+  },
+
+  "ferramentas_retoricas": {
+    "metaforas_analogias": "Analogia do vizinho de confiança — não é central de atendimento corporativa, é alguém que atende às 23h porque sabe que isso fecha venda e se importa com o resultado do evento.",
+    "perguntas_retoricas": ["Se o chope acabar no meio do churrasco, quem você vai ligar — um app ou alguém que atende?", "Você prefere economizar R$1 no litro ou ter a garantia de que vai chegar gelado, instalado e na hora certa?"],
+    "ganchos": ["O chope que não te deixa na mão — nem no domingo.", "Se sobrar barril, a responsabilidade é nossa. Se faltar, também.", "Brand equity não serve de nada quando a chopeira chega suja ou ninguém atende no domingo."],
+    "antes_depois": {
+      "antes": "Fornecedor que não responde no fim de semana, chopeira instalada errado, medo de calcular o volume.",
+      "depois": "Barril entregue, instalado e pronto para servir, consignação cobrindo o risco de cálculo errado, atendimento direto garantindo resposta rápida."
+    }
+  },
+
+  "palavras": {
+    "essenciais_produto_nicho": ["chopp/chope", "barril", "chopeira", "consignação", "trave congelada", "instalação", "delivery", "atendimento", "domingo", "churrasco", "evento"],
+    "emocionais": ["sem dor de cabeça", "sem risco", "confiança", "pronto pra servir", "garantia", "resolve", "capricho", "tranquilidade"],
+    "interesse_seo_busca": ["chope delivery franca", "disk chope franca", "barril de chope franca", "chope colina franca", "chopeira para festa franca", "chope domingo franca"]
+  },
+
+  "adaptando_canais": {
+    "instagram": "Reels mostrando processo real (entrega, instalação, serviço) — formato comprovadamente mais engajador. Highlight fixo 'Delivery' com preço/pedido/domingo/consignação. Manter preto e amarelo (decisão confirmada em reunião). Sem comparação direta com concorrentes.",
+    "landing_page": "Página única e direta para Franca: hero shot real, 4 pilares do posicionamento em destaque, preço transparente, CTA único para WhatsApp.",
+    "midia_paga": "Google Ads em palavras-chave de alta intenção (R$500/mês). Meta Ads em 3 grupos (aniversariantes, churrasco/chopp, casamentos/eventos), nunca citando concorrentes. Bloqueador: LP + pixel antes do primeiro real investido."
+  },
+
+  "alimenta_skills": ["ee-s3-landing-page", "ee-s3-copy-anuncios", "ee-s3-criativos-anuncios", "ee-s3-crm-setup"]
+}

@@ -1,0 +1,278 @@
+{
+  "skill": "ee-s2-diagnostico-criativos",
+  "cliente": "Chopp Colina Orlandia",
+  "gerado_em": "2026-05-29",
+
+  "manchete": "Em 6 meses de conta, @colinachopp_orl não publicou uma foto sequer de barril sendo entregue. O Colina Bauru faz o mesmo produto e tem 7.500 seguidores. A diferença não é verba — é que Bauru filma o barril chegando na casa do cliente enquanto Orlândia filma o cantor no palco.",
+
+  "posts_analisados": [
+    {
+      "url": "https://www.instagram.com/p/DSIsS1wjZxy/",
+      "data": "2025-12-11",
+      "tipo": "foto estática",
+      "tema": "show ao vivo",
+      "legenda_resumo": "Melhores Porções + Melhor Chopp da cidade — show ao vivo Gustavo e Luciano. Horário: 17h às 00:30h.",
+      "likes": 3,
+      "comentarios": 0,
+      "hashtags": [],
+      "cta": "endereço físico"
+    },
+    {
+      "url": "https://www.instagram.com/p/DTnqsdkE7zR/",
+      "data": "2026-01-17",
+      "tipo": "foto estática",
+      "tema": "choperia — fim de semana",
+      "legenda_resumo": "Sabadão é aqui no Colina Choperia! Boas risadas e o melhor chopp da cidade. 17h às 00:30h.",
+      "likes": 2,
+      "comentarios": 0,
+      "hashtags": ["#ChoppColina", "#SabadãoNaChoperia", "#vemprochopp"],
+      "cta": "endereço físico"
+    },
+    {
+      "url": "https://www.instagram.com/p/DTi0DqRAnlv/",
+      "data": "2026-01-15",
+      "tipo": "foto estática",
+      "tema": "show ao vivo",
+      "legenda_resumo": "As melhores porções e o chopp mais gelado da cidade — show ao vivo Duo Sonnora Banda a partir das 20:30h.",
+      "likes": 5,
+      "comentarios": 0,
+      "hashtags": [],
+      "cta": "endereço físico"
+    }
+  ],
+
+  "diagnostico_identidade_visual": {
+    "grade": "D",
+    "cores_atuais": "Preto + amarelo — identidade local desenvolvida por freelancer",
+    "cores_marca_oficial": "Azul (predominante) + branco — cervejacolina.com.br",
+    "inconsistencia": "O distribuidor usa paleta própria que não tem relação com a marca da fabricante. Não há guideline formal da INBEB para distribuidores — cada um cria o que quer.",
+    "logo": "Usa logo Colina, mas sem regra de aplicação consistente",
+    "tipografia": "Não padronizada — cada arte tem estilo diferente, produzidas pelo freelancer sem template fixo",
+    "tom_visual": "Bar/choperia noturno — cores escuras, ambientação de show. Incompatível com delivery B2C diurno.",
+    "recomendacao": "Para Franca: adotar azul da marca Colina como cor primária, criando coerência com a identidade nacional da fabricante e diferenciando do posicionamento de 'bar' que o preto/amarelo carrega."
+  },
+
+  "diagnostico_conteudo": {
+    "grade": "F",
+    "frequencia_estimada": "~2 posts por mês (baixíssima)",
+    "distribuicao_temas": {
+      "bar_choperia_shows": "100%",
+      "delivery_barril": "0%",
+      "eventos_clientes": "0%",
+      "bastidores_produto": "0%",
+      "depoimentos": "0%"
+    },
+    "formatos_usados": {
+      "foto_estatica": true,
+      "reels": false,
+      "carrossel": false,
+      "stories": "desconhecido",
+      "highlight": false
+    },
+    "engajamento_medio": {
+      "likes": 3.3,
+      "comentarios": 0,
+      "observacao": "Com R$50/semana de impulsionamento, engagement zero indica conteúdo sendo entregue para público errado (bar) ou boosting sem segmentação."
+    },
+    "hashtag_estrategia": "Esporádica. Apenas 1 dos 3 posts tinha hashtags. Nenhuma hashtag de delivery ou de Franca.",
+    "cta_padrao": "Endereço físico (Rua Um, 647) — incompatível com modelo de delivery e invisível para Franca.",
+    "bio_perfil": "Configurada para choperia/bar. Não menciona delivery, preço, barril ou WhatsApp de forma clara."
+  },
+
+  "alinhamento_posicionamento": {
+    "pilar_1_pronto_para_servir": {
+      "status": "ausente",
+      "posts_com_instalacao": 0,
+      "nota": "Zero fotos de chopeira sendo instalada, barril sendo servido, produto chegando no cliente."
+    },
+    "pilar_2_atende_domingo": {
+      "status": "ausente",
+      "posts_sobre_domingo": 0,
+      "nota": "Nem para a choperia o domingo aparece como diferencial comunicado."
+    },
+    "pilar_3_experimenta_sem_risco": {
+      "status": "ausente",
+      "posts_sobre_consignacao": 0,
+      "nota": "Consignação é o argumento de conversão mais forte — nunca foi comunicada digitalmente."
+    },
+    "pilar_4_qualidade_percebida": {
+      "status": "ausente",
+      "posts_com_sem_dor_de_cabeca": 0,
+      "nota": "Argumento orgânico dos clientes de Orlândia nunca apareceu em nenhum post."
+    },
+    "alinhamento_geral": "0% — nenhum dos 4 pilares do posicionamento aparece em nenhum touchpoint digital."
+  },
+
+  "benchmark_rede_colina": [
+    {
+      "conta": "@choppcolinabauru",
+      "seguidores": 7571,
+      "usa_reels": true,
+      "foco_conteudo": "Delivery de barril",
+      "horario_atendimento": "Ter-Sex 10h-12h / 14h-20h | Sáb 10h-18h",
+      "destaque": "Melhor conta da rede Colina. Usa Reels de delivery e tem audiência real.",
+      "licao": "A conta que mostra o produto chegando na casa do cliente constrói base. A que mostra o cantor, não."
+    },
+    {
+      "conta": "@colinachopp_votu",
+      "seguidores": 3205,
+      "posts": 76,
+      "bio": "📲 Disk Chopp",
+      "usa_reels": "desconhecido",
+      "foco_conteudo": "Disk Chopp — delivery",
+      "destaque": "Bio já posicionada como delivery. Volume de posts (76) indica consistência.",
+      "licao": "Bio 'Disk Chopp' é suficiente para comunicar o modelo. Simples e direto."
+    },
+    {
+      "conta": "@colinachopp_orl",
+      "seguidores": "não coletado",
+      "usa_reels": false,
+      "foco_conteudo": "Bar/choperia",
+      "destaque": "Pior desempenho da rede analisada.",
+      "gap": "7.500 seguidores de diferença para o benchmark (Bauru) — mesmo produto, estratégia diferente."
+    }
+  ],
+
+  "mapa_criativos_necessarios": {
+    "prioridade_1_antes_de_anunciar": [
+      {
+        "id": "C1",
+        "tipo": "Foto estática",
+        "nome": "Hero Shot do produto",
+        "descricao": "Barril Colina 30L + chopeira elétrica instalada em ambiente de churrasco real. Fundo: quintal ou varanda de cliente. Luz: natural (late afternoon). Sem fundo de estúdio.",
+        "onde_usar": "Feed Instagram, WhatsApp, Meta Ads, Google Ads",
+        "custo_estimado": "R$0 (fazer em churrasco de cliente de Orlândia)",
+        "urgencia": "Bloqueia tudo — sem produto hero não dá para anunciar"
+      },
+      {
+        "id": "C2",
+        "tipo": "Stories Highlight",
+        "nome": "Highlight 'Delivery'",
+        "descricao": "5-6 slides: (1) Preço e tamanhos, (2) O que inclui, (3) Como pedir, (4) Atende domingo [quando operacional], (5) Consignação disponível, (6) FAQ",
+        "onde_usar": "Perfil Instagram — fixo no topo",
+        "custo_estimado": "R$0 (designer freelancer já contratado)",
+        "urgencia": "Crítico — toda ação de tráfego vai para o perfil que não tem essa informação"
+      },
+      {
+        "id": "C3",
+        "tipo": "Carrossel (4 slides)",
+        "nome": "4 razões para pedir Colina",
+        "descricao": "1 slide por pilar. Slide 1: Pronto para servir. Slide 2: Atende domingo. Slide 3: Experimenta sem risco. Slide 4: Qualidade percebida ('sem dor de cabeça').",
+        "onde_usar": "Feed Instagram — post fixado no topo do perfil",
+        "custo_estimado": "R$0 (freelancer)",
+        "urgencia": "Alta — substitui a hero shot enquanto a foto real não sai"
+      }
+    ],
+    "prioridade_2_primeiro_mes": [
+      {
+        "id": "C4",
+        "tipo": "Reel 30-45s",
+        "nome": "Como funciona o delivery",
+        "descricao": "4 cenas de 7-10 segundos: (a) Barril no Fiorino partindo, (b) Cláudio instalando chopeira, (c) Close do chopp sendo servido, (d) Pessoa levantando o copo. Texto on screen: 'Pede. A gente entrega. Instala. Você serve.' Sem narração.",
+        "onde_usar": "Reels Instagram, boosting como anúncio",
+        "custo_estimado": "R$0 (celular + edição básica CapCut)",
+        "urgencia": "Alta — Reel de processo tem alcance orgânico 3-5x maior que foto"
+      },
+      {
+        "id": "C5",
+        "tipo": "Reel 15s",
+        "nome": "Revelação de preço",
+        "descricao": "Câmera mostra barril + chopeira juntos → texto aparece na tela: 'Tudo isso. R$330. Entrega, instalação e retirada inclusos.' CTA: 'Chama no WhatsApp.'",
+        "onde_usar": "Reels Instagram, Story ad",
+        "custo_estimado": "R$0",
+        "urgencia": "Alta — objection killer de preço em formato de conteúdo"
+      },
+      {
+        "id": "C6",
+        "tipo": "Foto bastidores",
+        "nome": "Cláudio preparando equipamento",
+        "descricao": "Cláudio higienizando chopeira ou vistoriando barril antes de entrega. Tom: 'É assim que a gente garante que chega perfeito.' Humaniza o serviço.",
+        "onde_usar": "Feed Instagram",
+        "custo_estimado": "R$0",
+        "urgencia": "Média — conteúdo de construção de confiança"
+      },
+      {
+        "id": "C7",
+        "tipo": "Foto depoimento",
+        "nome": "Screenshot de WhatsApp de cliente",
+        "descricao": "Captura de tela de mensagem real de cliente elogiando (com nome anonimizado ou autorizado). Foco em: temperatura, serviço, 'sem dor de cabeça'. Não inventar — pegar de Orlândia.",
+        "onde_usar": "Feed Instagram, Stories",
+        "custo_estimado": "R$0 (pedir permissão ao cliente)",
+        "urgencia": "Alta — prova social é o argumento mais forte para marca desconhecida em Franca"
+      },
+      {
+        "id": "C8",
+        "tipo": "Stories template",
+        "nome": "Template 'Fim de semana chegando'",
+        "descricao": "Post semanal (quarta ou quinta): 'Vai ter churrasco no domingo? Pede o barril agora. Atendemos domingo.' + preço + link WhatsApp.",
+        "onde_usar": "Stories Instagram — publicação semanal",
+        "custo_estimado": "R$0 (template reusável)",
+        "urgencia": "Alta — conteúdo de ativação de demanda no timing certo"
+      }
+    ],
+    "prioridade_3_franca_especifico": [
+      {
+        "id": "C9",
+        "tipo": "Reel 30s",
+        "nome": "Chegamos em Franca",
+        "descricao": "Cláudio na câmera: 'A gente tá chegando em Franca. Barril 30L com chopeira, entrega e instalação inclusos por R$330. Atendemos domingo. Primeiro pedido consignado — você paga só o que consumir.' Direto, sem roteiro decorado.",
+        "onde_usar": "Reels Instagram, boosting em Franca",
+        "custo_estimado": "R$0",
+        "urgencia": "Alta — lançamento de território precisa de âncora de conteúdo"
+      }
+    ]
+  },
+
+  "briefing_producao": {
+    "hero_shot": {
+      "configuracao": "Churrasco real de cliente de Orlândia que já tem barril Colina. Pedir para filmar na próxima entrega.",
+      "composicao": "Barril em primeiro plano com logo Colina visível, chopeira instalada ao lado, pessoas ao fundo (desfocadas ou com costas). Nada encenado.",
+      "luz": "Natural, 16h-18h (luz dourada). Evitar luz de meio-dia (dura) e flash (artificial).",
+      "equipamento": "iPhone ou Samsung flagship no modo retrato. Não precisa de câmera profissional.",
+      "erro_comum_a_evitar": "Não fotografar em fundo branco de estúdio. O produto precisa estar NO contexto onde o cliente vai usá-lo."
+    },
+    "reel_como_funciona": {
+      "cenas": [
+        "Barril sendo carregado no Fiorino — logo Colina visível — 7 segundos",
+        "Cláudio instalando a chopeira no cliente — 8 segundos",
+        "Close da torneira com chopp saindo gelado — 7 segundos",
+        "Pessoa levantando o copo, satisfeita — 8 segundos"
+      ],
+      "texto_on_screen": "Pede. / A gente entrega. / Instala. / Você serve.",
+      "musica": "Trending no Reels — instrumental animado sem letra (evitar copyright)",
+      "narração": "Desnecessária — texto on screen resolve",
+      "duracao_total": "30-40 segundos",
+      "edicao": "CapCut gratuito — transições simples, sem efeito exagerado"
+    }
+  },
+
+  "ajuste_bio_recomendado": {
+    "bio_atual": "Desconhecida — posicionada para bar/choperia",
+    "bio_recomendada_orlandia": "🍺 Chopp Colina Orlândia\n📦 Delivery de barril | Churrascos & Eventos\n💧 30L R$330 | 50L R$550 — chopeira inclusa\n📲 Chama no WhatsApp ↓",
+    "bio_recomendada_franca": "🍺 Chopp Colina Franca\n📦 Delivery | Churrascos & Eventos\n💧 30L R$330 — entrega + instalação inclusa\n⚡ Atendemos domingo | Primeiro pedido consignado\n📲 Chama no WhatsApp ↓",
+    "nota": "Bio de Franca vai para perfil separado (@colinachopp_fra) quando operação estiver rodando. Enquanto isso, Highlight 'Delivery' no perfil atual serve como âncora."
+  },
+
+  "hashtag_strategy": {
+    "atual": "Esporádica e genérica",
+    "recomendada_por_tipo": {
+      "posts_delivery": ["#ChoppDelivery", "#ChoppFranca", "#DeliveryFranca", "#FestaNaCasa", "#ChurrascoComChopp", "#ChoppColina", "#BarrilDeChopp"],
+      "posts_bar": ["#ChoppOrlândia", "#ChopperiaOrlândia", "#MúsicaAoVivo", "#VemProChopp"],
+      "posts_eventos": ["#EventoComChopp", "#ChurrascoPerfeito", "#FestinhaCom Chopp", "#BarrilConsignado"]
+    },
+    "regra": "7-10 hashtags por post. Mesclar 3 genéricas (alcance amplo) + 3 locais (segmentação) + 2 produto (intenção)."
+  },
+
+  "investimento_boosting_recomendado": {
+    "atual": "R$50/semana em conteúdo de show — zero retorno para delivery",
+    "recomendado": "R$50/semana em C1 (hero shot) ou C5 (revelação de preço) para Franca — segmentação por localização Franca + interesse em 'churrascos', 'eventos', 'cerveja'",
+    "objetivo_correto": "Conversão / mensagens no WhatsApp — NÃO engajamento",
+    "nota": "Mesmo R$50/semana rende resultado se o criativo for correto e o objetivo for mensagem, não curtida."
+  },
+
+  "ponto_de_alavancagem": "Highlight 'Delivery' no Stories: custo zero, pode ser feito hoje, e é a primeira coisa que qualquer pessoa que cair no perfil via anúncio vai ver. Todo criativo novo pode ser adicionado aos Stories sem custo adicional. Fazer isso antes de qualquer anúncio.",
+
+  "alerta_operacional": "Não fotografar o estabelecimento de Franca até o ponto físico estar definido. Todo creative set de Franca deve ser de delivery — barril na casa do cliente — não de bar. Uma foto de espaço vazio ou em reforma destrói a percepção de marca antes de começar.",
+
+  "alimenta_skills": ["ee-s3-brandbook", "ee-s3-copy-anuncios", "ee-s3-criativos-anuncios", "ee-s3-landing-page"]
+}

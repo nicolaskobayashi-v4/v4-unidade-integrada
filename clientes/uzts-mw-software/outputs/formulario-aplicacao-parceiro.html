@@ -1,0 +1,715 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Programa de Parceiros — UZTS Light</title>
+<style>
+  :root {
+    --paper: #f1f4ee;
+    --paper-raised: #ffffff;
+    --ink: #161a16;
+    --ink-soft: #495047;
+    --line: #d7ddd1;
+    --line-strong: #b9c2b0;
+    --green-deep: #204732;
+    --green-signal: #4f9a34;
+    --green-signal-strong: #3d7d29;
+    --amber: #a6650f;
+    --danger: #a3402c;
+    --font-display: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Noto Serif", serif;
+    --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --font-mono: ui-monospace, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper: #12150f;
+      --paper-raised: #191d15;
+      --ink: #edefe4;
+      --ink-soft: #b7bdae;
+      --line: #2a2f23;
+      --line-strong: #3a4130;
+      --green-deep: #8fd9a8;
+      --green-signal: #6fbf47;
+      --green-signal-strong: #85d65c;
+      --amber: #d69a4e;
+      --danger: #d97a63;
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --paper: #12150f;
+    --paper-raised: #191d15;
+    --ink: #edefe4;
+    --ink-soft: #b7bdae;
+    --line: #2a2f23;
+    --line-strong: #3a4130;
+    --green-deep: #8fd9a8;
+    --green-signal: #6fbf47;
+    --green-signal-strong: #85d65c;
+    --amber: #d69a4e;
+    --danger: #d97a63;
+  }
+
+  :root[data-theme="light"] {
+    --paper: #f1f4ee;
+    --paper-raised: #ffffff;
+    --ink: #161a16;
+    --ink-soft: #495047;
+    --line: #d7ddd1;
+    --line-strong: #b9c2b0;
+    --green-deep: #204732;
+    --green-signal: #4f9a34;
+    --green-signal-strong: #3d7d29;
+    --amber: #a6650f;
+    --danger: #a3402c;
+  }
+
+  * { box-sizing: border-box; }
+
+  html { -webkit-font-smoothing: antialiased; }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--font-body);
+    line-height: 1.55;
+  }
+
+  .wrap {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 0 1.25rem 4rem;
+  }
+
+  /* ---- terminal-style status strip ---- */
+  .statusbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    padding: 0.6rem 0.9rem;
+    margin: 0 -1.25rem;
+    background: var(--green-deep);
+    color: var(--paper);
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.03em;
+  }
+
+  .statusbar__left { display: flex; align-items: center; gap: 0.5rem; }
+
+  .dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--green-signal);
+    box-shadow: 0 0 0 0 rgba(79, 154, 52, 0.6);
+    animation: pulse 2.4s ease-in-out infinite;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .dot { animation: none; }
+  }
+
+  @keyframes pulse {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(79, 154, 52, 0.5); }
+    50% { box-shadow: 0 0 0 5px rgba(79, 154, 52, 0); }
+  }
+
+  /* ---- hero ---- */
+  .hero { padding: 2.75rem 0 2rem; }
+
+  .eyebrow {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--green-signal-strong);
+    margin: 0 0 0.9rem;
+  }
+
+  h1 {
+    font-family: var(--font-display);
+    font-weight: 400;
+    font-size: clamp(1.7rem, 5vw, 2.35rem);
+    line-height: 1.18;
+    letter-spacing: -0.01em;
+    text-wrap: balance;
+    margin: 0 0 0.9rem;
+    color: var(--green-deep);
+  }
+
+  .lede {
+    font-size: 1.02rem;
+    color: var(--ink-soft);
+    max-width: 46ch;
+    margin: 0 0 1.75rem;
+  }
+
+  .kpirow {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.6rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .kpi {
+    background: var(--paper-raised);
+    border: 1px solid var(--line);
+    border-radius: 3px;
+    padding: 0.7rem 0.65rem;
+  }
+
+  .kpi__value {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--green-deep);
+  }
+
+  .kpi__label {
+    font-size: 0.68rem;
+    color: var(--ink-soft);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-top: 0.15rem;
+  }
+
+  /* ---- how it works ---- */
+  .steps {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.9rem;
+    margin: 2rem 0 2.75rem;
+    padding-top: 1.75rem;
+    border-top: 1px solid var(--line);
+  }
+
+  .step__num {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    color: var(--green-signal-strong);
+  }
+
+  .step__title {
+    font-weight: 600;
+    font-size: 0.92rem;
+    margin: 0.3rem 0 0.25rem;
+  }
+
+  .step__body {
+    font-size: 0.85rem;
+    color: var(--ink-soft);
+  }
+
+  /* ---- form shell ---- */
+  .ticket {
+    background: var(--paper-raised);
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  .ticket__band {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.85rem 1.4rem;
+    background: var(--green-deep);
+    color: var(--paper);
+  }
+
+  .ticket__band-title {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+
+  .ticket__band-sub {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    opacity: 0.75;
+  }
+
+  .ticket__body { padding: 1.6rem 1.4rem 0.5rem; }
+
+  fieldset {
+    border: none;
+    margin: 0 0 1.9rem;
+    padding: 0;
+  }
+
+  legend {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--green-signal-strong);
+    margin-bottom: 0.9rem;
+    padding: 0;
+  }
+
+  .field { margin-bottom: 1rem; }
+
+  .field label {
+    display: block;
+    font-size: 0.86rem;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+  }
+
+  .field .hint {
+    display: block;
+    font-weight: 400;
+    font-size: 0.76rem;
+    color: var(--ink-soft);
+    margin-top: 0.2rem;
+  }
+
+  input[type="text"],
+  input[type="tel"],
+  input[type="email"],
+  select,
+  textarea {
+    width: 100%;
+    font: inherit;
+    font-size: 0.92rem;
+    color: var(--ink);
+    background: var(--paper);
+    border: 1px solid var(--line-strong);
+    border-radius: 3px;
+    padding: 0.55rem 0.7rem;
+  }
+
+  input[type="tel"] { font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+
+  textarea { resize: vertical; min-height: 4.5em; }
+
+  input:focus-visible,
+  select:focus-visible,
+  textarea:focus-visible,
+  button:focus-visible {
+    outline: 2px solid var(--green-signal-strong);
+    outline-offset: 2px;
+  }
+
+  .row2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  @media (min-width: 540px) {
+    .row2 { grid-template-columns: 1fr 1fr; }
+  }
+
+  .radiogroup, .checkgroup {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.1rem;
+    margin-top: 0.3rem;
+  }
+
+  .radiogroup label, .checkgroup label {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-weight: 400;
+    font-size: 0.88rem;
+  }
+
+  .accept {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.55rem;
+    font-size: 0.85rem;
+    color: var(--ink-soft);
+    margin-bottom: 0.8rem;
+  }
+
+  .accept input { margin-top: 0.2rem; }
+
+  .submit {
+    display: block;
+    width: 100%;
+    background: var(--green-signal-strong);
+    color: #fbfff9;
+    border: none;
+    border-radius: 3px;
+    font: inherit;
+    font-weight: 600;
+    font-size: 0.95rem;
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    margin: 0.4rem 0 1.7rem;
+  }
+
+  .submit:hover { background: var(--green-deep); }
+
+  /* ---- perforation between the two "vias" ---- */
+  .perforation {
+    position: relative;
+    height: 22px;
+    margin: 0;
+    background:
+      linear-gradient(135deg, transparent 8px, var(--paper) 0) 0 0,
+      linear-gradient(-135deg, transparent 8px, var(--paper) 0) 0 0;
+    background-size: 16px 22px;
+    background-repeat: repeat-x;
+  }
+
+  .perforation::after {
+    content: "✂ VIA DO PARCEIRO · · · VIA INTERNA — MW SOFTWARE";
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-mono);
+    font-size: 0.6rem;
+    letter-spacing: 0.08em;
+    color: var(--ink-soft);
+    background: var(--paper-raised);
+    opacity: 0.85;
+  }
+
+  .internal {
+    background: var(--paper);
+    padding: 1.6rem 1.4rem 1.9rem;
+  }
+
+  .internal .note {
+    font-size: 0.78rem;
+    color: var(--ink-soft);
+    font-style: italic;
+    margin-bottom: 1.1rem;
+  }
+
+  .checklist {
+    display: flex;
+    flex-direction: column;
+    gap: 0.55rem;
+    margin-bottom: 1.4rem;
+  }
+
+  .checklist .row {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-size: 0.86rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px dashed var(--line);
+  }
+
+  .checklist input { width: 15px; height: 15px; accent-color: var(--green-signal-strong); }
+
+  .decision {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.2rem;
+    align-items: center;
+    font-size: 0.86rem;
+    margin-bottom: 0.9rem;
+  }
+
+  .decision label { display: flex; align-items: center; gap: 0.35rem; font-weight: 600; }
+
+  textarea.justificativa { width: 100%; }
+
+  /* ---- confirmation receipt ---- */
+  .receipt {
+    display: none;
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    line-height: 1.7;
+    padding: 2rem 1.4rem 0.5rem;
+  }
+
+  .receipt.show { display: block; }
+  .ticket__body.hide { display: none; }
+
+  .receipt__ok {
+    color: var(--green-signal-strong);
+    font-weight: 700;
+    font-size: 1rem;
+  }
+
+  .receipt hr {
+    border: none;
+    border-top: 1px dashed var(--line-strong);
+    margin: 0.9rem 0;
+  }
+
+  .receipt dl {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.25rem 0.9rem;
+    margin: 0;
+  }
+
+  .receipt dt { color: var(--ink-soft); }
+  .receipt dd { margin: 0; }
+
+  footer {
+    margin-top: 2.5rem;
+    padding-top: 1.4rem;
+    border-top: 1px solid var(--line);
+    font-size: 0.74rem;
+    color: var(--ink-soft);
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  @media (max-width: 480px) {
+    .kpirow, .steps { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="statusbar">
+    <div class="statusbar__left"><span class="dot" aria-hidden="true"></span> UZTS LIGHT · MODO OFFLINE OK</div>
+    <div>NOVA LIMA — MG</div>
+  </div>
+
+  <section class="hero">
+    <p class="eyebrow">Programa de Parceiros UZTS</p>
+    <h1>Sua carteira já confia em você. Deixe ela conhecer o sistema que continua vendendo mesmo quando a internet cai.</h1>
+    <p class="lede">Contadores, consultores de TI e revendedores de equipamento indicam o UZTS Light para seus próprios clientes de bairro e recebem comissão recorrente enquanto o cliente continuar ativo — sem meta, sem exclusividade, sem custo de adesão.</p>
+
+    <div class="kpirow">
+      <div class="kpi">
+        <div class="kpi__value">R$80&ndash;97</div>
+        <div class="kpi__label">Ticket mensal do cliente</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi__value">Recorrente</div>
+        <div class="kpi__label">Comissão enquanto ativo</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi__value">01/08</div>
+        <div class="kpi__label">Prazo NFC-e obrigatório</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="steps">
+    <div>
+      <div class="step__num">01</div>
+      <div class="step__title">Você indica</div>
+      <div class="step__body">Apresenta o UZTS Light a um cliente da sua carteira que ainda controla vendas no papel ou na calculadora.</div>
+    </div>
+    <div>
+      <div class="step__num">02</div>
+      <div class="step__title">O cliente ativa</div>
+      <div class="step__body">Instalação simples, funciona offline, emite cupom fiscal na hora — sem depender de internet estável.</div>
+    </div>
+    <div>
+      <div class="step__num">03</div>
+      <div class="step__title">Você recebe</div>
+      <div class="step__body">Comissão sobre a mensalidade, todo mês, enquanto o cliente indicado permanecer ativo.</div>
+    </div>
+  </div>
+
+  <div class="ticket">
+    <div class="ticket__band">
+      <span class="ticket__band-title">Formulário de Aplicação</span>
+      <span class="ticket__band-sub">~5 min</span>
+    </div>
+
+    <form class="ticket__body" id="partnerForm">
+
+      <fieldset>
+        <legend>01 · Dados básicos</legend>
+        <div class="field">
+          <label for="nome">Nome completo</label>
+          <input type="text" id="nome" name="nome" required>
+        </div>
+        <div class="row2">
+          <div class="field">
+            <label for="doc">CPF ou CNPJ</label>
+            <input type="text" id="doc" name="doc" required>
+          </div>
+          <div class="field">
+            <label for="tel">WhatsApp</label>
+            <input type="tel" id="tel" name="tel" placeholder="(31) 9....-....." required>
+          </div>
+        </div>
+        <div class="row2">
+          <div class="field">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="field">
+            <label for="cidade">Cidade/região de atuação</label>
+            <input type="text" id="cidade" name="cidade" placeholder="Ex.: Nova Lima, Grande BH" required>
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>02 · Perfil profissional</legend>
+        <div class="field">
+          <label for="atividade">Atividade principal</label>
+          <select id="atividade" name="atividade" required>
+            <option value="">Selecione</option>
+            <option>Contador(a)</option>
+            <option>Consultor(a) de TI / técnico(a) de informática</option>
+            <option>Revendedor(a) de equipamentos de PDV / maquininhas</option>
+            <option>Associação comercial / sindicato</option>
+            <option>Outro</option>
+          </select>
+        </div>
+        <div class="row2">
+          <div class="field">
+            <label for="tempo">Tempo de atuação</label>
+            <input type="text" id="tempo" name="tempo" placeholder="Ex.: 8 anos">
+          </div>
+          <div class="field">
+            <label for="carteira">Clientes ativos hoje</label>
+            <input type="text" id="carteira" name="carteira" placeholder="Aproximadamente">
+          </div>
+        </div>
+        <div class="field">
+          <label for="origem">Como conheceu o UZTS Light?</label>
+          <input type="text" id="origem" name="origem">
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>03 · Acesso ao público-alvo</legend>
+        <div class="field">
+          <label for="perfil-clientes">Quantos dos seus clientes são pequeno comércio de bairro? <span class="hint">Padaria, mercearia, conveniência, minimercado</span></label>
+          <input type="text" id="perfil-clientes" name="perfil-clientes" required>
+        </div>
+        <div class="field">
+          <label for="ja-indicou">Já indicou sistema, equipamento ou software parecido antes? Qual foi o resultado?</label>
+          <textarea id="ja-indicou" name="ja-indicou"></textarea>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>04 · Capacidade de indicação</legend>
+        <div class="field">
+          <label for="estimativa">Quantos clientes você estima indicar nos próximos 3 meses?</label>
+          <input type="text" id="estimativa" name="estimativa" required>
+        </div>
+        <div class="field">
+          <label>Você pretende indicar ativamente ou só ficar disponível se perguntarem?</label>
+          <div class="radiogroup">
+            <label><input type="radio" name="postura" value="ativa" required> Ativamente</label>
+            <label><input type="radio" name="postura" value="passiva"> Só se perguntarem</label>
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>05 · Declarações</legend>
+        <div class="field">
+          <label>Já representa algum sistema concorrente? <span class="hint">Bling, Next PDV, Conta Azul, Stoffel etc.</span></label>
+          <div class="radiogroup">
+            <label><input type="radio" name="concorrencia" value="nao" required> Não</label>
+            <label><input type="radio" name="concorrencia" value="sim"> Sim</label>
+          </div>
+        </div>
+        <div class="field">
+          <label for="qual-concorrente">Se sim, qual(is)?</label>
+          <input type="text" id="qual-concorrente" name="qual-concorrente">
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>06 · Aceite</legend>
+        <label class="accept">
+          <input type="checkbox" name="aceite-verdade" required>
+          Declaro que as informações acima são verdadeiras.
+        </label>
+        <label class="accept">
+          <input type="checkbox" name="aceite-comissao" required>
+          Concordo com o modelo de comissão recorrente (% da mensalidade, pago enquanto o cliente indicado permanecer ativo).
+        </label>
+        <label class="accept">
+          <input type="checkbox" name="aceite-termos" required>
+          Aceito os termos do programa, incluindo representar a marca com transparência e o mínimo de 1 indicação a cada 60&ndash;90 dias.
+        </label>
+      </fieldset>
+
+      <button type="submit" class="submit">Enviar aplicação</button>
+    </form>
+
+    <div class="receipt" id="receipt">
+      <div class="receipt__ok">✓ Aplicação recebida</div>
+      <hr>
+      <dl>
+        <dt>Protocolo</dt><dd id="r-protocolo"></dd>
+        <dt>Nome</dt><dd id="r-nome"></dd>
+        <dt>Atividade</dt><dd id="r-atividade"></dd>
+        <dt>Região</dt><dd id="r-cidade"></dd>
+        <dt>Data</dt><dd id="r-data"></dd>
+      </dl>
+      <hr>
+      Nossa equipe analisa em até 3 dias úteis e retorna pelo WhatsApp informado.
+    </div>
+
+    <div class="perforation"></div>
+
+    <div class="internal">
+      <p class="note">Via interna — preenchida pela equipe MW Software durante a análise. Não faz parte da aplicação do parceiro.</p>
+
+      <div class="checklist">
+        <label class="row"><input type="checkbox"> Acesso real ao ICP (seções 02&ndash;03)</label>
+        <label class="row"><input type="checkbox"> Reputação local verificável</label>
+        <label class="row"><input type="checkbox"> Capacidade de indicação plausível (seção 04)</label>
+        <label class="row"><input type="checkbox"> Formalização completa — CPF/CNPJ ativo</label>
+        <label class="row"><input type="checkbox"> Sem concorrência direta não declarada (seção 05)</label>
+        <label class="row"><input type="checkbox"> Sem sinal de discurso agressivo/enganoso</label>
+      </div>
+
+      <div class="decision">
+        Decisão:
+        <label><input type="radio" name="decisao"> Aprovado</label>
+        <label><input type="radio" name="decisao"> Aprovado com ressalva</label>
+        <label><input type="radio" name="decisao"> Recusado</label>
+      </div>
+
+      <textarea class="justificativa" rows="2" placeholder="Justificativa"></textarea>
+    </div>
+  </div>
+
+  <footer>
+    <span>MW Software · UZTS Light</span>
+    <span>Nova Lima, MG</span>
+  </footer>
+
+</div>
+
+<script>
+  document.getElementById('partnerForm').addEventListener('submit', function (e) {
+    e.preventDefault();
+    var f = e.target;
+    var nome = f.nome.value || '—';
+    var atividadeEl = f.atividade;
+    var atividade = atividadeEl.options[atividadeEl.selectedIndex] ? atividadeEl.options[atividadeEl.selectedIndex].text : '—';
+    var cidade = f.cidade.value || '—';
+    var now = new Date();
+    var protocolo = 'UZTS-' + now.getFullYear() + String(now.getMonth() + 1).padStart(2, '0') + String(now.getDate()).padStart(2, '0') + '-' + Math.floor(Math.random() * 900 + 100);
+
+    document.getElementById('r-protocolo').textContent = protocolo;
+    document.getElementById('r-nome').textContent = nome;
+    document.getElementById('r-atividade').textContent = atividade;
+    document.getElementById('r-cidade').textContent = cidade;
+    document.getElementById('r-data').textContent = now.toLocaleDateString('pt-BR');
+
+    f.closest('.ticket__body').classList.add('hide');
+    document.getElementById('receipt').classList.add('show');
+  });
+</script>
+</body>
+</html>

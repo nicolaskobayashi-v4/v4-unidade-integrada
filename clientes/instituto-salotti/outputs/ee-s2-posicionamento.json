@@ -1,0 +1,245 @@
+{
+  "client_name": "Instituto Salotti de Odontologia Digital",
+  "skill": "ee-s2-posicionamento",
+  "generated_at": "2026-05-05",
+  "data_source": "ee-s1-persona-icp + ee-s1-swot + ee-s2-pesquisa-mercado + nova-marca.md + briefing + S1 Kickoff",
+
+  "summary": "O Instituto Salotti ocupa um posicionamento de boutique de odontologia digital — o único player em Jundiaí que combina tecnologia de ponta, resultado previsível antes de começar e atendimento humanizado. A PUV central é previsibilidade e resolução definitiva: o paciente sabe o que vai acontecer, quanto vai demorar e como vai ficar antes de tomar qualquer decisão.",
+
+  "summary_headline": "Instituto Salotti é a única clínica de Jundiaí onde o paciente vê o resultado antes de começar — e resolve em semanas o que outras clínicas levam meses.",
+
+  "summary_highlights": [
+    {
+      "category": "posicao",
+      "label": "Posicionamento",
+      "value": "Boutique premium",
+      "subtext": "Especialização + tecnologia + humanização",
+      "tone": "green"
+    },
+    {
+      "category": "posicao",
+      "label": "Território de marca",
+      "value": "Quiet luxury odontológico",
+      "subtext": "Único em Jundiaí — sem concorrente no espaço",
+      "tone": "green"
+    },
+    {
+      "category": "posicao",
+      "label": "Diferencial central",
+      "value": "Previsibilidade digital",
+      "subtext": "Resultado planejado antes de começar",
+      "tone": "green"
+    },
+    {
+      "category": "posicao",
+      "label": "Tom de comunicação",
+      "value": "Sério e humano",
+      "subtext": "Autoridade sem frieza. Sem trends.",
+      "tone": "blue"
+    },
+    {
+      "category": "risco",
+      "label": "Risco de posicionamento",
+      "value": "Comunicação técnica",
+      "subtext": "Dr. Salotti fala para o dentista, não para o paciente",
+      "tone": "yellow"
+    },
+    {
+      "category": "oportunidade",
+      "label": "Janela",
+      "value": "12–18 meses",
+      "subtext": "Para consolidar antes de concorrente perceber o vácuo",
+      "tone": "green"
+    }
+  ],
+
+  "summary_key_findings": [
+    {
+      "category": "vantagem",
+      "text": "O posicionamento natural do Instituto Salotti — tecnologia de precisão + atendimento humanizado + resultado previsível — não existe comunicado por nenhum concorrente em Jundiaí. O espaço está vazio e os ativos para ocupá-lo já estão na clínica."
+    },
+    {
+      "category": "ameaca",
+      "text": "O maior risco de posicionamento é o Dr. Salotti comunicar para outros dentistas ao invés de comunicar para o paciente. 'Cirurgia guiada com guia cirúrgica estereolitográfica e carga imediata' não significa nada para o Ricardo (48, empresário). 'Implante resolvido em 2 meses, sem corte, sem dor' significa tudo."
+    },
+    {
+      "category": "contexto",
+      "text": "A DOA COMM já estabeleceu o território correto: 'O verdadeiro luxo não é um troféu, é um segredo.' Esse conceito é o norte de toda a comunicação — não se vende tecnologia, se vende o que a tecnologia entrega: paz, controle e resultado que dura."
+    },
+    {
+      "category": "acao",
+      "text": "Toda peça de comunicação deve responder à pergunta do paciente, não apresentar a tecnologia da clínica. A pergunta do Ricardo é 'isso vai resolver de vez?'. A da Beatriz é 'vai ficar natural?'. A de Hélio é 'vai doer?'. O posicionamento responde cada uma dessas perguntas diretamente."
+    }
+  ],
+
+  "puv": {
+    "versao_completa": "Odontologia digital de precisão para quem quer resolver de vez — diagnóstico completo em uma consulta, resultado previsto antes de você decidir e tratamentos que demoram semanas, não meses.",
+    "versao_curta": "Você vê o resultado antes de começar. E resolve em semanas o que levaria meses.",
+    "versao_headline": "Resolva de vez. Com precisão. Sem voltar mil vezes.",
+    "justificativa": "O ICP do Instituto Salotti tem três objeções centrais: medo de processo longo, medo de resultado incerto e medo de dor/desconforto. A PUV derruba as três com evidência real: diagnóstico completo em uma consulta (elimina processo longo), planejamento digital que mostra o resultado (elimina incerteza) e cirurgia guiada sem corte (elimina medo de dor).",
+    "pilares": [
+      {
+        "pilar": "Previsibilidade",
+        "argumento_clinico": "Planejamento 100% digital — tomografia + scanner + software mostram o resultado antes de qualquer procedimento",
+        "traducao_para_o_paciente": "Você sabe exatamente como vai ficar antes de começar. Sem surpresas.",
+        "persona_primaria": "Ricardo e Beatriz"
+      },
+      {
+        "pilar": "Agilidade",
+        "argumento_clinico": "Laboratório próprio + odontologia digital = coroa em 1,5h, implante resolvido em 2 meses, diagnóstico completo em uma visita",
+        "traducao_para_o_paciente": "Resolve em semanas o que outras clínicas levam meses. Você não precisa reorganizar sua vida.",
+        "persona_primaria": "Ricardo"
+      },
+      {
+        "pilar": "Sem dor / sem medo",
+        "argumento_clinico": "Cirurgia guiada (sem corte, sem pontos) + sedação consciente com óxido nitroso",
+        "traducao_para_o_paciente": "Implante sem corte, sem dor, sem pontos. E se tiver medo, temos sedação. Não há motivo para continuar adiando.",
+        "persona_primaria": "Hélio e pacientes com fobia"
+      },
+      {
+        "pilar": "Autoridade técnica",
+        "argumento_clinico": "Dr. Salotti: 22 anos, 4 especializações, mestrado em odontologia digital, professor da área. Tudo em um único local.",
+        "traducao_para_o_paciente": "Você está sendo tratado por um especialista que formou outros especialistas. E não precisa ir a cinco lugares diferentes.",
+        "persona_primaria": "Todos os ICPs"
+      }
+    ]
+  },
+
+  "posicionamento": {
+    "modelo": "Boutique de odontologia digital — especialização máxima, volume restrito, resultado garantido por tecnologia",
+    "territorio": "Quiet luxury odontológico — alto padrão silencioso onde o protagonismo está no resultado, não na comunicação",
+    "antitese": "O oposto de franquia de volume, de convênio e de clínica que 'preenche agenda'. O Instituto Salotti escolhe quem pode atender — e entrega resultado que dura.",
+    "eixos_de_posicionamento": [
+      {
+        "eixo": "Especialização × Generalismo",
+        "posicao": "Especialização máxima em odontologia digital — não faz tudo, faz o difícil com precisão"
+      },
+      {
+        "eixo": "Premium × Massa",
+        "posicao": "Premium restrito — tickets altos, volume controlado, experiência personalizada"
+      },
+      {
+        "eixo": "Tecnologia × Humanização",
+        "posicao": "Os dois ao mesmo tempo — tecnologia que gera precisão e confiança, humanização que acolhe e personaliza"
+      },
+      {
+        "eixo": "Previsibilidade × Incerteza",
+        "posicao": "Previsibilidade total — o paciente sabe o resultado, o prazo e o investimento antes de decidir"
+      }
+    ],
+    "conceito_de_marca": "O verdadeiro luxo não é um troféu, é um segredo. — DOA COMM",
+    "conceito_nota": "O conceito está correto e deve ser mantido como norte de toda a comunicação. Nada ostentoso. Nada gritado. O trabalho fala."
+  },
+
+  "canvas_4p": {
+    "produto": {
+      "core": "Diagnóstico e planejamento digital completo + tratamentos de alta complexidade (reabilitação, implantes, estética, cirurgia guiada, alinhadores)",
+      "diferenciais": [
+        "Diagnóstico completo em uma única consulta (tomografia + scanner + fotos + câmera intraoral)",
+        "Planejamento digital com visualização do resultado antes de iniciar",
+        "Laboratório de próteses próprio — sem terceiros, sem atraso",
+        "Cirurgia guiada — implante sem corte, sem dor, sem pontos",
+        "Sedação consciente (óxido nitroso) disponível",
+        "Coroa em 1,5h (vs 7-10 dias convencional)",
+        "Reabilitação em 2 meses (vs 6 meses convencional)"
+      ],
+      "nao_faz": ["Convênio", "Pediatria", "Endodontia com microscópio", "Facetas de resina direta", "Implante zigomático"],
+      "experiencia": "Ambiente de casa sobrado em bairro tradicional — acolhedor, não frio. Sem fila, sem volume. Cada paciente tem tempo e atenção do Dr. Salotti."
+    },
+    "preco": {
+      "posicionamento": "Maior preço por mais qualidade, mais precisão e mais conveniência de tempo",
+      "consulta_diagnostico": "~R$380 (consulta) + R$400 (tomografia) = ~R$780 na primeira visita",
+      "ticket_medio_blended": "R$10.000–R$15.000 (mix de tratamentos)",
+      "ticket_alta_complexidade": "R$25.000–R$100.000 (reabilitações completas, implantes múltiplos)",
+      "filosofia": "O preço não é o filtro — o valor entregue é. O paciente que não entende por que custa esse valor não é o ICP.",
+      "forma_de_pagamento": "Parcelamento estruturado com apresentação da gestora Fabiana. Sem parcelamento no cartão sem juros como âncora — âncora é o resultado e a previsibilidade.",
+      "comparativo_de_valor": "Um implante convencional que leva 6 meses e 8 consultas vs implante guiado em 2 meses e 3 consultas. O custo do tempo do Ricardo vale muito mais que a diferença de preço."
+    },
+    "praca": {
+      "fisico": "Jundiaí, SP — bairro tradicional e central. Imóvel próprio. Casa sobrado 240m². Reforma em andamento (estacionamento).",
+      "digital_atual": "WhatsApp Business (único canal ativo)",
+      "digital_a_construir": ["Instagram @institutoSalotti", "Landing page institutosalotti.com.br", "Google Meu Negócio otimizado", "Google Ads Search", "Meta Ads"],
+      "raio_de_atendimento": "Jundiaí + região metropolitana (Itupeva, Várzea Paulista, Campo Limpo, Louveira)",
+      "canal_especial": "Pacientes internacionais — brasileiros na Europa/EUA via digital segmentado"
+    },
+    "promocao": {
+      "tom": "Sério, limpo, assertivo. Autoridade técnica sem frieza. Humanidade sem informalidade excessiva.",
+      "o_que_faz": [
+        "Cases antes/depois com contexto real e prazo de tratamento",
+        "Conteúdo educativo que demonstra autoridade (não dicas genéricas)",
+        "Depoimentos reais de pacientes com casos complexos resolvidos",
+        "Presença no Google com avaliações de pacientes satisfeitos",
+        "Programa de indicação estruturado para base histórica"
+      ],
+      "o_que_nao_faz": [
+        "Trends, dancinhas, challenges",
+        "Posts semanais obrigatórios sem qualidade",
+        "Promoções de preço ('implante com desconto')",
+        "Comparações diretas com concorrentes (restrição CROSP)",
+        "Linguagem de venda excessiva ('não perca essa oportunidade')",
+        "Conteúdo que comprometa a imagem profissional do Dr."
+      ],
+      "canais_priorizados": [
+        {"canal": "Instagram", "objetivo": "Construir autoridade e validar socialmente para o ICP que pesquisa antes de contatar"},
+        {"canal": "Google Meu Negócio", "objetivo": "Capturar intenção de busca local e gerenciar reputação"},
+        {"canal": "Google Ads Search", "objetivo": "Capturar demanda ativa (implante Jundiaí, reabilitação oral Jundiaí)"},
+        {"canal": "Indicação estruturada", "objetivo": "Ativar base histórica de pacientes satisfeitos como promotores"},
+        {"canal": "Meta Ads", "objetivo": "Alcançar ICP que não está buscando ativamente mas tem o perfil e o problema"}
+      ],
+      "frequencia_instagram": "Qualidade sobre quantidade — 2 posts/semana bem executados valem mais que 7 mediocres",
+      "nota_crosp": "Todo conteúdo deve ser revisado sob as normas CFO/CROSP de Jundiaí. Evitar: antes/depois com promessas, comparações diretas, linguagem de venda explícita."
+    }
+  ],
+
+  "narrativa_de_marca": {
+    "historia": "Por 11 anos, o Dr. Salotti construiu uma das estruturas odontológicas mais completas de Jundiaí — tomógrafo, laboratório digital, fresadoras, scanner — enquanto atendia um público de convênio que não reconhecia esse nível de entrega. O Instituto Salotti nasce da decisão de fazer o trabalho correto: odontologia digital de alta precisão para quem valoriza resultado, previsibilidade e seu próprio tempo.",
+    "heroi": "O paciente — não o dentista. O Dr. Salotti é o guia técnico que torna possível o resultado que o paciente quer. A narrativa sempre começa pela dor ou desejo do paciente.",
+    "vilao": "A incerteza, o medo e a procrastinação. O 'deixo pra depois', o 'não sei se vai funcionar', o 'tenho medo de fazer'. O Instituto Salotti existe para eliminar esses obstáculos.",
+    "transformacao": "De quem evita o dentista há anos para quem tem controle total sobre sua saúde bucal — sabe o resultado, sabe o prazo, sabe o investimento antes de começar.",
+    "proibido_na_narrativa": [
+      "Falar de equipamentos antes de falar do resultado que eles entregam",
+      "Usar jargão técnico odontológico sem tradução imediata para benefício",
+      "Posicionar o Dr. Salotti como celebridade ou influencer",
+      "Prometer resultados específicos (restrição CROSP)"
+    ]
+  },
+
+  "mensagens_por_persona": [
+    {
+      "persona": "Ricardo (empresário, 48)",
+      "mensagem_central": "Diagnóstico completo em uma visita. Plano com prazo definido. Tratamento resolvido em semanas. Você não precisa reorganizar sua agenda.",
+      "gatilho": "Tempo e previsibilidade",
+      "cta": "Agende sua avaliação completa"
+    },
+    {
+      "persona": "Beatriz (profissional liberal, 42)",
+      "mensagem_central": "Você vê o resultado antes de começar. Sem surpresas, sem exagero. O Dr. Salotti não indica mais do que o necessário.",
+      "gatilho": "Resultado natural e confiança no profissional",
+      "cta": "Conheça como funciona o planejamento digital"
+    },
+    {
+      "persona": "Hélio (aposentado, 64) / filho co-decididor",
+      "mensagem_central": "Implante sem corte, sem dor, sem pontos. Resolvido em 2 meses. Se tiver medo, temos sedação. Não há motivo para continuar adiando.",
+      "gatilho": "Eliminar medo de cirurgia e processo longo",
+      "cta": "Saiba como funciona a cirurgia guiada"
+    }
+  ],
+
+  "comparativo_posicionamento": {
+    "vs_rof": "ROF é premium convencional. Instituto Salotti é o único com odontologia 100% digital + previsibilidade de resultado + diagnóstico em uma consulta. São premiums diferentes.",
+    "vs_generalistas": "Generalistas atendem tudo para todos. Instituto Salotti faz menos coisas, para menos pessoas, com muito mais precisão e resultado.",
+    "vs_franquias": "Franquias vendem volume e preço. Instituto Salotti vende resultado que dura — para quem entende que o mais barato é o que não precisa ser refeito.",
+    "vs_sao_paulo": "Paciente de Jundiaí que ia fazer em SP: mesmo nível técnico (ou superior), sem trânsito, sem estacionamento, com atenção personalizada do próprio especialista."
+  },
+
+  "key_leverage_point": {
+    "headline": "O posicionamento do Instituto Salotti já existe na clínica — falta traduzi-lo para a linguagem de quem precisa do serviço, não para a linguagem de quem presta o serviço.",
+    "context": "O Dr. Salotti sabe exatamente o que faz de diferente: cirurgia guiada, planejamento digital, laboratório próprio. O problema é que ele descreve esses ativos com vocabulário de dentista para outros dentistas. 'Tomografia cone beam + protocolo de carga imediata' não vende para o Ricardo. 'Seu implante resolvido em 2 meses, sem corte, você soube exatamente como ia ficar antes de começar' vende. O trabalho de posicionamento é essa tradução — de ativo técnico para benefício humano.",
+    "numbered_reasons": [
+      "Cada diferencial técnico do Instituto tem um benefício direto para o ICP que ainda não está sendo comunicado: laboratório próprio = menos espera; cirurgia guiada = sem dor; diagnóstico digital = sem surpresas",
+      "O conceito 'O verdadeiro luxo não é um troféu, é um segredo' da DOA COMM é o território correto — o Instituto não precisa gritar sua excelência, precisa que o paciente a sinta na primeira interação",
+      "A PUV mais curta e mais poderosa disponível para o Instituto: 'Você vê o resultado antes de começar' — isso não existe em nenhum concorrente de Jundiaí e resolve a objeção central de todos os ICPs de uma vez"
+    ],
+    "discussion_anchor": "Para validar com o Dr. Salotti e a Fabiana no S2: 'Quando um paciente pergunta por que vale o preço, o que vocês respondem hoje?' A resposta atual vs a resposta que o posicionamento entrega é o gap que o projeto precisa fechar."
+  }
+}

@@ -1,0 +1,540 @@
+{
+  "meta": {
+    "name": "Hyla do Brasil",
+    "slug": "hyla-do-brasil",
+    "razao_social": "Hyla do Brasil Distribuidora LTDA",
+    "workspace_id": "6831faac-31cc-4259-b82d-b1e08922984f",
+    "created_at": "2026-06-22",
+    "modulo_vendas": true,
+    "nota": "DPMV (Diagnóstico e Planejamento de Marketing e Vendas) — 5 semanas. Contrato fechado em 19/05/2026: R$20.000 à vista ou 12x R$2.000 no cartão. Kick-off realizado em 16/06/2026 (atrasado de propósito — sócios viajaram para conferência mundial da marca na Alemanha de 17 a 25/06, com possível mudança de identidade visual global). Produto: equipamento doméstico antialérgico (aspirador a água), venda direta multinível via ~100 associados/representantes independentes no Brasil. ATENÇÃO: entregas de criativos e landing page foram propositalmente empurradas para o final do cronograma por causa da possível mudança de marca."
+  },
+  "briefing": {
+    "empresa": "Hyla do Brasil",
+    "segmento": "Importação e venda direta (multinível) de equipamentos domésticos antialérgicos — aspirador a água com foco em conforto, higiene e saúde",
+    "site": "https://hyladobrasil.com.br/ — feito em WordPress + WooCommerce + Elementor. Landing page principal de captação, é para onde os anúncios direcionam: https://hyladobrasil.com.br/aspirador-hyla-do-brasil/ (formulário nome, telefone, estado, cidade).",
+    "instagram": "Oficial: https://www.instagram.com/hyladobrasiloficial/ (~47-49 mil seguidores). Associados/recrutamento: https://www.instagram.com/hyladobrasilbusiness/ (employer branding, criada ~2024).",
+    "tempo_mercado_anos": 17,
+    "estrutura_internacional": "Hyla é marca global. Matriz de produção na Eslovênia, matriz comercial na Alemanha. Operações também em França, EUA e América Latina (Chile, Peru, Colômbia — bem tímidas, somadas não chegam a 700-600 máquinas/mês). Conferência mundial da marca em 17-24/06/2026 na Alemanha vai definir nova identidade visual única global (logo sem nome de país) — pode impactar manual de marca, site e redes sociais.",
+    "stakeholders": [
+      {
+        "nome": "Davi",
+        "cargo": "Diretor Comercial e Sócio",
+        "perfil": "Fundador, é 'a cara' da empresa junto com o irmão Fábio. Vendedor desde os 16 anos (começou revendendo a concorrente americana Rainbow). Decisor final ao lado de Fábio. Estilo direto, debochado, exigente com follow-up e dados ('eu não posso perder dinheiro'). Já se queimou com promessas vazias de outras agências (ex: 'Acelerador de Marca', SDR terceirizado sem resultado).",
+        "decisor": true
+      },
+      {
+        "nome": "Fábio Gabriel Calsolari",
+        "cargo": "Sócio — Financeiro, Fiscal, Tributário e RH",
+        "perfil": "Irmão e sócio de Davi. Atuou 15 anos na parte comercial, migrou para financeiro/fiscal/RH nos últimos 6 meses (reestruturação após cisão societária). Traz visão de margem e números.",
+        "decisor": true
+      },
+      {
+        "nome": "Cleiton Silva",
+        "cargo": "Marketing e Vendas (cuida do tráfego pago)",
+        "perfil": "Responsável operacional por mídia paga, geração de leads e funil. Voz mais técnica/analítica do time. Citou o influenciador Lucas Amadeu (V4) como referência de confiança na decisão de contratar a V4.",
+        "decisor": false
+      },
+      {
+        "nome": "Gleisson Silva (\"Gon\")",
+        "cargo": "Social Media e Design",
+        "perfil": "Cuida de stories/conteúdo Instagram, Facebook, TikTok e da parte de design/identidade visual no dia a dia.",
+        "decisor": false
+      }
+    ],
+    "equipe_v4_scn": {
+      "lucas_calefi_goncalves": "Coordenador de Planejamento, Estratégia e Gestão (SCN&Co/V4) — conduz o projeto e o kick-off",
+      "geovanna_mohr": "Gestora de Projetos e Social Media (SCN&Co/V4) — apoio na execução",
+      "matheus_nunes": "Sócio V4 — conduziu as reuniões comerciais e fechou o contrato",
+      "felipe": "Gestor de tráfego (V4) — mencionado no kick-off como parte do time alocado",
+      "natalia": "Designer (V4) — mencionada no kick-off como parte do time alocado"
+    },
+    "ex_socio_cisao": "Cisão societária formalizada a partir de jan/2026 (decisão tomada em set/2025). Um terceiro sócio (cunhado de Davi e Fábio) saiu da sociedade e fundou a 'Hyla Plus', importando a mesma máquina — hoje é concorrente direto. Pai de Davi e Fábio faleceu no final de dez/2025, período citado como marco de reconstrução da empresa.",
+    "produtos": {
+      "principal": "Aspirador a água antialérgico Hyla — capacidade industrial em formato doméstico, ticket médio R$12.000-14.500. Tecnologia exclusiva e patenteada: separador de partículas autolimpante (nenhum concorrente tem). Garantia de até 15 anos / vitalícia, motor com vida útil praticamente eterna.",
+      "secundario": "Aera — equalizador/purificador de ambientes (não é o campeão de vendas, mais um complemento).",
+      "acessorios": [
+        "Nimbus — lavadora, ~R$3.000, vende bem",
+        "Kit limpa-vidros — vende bem",
+        "Air Odorizer — R$149, campeão de recompra recorrente (já vem na máquina nova e o cliente recompra)",
+        "Miniescova elétrica GST — acessório vendido com comissão cheia para o associado"
+      ],
+      "pilares_marca": [
+        "Conforto",
+        "Higiene/qualidade de vida",
+        "Saúde (alergia, asma, bronquite, rinite, purificação do ar)"
+      ],
+      "uso": "95% pessoa física (uso doméstico), 5% pessoa jurídica (hotéis, teatros, restaurantes, salas de evento, empresas de limpeza/higienização parceiras via homologação CASEC)."
+    },
+    "matematica_negocio": {
+      "margem_contribuicao_produto": "25-30%",
+      "ticket_medio_atual": "R$12.000-14.500",
+      "investimento_midia_mensal_atual": "R$13.500-15.000 (Google Ads/YouTube Pmax + Instagram)",
+      "leads_mes_atual": "~200 (já chegaram a gerar até 2.000/mês com campanhas de WhatsApp, reduziram de propósito para qualificar)",
+      "vendas_mes_atual": "~70-80 máquinas/mês (chegaram a vender 350/mês na pandemia)",
+      "meta_vendas_mes": "100-150 máquinas/mês",
+      "cac_estimado_midia_paga": "~R$900/venda (cálculo feito em tempo real no kick-off: R$13.500 investidos / ~15 vendas atribuídas a mídia)",
+      "comissionamento_associado": "12% embutido no ticket + bônus por nível, podendo chegar a ~20-30% com pontuação. 50% de comissão recorrente vitalícia em toda recompra futura do cliente que o associado trouxe (acessórios, revisão, nova máquina).",
+      "recompra_pos_venda": "Revisão anual (R$600-700, mão de obra R$320) por ~5 anos; ~10% dos clientes mantém recompra alta e renova máquina."
+    },
+    "operacoes_vendas": {
+      "modelo": "Venda direta multinível via demonstração na casa do cliente (modelo similar à Rainbow/Hyla mundial). 75% das vendas vêm do canal tradicional (indicação + demonstração), 25% de mídia paga/lead online.",
+      "associados": "+100 associados/representantes comerciais independentes no Brasil (recebem comissão, sem ajuda de custo). ~35-50 ativos por vez (vendem ao menos 1x a cada 3 meses) — alta volatilidade (mulheres que saem por questões pessoais e voltam). 90% dos vendedores são mulheres (venda de mulher para mulher). 70% das vendas vêm de São Paulo (capital e Alphaville/Jardins, principalmente).",
+      "distribuicao_leads": "Sistema C2S (originalmente do setor imobiliário): lead cai em fila randômica regionalizada; se o vendedor não atende em 10 min, cai num 'bolsão' público disputado por qualquer associado.",
+      "funil_conversao": "Lead frio de mídia paga: ~1 venda a cada 3 demonstrações realizadas. Lead vindo de indicação: 50-60% das demonstrações convertem em venda. ~30 demonstrações agendadas por mês geram ~15 vendas atribuíveis a mídia.",
+      "decisor_de_compra": "70% compra para uso de funcionário doméstico, 30% para uso próprio. O funcionário raramente decide e às vezes age como 'breaker' (gera objeção de preço/peso do equipamento). Geralmente precisa do casal/dono da casa presente para decidir — produto não é amplamente divulgado em grandes mídias, então comprador precisa de prova social/demonstração para confiar no ticket alto.",
+      "objecao_principal": "Preço — quase toda objeção apresentada pelo cliente no fundo é uma forma indireta de dizer que não quer ou não pode gastar aquele valor.",
+      "pagamento": "Até 36x financiamento Santander (mediante aprovação), até 20x direto com a empresa, até 21x cartão, até 84x consignado (vende muito pouco).",
+      "benchmark_internacional": "França é a inspiração atual (saiu de ~100-150/mês para 1.000+/mês via modelo híbrido tradicional+digital, com foco em crescer o time de associados). Alemanha sempre vendeu muito mas estagnou (5.000-10.000 máquinas/mês historicamente, hoje variável)."
+    },
+    "marketing_atual": {
+      "modelo": "100% digital + venda direta tradicional",
+      "midia_paga": "Instagram (principal) + Google Ads (inclui YouTube Pmax). SEM verba em Facebook ou TikTok hoje (já tiveram no passado). Lead qualificado via formulário restrito (nome/telefone/estado/cidade) — removeram botão direto de WhatsApp dos anúncios de propósito para elevar qualificação.",
+      "assessoria_imprensa": "Inativa hoje. Já tiveram matéria gratuita na revista Exame (top 10 produtos mais buscados na pandemia, 5º lugar) e Gazeta do Povo (Curitiba) durante a pandemia.",
+      "site_ecommerce": "Stack confirmada: WordPress + WooCommerce + Elementor. O próprio operador V4 avalia essa stack como 'horrível e cheia de gambiarras' — alinhado com o relato do cliente de que o site não roda bem dependendo do navegador no mobile, sem integração com TikTok Shop, e-commerce limitado. Ponto de atenção forte para ee-s2-diagnostico-cro e para qualquer replatforming futuro (ex: ee-s3-landing-page).",
+      "seo": "Fraco hoje. Preocupação crescente do time (Cleiton) com buscas comparativas feitas por usuários direto em ChatGPT/Gemini ('qual aspirador é melhor, Rainbow ou Hyla', 'qual alivia minha alergia').",
+      "pos_venda_crm": "Não existe e-mail marketing, nutrição de leads ou CRM de pós-venda estruturado hoje. Contato pós-compra é via SAC por telefone/WhatsApp para manutenção preventiva anual — funciona, mas é manual e sem automação. Já tiveram SDR interno (bom resultado) e SDR externo terceirizado (resultado igual ao vendedor sem SDR — não comprovou ganho líquido)."
+    },
+    "concorrentes": {
+      "diretos": [
+        {
+          "nome": "Rainbow",
+          "nota": "Concorrente histórico mais citado, ~R$21.000 (vs R$12-14,5k da Hyla). 30 anos no Brasil sem evoluir digitalmente. Vendedores descritos como 'agressivos' e que falam mal da Hyla."
+        },
+        {
+          "nome": "Vivenzo",
+          "nota": "~R$12.000, qualidade percebida inferior, ainda assim converte se cair com bom vendedor."
+        },
+        {
+          "nome": "Hyla Plus",
+          "nota": "Fundada pelo ex-sócio (cunhado) após a cisão societária — importa exatamente a mesma máquina. Concorrente direto interno, ameaça crescente conforme ganha relevância digital."
+        }
+      ],
+      "indiretos": [
+        "Kirby (sistema de venda agressivo similar)",
+        "Hoover",
+        "marcas chinesas com alto investimento em mídia (ex: parceria com Cristiano Ronaldo)",
+        "Electrolux/Arno (usam o nome 'Hyla' para SEO sem serem concorrentes diretos)"
+      ]
+    },
+    "swot_capturado_no_kickoff": {
+      "nota": "Levantamento bruto feito em tempo real durante o kick-off (16/06) — ainda não processado pela skill ee-s1-swot, serve como insumo primário.",
+      "forcas": [
+        "Tecnologia patenteada exclusiva (separador autolimpante)",
+        "Atendimento 'VIP' — troca/conserto rápido, sem burocracia",
+        "Garantia de até 15 anos / vitalícia",
+        "Marca consolidada há 17 anos, líder no segmento no Brasil",
+        "Plano de comissionamento forte para reter associados"
+      ],
+      "fraquezas": [
+        "Zero controle real sobre o funil dos associados independentes (dados de agendamento/conversão ~70-75% de precisão)",
+        "SDR interno e externo já testados sem ganho líquido de conversão comprovado",
+        "Sem pós-venda automatizado / e-mail marketing / nutrição de leads",
+        "Site e e-commerce tecnicamente fracos",
+        "SEO fraco"
+      ],
+      "oportunidades": [
+        "Parcerias com influenciadores e veículos editoriais de saúde/bem-estar",
+        "SEO e buscas comparativas via IA generativa (ChatGPT/Gemini)",
+        "Digitalizar comissionamento e reativação de associados inativos",
+        "Expandir CRM de pós-venda e recompra de acessórios"
+      ],
+      "ameacas": [
+        "Concorrentes (Rainbow, Hyla Plus) falando mal da marca no mercado",
+        "Exposição cambial/política de importação (produto importado)",
+        "Pequenos concorrentes oportunistas que entram e saem do mercado",
+        "Mudança de identidade visual global decidida pela matriz (conferência 17-24/06) pode invalidar entregáveis de marca/criativos/LP no curto prazo"
+      ]
+    },
+    "icp_inicial": {
+      "primario": "Mulher, classe A, 30-50 anos (também relevante 50+), mora em condomínio (vertical ou horizontal) em região nobre, principalmente São Paulo capital. Decide sozinha ou com o casal. Busca conforto, qualidade de vida ou saúde (alergia/asma/rinite) — saúde pesa mais na decisão.",
+      "secundario": "Funcionária doméstica/governanta que influencia ou usa o equipamento (raramente decide a compra; às vezes atua como 'breaker' da venda).",
+      "terciario": "Pessoa jurídica — hotéis, teatros, restaurantes, salas de evento, empresas de limpeza/higienização profissional (via parceria CASEC).",
+      "gatilhos_objecao": "Único objeção relevante de fato é preço — outras objeções verbalizadas geralmente escondem essa."
+    },
+    "contrato_v4": {
+      "tipo": "DPMV — Diagnóstico e Planejamento de Marketing e Vendas",
+      "duracao_semanas": 5,
+      "valor": "R$20.000 à vista ou 12x R$2.000 no cartão (V4 assume os juros do parcelamento)",
+      "valor_de_face_tabela": "R$39.340 à vista (desconto aplicado dado o fit/baixa complexidade percebida)",
+      "garantia": "Devolução integral caso o cliente comprove que as entregas não são aplicáveis ao negócio ou não fazem sentido (não é garantia de resultado de vendas — é garantia de aplicabilidade do diagnóstico, conforme contrato)",
+      "data_fechamento": "2026-05-19",
+      "kickoff": "2026-06-16",
+      "formato_reunioes": "Online, ~2h por etapa/semana",
+      "observacao_ia": "Davi e Fábio pediram explicitamente que landing pages/criativos NÃO sejam gerados por IA de forma genérica ('transmite preguiça', fácil de identificar). Matheus (V4) concordou — IA é usada para automatizar processos internos, não para criação final voltada ao cliente."
+    }
+  },
+  "research": {
+    "diferenciais_reais": [
+      "Tecnologia patenteada (separador autolimpante exclusivo)",
+      "Atendimento e suporte pós-venda superior aos concorrentes diretos",
+      "Garantia vitalícia/15 anos",
+      "Marca líder de mercado há 17 anos no segmento de aspiradores antialérgicos de venda direta"
+    ],
+    "oportunidade_estrategica": "Posicionar Hyla fortemente no eixo SAÚDE (alergia, asma, rinite, qualidade do ar) como diferenciador frente a concorrentes que comunicam só 'limpeza' — e capturar buscas comparativas feitas via IA generativa (ChatGPT/Gemini), tendência identificada pelo próprio time de marketing do cliente.",
+    "pendencias_a_confirmar_com_operador": [
+      "Acesso da API V4MOS à organização da Hyla (organizationId 6831faac-31cc-4259-b82d-b1e08922984f confirmado) — duas chaves client_id/client_secret diferentes testadas, ambas retornaram 403 'explicit deny in an identity-based policy' em GET /v1/google/ads/campaigns. Parece bug/config de permissão do lado da V4MOS, não erro de organizationId. Escalar para o time interno/dev da V4MOS com o client_id e o erro exato.",
+      "Data confirmada da próxima reunião (pesquisa de mercado) — citada como ~25-26/06/2026, ao retorno da viagem à Alemanha"
+    ]
+  },
+  "connectors": {
+    "fetched_at": null,
+    "workspace_id": null,
+    "integrations": {}
+  },
+  "progress": {
+    "current_week": 3,
+    "proxima_reuniao": "2026-07-17 (sexta), 14h30 — mídia paga + comercial (cliente oculto) combinados na mesma reunião",
+    "cronograma_dpmv": {
+      "semana_1": "Kick-off (concluído em 16/06/2026)",
+      "semana_2": "Pesquisa de mercado — TAM/SAM/SOM, concorrentes, ICP, PUV (concluído)",
+      "semana_3": "Diagnóstico de marketing — mídia paga, criativos, orgânico IG, identidade visual, CRO (concluído em 08/07/2026, skills ee-s2-*)",
+      "semana_4": "Diagnóstico comercial / cliente oculto — funil de vendas e associados — MUDANÇA CONFIRMADA: será entregue JUNTO com a apresentação de mídia paga na reunião de 17/07, não mais como etapa separada. Diagnóstico de mídia (ee-s2-diagnostico-midia) já está pronto desde 08/07; falta a parte comercial (ee-s4-diagnostico-comercial).",
+      "semana_5": "Consolidação do plano de ação (3 e 12 meses)",
+      "nota": "Criativos e landing page foram propositalmente empurrados para o fim do cronograma por causa da possível mudança de identidade visual global — RESOLVIDO: nova identidade internacional confirmada, lançamento oficial ao Brasil em workshop 13/08/2026. Reunião de design (S3, 08/07) foi separada do diagnóstico de mídia por decisão do Lucas durante a própria call ('o da Natália ficou completíssimo, vou fazer mídia paga junto com comercial semana que vem') — ou seja, a sequência original (S3=marketing completo, S4=comercial) foi comprimida: mídia paga (preparada mas não apresentada ainda) + comercial serão apresentados juntos em 17/07."
+    },
+    "skills": {
+      "ee-s1-diagnostico-maturidade": {
+        "status": "completed",
+        "version": 1,
+        "started_at": "2026-06-22T00:00:00-03:00",
+        "completed_at": "2026-06-22T00:00:00-03:00",
+        "nota": "Score geral 3,6/10 (estimado, sem V4MOS). Pilares mais fracos: CRM (2/10) e Dados (2/10). Recomendação: priorizar ee-s3-crm-setup, que já está liberada no roadmap."
+      },
+      "ee-s1-swot": {
+        "status": "completed",
+        "version": 2,
+        "started_at": "2026-06-22T00:00:00-03:00",
+        "completed_at": "2026-06-26T00:00:00-03:00",
+        "nota": "v2 (26/06): incorporados benchmark do canal de associados França (F10, Fr9, O10), e concorrentes Rainbow (A4 refinada) e Vivenso/Pro-Aqua (A7 nova, preço corrigido pra R$6.500-9.990) e oportunidade de locação (O9). Alavanca prioritária mantida e reforçada: recrutamento de associadas resolve o gargalo de capacidade de demonstração (Fr3) e o subaproveitamento do funil (Fr6), agora com 5 mecanismos concretos da Hyla França como caminho de execução, não só hipótese."
+      },
+      "ee-s1-persona-icp": {
+        "status": "completed",
+        "version": 1,
+        "started_at": "2026-06-22T00:00:00-03:00",
+        "completed_at": "2026-06-22T00:00:00-03:00",
+        "nota": "4 ICPs mapeados (decisora doméstica, funcionária/governanta, candidata a associada, PJ). Ponto de alavancagem identificado: capacidade de demonstração via associados pode valer mais que mídia paga. Honesty alert sobre dados de funil sem CRM confiável."
+      },
+      "ee-s1-auditoria-comunicacao": {
+        "status": "completed",
+        "version": 1,
+        "started_at": "2026-06-22T00:00:00-03:00",
+        "completed_at": "2026-06-22T00:00:00-03:00",
+        "nota": "13 touchpoints auditados. Achado principal: Instagram Business de recrutamento (@hyladobrasilbusiness) está subutilizado (D+) exatamente onde a SWOT apontou a maior alavanca. Google Meu Negócio nunca mencionado — status desconhecido, prioridade alta."
+      },
+      "ee-s2-pesquisa-mercado": {
+        "status": "completed",
+        "version": 3,
+        "started_at": "2026-06-22T00:00:00-03:00",
+        "completed_at": "2026-06-26T00:00:00-03:00",
+        "nota": "v3 (26/06): refeita usando o framing de mercado do PLANO_DE_NEGOCIOS_HYLA_2026.md (3 segmentos: Wellness US$96bi, Alergias/OMS, Limpeza R$38,1bi) verificado com fontes externas (Global Wellness Institute, ABIPLA/Euromonitor, OMS) + camada complementar de segmentação por classe de renda (mantida das versões anteriores). 1 dado do plano interno NÃO verificado (Campinas +87,8% atendimentos por alergia) — flagado, não usar até confirmação do cliente. Nova triangulação: ticket Hyla é 1,6-1,9x o gasto per capita em wellness (plausível) e 67-81x o gasto per capita em limpeza (confirma que não compete em 'limpeza'). v2 (26/06): SAM corrigido para alcance nacional (15-21M, ≈ TAM) a pedido do operador."
+      },
+      "ee-s2-posicionamento": {
+        "status": "completed",
+        "version": 1,
+        "started_at": "2026-06-22T00:00:00-03:00",
+        "completed_at": "2026-06-22T00:00:00-03:00",
+        "nota": "Território de marca definido: saúde respiratória doméstica, não limpeza/conforto genéricos. PUV dupla (consumidor final + candidata a associada). Alerta operacional registrado: não reforçar demonstração gratuita na comunicação sem antes resolver capacidade de associados (Fr3 da SWOT)."
+      },
+      "ee-s2-diagnostico-midia": {
+        "status": "completed",
+        "version": 2,
+        "started_at": "2026-07-07T00:00:00-03:00",
+        "completed_at": "2026-07-16T22:30:00-03:00",
+        "nota": "v2 (16/07): incorporado o benchmark internacional de associados/mídia (Alemanha, Bélgica, EUA, França) e o achado do diagnóstico comercial (handoff quebrado no funil). Reestruturação de budget validada com o operador: concentrar consumo em SP + campanha de recrutamento nacional separada, financiada redirecionando a campanha WPP (sem pedir aumento de investimento) — pré-requisito: validar com cliente oculto em SP se o handoff funciona em praça de cobertura densa. v1 (08/07): achado central nenhum dos 3 eventos GA4 candidatos a lead dispara no formulário — CPL/CAC do Google não mensuráveis até evento dedicado ser implementado."
+      },
+      "ee-s2-diagnostico-criativos": {
+        "status": "completed",
+        "version": 1,
+        "started_at": "2026-07-08T00:00:00-03:00",
+        "completed_at": "2026-07-08T15:31:28Z",
+        "nota": "Baseado na apresentação de design da Natália Terciotti (S3, 08/07) — PPT + transcrição da reunião ao vivo. Cobre só a seção de tráfego pago (2 criativos avaliados, score médio 16,5/25, ambos 'otimizar' — falta CTA e marca discreta). O restante do material (identidade orgânica IG, concorrentes, site, landing page) ainda não foi processado — deve alimentar ee-s2-diagnostico-organico-ig, ee-s2-diagnostico-cro e ee-s3-identidade-visual. Reunião também revelou: site foi hackeado recentemente (bloqueou campanhas Google, já resolvido) e o próprio Lucas (coordenador V4) repassou ao cliente, ao vivo, o achado de tracking já registrado em ee-s2-diagnostico-midia (page_view contado como conversão boa) — mostrando que o diagnóstico já está sendo operacionalizado. Lançamento oficial da nova identidade internacional confirmado para 13/08/2026 — pode desbloquear ee-s3-identidade-visual."
+      },
+      "ee-s2-diagnostico-cro": {
+        "status": "completed",
+        "version": 1,
+        "started_at": "2026-07-08T00:00:00-03:00",
+        "completed_at": "2026-07-08T17:04:08Z",
+        "nota": "Baseado em PageSpeed Insights real (PDFs completos, lab+campo, home e landing page) + export GA4 de páginas, fornecidos pelo operador. Achado técnico principal: LP reprova CWV reais (LCP 4,1s) por causa de 2,18MB de JS não usado; home está pior ainda (LCP lab 21,1s). Achado mais grave: 150+ URLs de spam (/3ytn/) no tráfego do GA4, resíduo do hackeamento do site já mencionado pelo time — tratado como prioridade máxima, acima de qualquer otimização de conversão. HSTS desativado (max-age=0), sem CSP/X-Frame-Options."
+      },
+      "ee-s3-identidade-visual": {
+        "status": "completed",
+        "version": 1,
+        "started_at": "2026-07-08T00:00:00-03:00",
+        "completed_at": "2026-07-08T16:10:07Z",
+        "nota": "Desbloqueado — a conferência da matriz já definiu a nova identidade (quiet luxury/lifestyle), workshop de lançamento oficial confirmado para 13/08/2026. Este output é PRELIMINAR: conceito, diretrizes de forma e regras de aplicação (dos/don'ts) baseados na análise de Natália Terciotti do site internacional — paleta de cores, tipografia e logo oficiais NÃO estão definidos (virão da matriz em 13/08). Revisar assim que o manual oficial chegar."
+      },
+      "ee-s3-brandbook": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-landing-page": {
+        "status": "in_progress",
+        "version": 1,
+        "started_at": "2026-07-21",
+        "completed_at": null,
+        "nota": "Rascunho de copy salvo em outputs/ee-s3-landing-page.json + .md, aguardando aprovação do operador antes de gerar código/deploy. Empurrado para o fim do cronograma originalmente por decisão conjunta com o cliente (possível rebranding global) — copy não depende do manual de marca oficial (13/08), só a aplicação visual depende."
+      },
+      "ee-s3-copy-anuncios": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-criativos-anuncios": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null,
+        "nota": "Cliente pediu explicitamente para não usar IA de forma genérica em criativos/LP finais."
+      },
+      "ee-s3-crm-setup": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null,
+        "nota": "Oportunidade clara: hoje não há CRM/automação de pós-venda nem nutrição de leads."
+      },
+      "ee-s3-forecast-midia": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-gmb-otimizacao": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s4-diagnostico-comercial": {
+        "status": "completed",
+        "version": 2,
+        "started_at": "2026-07-16T00:00:00-03:00",
+        "completed_at": "2026-07-17T14:00:00-03:00",
+        "nota": "v2 (17/07): incorporado 2º teste de cliente oculto (Nicolas/Simone, 12/06-05/07) que muda a causa do gargalo — não é mais 'falta follow-up' genérico, são 2 causas distintas: (1) handoff quebrado quando o lead passa pela triagem central (Cleiton, 0 follow-up); (2) mesmo com follow-up humano funcionando (associada Simone, 3 contatos em 3 semanas), falta mecanismo estruturado de agendamento — promessas vagas nunca viram data travada. v1 (16/07): gargalo identificado no handoff 'associada confirmada' → 'demonstração agendada' com 1º teste real."
+      },
+      "ee-s4-cliente-oculto": {
+        "status": "completed",
+        "version": 2,
+        "started_at": "2026-07-16T00:00:00-03:00",
+        "completed_at": "2026-07-17T14:00:01-03:00",
+        "nota": "v2 (17/07): nota geral ajustada para 3,6/10 com o 2º caso (Nicolas/Simone) — mostra que follow-up humano genuíno acontece (3 contatos em 3 semanas) quando a associada certa está engajada, mas mesmo assim a demonstração não é agendada por falta de mecanismo estruturado. Achado novo mais importante: o problema não é só cultura de atendimento, é ausência de processo de marcação de data. v1 (16/07): nota 3,2/10, baseada só no teste com o Cleiton (zero follow-up)."
+      },
+      "ee-s2-diagnostico-organico-ig": {
+        "status": "completed",
+        "version": 1,
+        "started_at": "2026-07-08T00:00:00-03:00",
+        "completed_at": "2026-07-08T16:10:07Z",
+        "nota": "Diagnóstico qualitativo baseado na análise de design (Natália) + complemento de social media (Geovanna) da reunião S3. Seguidores usam números já estabelecidos em pesquisas anteriores (Hyla ~47-49k, Rainbow ~19k, Vivenso ~25k) — sem acesso à API do Instagram, então engajamento/formato/cadência ficaram marcados como indisponíveis. Completar com dados reais exigiria export do Instagram Insights, como foi feito para o diagnóstico de mídia."
+      }
+    }
+  },
+  "history": [
+    {
+      "ts": "2026-07-17T14:00:00-03:00",
+      "skill": "ee-s4-diagnostico-comercial",
+      "checkpoint": 2,
+      "decision": "Operador adicionou um 2º teste de cliente oculto com transcrição completa (base-de-conhecimento/cliente-oculto-nicolas-02.md — Nicolas testando em Londrina/PR, 12/06 a 05/07/2026, atendido diretamente por uma associada, Simone, baseada em Curitiba), em contraste com o 1º teste (Lucas, 22/06, via triagem central/Cleiton). Diferença chave: Simone recontatou o lead por conta própria em 3 momentos ao longo de 3 semanas (18/06, 04/07, 05/07), sem nenhuma cobrança — o oposto do silêncio total do Cleiton. Mas o resultado final é o mesmo nos dois casos: nenhuma demonstração foi agendada. Isso refina a causa do gargalo de 'falta de follow-up genérico' para 2 causas específicas e distintas: (1) handoff inconsistente — o lead morre quando passa pela triagem central antes de chegar numa associada; (2) ausência de mecanismo estruturado de agendamento — mesmo com follow-up humano funcionando bem, a marcação da visita fica em promessas vagas ('estarei na região nas próximas semanas'), nunca uma data travada. Achado extra revelado por Simone, sem ser perguntada: já existe uma representante local em treinamento em Londrina, ainda não liberada para demonstrações — confirma que a cobertura está sendo construída, só não está pronta, e que a cobertura atual depende de deslocamento de associadas de outras cidades. ee-s4-diagnostico-comercial e ee-s4-cliente-oculto revisados para v2 incorporando esse segundo caso: novo critério de avaliação 'consistência do handoff entre canais' (nota 3/10), critérios de follow-up divididos por caminho de entrada, nota geral do cliente oculto ajustada de 3,2 para 3,6/10, e novo item de ação recomendado (mecanismo de agendamento estruturado, não negociação aberta por WhatsApp). Mantida a recomendação já registrada em ee-s2-diagnostico-midia de testar cliente oculto em São Paulo — os 2 testes documentados até aqui são ambos da mesma região de cobertura fraca (Londrina), ainda não sabemos se o mesmo padrão se repete em praça densa. Outputs atualizados: ee-s4-diagnostico-comercial.json/.md e ee-s4-cliente-oculto.json/.md (ambos v2). Portal re-renderizado."
+    },
+    {
+      "ts": "2026-07-16T22:30:00-03:00",
+      "skill": "ee-s2-diagnostico-midia",
+      "checkpoint": 2,
+      "decision": "Operador trouxe uma tese estratégica própria para validação antes de incorporar o benchmark internacional: investir em mídia paga para captura de lead de consumidor final não é boa estratégia agora, dado o número limitado e pouco espalhado de associadas — se for investir em captura, concentrar em São Paulo capital; já para awareness/recrutamento, a geografia é indiferente, podendo investir no Brasil todo, inclusive para abrir novos clusters de associados. Prioridade: crescer o número de associadas primeiro (via mídia paga de recrutamento), para só depois investir em captura de lead para elas. Avaliação do assistente: concordância com a tese central, com 3 refinamentos registrados — (1) não zerar investimento fora de SP, reduzir e realocar, para não acelerar a saída de associadas já ativas em outras praças (risco de piorar a volatilidade já apontada na SWOT Fr3); (2) 'awareness geograficamente indiferente' na prática precisa ser uma campanha de recrutamento dedicada (público/criativo/CTA distintos, persona Beatriz não Márcia), não a mesma campanha de consumo sem segmentação — e mesmo assim priorizando praças com alguma estrutura de suporte já existente, não uniformemente todo o Brasil; (3) toda a evidência de campo do handoff quebrado no funil comercial (ee-s4-diagnostico-comercial) veio de Londrina, praça sem cobertura ativa — recomendado testar cliente oculto em SP antes de comprometer a reestruturação de budget, para descartar que o problema seja de processo/CRM em vez de só geografia. Operador aprovou a linha de raciocínio. ee-s2-diagnostico-midia revisado para v2 incorporando: benchmark internacional (Alemanha, Bélgica, EUA, França — outputs/benchmark-internacional-associados-e-midia.md, destaque: Instagram Brasil já tem mais seguidores que a França, mas vende 1/3 por associada), reestruturação de budget em duas frentes (consumo concentrado em SP + recrutamento nacional financiado cortando a campanha WPP, sem pedir aumento de investimento) e 2 novos itens no plano de ação (cliente oculto em SP como pré-requisito P1; estruturar campanha de recrutamento separada como P2, testando o formato 'embaixadora digital' via @hyladobrasilbusiness). Outputs atualizados: ee-s2-diagnostico-midia.json (v2) + .md. Portal re-renderizado."
+    },
+    {
+      "ts": "2026-07-16T22:00:00-03:00",
+      "skill": "ee-s4-diagnostico-comercial",
+      "checkpoint": 1,
+      "decision": "Gerado às vésperas da reunião de 17/07 (mídia paga + comercial combinados), a partir de evidência de campo real, não estimativa: teste de cliente oculto documentado em transcrição de WhatsApp (base-de-conhecimento/chat-whatsapp-hyla-do-brasil-cliente-oculto-01.txt, operador simulando cliente em Londrina/PR em 22/06/2026) + relato do operador sobre testes adicionais (outros números na mesma região + 1 teste cego em região distinta, sem transcrição própria). Achado central: o funil comercial não quebra nas etapas óbvias (velocidade de resposta: 6min; coleta de endereço e confirmação de associada disponível: 3min — ambas saudáveis) — quebra especificamente no handoff entre 'associada confirmada' e 'demonstração com data/horário travado'. No teste documentado, Cleiton perguntou 'qual dia e horário fica melhor' às 14:29 de 22/06 e nunca mais houve contato — 23+ dias de silêncio até a data deste diagnóstico. 0 de 3+ testes reais avançou desse ponto exato, em condições diferentes (regiões e pessoas diferentes fazendo o contato inicial), o que é sinal forte mesmo com amostra pequena (documentado com honesty_alert explícito sobre o tamanho da amostra). Contexto agravante: Londrina — mercado que o próprio Cleiton descreveu como 'gigantesco' — tem hoje uma única associada ativa, afastada por licença-maternidade, sem redundância; o bot/Cleiton confirmou 'temos associadas em sua região' sem clareza se isso reflete disponibilidade real checada na hora. Objeções reaproveitadas da biblioteca já validada em ee-s1-persona-icp (preço, desconhecimento de marca, autoridade do cônjuge, resistência da funcionária) — não reinventadas. Critérios de qualificação (5 a 1-2 estrelas) propostos como recomendação nova, ancorados no ICP já definido, com o critério 3 estrelas desenhado especificamente em torno do caso Londrina (não prometer disponibilidade sem checar cobertura real). Recomendação central de ação: fechar o handoff específico (follow-up automático + dono definido) antes de qualquer outra intervenção de funil — é o ponto de maior potencial de recuperação de conversão identificado até agora no projeto. Outputs salvos em outputs/ee-s4-diagnostico-comercial.json + .md. Desbloqueia ee-s4-cliente-oculto (dependência satisfeita)."
+    },
+    {
+      "ts": "2026-07-16T22:00:01-03:00",
+      "skill": "ee-s4-cliente-oculto",
+      "checkpoint": 1,
+      "decision": "Gerado imediatamente após ee-s4-diagnostico-comercial, reaproveitando a mesma evidência de campo (WhatsApp real de 22/06/2026). Nota geral 3,2/10 (crítico) — não por atendimento inicial ruim (resposta em 6min, coleta de endereço sem fricção, tom profissional: notas 7-8/10 nesses critérios), mas porque o produto final do teste — uma demonstração agendada — nunca aconteceu (nota 0/10 em 'agendamento efetivo' e 0/10 em 'follow-up/persistência', após 23+ dias de silêncio desde a última mensagem em 14:29 de 22/06). Perfil de comprador simulado documentado como decisora com perfil próximo ao ICP primário, postura de cliente real (sem follow-up ativo do lado do comprador, só esperou). 3 recomendações de SDR IA mapeadas, todas atacando o mesmo ponto do handoff já identificado no diagnóstico comercial (follow-up automático pós-confirmação, handoff rastreável com dono definido via CRM/Kommo quando ee-s3-crm-setup for implementado, e verificação de cobertura regional em tempo real antes de prometer disponibilidade). honesty_alert registrado deixando claro que é 1 teste com transcrição completa + relatos verbais corroborantes, não uma auditoria estatística do volume total de leads. Outputs salvos em outputs/ee-s4-cliente-oculto.json + .md. Ambas as skills (comercial + cliente oculto) prontas a tempo para a reunião de 17/07."
+    },
+    {
+      "ts": "2026-07-08T18:45:00-03:00",
+      "skill": "ad-hoc-benchmark-internacional-associados-midia",
+      "checkpoint": 1,
+      "decision": "A pedido do operador, para embasar o plano de ação de mídia paga e a estratégia de investimento no canal de associados (reunião de 17/07), pesquisado como as operações da Hyla em outros países atraem novos associados e o que fazem em mídia paga. Cobertos Alemanha, Bélgica e EUA (complementando o benchmark francês já existente). Achados principais: os 3 mercados novos confirmam múltiplos pontos de entrada de recrutamento simultâneos (não um único perfil-alvo como o Brasil hoje) e mensagem universal de 'sem risco/sem experiência'; Bélgica confirma um segundo caso (além da França) de papel formal 'embaixadora digital/redes sociais' sem demonstração presencial — deixa de ser hipótese isolada da França. Sobre mídia paga: não foi possível acessar a Meta Ad Library diretamente (bloqueio técnico) nem encontrar case público de investimento pago em nenhum país — usados sinais indiretos (seguidores Instagram). Achado que chama atenção: a conta oficial do Brasil (~47-49 mil seguidores) já tem MAIS seguidores que a conta oficial da França (~14 mil) — reforça que o gargalo de crescimento do Brasil não é audiência/mídia, é estrutura do canal de associados, consistente com SWOT Fr3 e o benchmark francês já registrado. Documento salvo em outputs/benchmark-internacional-associados-e-midia.md. Não incorporado a ee-s2-diagnostico-midia, ee-s1-swot ou outros outputs já salvos — material de apoio para a reunião de 17/07, aguardando aprovação do operador."
+    },
+    {
+      "ts": "2026-07-08T18:15:00-03:00",
+      "skill": "ee-revisao-semanal",
+      "checkpoint": 2,
+      "decision": "Pendência aberta na revisão semanal (checkpoint 1) resolvida via pesquisa web: confirmado que o modelo de 'conselheira digital' francesa (venda via link/cupom próprio, sem demonstração presencial) é um programa OFICIAL e estruturado pela Hyla França/Evolution — não um exemplo isolado. Evidências: 'Respire' é descrita publicamente como 'a primeira equipe digital da Hyla, fundada há mais de 18 meses', com fundadora identificável (Aurélie Martin); as páginas de conselheiras digitais seguem um padrão de URL templatizado (hylashop.com/pages/conseillere-digital-[nome]-[região]), confirmado em pelo menos 2 exemplos independentes. NÃO foi possível confirmar quantas das ~300 conselheiras francesas atuam nesse modelo especificamente, nem a proporção de vendas geradas por ele — essa métrica não é pública; se relevante para decisão de investimento, precisa ser perguntada direto à matriz (sugestão: no workshop de 13/08). Adendo registrado em outputs/canal-associados-benchmark-franca.md (seção 7). Pendência da Semana 3 encerrada."
+    },
+    {
+      "ts": "2026-07-08T17:04:08-03:00",
+      "skill": "ee-s2-diagnostico-cro",
+      "checkpoint": 1,
+      "decision": "Diagnóstico de CRO gerado com dados técnicos reais fornecidos pelo operador: PageSpeed Insights completo (PDFs lab+campo, mobile+desktop) para a home institucional E para a landing page de anúncios, mais export do GA4 'Páginas e telas' (período completo e últimos 90 dias). Estrutura/copy da landing page extraída diretamente do HTML pelo assistente (WebFetch + curl), sem precisar pedir ao operador. Achado técnico: a landing page (score 43-44/100) reprova nas Core Web Vitals reais (LCP 4,1s) por causa de 2,18MB de JavaScript não utilizado; a home institucional está pior ainda (score 20/100 mobile, LCP de laboratório de 21,1 segundos, CLS de 0,586 em desktop). Tempo médio de engajamento na LP é de só ~4 segundos (GA4), usado como proxy de conversão já que não há evento de lead confiável (ver ee-s2-diagnostico-midia). Achado mais grave e não solicitado pelo operador: o export do GA4 revelou mais de 150 URLs de spam (pasta /3ytn/, temas aleatórios sem relação com o negócio, alguns de conteúdo adulto) recebendo tráfego residual — bate diretamente com o relato do hackeamento do site (conteúdo de apostas/cassino) que o Cleiton mencionou na reunião de design do mesmo dia. Tratado como achado de segurança prioritário, acima de qualquer otimização de conversão, com ação recomendada específica (confirmar limpeza completa, varredura de malware, remoção de URLs no Search Console). Também identificado: HSTS presente mas com max-age=0 (efetivamente desativado), sem CSP, sem X-Frame-Options, 22-23 requisições HTTP inseguras. Operador não deu hipóteses/objetivo específico ('fique à vontade para elaborar os próprios') — 5 hipóteses de teste e 5 melhorias de wireframe foram elaboradas pelo assistente, priorizando resolver segurança e performance antes de qualquer teste de copy/layout. Outputs salvos em outputs/ee-s2-diagnostico-cro.json + .md. Alimenta ee-s3-landing-page e ee-s3-forecast-midia."
+    },
+    {
+      "ts": "2026-07-08T18:00:00-03:00",
+      "skill": "ee-revisao-semanal",
+      "checkpoint": 1,
+      "decision": "Revisão semanal de fim de Semana 3. Não gera output/deliverable (skill operacional). Duas ações: (1) validar transcrições de reunião em busca de pendências não capturadas nos outputs; (2) registrar a mudança de cronograma confirmada pelo operador (comercial + mídia paga combinados na próxima reunião). Cronograma atualizado: current_week avançado para 3, proxima_reuniao registrada como 17/07 14h30 (mídia paga + comercial/cliente oculto juntos), cronograma_dpmv.semana_4 anotado com a mudança e a razão (Lucas decidiu ao vivo na reunião S3 de design separar a apresentação de mídia da de design, e depois juntar mídia com comercial). Achados da checagem cruzada na transcrição [S2] Pesquisa de Mercado (30/06, 2306 linhas, lida por amostragem — seções de abertura, correção ao vivo de PUV, análise de concorrentes, cálculo de TAM/SAM/SOM e fechamento): (a) os números apresentados ao vivo por Lucas (TAM 14,2M domicílios classe A/B, meta 150 máquinas/mês = R$23,9M, penetração <0,01%) batem exatamente com o que já está salvo em outputs/ee-s2-pesquisa-mercado.json v3 — sem inconsistência, só framing verbal diferente (domicílios vs pessoas) para o mesmo cálculo; (b) a correção ao vivo do Davi/Fábio sobre a descrição técnica do produto ('separador autolimpante', 'única tecnologia europeia', água como único elemento filtrante) já está corretamente refletida em ee-s2-posicionamento.json — nenhuma ação necessária; (c) PENDÊNCIA REAL ENCONTRADA: na reunião, Davi pediu explicitamente para o Lucas validar ('fica de lição de casa') se o modelo de 'embaixadora digital' francesa (associada que vende via link/cupom próprio nas redes sociais, sem demonstração presencial, ex: rilashop.com) é um padrão disseminado entre os ~300 conselheiros franceses ou só um exemplo isolado que ele encontrou — essa validação quantitativa específica NÃO foi feita ainda; o documento canal-associados-benchmark-franca.md (22-26/06) já cobre esse modelo qualitativamente mas não responde 'quantas pessoas fazem isso'. Registrado aqui como pendência aberta para o Lucas antes da reunião de 17/07, não resolvida por esta revisão (não há como verificar isso sem nova pesquisa). Transcrições S1 (kick-off) e reuniões comerciais (15/05, 19/05) não foram relidas nesta revisão — já extensivamente processadas em rodadas anteriores com múltiplas entradas de histórico cada."
+    },
+    {
+      "ts": "2026-07-08T16:10:07-03:00",
+      "skill": "ee-s3-identidade-visual",
+      "checkpoint": 1,
+      "decision": "Operador autorizou processar o restante do material da apresentação de design (organico-ig e identidade-visual foram liberados; ee-s2-diagnostico-cro fica pendente porque o operador vai complementar com outras análises). Identidade visual gerada como conceito PRELIMINAR a partir da análise de Natália sobre o site internacional já publicado pela Hyla: territorio 'quiet luxury'/lifestyle (referências Bang & Olufsen, Aesop, Gaggenau), diretrizes de forma (espaço negativo, baixa densidade, uma mensagem por peça) e regras de aplicação (dos/don'ts) bem documentadas. Paleta de cores exata, tipografia oficial e logotipo foram deliberadamente OMITIDOS (não inventados) — a matriz confirmou na reunião que vai entregar esses ativos em workshop de lançamento oficial em 13/08/2026; este documento deve ser revisado quando isso acontecer. Skill estava marcada como bloqueada no roadmap desde o kick-off (aguardando a conferência da matriz) — desbloqueada porque a definição já saiu. Output salvo em outputs/ee-s3-identidade-visual.json + .md."
+    },
+    {
+      "ts": "2026-07-08T16:10:07-03:00",
+      "skill": "ee-s2-diagnostico-organico-ig",
+      "checkpoint": 1,
+      "decision": "Diagnóstico orgânico do Instagram gerado a partir da análise de design da Natália + complemento de social media da Geovanna (reunião S3, 08/07). Conteúdo qualitativo rico e real: pontos fortes já existentes (fotografia diferenciada, resposta a comentários, bio bem estruturada, volume de vídeos de associados), oportunidades (destaques desatualizados, excesso de influenciadores nos stories, identidade que desaparece em datas comemorativas, mudança do Instagram para 'vídeo-primeiro' já em beta). Métricas quantitativas (engajamento por post, distribuição de formato, cadência, top/bottom posts) marcadas como indisponíveis — sem acesso à Instagram Graph API nesta rodada; seguidores usaram números já estabelecidos em pesquisas anteriores do projeto (Hyla ~47-49k, Rainbow ~19k, Vivenso ~25k), não reverificados. Sinalizado que, para completar com dados reais, seria necessário um export do Instagram Insights, no mesmo espírito do que o operador já forneceu para o diagnóstico de mídia paga. Output salvo em outputs/ee-s2-diagnostico-organico-ig.json + .md."
+    },
+    {
+      "ts": "2026-07-08T15:31:28-03:00",
+      "skill": "ee-s2-diagnostico-criativos",
+      "checkpoint": 1,
+      "decision": "Diagnóstico de criativos gerado a partir da apresentação de design da Natália Terciotti (designer V4/SCN&Co) na reunião S3 de 08/07/2026 — PPT 'HYLA DO BRASIL - DPMV - DESIGN.pptx' + narração completa (TEXTO HYLA DIAGNOSTICO DESIGN.md) + transcrição da reunião ao vivo, todos subidos pelo operador à base-de-conhecimento. Apresentação foi muito bem recebida pelo cliente ('achei perfeito, cara' — Cleiton; 'esse site é incrível' — Davi/Fábio sobre referências). Conteúdo real é bem mais amplo que o escopo desta skill: cobre nova identidade visual internacional da Hyla (mudança de posicionamento de 'mostrar o produto limpando' para linguagem 'quiet luxury' de lifestyle/bem-estar, referências Bang & Olufsen/Aesop/Gaggenau), análise de concorrentes (Rainbow, Vivenso) no Instagram orgânico, análise do perfil da própria Hyla, recriação de um post de Dia das Mães na nova identidade, análise do site institucional e da landing page — além da seção de criativos de tráfego pago (2 avaliados em detalhe, score médio 16,5/25, ambos 'otimizar': falta CTA explícito e marca pouco presente nos dois). Optei por gerar o output só da seção de tráfego pago (escopo desta skill) e sinalizar que o restante do material (rico e aprovado) precisa alimentar ee-s2-diagnostico-organico-ig, ee-s2-diagnostico-cro e ee-s3-identidade-visual — aguardando confirmação do operador antes de processar essas partes. Achado relevante da reunião, fora do escopo de design: o próprio coordenador da V4 (Lucas Calefi, que conduz este projeto) já repassou ao cliente, ao vivo na reunião, o achado de tracking registrado em ee-s2-diagnostico-midia (page_view contado como 'conversão boa' no Google Ads) — ou seja, o diagnóstico de mídia já chegou ao cliente por essa via, não é uma confirmação de fonte externa independente. Revelou-se também que o site foi hackeado recentemente (conteúdo de apostas/cassino injetado via WordPress, chegou a bloquear as campanhas do Google — já resolvido) e que as tags não estão centralizadas no GTM (Analytics isolado). Também confirmado: a definição da nova identidade internacional já aconteceu (conferência da matriz na Alemanha) e o lançamento oficial ao Brasil está marcado para workshop em 13/08/2026 — isso pode desbloquear ee-s3-identidade-visual, hoje marcada como bloqueada no roadmap. Outputs salvos em outputs/ee-s2-diagnostico-criativos.json + .md."
+    },
+    {
+      "ts": "2026-07-08T14:38:32-03:00",
+      "skill": "ee-s2-diagnostico-midia",
+      "checkpoint": 1,
+      "decision": "Diagnóstico de mídia paga gerado com dados reais (exports manuais de Google Ads + Meta Ads, jan-jul/2026, subidos pelo operador à base-de-conhecimento) — sem V4MOS, ainda bloqueado. Investigação em várias rodadas com o operador revelou o achado central do diagnóstico: nenhum dos 3 eventos GA4 candidatos a sinal de lead do Google (form_submit, ads_conversion, contact) dispara no envio do formulário de demonstração — confirmado em teste ao vivo repetido em 2 landing pages com Google Tag Assistant e GA4 DebugView, e reforçado por dados agregados do GA4 (relatório de páginas por evento) mostrando que form_submit e ads_conversion são majoritariamente ruído de outras páginas (recuperação de senha, carrinho, checkout de acessório), e que contact, apesar de concentrar 92,6% dos disparos nas páginas certas, não disparou no teste ao vivo (hipótese: é o clique no botão de WhatsApp, não o formulário). Consequência: CPL/CAC do Google não são mensuráveis com confiança há pelo menos os 6 meses do período analisado — as 4 metas de conversão da conta (Compra, Carrinho, Lead, Contato) competem pelo mesmo lance automático sem nenhuma medir o que importa, o que pode explicar por que dobrar o orçamento no passado não dobrou o resultado (kick-off). Outros 2 achados: budget de busca do Google concentrado no cluster genérico 'aspirador de pó' (10x mais investimento que o cluster de saúde/alergia, invertendo o território definido em ee-s2-posicionamento); 82,5% do budget Google em mobile, dispositivo com instabilidade técnica já reconhecida em ee-s1-diagnostico-maturidade. Meta Ads está em situação melhor — otimiza corretamente para o objetivo nativo 'Leads' — mas com campanha 'Conversão WPP' 10x mais cara por lead (R$321) que a melhor (R$30,81), e salto de leads em 17/06 não explicado por mudança de campanha (hipótese de mudança de tracking no site, coincide com aceleração do evento contact). Plano de ação: implementar e validar evento de conversão dedicado ao formulário (P1, prioridade máxima) antes de qualquer decisão de aumento de budget no Google. Cenário de realocação recomendado usa só o Meta como base numérica confiável (220 leads/mês, CPL R$34) até o Google ficar mensurável. Outputs salvos em outputs/ee-s2-diagnostico-midia.json + .md. Desbloqueia ee-s2-diagnostico-cro (já com achado da intersecção mobile) e ee-s3-forecast-midia (aguardando o evento de conversão do Google ser corrigido antes de projetar volume real)."
+    },
+    {
+      "ts": "2026-05-15T00:00:00-03:00",
+      "skill": "ee-novo-cliente",
+      "checkpoint": 1,
+      "decision": "[1ª Reunião Comercial V4] Matheus Nunes + Davi. Davi conta a história da empresa: 17 anos de mercado, ex-vendedor da Rainbow desde os 16 anos, cisão societária recente (saída do cunhado, que fundou a 'Hyla Plus' com a mesma máquina), falecimento do pai no fim de dez/2025. Modelo: 75% vendas via demonstração/indicação tradicional, 25% via lead/mídia paga (R$14-15k/mês investidos, ~400-500 leads brutos/mês, hoje mais qualificados). Quer profissionalizar comunicação e criar personas para falar a língua certa com o cliente. Já testou dobrar budget de mídia sem resultado proporcional. Já se queimou com agência concorrente ('Acelerador de Marca') com discurso inconsistente entre reuniões. Matheus apresentou o serviço DPMV (Diagnóstico e Planejamento de Marketing e Vendas) em 5 etapas/semanas. Sem fechamento nesta call."
+    },
+    {
+      "ts": "2026-05-19T00:00:00-03:00",
+      "skill": "ee-novo-cliente",
+      "checkpoint": 2,
+      "decision": "[2ª Reunião Comercial V4 — Fechamento] Matheus Nunes + Davi, Fábio e Cleiton. Detalhamento das 5 etapas do DPMV (pesquisa de mercado/ICP/PUV, diagnóstico de marketing, diagnóstico de vendas/cliente oculto, consolidação do plano 12 meses). Davi questionou garantia de resultado — Matheus esclareceu que a garantia é sobre aplicabilidade da entrega, não sobre resultado de vendas (não é serviço de execução). Cleiton validou: 'confio demais na V4', cita o influenciador Lucas Amadeu (V4) como referência. Fábio avisou sobre a conferência mundial da marca na Alemanha (17-24/06) com possível grande mudança de identidade visual/logo — acordado começar em 16/06 para que a etapa 3 (criativos/visual) já considere as novas diretrizes. Davi e Fábio pediram explicitamente para NÃO usar IA de forma genérica em landing pages/criativos finais. Contrato fechado: R$20.000 à vista ou 12x R$2.000 no cartão (de R$39.340 de tabela)."
+    },
+    {
+      "ts": "2026-06-16T00:00:00-03:00",
+      "skill": "ee-novo-cliente",
+      "checkpoint": 3,
+      "decision": "[S1 Kick-off] Lucas Calefi Gonçalves + Geovanna Mohr (V4/SCN&Co) com Davi, Fábio, Cleiton e Gleisson ('Gon'). Cronograma de 5 semanas confirmado (kickoff → pesquisa de mercado → diagnóstico de marketing → diagnóstico comercial/cliente oculto → consolidação). Levantamento extenso de operação: produto, matemática do negócio (margem 25-30%, ticket R$12-14,5k, CAC mídia ~R$900/venda), funil C2S, comissionamento de associados, concorrentes (Rainbow, Vivenzo, Hyla Plus) e SWOT preliminar feito em tempo real. Decisão conjunta: empurrar entregáveis de identidade visual/criativos/LP para o final do cronograma por causa da conferência da matriz na Alemanha (17-24/06) que pode definir novo logo/identidade global. Próxima reunião (pesquisa de mercado) prevista para ~25-26/06, ao retorno da viagem."
+    },
+    {
+      "ts": "2026-06-22T00:00:00-03:00",
+      "skill": "ee-novo-cliente",
+      "checkpoint": 4,
+      "decision": "client.json criado com base nas 3 transcrições da base-de-conhecimento (2 reuniões de venda + kick-off S1). Cliente cadastrado no sistema com briefing extenso (operação, produto, concorrência, SWOT preliminar, ICP inicial, contrato). Sem workspace V4MOS configurado neste ambiente (pasta .credentials/ inexistente) — diagnósticos de mídia seguirão com dados do briefing até integração. Pendências levantadas para o operador confirmar: domínio oficial do site, handle exato do Instagram, nome da plataforma de e-commerce, e se há credenciais V4MOS a configurar. Próximo passo recomendado: ee-s1-persona-icp (skill raiz, já tem bastante insumo do kick-off)."
+    },
+    {
+      "ts": "2026-06-22T00:00:01-03:00",
+      "skill": "ee-novo-cliente",
+      "checkpoint": 5,
+      "decision": "Operador confirmou as pendências de ativos digitais: site oficial https://hyladobrasil.com.br/ (WordPress + WooCommerce + Elementor — operador classifica a stack como ruim/cheia de gambiarras), landing page de anúncios https://hyladobrasil.com.br/aspirador-hyla-do-brasil/, Instagram oficial https://www.instagram.com/hyladobrasiloficial/ e Instagram de associados https://www.instagram.com/hyladobrasilbusiness/. Operador relatou que já está dentro do projeto Hyla na plataforma V4MOS e perguntou como conectar — falta gerar client_id/client_secret (Settings > API de Dados no V4MOS) e localizar o workspace_id do projeto para configurar .credentials/clients.json e meta.workspace_id."
+    },
+    {
+      "ts": "2026-06-22T00:00:02-03:00",
+      "skill": "ee-novo-cliente",
+      "checkpoint": 6,
+      "decision": "Descoberto e corrigido no sistema (CLAUDE.md, AGENTS.md, scripts/v4mos_fetch.sh): a V4MOS renomeou o parâmetro de API workspaceId para organizationId (mesmo valor, nome novo) — confirmado via erro 400 WORKSPACE_ID_DEPRECATED da própria API. Operador localizou o organizationId da Hyla (6831faac-31cc-4259-b82d-b1e08922984f, razão social Hyla do Brasil Distribuidora LTDA) entrando na conta de um colega que tem acesso ao workspace na V4MOS. Testadas duas chaves client_id/client_secret diferentes (uma da conta do operador, outra gerada já no contexto do colega) contra GET /v1/google/ads/campaigns com esse organizationId — ambas retornaram 403 'explicit deny in an identity-based policy', mesmo erro obtido com um organizationId de teste inválido. Conclusão: não é erro de organizationId nem de vínculo de conta — parece bug/config de permissão do lado da V4MOS. Recomendado escalar para o time interno/dev da V4MOS com o client_id e o erro exato. meta.workspace_id preenchido com o organizationId real; nenhuma credencial salva em .credentials/ ainda (nenhuma funcionou). Diagnósticos seguem com dados do briefing até a API liberar acesso."
+    },
+    {
+      "ts": "2026-06-22T00:00:03-03:00",
+      "skill": "ee-s1-persona-icp",
+      "checkpoint": 1,
+      "decision": "4 ICPs definidos a partir do kick-off e das reuniões comerciais (sem dados V4MOS — não dependia disso): ICP 1 Decisora Doméstica (Márcia, 44, classe A, condomínio em SP, motivada por saúde/alergia, ticket R$12-14,5k); ICP 2 Funcionária/Governanta (Regina, 38, influenciadora não-decisora, pode travar a venda se não treinada); ICP 3 Candidata a Associada (Beatriz, 35, recrutamento via Instagram Business — identificada como alavanca subaproveitada); ICP 4 PJ (hotéis/teatros/limpeza, 5% do volume). Jornada de compra em 6 estágios mapeada (lead → C2S → agendamento → demonstração decisiva → fechamento → pós-venda). Biblioteca de objeções com preço como objeção universal. Ponto de alavancagem: capacidade de demonstração (associados ativos) pode ser gargalo maior que orçamento de mídia — Fábio estimou que dobrar associados (50→100) dobra a venda. Honesty alert registrado: dados de funil são estimativas verbais dos sócios, sem CRM/BI confiável (~70-75% de precisão reconhecida pela própria equipe). Output salvo em outputs/ee-s1-persona-icp.json + .md."
+    },
+    {
+      "ts": "2026-06-22T00:00:04-03:00",
+      "skill": "ee-s1-diagnostico-maturidade",
+      "checkpoint": 1,
+      "decision": "Diagnóstico de maturidade digital gerado sem dados V4MOS (API ainda bloqueada por 403, escalado) — todos os scores marcados como estimated:true, baseados em briefing e falas dos sócios. Score geral 3,6/10. Pilares: Presença 5/10, Mídia Paga 5/10, Conversão 4/10, CRM 2/10, Dados 2/10. Ponto de alavancagem: CRM e Dados são os pilares mais fracos e os que, corrigidos, tornam os outros mensuráveis — recomendado priorizar ee-s3-crm-setup (já liberada no roadmap) antes ou em paralelo com a pesquisa de mercado da semana 2, mudando a sequência padrão do cronograma. 3 prioridades de evolução registradas: CRM, resolver V4MOS + analytics próprio, e tratar o site/e-commerce (WordPress+WooCommerce+Elementor, avaliado como tecnicamente fraco) como prioridade. Output salvo em outputs/ee-s1-diagnostico-maturidade.json + .md."
+    },
+    {
+      "ts": "2026-06-22T00:00:05-03:00",
+      "skill": "ee-s1-swot",
+      "checkpoint": 1,
+      "decision": "SWOT gerada cruzando ee-s1-diagnostico-maturidade + ee-s1-persona-icp + briefing/transcrições. 8 forças (destaque: tecnologia patenteada F1, demonstração que converte 50-60% F4, comissionamento forte F6, posicionamento de saúde F7), 8 fraquezas (críticas: CRM inexistente Fr1, dados ~70-75% de precisão Fr2, capacidade de demonstração limitada a 35-50 associados ativos Fr3), 8 oportunidades (destaque: recrutar associadas a partir da própria base de clientes satisfeitas O1, benchmark Hyla França O4), 6 ameaças (destaque: Hyla Plus como concorrente interno A1, volatilidade da equipe de associadas A2, conferência da matriz A3). Alavanca prioritária: recrutamento de associadas com o mesmo rigor de funil do consumidor final resolve ao mesmo tempo o gargalo de capacidade de demonstração e o subaproveitamento do canal de recrutamento — usando a mesma audiência (clientes satisfeitas). Meta referencial: sair de ~50 para 70-100 associadas ativas sobe a venda de 70-80 para a faixa de 100-150 máquinas/mês já definida como meta pelo cliente. Output salvo em outputs/ee-s1-swot.json + .md."
+    },
+    {
+      "ts": "2026-06-22T00:00:06-03:00",
+      "skill": "ee-s1-auditoria-comunicacao",
+      "checkpoint": 1,
+      "decision": "13 touchpoints auditados a partir do relato do time (sem análise visual direta — marcado na nota metodológica). Achado principal: o Instagram Business de recrutamento (@hyladobrasilbusiness) está com grade D+, tratado como employer branding esporádico, sem formulário/funil/campanha — exatamente o canal que a SWOT já tinha apontado como maior alavanca subaproveitada. Outro achado: Google Meu Negócio nunca foi mencionado em nenhuma reunião — status desconhecido, marcado como prioridade alta (busca local e avaliações). CRM confirmado como inexistente (consistente com diagnóstico de maturidade e SWOT). Sequência de ativação de 7 passos registrada, do quick win (GMB, formulário de recrutamento) ao estrutural (CRM). Output salvo em outputs/ee-s1-auditoria-comunicacao.json + .md. Semana 1 do cronograma DPMV concluída (4/4 skills) — progress.current_week avançado para 2."
+    },
+    {
+      "ts": "2026-06-22T00:00:07-03:00",
+      "skill": "ee-s2-pesquisa-mercado",
+      "checkpoint": 1,
+      "decision": "Pesquisa de mercado com fontes externas reais (ABEVD 2024/2025, ABEP Critério Brasil 2024, IBGE população 2024, ASBAI). Contexto macro: venda direta no Brasil é mercado de R$50 bilhões/ano, +6,3%, 3,1 milhões de revendedores, 7º maior do mundo. TAM construído via classe A+B (24,7% da população, ~52,5M) × prevalência de alergia respiratória (30%, ASBAI) = 15,75M pessoas — convergente com a estimativa informal do próprio cliente (21M, citada no kick-off), validando a percepção dele. SAM restrito à Grande São Paulo (3,2-4,5M, onde já está 70% das vendas). SOM atual ~R$11,9M/ano (estimado), SOM meta R$15,9-23,9M/ano (meta já definida pelo cliente). Achado central: penetração no SAM é inferior a 0,03%/ano mesmo hoje — confirma com dados de mercado que o gargalo não é demanda, é capacidade de demonstração (mesmo ponto da SWOT, agora com números). Análise de concorrentes: Rainbow tem presença digital fragmentada (4+ sites 'oficiais' diferentes) — vulnerabilidade explorável. Correção de fato: concorrente citado como 'Vivenzo' é na verdade 'Vivenso Smartcleaner' (Pro-Aqua). Output salvo em outputs/ee-s2-pesquisa-mercado.json + .md, com fontes citadas."
+    },
+    {
+      "ts": "2026-06-22T00:00:08-03:00",
+      "skill": "ee-s2-posicionamento",
+      "checkpoint": 1,
+      "decision": "Posicionamento definido cruzando persona-icp + SWOT + pesquisa de mercado. Território de marca: 'saúde respiratória doméstica', não 'limpeza' — eixo pouco ocupado pelos concorrentes diretos (Rainbow, Vivenso) apesar de a Hyla ter o argumento técnico mais forte (separador autolimpante patenteado ataca causa, não sintoma). PUV dupla: consumidor final ('a causa da sua alergia não é a poeira que você vê' + demonstração gratuita) e candidata a associada ('você já confia no Hyla, agora pode ganhar com ele também' + comissão vitalícia). Canvas 4P completo (produto/preço/praça/promoção) com filosofia de preço de não competir por extremo (nem mais barato que Vivenso, nem mais caro que Rainbow) e sim por saúde+prova+garantia. Alerta operacional registrado: reforçar demonstração gratuita na comunicação só é seguro se a capacidade de associados acompanhar (mesmo gargalo Fr3 da SWOT) — recomendado sequenciar recrutamento de associadas antes/junto com qualquer campanha que aumente demanda por demonstração. Output salvo em outputs/ee-s2-posicionamento.json + .md. Desbloqueia ee-s2-diagnostico-cro, ee-s3-identidade-visual (ainda travada pela conferência da matriz), ee-s3-brandbook e ee-s3-copy-anuncios."
+    },
+    {
+      "ts": "2026-06-22T00:00:10-03:00",
+      "skill": "ad-hoc-pesquisa-canal-associados",
+      "checkpoint": 1,
+      "decision": "Operador pediu pesquisa profunda sobre o canal de associados da Hyla França (sites oficiais hyla.fr/hylashop.com/hyla-france-evolution.com, redes sociais, Hyla Bélgica) para entender por que ~300 conselheiros franceses vendem mais que o triplo dos ~100 associados brasileiros. Operador também subiu PLANO_DE_NEGOCIOS_HYLA_2026.md à base de conhecimento (plano de carreira real apresentado aos associados brasileiros: 5 níveis JUNIOR a EXECUTIVO, Fast Track, Acelerador de Produção, comissionamento em rede, cashback em pontos). Cruzando as duas fontes: a hipótese de 'plano de carreira fraco' não se sustentou — o plano brasileiro é tão ou mais granular que o francês. O gap real está na infraestrutura em volta do plano: (1) zero piso de renda nos primeiros meses (França tem €300/mês garantido), (2) ausência de mensagem explícita de que recrutar não tira nada do recrutado (França repete isso como garantia de confiança), (3) sem cadência formal de suporte/treinamento (França tem reunião mensal presencial + semanal por vídeo + app de treinamento), (4) sem cargo de entrada 100% remoto para quem não pode fazer demonstração presencial (França tem 'Ambassadeur/Conselheira Digital'), (5) sem infraestrutura de afiliado rastreável no e-commerce (França tem página própria + código + desconto por associada), (6) recrutamento tratado como extensão do conteúdo de venda, não como categoria própria com conteúdo dedicado e PR institucional (França usa o presidente da empresa em entrevistas na BFM Business). Documento completo salvo em outputs/canal-associados-benchmark-franca.md, com tabela de boas práticas francesas + fontes + 6 recomendações priorizadas + 3 perguntas abertas para o operador validar (inclusive uma discrepância entre o '~30%' de comissão citado verbalmente no kick-off e os 17,7% do topo do plano oficial). Ainda NÃO incorporado a ee-s1-swot ou ee-s2-posicionamento — aguardando aprovação do operador."
+    },
+    {
+      "ts": "2026-06-22T00:00:11-03:00",
+      "skill": "ad-hoc-pesquisa-concorrente-rainbow",
+      "checkpoint": 1,
+      "decision": "Operador pediu análise detalhada do concorrente Rainbow — canais e tipo de ameaça à Hyla. Achado principal: a presença digital da Rainbow é altamente fragmentada (6+ domínios 'oficiais' diferentes, 5 contas de Instagram regionais distintas), e a maior conta (@gruporainbowbrasil, 19 mil seguidores) ainda é menor que a conta única da Hyla (47-49 mil) — apesar dos 30 anos de mercado da Rainbow. Reputação pública (Reclame Aqui, Fórum da Casa, Portal da Queixa Portugal) confirma externamente o relato do próprio time da Hyla no kick-off: vendedores agressivos, ligações insistentes pós-demonstração, manutenção cara (~R$1.800), assistência técnica concentrada em SP. Preço estimado ~R$21.000 (citado pelo time da Hyla, não confirmado externamente — página de preço da Rainbow bloqueou acesso). Nenhuma evidência de mídia paga (Meta/Google Ads) de nenhum dos dois lados — padrão de categoria, não vantagem competitiva. Conclusão: ameaça real está na disputa direta na demonstração (vendedores Rainbow falam mal da Hyla na casa do mesmo cliente) e no prestígio histórico de marca — não em preço, presença digital ou recrutamento, onde a Hyla já está em vantagem. Documento salvo em outputs/concorrente-rainbow-analise.md com tabela de níveis de ameaça e recomendação de treinar associados com objeções específicas anti-Rainbow (atendimento nacional vs. concentração em SP, ausência de pressão de venda, preço mais acessível). Ainda NÃO incorporado a ee-s1-swot — aguardando aprovação do operador."
+    },
+    {
+      "ts": "2026-06-26T00:00:00-03:00",
+      "skill": "ad-hoc-pesquisa-canal-associados",
+      "checkpoint": 2,
+      "decision": "Operador perguntou se a Hyla tem programa de locação do equipamento (gatilho: bio do Instagram da Rainbow menciona 'venda, locação e assistência'). Pesquisa confirmou: Hyla do Brasil não tem nada sobre locação no site oficial; Hyla França também não tem programa oficial — existe só um mercado paralelo informal peer-to-peer (Bricolib, Kiwiiz) de donos alugando a própria máquina. Operador pediu para aprofundar primeiro no concorrente Vivenso (Pro-Aqua) antes de decidir se isso entra na SWOT."
+    },
+    {
+      "ts": "2026-06-26T00:00:01-03:00",
+      "skill": "ad-hoc-pesquisa-concorrente-vivenso",
+      "checkpoint": 1,
+      "decision": "Análise detalhada do concorrente Vivenso/Pro-Aqua, mesmo formato da análise Rainbow. Achado mais importante: CORREÇÃO DE PREÇO — a estimativa interna do kick-off (~R$12.000) está desatualizada; preço real confirmado externamente é R$6.500-9.990 (Magazine Stroebel e site institucional), ampliando o gap de preço com a Hyla (R$12.000-14.500) para 30-45%, não os ~15% assumidos até agora. Vale revisar ee-s2-pesquisa-mercado e ee-s2-posicionamento quando qualquer um citar o preço da Vivenso como referência. Outros achados: Pro-Aqua se posiciona como 'franquia de baixo investimento' (não associado independente como Hyla/Rainbow); programa de recuperar o investimento do equipamento em 90 dias com 70.000 pontos em vendas pessoais (não confirmado em primeira mão, página de franquia bloqueou acesso); Instagram com 25 mil seguidores (entre a Rainbow 19K e a Hyla 47-49K); reputação no Reclame Aqui mais limpa que a Rainbow (zero reclamações no período mais recente verificado); locação do Vivenso encontrada via empresa terceira (LOCLAV), não programa oficial da Pro-Aqua — confirma que nenhum dos três concorrentes diretos (Hyla, Rainbow, Vivenso) tem locação como programa próprio oficial, mantendo essa oportunidade aberta. Conclusão: Vivenso ameaça por preço (concorrente mais barato de verdade), não por reputação ou prestígio de marca. Documento salvo em outputs/concorrente-vivenso-analise.md. Ainda NÃO incorporado a ee-s1-swot, ee-s2-pesquisa-mercado ou ee-s2-posicionamento — aguardando aprovação do operador, junto com os achados pendentes de locação e do canal de associados França."
+    },
+    {
+      "ts": "2026-06-26T00:00:02-03:00",
+      "skill": "ee-s1-swot",
+      "checkpoint": 2,
+      "decision": "Operador pediu para complementar a SWOT (v2) com os 3 achados ad-hoc pendentes: benchmark de associados da Hyla França, concorrente Rainbow e concorrente Vivenso/Pro-Aqua. Adições: F9 (maior audiência digital entre os 3 concorrentes diretos, confirmado externamente), F10 (plano de carreira já sofisticado no papel — o problema não é o desenho do incentivo); Fr9 (infraestrutura de suporte ao associado muito mais fraca que o benchmark França: zero piso de renda, sem regra anti-conflito comunicada, sem cadência de treinamento, sem cargo remoto, sem afiliado rastreável); O9 (locação oficial — nenhum dos 3 concorrentes tem, demanda confirmada por mercados de terceiros), O10 (adotar os 5 mecanismos concretos da Hyla França); A4 refinada (Rainbow — ameaça de comportamento de venda e prestígio, não de preço/digital, onde a Hyla já vence), A7 nova (Vivenso — ameaça de preço genuíno, 30-45% mais barata, não os ~15% estimados antes; renumerados A5→A8 e A6→A9). 3 novas combinações estratégicas (F9×O10, F10×O10, Fr9×O10, Fr3×A7). Alavanca prioritária mantida (recrutamento de associadas) mas reforçada com os 5 mecanismos concretos da França como plano de execução, mais uma 4ª objeção/resposta sobre a Vivenso e o complemento de locação na meta referencial. Outputs atualizados: ee-s1-swot.json (v2) + .md. Portal re-renderizado."
+    },
+    {
+      "ts": "2026-06-26T00:00:03-03:00",
+      "skill": "ee-s2-pesquisa-mercado",
+      "checkpoint": 2,
+      "decision": "Operador contestou o recorte de SAM para São Paulo: 'não faz sentido restringir meu SAM pra SP, eu tenho revendedores no Brasil todo'. Correção aceita e aplicada — o SAM restrito (3,2-4,5M, baseado em proxy de população de SP) confundia execução (onde a venda mais acontece hoje) com endereçabilidade (até onde o modelo de negócio consegue alcançar). Como a rede de associados já cobre o Brasil todo, SAM foi corrigido para ≈ TAM nacional (15,75-21M pessoas). Penetração recalculada com o novo denominador: ~0,005%/ano (atual, antes ~0,02-0,03%) e ~0,01%/ano (meta, antes ~0,03-0,04%) — números ainda mais baixos, reforçando ainda mais a tese de que o gargalo é capacidade de demonstração (Fr3), não geografia. A concentração de 70% das vendas em SP foi reclassificada como questão de densidade de associados ativos (execução/SOM), não de limite de SAM. Aproveitou-se a revisão para também corrigir o preço da Vivenso (R$6.500-9.990) e enriquecer a tabela de concorrentes com os achados das análises ad-hoc Rainbow/Vivenso. Outputs atualizados: ee-s2-pesquisa-mercado.json (v2) + .md. Portal re-renderizado."
+    },
+    {
+      "ts": "2026-06-26T00:00:04-03:00",
+      "skill": "ee-s2-pesquisa-mercado",
+      "checkpoint": 3,
+      "decision": "Operador pediu pesquisa de mercado nova (v3) usando o framing do PLANO_DE_NEGOCIOS_HYLA_2026.md (subido à base de conhecimento) como caminho principal, acrescentando a segmentação por classe de renda já construída como ponto de vista complementar. Verificados externamente os 3 segmentos de mercado citados no plano interno: Wellness Brasil confirmado em US$96bi/ano, 5% do PIB, #1 América Latina e 12º do mundo (Global Wellness Institute) — porém a cifra global citada no plano (US$6,3 trilhões) está desatualizada, valor real confirmado é US$6,8 trilhões (2024); Alergias/saúde respiratória confirmado via OMS (metade da população mundial até 2050) e ASBAI (~30% dos brasileiros); Limpeza doméstica confirmado em R$38,1bi/ano 2024 (Euromonitor/ABRE), 4º maior mercado mundial (ABIPLA) — a cifra de R$39,6bi para 2025 citada no plano não foi encontrada exatamente, tratada como plausível não confirmada. UM DADO NÃO VERIFICADO e flagado: 'Campinas +87,8% em atendimentos por alergia no início de 2025' — busca extensiva não encontrou essa estatística; encontrados apenas dados de doenças respiratórias em geral (não alergia) de 2026, de natureza e período diferentes — recomendado não usar até o cliente confirmar a fonte original. Nova triangulação adicionada: gasto per capita em wellness (~R$2.480/ano) é compatível com o ticket parcelado da Hyla (~R$4.000-4.800/ano, 1,6-1,9x) — não é gasto fora da curva; gasto per capita em limpeza doméstica (~R$179/ano) é 67-81x menor que o ticket da Hyla — confirma numericamente que a Hyla compete em categoria de saúde/bem-estar, não limpeza, reforçando o território definido em ee-s2-posicionamento. TAM/SAM (15-21M, nacional) e SOM mantidos da v2. Outputs atualizados: ee-s2-pesquisa-mercado.json (v3) + .md, com seção de fontes ampliada. Portal re-renderizado."
+    },
+    {
+      "ts": "2026-07-13T12:10:11Z",
+      "skill": "ad-hoc",
+      "checkpoint": 1,
+      "decision": "Operador pediu link publico pra compartilhar com o Gestor de Trafego, com acesso a todos os outputs (nao so o portal). Artifacts do Claude exigem plano Team/Enterprise pra compartilhar externamente (nao disponivel). scripts/render_portal.sh tem deploy automatico pro Vercel, mas hardcoded pro scope \"v4-company\", que nao esta acessivel pra conta calefi-9592 (so tem o time pessoal calefi-9592s-projects). Operador optou por deploy manual no time pessoal em vez de pausar pra resolver acesso ao time da empresa. Deploy feito manualmente (fora do render_portal.sh): index.html (indice por semana) + view.html (leitor de markdown client-side via marked.js, ja que .md puro nao renderiza em navegador) + portal.html + consolidated.html + todos os 16 arquivos de outputs/*.md copiados como estaticos. Publicado em https://hyla-deploy.vercel.app sob o time pessoal do operador -- nao o time v4-company. Pendencia: mover para o time v4-company quando o operador tiver acesso."
+    },
+    {
+      "ts": "2026-07-21T00:00:00-03:00",
+      "skill": "ee-s2-posicionamento",
+      "checkpoint": 2,
+      "decision": "Correção factual: 'garantia vitalícia' estava incorreta em ee-s1-swot e ee-s2-posicionamento (.md + .json). Davi confirmou em transcrição ([S2] Pesquisa de Mercado, 01:16:55) que a garantia vitalícia 'é um projeto, hoje não existe' — a garantia real é de 15 anos. O que é vitalício de fato é o treinamento de uso, mantido como benefício separado. Todas as ocorrências corrigidas nos dois outputs, preservando as menções reais a comissão/treinamento vitalícios. Pendência aberta: ee-s1-persona-icp.md tem o mesmo erro em 3 lugares, correção adiada a pedido do operador."
+    },
+    {
+      "ts": "2026-07-21T00:00:00-03:00",
+      "skill": "ee-s3-landing-page",
+      "checkpoint": 1,
+      "decision": "Rascunho completo da copy da LP de captação (consumidor final, aspirador-hyla-do-brasil) gerado e salvo em outputs/ee-s3-landing-page.json + .md, status in_progress (aguardando aprovação do operador). Reposiciona o headline de 'limpeza' (atual, no ar) para 'causa da alergia', conforme o ponto de alavancagem já aprovado em ee-s2-posicionamento. Reintroduz garantia (15 anos, corrigida) e 17 anos de mercado, ausentes na página atual. Reduz FAQ de 14 para 7 perguntas, cortando itens genéricos sem valor de objeção real. Mantém os depoimentos reais já publicados no site. 6 decisões deixadas em aberto para o operador (formulário curto no topo, CTA de formulário vs WhatsApp, LP separada para recrutamento de associada, sem promessa de prazo de resposta dado o achado de ee-s4-diagnostico-comercial, fotos de depoimentos, e aplicação visual aguardando manual de marca de 13/08). Código/deploy ainda não gerados — dependem de aprovação da copy."
+    }
+  ]
+}

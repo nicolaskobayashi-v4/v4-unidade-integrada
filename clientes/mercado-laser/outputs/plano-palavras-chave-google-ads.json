@@ -1,0 +1,170 @@
+{
+  "client_name": "Mercado Laser",
+  "artefato": "plano-palavras-chave-google-ads",
+  "generated_at": "2026-06-26",
+  "data_source": "ee-s1-persona-icp + ee-s1-diagnostico-maturidade + catálogo/produtos citados no kick-off",
+  "unavailable_reason": "Sem acesso ao Google Keyword Planner ou à conta de Ads do cliente — termos são estratégicos (catálogo real + ICPs mapeados), não validados por volume de busca real. Validar no Keyword Planner antes de subir.",
+
+  "summary": "Plano de keywords segmentado nos dois funis permanentes do Mercado Laser (máquina e peça), com campanha dedicada para o ICP industrial BestBeam e lista de negativas para excluir o público de baixo ticket que o cliente não disputa.",
+
+  "pre_requisitos": [
+    "Pixel Meta + Google instalado e disparando evento de conversão (ver ee-s1-diagnostico-maturidade)",
+    "CTA de WhatsApp apontando para o número oficial, não o número de teste/antigo",
+    "Confirmar se bestbeam.com.br já está publicado antes de ativar a Campanha 4"
+  ],
+
+  "recomendacao_lances": "CPC manual ou Maximize Clicks com teto de lance nas primeiras semanas. Target CPA/ROAS automatizado não tem dado suficiente pra funcionar (regra geral: ~30 conversões/mês) e vai desperdiçar budget enquanto o pixel não acumular histórico.",
+
+  "campanhas": [
+    {
+      "id": "campanha-1",
+      "nome": "Máquina — Fundo de Funil",
+      "icp": "comprador-maquina (Rodrigo/Patrícia)",
+      "estagio_jornada": "Decisão/Consideração",
+      "prioridade_budget": "alta",
+      "budget_sugerido_pct": 40,
+      "ad_groups": [
+        {
+          "nome": "Máquina de Corte a Laser (genérico)",
+          "keywords": [
+            {"termo": "máquina de corte a laser preço", "match_type": "frase"},
+            {"termo": "máquina de corte a laser comprar", "match_type": "frase"},
+            {"termo": "máquina de corte a laser profissional", "match_type": "exata"},
+            {"termo": "importadora de máquina de corte a laser", "match_type": "frase"},
+            {"termo": "máquina de corte a laser CO2 130w", "match_type": "frase"},
+            {"termo": "onde comprar máquina de corte a laser", "match_type": "frase"}
+          ]
+        },
+        {
+          "nome": "Máquina de Gravação a Laser / Fiber",
+          "keywords": [
+            {"termo": "máquina de gravação a laser fibra preço", "match_type": "frase"},
+            {"termo": "máquina laser fiber 30w", "match_type": "exata"},
+            {"termo": "máquina de gravação a laser portátil comprar", "match_type": "frase"},
+            {"termo": "máquina de gravação a laser para empresa de brindes", "match_type": "frase"},
+            {"termo": "máquina laser galvo preço", "match_type": "frase"}
+          ]
+        },
+        {
+          "nome": "Aplicação específica",
+          "keywords": [
+            {"termo": "máquina de corte a laser para acrílico", "match_type": "frase"},
+            {"termo": "máquina de corte a laser para MDF", "match_type": "frase"},
+            {"termo": "máquina de corte a laser para tecido", "match_type": "frase"},
+            {"termo": "máquina de gravação a laser para joias", "match_type": "frase"},
+            {"termo": "máquina de gravação a laser para chaveiro", "match_type": "frase"}
+          ]
+        },
+        {
+          "nome": "Concorrência",
+          "keywords": [
+            {"termo": "translaser máquina laser", "match_type": "frase", "nota": "Anúncio deve reforçar suporte/garantia, não preço"},
+            {"termo": "multivis máquina laser", "match_type": "frase", "nota": "Público que mais migra pro Mercado Laser depois de problema, segundo o Júlio"},
+            {"termo": "alternativa a [concorrente] máquina laser", "match_type": "frase", "nota": "Só ativar se volume confirmado justificar"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "campanha-2",
+      "nome": "Máquina — Topo/Meio de Funil",
+      "icp": "comprador-maquina (Marcelo)",
+      "estagio_jornada": "Pesquisa/Gatilho",
+      "prioridade_budget": "média",
+      "budget_sugerido_pct": 15,
+      "nota": "Precisa de landing page/conteúdo de suporte (ex: página 'vale a pena?' com cases reais) — sem isso, CPC barato mas conversão baixa porque o lead ainda não decidiu.",
+      "ad_groups": [
+        {
+          "nome": "Descoberta/oportunidade",
+          "keywords": [
+            {"termo": "quanto rende uma máquina de gravação a laser", "match_type": "frase"},
+            {"termo": "máquina de corte a laser vale a pena", "match_type": "frase"},
+            {"termo": "como ganhar dinheiro com máquina de corte a laser", "match_type": "frase"},
+            {"termo": "renda extra gravação a laser", "match_type": "frase"}
+          ]
+        },
+        {
+          "nome": "Pesquisa comparativa",
+          "keywords": [
+            {"termo": "melhor máquina de corte a laser", "match_type": "frase"},
+            {"termo": "diferença máquina laser CO2 e fiber", "match_type": "frase"},
+            {"termo": "quanto custa uma máquina de gravação a laser", "match_type": "frase"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "campanha-3",
+      "nome": "Peças e Componentes",
+      "icp": "comprador-pecas (Anderson)",
+      "estagio_jornada": "Decisão imediata",
+      "prioridade_budget": "média",
+      "budget_sugerido_pct": 20,
+      "nota": "Pico histórico de venda de exaustor/refrigerador (2019-2021) veio de clientes de concorrentes com máquina de baixa qualidade — considerar ad group de sintoma (ex: 'tubo laser superaquecendo').",
+      "ad_groups": [
+        {
+          "nome": "Componentes de reposição",
+          "keywords": [
+            {"termo": "tubo laser CO2 reposição", "match_type": "frase"},
+            {"termo": "tubo laser 100w preço", "match_type": "exata"},
+            {"termo": "lente para máquina de corte a laser", "match_type": "frase"},
+            {"termo": "espelho refletor laser CO2", "match_type": "frase"},
+            {"termo": "exaustor para máquina de corte a laser", "match_type": "frase"},
+            {"termo": "bomba de refrigeração máquina laser", "match_type": "frase"},
+            {"termo": "peça de reposição máquina laser fiber", "match_type": "frase"},
+            {"termo": "manutenção máquina de corte a laser", "match_type": "frase"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "campanha-4",
+      "nome": "BestBeam Premium",
+      "icp": "comprador-maquina (Patrícia / industrial)",
+      "estagio_jornada": "Decisão consultiva",
+      "prioridade_budget": "alta",
+      "budget_sugerido_pct": 25,
+      "nota": "Confirmar se bestbeam.com.br já está publicado antes de ativar — estava em construção no kick-off de 15/06.",
+      "ad_groups": [
+        {
+          "nome": "Aplicação industrial",
+          "keywords": [
+            {"termo": "máquina de corte a laser industrial", "match_type": "frase"},
+            {"termo": "máquina de corte a laser para indústria têxtil", "match_type": "frase"},
+            {"termo": "máquina de corte a laser para calçados", "match_type": "frase"},
+            {"termo": "máquina de gravação a laser para comunicação visual", "match_type": "frase"},
+            {"termo": "máquina laser linha de produção", "match_type": "frase"},
+            {"termo": "fornecedor máquina laser industrial", "match_type": "frase"}
+          ]
+        }
+      ]
+    }
+  ],
+
+  "negative_keywords": [
+    "máquina laser diodo",
+    "máquina de corte a laser barata",
+    "máquina de corte a laser 1000 reais",
+    "máquina de corte a laser caseira",
+    "máquina de corte a laser brinquedo",
+    "máquina laser shopee",
+    "máquina laser aliexpress",
+    "aluguel de máquina laser",
+    "curso máquina de corte a laser",
+    "tutorial máquina de corte a laser",
+    "como fazer máquina de corte a laser",
+    "peça usada máquina laser",
+    "peça segunda mão máquina laser"
+  ],
+  "negative_keywords_nota": "Sinalizam o público de baixo ticket (future_buyer_segment do ee-s1-persona-icp) — não é prioridade de conversão paga hoje, mas vale nutrir via conteúdo educativo separado.",
+
+  "checklist_antes_de_subir": [
+    "Validar volume real de busca no Keyword Planner",
+    "Confirmar pixel Meta + Google instalado e disparando conversão",
+    "Confirmar CTA de WhatsApp apontando para número oficial",
+    "Decidir orçamento por campanha (proporção sugerida acima, ajustável no forecast da Semana 3)",
+    "Confirmar publicação de bestbeam.com.br antes de ativar Campanha 4"
+  ],
+
+  "alimenta_skills": ["ee-s2-diagnostico-midia", "ee-s3-forecast-midia", "ee-s3-copy-anuncios"]
+}

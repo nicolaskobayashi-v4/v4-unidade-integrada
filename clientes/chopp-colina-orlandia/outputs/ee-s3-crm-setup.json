@@ -1,0 +1,144 @@
+{
+  "skill": "ee-s3-crm-setup",
+  "cliente": "Chopp Colina Orlandia",
+  "gerado_em": "2026-06-21",
+  "plataforma_recomendada": "Kommo",
+  "nota_metodologica": "Estrutura baseada no comportamento real já praticado pelo Cláudio (priorização de leads, mensagens rápidas via WhatsApp, separação de canais) — não é um modelo genérico de CRM. Objetivo: documentar em processo o que hoje só existe na cabeça dele, sem perder a qualidade do atendimento que o cliente oculto já validou como o melhor da praça.",
+
+  "manchete": "O Cláudio já sabe priorizar lead, já sabe quando reativar cliente, já sabe o motivo de cada venda perdida — só não está escrito em lugar nenhum. O CRM não vai ensinar nada novo a ele: vai registrar o que ele já faz de cabeça, pra sobreviver no dia em que ele não estiver disponível para responder.",
+
+  "problema_atual": {
+    "descricao": "Toda a operação comercial roda no WhatsApp pessoal do Cláudio, sem registro estruturado. Base de clientes não mapeada. Decisões de priorização e motivo de perda existem só na memória dele.",
+    "risco_central": "Centralização excessiva — diagnóstico comercial (S4) classificou isso como ponto crítico: a estrutura de venda está baseada numa pessoa, não escalável sem documentar o processo.",
+    "consequencia_pratica": "Taxa de recompra (~47% estimada) e CAC são hipóteses, não dados medidos. Sem CRM, nenhuma decisão de investimento em mídia paga pode ser validada com número real."
+  },
+
+  "estrutura_pipelines": {
+    "racional": "Dois pipelines separados, espelhando a separação de WhatsApp Business já decidida pela equipe (delivery/distribuição vs. choperia/eventos) — os ciclos de venda são radicalmente diferentes (fechamento no mesmo dia vs. negociação de 30+ dias).",
+    "pipeline_1_delivery_b2c": {
+      "nome": "Delivery B2C — Anfitrião",
+      "ciclo_esperado": "Mesmo dia a 48h",
+      "etapas": [
+        "Lead novo (mensagem recebida)",
+        "Diagnóstico feito (perguntou quantidade de pessoas/duração)",
+        "Orçamento enviado",
+        "Confirmação de pedido",
+        "Entregue e instalado",
+        "Pós-venda (feedback solicitado)"
+      ],
+      "etapa_perdida": "Não fechou — motivo registrado obrigatoriamente"
+    },
+    "pipeline_2_eventos_b2b": {
+      "nome": "Eventos & Ponto de Revenda",
+      "ciclo_esperado": "7 a 60 dias",
+      "etapas": [
+        "Lead novo / Indicação / Visita comercial",
+        "Diagnóstico de necessidade (volume, tipo de evento, ou avaliação de comodato)",
+        "Proposta enviada (com ou sem degustação)",
+        "Negociação / objeção em tratamento",
+        "Fechado — primeira entrega ou consignação",
+        "Cliente ativo recorrente"
+      ],
+      "etapa_perdida": "Não fechou — motivo registrado obrigatoriamente"
+    }
+  },
+
+  "motivos_de_perda_padronizados": [
+    {"motivo": "Preço", "nota": "Identificado na reunião S4 como motivo mais comum de perda em mercados de chope — comparar com revenda informal R$9,90/L"},
+    {"motivo": "Equipamento (queria modelo diferente / tamanho diferente)", "nota": "Ex: cliente queria trave congelada e o vendedor só ofereceu chopeira comum"},
+    {"motivo": "Demora no atendimento", "nota": "Cliente oculto comprovou: 5min de atraso = -30% de chance; 20min+ = -95%. Esse motivo de perda é o mais evitável e o mais crítico de monitorar"},
+    {"motivo": "Cliente sumiu (sem resposta após orçamento)", "nota": "Motivo mais comum, segundo a própria experiência do Cláudio relatada na entrevista comercial"},
+    {"motivo": "Já tem fornecedor / fidelidade ao concorrente", "nota": "Aplica principalmente ao ICP Ponto de Revenda"},
+    {"motivo": "Marca desconhecida / não confiou", "nota": "Objeção universal mapeada no persona/ICP, esperada principalmente nos primeiros meses em Franca"}
+  ],
+
+  "tags_segmentacao": {
+    "origem_do_lead": ["Orgânico Instagram", "Google Ads", "Meta Ads - Aniversariantes", "Meta Ads - Churrasco/Chopp", "Meta Ads - Casamentos/Eventos", "Indicação", "Visita comercial direta", "PDV mapeado"],
+    "icp": ["Anfitrião", "Organizador de evento", "Ponto de Revenda"],
+    "cidade": ["Orlândia", "Franca"],
+    "racional": "Tags de origem permitem calcular CAC real por canal — hoje impossível de medir. Tags de ICP permitem disparar a régua de reativação correta (ver seção seguinte)."
+  },
+
+  "reguas_automacao": [
+    {
+      "nome": "Boas-vindas / triagem inicial",
+      "gatilho": "Primeira mensagem recebida no WhatsApp Business",
+      "mensagem_base": "Opa, boa tarde! Você precisa de chope para delivery (churrasco/evento) ou é sobre a choperia (mesa/reserva)?",
+      "racional": "Replica a triagem que o Cláudio já faz manualmente — formalizada como primeira resposta automática para não perder tempo na pergunta genérica que mais aparece"
+    },
+    {
+      "nome": "Reativação — Anfitrião",
+      "gatilho": "30-45 dias sem novo pedido após última compra",
+      "mensagem_base": "Já faz um tempinho que você não pede com a gente — vai ter churrasco esse mês? Separo o barril certo pra você.",
+      "racional": "Frequência estimada do ICP (quinzenal-mensal) — janela de 30-45 dias captura quem não comprou de novo no ritmo esperado"
+    },
+    {
+      "nome": "Reativação — Organizador de evento",
+      "gatilho": "Aproximação de data anual relevante (aniversário do evento anterior, datas comemorativas)",
+      "mensagem_base": "Faz [X tempo] desde [evento anterior] — já está pensando na próxima edição? Garanto sua data com antecedência.",
+      "racional": "Ciclo de 2-4x/ano — reativação por calendário, não por tempo corrido"
+    },
+    {
+      "nome": "Checagem de reposição — Ponto de Revenda",
+      "gatilho": "Semanal, automático para clientes ativos com comodato",
+      "mensagem_base": "Bom dia! Como está o estoque por lá? Já separo a reposição se precisar.",
+      "racional": "Frequência semanal já confirmada no persona/ICP — checagem proativa evita que o estabelecimento fique sem produto e migre para concorrente"
+    },
+    {
+      "nome": "Resgate de orçamento parado",
+      "gatilho": "Orçamento enviado, sem resposta em 48h",
+      "mensagem_base": "Ainda dá tempo de garantir o barril pra sua data — fico no aguardo, é só confirmar.",
+      "racional": "Combate diretamente o motivo de perda mais comum identificado na entrevista comercial: cliente que recebe orçamento e simplesmente não responde"
+    }
+  ],
+
+  "mensagens_rapidas_padronizadas": {
+    "nota": "Cláudio já criou isso intuitivamente no WhatsApp (recurso de atalho '/') — formalizar e expandir como parte do setup do CRM/WhatsApp Business",
+    "lista": [
+      {"atalho": "/tabela", "texto": "O valor do litro do chope é R$11. Barril de 30L sai R$330, barril de 50L sai R$550 — chopeira já inclusa. A gente deixa pronto, instalado no cliente em 5 minutos."},
+      {"atalho": "/domingo", "texto": "A gente atende domingo de manhã. Pode mandar mensagem até às 14h."},
+      {"atalho": "/consignado", "texto": "Posso deixar um barril extra consignado pro seu evento — você só paga o que consumir."},
+      {"atalho": "/duvida_geral", "texto": "Trabalhamos com delivery de chope (entrega na sua casa/evento com chopeira) e também temos a choperia em Orlândia (mesa/reserva). Qual dos dois você precisa?"}
+    ]
+  },
+
+  "playbook_comercial_minimo": {
+    "nota": "Identificado na reunião S4 como necessidade explícita: documentar o que o Cláudio decide de cabeça, para qualquer pessoa nova vender no padrão dele.",
+    "regras_de_priorizacao": [
+      "Responder por ordem de chegada da mensagem, exceto quando há cliente de alto volume já em negociação ativa (priorizar volume sobre velocidade pura)",
+      "Cliente que já comprou antes (recorrente) tem prioridade de resposta sobre lead frio",
+      "Fora do horário comercial: ainda responder se possível — dado validado: resposta rápida fecha mais, independente do horário"
+    ],
+    "regras_de_desconto": "A definir com Cláudio — hoje não documentado. Recomendação: estabelecer regra fixa por volume (ex: a partir de 300L) para não depender de negociação caso a caso",
+    "regras_de_consignacao": "Oferecer proativamente para: primeiro pedido de qualquer cliente novo em Franca, eventos grandes (50+ pessoas), parcerias B2B em teste"
+  },
+
+  "integracao_canais": {
+    "whatsapp_business": "Separar número de delivery/distribuição (resposta rápida, qualquer horário) do número da choperia (reservas, horário comercial) — decisão já tomada pela equipe, falta implementar",
+    "meta_ads": "UTM/source tracking nos 3 grupos de campanha (aniversariantes, churrasco/chopp, casamentos) alimentando a tag de origem do lead no CRM",
+    "google_ads": "Mesma lógica de tag de origem — permite comparar CAC entre Google e Meta com dado real, não estimado"
+  },
+
+  "metricas_de_acompanhamento": [
+    "Taxa de conversão por etapa do pipeline (onde está o maior gargalo: diagnóstico→orçamento, ou orçamento→fechamento)",
+    "Taxa de conversão por origem de lead (Google vs Meta vs Indicação vs PDV)",
+    "CAC real por canal (substitui a estimativa usada no forecast)",
+    "Taxa de recompra real por ICP em 90/180/365 dias (substitui a estimativa de ~47% blendada)",
+    "Distribuição de motivos de perda (identifica se o problema é preço, atendimento ou produto)",
+    "Tempo médio de resposta (correlacionar com taxa de fechamento, validando o dado do cliente oculto)"
+  ],
+
+  "plano_implementacao": [
+    {"fase": "Sprint 1 (semana 1)", "entrega": "Criar conta Kommo, configurar os 2 pipelines com etapas definidas, migrar contatos existentes da planilha/WhatsApp"},
+    {"fase": "Sprint 2 (semana 2)", "entrega": "Configurar mensagens rápidas padronizadas + triagem automática inicial + tags de origem e ICP"},
+    {"fase": "Sprint 3 (semana 3-4)", "entrega": "Ativar réguas de reativação (Anfitrião, Organizador, Ponto de Revenda) + integrar UTM dos anúncios"},
+    {"fase": "Sprint 4 (mês 2)", "entrega": "Primeiro relatório de métricas reais — taxa de conversão por etapa e origem, primeiros dados de motivo de perda"},
+    {"fase": "Sprint 5 (mês 3)", "entrega": "Validar/corrigir a estimativa de recompra (~47%) e o CAC do forecast com dado real acumulado"}
+  ],
+
+  "ponto_de_alavancagem": "A régua de 'Resgate de orçamento parado' é a peça de maior retorno imediato — ataca o motivo de perda mais citado pelo próprio Cláudio (cliente que recebe preço e simplesmente não responde) com automação de custo zero.",
+
+  "alerta_operacional": "Não migrar toda a operação para o CRM de uma vez. Cláudio já é validado como o melhor atendimento da praça — o risco real é que a ferramenta engesse a flexibilidade de tom que ele usa (formal com médico, descontraído com cliente 'mano', conforme mapeado no brandbook). O CRM deve registrar e automatizar a logística (réguas, tags, motivos de perda), nunca substituir o tom da conversa.",
+
+  "alimenta_skills": ["ee-s5-scripts-sdr", "ee-s5-sdr-ia-config", "ee-revisao-semanal"]
+}

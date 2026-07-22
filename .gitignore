@@ -4,10 +4,11 @@
 **/.DS_Store
 plugins/v4-estruturacao-ia/shared-templates/Downloads/
 
-# Dados de clientes NUNCA são versionados neste repo compartilhado.
-# Tudo em clientes/ é ignorado, exceto o README explicativo.
-clientes/*
-!clientes/README.md
-# Exceção: cliente Prudential versionado por decisão explícita do dono do repo.
-!clientes/prudential/
-!clientes/prudential/**
+# Os clientes da unidade são versionados no repositório integrado.
+# Credenciais, dependências e arquivos locais permanecem ignorados.
+clientes/**/.env
+clientes/**/.env.*
+clientes/**/.credentials/
+clientes/**/node_modules/
+clientes/**/.vercel/
+clientes/**/.DS_Store

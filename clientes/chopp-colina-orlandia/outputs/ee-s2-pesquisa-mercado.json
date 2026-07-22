@@ -1,0 +1,278 @@
+{
+  "skill": "ee-s2-pesquisa-mercado",
+  "cliente": "Chopp Colina Orlandia",
+  "gerado_em": "2026-05-17",
+  "foco": "Expansão para Franca, SP — análise de mercado, perfil de consumo, concorrentes, oportunidades e questões operacionais",
+
+  "perfil_franca": {
+    "populacao": "365.494 habitantes (IBGE 2023)",
+    "economia_principal": "Capital nacional do calçado — ~650 indústrias, produção de 30-35 milhões de pares/ano, movimenta R$1,5-2,5B anuais em calçados masculinos de couro",
+    "pib_per_capita": "R$40.777,87 (2023) — abaixo da média nacional de R$53.887. 75º lugar no Brasil, 20º em SP.",
+    "salario_medio": "2,2 salários mínimos",
+    "populacao_baixa_renda": "27,4% ganha menos de ½ salário mínimo",
+    "gini": 0.46,
+    "situacao_setor_calcadista_2026": "Em queda — queda de 11,1% na produção nos 2 primeiros meses de 2026. Projeção: -6,8% no 1º tri e -4,6% no 2º tri. Recuperação esperada só a partir de julho.",
+    "distancia_orlandia": "~50-100 km de Orlândia",
+    "implicacoes_para_claudio": [
+      "Cidade com renda mediana — segmento sensível a preço está presente, mas há classe média consolidada (trabalhadores do setor calçadista com empregos formais)",
+      "Queda no setor calçadista em 2026 pode pressionar renda e reduzir gastos com lazer — mas também pode aumentar consumo de chopp em casa (mais barato que sair para bar)",
+      "Mercado 10x maior que Orlândia em população — potencial de volume muito superior mesmo com market share baixo",
+      "Nenhum distribuidor Colina registrado em Franca — território aberto"
+    ]
+  },
+
+  "territorio_colina": {
+    "franca_na_rede_colina": "NÃO aparece na lista oficial de distribuidores em https://www.cervejacolina.com.br/distribuidores/",
+    "cidades_proximas_com_colina": ["Ribeirão Preto", "São Carlos", "Barretos", "São José do Rio Preto"],
+    "conclusao": "Franca é território aberto para Colina — Cláudio seria o primeiro distribuidor oficial. Isso é tanto oportunidade (sem concorrente interno da marca) quanto desafio (produto sem presença prévia na cidade).",
+    "recomendacao": "Formalizar com INBEB a exclusividade territorial de Franca antes de fazer qualquer ação de marketing — sem isso, outro distribuidor pode abrir o mercado junto."
+  },
+
+  "tam_sam_som": {
+    "nota_metodologica": "Dados estimados por extrapolação — não há estatística oficial de mercado de chopp por cidade",
+    "tam": {
+      "descricao": "Mercado de chope no Brasil",
+      "referencia": "Segmento de chope movimenta ~R$15-20B/ano no Brasil (inclui bares, delivery, eventos). Franca com 365k hab representa ~0,17% da população brasileira.",
+      "estimativa_tam_franca": "R$25-35M/ano em chope (delivery + bares + eventos)"
+    },
+    "sam": {
+      "descricao": "Mercado endereçável por Cláudio em Franca — delivery B2C + eventos + pontos de revenda pequenos (pizzarias, espetinhos)",
+      "exclusoes": "Bares com comodato Ambev (dominados pela Rizatti), grandes eventos corporativos (concorrência de Formula Chopp)",
+      "estimativa_sam_franca": "R$8-12M/ano",
+      "referencia_comparativa": "Cláudio faz ~4.475L/mês em Orlândia (~80k hab) = ~56L per capita/ano. Em Franca (365k hab) com mesmo padrão = ~20.000L/mês potencial de mercado total."
+    },
+    "som": {
+      "descricao": "Market share realista para Cláudio em Franca no primeiro ano",
+      "horizonte_6_meses": "1.500-3.000L/mês (se a operação for bem estruturada no lançamento)",
+      "horizonte_12_meses": "3.000-6.000L/mês",
+      "meta_equiparacao_orlandia": "4.475L/mês — seria sucesso no prazo de 18-24 meses",
+      "faturamento_estimado_12m": "R$330.000-660.000/ano (a R$11/L, 3.000-5.000L/mês)"
+    }
+  },
+
+  "mapeamento_concorrentes": {
+    "concorrente_principal": {
+      "nome": "Rizatti & Cia Ltda (Distribuidora de Bebidas Rizatti)",
+      "tipo": "Distribuidora Ambev — atacado e varejo",
+      "fundacao": 1968,
+      "cnpj": "47.974.944/0001-23",
+      "endereco": "Rodovia Estadual Rio Negro e Solimoes, 5200 — Vale da Lua Azul, Franca-SP",
+      "porte": "Mais de 300 funcionários diretos",
+      "alcance": "5.000+ pontos de venda em 27 cidades (~800k pessoas atendidas)",
+      "premios": "5x melhor revendedora do Brasil, título Embaixador Ambev",
+      "portfolio": "Produtos Ambev (Brahma, Antarctica, Heineken, Budweiser, Stella, Corona, Skol) + destilados, sucos, vinhos, mercearia (desde 2021)",
+      "modelo_negocio": "Atacado para bares e restaurantes via comodato + app Biz para consumidor final",
+      "ameaca_para_claudio": "CRÍTICA — domina pontos de venda com comodato (fachadas ACM, mesas, cervejeiras), distribui para 27 cidades, tem app próprio (Biz) para venda direta",
+      "fraqueza": "Foco em volume e marca Antarctica — não faz atendimento personalizado, suporte técnico precário, produto percebido como commodity. Não compete em qualidade premium."
+    },
+
+    "concorrentes_delivery_eventos": [
+      {
+        "nome": "Formula Chopp",
+        "tipo": "Choperia de eventos / Chopp Truck",
+        "fundacao": "2022 (jovem no mercado)",
+        "cnpj": "44.752.240/0001-18",
+        "endereco": "Av. Dr. Antonio Barboza Filho, 121 — Jardim Francano, Franca-SP",
+        "telefone": "(16) 3723-7755",
+        "instagram": "@formulachopp",
+        "site": "formulachopp.com.br",
+        "portfolio_servicos": "Choperia completa para eventos (biombos, deck, balcão, mesas personalizadas, garçons, até 3 tipos de chopp), Chopp Truck (até 4 tipos, DJ ou banda, 2 TVs 42\"), delivery",
+        "posicionamento": "Estrutura premium para eventos — não é distribuidor puro de barril. É mais concorrente em EVENTOS do que em delivery doméstico.",
+        "ameaca_para_claudio": "MÉDIA — compete no segmento de eventos mas com proposta diferente (estrutura completa vs só o chopp/chopeira). Pode ser mais caro por evento.",
+        "oportunidade": "Cláudio pode oferecer chopp + trave congelada para eventos onde Formula Chopp não consegue atender ou é muito caro. Pode também fazer parceria indireta."
+      },
+      {
+        "nome": "Boreal Franca",
+        "tipo": "Distribuidor oficial Chopp Boreal",
+        "endereco": "Av. Prof. José Rodrigues da Costa Sobrinho, 1840 — Jardim Dr. Antonio Petraglia, Franca-SP",
+        "telefone": ["(16) 3432-9666", "(16) 99253-2754"],
+        "posicionamento": "Chopp Boreal — marca regional de São Paulo. Distribuidor estabelecido.",
+        "ameaca_para_claudio": "MÉDIA — produto diferente (Boreal), mas compete no mesmo canal de delivery e eventos."
+      },
+      {
+        "nome": "Rota do Chopp Franca",
+        "tipo": "Distribuidora de chopp — delivery",
+        "fundacao": "2016 (mais antigo no mercado de delivery)",
+        "endereco": "Rua Ângela Rosa Scarabucci, 1900 — Jardim Ângela Rosa, Franca-SP",
+        "contato": "lucianaacrist@hotmail.com",
+        "posicionamento": "Delivery de chopp — marcas a confirmar via cliente oculto",
+        "ameaca_para_claudio": "MÉDIA — competidor direto no delivery. Mais antigo (10 anos), mas escala menor (pessoa física como razão social)."
+      },
+      {
+        "nome": "Distribuidora Franca Chopp",
+        "apelido": "Franca Chopp / Chopp Ashby",
+        "tipo": "Distribuidora — Chopp Ashby",
+        "endereco": "Rua General Telles — Centro, Franca-SP",
+        "produto": "Chopp Ashby (marca regional SP)",
+        "posicionamento": "Produto diferente. Presença no centro da cidade.",
+        "ameaca_para_claudio": "BAIXA-MÉDIA — produto diferente, mas pode competir em eventos e delivery."
+      },
+      {
+        "nome": "Chopp do Patrão Express",
+        "tipo": "Delivery / Choperia",
+        "presenca": "Facebook, Franca-SP",
+        "ameaca_para_claudio": "BAIXA — presença digital pequena. Detalhar via cliente oculto."
+      },
+      {
+        "nome": "Cervejaria 24h",
+        "tipo": "Delivery multi-marca 24 horas",
+        "horario": "24h / 7 dias por semana",
+        "entrega": "Até 40 minutos, gratuita acima de R$50-80",
+        "pedido_minimo": "R$20",
+        "marcas": "Heineken, Budweiser, Stella Artois, Corona, Skol, Brahma, Antarctica, Eisenbahn, cervejas artesanais",
+        "pagamento": "Dinheiro, Pix, cartão",
+        "posicionamento": "Conveniência 24h — não é especializado em barril/chopeira",
+        "ameaca_para_claudio": "BAIXA — foco em lata/garrafa, não barril. Mas concorre por ocasião de consumo."
+      }
+    ],
+
+    "logistica_domingo_concorrentes": {
+      "contexto": "Pergunta específica de Cláudio — áudio de 14/05/2026",
+      "ecobier_franca": "Atendimento de segunda a sábado das 9h às 19h, DOMINGO das 9h às 13h",
+      "cervejaria_24h": "24h por dia, todos os dias incluindo domingo e feriados",
+      "demais_concorrentes": "A maioria dos distribuidores de barril em cidades do interior não atende domingo — prática comum: entregar sábado para o domingo ou não atender",
+      "claudio_orlandia": "Atende até 13h no domingo, depois plantão na loja por demanda",
+      "recomendacao_franca": "Adotar atendimento no domingo (mínimo 9h-14h) como diferencial desde o lançamento em Franca — isso já supera a maioria dos concorrentes. Comunicar ativamente: 'Atendemos domingo' no Instagram e WhatsApp."
+    }
+  },
+
+  "potenciais_pontos_revenda": {
+    "nota": "Mapeamento inicial via diretórios digitais — validar via visita presencial ou cliente oculto",
+    "choperias_bares_relevantes": [
+      {
+        "nome": "Empório A Venda",
+        "bairro": "Jardim Francano",
+        "instagram": "@emporioavenda",
+        "endereco": "Av. Paulino Pucci, 922",
+        "destaque": "13 TORNEIRAS DE CHOPP — maior ponto de chopp artesanal identificado em Franca. Alto potencial para produto diferenciado como Colina."
+      },
+      {
+        "nome": "Bar e Chopperia Barzão",
+        "bairro": "Jardim Boa Esperança",
+        "destaque": "Nome sugere foco em chopp. 3ª maior empresa de chopp em Franca segundo ranking Econodata."
+      },
+      {
+        "nome": "Boteco do Joca Chopperia e Restaurante",
+        "destaque": "2ª maior empresa de chopp em Franca segundo ranking Econodata. Alta relevância."
+      },
+      {
+        "nome": "Choperia Tabua Mista",
+        "bairro": "Jardim Veneza",
+        "telefone": "(16) 3722-4704"
+      },
+      {
+        "nome": "Quintal Bar do Burrim",
+        "bairro": "Jardim Lima",
+        "instagram": "@quintaldoburrim",
+        "endereco": "Rua Alberto Schirato, 868",
+        "perfil": "Bar rústico, sistema autosserviço, menu sofisticado — perfil premium, candidato para chopp artesanal"
+      },
+      {
+        "nome": "Tantra Bar",
+        "bairro": "Centro",
+        "instagram": "@tantrafranca",
+        "endereco": "Rua Doutor Júlio Cardoso, 1511",
+        "perfil": "Restobar, rodízio de boteco, karaokê, vinhos — fluxo garantido"
+      },
+      {
+        "nome": "Buteco de Skina",
+        "bairro": "Vila Duque de Caxias",
+        "instagram": "@buteco_deskina",
+        "endereco": "Rua Geraldo Foroni, 1197"
+      },
+      {
+        "nome": "Chilli's Bar",
+        "bairro": "São Joaquim",
+        "instagram": "@chillisvideoke",
+        "endereco": "Rua Izabel Iliza de Lima, 763",
+        "perfil": "Bar com karaokê (qui-sáb a partir 21h) — fluxo previsível em dias de semana"
+      }
+    ],
+    "total_estabelecimentos_bares_choperias": "32+ listados apenas no Apontador (mercado ativo)",
+    "nota_estrategia": "Prioridade: Empório A Venda (13 torneiras = alta credibilidade), Boteco do Joca e Barzão (maiores do setor). Abordagem B2B para revenda é secundária em relação ao delivery B2C no início."
+  },
+
+  "oportunidades_priorizadas": [
+    {
+      "ordem": 1,
+      "oportunidade": "Território Colina aberto em Franca",
+      "detalhe": "Nenhum distribuidor Colina oficial em Franca. Cláudio pode ser o primeiro — e ter exclusividade territorial com a INBEB.",
+      "acao": "Formalizar exclusividade territorial com INBEB antes do lançamento."
+    },
+    {
+      "ordem": 2,
+      "oportunidade": "Demanda reprimida documentada na Páscoa",
+      "detalhe": "Concorrentes ficaram sem chopeiras elétricas 10 dias antes da Páscoa. Cláudio tinha 15 máquinas em estoque. Existe demanda não atendida.",
+      "acao": "Lançar em Franca com disponibilidade garantida de máquinas — comunicar proativamente."
+    },
+    {
+      "ordem": 3,
+      "oportunidade": "Diferencial de atendimento no domingo",
+      "detalhe": "A maioria dos distribuidores em cidades do interior não atende domingo. Ecobier faz até 13h. Cervejaria 24h faz 24h mas em lata/garrafa. Delivery de barril no domingo é lacuna real.",
+      "acao": "Definir horário de domingo desde o dia 1 (sugestão: 9h-14h). Comunicar ativamente como diferencial."
+    },
+    {
+      "ordem": 4,
+      "oportunidade": "Formula Chopp como potencial parceiro/complemento, não só concorrente",
+      "detalhe": "Formula Chopp oferece estrutura de eventos (biombos, mesas, DJ). Cláudio oferece produto + trave congelada. Há espaço para complementaridade.",
+      "acao": "Mapear no cliente oculto se Formula Chopp tem produto próprio ou compra de terceiros — potencial de fornecimento."
+    },
+    {
+      "ordem": 5,
+      "oportunidade": "Empório A Venda — 13 torneiras de chopp artesanal",
+      "detalhe": "Maior casa de chopp artesanal identificada em Franca. Já tem cultura de produto diferenciado. Perfil alinhado com Colina Pilsen ou Serra Gerais IPA.",
+      "acao": "Visita presencial com degustação. Oferecer Colina Pilsen e Serra Gerais (IPA, Lager, Witbier)."
+    },
+    {
+      "ordem": 6,
+      "oportunidade": "Consumidor pressionado pelo setor calçadista em queda",
+      "detalhe": "Com queda de 11,1% no setor calçadista no início de 2026, trabalhadores com renda pressionada tendem a consumir mais em casa (chopp delivery) e menos em bares caros.",
+      "acao": "Comunicação que valoriza 'chopp em casa = economia + qualidade' para contrapor o cenário econômico."
+    }
+  ],
+
+  "riscos_e_ameacas": [
+    {
+      "ameaca": "Rizatti — domínio dos pontos de venda fixos",
+      "nivel": "alto",
+      "mitigacao": "Não competir com bares de comodato Ambev. Focar em delivery B2C e eventos — segmentos onde Rizatti não atua diretamente."
+    },
+    {
+      "ameaca": "Rizatti com app Biz — venda direta ao consumidor",
+      "nivel": "alto",
+      "mitigacao": "Diferenciação por serviço (entrega + instalação + suporte técnico), qualidade do produto e atendimento personalizado. Colina Pilsen tem reputação de qualidade comprovada."
+    },
+    {
+      "ameaca": "Rota do Chopp — 10 anos de mercado, conhecimento local",
+      "nivel": "médio",
+      "mitigacao": "Cláudio precisa de networking local rápido. Parceria com fornecedores locais (câmaras frias, distribuidores de CO2) para acelerar network."
+    },
+    {
+      "ameaca": "Aluguel alto em Franca (R$4.500) com renda ainda zero",
+      "nivel": "médio",
+      "mitigacao": "Negociar 2 meses de carência. Lançamento agressivo com degustações e eventos nos primeiros 30 dias para acelerar volume."
+    },
+    {
+      "ameaca": "Queda no setor calçadista reduzindo renda da população",
+      "nivel": "médio",
+      "mitigacao": "Posicionar chopp delivery como alternativa de custo-benefício ao bar. R$330 (barril 30L) para um evento em casa vs R$30-50 por pessoa num bar."
+    }
+  ],
+
+  "recomendacoes_priorizadas": [
+    "1. ANTES DO LANÇAMENTO: Formalizar exclusividade territorial com INBEB em Franca.",
+    "2. OPERACIONAL: Definir horário de domingo (9h-14h) e comunicar como diferencial desde o dia 1.",
+    "3. LANÇAMENTO: Degustações ativas nos primeiros 30 dias — 'chope de graça para experimentar' como isca de aquisição.",
+    "4. NETWORK: Cláudio contratar fornecedor local de CO2 e câmara fria em Franca para se inserir na rede de negócios local.",
+    "5. CLIENTE OCULTO: Realizar antes da reunião de 20/05 — mapear Rizatti (app Biz), Formula Chopp, Rota do Chopp e Boreal: preços, horários, processo de entrega, atendimento no domingo.",
+    "6. ALVO B2B: Visitar Empório A Venda, Boteco do Joca e Barzão com degustação de Colina Pilsen + Serra Gerais IPA.",
+    "7. DIGITAL: Criar perfil Instagram Franca separado ou comunicar a expansão no @colinachopp_orl desde já para gerar curiosidade antes do lançamento físico."
+  ],
+
+  "proximas_skills_dependentes": [
+    "ee-s1-persona-icp — adaptar persona para Franca (trabalhador calçadista vs público Orlândia)",
+    "ee-s2-posicionamento — PUV específico para Franca ('novo na cidade, mas com o melhor chopp')",
+    "ee-s4-cliente-oculto — validar operação dos concorrentes em campo",
+    "ee-s3-landing-page — LP de lançamento Franca"
+  ]
+}

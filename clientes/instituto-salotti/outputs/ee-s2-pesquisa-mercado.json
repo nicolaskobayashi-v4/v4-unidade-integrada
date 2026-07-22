@@ -1,0 +1,272 @@
+{
+  "client_name": "Instituto Salotti de Odontologia Digital",
+  "skill": "ee-s2-pesquisa-mercado",
+  "generated_at": "2026-05-05",
+  "data_source": "IBGE 2025, CFO, Prefeitura de Jundiaí, SEADE, pesquisas de preço de mercado 2025 + briefing + S1 + ICP",
+
+  "summary": "O mercado odontológico premium particular de Jundiaí movimenta aproximadamente R$25M/ano — e nenhuma clínica o ocupa com posicionamento quiet luxury completo. O Instituto Salotti fatura hoje ~R$1M/ano (4% do SAM) em um mercado com espaço real para crescer para R$2,5M/ano em 18 meses, apoiado no 12º maior PIB per capita do Brasil e em uma população com perfil demográfico ideal para reabilitação oral de alto valor.",
+
+  "summary_headline": "Jundiaí tem o 12º maior PIB per capita do Brasil, vácuo no segmento premium odontológico e população envelhecendo — combinação ideal para o Instituto Salotti dobrar o faturamento em 18 meses.",
+
+  "summary_highlights": [
+    {
+      "category": "posicao",
+      "label": "Market share atual",
+      "value": "~4% do SAM",
+      "subtext": "R$1M/ano de R$25M disponíveis",
+      "tone": "yellow"
+    },
+    {
+      "category": "oportunidade",
+      "label": "SAM (mercado acessível)",
+      "value": "R$25M/ano",
+      "subtext": "Segmento premium particular em Jundiaí",
+      "tone": "green"
+    },
+    {
+      "category": "oportunidade",
+      "label": "PIB per capita Jundiaí",
+      "value": "R$147.597",
+      "subtext": "12º maior do Brasil — 4,6x a média nacional",
+      "tone": "green"
+    },
+    {
+      "category": "janela",
+      "label": "Vácuo de posicionamento",
+      "value": "Nenhum concorrente",
+      "subtext": "Quiet luxury odontológico completo inexistente em Jundiaí",
+      "tone": "green"
+    },
+    {
+      "category": "posicao",
+      "label": "Meta SOM 18 meses",
+      "value": "~10% do SAM",
+      "subtext": "R$2,5M/ano — dobrar o faturamento atual",
+      "tone": "blue"
+    },
+    {
+      "category": "risco",
+      "label": "Crescimento setor",
+      "value": "+7%/ano",
+      "subtext": "Mercado crescendo, mas competição também",
+      "tone": "yellow"
+    }
+  ],
+
+  "summary_key_findings": [
+    {
+      "category": "vantagem",
+      "text": "Jundiaí é a 15ª maior economia do Brasil e tem o 12º maior PIB per capita do país (R$147.597/hab em 2023) — 4,6x a média nacional. O perfil econômico da cidade sustenta um mercado premium odontológico robusto e crescente."
+    },
+    {
+      "category": "oportunidade",
+      "text": "Não existe em Jundiaí nenhuma clínica com posicionamento quiet luxury odontológico completo (tecnologia integrada + experiência sensorial + narrativa premium consistente). O Instituto Salotti pode ocupar esse espaço de forma dominante antes de qualquer entrante."
+    },
+    {
+      "category": "contexto",
+      "text": "O mercado odontológico brasileiro cresce 7%/ano e deve ultrapassar R$45B até 2026. O segmento premium particular cresce mais rápido que a média, puxado pelo aumento da renda das classes A/B e pela valorização crescente da saúde bucal como bem-estar."
+    },
+    {
+      "category": "ameaca",
+      "text": "Jundiaí tem oferta abundante de clínicas odontológicas (franquias, cooperativas, convênios) que competem por volume e preço. A OdontoCompany e similares dominam o segmento de massa — o Instituto Salotti não compete com elas, mas elas formam o 'piso' de precificação que o mercado usa como referência."
+    },
+    {
+      "category": "acao",
+      "text": "A meta de 10 novos pacientes/mês com ticket médio blended de R$12-15k gera R$1,4-1,8M/ano incremental — suficiente para dobrar o faturamento atual de R$1M/ano em 12-18 meses com margem operacional preservada."
+    }
+  ],
+
+  "contexto_macroeconomico": {
+    "mercado_odontologico_brasil": {
+      "faturamento_anual": "R$38B+/ano (serviços clínicos, CFO)",
+      "dentistas_ativos": "450.000+",
+      "participacao_mundial": "20% dos cirurgiões-dentistas do mundo",
+      "crescimento_anual": "7%/ano",
+      "projecao_2026": "R$45B+/ano",
+      "tendencias": [
+        "Digitalização acelerada — odontologia digital cresce 2x mais rápido que setor geral",
+        "Desconveniamento — clínicas saindo de planos para focar em particular premium",
+        "Paciente exige mais: agilidade, previsibilidade e experiência premium",
+        "Turismo odontológico — brasileiros no exterior voltando para tratamento no Brasil",
+        "Envelhecimento da população — demanda crescente por reabilitação e implantes"
+      ],
+      "estimated": true,
+      "estimation_basis": "CFO + Research and Markets + Clinicorp 2026"
+    },
+    "mercado_implantes_brasil": {
+      "ticket_implante_unitario": "R$3.500–R$8.000 (interior SP)",
+      "ticket_protocolo_all_on_4": "R$15.000–R$40.000",
+      "ticket_reabilitacao_completa": "R$25.000–R$100.000",
+      "ticket_alinhadores": "R$5.000–R$15.000",
+      "ticket_facetas_porcelana": "R$2.500–R$5.000/unidade",
+      "nota": "Valores praticados em cidades do interior de São Paulo, nível premium. Jundiaí tende ao limite superior por PIB per capita elevado."
+    }
+  },
+
+  "jundiai_profile": {
+    "populacao_2025": 463039,
+    "populacao_censo_2022": 443221,
+    "pib_municipal_2023": "R$65,4B",
+    "pib_per_capita_2023": 147597,
+    "ranking_pib_per_capita_brasil": "12º",
+    "ranking_pib_per_capita_sp": "5º",
+    "ranking_economia_brasil": "15ª maior",
+    "qualidade_de_vida": "3ª melhor cidade para se viver no Brasil",
+    "perfil_demografico": {
+      "adultos_35_65_estimado": "~35% da população = ~162.000 pessoas",
+      "populacao_renda_media_alta": "~28-30% = ~130.000-140.000 pessoas",
+      "envelhecimento": "Progressivo — cidade madura com crescente demanda por reabilitação",
+      "polo_regional": "Atrai moradores de cidades vizinhas (Itupeva, Várzea Paulista, Campo Limpo, Louveira)"
+    },
+    "fontes": ["IBGE 2025", "Prefeitura de Jundiaí 2024", "SEADE"]
+  },
+
+  "tam_sam_som": {
+    "metodologia": "Bottom-up com cruzamento top-down para validação",
+
+    "tam": {
+      "label": "TAM — Mercado total de serviços odontológicos em Jundiaí",
+      "valor_anual": 120000000,
+      "valor_mensal": 10000000,
+      "calculo": "463.039 hab × 30% com capacidade de gasto particular (classes A/B/C1) = ~139.000 pessoas × R$860/ano gasto médio em odontologia = R$120M/ano",
+      "validacao_top_down": "Brasil R$38B/ano ÷ 214M hab = R$178/hab/ano médio. Jundiaí R$147k PIB per capita (4,6x média) × ajuste conservador 2x = R$356/hab/ano × 463k = R$165M. Usando R$120M como estimativa conservadora.",
+      "estimated": true,
+      "estimation_basis": "IBGE população + CFO faturamento nacional + ajuste por PIB per capita"
+    },
+
+    "sam": {
+      "label": "SAM — Segmento premium particular (sem convênio, ticket médio R$3.000+/tratamento)",
+      "valor_anual": 25000000,
+      "valor_mensal": 2083333,
+      "calculo": "TAM R$120M × 20% (estimativa segmento premium particular sem convênio) = R$24M. Refinamento: ICP 35-65 anos, renda média-alta = 70.000 pessoas × 5% em tratamento de alto valor por ano × ticket médio R$7.000 = R$24,5M. Arredondado para R$25M.",
+      "pacientes_potenciais_por_ano": "3.500–5.000 pacientes ICP/ano em Jundiaí com potencial de tratamento premium",
+      "estimated": true,
+      "estimation_basis": "ICP ee-s1-persona-icp + estimativas de prevalência de tratamentos odontológicos adultos + IBGE"
+    },
+
+    "som_atual": {
+      "label": "SOM atual — Participação atual do Instituto Salotti",
+      "faturamento_mensal": 86000,
+      "faturamento_anual": 1032000,
+      "market_share_sam": "4,1%",
+      "nota": "Faturamento declarado por Dr. Salotti em 23/04. Em queda após descredenciamento de convênios. Inclui mix de antigos pacientes de convênio ainda em tratamento.",
+      "estimated": false
+    },
+
+    "som_meta": {
+      "label": "SOM meta — 18 meses com novo posicionamento",
+      "faturamento_mensal_meta": 172000,
+      "faturamento_anual_meta": 2064000,
+      "market_share_sam_meta": "8,3%",
+      "calculo": "10 novos pacientes/mês × ticket médio blended R$12.000 (mix: 3 reabilitações R$25k + 4 tratamentos médios R$8k + 3 procedimentos menores R$3k) = R$144.000/mês novos + R$28.000 recorrentes/retorno base = R$172k/mês",
+      "nota": "Meta conservadora que dobra o faturamento atual em 12-18 meses. Ticket blended de R$12k é abaixo do alvo declarado de R$25-30k — contempla o mix real de tratamentos.",
+      "estimated": true,
+      "estimation_basis": "Projeção baseada em meta declarada no S1 + análise de mix de curva ABC + benchmarks de clínicas similares"
+    },
+
+    "som_otimista": {
+      "label": "SOM otimista — 24-36 meses com posicionamento consolidado",
+      "faturamento_mensal": 280000,
+      "faturamento_anual": 3360000,
+      "market_share_sam": "13,4%",
+      "nota": "Cenário com captação de pacientes internacionais ativa, programa de indicação estruturado e parcerias com geriatras/casas de repouso consolidadas."
+    }
+  },
+
+  "concorrentes": [
+    {
+      "nome": "ROF — Reabilitação Oral e Facial",
+      "segmento": "Premium / alta complexidade",
+      "posicionamento": "Principal referência premium em Jundiaí. Foco em reabilitação e implantes.",
+      "forca": "Reconhecimento de mercado, base de pacientes estabelecida",
+      "fraqueza": "Posicionamento e comunicação digital desconhecidos — pode não ter presença forte no digital",
+      "estrategia_contra": "Diferenciar pela odontologia 100% digital (previsibilidade + agilidade) e pelo atendimento humanizado do Dr. Salotti vs clínica maior e mais impessoal",
+      "ameaca": "alta"
+    },
+    {
+      "nome": "Dental Care Jundiaí",
+      "segmento": "Médio-alto — generalista",
+      "posicionamento": "Clínica com CRO, presença online ativa",
+      "forca": "Presença digital, acesso a convênios",
+      "fraqueza": "Generalista — não especializado em odontologia digital",
+      "estrategia_contra": "Especialização tecnológica como diferencial — o que eles fazem em 5 consultas, o Instituto faz em 1",
+      "ameaca": "média"
+    },
+    {
+      "nome": "Todoriso",
+      "segmento": "Médio — volume",
+      "posicionamento": "Se autointitula 'Dentista Número 1 em Jundiaí' — foco em volume e SEO local",
+      "forca": "Forte presença SEO local, volume de atendimentos",
+      "fraqueza": "Comunicação de volume, não de exclusividade",
+      "estrategia_contra": "Não competir no mesmo espaço — ICP diferente. Para quem pesquisa 'dentista número 1' e para quem busca 'odontologia digital premium' são pessoas diferentes.",
+      "ameaca": "baixa"
+    },
+    {
+      "nome": "Real Odonto",
+      "segmento": "Médio — tradicional",
+      "posicionamento": "20+ anos em Jundiaí — credibilidade de tempo de mercado",
+      "forca": "Longevidade, fidelidade de pacientes antigos",
+      "fraqueza": "Posicionamento tradicional — sem comunicação de tecnologia digital",
+      "estrategia_contra": "Instituto Salotti tem credenciais técnicas superiores (mestrado, odontologia digital) com a mesma segurança de empresa consolidada",
+      "ameaca": "média-baixa"
+    },
+    {
+      "nome": "OdontoCompany (franquia)",
+      "segmento": "Massa — preço",
+      "posicionamento": "Franquia nacional, preço acessível, volume",
+      "forca": "Marca nacional, preço competitivo",
+      "fraqueza": "Sem personalização, sem tecnologia premium, atendimento padronizado",
+      "estrategia_contra": "ICP completamente diferente — não é concorrente direto. Serve como referência do que o Instituto não é.",
+      "ameaca": "nenhuma"
+    },
+    {
+      "nome": "Uniodonto Jundiaí",
+      "segmento": "Convênio — cooperativa",
+      "posicionamento": "Cooperativa odontológica, convênio",
+      "forca": "Base de beneficiários corporativos",
+      "fraqueza": "Modelo de convênio — o oposto do posicionamento do Instituto",
+      "estrategia_contra": "Sem conflito direto. Potencial parceria para encaminhar casos complexos.",
+      "ameaca": "nenhuma"
+    }
+  ],
+
+  "analise_territorio": {
+    "nota": "Instituto Salotti atende Jundiaí e potencialmente região metropolitana (Itupeva, Várzea Paulista, Campo Limpo Paulista, Louveira — ~200k habitantes adicionais)",
+    "expansao_geografica": "Não recomendada no curto prazo — foco em consolidar Jundiaí primeiro",
+    "pacientes_internacionais": "Canal separado sem território fixo — brasileiros na Europa/EUA. Potencial de R$50-80k/mês incremental com campanha específica."
+  },
+
+  "tendencias_setor": [
+    {
+      "tendencia": "Desconveniamento acelerado",
+      "descricao": "Clínicas saindo de convênios para focar em particular premium. Movimento que o Instituto Salotti já executou — será seguido por outros nos próximos 2-3 anos.",
+      "implicacao": "Janela para consolidar posicionamento premium antes que mais concorrentes migrem para o mesmo espaço."
+    },
+    {
+      "tendencia": "Odontologia digital como novo padrão",
+      "descricao": "Cirurgia guiada, CAD/CAM, escaneamento intraoral passando de diferencial para expectativa dos pacientes premium. Quem não tiver em 3-4 anos será visto como defasado.",
+      "implicacao": "O Instituto já tem a infraestrutura. A janela para comunicar essa vantagem é agora — antes de virar commodity."
+    },
+    {
+      "tendencia": "Quiet luxury em saúde",
+      "descricao": "Paciente premium cada vez mais avesso a exibicionismo médico. Quer resultado discreto, profissional sério, ambiente acolhedor — não quer o dentista 'famoso no Instagram'.",
+      "implicacao": "Posicionamento do Instituto Salotti está no timing certo da tendência."
+    },
+    {
+      "tendencia": "Turismo odontológico interno e externo",
+      "descricao": "Brasileiros no exterior voltando para tratar no Brasil. Pacientes de SP capital indo ao interior para fugir de agenda e preço da capital.",
+      "implicacao": "Oportunidade de canal específico para captação de pacientes de São Paulo e internacionais."
+    }
+  ],
+
+  "key_leverage_point": {
+    "headline": "Jundiaí é uma das cidades com melhor perfil econômico do Brasil para odontologia premium — e o Instituto Salotti é o único player com a infraestrutura completa para atender esse mercado. O problema é que esse mercado não sabe que o Instituto existe.",
+    "context": "Com PIB per capita de R$147.597 (12º do Brasil), população de 463k em envelhecimento e zero concorrente ocupando o posicionamento quiet luxury completo, Jundiaí representa um mercado de R$25M/ano no segmento do Instituto. O SOM atual de R$1M/ano (4%) pode dobrar para R$2,5M em 18 meses se a captação digital for ativada — sem precisar inventar um diferencial, apenas comunicar o que já existe.",
+    "numbered_reasons": [
+      "O perfil econômico de Jundiaí (12º PIB per capita nacional) sustenta um ticket de R$25-30k sem tensão — não é aspiracional para o ICP local, é acessível para quem tem o problema certo",
+      "Os 3.500-5.000 pacientes ICP potenciais por ano em Jundiaí precisam de apenas 3-4% de conversão para atingir a meta de 10 novos pacientes/mês do Instituto",
+      "Nenhum concorrente identificado em Jundiaí combina tecnologia digital completa + atendimento humanizado + posicionamento premium — o espaço está literalmente vazio de ocupante com essas credenciais"
+    ],
+    "discussion_anchor": "A pergunta para o S2 não é 'existe mercado em Jundiaí?' — a resposta é sim, R$25M/ano. A pergunta é 'qual é o plano para capturar os próximos R$1,5M desse mercado nos próximos 18 meses?'"
+  }
+}

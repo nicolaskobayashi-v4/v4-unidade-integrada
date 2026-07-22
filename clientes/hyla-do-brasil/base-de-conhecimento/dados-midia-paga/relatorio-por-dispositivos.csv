@@ -1,0 +1,59 @@
+Performance da campanha
+1 de janeiro de 2026 - 6 de julho de 2026
+Dispositivo,Campanha,Estado da campanha,Tipo de campanha,Cliques,Impr.,CTR,Código da moeda,CPC méd.,Custo,% de impr. (1ª posição),% de impr. (parte sup.),Conversões,Conv. de visualização,Custo / conv.,Taxa de conv.
+Celulares,PMAX,Ativada,Performance Max,47.959,885.561,"5,42%",BRL,"0,29","13693,14",0,0,"7.085,68",0,"1,93","4,05%"
+Celulares,Branding - SP,Ativada,Pesquisa,5.817,287.856,"2,02%",BRL,"1,27","7379,53","33,77%","77,31%","26.162,52",0,"0,28","449,76%"
+Tablets,PMAX,Ativada,Performance Max,1.401,29.066,"4,82%",BRL,"0,09","123,73",0,0,"25,00",0,"4,95","0,24%"
+Computadores,PMAX,Ativada,Performance Max,1.046,56.365,"1,86%",BRL,"3,56","3728,09",0,0,"260,65",0,"14,30","22,72%"
+Celulares,Branding - BR,Pausada,Pesquisa,627,22.220,"2,82%",BRL,"2,77","1734,66","40,45%","80,81%","2.731,27",0,"0,64","435,61%"
+Computadores,Branding - SP,Ativada,Pesquisa,294,11.726,"2,51%",BRL,"2,86","841,72","27,46%","64,12%","2.186,97",0,"0,38","743,87%"
+Computadores,Branding - BR,Pausada,Pesquisa,35,2.146,"1,63%",BRL,"3,25","113,85","28,99%","67,49%","228,17",0,"0,50","651,92%"
+Tablets,Branding - SP,Ativada,Pesquisa,19,1.151,"1,65%",BRL,"1,15","21,91","35,14%","71,62%","76,00",0,"0,29","400,00%"
+Telas de TV,PMAX,Ativada,Performance Max,7,435,"1,61%",BRL,"0,76","5,35",0,0,"1,00",0,"5,35","0,42%"
+Tablets,Branding - BR,Pausada,Pesquisa,3,149,"2,01%",BRL,"1,67","5,00","48,28%","68,97%","91,00",0,"0,05","3033,33%"
+Computadores,[C] Aspirador,Pausada,Pesquisa,0,0,0,BRL,0,"0,00",0,0,"0,00",0,0,0
+Celulares,[C] Aspirador,Pausada,Pesquisa,0,0,0,BRL,0,"0,00",0,0,"0,00",0,0,0
+Tablets,[C] Aspirador,Pausada,Pesquisa,0,0,0,BRL,0,"0,00",0,0,"0,00",0,0,0
+Computadores,Leads-Search-3,Pausada,Pesquisa,0,0,0,BRL,0,"0,00",0,0,"0,00",0,0,0
+Celulares,Leads-Search-3,Pausada,Pesquisa,0,0,0,BRL,0,"0,00",0,0,"0,00",0,0,0
+Tablets,Leads-Search-3,Pausada,Pesquisa,0,0,0,BRL,0,"0,00",0,0,"0,00",0,0,0
+Computadores,_Dynamic Ads,Pausada,Pesquisa,0,0,0,BRL,0,"0,00",0,0,"0,00",0,0,0
+Celulares,_Dynamic Ads,Pausada,Pesquisa,0,0,0,BRL,0,"0,00",0,0,"0,00",0,0,0
+Tablets,_Dynamic Ads,Pausada,Pesquisa,0,0,0,BRL,0,"0,00",0,0,"0,00",0,0,0
+Computadores,video,Pausada,Vídeo,0,0,0,BRL,0,"0,00",0,0,"0,00",0,0,0
+Celulares,video,Pausada,Vídeo,0,0,0,BRL,0,"0,00",0,0,"0,00",0,0,0
+Tablets,video,Pausada,Vídeo,0,0,0,BRL,0,"0,00",0,0,"0,00",0,0,0
+Computadores,Branding Strategy,Ativada,Pesquisa,0,0,0,BRL,0,"0,00",0,0,"0,00",0,0,0
+Celulares,Branding Strategy,Ativada,Pesquisa,0,0,0,BRL,0,"0,00",0,0,"0,00",0,0,0
+Tablets,Branding Strategy,Ativada,Pesquisa,0,0,0,BRL,0,"0,00",0,0,"0,00",0,0,0
+Computadores,[C] Branding exata,Pausada,Pesquisa,0,0,0,BRL,0,"0,00",0,0,"0,00",0,0,0
+Celulares,[C] Branding exata,Pausada,Pesquisa,0,0,0,BRL,0,"0,00",0,0,"0,00",0,0,0
+Tablets,[C] Branding exata,Pausada,Pesquisa,0,0,0,BRL,0,"0,00",0,0,"0,00",0,0,0
+Computadores,[S] Aspirador,Pausada,Pesquisa,0,0,0,BRL,0,"0,00",0,0,"0,00",0,0,0
+Celulares,[S] Aspirador,Pausada,Pesquisa,0,0,0,BRL,0,"0,00",0,0,"0,00",0,0,0
+Tablets,[S] Aspirador,Pausada,Pesquisa,0,0,0,BRL,0,"0,00",0,0,"0,00",0,0,0
+Computadores,[S] Concorrentes,Pausada,Pesquisa,0,0,0,BRL,0,"0,00",0,0,"0,00",0,0,0
+Celulares,[S] Concorrentes,Pausada,Pesquisa,0,0,0,BRL,0,"0,00",0,0,"0,00",0,0,0
+Tablets,[S] Concorrentes,Pausada,Pesquisa,0,0,0,BRL,0,"0,00",0,0,"0,00",0,0,0
+Computadores,exata cpa,Ativada,Pesquisa,0,0,0,BRL,0,"0,00",0,0,"0,00",0,0,0
+Celulares,exata cpa,Ativada,Pesquisa,0,0,0,BRL,0,"0,00",0,0,"0,00",0,0,0
+Tablets,exata cpa,Ativada,Pesquisa,0,0,0,BRL,0,"0,00",0,0,"0,00",0,0,0
+Computadores,[C] Branding exata CPC test,Pausada,Pesquisa,0,0,0,BRL,0,"0,00",0,0,"0,00",0,0,0
+Celulares,[C] Branding exata CPC test,Pausada,Pesquisa,0,0,0,BRL,0,"0,00",0,0,"0,00",0,0,0
+Tablets,[C] Branding exata CPC test,Pausada,Pesquisa,0,0,0,BRL,0,"0,00",0,0,"0,00",0,0,0
+Computadores,Performance Max-1,Pausada,Performance Max,0,0,0,BRL,0,"0,00",0,0,"0,00",0,0,0
+Celulares,Performance Max-1,Pausada,Performance Max,0,0,0,BRL,0,"0,00",0,0,"0,00",0,0,0
+Tablets,Performance Max-1,Pausada,Performance Max,0,0,0,BRL,0,"0,00",0,0,"0,00",0,0,0
+Computadores,Vídeo,Pausada,Vídeo,0,0,0,BRL,0,"0,00",0,0,"0,00",0,0,0
+Celulares,Vídeo,Pausada,Vídeo,0,0,0,BRL,0,"0,00",0,0,"0,00",0,0,0
+Tablets,Vídeo,Pausada,Vídeo,0,0,0,BRL,0,"0,00",0,0,"0,00",0,0,0
+Computadores,[C] Branding Branding may23,Ativada,Pesquisa,0,0,0,BRL,0,"0,00",0,0,"0,00",0,0,0
+Celulares,[C] Branding Branding may23,Ativada,Pesquisa,0,0,0,BRL,0,"0,00",0,0,"0,00",0,0,0
+Tablets,[C] Branding Branding may23,Ativada,Pesquisa,0,0,0,BRL,0,"0,00",0,0,"0,00",0,0,0
+Computadores,[S] Branding - DF,Pausada,Pesquisa,0,0,0,BRL,0,"0,00",0,0,"0,00",0,0,0
+Celulares,[S] Branding - DF,Pausada,Pesquisa,0,0,0,BRL,0,"0,00",0,0,"0,00",0,0,0
+Tablets,[S] Branding - DF,Pausada,Pesquisa,0,0,0,BRL,0,"0,00",0,0,"0,00",0,0,0
+Outros,PMAX,Ativada,Performance Max,0,4,"0,00%",BRL,0,"0,00",0,0,"0,00",0,0,0
+Computadores,Youtube Promotion - 2024-12-10 - 72291351,Pausada,Geração de demanda,0,0,0,BRL,0,"0,00",0,0,"0,00",0,0,0
+Celulares,Youtube Promotion - 2024-12-10 - 72291351,Pausada,Geração de demanda,0,0,0,BRL,0,"0,00",0,0,"0,00",0,0,0
+Tablets,Youtube Promotion - 2024-12-10 - 72291351,Pausada,Geração de demanda,0,0,0,BRL,0,"0,00",0,0,"0,00",0,0,0

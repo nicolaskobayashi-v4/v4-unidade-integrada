@@ -1,0 +1,517 @@
+{
+  "meta": {
+    "name": "C Clean Serviços de Limpeza",
+    "slug": "cclean",
+    "workspace_id": null,
+    "created_at": "2026-04-06",
+    "modulo_vendas": true
+  },
+  "briefing": {
+    "empresa": "C Clean Serviços de Limpeza",
+    "segmento": "Terceirização de serviços de limpeza B2B",
+    "site": "https://cclean.com.br/",
+    "instagram": "https://www.instagram.com/ccleanlimpeza/",
+    "localizacao": "Joinville, SC",
+    "tempo_mercado_anos": 26,
+    "modelo_negocio": "B2B, contratos mensais fixos (mínimo 12 meses), terceirização de mão de obra de limpeza com funcionário fixo no local",
+    "faturamento_mensal": 250000,
+    "clientes_ativos": 90,
+    "ticket_medio_mensal": 2900,
+    "ltv_estimado_anual": 34800,
+    "novos_clientes_mes": "2-3",
+    "funcionarios_operacionais": 60,
+    "equipe_administrativa": 3,
+    "stakeholders": [
+      {
+        "nome": "Henrique Pereira",
+        "cargo": "Proprietário/Fundador (irmão de Jeferson)",
+        "nota": "Responsável legal pela empresa. Menos presente no dia a dia comercial."
+      },
+      {
+        "nome": "Jeferson Pereira",
+        "cargo": "Sócio — Vendas, operação, gestão do Google Ads",
+        "email": "comercial@cclean.com.br",
+        "decisor": true
+      },
+      {
+        "nome": "Débora",
+        "cargo": "Sócia/Esposa de Jeferson — Administrativo, RH, financeiro, atendimento e orçamentos",
+        "decisor": true
+      }
+    ],
+    "servicos": [
+      "Terceirização de limpeza com funcionário fixo no local (1x/semana a 44h semanais)",
+      "Zeladoria (contratos completos, poucos clientes)",
+      "Limpeza de caixa d'água",
+      "Lavação de garagens, calçadas e muros"
+    ],
+    "formatos_contrato": [
+      "1x/semana (4h)",
+      "2x/semana (4h)",
+      "3x/semana (4h)",
+      "5x/semana meio período — segunda a sexta",
+      "6x/semana meio período — segunda a sábado",
+      "44h semanais (tempo integral)"
+    ],
+    "perfil_carteira": {
+      "condominios": "~50% — verticais, pequeno a médio porte, zona norte de Joinville",
+      "empresas": "~50% — pequenos escritórios, seguradoras, ferramentarias, escolas EAD, clínicas",
+      "ticket_minimo": 100,
+      "ticket_maximo": "variável, 44h semanais"
+    },
+    "area_atendimento": {
+      "municipio": "Joinville, SC (exclusivo)",
+      "foco": "Região norte — bairros Bom Retiro, América, Santo Antônio, Costa Silva, Atiradores",
+      "restricoes": "Regiões sem transporte público ou muito afastadas são recusadas por impossibilidade de cobertura de faltas"
+    },
+    "canais_aquisicao": {
+      "google_ads": true,
+      "meta_ads": false,
+      "instagram_organico": false,
+      "facebook": "somente vagas de emprego",
+      "indicacao": true,
+      "prospeccao_ativa": false,
+      "whatsapp_business": true
+    },
+    "investimento_midia_mensal": {
+      "google_ads_min": 1500,
+      "google_ads_max": 3000,
+      "meta_ads": 0
+    },
+    "stack_tecnologico": {
+      "google_workspace": true,
+      "google_ads": "autogerenciado por Jeferson há 10 anos, sem otimização técnica",
+      "whatsapp_business": "em implementação com IA para filtro inicial de leads",
+      "crm": null,
+      "erp": null,
+      "site": "WordPress / Hostgator (cclean.com.br) — 3ª versão, acesso parcialmente perdido",
+      "planilhas": "Excel/Google Sheets para custos, Word para orçamentos, Google Drive para arquivos"
+    },
+    "problemas_google_ads": [
+      "Alto volume de leads de candidatos a emprego (main dor)",
+      "Anúncios recebidos de fora do raio de atendimento, incluindo outros estados e Moçambique",
+      "3 campanhas diferentes criadas por assistentes distintos do Google — sem clareza de qual performa melhor",
+      "Tag de conversão possivelmente mal configurada (800 cliques vs. menos de 10% em contatos reais)",
+      "Sem análise de CAC, ROAS ou custo por venda"
+    ],
+    "processo_comercial": {
+      "inbound": "Leads chegam via WhatsApp ou formulário da landing page",
+      "atendimento": "Débora faz triagem e primeiros contatos; Jeferson realiza visitas e fecha contratos",
+      "orcamento": "Enviado por e-mail em Word; confirmação de recebimento feita, mas sem follow-up estruturado",
+      "ciclo_vendas_dias": 30,
+      "followup": "Não realizado — principal fraqueza comercial identificada"
+    },
+    "dores_principais": [
+      "Alto volume de leads desqualificados no Google Ads (candidatos a emprego consomem verba)",
+      "Ausência de processo de follow-up — orçamentos enviados sem acompanhamento",
+      "Google Ads gerenciado sem clareza técnica e sem métricas de desempenho",
+      "Equipe administrativa sobrecarregada — Débora concentra 80% das operações",
+      "Sem CRM ou sistema de gestão comercial",
+      "Instagram desatualizado e sem estratégia de conteúdo",
+      "Restrições geográficas por dependência de transporte público dos funcionários",
+      "Experiências negativas anteriores com agências que não entendiam o negócio",
+      "Crescimento estagnado nos últimos meses após pico histórico"
+    ],
+    "objetivos_declarados": [
+      "Crescer de R$250.000 para R$400.000-450.000 de faturamento mensal",
+      "Estruturar processo comercial com follow-up sistemático",
+      "Otimizar Google Ads e avaliar novos canais (Meta, YouTube)",
+      "Implementar CRM para gestão de leads e clientes",
+      "Definir ICP mais assertivo para atrair clientes 'bons e fáceis'",
+      "Ter um planejamento de marketing e vendas para os próximos 12 meses"
+    ],
+    "contrato_v4": {
+      "modalidade": "12x cartão de crédito",
+      "valor_parcela": 1498.67,
+      "data_assinatura": "2026-04-07",
+      "inicio_projeto": "2026-04-13",
+      "semanas": 5,
+      "escopo": "Diagnóstico estratégico de marketing e vendas",
+      "entregaveis_contratados": [
+        "Relatório completo de diagnóstico",
+        "3 criativos para anúncios",
+        "Landing page de alta conversão",
+        "Manual de comunicação (baseado no ICP)",
+        "Manual de identidade visual",
+        "Plano de ação detalhado 12 meses",
+        "Forecast de mídia"
+      ]
+    }
+  },
+  "research": {
+    "puv": "Terceirização modular de limpeza para condomínios e escritórios, apoiado em uma blindagem trabalhista absoluta e reposição garantida em 24 horas dedicada a proteger o seu tempo e o seu caixa",
+    "posicionamento": "Boutique premium de limpeza B2B — especialização, agilidade e atendimento personalizado na zona norte de Joinville. Antítese da escala fria dos grandes concorrentes.",
+    "mercado": {
+      "tam_joinville_ano": 629000000,
+      "sam_ano": 53100000,
+      "som_atual_ano": 2977200,
+      "market_share_atual": 0.056,
+      "meta_market_share": 0.10,
+      "meta_faturamento_mensal": 440000,
+      "prazo_meta": "12-18 meses"
+    },
+    "icp": {
+      "primario": [
+        {
+          "perfil": "Síndico de condomínio vertical pequeno/médio",
+          "ticket_medio": "R$1.500-R$3.000/mês",
+          "servico_ideal": "2-3x/semana ou diário meio período",
+          "dor_principal": "Eliminar passivo trabalhista e reclamações de moradores",
+          "canal_aquisicao": "Google Ads, prospecção ativa via administradoras",
+          "gatilho_compra": "Atestado da funcionária atual, problema trabalhista, troca de fornecedor"
+        },
+        {
+          "perfil": "Gestor de RH / dono de pequeno escritório ou clínica",
+          "ticket_medio": "R$1.500-R$3.000/mês",
+          "servico_ideal": "1-3x/semana",
+          "dor_principal": "Terceirizar base operacional, eliminar complexidades sindicais e burnout de RH",
+          "canal_aquisicao": "Google Ads, Meta Ads",
+          "gatilho_compra": "Sobrecarga administrativa, necessidade de imagem profissional"
+        }
+      ],
+      "secundario": [
+        {
+          "perfil": "Condomínios residenciais recém-entregues",
+          "ticket_medio": "R$3.000-R$5.000/mês",
+          "servico_ideal": "44h semanais (zelador/auxiliar full time)",
+          "canal_aquisicao": "Orgânico, indicação de síndicos, boca a boca"
+        }
+      ],
+      "nao_ideal": [
+        "Indústrias e grandes complexos corporativos",
+        "B2C / residencial informal (diaristas)",
+        "Clientes que buscam preço abaixo de R$1.000/mês",
+        "Locais sem transporte público ou com alta rotatividade histórica"
+      ]
+    },
+    "personas": [
+      {
+        "nome": "Roberto",
+        "idade": 48,
+        "cargo": "Síndico terceirizado",
+        "formacao": "Administração",
+        "regiao": "Zona norte de Joinville",
+        "valores": ["Responsabilidade jurídica", "Segurança", "Transparência financeira", "Previsibilidade"],
+        "personalidade": "Cauteloso, focado em preservar patrimônio e evitar reclamações dos moradores",
+        "motivacao_primaria": "Blindar o caixa do condomínio e eliminar imprevistos operacionais",
+        "sonho": "Ser reconhecido como síndico eficiente e econômico",
+        "comportamentos": ["Delega responsabilidade", "Exige agilidade na reposição de pessoal"],
+        "dores": ["Faltas constantes com atestado", "Medo de cálculo rescisório incorreto e multa"],
+        "objecao_principal": "Custo do contrato anual vs. funcionário próprio"
+      },
+      {
+        "nome": "Mariana",
+        "idade": 35,
+        "cargo": "Gestora de Recursos Humanos",
+        "formacao": "Psicologia",
+        "regiao": "Centro de Joinville",
+        "valores": ["Eficiência operacional", "Compliance", "Saúde mental no trabalho"],
+        "personalidade": "Empática, extremamente organizada, frequentemente sobrecarregada",
+        "motivacao_primaria": "Libertar-se do trabalho operacional repetitivo de RH",
+        "sonho": "Focar no RH estratégico sem microgerenciar limpeza",
+        "comportamentos": ["Previne crises", "Busca empresas consolidadas e estáveis"],
+        "dores": ["Burnout por lidar com burocracia trabalhista", "Dificuldade de acompanhar normas sindicais"],
+        "objecao_principal": "Risco de empresa nova/falir e deixá-la na mão"
+      },
+      {
+        "nome": "Eduardo",
+        "idade": 42,
+        "cargo": "Empreendedor médico / dono de clínica",
+        "regiao": "Centro de Joinville",
+        "valores": ["Produtividade máxima", "Imagem e autoridade da marca", "Custo-benefício"],
+        "personalidade": "Dinâmico, exigente com o ambiente de trabalho, focado em imagem",
+        "motivacao_primaria": "Garantir que o ambiente reflita a qualidade do serviço prestado",
+        "sonho": "Escalar o faturamento sem aumentar riscos administrativos",
+        "comportamentos": ["Busca serviços de alta qualidade 1-2x/semana", "Valoriza discrição e eficiência"],
+        "dores": ["Percepção de sujeira afasta clientes", "Não quer contrato para funcionário integral"],
+        "objecao_principal": "Acha que não precisa de contrato para frequência baixa"
+      }
+    ],
+    "swot": {
+      "forcas": [
+        "Retenção histórica excepcional — clientes há 20+ anos, inadimplência baixíssima",
+        "Modularidade operacional — contratos fracionados que grandes concorrentes não atendem",
+        "Resposta rápida e canal 24h — diferencial vs. concorrentes com burocracia",
+        "26 anos de empresa consolidada — passa confiança e segurança jurídica",
+        "Funcionários de longa data (8-23 anos) — qualidade e estabilidade operacional",
+        "Absorção total de imprevistos (faltas, férias, atestados, acidentes)"
+      ],
+      "fraquezas": [
+        "Gargalo administrativo — equipe de 3 pessoas concentra todas as funções",
+        "Google Ads desconfigurado — atrai candidatos a emprego, baixa conversão real",
+        "Ausência de CRM e processo de follow-up estruturado",
+        "Instagram desatualizado — sem estratégia de conteúdo",
+        "Sem ERP/sistema financeiro — controle via Excel/Word",
+        "Alta rotatividade de funcionários operacionais (novos)",
+        "Sem prospecção ativa — 100% dependente de inbound"
+      ],
+      "oportunidades": [
+        "Boom imobiliário em Joinville — novos condomínios verticais surgindo constantemente",
+        "Vácuo de atendimento personalizado dos concorrentes grandes (frieza corporativa)",
+        "Crescimento do setor de limpeza profissional 15%/ano",
+        "Verticalização — portaria, manutenção predial, produtos de limpeza, copa fracionada",
+        "NRR — vender mais para base atual (90 clientes existentes)",
+        "Segmento de pequenos condomínios ignorado por grandes empresas"
+      ],
+      "ameacas": [
+        "Aumento do piso salarial (6%) e vale alimentação (21%) comprimindo margens",
+        "Conglomerados de segurança (FT, Orbank) expandindo para limpeza",
+        "Guerra de preços com empresas novas e MEIs que não pagam encargos",
+        "Pejotização/quarterização ilegal por concorrentes reduzindo preço percebido",
+        "Dependência de transporte público para cobertura de faltas"
+      ]
+    },
+    "concorrentes": [
+      {
+        "nome": "Macaiama Serviços",
+        "porte": "similar",
+        "clientes": "~70",
+        "foco": "Condomínio corporativo, forte presença digital no Instagram",
+        "forca": "Marketing orgânico forte — vídeos ASMR, dicas, prova social",
+        "fraqueza": "Dependência de supervisor 100% do tempo no serviço",
+        "estrategia_contra": "Focar em escala livre de supervisão e alta rentabilidade fracionada"
+      },
+      {
+        "nome": "Grupo Select",
+        "porte": "médio",
+        "anos_mercado": 16,
+        "foco": "Hub de soluções — limpeza + portaria + DP",
+        "forca": "Facilita vida do síndico com serviços unificados",
+        "fraqueza": "Estrutura faz-tudo gera falhas técnicas e atendimento impessoal",
+        "estrategia_contra": "Vender especialização em limpeza e atendimento direto e ágil"
+      },
+      {
+        "nome": "Grupo FT",
+        "porte": "médio-grande",
+        "anos_mercado": 30,
+        "foco": "Condomínios e empresas de alto padrão, segurança patrimonial",
+        "forca": "ISO 9001, credibilidade de tempo de mercado",
+        "fraqueza": "Lentidão no atendimento, burocracia interna",
+        "estrategia_contra": "Bater na agilidade de atendimento e reposição de pessoal em 24h"
+      },
+      {
+        "nome": "OBENK / Orbank",
+        "porte": "grande",
+        "anos_mercado": 39,
+        "foco": "Região Sul, licitações, indústria, grande volume",
+        "forca": "Musculatura financeira, negociação de insumos em escala",
+        "fraqueza": "Microgerenciamento, frieza corporativa, perda de qualidade por volume",
+        "estrategia_contra": "Posicionamento boutique premium, atendimento humanizado na zona norte"
+      },
+      {
+        "nome": "Zelo Mais",
+        "porte": "pequeno/novo",
+        "foco": "Serviços adicionais (paisagismo, manutenção predial)",
+        "forca": "Moderno, pacote completo",
+        "fraqueza": "Falta de experiência, carências contratuais abusivas",
+        "estrategia_contra": "26 anos de consolidação como diferencial, pacotes flexíveis e carências justas"
+      }
+    ],
+    "estrategia_crescimento": {
+      "principal_alavanca": "NRR — vender mais para base atual antes de buscar novos clientes",
+      "verticalizacao_sugerida": [
+        "Portaria remota (tecnologia white label)",
+        "Serviços de copa fracionados",
+        "Manutenção predial básica (marido de aluguel)",
+        "Venda direta de produtos de limpeza para clientes existentes"
+      ],
+      "nota": "Crescimento de território é difícil por restrições logísticas. Foco em aumentar ticket médio dos 90 clientes existentes."
+    }
+  },
+  "connectors": {
+    "fetched_at": null,
+    "workspace_id": null,
+    "integrations": {}
+  },
+  "progress": {
+    "current_week": 3,
+    "proxima_reuniao": "2026-05-04T16:00:00-03:00",
+    "proxima_reuniao_pauta": "S3 — Diagnóstico de mídia paga, criativos e ambientes digitais (site). Participantes: Geovanna, Felipe e Natália.",
+    "skills": {
+      "ee-s1-diagnostico-maturidade": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null,
+        "nota": "Sem workspace V4MOS — dados de mídia não disponíveis via API."
+      },
+      "ee-s1-swot": {
+        "status": "completed",
+        "version": 1,
+        "started_at": "2026-04-15",
+        "completed_at": "2026-04-24"
+      },
+      "ee-s1-persona-icp": {
+        "status": "completed",
+        "version": 1,
+        "started_at": "2026-04-15",
+        "completed_at": "2026-04-24"
+      },
+      "ee-s1-auditoria-comunicacao": {
+        "status": "in_progress",
+        "version": 0,
+        "started_at": "2026-04-15",
+        "completed_at": null,
+        "nota": "Levantamento inicial feito no S1 (site, Instagram, Google Ads). Diagnóstico formal será completado no S3 (04/05)."
+      },
+      "ee-s2-pesquisa-mercado": {
+        "status": "completed",
+        "version": 1,
+        "started_at": "2026-04-24",
+        "completed_at": "2026-04-24"
+      },
+      "ee-s2-posicionamento": {
+        "status": "completed",
+        "version": 1,
+        "started_at": "2026-04-24",
+        "completed_at": "2026-04-24"
+      },
+      "ee-s2-diagnostico-midia": {
+        "status": "completed",
+        "version": 1,
+        "started_at": "2026-05-04",
+        "completed_at": "2026-05-04"
+      },
+      "ee-s2-diagnostico-criativos": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s2-diagnostico-cro": {
+        "status": "completed",
+        "version": 1,
+        "started_at": "2026-05-04",
+        "completed_at": "2026-05-04"
+      },
+      "ee-s3-identidade-visual": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-brandbook": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-landing-page": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-copy-anuncios": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-criativos-anuncios": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-crm-setup": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-forecast-midia": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-gmb-otimizacao": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s4-diagnostico-comercial": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s4-cliente-oculto": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      }
+    }
+  },
+  "history": [
+    {
+      "ts": "2026-04-06T11:51:00-03:00",
+      "skill": "ee-novo-cliente",
+      "checkpoint": 1,
+      "decision": "[Qualificação SDR] Fit Score 7/10 — WARM. Principal dor: Google Ads ineficiente com candidatos a emprego consumindo verba, ausência de processo comercial. Interesse captado pelo anúncio de 'terceirização de vendas'. Decisor: Jeferson."
+    },
+    {
+      "ts": "2026-04-06T16:19:00-03:00",
+      "skill": "ee-novo-cliente",
+      "checkpoint": 2,
+      "decision": "[Reunião comercial V4] Proposta apresentada: R$20.000 à vista ou 12x R$2.000. Com 5 indicações de empresas acima de R$200k: 12x R$1.500. Se V4 fechar com 3 dos indicados: gratuito. Jeferson se posicionou 'mais para positiva do que negativa'."
+    },
+    {
+      "ts": "2026-04-07T12:57:00-03:00",
+      "skill": "ee-novo-cliente",
+      "checkpoint": 3,
+      "decision": "[Fechamento] Contrato assinado por Jeferson Pereira. Início do projeto: 13/04/2026. 12x R$1.498,67 no cartão. Time sênior alocado. Débora adicionada ao grupo WhatsApp."
+    },
+    {
+      "ts": "2026-04-15T15:57:00-03:00",
+      "skill": "ee-s1-swot",
+      "checkpoint": 1,
+      "decision": "[S1 Kickoff] Forças: retenção histórica, modularidade fracionada, resposta rápida 24h, 26 anos. Fraquezas: gargalo admin (Débora sobrecarregada), Google Ads desconfigurado, sem CRM, sem follow-up. Oportunidades: boom imobiliário Joinville, vácuo de atendimento personalizado. Ameaças: aumento piso salarial, concorrentes de segurança entrando em limpeza, guerra de preços com MEIs."
+    },
+    {
+      "ts": "2026-04-15T15:57:00-03:00",
+      "skill": "ee-s1-persona-icp",
+      "checkpoint": 1,
+      "decision": "[S1 Kickoff] ICP primário: síndicos de condomínios verticais pequenos (zona norte Joinville) + donos de pequenos escritórios/prestação de serviços. Ticket médio confirmado: R$2.900/mês. Decisores variados: síndico terceirizado, síndico morador, dono da empresa, RH. Faixa etária ampla, tendência de jovens em cargos de responsabilidade."
+    },
+    {
+      "ts": "2026-04-15T15:57:00-03:00",
+      "skill": "ee-s1-auditoria-comunicacao",
+      "checkpoint": 1,
+      "decision": "[S1 Kickoff] Site em WordPress/Hostgator (3ª versão, acesso parcialmente perdido). Instagram desatualizado (anos sem publicação). Google Ads com 3 campanhas sobrepostas, configuração de raio com falhas (recebe contatos de outros estados e Moçambique). WhatsApp com IA de filtragem em implementação."
+    },
+    {
+      "ts": "2026-04-24T16:00:00-03:00",
+      "skill": "ee-s2-pesquisa-mercado",
+      "checkpoint": 1,
+      "decision": "[S2] TAM Joinville = R$629M/ano. SAM (logística + eficiência) = R$53,1M/ano. Market share atual = 5,6% (~R$250k/mês). Meta = 10% (~R$440k/mês em 12-18 meses). 5 concorrentes mapeados: Macaiama, Select, FT, Orbank, Zelo Mais."
+    },
+    {
+      "ts": "2026-04-24T16:00:00-03:00",
+      "skill": "ee-s2-posicionamento",
+      "checkpoint": 1,
+      "decision": "[S2] Posicionamento definido: 'boutique premium' na zona norte — qualidade máxima vs. escala fria dos grandes. PUV: 'Terceirização modular de limpeza para condomínios e escritórios, apoiado em blindagem trabalhista absoluta e reposição garantida em 24h dedicada a proteger seu tempo e caixa.' Personas validadas: Roberto (síndico), Mariana (RH), Eduardo (empreendedor médico). Job-to-be-done: não vendem limpeza, vendem o condomínio/escritório limpo sem burocracia."
+    },
+    {
+      "ts": "2026-04-24T16:00:00-03:00",
+      "skill": "ee-s2-posicionamento",
+      "checkpoint": 2,
+      "decision": "[S2] Estratégia de crescimento definida: NRR primeiro (vender mais para base de 90 clientes) — 7x mais barato que novo cliente. Verticalizações sugeridas: portaria remota, serviços de copa fracionados, manutenção predial, venda de produtos de limpeza. Cliente levantou interesse em criar empresa separada de produtos."
+    },
+    {
+      "ts": "2026-05-04T00:00:00-03:00",
+      "skill": "ee-s2-diagnostico-midia",
+      "checkpoint": 1,
+      "decision": "[S2 Diagnóstico Mídia] Google Ads único canal ativo (R$1.500–R$3.000/mês, autogerenciado 10 anos): 3 campanhas sobrepostas, tag de conversão possivelmente quebrada (800 cliques vs. <10% contatos reais), raio geográfico com falhas (recebe de outros estados/Moçambique), alto volume de candidatos a emprego sem palavras-chave negativas. Upside estimado: +40-60% de leads qualificados com reconfiguração técnica, sem aumentar verba. Meta Ads e canais orgânicos com investimento zero. Diagnóstico baseado em dados declarativos — auditoria direta na conta necessária no S3 com Felipe."
+    },
+    {
+      "ts": "2026-05-04T00:00:00-03:00",
+      "skill": "ee-s2-diagnostico-cro",
+      "checkpoint": 1,
+      "decision": "[S2 CRO] LP cclean.com.br auditada via fetch. Problemas críticos: (1) Headline genérica não conecta com dor do ICP — PUV real (26 anos, blindagem trabalhista, reposição 24h) ausente da primeira dobra; (2) Formulário posicionado antes da seção de dor/solução — pede conversão sem construir desejo; (3) 5 diferenciais genéricos contradizem posicionamento boutique premium ('Alta Tecnologia' é antítese do posicionamento); (4) Zero prova social — sem depoimentos, anos de mercado, nº de clientes; (5) Imagens placeholder SVG sem fotos reais. Wireframe de LP refatorada proposto com 8 seções reorganizadas. Esta skill é pré-requisito para ee-s3-landing-page."
+    }
+  ]
+}

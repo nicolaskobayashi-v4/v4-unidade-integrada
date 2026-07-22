@@ -1,0 +1,291 @@
+{
+  "client_name": "Hyla do Brasil",
+  "skill": "ee-s2-diagnostico-midia",
+  "generated_at": "2026-07-08",
+  "data_source": "Google Ads (Performance da campanha, Canais, Conversões, Informações do leilão, Públicos-alvo, Performance dos anúncios, Palavra-chave de pesquisa, Termos de pesquisa, Relatório de grupos de recursos, Relatório de insights sobre termos de pesquisa, Relatório por dispositivos) + Meta Ads (relatório de campanhas/conjuntos/anúncios) — período 1/jan a 6-7/jul/2026, exportados pelo operador para base-de-conhecimento/dados-midia-paga. Complementado por teste ao vivo do operador (Meta Pixel Helper, Google Tag Assistant, GA4 DebugView) e outputs anteriores (ee-s1-persona-icp, ee-s1-swot, ee-s2-posicionamento). client.json.connectors segue sem acesso V4MOS (bloqueio 403 já escalado) — este diagnóstico usa export manual, não conector automático. Revisado em 16/07/2026 incorporando outputs/benchmark-internacional-associados-e-midia.md (Alemanha, Bélgica, EUA, França) e ee-s4-diagnostico-comercial (teste real de cliente oculto) — motivou a reestruturação de budget em duas frentes (consumo concentrado em SP + recrutamento nacional).",
+
+  "data_period": "1 de janeiro a 6-7 de julho de 2026",
+  "data_period_months": 6,
+
+  "summary": "A mídia paga da Hyla tem um problema mais grave do que custo de lead: hoje não existe nenhum evento no site que capture, de fato, o envio do formulário de pedido de demonstração. Testamos ao vivo os 3 candidatos possíveis no GA4 (`form_submit`, `ads_conversion`, `contact`) em duas landing pages, com duas ferramentas diferentes (Tag Assistant e GA4 DebugView) — nenhum disparou no momento do envio bem-sucedido. O Google Ads está, portanto, otimizando o lance automático sem nenhum sinal confiável de lead real, e 63% do orçamento de busca vai para o termo genérico 'aspirador de pó' em vez do território de saúde respiratória que a Hyla acabou de definir como posicionamento. O lado Meta está em situação melhor — otimiza corretamente para o objetivo nativo 'Leads' — mas o CPL do Google, reportado em versões anteriores deste diagnóstico, precisa ser tratado como não mensurável até um evento dedicado ser implementado e validado.",
+
+  "summary_headline": "Não é possível medir hoje quantos leads reais o Google Ads gera — nenhum dos 3 eventos candidatos (form_submit, ads_conversion, contact) dispara no envio do formulário de demonstração.",
+
+  "summary_highlights": [
+    { "category": "posicao", "label": "Investimento 6 meses", "value": "R$75.550", "subtext": "R$27.647 Google + R$47.903 Meta — Meta é 63% do total", "tone": "blue" },
+    { "category": "risco", "label": "Leads reais do Google", "value": "não mensurável", "subtext": "3 eventos testados ao vivo (form_submit, ads_conversion, contact) — nenhum dispara no envio", "tone": "red" },
+    { "category": "risco", "label": "Metas de conversão Google", "value": "4 categorias 'Principal'", "subtext": "Compra + Carrinho + Lead + Contato competem pelo mesmo lance automático, todas sem sinal confiável", "tone": "red" },
+    { "category": "risco", "label": "Budget Google em mobile", "value": "82,5%", "subtext": "Site com instabilidade mobile já reconhecida pela equipe", "tone": "red" },
+    { "category": "oportunidade", "label": "Leads Meta (confiável)", "value": "CPL R$34,63", "subtext": "Adset Bairros Nobres SP — 61% do budget Meta, alinhado ao ICP, métrica nativa validada", "tone": "green" },
+    { "category": "competicao", "label": "Cluster saúde vs genérico (busca)", "value": "10x menos", "subtext": "R$407 em termos de saúde/alergia vs R$4.320 em 'aspirador de pó' genérico", "tone": "yellow" },
+    { "category": "oportunidade", "label": "Brasil vs França (Instagram)", "value": "47-49k > 14k", "subtext": "Brasil já tem mais seguidores que a França — mas vende 1/3 por associada. Não é problema de alcance.", "tone": "blue" }
+  ],
+
+  "summary_key_findings": [
+    { "category": "ameaca", "text": "Teste ao vivo, repetido em 2 landing pages com 2 ferramentas (Google Tag Assistant e GA4 DebugView), confirma que nenhum dos 3 eventos candidatos a 'lead' (`form_submit`, `ads_conversion`, `contact`) dispara no momento em que o formulário de demonstração é enviado com sucesso. `contact` parece estar amarrado a outra ação (provavelmente o clique no botão flutuante de WhatsApp, hipótese ainda não confirmada com o time de dev), não ao formulário." },
+    { "category": "contexto", "text": "Investigação por eliminação: `form_submit` (75 eventos/28d) é um evento genérico que dispara em qualquer formulário do site — só 2,7% vêm da landing page principal, o resto é recuperação de senha, carrinho e checkout de acessórios. `ads_conversion` tem o mesmo padrão. `contact` concentra 92,6% dos eventos nas páginas certas (landing page + home) mas não disparou no teste ao vivo — mais provável ser o widget de WhatsApp do que o formulário." },
+    { "category": "ameaca", "text": "As metas de conversão do Google Ads (Compra, Adicionar ao carrinho, Enviar formulário de lead, Contato) estão todas marcadas como 'Ação principal' ao mesmo tempo — e nenhuma delas mede, de fato, o pedido de demonstração. O Smart Bidding está operando sem nenhum sinal confiável de lead, o que pode explicar por que dobrar o orçamento no passado não dobrou o resultado (mencionado no kick-off)." },
+    { "category": "ameaca", "text": "82,5% do investimento em Google Ads é direcionado a dispositivos móveis — mas o próprio time já classificou a experiência mobile do site (WordPress + Elementor) como instável dependendo do navegador. Tráfego caro sendo entregue à pior versão técnica de um funil que, agora sabemos, também não está sendo medido corretamente no fim." },
+    { "category": "acao", "text": "O Meta está em situação melhor (otimiza corretamente para o objetivo nativo 'Leads') e já mostra onde realocar: a campanha 'Instagram | Conversão WPP' custa 10x mais por lead (R$321,27) que 'Instagram | Conversão 2026' (R$30,81), com dois anúncios que gastaram R$1.268 juntos sem gerar nenhum lead — candidata natural a corte imediato." },
+    { "category": "acao", "text": "Validado com o operador: o gargalo da Hyla não é volume de lead de consumidor final — é capacidade de atendê-los. O achado do diagnóstico comercial (ee-s4-diagnostico-comercial) reforça isso com prova de campo: mesmo um lead com associada confirmada disponível morre antes de virar demonstração agendada. Recomendação de mídia revisada: concentrar o funil de consumidor final em São Paulo (onde já funciona — Bairros Nobres CPL R$34,63) e abrir uma frente separada e nacional de recrutamento de associadas, financiada redirecionando o que já era desperdício identificado (campanha WPP, parte da PMAX genérica) — não com aumento de investimento. Ver budget_reallocation_scenarios." }
+  ],
+
+  "current_metrics": {
+    "leads_per_month": "Google: não mensurável hoje (nenhum evento dedicado ao pedido de demonstração — ver top_problems #1). Meta: ~195/mês via métrica nativa Leads, confiável, exceto jun-jul/2026 sob suspeita de mudança de tracking no site.",
+    "cpl_estimated": null,
+    "conversion_rate": null,
+    "cac": "900 (estimativa verbal do kick-off, não recalculada nesta skill — depende de dados de vendas atribuídas por associado, fora do escopo de mídia paga)",
+    "unavailable_reason": "CPL/CAC do Google não podem ser calculados com confiança: os 3 eventos GA4 candidatos a sinal de lead (form_submit, ads_conversion, contact) foram testados ao vivo e nenhum dispara no envio do formulário de demonstração."
+  },
+
+  "google_ads": {
+    "budget_monthly": 4489,
+    "active_campaigns": 2,
+    "total_campaigns": 4,
+    "total_spend_90d": 14514.10,
+    "total_clicks_90d": 22987,
+    "total_impressions_90d": 741996,
+    "avg_ctr": 3.10,
+    "avg_cpa": null,
+    "total_conversions_90d": null,
+    "conversions_unavailable_reason": "Os 3 eventos GA4 candidatos a sinal de lead (form_submit, ads_conversion, contact) foram testados ao vivo em 2 landing pages com 2 ferramentas (Tag Assistant, GA4 DebugView) e nenhum dispara no envio do formulário de demonstração — ver top_problems #1. Valores de CPA/conversões calculados em versões anteriores deste diagnóstico usando form_submit foram removidos por não representarem leads reais.",
+    "budget_monthly_actual": 4489,
+
+    "strategic_diagnosis": "O achado mais importante do lado Google não é de mídia, é de mensuração: nenhum dos 3 eventos GA4 configurados como meta de conversão (`form_submit`, `ads_conversion`, `contact`) dispara quando o formulário de demonstração é enviado com sucesso — confirmado em teste ao vivo repetido em 2 landing pages com 2 ferramentas diferentes. Por eliminação: `form_submit` e `ads_conversion` são eventos genéricos que disparam em qualquer formulário do site (recuperação de senha, carrinho, checkout de acessório) — só ~2,7% dos disparos de cada um vêm da landing page principal. `contact` concentra 92,6% dos disparos nas páginas certas (landing page + home), mas não disparou no teste ao vivo — a hipótese mais provável é que esteja amarrado ao clique no botão flutuante de WhatsApp, não ao formulário (não confirmado com o time de dev). Com isso, as 4 metas de conversão da conta (Compra, Carrinho, Lead, Contato, todas como 'Ação principal') competem pelo mesmo lance automático sem nenhuma delas medir o que importa. Separado desse problema: 63% do budget do Google (R$17.550 de R$27.647) está na campanha PMAX, que usa um único grupo de recursos ('Performance max', qualidade 'Excelente') com mais de 60 temas de pesquisa misturando saúde (asma, rinite, bronquite, ácaros), concorrentes (Rainbow, Vivenso, Kirby) e limpeza genérica (estofados, sofá, tapete) — sem segmentação por intenção. Pelos insights de categoria de pesquisa disponíveis (~10% do volume de cliques da PMAX, o resto fica oculto pela plataforma), o cluster genérico de 'aspirador de pó' consome mais que 10x o volume do cluster de saúde/alergia — o oposto do território definido em ee-s2-posicionamento. As campanhas de Pesquisa tradicional (Branding-SP ativa, Branding-BR pausada) somam só R$10.096 mas têm rastreamento real de termo de busca: nelas, R$3.901 (28% do gasto) foi para termos com zero engajamento, e 82,5% de todo o budget do Google vai para celular, dispositivo onde o site já é reconhecido internamente como instável.",
+
+    "monthly_evolution": [
+      { "month": "2026-01", "cost": 4178.15, "clicks": 10418, "impressions": 187519, "ctr": 5.56 },
+      { "month": "2026-02", "cost": 3903.33, "clicks": 10443, "impressions": 115947, "ctr": 9.01 },
+      { "month": "2026-03", "cost": 3783.32, "clicks": 5418, "impressions": 88146, "ctr": 6.15 },
+      { "month": "2026-04", "cost": 5428.94, "clicks": 16702, "impressions": 389871, "ctr": 4.28 },
+      { "month": "2026-05", "cost": 5605.26, "clicks": 10414, "impressions": 354153, "ctr": 2.94 },
+      { "month": "2026-06", "cost": 3778.84, "clicks": 3257, "impressions": 126308, "ctr": 2.58 },
+      { "month": "2026-07", "cost": 969.17, "clicks": 556, "impressions": 34735, "ctr": 1.60 }
+    ],
+
+    "monthly_evolution_note": "Colunas de conversão/CPA foram removidas desta tabela: nenhum evento GA4 disponível (form_submit, ads_conversion, contact) mede de forma confiável o pedido de demonstração — ver top_problems #1 e honesty_alert. Só custo, cliques, impressões e CTR (dados de plataforma, confiáveis) são mostrados.",
+
+    "top_keywords": [
+      { "keyword": "aspirador de pó portátil", "impressions": 33259, "clicks": 517, "ctr": 1.55, "cost": 779.79, "cpc": 1.51, "conversions": 2483, "cpa": 0.31, "tag": "evento GA4 misto", "tone": "gray" },
+      { "keyword": "vassoura eletrica", "impressions": 9128, "clicks": 221, "ctr": 2.42, "cost": 646.40, "cpc": 2.93, "conversions": 1149, "cpa": 0.56, "tag": "evento GA4 misto", "tone": "gray" },
+      { "keyword": "Purificador de ar", "impressions": 2361, "clicks": 134, "ctr": 5.68, "cost": 570.73, "cpc": 4.26, "conversions": 733, "cpa": 0.78, "tag": "evento GA4 misto", "tone": "gray" },
+      { "keyword": "hyla aspirador", "impressions": 4165, "clicks": 315, "ctr": 7.56, "cost": 437.48, "cpc": 1.39, "conversions": 2077, "cpa": 0.21, "tag": "branded", "tone": "green" },
+      { "keyword": "melhor aspirador de pó vertical", "impressions": 6148, "clicks": 147, "ctr": 2.39, "cost": 365.21, "cpc": 2.48, "conversions": 751, "cpa": 0.49, "tag": "evento GA4 misto", "tone": "gray" },
+      { "keyword": "antialérgico", "impressions": 763, "clicks": 36, "ctr": 4.72, "cost": 305.50, "cpc": 8.49, "conversions": 188, "cpa": 1.62, "tag": "território saúde", "tone": "yellow" },
+      { "keyword": "hyla", "impressions": 620, "clicks": 132, "ctr": 21.29, "cost": 181.89, "cpc": 1.38, "conversions": 1034, "cpa": 0.18, "tag": "branded", "tone": "green" },
+      { "keyword": "rinite alérgica", "impressions": 671, "clicks": 28, "ctr": 4.17, "cost": 213.19, "cpc": 7.61, "conversions": 118, "cpa": 1.81, "tag": "território saúde", "tone": "yellow" },
+      { "keyword": "eliminar ácaros", "impressions": 522, "clicks": 32, "ctr": 6.13, "cost": 138.96, "cpc": 4.34, "conversions": 170, "cpa": 0.82, "tag": "território saúde", "tone": "yellow" },
+      { "keyword": "aspirador hyla", "impressions": 638, "clicks": 82, "ctr": 12.85, "cost": 111.18, "cpc": 1.36, "conversions": 546, "cpa": 0.20, "tag": "branded", "tone": "green" }
+    ],
+    "top_keywords_note": "Cliques/impressões/custo são dados reais e confiáveis. 'Conversões' e 'CPA' desta tabela usam o evento nativo do Google Ads (que mistura page_view/scroll com leads reais) porque não é possível atribuir `form_submit` por palavra-chave nos exports disponíveis — leia como sinal relativo de engajamento, não como leads reais. Apenas as 10 palavras-chave de maior custo das campanhas de Pesquisa tradicional (Branding-SP/BR) estão listadas; a PMAX (63% do budget) não expõe termo de busca exato."
+  },
+
+  "keyword_clusters": [
+    {
+      "cluster": "Genérico (aspirador de pó / limpeza doméstica)",
+      "intent": "commercial",
+      "budget_allocation_pct": 42,
+      "expected_cpc_range": "R$1,50 - R$4,30",
+      "bid_strategy": "Maximizar conversões (poluído pelo problema de metas — ver top_problems)",
+      "copy_angle": "Praticidade / performance de limpeza",
+      "risk": "Maior cluster de investimento, mas é o eixo onde a Hyla tem menos diferenciação frente a concorrentes genéricos e marketplaces",
+      "keywords": ["aspirador de pó portátil", "vassoura eletrica", "Purificador de ar", "melhor aspirador de pó vertical", "limpeza de estofados", "produtos limpeza"]
+    },
+    {
+      "cluster": "Branded (Hyla)",
+      "intent": "navigational",
+      "budget_allocation_pct": 8,
+      "expected_cpc_range": "R$1,35 - R$1,40",
+      "bid_strategy": "Maximizar conversões",
+      "copy_angle": "Comparação / reforço de decisão já tomada",
+      "risk": "Baixo — CTR muito alto (até 21%), tráfego barato e qualificado",
+      "keywords": ["hyla aspirador", "hyla", "aspirador hyla", "hyla do brasil"]
+    },
+    {
+      "cluster": "Saúde respiratória / alergia (território do posicionamento)",
+      "intent": "informational",
+      "budget_allocation_pct": 4,
+      "expected_cpc_range": "R$4,30 - R$8,50",
+      "bid_strategy": "Maximizar conversões — volume baixo hoje",
+      "copy_angle": "Saúde respiratória doméstica (alinhado a ee-s2-posicionamento)",
+      "risk": "Volume muito baixo frente ao território estratégico definido — não está claro se é falta de demanda de busca ou falta de investimento/estrutura dedicada",
+      "keywords": ["antialérgico", "rinite alérgica", "eliminar ácaros", "aromatizador de ambiente"],
+      "opportunity_keywords": [
+        { "keyword": "aspirador para quem tem asma/rinite", "cluster": "Saúde respiratória / alergia", "intent": "commercial", "rationale": "Termo comercial direto no território de posicionamento, hoje sem cobertura explícita em campanha de Pesquisa dedicada — só aparece dentro da lista genérica de temas da PMAX." },
+        { "keyword": "purificador de ar para bebê / quarto de criança", "cluster": "Saúde respiratória / alergia", "intent": "commercial", "rationale": "Sub-segmento de saúde ainda não testado isoladamente; conecta com o ICP secundário de decisora com filhos pequenos." }
+      ]
+    },
+    {
+      "cluster": "Adjacente / pouco relevante",
+      "intent": "informational",
+      "budget_allocation_pct": 3,
+      "expected_cpc_range": "R$0,50 - R$3,00",
+      "bid_strategy": "Sem estratégia dedicada — tráfego capturado pela amplitude da PMAX",
+      "copy_angle": "—",
+      "risk": "Termos como 'escova para cachorro', 'brizza pet', 'papa bolinhas eletrico profissional' e 'saco a vacuo viagem' têm 0 conversões e pouca relação com o produto — provável efeito colateral da lista ampla de temas da PMAX",
+      "keywords": ["escova para cachorro", "escova para pelo de gato", "brizza pet", "tira pelo de roupas eletrico", "papa bolinhas eletrico profissional"]
+    }
+  ],
+
+  "meta_ads": {
+    "budget_monthly_actual": 8375,
+    "total_ads": 54,
+    "total_campaigns": 4,
+    "total_spend_90d": 25620.37,
+    "total_clicks_90d": 165373,
+    "total_impressions_90d": 3409280,
+    "total_reach_90d": 3193023,
+    "avg_ctr": 4.85,
+    "avg_cpm": 7.51,
+
+    "strategic_diagnosis": "As campanhas Meta estão corretamente otimizadas para o objetivo 'Leads' (confirmado pelo operador) — diferente do Google, aqui o alvo do algoritmo está certo, mesmo com outros eventos (Contatos, Compras) aparecendo nos relatórios sem serem o alvo de otimização. O adset '[SP] BAIRROS NOBRES' concentra 61% do budget Meta com CPL R$34,63, alinhado ao ICP primário (região nobre de SP). No outro extremo, a campanha 'Instagram | Conversão WPP' custa 10x mais por lead (R$321,27) e tem dois anúncios ('Imagem Benefícios' e 'Novo vídeo Nimbus', ambos no adset RS/SC/ES/MS/MG/AL/PE) que juntos gastaram R$1.268 sem gerar nenhum lead. Dentro do próprio melhor adset, a variação de CPL por criativo é grande: 'PRATICIDADE' R$21,00/lead vs 'Nimbus Tapete' R$175,14/lead — mesma audiência, ângulo de mensagem é o que mais varia o resultado. O salto de leads a partir de 17/06 (CPL caindo de ~R$95 para R$5,21) não corresponde a nenhuma alteração de campanha no histórico do gerenciador — hipótese do operador é mudança de tracking no site, ainda não confirmada; os números de junho/julho não devem ser tratados como novo patamar de eficiência até essa validação. Achado estratégico validado com o operador (16/07): o gargalo atual não é volume de lead, é capacidade de atendê-lo — a Hyla já tem mais seguidores no Instagram oficial (~47-49 mil) que a própria Hyla França (~14 mil), que vende o triplo por associada. Recomendação: concentrar o budget de consumo (leads de demonstração) no que já funciona — Bairros Nobres SP — e não escalar para novas praças até a capacidade de atendimento acompanhar. Em paralelo, abrir uma campanha de RECRUTAMENTO separada (público, criativo e CTA distintos — 'vire associada', não 'agende demonstração'), com alcance nacional, priorizando praças com alguma estrutura de suporte já existente (não uniformemente todo o Brasil). Benchmark de 4 países (Alemanha, Bélgica, EUA, França — ver outputs/benchmark-internacional-associados-e-midia.md) confirma múltiplos pontos de entrada de recrutamento simultâneos e, em 2 de 4 países (Bélgica e França), um papel formal de 'embaixadora digital/redes sociais' sem demonstração presencial — candidato natural a testar no @hyladobrasilbusiness, hoje subutilizado (grade D+ na auditoria de comunicação). Essa campanha de recrutamento pode ser financiada redirecionando o budget hoje desperdiçado na campanha WPP (R$321/lead) — sem pedir aumento de investimento.",
+
+    "monthly_evolution": [
+      { "month": "2026-01", "spend": 5574.20, "impressions": 1158263, "clicks": 45496, "reach": 1029318, "cpm": 4.81, "ctr": 3.93 },
+      { "month": "2026-02", "spend": 6987.56, "impressions": 1543245, "clicks": 58223, "reach": 1360965, "cpm": 4.53, "ctr": 3.77 },
+      { "month": "2026-03", "spend": 7818.28, "impressions": 1432516, "clicks": 67024, "reach": 1372937, "cpm": 5.46, "ctr": 4.68 },
+      { "month": "2026-04", "spend": 8056.36, "impressions": 1567618, "clicks": 82486, "reach": 1512401, "cpm": 5.14, "ctr": 5.26 },
+      { "month": "2026-05", "spend": 8789.47, "impressions": 1569160, "clicks": 77670, "reach": 1477138, "cpm": 5.60, "ctr": 4.95 },
+      { "month": "2026-06", "spend": 8946.58, "impressions": 587967, "clicks": 22826, "reach": 504658, "cpm": 15.22, "ctr": 3.88 },
+      { "month": "2026-07", "spend": 1730.55, "impressions": 57018, "clicks": 3197, "reach": 53678, "cpm": 30.35, "ctr": 5.61 }
+    ],
+
+    "critical_issues": [
+      "Campanha 'Instagram | Conversão WPP': CPL R$321,27, 10x o da melhor campanha (R$30,81) — nome sugere otimização para conversa de WhatsApp, o que contradiz a decisão já tomada pelo time de remover o botão direto de WhatsApp dos anúncios para elevar qualificação (nota do briefing).",
+      "Dois anúncios do adset 'RS SC ES MS MG AL PE - WPP' ('[Imagem] Benefícios' R$720,31 e '[Vídeo] Novo vídeo Nimbus' R$547,94) somam R$1.268,25 gastos com ZERO leads.",
+      "CPM subiu de ~R$5 (jan-mai) para R$15,22 (jun) e R$30,35 (jul) com queda de impressões — coincide com o período do salto de leads não explicado por mudança de campanha; recomenda-se não tratar como novo patamar até validar a hipótese de mudança de tracking no site."
+    ],
+
+    "metrics_vs_benchmark": [
+      { "metric": "CPM (Meta, blended)", "atual": "R$7,51 (90d) / R$6,05 (6 meses)", "benchmark": "~R$22 (Brasil, Tier 3, referência global 2026) [E]", "gap": "abaixo do benchmark", "status": "ok" },
+      { "metric": "CTR (Meta, blended)", "atual": "4,85% (90d)", "benchmark": "2,92% (Home & Decor, referência EUA 2026) [E]", "gap": "acima do benchmark", "status": "ok" },
+      { "metric": "CPL (Lead Gen, Meta)", "atual": "R$27,08 (90d, sob suspeita) / R$40,87 (6 meses, mais confiável)", "benchmark": "US$23-28 ≈ R$122-150 (Lead Gen, referência EUA 2025/2026) [E]", "gap": "abaixo do benchmark", "status": "ok" }
+    ],
+
+    "best_historical": [
+      { "name": "[Vídeo] PRATICIDADE — Bairros Nobres SP", "cpm": "7,71", "impressions": 869546, "note": "CPL R$21,00 — melhor custo por lead do período, mesma audiência do restante do adset" },
+      { "name": "[Vídeo] Trend Viral — Bairros nobres SP", "cpm": "8,03", "impressions": 599406, "note": "CPL R$27,06 — segundo melhor criativo do melhor adset" },
+      { "name": "[Vídeo] - Extratora HYLA — Goiânia 26", "cpm": "30,70", "impressions": 18763, "note": "CPL R$10,11 — melhor CPL absoluto do período, mas em praça pequena (Goiânia, baixo volume)" }
+    ]
+  },
+
+  "top_problems": [
+    {
+      "problem": "Não existe hoje nenhum evento de conversão que capture, de fato, o pedido de demonstração — confirmado ao testar ao vivo os 3 candidatos possíveis no GA4.",
+      "data_evidence": "Investigação em 3 etapas: (1) `form_submit` (590 no período de 6 meses) é um evento genérico do GA4 — no relatório de páginas dos últimos 28 dias, só 2 dos 75 disparos vieram da landing page principal (/aspirador-hyla-do-brasil/, 70,75% do tráfego do site); o resto é recuperação de senha (/minha-conta/senha-perdida/), carrinho e checkout de acessórios (Air Odorizer). (2) `ads_conversion` (448 no período), embora corretamente classificado como 'Enviar formulário de lead' no Google Ads, tem exatamente o mesmo padrão — só 2 de 57 disparos na landing page. (3) `contact` (378 no período completo) concentra 92,6% dos disparos nas páginas certas (52,9% landing page + 39,7% home) e parecia ser o sinal certo — mas em teste ao vivo, repetido em 2 landing pages com Google Tag Assistant e GA4 DebugView, **nenhum dos 3 eventos disparou no momento do envio bem-sucedido do formulário** (só `form_start` e engajamento genérico são registrados). A hipótese mais provável para `contact` é que esteja amarrado ao clique no botão flutuante de WhatsApp, não ao formulário — não confirmado com o time de dev.",
+      "impact": "O Google Ads está otimizando o lance automático (Smart Bidding) sem nenhum sinal confiável de lead real há pelo menos os 6 meses cobertos por este diagnóstico. Isso explica, de forma mais direta que qualquer hipótese anterior, por que dobrar o orçamento de mídia no passado não dobrou o resultado (relatado no kick-off) — o algoritmo nunca teve o dado certo para otimizar. Nenhuma decisão de aumento de investimento em Google Ads deve ser tomada antes de implementar e validar um evento dedicado ao pedido de demonstração."
+    },
+    {
+      "problem": "O budget de busca do Google está concentrado no território errado: 'aspirador de pó' genérico, não 'saúde respiratória' — o oposto do que ee-s2-posicionamento acabou de definir como território de marca.",
+      "data_evidence": "No agrupamento de termos de busca reais (Pesquisa tradicional + insights da PMAX), o cluster genérico (aspirador de pó, vassoura elétrica, purificador de ar) concentrou R$4.320 e 1.729 cliques — mais de 10x o cluster de saúde/alergia (asma, rinite, bronquite, ácaros: R$407 e 88 cliques). A campanha PMAX (63% do budget do Google) usa um único grupo de recursos com mais de 60 temas de pesquisa misturando saúde, concorrentes e limpeza genérica, sem nenhuma segmentação.",
+      "impact": "A Hyla está pagando para competir no espaço genérico de aspiradores domésticos, onde tem menos diferenciação frente a concorrentes e marketplaces (Amazon, Mercado Livre, Shopee aparecem com parcela de impressão relevante no Auction Insights), em vez do espaço de saúde onde tem o argumento técnico mais forte (separador autolimpante patenteado) e que a própria pesquisa de mercado (ee-s2-pesquisa-mercado) já validou como território maior e menos disputado."
+    },
+    {
+      "problem": "82,5% do investimento em Google Ads vai para dispositivos móveis — o dispositivo onde a experiência do site já é reconhecida internamente como instável.",
+      "data_evidence": "R$22.807 de R$27.647 (82,5%) do investimento total em Google Ads foi em celular, contra 16,9% em desktop. O CTR mobile (4,55%) é mais que o dobro do desktop (1,96%) — o anúncio funciona bem em mobile. Mas o site (WordPress + Elementor) já foi classificado no diagnóstico de maturidade como tendo problemas de navegador em mobile, relatados pelo próprio time.",
+      "impact": "Tráfego caro e relativamente qualificado (CTR alto) está sendo entregue à pior versão técnica do funil de conversão. Esse é um ponto de intersecção direta com ee-s2-diagnostico-cro — nenhuma melhora de mídia paga compensa perder o lead na própria página de destino."
+    }
+  ],
+
+  "action_plan": [
+    { "rank": 1, "action": "Implementar um evento de conversão dedicado ao envio do formulário de demonstração (ex.: `lead_demonstracao`), disparado só nesse formulário — separado de carrinho, recuperação de senha, checkout de acessório e WhatsApp", "priority": "P1", "expected_impact": "Sem isso, nenhuma métrica de lead do Google (CPL, CPA, volume) é mensurável — pré-requisito para qualquer otimização de mídia no Google Ads", "deadline": "Até 15/07" },
+    { "rank": 2, "action": "Validar o novo evento ao vivo (Tag Assistant + GA4 DebugView) em pelo menos 2 landing pages antes de configurá-lo como meta de conversão no Google Ads", "priority": "P1", "expected_impact": "Evita repetir o mesmo erro (evento configurado mas não disparando de fato)", "deadline": "Junto com item 1" },
+    { "rank": 3, "action": "Confirmar com o time de dev/GTM se `contact` está de fato amarrado ao clique do botão de WhatsApp (hipótese não confirmada) — se sim, mantê-lo como métrica de engajamento, não como meta de lead", "priority": "P2", "expected_impact": "Evita reaproveitar por engano um evento que não mede o formulário", "deadline": "15 dias" },
+    { "rank": 4, "action": "Após o novo evento validado, rebaixar as metas 'Compra', 'Adicionar ao carrinho' e 'Contato' de 'Ação principal' para 'Secundária' no Google Ads, deixando só o evento de lead correto como Principal", "priority": "P1", "expected_impact": "Realinha o Smart Bidding para otimizar por lead real, não por engajamento genérico", "deadline": "Logo após item 2" },
+    { "rank": 5, "action": "Adicionar lista de palavras-chave negativas nas campanhas de Pesquisa tradicional cobrindo os termos de zero engajamento já identificados (ex.: 'site de eletrodomésticos', 'melhor produto limpar vidro', 'colchão casal', 'maquinas')", "priority": "P2", "expected_impact": "Recupera parte dos R$3.901 (28% do gasto em Pesquisa tradicional) hoje desperdiçados em termos irrelevantes", "deadline": "15 dias" },
+    { "rank": 6, "action": "Pausar ou realocar a campanha 'Instagram | Conversão WPP' (CPL R$321) — começando pelos 2 anúncios do adset RS/SC/ES/MS/MG/AL/PE com R$1.268 gastos e zero leads — para o adset Bairros Nobres SP (CPL R$34,63)", "priority": "P2", "expected_impact": "Reduz CPL blended do Meta e concentra verba no segmento já comprovadamente mais alinhado ao ICP", "deadline": "15 dias" },
+    { "rank": 7, "action": "Criar um grupo de recursos (ou campanha de Pesquisa dedicada) só para o cluster de saúde/alergia, com criativos focados em asma/rinite/ácaros/bronquite, separado do grupo genérico atual da PMAX", "priority": "P2", "expected_impact": "Testa se existe demanda de busca real no território de saúde e realinha mídia com o posicionamento definido em ee-s2-posicionamento", "deadline": "30 dias" },
+    { "rank": 8, "action": "Testar 2-3 variações de criativo com o ângulo 'PRATICIDADE' (melhor CPL do período, R$21) em outras praças além de Bairros Nobres SP, já que o ângulo parece importar mais que a segmentação geográfica dentro do Meta", "priority": "P3", "expected_impact": "Pode reduzir CPL em praças hoje mais caras (Curitiba, Brasília, Goiânia) replicando o ângulo vencedor", "deadline": "30 dias" },
+    { "rank": 9, "action": "Rodar um teste de cliente oculto em São Paulo (mesmo formato do teste já feito em Londrina) antes de comprometer o budget na reestruturação de duas frentes — hoje toda a evidência de campo do handoff quebrado (ver ee-s4-diagnostico-comercial) vem de praça sem cobertura ativa", "priority": "P1", "expected_impact": "Se o handoff funcionar em SP, confirma a tese de concentração geográfica. Se quebrar também, o problema é de processo/CRM, não de geografia — muda a prioridade do investimento", "deadline": "Antes da reunião de 17/07, se possível" },
+    { "rank": 10, "action": "Estruturar uma campanha de recrutamento de associadas separada da campanha de consumo (público-alvo, criativo e CTA distintos), com alcance nacional priorizando praças com alguma estrutura de suporte já existente — testar o formato 'embaixadora digital' (Bélgica/França) via @hyladobrasilbusiness", "priority": "P2", "expected_impact": "Ataca o gargalo real (capacidade de atendimento) em vez de continuar comprando lead de consumo que a operação não consegue converter em demonstração agendada", "deadline": "30 dias" }
+  ],
+
+  "budget_reallocation_scenarios": {
+    "description": "Os cenários abaixo tratam Google e Meta de forma assimétrica: o Meta tem métrica de lead confiável (objetivo nativo 'Leads') e pode ser projetado com confiança; o Google não pode ser projetado em leads/CPL até o evento de conversão dedicado (ação P1 do plano) ser implementado e validado — por isso os cenários A e B mantêm o budget de Google como 'ações de higiene sem meta numérica de leads', e só o Cenário C (que já pressupõe o evento corrigido) projeta um número combinado, com confiança baixa. CAMADA ADICIONAL (validada com o operador em 16/07): a partir do Cenário B, o budget de consumo (leads de demonstração) deve se concentrar geograficamente em São Paulo — onde já funciona e onde a cobertura de associada é mais densa — em vez de pulverizar entre praças com pouca capacidade de atendimento. O que hoje é gasto em praças de baixa cobertura (ex.: a campanha WPP) é redirecionado para uma campanha de RECRUTAMENTO de associadas, separada da campanha de consumo (público, criativo e CTA diferentes), com alcance nacional — essa frente não compete por budget novo, é uma realocação do que já era desperdício. Pré-requisito antes de comprometer essa reestruturação: validar com um teste de cliente oculto em SP se o handoff que quebrou em Londrina (ver ee-s4-diagnostico-comercial) também quebra numa praça com cobertura densa — se sim, o problema é de processo/CRM, não só de geografia, e a concentração geográfica sozinha não resolve.",
+    "scenario_a_conservative": {
+      "name": "Conservador — implementar o evento, sem mexer em budget",
+      "total_budget_monthly": 12306,
+      "expected_leads_monthly": 195,
+      "expected_cpl": 40,
+      "google_split": 4489,
+      "meta_split": 7817,
+      "effort_weeks": 1,
+      "confidence": "Alta (para o número, que é só a projeção do Meta — Google segue sem meta numérica)",
+      "changes": [
+        "Implementar e validar ao vivo o evento de conversão dedicado ao formulário (itens 1-2 do plano de ação)",
+        "Adicionar negativas nas campanhas de Pesquisa tradicional (item 5)"
+      ],
+      "prerequisites": ["Nenhum — pode começar imediatamente"],
+      "risk_assessment": "Baixo — mudanças de higiene e instrumentação, sem realocação estrutural. 'Leads/mês' e 'CPL' desta linha refletem só o Meta; o Google segue sem meta numérica até o evento ser validado."
+    },
+    "scenario_b_realistic": {
+      "name": "Realista — evento validado + realocar dentro do budget atual",
+      "total_budget_monthly": 12306,
+      "expected_leads_monthly": 220,
+      "expected_cpl": 34,
+      "google_split": 4489,
+      "meta_split": 7817,
+      "effort_weeks": 4,
+      "confidence": "Média (Meta) / não aplicável ainda (Google)",
+      "changes": [
+        "Tudo do Cenário A",
+        "Concentrar o budget de consumo (leads de demonstração) em São Paulo — Bairros Nobres SP e praças com o ângulo PRATICIDADE — em vez de pulverizar entre praças de baixa cobertura de associada",
+        "Cortar a campanha WPP (R$321/lead, zero cobertura de associada consistente) e redirecionar esse valor para uma campanha de RECRUTAMENTO de associadas, separada da campanha de consumo (público-alvo, criativo e CTA distintos: 'vire associada', não 'agende demonstração')",
+        "Rebaixar metas de conversão não-lead para Secundária no Google Ads, uma vez o evento certo validado",
+        "Criar grupo de recursos dedicado ao cluster de saúde/alergia na PMAX"
+      ],
+      "prerequisites": ["Evento de conversão do Google implementado e validado ao vivo (item 1-2)", "Teste de cliente oculto em São Paulo confirmando que o handoff funciona em praça de cobertura densa (ação P1 do plano, item 9)"],
+      "risk_assessment": "Médio — 'Leads/mês' e 'CPL' desta linha ainda refletem só o Meta (melhorado pela realocação); o volume real do Google só poderá ser somado depois de 2-3 semanas de dados limpos com o evento novo. A concentração geográfica em SP só deve ser levada adiante se o teste de cliente oculto em SP confirmar que o handoff funciona lá — caso contrário, o problema é de processo (CRM/follow-up), e concentrar geografia sozinho não resolve."
+    },
+    "scenario_c_aggressive": {
+      "name": "Agressivo — +30% de budget, Google já mensurável",
+      "total_budget_monthly": 16000,
+      "expected_leads_monthly": 290,
+      "expected_cpl": 37,
+      "google_split": 5800,
+      "meta_split": 10200,
+      "delta_leads": "Estimativa combinada (Google + Meta) — primeira vez que o Google entra na conta, depois do evento validado por pelo menos 1 ciclo",
+      "effort_weeks": 8,
+      "confidence": "Baixa — depende de dados de Google ainda inexistentes no momento deste diagnóstico",
+      "changes": [
+        "Tudo do Cenário B",
+        "Aumento de 30% no budget combinado, concentrado nos segmentos já validados (Bairros Nobres SP, cluster de saúde se validado, e o que o Google mostrar como eficiente depois do evento corrigido)"
+      ],
+      "prerequisites": ["Cenário B validado por pelo menos 1 ciclo completo (4 semanas) com o evento de conversão do Google já funcionando"],
+      "risk_assessment": "Alto — mais leads sem resolver a capacidade de demonstração (35-50 associados ativos, SWOT Fr3) tende a inflar a fila de leads não atendidos a tempo, piorando a taxa real de conversão de lead para demonstração e potencialmente o CAC final, mesmo com CPL de mídia baixo. Soma-se o risco de que o volume real do Google, uma vez mensurável, seja muito diferente do estimado aqui."
+    },
+    "recommendation": "Recomendo o Cenário A imediatamente (implementar e validar o evento — é pré-requisito, não escolha) e o Cenário B assim que o evento estiver validado, antes de cogitar qualquer aumento de investimento. Escalar (Cenário C) antes de resolver o gargalo de capacidade de demonstração dos associados — já apontado como alavanca prioritária na SWOT e agora confirmado com prova de campo no diagnóstico comercial (ee-s4-diagnostico-comercial) — arrisca gerar leads que a operação não consegue atender a tempo, e pior: hoje seria decidido sem saber quantos leads o Google realmente gera. Dentro do Cenário B, a reestruturação em duas frentes (consumo concentrado em SP + recrutamento nacional separado) é a mudança de maior potencial deste diagnóstico — não pede budget novo, só realoca o que já estava identificado como desperdício (WPP). Único porém: validar primeiro, com um cliente oculto em SP, se o handoff que quebrou em Londrina é específico de praça sem cobertura ou é um problema de processo que se repete mesmo onde há associada disponível — a resposta muda a prioridade entre 'concentrar geografia' e 'consertar o CRM/follow-up' primeiro."
+  },
+
+  "realistic_goal_90d": {
+    "target_cpl": 34,
+    "target_leads_month": 220,
+    "target_agendamentos_month": 32,
+    "premissas": [
+      "Meta é a única plataforma com meta numérica de leads/CPL neste diagnóstico — baseline usa a média mensal pré-anomalia (fev-mai/2026, ~85-130 leads/mês) com melhora esperada pela realocação da campanha WPP, e NÃO usa os números de jun/jul, ainda sob suspeita de mudança de tracking no site",
+      "Google não tem meta numérica de leads/CPL até o evento de conversão dedicado ao formulário ser implementado e validado ao vivo — pré-requisito P1 do plano de ação, não uma opção",
+      "Agendamentos seguem limitados pela capacidade de demonstração (35-50 associados ativos, SWOT Fr3), independente do volume de leads — meta conservadora mesmo com mídia funcionando melhor"
+    ]
+  },
+
+  "key_insight": {
+    "headline": "O caminho de maior alavancagem agora não é aumentar budget — é implementar um evento de conversão que realmente meça o pedido de demonstração.",
+    "context": "Depois de testar ao vivo os 3 candidatos possíveis (form_submit, ads_conversion, contact) em duas landing pages com duas ferramentas diferentes, nenhum captura o envio do formulário. Isso significa que todo o Google Ads — 37% do investimento total em mídia da Hyla — está sendo otimizado sem nenhum dado de lead real há pelo menos 6 meses. Nenhuma decisão de budget para o Google (aumentar, realocar entre campanhas, ou mesmo confiar no CPL relatado) é segura até esse evento existir e ser validado.",
+    "numbered_reasons": [
+      "Sem um evento dedicado, o Smart Bidding do Google nunca teve o dado certo para otimizar — isso explica, de forma mais direta que qualquer hipótese anterior, por que dobrar o orçamento no passado não dobrou o resultado",
+      "O Meta já mostra o caminho: com métrica de lead confiável (objetivo nativo 'Leads'), dá para identificar e agir hoje mesmo — cortar a campanha WPP (R$321/lead) e realocar para Bairros Nobres SP (R$34,63/lead) é uma decisão de baixo risco, possível imediatamente",
+      "O cluster de saúde/alergia (território definido em ee-s2-posicionamento) recebeu mais de 10x menos investimento de busca que o cluster genérico — vale testar isso em paralelo à correção do evento, já que não depende dela"
+    ],
+    "discussion_anchor": "Vale alinhar com Davi/Fábio que, até o evento de conversão do Google ser corrigido e validado, qualquer leitura de CPL ou volume de leads do Google neste ou em relatórios anteriores deve ser tratada como não confiável — inclusive o CAC de ~R$900/venda estimado no kick-off, que provavelmente usava esses mesmos números."
+  },
+
+  "honesty_alert": "Este diagnóstico usa exports manuais de CSV (Google Ads e Meta Ads) e acesso direto ao GA4, não o conector V4MOS (ainda bloqueado por erro 403, já escalado). O achado central mudou ao longo da investigação e a versão final é esta: nenhum dos 3 eventos GA4 candidatos a sinal de lead do Google (`form_submit`, `ads_conversion`, `contact`) dispara no envio do formulário de demonstração, confirmado em teste ao vivo repetido em 2 landing pages com Google Tag Assistant e GA4 DebugView. Por isso, todo número de leads, CPL ou CPA do Google Ads reportado neste relatório (e em diagnósticos anteriores, como o CAC de ~R$900/venda estimado no kick-off) deve ser tratado como não confiável até um evento dedicado ser implementado e validado. Pontos que seguem em aberto: (1) a hipótese de que `contact` está amarrado ao clique do botão de WhatsApp (não ao formulário) não foi confirmada com o time de dev/GTM; (2) o crescimento acelerado do evento `contact` a partir de meados de junho (visível no gráfico de tendência do GA4) coincide com o salto de leads do Meta em 17/06 e com a alta de CPM do Meta no mesmo período — pode ser o mesmo evento causador (ex.: uma mudança de GTM/tag no site), ainda não identificado; (3) o salto de conversões do Google em maio (342 via form_submit, ~5x a média dos meses vizinhos) perde relevância como métrica agora que sabemos que form_submit não mede lead real, mas o padrão temporal permanece sem explicação; (4) a PMAX concentra 63% do budget do Google mas os insights de categoria de pesquisa cobrem só ~10% do volume real de cliques da campanha — a real distribuição entre território de saúde e genérico pode ser diferente da amostra visível.",
+
+  "alimenta_skills": [
+    "ee-s2-diagnostico-cro",
+    "ee-s3-forecast-midia",
+    "ee-s2-diagnostico-organico-ig",
+    "ee-s4-diagnostico-comercial",
+    "ee-revisao-semanal"
+  ]
+}

@@ -1,0 +1,370 @@
+{
+  "meta": {
+    "name": "FROC — Frutas Desidratadas",
+    "slug": "froc",
+    "razao_social": "Super Saudáveis",
+    "grupo_empresarial": "Grupo Nova Serrana (São Joaquim, SC)",
+    "workspace_id": null,
+    "created_at": "2026-05-05",
+    "modulo_vendas": false,
+    "nota": "Projeto de execução de marketing digital (não diagnóstico & planejamento). Foco em geração de leads B2B via Google Ads + Meta Ads + Landing Pages com isca de amostra grátis."
+  },
+
+  "briefing": {
+    "empresa": "FROC — Frutas Desidratadas (Super Saudáveis)",
+    "segmento": "B2B — Indústria de ingredientes desidratados para pet food e alimentação humana fit",
+    "site": null,
+    "site_nota": "Site existente é puramente institucional — sem páginas de vendas ou geração de leads. Duas landing pages serão criadas do zero.",
+    "instagram": "Ativo mas com foco em snacks (erro da agência anterior). Será redirecionado para B2B/ingredientes industriais.",
+    "linkedin": "Ativo mas conteúdo idêntico ao Instagram (erro da agência anterior).",
+    "localizacao": {
+      "fabrica": "São Joaquim, SC (capital da maçã — ~25.000 habitantes)",
+      "diretoria": "Driélly divide tempo entre São Joaquim (semana) e Porto Alegre, RS (fins de semana)"
+    },
+    "tempo_mercado_anos": 1,
+    "grupo_nota": "FROC é uma empresa nova dentro de um grupo empresarial de 4% do faturamento total do grupo. A empresa principal do grupo lida com maçã in natura (seleção e armazenamento). FROC agrega valor via desidratação.",
+    "modelo_negocio": "B2B exclusivo — fornecimento de ingredientes desidratados (maçã, cenoura, beterraba, tomate) para indústrias de ração pet e alimentação humana",
+
+    "stakeholders": [
+      {
+        "nome": "Driélly Goulart Pagani",
+        "cargo": "Diretora e gerente comercial da FROC",
+        "email": "drielly@nserrana.com.br",
+        "perfil": "Decisora final. Autodescrita como 'bem centralizadora' para finanças e contratações. Cética com marketing digital B2B inicialmente. Orientada a resultado — sem tolerância para processo sem retorno.",
+        "decisor": true
+      }
+    ],
+
+    "equipe_v4_scn": {
+      "matheus_nunes": "Sócio V4 — Customer Success do projeto",
+      "lucas_calefi": "Coordenador de operações (SCN&Co)",
+      "felipe": "Gestor de tráfego (Meta e Google)",
+      "nicolas_kobaiashi": "Designer — landing pages e ativos visuais",
+      "geovanna": "Copywriting e social media"
+    },
+
+    "produtos": {
+      "principal": "Maçã desidratada — maior potencial de lucro e foco estratégico",
+      "outros": ["Cenoura desidratada", "Beterraba desidratada", "Tomate desidratado"],
+      "snack_b2c": "Existe como projeto mas sem vendas. Fora do escopo atual.",
+      "private_label": "Disponível no catálogo mas sem retorno ainda",
+      "diferenciais_produto": [
+        "Maçã clara sem conservantes ou clarificantes — tempo entre corte e desidratação < 1 minuto",
+        "Produção grande e constante com padronização",
+        "Maquinário de fornecedores experientes",
+        "Prazo de entrega curto: 2 dias após o pedido",
+        "Amostra grátis 200-500g (concorrente Polpa Brasil cobra por amostras)",
+        "Flexibilidade de pagamento: 30 a 120 dias (média 30-75 dias)"
+      ],
+      "durabilidade": "12 meses em estoque"
+    },
+
+    "matematica_negocio": {
+      "preco_por_kg": 28,
+      "pedido_minimo_kg": 400,
+      "ticket_minimo": 11200,
+      "ticket_recorrente_anual_por_cliente": 134000,
+      "margem_bruta_pct": "15-18%",
+      "margem_liquida_pct": "~10%",
+      "clientes_necessarios_para_meta": 17,
+      "recompra_media_dias": 90,
+      "faturamento_meta_anual": 2300000,
+      "nota": "Meta de R$2,3M/ano = 17 clientes recorrentes comprando a cada 3 meses (~400kg cada). Ticket mínimo por fechamento: R$11.200."
+    },
+
+    "capacidade_produtiva": {
+      "atual_kg_mes": 5000,
+      "atual_kg_dia": 400,
+      "maxima_com_turno_adicional_kg_mes": 10000,
+      "restricao": "O gargalo é vendas, não produção. Capacidade disponível não está sendo utilizada."
+    },
+
+    "carteira_clientes": {
+      "clientes_ativos": "~10 (incluindo recompras)",
+      "estados_atendidos": ["Rio Grande do Sul", "Santa Catarina", "São Paulo", "Bahia"],
+      "segmentos_atendidos": [
+        "Indústria de ração pet (pássaros, roedores — mais informal, negocia preço mais)",
+        "Indústria alimentícia fit (torrones, granolas, barrinhas de cereal — mais exigente, ticket maior)"
+      ],
+      "sem_contrato_padrao": "Maioria sem contrato formal. Padrão de recompra observado mas não garantido.",
+      "situacao_atual": "Driélly descreveu como 'desesperadora' — ~10 clientes, crescimento estagnado, estoque parado."
+    },
+
+    "processo_comercial": {
+      "modelo": "100% outbound. Nunca recebeu lead inbound.",
+      "vendedor_interno": "1 vendedor que gerencia 80% das vendas via cold call usando carteira e pesquisas",
+      "representantes": "Em recrutamento. Processo iniciado.",
+      "crm": "Prospectei",
+      "ciclo_vendas_dias": "~20 dias úteis (3 semanas) do primeiro contato ao fechamento",
+      "qualificacao_amostras": "Vendedor faz triagem antes de autorizar envio de amostra — para evitar custo postal com curiosos",
+      "canais_prospecção_ativos": ["Cold call (vendedor interno)", "Prospectei", "Representantes (em implementação)"],
+      "nao_utiliza": ["Inbound digital", "WhatsApp estruturado", "E-mail marketing", "Google Ads", "Meta Ads"]
+    },
+
+    "canais_digitais": {
+      "instagram": "Ativo — foco errado (snacks/B2C). Será redirecionado.",
+      "linkedin": "Ativo — conteúdo idêntico ao Instagram (erro). Será diferenciado.",
+      "google_ads": "Não utilizado",
+      "meta_ads": "Não utilizado",
+      "site": "Institucional sem LP — não gera leads",
+      "nota_agencia_anterior": "Produzia posts genéricos idênticos para Instagram e LinkedIn. Contrato cancelado."
+    },
+
+    "investimento_midia": {
+      "atual": 4000,
+      "atual_descricao": "R$4.000/mês com agência atual (Doacom ou similar) — gestão de conteúdo sem resultado",
+      "proposto_google_ads": "R$3.000–R$8.000/mês",
+      "proposto_meta_ads": "R$1.000–R$2.000/mês",
+      "proposto_total_midia": "R$4.000–R$10.000/mês"
+    },
+
+    "concorrentes": [
+      {
+        "nome": "Maxan (Maxã)",
+        "origem": "Fraiburgo, SC",
+        "posicao": "Principal concorrente — qualidade e preços similares",
+        "ameaca": "alta"
+      },
+      {
+        "nome": "Polpa Brasil (PPA Brasil)",
+        "origem": "Fraiburgo, SC",
+        "posicao": "Concorrente secundário — foco em banana, não maçã. Cobra por amostras.",
+        "diferencial_froc": "FROC oferece amostra grátis — vantagem competitiva direta",
+        "ameaca": "média"
+      },
+      {
+        "nome": "Flora Frutas",
+        "posicao": "Qualidade inferior, preço muito baixo",
+        "ameaca": "baixa-média"
+      },
+      {
+        "nome": "BC Foods",
+        "origem": "Internacional",
+        "posicao": "Benchmark interessante — foco em solicitação de amostras no site, presença em feiras da América do Sul",
+        "ameaca": "baixa (atuação diferente)"
+      }
+    ],
+
+    "feiras_e_eventos": {
+      "relevantes": ["APAS Show (mais certeira para negociações)", "Naturaltech (participaram)"],
+      "menos_relevantes": ["FIS — Food Ingredients (foco em ingredientes químicos e conservantes)"],
+      "modelo_participacao": "Abordagem direta nos eventos sem estande. Ainda não expuseram como expositores."
+    },
+
+    "contrato_v4": {
+      "razao_social_cnpj": "Super Saudáveis",
+      "mensalidade": 4937,
+      "setup_landing_pages": 3214,
+      "setup_parcelas": 3,
+      "fidelidade_minima_meses": 6,
+      "inicio_projeto": "2026-04-29",
+      "primeiro_pagamento": "2026-05-29",
+      "escopo": [
+        "Gestor de tráfego pago (Felipe) — Google Ads + Meta Ads",
+        "Designer (Nicolas, 15% do tempo) — criativos, banners, LPs",
+        "Copywriting e social media (Geovanna) — Instagram e LinkedIn",
+        "Gestão de projetos (Lucas Calefi)",
+        "2 Landing Pages (pet food + alimentação humana)"
+      ],
+      "modelo": "Execução contínua (não diagnóstico & planejamento)"
+    },
+
+    "estrategia_central": {
+      "hook": "Amostra grátis — principal diferencial competitivo e isca digital",
+      "funil": "Google Ads Search (fundo de funil) → Landing Page → Solicitação de Amostra → Qualificação pelo vendedor → Fechamento",
+      "lps_necessarias": [
+        "LP Pet Food — maçã desidratada para ração de pássaros e roedores",
+        "LP Alimentação Humana — maçã desidratada para granolas, torrones, barrinhas"
+      ],
+      "meta_ads_funcao": "Topo e meio de funil — impactar decisores de compras com conteúdo (não oferta direta)",
+      "prioridade_imediata": "Google Ads Search com palavras de intenção + LPs com foco em amostra grátis"
+    },
+
+    "objecoes_conhecidas": [
+      "Preço — FROC está 'levemente acima' dos concorrentes (concorrentes ajustam preço para não perder negócio)",
+      "Frete — FROC usa FOB (frete por conta do cliente). Estão avaliando incluir frete no preço.",
+      "Não conformidade histórica — fragmento de metal em produto (fábrica responsável já foi substituída)",
+      "Ceticismo do setor de compras com fornecedor novo/desconhecido"
+    ],
+
+    "icp_inicial": {
+      "primario": "Comprador/responsável por compras de indústria de ração pet (pássaros, roedores) — mais informal, WhatsApp como canal principal",
+      "secundario": "Comprador/responsável por compras de indústria alimentícia fit (granola, barrinhas, torrones) — mais formal, e-mail, exige certificações",
+      "perfil_mudanca": "Setor de compras está incluindo mais mulheres e jovens sem conhecimento técnico aprofundado — comunicação precisa ser clara e educativa",
+      "decisor": "Setor de compras das indústrias",
+      "volume_busca_google": "~16 buscas/mês pelo termo 'maçã desidratada' — baixo volume mas CPC reduzido"
+    }
+  },
+
+  "research": {},
+
+  "connectors": {
+    "fetched_at": null,
+    "workspace_id": null,
+    "integrations": {}
+  },
+
+  "progress": {
+    "current_week": 1,
+    "proxima_reuniao": "2026-05-17T13:30:00-03:00",
+    "proxima_reuniao_pauta": "Apresentação do planejamento estratégico — Driélly retorna da Filadélfia. Apresentar planejamento de LPs, canais e estratégia.",
+    "cronograma_execucao": {
+      "semana_1": "Briefing + desenvolvimento das Landing Pages",
+      "semana_2": "Configuração Google Ads + Meta Ads + elementos técnicos",
+      "semana_3": "Lançamento das campanhas + otimização inicial"
+    },
+    "skills": {
+      "ee-s1-diagnostico-maturidade": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null,
+        "nota": "Sem workspace V4MOS. Zero histórico de mídia paga."
+      },
+      "ee-s1-swot": {
+        "status": "completed",
+        "version": 1,
+        "started_at": "2026-04-29",
+        "completed_at": "2026-05-05"
+      },
+      "ee-s1-persona-icp": {
+        "status": "completed",
+        "version": 1,
+        "started_at": "2026-04-29",
+        "completed_at": "2026-05-05"
+      },
+      "ee-s1-auditoria-comunicacao": {
+        "status": "completed",
+        "version": 1,
+        "started_at": "2026-04-29",
+        "completed_at": "2026-05-05"
+      },
+      "ee-s2-pesquisa-mercado": {
+        "status": "completed",
+        "version": 1,
+        "started_at": "2026-05-05",
+        "completed_at": "2026-05-05"
+      },
+      "ee-s2-posicionamento": {
+        "status": "completed",
+        "version": 1,
+        "started_at": "2026-05-05",
+        "completed_at": "2026-05-05"
+      },
+      "ee-s2-diagnostico-midia": {
+        "status": "completed",
+        "version": 1,
+        "started_at": "2026-05-05",
+        "completed_at": "2026-05-05"
+      },
+      "ee-s2-diagnostico-cro": {
+        "status": "completed",
+        "version": 1,
+        "started_at": "2026-05-05",
+        "completed_at": "2026-05-05"
+      },
+      "ee-s3-landing-page": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null,
+        "nota": "2 LPs necessárias: pet food + alimentação humana. Setup pago à parte (R$3.214 em 3 boletos)."
+      },
+      "ee-s3-copy-anuncios": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-criativos-anuncios": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-brandbook": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null,
+        "nota": "Logo e tipografia existem. Manual de copy (tom de voz, arquétipo) não está formalizado."
+      },
+      "ee-s3-forecast-midia": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s4-diagnostico-comercial": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null,
+        "nota": "Vendedor interno precisa ser treinado para receber leads inbound — diferente da prospecção ativa atual."
+      }
+    }
+  },
+
+  "history": [
+    {
+      "ts": "2026-04-24T13:30:00-03:00",
+      "skill": "ee-novo-cliente",
+      "checkpoint": 1,
+      "decision": "[1ª Reunião Comercial] FROC B2B — indústria de maçã desidratada para pet food e alimentação humana. Meta anual: R$2,3M. Capacidade: 5.000 kg/mês (10.000 com turno adicional). ~10 clientes ativos. 100% outbound. Driélly cética com marketing digital B2B. V4 apresentou estratégia de isca digital (amostra grátis) e Google Ads como resposta ao ceticismo. Matheus propôs pré-projeto para apresentar em 27/04."
+    },
+    {
+      "ts": "2026-04-27T13:30:00-03:00",
+      "skill": "ee-novo-cliente",
+      "checkpoint": 2,
+      "decision": "[2ª Reunião — Fechamento] Estratégia definida: Google Ads Search → LP com isca de amostra grátis → qualificação SDR. 2 LPs: pet food + alimentação humana. Meta Ads como suporte de topo/meio de funil. Negociação: proposta original R$6.400/mês negociada para R$4.937/mês (inclui designer + LinkedIn separado do Instagram). Setup LPs: R$3.214 em 3 boletos. Contrato assinado. CNPJ: Super Saudáveis. Fidelidade mínima: 6 meses. Kickoff agendado para 29/04."
+    },
+    {
+      "ts": "2026-04-29T15:00:00-03:00",
+      "skill": "ee-novo-cliente",
+      "checkpoint": 3,
+      "decision": "[S1 Kickoff] Produto principal: maçã desidratada (B2B). Diferenciais: amostra grátis (concorrente cobra), entrega em 2 dias, sem conservantes (< 1 min do corte à desidratação), pagamento flexível 30-120 dias. Concorrentes: Maxan (similar), Polpa Brasil (cobra amostras), Flora Frutas (baixo preço/qualidade). ICP: comprador setor pet (informal, WhatsApp) e comprador indústria alimentícia (formal, e-mail, exige certificações). Carteira atual 'desesperadora' (~10 clientes). Focus: ingrediente industrial, snack fora do escopo. Instagram/LinkedIn com foco errado (snacks) — será corrigido. Benchmark: BC Foods (foco em amostras no site). Planejamento será elaborado com Driélly em Nova York/Filadélfia, apresentação no retorno (17/05)."
+    },
+    {
+      "ts": "2026-05-05T00:00:00-03:00",
+      "skill": "ee-s1-persona-icp",
+      "checkpoint": 1,
+      "decision": "[Persona/ICP] 2 ICPs B2B: (1) Pet food — Rafael (32, comprador informal, WhatsApp, decide rápido após amostra, argumento: preço + agilidade); (2) Alimentação humana — Camila (29, analista de compras, processo formal, precisa de documentação técnica antes de qualquer conversa). Persona secundária: Marcos (dono de pequena fábrica). JTBD: garantir estoque sem parar produção (pet) vs homologar fornecedor que passe na qualidade (alimentos humanos). Amostra grátis derruba objeção de fornecedor desconhecido nos dois segmentos. LPs precisam de mensagens completamente diferentes."
+    },
+    {
+      "ts": "2026-05-05T01:00:00-03:00",
+      "skill": "ee-s1-swot",
+      "checkpoint": 1,
+      "decision": "[SWOT] Forças: amostra grátis (único no mercado), sem conservantes por processo (< 1 min corte-desidratação), entrega 2 dias, São Joaquim como origem rastreável. Fraquezas críticas: 100% dependência de 1 vendedor (ponto único de falha comercial), comunicação digital toda errada (foco em snacks/B2C), site sem LPs, estoque parado. Combinação prioritária: F1×O4 (amostra grátis + Google Ads = lead que já quer testar com CPC baixo). Ameaça crítica A3: meta de R$2,3M impossível sem inbound funcionando em 30 dias — campanhas precisam rodar em maio."
+    },
+    {
+      "ts": "2026-05-05T01:30:00-03:00",
+      "skill": "ee-s1-auditoria-comunicacao",
+      "checkpoint": 1,
+      "decision": "[Auditoria Comunicação] Site lançado 29/04 (Framer/SIX) com tagline B2C ('alimentos saudáveis, sem açúcar') — comprador B2B industrial não se reconhece. Instagram focado em snacks por erro da agência anterior. LinkedIn é cópia do Instagram. Zero LPs, zero formulários, zero Google Ads. Único CTA ativo: WhatsApp. Complemento de personas: Rafael (pet) não se reconhece no site atual; Camila (alimentação humana) não converte por WhatsApp — LP2 precisa de formulário estruturado. Nova persona identificada: comprador de distribuidor (Nutrassou-like). Prioridade máxima: LPs prontas antes de qualquer campanha rodar."
+    },
+    {
+      "ts": "2026-05-05T02:00:00-03:00",
+      "skill": "ee-s2-pesquisa-mercado",
+      "checkpoint": 1,
+      "decision": "[Pesquisa de Mercado] TAM: R$700M/ano (ingredientes desidratados B2B Brasil). SAM: R$80-100M/ano (maçã desidratada industrial Sul+Sudeste). SOM atual: ~R$1M/ano (1,1% SAM). SOM meta: R$2,3M (2,9% SAM = 17 clientes). Mercado pet food 2024: R$75,4B (+9,6%), projeção 2033: R$146B. SC produz 270k ton maçã (+30% projetado). Alerta operacional: meta R$2,3M exige 6.800 kg/mês vs capacidade atual 5.000 — turno adicional necessário antes de atingir meta. Polpa Brasil já anuncia no Google (cobra por amostra — FROC tem vantagem). Nenhum concorrente com LP otimizada para maçã desidratada B2B industrial."
+    },
+    {
+      "ts": "2026-05-05T03:00:00-03:00",
+      "skill": "ee-s2-posicionamento",
+      "checkpoint": 1,
+      "decision": "[Posicionamento] Modelo: fornecedor especializado B2B — facilidade + confiabilidade + velocidade. PUV: 'O fornecedor de maçã desidratada que você testa antes de comprar — e que entrega no prazo, sempre.' 4 pilares: teste sem risco (amostra grátis), ingrediente limpo (sem conservantes por processo), velocidade (2 dias + 30-120 dias pagamento), origem rastreável (São Joaquim). Mensagens por LP completamente distintas: pet food = direto + amostra grátis; alimentação humana = documentação + APPCC + ficha técnica."
+    },
+    {
+      "ts": "2026-05-05T04:00:00-03:00",
+      "skill": "ee-s2-diagnostico-midia",
+      "checkpoint": 1,
+      "decision": "[Diagnóstico Mídia] Zero histórico. Estrutura proposta: Google Ads Search (campanha 1 pet food + campanha 2 alimentação humana) com palavras de intenção industrial + lista robusta de negativos B2C (receita, supermercado, onde comprar, etc). CPC estimado R$1,50-3/clique. Meta Ads como suporte de awareness (ativar após 30-45 dias Google). Investimento: R$3-8k Google + R$1-2k Meta. Benchmark: Polpa Brasil já anuncia (prova de canal); BC Foods referência de LP orientada a amostra. KPI central: CPL < R$150, CAC < R$2.000. Pré-requisito: LPs prontas + GTM instalado antes de qualquer campanha subir."
+    },
+    {
+      "ts": "2026-05-05T04:30:00-03:00",
+      "skill": "ee-s2-diagnostico-cro",
+      "checkpoint": 1,
+      "decision": "[CRO] Site froc.com.br (Framer/SIX, lançado 29/04) analisado. Problemas críticos: (1) zero rastreamento — sem GTM/GA4/Pixel Meta, campanhas rodam cegas; (2) tagline B2C ('alimentos saudáveis, sem açúcares') — comprador B2B não se reconhece; (3) sem e-mail comercial — Camila (alimentação humana) sem canal formal. Papel do site: validação institucional, não conversão — LPs são o canal de conversão. Vantagem: Framer permite LPs em subdomínio (froc.com.br/pet, froc.com.br/alimentacao) sem mexer no site. 5 ajustes de ~5h desbloqueiam todo o projeto: GTM + tagline + e-mail + amostra nos diferenciais + remover attribution SIX. Conteúdo detalhado das seções não auditado (Framer bloqueia fetch)."
+    }
+  ]
+}

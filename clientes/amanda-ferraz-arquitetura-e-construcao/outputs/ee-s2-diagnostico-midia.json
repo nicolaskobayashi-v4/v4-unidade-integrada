@@ -1,0 +1,366 @@
+{
+  "client_name": "Amanda Ferraz Arquitetura e Construção",
+  "segment": "Arquitetura residencial de alto padrão (turnkey)",
+  "is_launch_plan": true,
+
+  "summary": "Amanda Ferraz não tem mídia paga estruturada hoje — a última tentativa (R$1.200 em 2 semanas) gerou apenas contatos de fornecedores, zero clientes reais. Em vez de diagnóstico de performance, este é um PLANO DE LANÇAMENTO: Cenário B recomendado de R$3.600/mês, com CPL alvo de ~R$90, condicionado a implementar CRM mínimo antes de escalar.",
+
+  "summary_headline": "Amanda Ferraz não tem mídia paga estruturada — plano de lançamento recomenda R$3.600/mês (Cenário B) só depois do CRM mínimo, para não repetir o erro dos R$1.200 perdidos.",
+
+  "summary_highlights": [
+    {"category": "posicao", "label": "Situação atual", "value": "Sem mídia estruturada", "subtext": "Última campanha: R$1.200, 0 clientes reais", "tone": "red"},
+    {"category": "oportunidade", "label": "Cenário recomendado (B)", "value": "R$3.600/mês", "subtext": "~5 leads qualificados/mês estimado, CPL ~R$90", "tone": "green"},
+    {"category": "risco", "label": "Pré-condição crítica", "value": "CRM antes de mídia", "subtext": "Sem CRM, resultado não é mensurável", "tone": "red"},
+    {"category": "janela", "label": "Ramp-up até CPL alvo", "value": "~60-90 dias", "subtext": "Inclui aprendizado de algoritmo + CRM rodando", "tone": "yellow"}
+  ],
+
+  "summary_key_findings": [
+    {"category": "contexto", "text": "A categoria de benchmark mais próxima é Imobiliárias/Construtoras, ajustada para cima dado o ticket ultra-alto (honorários R$450-500 mil + gestão de obra) — CPL alto é aceitável, o que importa é a qualidade do lead, não o volume."},
+    {"category": "ameaca", "text": "A última tentativa de mídia (R$1.200 em 2 semanas) gerou 100% de contatos de fornecedores, não clientes — sem negativação, esse erro se repete em qualquer escala de investimento."},
+    {"category": "ameaca", "text": "Sem CRM funcional, nenhum plano de mídia — por melhor estruturado que seja — vai gerar dados confiáveis para otimização."},
+    {"category": "acao", "text": "Implementar CRM mínimo e expandir o portfólio do site (ambos já ranqueados como prioridade na SWOT) são pré-condições para o lançamento, não tarefas paralelas."}
+  ],
+
+  "data_source": "no_data",
+  "data_period": "Sem período de dados estruturado disponível — histórico pontual de ~2 semanas (junho/2026) relatado qualitativamente pela cliente em reunião de kickoff, sem exportação de campanha nem V4MOS conectado.",
+  "monthly_budget": 2000,
+  "platforms_active": ["google_ads", "meta_ads"],
+  "integrations_status": {
+    "meta_ads": "not_configured",
+    "google_ads": "not_configured",
+    "google_analytics": "not_configured"
+  },
+
+  "current_metrics": {
+    "cpl": null,
+    "ctr": null,
+    "conversion_rate": null,
+    "roas": null,
+    "cpc": null,
+    "total_investment": 1200,
+    "total_leads": 0,
+    "total_clicks": null,
+    "impressions": null,
+    "frequency": null
+  },
+
+  "benchmarks": {
+    "cpl": 70,
+    "ctr": 1.0,
+    "conversion_rate": 5,
+    "roas": null,
+    "cpc": 3,
+    "source": "Benchmarks agregados V4 Company + WordStream + HubSpot LatAm, categoria 'Imobiliárias/Construtoras' (CPL R$40-150, CTR Meta 0.8-1.5%, Conv. LP 3-8%), ajustados para cima dado o ticket muito acima da média do setor imobiliário padrão."
+  },
+
+  "diagnosis_by_dimension": {
+    "account_structure": {
+      "organization": "nonexistent",
+      "segmentation": "A única tentativa anterior rodou sem segmentação geográfica ou de perfil, sem negativação de públicos irrelevantes — atraiu majoritariamente fornecedores em vez de clientes reais.",
+      "budget_allocation": "concentrated",
+      "observation": "A campanha anterior (R$1.200 em 2 semanas) rodou com uma única campanha genérica, sem estrutura de funil (topo/meio/fundo), sem negativação de fornecedores/públicos irrelevantes e sem evidência de pixel/CAPI configurado — resultado: 100% dos ~10 contatos gerados eram de fornecedores, zero clientes reais."
+    },
+    "creatives": {
+      "active_count": 0,
+      "best_performer": null,
+      "worst_performer": "Criativo único usado na campanha anterior, sem variação testada — impossível identificar isoladamente o que funcionou ou não.",
+      "ab_testing_active": false,
+      "average_frequency": null,
+      "fatigue_detected": false,
+      "evaluation": "Não há criativos estruturados para mídia paga hoje. O Instagram orgânico já tem material de base forte (vídeos com a Amanda mostrando autoridade técnica real), que pode ser adaptado para anúncios, mas nada foi testado especificamente nesse formato ainda."
+    },
+    "landing_pages": {
+      "lp_count": 1,
+      "coherence_with_ads": "low",
+      "estimated_bounce_rate": null,
+      "evaluation": "O site atual (arqamandaferraz.com) não está pronto para receber tráfego pago com eficiência — portfólio raso (3 projetos), depoimentos só em imagem e ausência de FAQ/tratamento de objeções, gaps já identificados na auditoria de comunicação. Investir em tráfego pago antes de resolver isso desperdiça parte do orçamento em uma LP que converte abaixo do potencial."
+    },
+    "audiences": {
+      "types_used": ["broad"],
+      "overlap_detected": null,
+      "retargeting_active": false,
+      "evaluation": "Nenhum público customizado, lookalike ou retargeting foi utilizado na tentativa anterior — a ausência de negativação de fornecedores/públicos irrelevantes foi a causa raiz direta do desperdício de budget identificado."
+    }
+  },
+
+  "top_problems": [
+    {
+      "problem": "Última campanha gastou R$1.200 em 2 semanas sem gerar nenhum cliente real — 100% dos contatos eram fornecedores.",
+      "data_evidence": "Relato direto da Amanda/Júlia em reunião de kickoff: ~10 conversas iniciadas no WhatsApp, todas identificadas posteriormente como fornecedores, não clientes.",
+      "impact": "R$1.200 de orçamento perdido sem nenhum dado de otimização aproveitável — e sem CRM, não há sequer registro que permita reanalisar o que de fato aconteceu.",
+      "dimension": "audiences"
+    },
+    {
+      "problem": "Site atual não está pronto para receber tráfego pago com boa conversão.",
+      "data_evidence": "Auditoria de comunicação identificou apenas 3 projetos no portfólio (sem case study) e depoimentos só em imagem, não em texto — reduz a taxa de conversão de qualquer tráfego direcionado para lá.",
+      "impact": "Qualquer CPL/CPC investido hoje seria parcialmente desperdiçado por baixa conversão na LP; recomenda-se resolver isso em paralelo ao lançamento, não depois.",
+      "dimension": "landing_pages"
+    },
+    {
+      "problem": "Ausência de CRM impede medir qualquer resultado de mídia com confiabilidade.",
+      "data_evidence": "Diagnóstico de maturidade confirmou o pilar CRM em 12/100 — sem pipeline nem registro estruturado de leads, tudo depende da memória da própria Amanda.",
+      "impact": "Sem CRM, mesmo um plano de lançamento bem estruturado vai gerar dados que ninguém consegue analisar corretamente — o gargalo real hoje é mensuração, não volume de budget.",
+      "dimension": "account_structure"
+    }
+  ],
+
+  "action_plan": [
+    {"action": "Implementar CRM mínimo (ClickUp) com campo de origem/tipo de contato antes de qualquer novo investimento em mídia", "priority": "high", "expected_impact": "Permite medir de fato cada lead gerado pela nova campanha, separando cliente de fornecedor desde o primeiro contato", "responsible": "Amanda / equipe interna", "deadline": "Semana 1"},
+    {"action": "Configurar Meta Pixel e Google Tag no site, com eventos de clique no WhatsApp e envio de formulário", "priority": "high", "expected_impact": "Base técnica mínima para qualquer campanha de aquisição ser rastreável de verdade", "responsible": "V4 (mídia)", "deadline": "Semana 1"},
+    {"action": "Expandir portfólio do site para ao menos 6 projetos com case study antes de escalar tráfego pago", "priority": "high", "expected_impact": "Aumenta a taxa de conversão de qualquer tráfego que chegar à LP — já ranqueado como prioridade 2 na SWOT", "responsible": "Amanda + V4 (conteúdo)", "deadline": "Semana 2"},
+    {"action": "Lançar campanha piloto de Google Search (dentro do Cenário B) segmentada por palavras-chave de fundo de funil, com negativação de fornecedores/materiais/parcerias", "priority": "high", "expected_impact": "Testa o canal com intenção mais alta, menor risco de repetir o erro de tráfego frio irrelevante", "responsible": "V4 (mídia)", "deadline": "Semana 3"},
+    {"action": "Rodar 2-3 criativos de Meta Ads testando ângulos diferentes (emocional vs. técnico) para topo de funil nos condomínios emergentes", "priority": "medium", "expected_impact": "Gera dado real de qual ângulo de mensagem converte melhor com o ICP, informando o brandbook e a copy de anúncios da Semana 3", "responsible": "V4 (mídia + criativos)", "deadline": "Semana 4"}
+  ],
+
+  "realistic_goal": {
+    "target_cpl": 90,
+    "target_roas": null,
+    "justification": "Dado o ticket ultra-alto (honorários de R$450-500 mil + gestão de 12% sobre obra de R$5-10 milhões+), um único lead convertido em cliente já paga qualquer investimento de mídia dezenas de vezes — ROAS de varejo não é a métrica certa aqui. A meta realista de 90 dias é gerar entre 3 e 6 leads QUALIFICADOS (não fornecedores) por mês em regime de teste, a um CPL entre R$60-120, validando o canal antes de escalar para o orçamento pleno já discutido na SWOT (R$3.200-4.200/mês).",
+    "assumptions": [
+      "CRM mínimo implementado antes do lançamento efetivo da campanha",
+      "Site com portfólio expandido e depoimentos em texto antes de escalar tráfego",
+      "Segmentação territorial ativa (Jundiaí/RMC + condomínios emergentes), não público amplo",
+      "Negativação de fornecedores/materiais/parcerias configurada desde o primeiro dia"
+    ],
+    "risk_factors": [
+      "Sem CRM funcional, mesmo um bom CPL pode ser mal interpretado (lead real vs. fornecedor, como já ocorreu)",
+      "Ciclo de venda de 60 dias significa que resultados de fechamento de contrato só aparecem depois do período de 90 dias deste plano",
+      "Capacidade operacional de 8 obras simultâneas limita o quanto de demanda extra pode ser efetivamente atendida — gerar leads demais sem resolver isso cria frustração, não crescimento"
+    ]
+  },
+
+  "realistic_goal_90d": {
+    "current_cpl": null,
+    "target_cpl": 90,
+    "current_cac": null,
+    "target_cac": 4500,
+    "current_leads_month": 0,
+    "target_leads_month": 5,
+    "premissas": [
+      "CRM mínimo (ClickUp) funcional antes do lançamento efetivo da campanha",
+      "Pixel/Tag configurados no site na Semana 1",
+      "Portfólio do site expandido para 6+ projetos até a Semana 2",
+      "Negativação de públicos irrelevantes (fornecedores, materiais, parcerias) ativa desde o dia 1",
+      "Orçamento do Cenário B (R$3.600/mês) aprovado e mantido pelos 90 dias completos, sem interrupção"
+    ]
+  },
+
+  "keyword_clusters": [
+    {
+      "cluster": "Marca",
+      "keywords": ["amanda ferraz arquiteta", "amanda ferraz arquitetura jundiaí"],
+      "intent": "navigational",
+      "budget_allocation_pct": 10,
+      "expected_cpc_range": "R$1-3",
+      "bid_strategy": "CPA alvo baixo, sempre no topo da página",
+      "copy_angle": "Reforço institucional — confirmação de quem já foi indicado",
+      "risk": "Baixo volume de busca, mas conversão altíssima — não deve ser cortado mesmo com budget limitado."
+    },
+    {
+      "cluster": "Fundo de funil — turnkey / alto padrão",
+      "keywords": ["arquiteto alto padrão jundiaí", "arquiteto turnkey residencial", "gerenciamento de obra alto padrão"],
+      "intent": "transactional",
+      "budget_allocation_pct": 35,
+      "expected_cpc_range": "R$8-15",
+      "bid_strategy": "Maximizar conversões com teto de CPA",
+      "copy_angle": "PUV técnica: um único contrato, sem retrabalho, sem comissão oculta de fornecedor",
+      "risk": "Concorrência direta de Guedes e Bisoli, que já testa Google Ads com variação de criativos."
+    },
+    {
+      "cluster": "Meio de funil — projeto residencial",
+      "keywords": ["projeto arquitetônico residencial jundiaí", "arquiteta para construir casa"],
+      "intent": "commercial",
+      "budget_allocation_pct": 30,
+      "expected_cpc_range": "R$5-10",
+      "bid_strategy": "CPC manual no início, migrar para CPA alvo após 30 dias de dado",
+      "copy_angle": "Educar sobre o modelo turnkey vs. contratar projeto e obra separados",
+      "risk": "Intenção mais ampla que o cluster de fundo de funil — exige negativação forte para não atrair curiosos."
+    },
+    {
+      "cluster": "Territorial — condomínios emergentes",
+      "keywords": ["arquiteto condomínio jundiaí", "construir em condomínio fechado jundiaí"],
+      "intent": "commercial",
+      "budget_allocation_pct": 25,
+      "expected_cpc_range": "R$6-12",
+      "bid_strategy": "CPA alvo, com orçamento dedicado (não compartilhado com outros clusters)",
+      "copy_angle": "Presença territorial — 'já rolou ali perto', reforçando os 40+ projetos no Terras da Alvorada",
+      "risk": "Baixo volume de busca por serem condomínios recém-lançados — pode exigir tempo para o cluster amadurecer.",
+      "opportunity_keywords": [
+        {"keyword": "terreno condomínio almarias jundiaí", "intent": "informational", "volume_estimate": "baixo [E]", "expected_cpc": "R$4-8", "rationale": "Captura o cliente na fase de compra do terreno, antes mesmo de decidir o arquiteto — estratégia sugerida pela própria Amanda em reunião de kickoff."},
+        {"keyword": "terreno quinta da primavera jundiaí", "intent": "informational", "volume_estimate": "baixo [E]", "expected_cpc": "R$4-8", "rationale": "Mesmo racional do condomínio Almarias — condomínio emergente identificado na SWOT como janela territorial aberta."}
+      ]
+    },
+    {
+      "cluster": "Negativação — fornecedores e genéricos",
+      "keywords": ["marmoraria", "material de construção", "parceria arquitetos", "curso de arquitetura", "vaga arquiteto", "reforma barata", "casa popular"],
+      "intent": "informational",
+      "budget_allocation_pct": 0,
+      "expected_cpc_range": "N/A (lista de exclusão)",
+      "bid_strategy": "Exclusão total em todas as campanhas",
+      "copy_angle": "N/A",
+      "risk": "Se não negativado desde o primeiro dia, repete exatamente o erro da campanha anterior (R$1.200 gastos, majoritariamente com fornecedores)."
+    }
+  ],
+
+  "budget_reallocation_scenarios": {
+    "description": "3 cenários de lançamento de mídia paga, considerando que a cliente não tem estrutura ativa hoje — todos partem de zero, não de uma realocação de campanhas existentes.",
+    "scenario_a_conservative": {
+      "name": "Conservador",
+      "total_budget_monthly": 2000,
+      "google_split": 1200,
+      "meta_split": 800,
+      "expected_leads_monthly": 3,
+      "expected_cpl": 110,
+      "expected_roas": null,
+      "risk_assessment": "Baixo risco financeiro (mantém o orçamento já reservado pela cliente), mas volume de teste pequeno — pode não gerar dado estatisticamente robusto em 30-60 dias.",
+      "delta_leads": "baseline (sem histórico comparável de leads reais até hoje)",
+      "effort_weeks": 2,
+      "confidence": "medium",
+      "campaigns_structure": [
+        {"campaign": "Google Search - Fundo de funil turnkey", "platform": "Google Ads", "budget_monthly": 700, "objective": "Leads qualificados"},
+        {"campaign": "Google Search - Marca", "platform": "Google Ads", "budget_monthly": 300, "objective": "Captura de marca"},
+        {"campaign": "Meta Ads - Awareness territorial", "platform": "Meta Ads", "budget_monthly": 500, "objective": "Alcance condomínios emergentes"},
+        {"campaign": "Meta Ads - Remarketing site", "platform": "Meta Ads", "budget_monthly": 300, "objective": "Remarketing"}
+      ]
+    },
+    "scenario_b_realistic": {
+      "name": "Realista (Recomendado)",
+      "total_budget_monthly": 3600,
+      "google_split": 2000,
+      "meta_split": 1600,
+      "expected_leads_monthly": 5,
+      "expected_cpl": 90,
+      "expected_roas": null,
+      "risk_assessment": "Equilíbrio entre volume de teste suficiente para dado estatístico e exposição financeira controlada — alinhado ao plano já discutido com a Amanda na reunião de diagnóstico/planejamento com a V4.",
+      "delta_leads": "+2 vs. Cenário A",
+      "effort_weeks": 3,
+      "confidence": "medium",
+      "campaigns_structure": [
+        {"campaign": "Google Search - Fundo de funil turnkey", "platform": "Google Ads", "budget_monthly": 1100, "objective": "Leads qualificados"},
+        {"campaign": "Google Search - Territorial condomínios", "platform": "Google Ads", "budget_monthly": 600, "objective": "Captura territorial"},
+        {"campaign": "Google Search - Marca", "platform": "Google Ads", "budget_monthly": 300, "objective": "Captura de marca"},
+        {"campaign": "Meta Ads - Topo (awareness + lookalike)", "platform": "Meta Ads", "budget_monthly": 800, "objective": "Alcance qualificado"},
+        {"campaign": "Meta Ads - Meio (nutrição)", "platform": "Meta Ads", "budget_monthly": 500, "objective": "Nutrição de quem já viu conteúdo"},
+        {"campaign": "Meta Ads - Remarketing", "platform": "Meta Ads", "budget_monthly": 300, "objective": "Remarketing"}
+      ]
+    },
+    "scenario_c_aggressive": {
+      "name": "Agressivo",
+      "total_budget_monthly": 6000,
+      "google_split": 3200,
+      "meta_split": 2800,
+      "expected_leads_monthly": 8,
+      "expected_cpl": 75,
+      "expected_roas": null,
+      "risk_assessment": "Maior exposição financeira antes de validar o canal na prática — recomendado só depois que o Cenário B comprovar CPL e qualidade de lead, dado que a capacidade operacional já é limitada a 8 obras simultâneas (gerar demanda além disso não converte em crescimento real).",
+      "delta_leads": "+5 vs. Cenário A",
+      "effort_weeks": 4,
+      "confidence": "low",
+      "campaigns_structure": [
+        {"campaign": "Google Search - Fundo de funil turnkey", "platform": "Google Ads", "budget_monthly": 1800, "objective": "Leads qualificados"},
+        {"campaign": "Google Search - Territorial condomínios", "platform": "Google Ads", "budget_monthly": 900, "objective": "Captura territorial"},
+        {"campaign": "Google Search - Marca", "platform": "Google Ads", "budget_monthly": 500, "objective": "Captura de marca"},
+        {"campaign": "Meta Ads - Topo (awareness + lookalike)", "platform": "Meta Ads", "budget_monthly": 1400, "objective": "Alcance qualificado"},
+        {"campaign": "Meta Ads - Meio (nutrição)", "platform": "Meta Ads", "budget_monthly": 900, "objective": "Nutrição"},
+        {"campaign": "Meta Ads - Remarketing", "platform": "Meta Ads", "budget_monthly": 500, "objective": "Remarketing"}
+      ]
+    },
+    "recommendation": "Cenário B (Realista) é o recomendado — está alinhado ao orçamento já discutido com a Amanda na reunião de diagnóstico (R$3.200-4.200/mês) e evita tanto o sub-teste do Cenário A quanto o risco de escalar demanda além da capacidade operacional (8 obras simultâneas) do Cenário C."
+  },
+
+  "creative_testing_hypotheses": {
+    "description": "5 hipóteses de teste A/B para os primeiros criativos de mídia paga, cobrindo os ângulos técnico, emocional e territorial já mapeados no posicionamento.",
+    "hypotheses": [
+      {
+        "id": "H1",
+        "hypothesis": "Se o anúncio abrir com a Amanda explicando o conceito do processo de acompanhamento financeiro (sem expor dados internos), então o CTR será maior entre o público 35-60 do ICP, porque o job funcional de controle pesa tanto quanto o emocional.",
+        "angle": "Técnico/controle",
+        "format": "Reels",
+        "hook": "Você sabe pra onde vai cada real da sua obra?",
+        "body": "Amanda explica o conceito do processo de acompanhamento financeiro (etapas, prestação de contas), sem expor a planilha real ou fornecedores.",
+        "cta": "Agende uma conversa",
+        "target_audience": "Lookalike 1% de clientes atuais + interesse em construção residencial, 35-60 anos, Jundiaí/RMC",
+        "success_criteria": "CTR > 1,0% E CPL < R$100",
+        "testing_budget": 400,
+        "testing_duration_days": 14
+      },
+      {
+        "id": "H2",
+        "hypothesis": "Se o anúncio usar a mensagem emocional já validada ('Você vive sua vida. Nós vivemos a obra.') com imagem de entrega de obra, então gera mais alcance de topo de funil, porque é o território que o setor inteiro já reconhece como aspiracional.",
+        "angle": "Emocional",
+        "format": "Imagem única + carrossel",
+        "hook": "Você vive sua vida. Nós vivemos a obra.",
+        "body": "Foto de entrega de obra + breve texto sobre o modelo turnkey completo.",
+        "cta": "Saiba como funciona",
+        "target_audience": "Público segmentado por geolocalização de condomínios de alto padrão em Jundiaí/RMC",
+        "success_criteria": "CTR > 0,8% E CPM < R$40",
+        "testing_budget": 300,
+        "testing_duration_days": 14
+      },
+      {
+        "id": "H3",
+        "hypothesis": "Se o anúncio for direcionado a quem está pesquisando terreno (não arquiteto), então captura o cliente antes da concorrência, porque a própria Amanda já validou essa estratégia no kickoff como diferencial.",
+        "angle": "Territorial / antecipação",
+        "format": "Single image",
+        "hook": "Comprou terreno em condomínio de alto padrão em Jundiaí?",
+        "body": "Convite para conversar sobre o projeto antes mesmo de fechar com um arquiteto.",
+        "cta": "Fale com a gente",
+        "target_audience": "Interesse em terrenos/lotes em condomínios de Jundiaí/RMC, 30-60 anos",
+        "success_criteria": "CTR > 1,2% E CPL < R$80",
+        "testing_budget": 350,
+        "testing_duration_days": 14
+      },
+      {
+        "id": "H4",
+        "hypothesis": "Se o anúncio de Search usar copy que ataca diretamente a objeção 'turnkey deve custar mais caro', então converte melhor no fundo de funil do que copy genérica de 'arquiteta de alto padrão', porque resolve a objeção mais recorrente do ICP.",
+        "angle": "Quebra de objeção",
+        "format": "Search ad (texto)",
+        "hook": "Turnkey custa mais? Faça as contas com a gente.",
+        "body": "Um único contrato substitui comissão oculta de fornecedor + retrabalho técnico por transparência real.",
+        "cta": "Agende uma conversa",
+        "target_audience": "Busca ativa por 'arquiteto turnkey residencial' e 'arquiteto alto padrão jundiaí'",
+        "success_criteria": "CTR > 4% (Search) E CPA < R$100",
+        "testing_budget": 300,
+        "testing_duration_days": 14
+      },
+      {
+        "id": "H5",
+        "hypothesis": "Se o criativo mostrar closeups de detalhes de acabamento em vez do ambiente inteiro, então gera mais engajamento entre o público de altíssimo padrão, porque quem compra nesse nível compra detalhes, não só a planta — já validado na análise de identidade visual da própria marca.",
+        "angle": "Estético/detalhe",
+        "format": "Reels",
+        "hook": "(sem fala — closeup com trilha instrumental)",
+        "body": "Sequência de closeups de detalhes de acabamento de uma obra já entregue.",
+        "cta": "Ver o projeto completo",
+        "target_audience": "Interesse em decoração/arquitetura de luxo, lookalike de seguidores engajados",
+        "success_criteria": "Taxa de retenção > 50% E CTR > 0,9%",
+        "testing_budget": 300,
+        "testing_duration_days": 14
+      }
+    ],
+    "testing_budget_total_week_1": 1650
+  },
+
+  "daypart_optimization": {
+    "description": "Ajustes de lance por janela de dia/hora baseados no comitê de decisão do casal (ela escolhe pela confiança, ele valida pela planilha) e no padrão de disponibilidade desse público.",
+    "adjustments": [
+      {"day_time": "Segunda a sexta, 9h-12h", "bid_adjustment_pct": 15, "rationale": "Horário comercial em que o comitê de decisão costuma ter janelas livres entre compromissos para pesquisar e responder mensagens."},
+      {"day_time": "Segunda a sexta, 19h-22h", "bid_adjustment_pct": 20, "rationale": "Casal decide junto à noite, após o expediente — janela em que ambos costumam estar disponíveis simultaneamente para uma decisão de alto envolvimento."},
+      {"day_time": "Sábado 10h-18h", "bid_adjustment_pct": 10, "rationale": "Momento em que famílias de alto padrão costumam visitar/passear pelos condomínios de interesse, aumentando a relevância contextual do anúncio territorial."},
+      {"day_time": "Domingo", "bid_adjustment_pct": -30, "rationale": "Menor disponibilidade para decisões de alto investimento; reduzir lance para não desperdiçar budget em cliques de baixa intenção."},
+      {"day_time": "Segunda-feira antes das 9h", "bid_adjustment_pct": -20, "rationale": "Início de semana, foco em resolver pendências profissionais — menor probabilidade de engajamento com decisão pessoal de longo prazo."}
+    ]
+  },
+
+  "key_insight": {
+    "headline": "O Cenário B (R$3.600/mês) recupera o orçamento já discutido com a cliente — mas só funciona se vier DEPOIS do CRM, não em paralelo.",
+    "context": "A tentação natural é lançar mídia e CRM ao mesmo tempo para 'ganhar tempo'. Mas a última tentativa prova que, sem triagem básica, o orçamento se perde em contatos irrelevantes sem que ninguém perceba a tempo de corrigir.",
+    "numbered_reasons": [
+      "A última campanha gastou R$1.200 sem que ninguém soubesse, em tempo real, que 100% dos contatos eram fornecedores — só descobriram depois, olhando para trás.",
+      "O Cenário B já está dimensionado dentro do range que a própria V4 discutiu com a Amanda na reunião de diagnóstico (R$3.200-4.200/mês) — não é uma proposta nova, é a execução do que já foi validado com ela.",
+      "Lançar mídia sem CRM significa repetir o mesmo erro em escala maior — o upside real do Cenário B só se realiza se o CRM estiver rodando primeiro."
+    ],
+    "discussion_anchor": "Vale travar com a Amanda: o lançamento de mídia (Cenário B) só começa depois que o CRM mínimo estiver de fato funcional — não em paralelo, por mais que pareça mais rápido no papel."
+  },
+
+  "honesty_alert": "Este é um plano de LANÇAMENTO, não um diagnóstico de performance — a cliente não tem dados granulares de campanha ativa (sem V4MOS conectado, sem exportação manual), apenas o relato qualitativo de uma tentativa anterior malsucedida. Todos os benchmarks aqui são adaptados da categoria mais próxima disponível (Imobiliárias/Construtoras), ajustados para cima dado o ticket muito acima da média do setor — trate os números de CPL/budget como direção estratégica, não previsão precisa. Fundamental: este plano só deve ser executado DEPOIS que o CRM mínimo estiver funcional (ação 1 do plano) — caso contrário, mesmo um plano bem estruturado vai gerar dados que ninguém consegue medir corretamente, repetindo o padrão já visto na campanha anterior."
+}

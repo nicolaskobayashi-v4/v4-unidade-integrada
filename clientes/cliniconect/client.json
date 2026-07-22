@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "name": "Cliniconect",
+    "slug": "cliniconect",
+    "workspace_id": null,
+    "created_at": "2026-05-26",
+    "modulo_vendas": true
+  },
+  "briefing": {
+    "empresa": "CLINICONECT SOLUCOES TECNOLOGICAS LTDA",
+    "segmento": "SaaS de gestão para clínicas de saúde",
+    "descricao_produto": "Sistema de gestão para clínicas: agendamento, financeiro, protocolos ABA, dashboards operacionais (taxa de ocupação, faltas, margem, planos vendidos)",
+    "planos": [
+      { "nome": "Profissional", "preco": 97, "perfil": "clínica solo ou até 2 profissionais" },
+      { "nome": "Planos maiores", "preco": null, "perfil": "clínicas com 3+ profissionais" }
+    ],
+    "ticket_medio": null,
+    "time_cliente": {
+      "ceo": "Erick Macedo (Dr. Eric)",
+      "operacoes": "Dani (esposa do Eric, cuida de onboarding)",
+      "comercial": ["Lucas Pereira (gerente comercial)", "Felipe (closer/SDR)"]
+    },
+    "cidade": null,
+    "inicio_contrato_v4": "2025-02-01",
+    "gestor_v4": "Lucas Calefi Gonçalves (Calefi - SCN&Co)",
+    "canal_contrato": "Byline V4"
+  },
+  "research": {
+    "icp": {
+      "perfil_ideal": "Clínicas multidisciplinares com 3-10 profissionais, gerenciadas por um diretor de operações ou terapeuta que também faz administrativo",
+      "nichos_prioritarios": ["fisioterapia", "pilates", "multidisciplinar com ABA", "fono"],
+      "nichos_secundarios": ["psicologia/psicopedagogia (MQL bom, SQL difícil)"],
+      "nichos_excluidos": ["estética", "cílios"],
+      "comportamento_compra": "Disponível apenas fora do horário comercial (após 19h e fins de semana). Agenda reuniões mas tem alto no-show quando abordado fora da rotina. Multidisciplinar 3-10 profissionais: compra bem, aparece, fecha.",
+      "dores_principais": [
+        "Controle de faltas/no-show dos pacientes",
+        "Taxa de ocupação baixa dos profissionais",
+        "Margem da clínica não visualizada",
+        "Falta de organização do agendamento e financeiro",
+        "Acumula funções: atendimento + administrativo"
+      ]
+    },
+    "concorrentes": [
+      { "nome": "Zen Físio", "modelo": "PLG, sem vendedores, app mobile, custo baixo" },
+      { "nome": "Psicomanager", "modelo": "PLG, mais no-touch, equipe interna de monetização" },
+      { "nome": "Clínica Ágil", "modelo": "Sales-led, ticket alto, planos com 3+ usuários" },
+      { "nome": "Clínica nas Nuvens", "modelo": "Sales-led, ticket alto" }
+    ],
+    "diferenciais_cliniconect": [
+      "Protocolos ABA (nicho específico multidisciplinar)",
+      "Dashboards operacionais novos: taxa de ocupação, faltas, margem",
+      "Vendedor humano que faz onboarding (vs PLG dos concorrentes)",
+      "Atendimento personalizado"
+    ],
+    "ameacas": [
+      "Vibe coding / soluções DIY (crescente, mas público não tem tempo/habilidade)",
+      "Concorrentes PLG com melhor experiência mobile"
+    ]
+  },
+  "connectors": {
+    "fetched_at": null,
+    "workspace_id": null,
+    "integrations": {}
+  },
+  "midia": {
+    "canal_principal": "Meta Ads (Instagram 99%)",
+    "campanhas_ativas": [
+      { "nome": "multi", "publico": "multidisciplinar", "status": "ativa", "qualidade": "57-72%", "cpl_medio": "~R$10-17" },
+      { "nome": "difícil", "publico": "multidisciplinar difícil", "status": "reativada mai/26", "qualidade": null, "cpl_medio": null },
+      { "nome": "psico", "publico": "psicólogos/psicopedagogos", "status": "desativada mai/26", "qualidade": "31-33%", "cpl_medio": "~R$6" }
+    ],
+    "melhor_criativo": "Diaba (maior volume); vídeo estilo UGC simples com CPL baixo",
+    "automacao_leads": "Make + Google Sheets → Kommo/Mosquite",
+    "meta_leads_mensal": 500,
+    "historico_performance": {
+      "jun_2025": { "leads": 380, "meta": 400 },
+      "abr_2026": { "leads": 649, "meta": 500 },
+      "mai_2026_parcial": { "leads_semana_21": "~203 MQL / 434 leads (até dia 19)" }
+    },
+    "benchmarks_custo": {
+      "cpl_sem_psico": "~R$17",
+      "cpl_com_psico": "~R$6",
+      "cmql_sem_psico": "R$29",
+      "cmql_com_psico": "R$6,34"
+    },
+    "gargalo_principal": "Response time: maioria dos leads chega após 19h e fins de semana. Em 14 ganhos de maio/26, apenas 3 vieram de anúncios (orgânico converte mais).",
+    "solucoes_em_teste": [
+      "Agendamento automático via Google Agenda na campanha 'multi'",
+      "SDR / bot para atendimento fora do horário comercial",
+      "Remarketing para base histórica de leads perdidos",
+      "Email comercial@cliniconect para automações Mosquite"
+    ]
+  },
+  "comercial": {
+    "crm": "Mosquite (Kommo anterior)",
+    "funil": ["Lead", "MQL", "SQL", "Oportunidade", "Ganho", "Perdido"],
+    "definicao_mql_atual": "Lead que atende critérios de perfil (3+ profissionais, segmento correto)",
+    "nova_definicao_mql_proposta": "Lead que vira Oportunidade (saiu de reunião com próximo passo agendado)",
+    "closers": ["Lucas Pereira", "Felipe"],
+    "meta_expansao_equipe": "De 1 para 4 vendedores (planejado)",
+    "taxa_conversao_vc_para_ganho": "~3 de 14 ganhos em mai/26 vieram da V4 (restante orgânico/indicação)",
+    "cadencias": "Em estruturação no CRM",
+    "desafios": [
+      "Alto no-show de leads Psico",
+      "Maioria dos leads chega fora do horário comercial",
+      "Cadências não estavam sistematizadas",
+      "Priorização de leads por perfil em implementação"
+    ]
+  },
+  "unit_economics": {
+    "churn": "Acima do ideal (análise feita pelo Eric em mai/26)",
+    "tamanho_base": null,
+    "retencao": null,
+    "cac": null,
+    "ultima_analise": "2026-05-21"
+  },
+  "estrategia": {
+    "planejamento_original": "Março 2025",
+    "planejamento_revisado": "Agosto 2025 (foco CRM, modelo SaaS/winning by design)",
+    "novo_kickoff_estrategico": "Previsto para semana de 25/05/2026 (presencial)",
+    "foco_atual": [
+      "Estruturar área de marketing real (posicionamento de marca, não só aquisição)",
+      "Expandir equipe de vendas de 1 para 4",
+      "Reduzir churn",
+      "Explorar PLG para plano Profissional",
+      "Newsletter/conteúdo educacional para nurturing (longo prazo)",
+      "Parceria com influenciadores do nicho (ex: Rinovak)"
+    ],
+    "influenciadores_identificados": [
+      { "nome": "Rinovak", "canal": "Newsletter (Substack)", "nicho": "gestão de clínicas lucrativas", "relevancia": "alta" }
+    ]
+  },
+  "progress": {
+    "current_week": 1,
+    "skills": {
+      "ee-s1-diagnostico-maturidade": { "status": "pending", "version": 0, "started_at": null, "completed_at": null },
+      "ee-s1-swot": { "status": "pending", "version": 0, "started_at": null, "completed_at": null },
+      "ee-s1-persona-icp": { "status": "pending", "version": 0, "started_at": null, "completed_at": null },
+      "ee-s1-auditoria-comunicacao": { "status": "pending", "version": 0, "started_at": null, "completed_at": null },
+      "ee-s2-pesquisa-mercado": { "status": "pending", "version": 0, "started_at": null, "completed_at": null },
+      "ee-s2-posicionamento": { "status": "pending", "version": 0, "started_at": null, "completed_at": null },
+      "ee-s2-diagnostico-midia": { "status": "pending", "version": 0, "started_at": null, "completed_at": null },
+      "ee-s2-diagnostico-criativos": { "status": "pending", "version": 0, "started_at": null, "completed_at": null },
+      "ee-s2-diagnostico-cro": { "status": "pending", "version": 0, "started_at": null, "completed_at": null },
+      "ee-s3-identidade-visual": { "status": "pending", "version": 0, "started_at": null, "completed_at": null },
+      "ee-s3-brandbook": { "status": "pending", "version": 0, "started_at": null, "completed_at": null },
+      "ee-s3-landing-page": { "status": "pending", "version": 0, "started_at": null, "completed_at": null },
+      "ee-s3-copy-anuncios": { "status": "pending", "version": 0, "started_at": null, "completed_at": null },
+      "ee-s3-criativos-anuncios": { "status": "pending", "version": 0, "started_at": null, "completed_at": null },
+      "ee-s3-crm-setup": { "status": "pending", "version": 0, "started_at": null, "completed_at": null },
+      "ee-s3-forecast-midia": { "status": "pending", "version": 0, "started_at": null, "completed_at": null },
+      "ee-s4-diagnostico-comercial": { "status": "pending", "version": 0, "started_at": null, "completed_at": null },
+      "ee-s5-scripts-sdr": { "status": "pending", "version": 0, "started_at": null, "completed_at": null },
+      "ee-s5-sdr-ia-config": { "status": "pending", "version": 0, "started_at": null, "completed_at": null }
+    }
+  },
+  "history": [
+    {
+      "ts": "2026-05-26T00:00:00Z",
+      "skill": "ee-onboarding",
+      "checkpoint": 1,
+      "decision": "client.json criado a partir de 7 transcrições de reuniões lidas do Google Drive (jul/2025 a mai/2026). Dados de briefing, ICP, mídia e estratégia populados. Faltam: workspace_id V4MOS, ticket médio, tamanho de base, CAC."
+    }
+  ]
+}

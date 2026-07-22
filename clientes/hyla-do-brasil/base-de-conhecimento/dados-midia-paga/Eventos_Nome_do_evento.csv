@@ -1,0 +1,26 @@
+# ----------------------------------------
+# Eventos: Nome do evento
+# Conta: HYLA do Brasil
+# Propriedade: Hyla do Brasil
+# ----------------------------------------
+# 
+# Todos os usuários
+# Data de início: 20260610
+# Data de término: 20260707
+Nome do evento,Contagem de eventos,Total de usuários,Contagem de eventos por usuário ativo,Receita total
+page_view,37836,25581,1.5092744026486895,0
+session_start,26873,25579,1.0721752314075965,0
+first_visit,24730,24839,0.9956117396030436,0
+video_start,14289,12899,1.1346779957119035,0
+scroll,13737,12106,1.1627729812087353,0
+video_progress,10603,5014,2.1740824277219604,0
+user_engagement,10107,4275,2.3703095684803004,0
+form_start,726,627,1.167202572347267,0
+video_complete,606,551,1.1160220994475138,0
+contact,170,158,1.0759493670886076,0
+add_to_cart,147,119,1.2352941176470589,0
+click,129,112,1.1517857142857142,0
+form_submit,75,47,1.5957446808510638,0
+ads_conversion,57,35,1.6285714285714286,0
+file_download,15,11,1.3636363636363635,0
+purchase,15,15,1,8805.120001

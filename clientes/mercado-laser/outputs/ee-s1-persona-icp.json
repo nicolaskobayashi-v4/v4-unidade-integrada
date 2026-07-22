@@ -1,0 +1,270 @@
+{
+  "client_name": "Mercado Laser",
+  "skill": "ee-s1-persona-icp",
+  "generated_at": "2026-06-26",
+  "data_source": "Kick-off 15/06 + reuniões de venda (08/06) e onboarding (11/06) + form de kick-off",
+  "nota_metodologica": "Cliente tem dois funis permanentes e paralelos — comprador de máquina (margem, foco de mídia incremental) e comprador de peça (recorrência, ~90% do volume). Ajuste pedido pelo operador: tratar os dois com o mesmo nível de profundidade em toda análise futura, não só nesta skill.",
+
+  "summary": "O Mercado Laser tem dois ICPs permanentes: o comprador de máquina (de quem está começando do zero até a indústria que compra BestBeam premium) é o foco de mídia paga porque é onde está a margem e a dor real que motivou a contratação da V4; o comprador de peça já converte bem organicamente e sustenta ~90% do volume de pedidos, e continua sendo tratado como segmento estratégico próprio (não um apêndice) para garantir receita recorrente.",
+
+  "summary_headline": "Marcelo ainda nem comprou a primeira máquina, Rodrigo já se queimou com uma ruim, Patrícia decide em comitê pela BestBeam — três estágios, um funil de mídia sem pixel pra ver nenhum deles.",
+
+  "summary_highlights": [
+    {"category": "posicao", "label": "Dois funis permanentes", "value": "Máquina + Peça", "subtext": "Tratados com o mesmo peso de análise daqui em diante — decisão do operador", "tone": "blue"},
+    {"category": "oportunidade", "label": "Gap de tracking", "value": "0 pixels instalados", "subtext": "Nenhuma campanha nova nasce com histórico de conversão", "tone": "red"},
+    {"category": "janela", "label": "Ciclo de decisão", "value": "Minutos a ~3 semanas", "subtext": "Peça fecha no mesmo atendimento; máquina premium passa por triagem consultiva", "tone": "yellow"},
+    {"category": "competicao", "label": "Concorrente de entrada", "value": "Multivis/Visotec", "subtext": "Vende mais barato e mal — gera o cliente insatisfeito que migra pro Mercado Laser depois", "tone": "yellow"},
+    {"category": "oportunidade", "label": "Pipeline futuro", "value": "Comprador 'máquina de brinquedo'", "subtext": "Não tem consciência ainda, mas é o padrão histórico que já abasteceu vendas de peça/upgrade", "tone": "green"},
+    {"category": "risco", "label": "Vazamento histórico", "value": "Ex-funcionário desviava lead", "subtext": "Atendimento de anúncio podia estar configurado pro número antigo dele", "tone": "red"}
+  ],
+
+  "summary_key_findings": [
+    {"category": "vantagem", "text": "O Mercado Laser não compete por preço — qualidade, suporte técnico nacional e envio em 24h são diferenciais reais e defensáveis contra os concorrentes citados (Translaser, Multivis/Visotec), que falham exatamente onde o cliente mais teme falhar (qualidade e pós-venda)."},
+    {"category": "contexto", "text": "A jornada do comprador de máquina tem pelo menos 3 estágios de maturidade dentro do mesmo ICP: quem ainda não tem negócio e vê a máquina como oportunidade (Marcelo), quem já opera mas com equipamento ruim (Rodrigo), e quem já é empresa estabelecida comprando linha premium (Patrícia/BestBeam)."},
+    {"category": "ameaca", "text": "Sem pixel instalado em nenhuma plataforma e sem CRM dedicado, qualquer campanha nova de mídia paga nasce sem capacidade de remarketing — o dinheiro investido em tráfego frio se perde se o lead não fechar de primeira."},
+    {"category": "acao", "text": "A estratégia de mídia e conteúdo precisa correr em dois tracks paralelos e permanentes — máquina (aquisição + margem) e peça (recorrência + retenção) — sem um substituir o outro. Essa diretriz vale para todas as skills seguintes (posicionamento, copy, criativos, forecast)."}
+  ],
+
+  "icp": {
+    "segment_label": "Comprador de máquina (entrada Mercado Laser → premium BestBeam)",
+    "demographics": {
+      "type": "mixed",
+      "age_range": "25-45 anos (decisor pessoa física/MEI) — empresas de pequeno a médio porte no caso BestBeam",
+      "income_or_revenue": "Pessoa física: dispõe de R$19k-70k pra investir num equipamento próprio. Empresa (BestBeam): indústrias e empresas de comunicação visual/têxtil/calçados",
+      "location": "Brasil inteiro, com força em estados fora de SP (onde a loja física não compete diretamente)",
+      "company_size": "De pessoa física/MEI até indústrias de porte médio com linha de produção",
+      "decision_maker_role": "Pessoa física: dono/empreendedor decide sozinho. Empresa: comprador ou diretor de operações, às vezes com aprovação de superior",
+      "education": null,
+      "other": {
+        "estagios_de_maturidade": "3 estágios dentro do mesmo ICP: (1) aspirante sem negócio ainda (Marcelo), (2) já opera mas com máquina ruim (Rodrigo), (3) empresa estabelecida comprando premium (Patrícia/BestBeam)"
+      }
+    },
+    "behavior": {
+      "decision_process": "Entrada: racional mas decide rápido sozinho, compara 2-3 opções e fecha pelo WhatsApp depois de tirar dúvida técnica. Premium (BestBeam): mais comitê/checagem — vendedor escalona a venda pro modelo acima do que o cliente veio buscar.",
+      "research_channels": ["Google (busca direta por modelo de máquina)", "Instagram (Reels — muitos 'caem' vendo anúncio aleatório que parece oportunidade)", "YouTube (vídeos de terceiros usando máquinas concorrentes ou mostrando renda extra)", "Indicação de outros donos de máquina"],
+      "main_objections": ["Preço", "Prazo de entrega", "Desconhece a marca (Mercado Laser/BestBeam)", "Insegurança técnica sobre qual modelo atende a aplicação"],
+      "switching_triggers": "Já comprou máquina concorrente mais barata (Multivis/Visotec/Blips), teve problema de qualidade/suporte e migra pro Mercado Laser na reposição ou no upgrade",
+      "purchase_frequency": "Primeira compra é única (alto ticket); depois recompra peça com recorrência e, se o negócio cresce, faz upgrade pra modelo acima"
+    },
+    "jobs": {
+      "functional": "Quando minha produção para porque a máquina quebrou, ou decido montar/expandir um negócio de personalização ou produção a laser, quero comprar um equipamento confiável com suporte garantido, para não ficar dependente de qualidade incerta ou de um fornecedor que desaparece depois da venda.",
+      "emotional": "Quero ter a segurança de que, se der problema, vou ter alguém me atendendo — não quero descobrir sozinho como resolver um defeito numa máquina importada.",
+      "social": "Quero ser visto como quem entrega rápido e com qualidade pros meus clientes, não como quem comprou 'gambiarra' de Shopee."
+    },
+    "pains": [
+      {"pain": "Comprei (ou pensei em comprar) uma máquina barata e descobri depois que ela não tinha nem refrigeração decente — quebra o tubo laser em meses", "intensity": "critical", "current_workaround": "Compra peça de reposição emergencial direto do Mercado Laser quando o concorrente falha"},
+      {"pain": "Minha produção fica parada esperando peça ou suporte técnico que não chega rápido", "intensity": "critical"},
+      {"pain": "Não sei qual modelo de máquina realmente atende o material/aplicação que eu preciso cortar ou gravar", "intensity": "high"},
+      {"pain": "O fornecedor que me vendeu a máquina não responde depois da venda — fico sozinho no pós-venda", "intensity": "high"},
+      {"pain": "Quero crescer ou montar uma renda extra com a máquina, mas tenho medo de fazer um investimento alto e não ter retorno", "intensity": "medium"}
+    ],
+    "gains": [
+      {"gain": "Receber a máquina ou peça funcionando, testada, com garantia real", "type": "tangible"},
+      {"gain": "Ter um único fornecedor que resolve máquina + peça + suporte técnico no Brasil inteiro", "type": "tangible"},
+      {"gain": "Ver a produção rodar sem parar — o investimento 'se pagando' todos os dias", "type": "tangible"},
+      {"gain": "Sentir confiança de que fez a escolha certa e não vai se arrepender em 6 meses", "type": "intangible"},
+      {"gain": "Escalar pra um modelo mais avançado conforme o negócio cresce, sem precisar trocar de fornecedor", "type": "intangible"}
+    ]
+  },
+
+  "persona": {
+    "name": "Rodrigo",
+    "age": 33,
+    "occupation": "Microempreendedor de personalização de brindes",
+    "location": "Interior de Minas Gerais",
+    "photo_description": "Homem de 33 anos, em pé numa bancada de oficina/garagem adaptada, camisa de trabalho, ao lado de produtos personalizados (canecas, chaveiros) ainda sem terminar.",
+    "story": "Rodrigo monta há 2 anos um negócio de personalização de brindes e teve que recusar um pedido grande de uma empresa de eventos porque sua máquina de entrada — comprada de um concorrente mais barato — não aguenta o volume e trava toda semana. Já perdeu dois clientes recorrentes por atraso. Pesquisa no Google e no Instagram um modelo maior, mas tem medo de gastar R$20-30 mil de novo e cair na mesma armadilha.",
+    "quote": "Já paguei caro uma vez achando que tava economizando. Da próxima eu quero saber que, se quebrar, tem alguém do outro lado pra me ajudar — não quero descobrir isso sozinho de novo."
+  },
+
+  "personas": [
+    {
+      "id": "persona-iniciante",
+      "nome": "Marcelo",
+      "idade": 41,
+      "ocupacao": "Analista administrativo CLT, pensando em montar uma renda extra",
+      "estagio_jornada": "Aspirante — ainda não tem negócio, vê a máquina como oportunidade",
+      "foto_mental": "Em casa, à noite, ainda de roupa do escritório, olhando um Reels de alguém gravando canecas e vendendo bem.",
+      "historia": "Marcelo trabalha numa função administrativa há anos e sente que o salário não acompanha as contas. Começou a ver vídeos de pessoas gravando canecas, chaveiros e placas personalizadas e vendendo por preços que parecem altos pro esforço, e viu isso como chance de renda extra nos fins de semana sem largar o emprego. Nunca operou uma máquina a laser. Tem medo de gastar R$19-20 mil — boa parte das economias — numa máquina que não dê o retorno que viu no vídeo. Pesquisa 'máquina de gravação a laser preço' no Google há dias, mas ainda não falou com nenhum vendedor.",
+      "quote": "Eu vi um cara fazendo isso e parecia simples, mas será que eu realmente consigo? E se eu comprar e não der retorno nenhum?",
+      "job_funcional": "Quando vejo outras pessoas ganhando dinheiro com gravação a laser e quero uma renda extra sem largar meu emprego, quero entender se vale o investimento e qual máquina é viável pra começar, para não gastar minhas economias numa decisão errada.",
+      "job_emocional": "Quero confiança de que estou fazendo um investimento que vai se pagar, não jogando dinheiro fora.",
+      "dores": ["Não sabe se vai conseguir operar a máquina e gerar retorno", "Medo de comprar errado, igual viu em comentário negativo de outra máquina", "Não tem capital de giro grande — um erro de R$19k pesa muito"],
+      "como_descobre": "YouTube/Instagram Reels de 'renda extra com máquina a laser', busca 'quanto rende uma máquina de gravação a laser' no Google",
+      "icp_segment": "comprador-maquina",
+      "nota": "Persona pedida pelo operador para cobrir o início da jornada do comprador de máquina — antes mesmo da primeira compra."
+    },
+    {
+      "id": "persona-estabelecido",
+      "nome": "Rodrigo",
+      "idade": 33,
+      "estagio_jornada": "Já opera um negócio — máquina atual não atende mais",
+      "nota": "Ver objeto 'persona' acima — mantido também aqui para o continuum dos 3 estágios."
+    },
+    {
+      "id": "persona-industrial",
+      "nome": "Patrícia",
+      "idade": 38,
+      "ocupacao": "Gestora de operações numa confecção/empresa de comunicação visual de porte médio",
+      "estagio_jornada": "Empresa estabelecida — compra máquina premium BestBeam",
+      "foto_mental": "Mulher de 38 anos, num escritório dentro de um galpão industrial, prancheta com especificações técnicas na mão, ao fundo a linha de produção.",
+      "historia": "Patrícia decide em comitê (ela + diretor) e pesquisa documentação e suporte antes de falar de preço. Já foi mal atendida por um concorrente que vendeu a máquina e desapareceu no pós-venda — isso pesa mais na decisão do que o preço bruto do equipamento.",
+      "quote": "Não é a máquina mais barata que eu quero — é a que não vai me deixar parada numa segunda-feira de produção cheia.",
+      "icp_segment": "comprador-maquina",
+      "nota": "Mesma jornada de Rodrigo, mas ticket mais alto (R$30k-200k+) e decisão mais lenta/consultiva."
+    },
+    {
+      "id": "persona-pecas",
+      "nome": "Anderson",
+      "idade": 29,
+      "ocupacao": "Microempreendedor de personalização, já opera máquina própria",
+      "estagio_jornada": "Recompra — comprador de peça",
+      "historia": "Já tem máquina, recompra peça/componente direto pelo WhatsApp quando algo quebra. Decide na hora, não pesquisa muito — confia porque já comprou antes ou foi indicado.",
+      "quote": "Só quero a peça certa rápido pra voltar a produzir — não quero ficar explicando tudo de novo pra um atendente novo.",
+      "icp_segment": "comprador-pecas"
+    }
+  ],
+
+  "where_to_find": {
+    "digital_channels": [
+      "Grupos de Facebook e WhatsApp de 'Gravação a Laser Brasil' e personalização de brindes",
+      "Hashtags #gravacaoalaser #personalizados #brindespersonalizados no Instagram",
+      "Vídeos de 'renda extra'/'side hustle' com máquina a laser no YouTube e Reels",
+      "Marketplace Mercado Livre — categoria de máquinas de corte/gravação (onde o concorrente de baixo custo é mais forte)"
+    ],
+    "keywords": [
+      "máquina de corte a laser preço",
+      "máquina de gravação a laser fibra",
+      "quanto rende uma máquina de gravação a laser",
+      "tubo laser CO2 reposição",
+      "máquina laser para empresa de brindes"
+    ],
+    "influencers": [
+      "Canais de YouTube de unboxing/review de máquina laser nacional e importada",
+      "Perfis de microempreendedores de personalização que mostram bastidores de produção no Instagram"
+    ],
+    "communities": [
+      "Grupos de Facebook/WhatsApp de revendedores e operadores de máquina laser",
+      "Associações e fóruns de comunicação visual/sinalização"
+    ]
+  },
+
+  "icp_secondary": {
+    "segment_label": "Comprador de peça/componente (recompra e personalização)",
+    "demographics": {
+      "type": "mixed",
+      "age_range": "25-40 anos, predominantemente masculino (dado observado pelo próprio cliente no Google Ads)",
+      "income_or_revenue": "Microempreendedor ou pessoa física com máquina própria já operando",
+      "location": "Brasil inteiro, parte relevante fora de SP",
+      "company_size": "Pessoa física até pequena operação de personalização"
+    },
+    "behavior": {
+      "decision_process": "Decisão técnica e rápida — já sabe exatamente qual peça precisa, decide no mesmo atendimento",
+      "research_channels": ["WhatsApp direto (já é cliente)", "Busca direta no Google pelo nome da peça", "Mercado Livre/Magalu"],
+      "main_objections": ["Preço da peça avulsa", "Prazo de entrega"],
+      "switching_triggers": "Concorrente sem estoque do componente ou demora na entrega",
+      "purchase_frequency": "Recorrente, conforme vida útil dos componentes (ex.: tubo laser a cada ~2 anos)"
+    },
+    "jobs": {
+      "functional": "Quando um componente da minha máquina quebra ou chega ao fim da vida útil, quero comprar a peça certa e receber rápido, para não perder dias de produção.",
+      "emotional": "Quero resolver isso sem dor de cabeça, sem ficar pesquisando especificação técnica sozinho.",
+      "social": null
+    },
+    "pains": [
+      {"pain": "Produção parada esperando a peça chegar", "intensity": "critical"},
+      {"pain": "Medo de comprar peça incompatível com o modelo da máquina", "intensity": "high"},
+      {"pain": "Concorrente sem estoque do componente específico", "intensity": "medium"}
+    ],
+    "gains": [
+      {"gain": "Receber a peça certa rápido", "type": "tangible"},
+      {"gain": "Ter um fornecedor que já conhece o histórico de compra", "type": "intangible"},
+      {"gain": "Comprar de quem entende tecnicamente, sem arriscar peça genérica errada", "type": "tangible"}
+    ],
+    "papel_estrategico": "~90% do volume de pedidos, sustenta o caixa enquanto o funil de máquina escala. Tratado com o mesmo peso de análise que o ICP principal por decisão do operador — não é apêndice."
+  },
+
+  "future_buyer_segment": {
+    "label": "Comprador 'máquina de brinquedo' — pré-consciência",
+    "description": "Compra (ou já comprou) uma máquina de ~R$1.000 tipo Shopee/AliExpress achando que é equivalente a um equipamento profissional. Não é cliente ideal hoje, mas — por decisão do operador — não deve ser tratado como anti-persona: ele só ainda não tem consciência da diferença de qualidade, e é o próprio padrão que historicamente abasteceu o Mercado Laser de clientes (2019-2021: pico de venda de refrigerador/exaustor de reposição para quem comprou Visotec/Multivis e teve problema).",
+    "why_relevant_later": "Quando a máquina barata falhar (refrigeração, exaustão, durabilidade), esse comprador vira lead de peça de reposição ou de upgrade — o mesmo padrão já comprovado no histórico do cliente.",
+    "nurturing_approach": "Não é prioridade de mídia paga de conversão agora. Vale capturar lead via conteúdo educativo (ex.: 'por que sua máquina de R$1.000 vai quebrar em poucos meses') para estar no radar quando a decepção acontecer.",
+    "trigger_to_reativar": "Falha de refrigeração/exaustão na máquina barata, busca por peça de reposição compatível, ou decisão de profissionalizar depois de ver resultado"
+  },
+
+  "anti_persona": {
+    "description": "Perfil que realmente não vale a pena perseguir hoje: quem não tem nenhuma aplicação definida e só consome tempo do time técnico sem intenção de compra próxima.",
+    "profiles": [
+      {
+        "profile_name": "Curioso sem aplicação definida",
+        "label": "Curioso sem aplicação definida",
+        "description": "Entra em contato 'só pra saber quanto custa' sem ter um uso real definido — não é o aspirante decidido (Marcelo), nem a empresa com necessidade técnica.",
+        "who": "Entra em contato 'só pra saber quanto custa' sem ter um uso real definido.",
+        "signals": ["Não consegue dizer o que vai cortar/gravar", "Pede só 'o catálogo' sem contexto", "Desaparece após a primeira resposta"],
+        "red_flags": ["Não consegue dizer o que vai cortar/gravar", "Pede só 'o catálogo' sem contexto", "Desaparece após a primeira resposta"],
+        "why_not": "Consome tempo do time comercial técnico sem intenção de compra próxima",
+        "operational_rule": "Time qualifica com 1-2 perguntas de aplicação antes de aprofundar atendimento"
+      }
+    ],
+    "operational_rule": "Se o contato não consegue descrever uma aplicação real mesmo depois de 1-2 perguntas, o time qualifica e não aprofunda atendimento consultivo. Diferente do comprador 'máquina de brinquedo' (ver future_buyer_segment), que tem aplicação definida e só não tem consciência de qualidade — esse sim vale nutrir."
+  },
+
+  "buyer_journey": {
+    "description": "Jornada do comprador de máquina (Marcelo → Rodrigo → Patrícia), do gatilho até a recompra/upgrade",
+    "stages": [
+      {"stage": "Gatilho", "trigger": "Máquina atual quebra, pedido grande é recusado por falta de capacidade, ou vontade de montar uma renda extra com personalização", "mental_state": "Urgência ou ambição misturadas com insegurança financeira", "primary_channel": "Busca no Google ou vê um anúncio/Reels no Instagram", "dominant_question": "Será que vale o investimento e qual máquina realmente atende o que eu preciso?", "client_intervention": "Anúncio de Meta/Google ainda não otimizado — hoje não há pixel pra identificar esse público", "friction_today": "Sem rastreamento, o Mercado Laser não sabe quem clicou nem consegue fazer remarketing", "duration_estimate": "Imediato a poucos dias"},
+      {"stage": "Pesquisa", "trigger": "Decidiu pesquisar opções", "mental_state": "Comparando preço e desconfiando de qualidade", "primary_channel": "Google, Instagram, YouTube (reviews), Mercado Livre", "dominant_question": "Quais marcas existem e qual a diferença real entre elas?", "client_intervention": "Site do Mercado Laser/BestBeam, conteúdo orgânico do Instagram", "friction_today": "Conteúdo educativo sobre diferença de qualidade ainda é escasso", "duration_estimate": "Alguns dias a 2 semanas"},
+      {"stage": "Consideração", "trigger": "Encontrou 2-3 fornecedores possíveis (Mercado Laser, Translaser, Multivis)", "mental_state": "Dúvida técnica + medo de tomar decisão errada de novo", "primary_channel": "WhatsApp (tira dúvida direto com vendedor)", "dominant_question": "Esse vendedor entende do que eu preciso ou só quer vender?", "client_intervention": "Atendimento humanizado do Igor/time comercial, resposta em até 5 minutos", "friction_today": "Sem CRM dedicado, não há follow-up sistemático de quem não responde de primeira", "duration_estimate": "Alguns dias"},
+      {"stage": "Decisão", "trigger": "Vendedor explica rendimento/produtividade e escalona pra um modelo acima", "mental_state": "Confiança crescente, mas ainda sensível a preço e prazo de entrega", "primary_channel": "WhatsApp + checkout no site (Tray)", "dominant_question": "Esse é realmente o melhor modelo pro que eu preciso, e vou receber rápido?", "client_intervention": "Negociação de parcelamento (até 12x sem juros ou 50% entrada + boleto), pronta entrega no estoque", "friction_today": "Nenhum pixel de conversão instalado pra medir o que fecha e otimizar mídia", "duration_estimate": "Dias a 2-3 semanas (premium/BestBeam)"},
+      {"stage": "Pós-compra", "trigger": "Máquina entregue, precisa de instalação/treinamento", "mental_state": "Ansiedade até confirmar que funciona", "primary_channel": "Suporte técnico Mercado Laser (treinamento operacional + manutenção)", "dominant_question": "Vou conseguir operar e, se quebrar, vou ter suporte?", "client_intervention": "Time técnico próprio faz instalação e treinamento, inclusive presencial em todo o Brasil", "friction_today": "Pouca comunicação proativa pós-venda — depende do cliente buscar ajuda", "duration_estimate": "Primeiros 30 dias de uso"},
+      {"stage": "Recompra/Upgrade", "trigger": "Negócio cresce, precisa de peça de reposição ou de upgrade pra modelo maior/BestBeam", "mental_state": "Fidelizado — já confia no fornecedor", "primary_channel": "WhatsApp direto, sem precisar pesquisar de novo", "dominant_question": "Qual o próximo modelo que atende meu crescimento?", "client_intervention": "Vendedor já conhece o histórico do cliente e ancora a venda no modelo acima", "friction_today": "Sem CRM, a reativação da base de ~7.000 clientes é manual via lista de transmissão (que já levou a um bloqueio do WhatsApp por frequência alta)", "duration_estimate": "Meses a anos depois da primeira compra"}
+    ],
+    "critical_leakage_point": "O maior vazamento é na Consideração e na Decisão: sem nenhum pixel instalado e sem CRM dedicado, todo o tráfego pago que chega até aqui é invisível pra remarketing — e o ex-funcionário que cuidava disso direcionava parte do atendimento do WhatsApp pra si mesmo antes de ser desligado, perdendo leads que nunca voltaram pro funil oficial."
+  },
+
+  "willingness_to_pay": {
+    "description": "Três frentes de preço dentro do mesmo funil: peça (entrada barata e recorrente), máquina de entrada e máquina premium BestBeam",
+    "services": [
+      {"service": "Peça/componente de reposição", "current_ticket_range": "R$50-3.000 (ex.: tubo laser ~R$3.000)", "perceived_fair_range": "Mesma faixa — cliente já aceita pagar por qualidade depois de uma decepção com concorrente", "premium_ceiling": "Não aplicável — decisão de recompra é rápida e pouco sensível a teto premium", "elasticity": "baixa — decisão técnica urgente, pouca pesquisa de preço quando a produção está parada", "pricing_lever": "Disponibilidade imediata (pronta entrega) e suporte técnico"},
+      {"service": "Máquina de entrada (Mercado Laser)", "current_ticket_range": "R$19.000-70.000", "perceived_fair_range": "R$19.000-50.000 — cliente compara com concorrentes mais baratos antes de aceitar pagar mais", "premium_ceiling": "R$70.000 com argumento de produtividade/rendimento demonstrado pelo vendedor", "elasticity": "média — sensível a preço até o vendedor demonstrar ganho de produtividade", "pricing_lever": "Demonstração de rendimento/produtividade (ex.: tempo de gravação) e garantia de suporte nacional"},
+      {"service": "Máquina premium (BestBeam)", "current_ticket_range": "R$30.000-200.000+", "perceived_fair_range": "Definida caso a caso — comprador industrial negocia com base em ROI da aplicação", "premium_ceiling": "R$200.000+ quando a aplicação justifica (ex.: linha de produção contínua)", "elasticity": "baixa — decisão consultiva onde qualidade/suporte pesa mais que preço bruto", "pricing_lever": "Atendimento consultivo + suporte técnico nacional + garantia + diferenciação de marca própria"}
+    ],
+    "strategic_implication": "O cliente já sabe (disse no kick-off) que sua maior margem está nas máquinas — o orçamento de mídia deveria ser desproporcionalmente maior para o funil de máquinas (especialmente BestBeam) do que para peças, mesmo peças trazendo mais volume de pedidos. Isso não significa abandonar peças: é o segmento que sustenta caixa e recorrência enquanto o funil de máquina escala."
+  },
+
+  "objection_library": {
+    "description": "Objeções reais coletadas do form de kick-off e das falas de Júlio/Vinícius/Igor",
+    "objections": [
+      {"objection": "Tá caro, achei mais barato em outro lugar", "subtext": "Está comparando com máquina de qualidade inferior (Multivis/diodo/Shopee) sem perceber que não é o mesmo produto", "bad_response": "Oferecer desconto direto pra fechar", "good_response": "Mostrar caso real de cliente que comprou concorrente mais barato, teve problema de refrigeração/exaustão em meses e voltou pro Mercado Laser pagando peça de reposição + a máquina nova", "when_to_use": "WhatsApp, na primeira objeção de preço"},
+      {"objection": "Quanto tempo demora pra chegar?", "subtext": "Tem produção parada ou um plano que depende da máquina chegar rápido — ansiedade de prazo", "bad_response": "Resposta vaga tipo 'o mais rápido possível'", "good_response": "Afirmar o prazo real: pedido sai em até 24h, com transportadora escolhida pelo cliente", "when_to_use": "WhatsApp, assim que o cliente demonstra intenção de compra"},
+      {"objection": "Nunca ouvi falar do Mercado Laser/BestBeam", "subtext": "Falta de confiança/reputação percebida frente a concorrentes mais conhecidos (Translaser, Multivis)", "bad_response": "Insistir só no preço ou nas specs técnicas", "good_response": "Citar os 20 anos de mercado, ~7.000 clientes cadastrados, e oferecer prova social (depoimentos, fotos de instalação, garantia)", "when_to_use": "Primeiro contato, antes de falar de preço"},
+      {"objection": "Não sei se essa máquina serve pro que eu preciso", "subtext": "Medo técnico de comprar errado e não conseguir usar/devolver", "bad_response": "Mandar ficha técnica genérica e esperar o cliente decidir sozinho", "good_response": "Vendedor pergunta a aplicação específica (material, tamanho, volume) e recomenda o modelo certo, com exemplo de outro cliente parecido", "when_to_use": "WhatsApp, na fase de consideração"},
+      {"objection": "Vou pensar e te chamo depois", "subtext": "Ainda não resolveu a tensão preço vs. medo de errar — provavelmente está comparando com concorrente", "bad_response": "Deixar o lead esfriar sem follow-up", "good_response": "Follow-up no dia seguinte com gancho novo (caso de cliente satisfeito, prazo de entrega, ou condição de parcelamento)", "when_to_use": "1-2 dias depois do último contato sem resposta"},
+      {"objection": "Posso parcelar?", "subtext": "Quer comprar mas o caixa não permite pagar à vista — ticket alto pesa no fluxo", "bad_response": "Só falar de juros no cartão sem explicar opções", "good_response": "Explicar as duas condições reais: 50% entrada + restante em até 12x sem juros no cartão, ou parcelamento em boleto", "when_to_use": "Quando o cliente já demonstrou interesse e está negociando forma de pagamento"},
+      {"objection": "Por que comprar máquina e não só mandar fazer a peça pronta?", "subtext": "Não entendeu o ganho de produção própria vs. terceirizar — comum em quem ainda não decidiu profissionalizar (perfil Marcelo)", "bad_response": "Ignorar e insistir na venda da máquina", "good_response": "Mostrar a conta de retorno: investimento de R$17-20k rende pedidos recorrentes de R$1-2k, o equipamento ficando praticamente 'autossustentável' em poucos meses", "when_to_use": "Fase de pesquisa, quando o lead ainda decide entre terceirizar ou comprar"}
+    ]
+  },
+
+  "key_message": {
+    "chosen_message": "Sua produção não para: peça e máquina saem no mesmo dia, com suporte técnico no Brasil inteiro.",
+    "approach": "functional",
+    "usage_context": "Headline de anúncios Meta/Google, bio do Instagram, abertura do site — funciona para os dois funis (peça e máquina) porque fala de ambos na mesma frase",
+    "alternatives": [
+      {"message": "Sua produção não para: peça e máquina saem no mesmo dia, com suporte técnico no Brasil inteiro.", "approach": "functional", "rationale": "Ataca a dor #1 (produção parada) com prova concreta (24h) — território que nenhum concorrente citado reivindica. Recomendada para esta fase: sem pixel/histórico de conversão, uma promessa funcional e mensurável é o que dá pra provar e otimizar rápido."},
+      {"message": "Não compre a decepção de novo — compre a máquina que não te deixa na mão.", "approach": "emotional", "rationale": "Fala direto com quem já se queimou com concorrente barato (padrão recorrente nos relatos do Júlio). Guardar para retargeting, quando o pixel já tiver identificado quem 'se queimou' antes."},
+      {"message": "20 anos importando direto, sem disputar preço com quem vende máquina de brinquedo.", "approach": "social", "rationale": "Posiciona o comprador como quem 'sabe escolher', não quem caiu na propaganda mais barata."}
+    ]
+  },
+
+  "key_insight": {
+    "headline": "O Mercado Laser não tem um funil, tem dois — e os dois precisam de orçamento e mensagem próprios, agora e daqui pra frente.",
+    "context": "A dor que trouxe a V4 está no funil de máquina (estoque parado, ticket médio baixo demais pra margem necessária), mas peça sustenta ~90% do volume de pedidos e é receita recorrente que não pode ser sacrificada. Por decisão do operador, as duas análises seguem segmentadas com o mesmo peso em todas as skills futuras.",
+    "numbered_reasons": [
+      "(1) Máquina é onde está a margem e a dor real que motivou a contratação da V4 — foco do orçamento de mídia incremental",
+      "(2) Peça é ~90% do volume e sustenta o caixa enquanto o funil de máquina escala — não é apêndice, é o segundo motor do negócio",
+      "(3) O comprador de 'máquina de brinquedo' de hoje é o lead de peça/upgrade de daqui a 1-2 anos — não descartar, nutrir com conteúdo educativo"
+    ],
+    "discussion_anchor": "Quanto do orçamento de mídia inicial vai para cada track (máquina vs. peça), e quem dentro do time (Daniel/Igor/Vinícius) acompanha cada funil de perto?"
+  },
+
+  "honesty_alert": "Não há dado de conversão (CPL, taxa lead→venda) confiável para nenhum dos dois ICPs hoje — o ex-funcionário não reportava métricas e não há pixel instalado em nenhuma plataforma. Toda a willingness-to-pay e o critical_leakage_point acima vêm de relato qualitativo do Júlio/Vinícius/Igor, não de número de campanha. Antes de otimizar qualquer mídia, a prioridade prática é instalar pixel Meta+Google."
+}

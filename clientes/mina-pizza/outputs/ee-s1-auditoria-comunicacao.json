@@ -1,0 +1,712 @@
+{
+  "summary": "Auditoria de 6 canais da Mina Pizza: score de comunicação 19/100 (crítico). O padrão que se repete é presença digital real (GMB com 113 avaliações, iFood com 54/4,8★, Instagram com 555 seguidores) tratada com silêncio total — zero resposta a avaliação, erros simples não corrigidos (endereço do GMB, horário do Instagram), e o canal mais usado pelo cliente fiel (telefone) é o pior avaliado de todos.",
+  "client_name": "Mina Pizza",
+  "icp_reference": "ICP principal: Marlene, 58 anos, cliente fiel de longa data de São Vicente. Maior risco não é falta de aquisição — é erosão silenciosa dessa base por atendimento inconsistente e queda de qualidade, sem follow-up pra recuperar quem se afasta.",
+  "channels_audited": [
+    {
+      "name": "site_proprio",
+      "url_or_handle": "desligado (ex-site institucional)",
+      "score": 5,
+      "classification": "critical",
+      "screenshots_analyzed": false,
+      "audit_details": {
+        "value_proposition": {
+          "present": false,
+          "clear": false,
+          "aligned_with_icp": false,
+          "notes": "Site institucional foi desligado por não gerar pedido (custava R$500/mês sem retorno)"
+        },
+        "cta": {
+          "present": false,
+          "visible": false,
+          "action_oriented": false,
+          "notes": null
+        },
+        "additional_notes": "Existe um link de delivery próprio via plataforma Neemo (deliveryapp.neemo.com.br/delivery/12596/menu) encontrado na bio do Instagram — nunca auditado nem comunicado como canal oficial. Não temos screenshot desse cardápio, só o link."
+      },
+      "gaps": [
+        {
+          "gap": "Site institucional não existe",
+          "evidence": "Roberto relatou ter desligado o site que custava R$500/mês sem retorno",
+          "impact": "high"
+        },
+        {
+          "gap": "Existe um canal de delivery próprio (Neemo) nunca auditado ou divulgado estrategicamente",
+          "evidence": "Link encontrado na bio do Instagram, não mapeado antes",
+          "impact": "medium"
+        }
+      ],
+      "recommendations": [
+        {
+          "action": "Auditar o cardápio Neemo (print/teste de pedido) pra decidir se vale manter/divulgar como canal oficial ou se compensa investir só em LP + WhatsApp",
+          "priority": "short_term",
+          "effort": "low"
+        }
+      ]
+    },
+    {
+      "name": "instagram",
+      "url_or_handle": "@minapizzas",
+      "score": 30,
+      "classification": "low",
+      "screenshots_analyzed": true,
+      "audit_details": {
+        "value_proposition": {
+          "present": true,
+          "clear": true,
+          "aligned_with_icp": false,
+          "notes": "Bio foca só em pizza ('Há 34 anos entregando felicidade em forma de pizza'), mas hoje o prato do dia é maior parte do faturamento — desalinhado com o produto real"
+        },
+        "social_proof": {
+          "present": false,
+          "type": null,
+          "quality": "none",
+          "notes": "Zero comentários, sem uso de avaliações do Google/iFood no perfil"
+        },
+        "cta": {
+          "present": true,
+          "visible": true,
+          "action_oriented": true,
+          "notes": "Link direto pro delivery Neemo na bio"
+        },
+        "visual_consistency": {
+          "consistent": true,
+          "professional": true,
+          "notes": "Fotos de comida com qualidade profissional razoável, grid com identidade visual coerente (vermelho/preto), logo reconhecível"
+        },
+        "content_quality": {
+          "speaks_to_icp": false,
+          "frequency": "a confirmar — 44 posts totais, cadência recente não verificada",
+          "engagement_level": "zero comentários apesar de 555 seguidores reais — anomalia que merece investigação",
+          "notes": "Destaques organizados ('Cardápio Pizza', 'Novos Sabores', 'Delivery') mas focados só em pizza"
+        }
+      },
+      "gaps": [
+        {
+          "gap": "Zero engajamento — nenhum comentário em nenhuma das 44 postagens, apesar de 555 seguidores reais",
+          "evidence": "Print do feed mostra grade com postagens de pizza, gráficos promocionais e reels, sem nenhum comentário visível",
+          "impact": "high"
+        },
+        {
+          "gap": "Bio com horário de funcionamento errado — diz '18:00 as 22:00' mas o negócio vende almoço desde 9h",
+          "evidence": "Bio: 'aberto todos os dias 18:00 as 22:00'",
+          "impact": "high"
+        },
+        {
+          "gap": "Bio e destaques focados só em pizza, sem mencionar o prato do dia/almoço, que hoje é o produto de maior faturamento",
+          "evidence": "Bio menciona só pizza; destaques são 'Cardápio Pi[zza]', 'Novos Sabo[res]', 'Delivery'",
+          "impact": "medium"
+        },
+        {
+          "gap": "Segue mais gente (673) do que é seguido (555) — sinal de estratégia de crescimento artificial em vez de conteúdo orgânico atraindo seguidor",
+          "evidence": "555 seguidores, 673 seguindo",
+          "impact": "low"
+        }
+      ],
+      "recommendations": [
+        {
+          "action": "Corrigir o horário na bio imediatamente",
+          "priority": "immediate",
+          "effort": "low"
+        },
+        {
+          "action": "Adicionar menção ao prato do dia/almoço na bio e criar destaque específico",
+          "priority": "short_term",
+          "effort": "low"
+        },
+        {
+          "action": "Testar CTA de engajamento nos próximos posts (pergunta na legenda, enquete no story) pra entender se o zero-comentário é falta de gancho ou desinteresse real",
+          "priority": "short_term",
+          "effort": "low"
+        }
+      ]
+    },
+    {
+      "name": "ifood",
+      "url_or_handle": "Mina Pizzas & Grill",
+      "score": 55,
+      "classification": "medium",
+      "screenshots_analyzed": true,
+      "audit_details": {
+        "value_proposition": {
+          "present": true,
+          "clear": true,
+          "aligned_with_icp": true,
+          "notes": "Cardápio claro com fotos e preços"
+        },
+        "social_proof": {
+          "present": true,
+          "type": "avaliações de usuários (54, nota 4,8)",
+          "quality": "moderate",
+          "notes": "Nota boa mas reclamações recorrentes de qualidade não respondidas enfraquecem a força da prova social ao longo do tempo"
+        },
+        "cta": {
+          "present": true,
+          "visible": true,
+          "action_oriented": true,
+          "notes": "Fluxo nativo de carrinho/checkout do iFood"
+        },
+        "visual_consistency": {
+          "consistent": true,
+          "professional": true,
+          "notes": "Fotos de prato/pizza com qualidade adequada pro app"
+        },
+        "additional_notes": "iFood funciona como o canal de conversão mais maduro da Mina Pizza hoje, mas é tratado como vitrine passiva — ninguém responde avaliação nem usa dados de pedido pra nada"
+      },
+      "gaps": [
+        {
+          "gap": "Nenhuma resposta a nenhuma avaliação, positiva ou negativa",
+          "evidence": "Prints mostram avaliações (Ronaldo, Josiane, Lô, Amanda, Kelly, Juliana) sem nenhuma resposta da loja",
+          "impact": "high"
+        },
+        {
+          "gap": "Reclamações recorrentes de tempero e item faltando sem correção visível",
+          "evidence": "'bife sem tempero nenhum', 'faltou 01 coca cola'",
+          "impact": "high"
+        },
+        {
+          "gap": "Nome usado no iFood ('Mina Pizzas & Grill') diverge do nome usado no Instagram ('minapizzas')",
+          "evidence": "Comparação direta dos dois canais",
+          "impact": "medium"
+        }
+      ],
+      "recommendations": [
+        {
+          "action": "Responder as avaliações pendentes, priorizando as negativas mais recentes",
+          "priority": "immediate",
+          "effort": "low"
+        },
+        {
+          "action": "Padronizar o nome da loja como 'Mina Pizza' em todos os canais, incluindo iFood",
+          "priority": "short_term",
+          "effort": "medium"
+        }
+      ]
+    },
+    {
+      "name": "google_meu_negocio",
+      "url_or_handle": "Mina Praia Grill & Pizza",
+      "score": 22,
+      "classification": "low",
+      "screenshots_analyzed": true,
+      "audit_details": {
+        "value_proposition": {
+          "present": false,
+          "clear": false,
+          "aligned_with_icp": false,
+          "notes": "Não verificamos se a descrição do perfil está preenchida — adicionar ao url_audit"
+        },
+        "social_proof": {
+          "present": true,
+          "type": "113 avaliações reais",
+          "quality": "moderate",
+          "notes": "Nota 3,9 é decente em volume, mas as negativas são graves e recorrentes (atendimento, higiene) — mais frágil do que o número sozinho sugere"
+        },
+        "cta": {
+          "present": false,
+          "visible": false,
+          "action_oriented": false,
+          "notes": "GMB não tem link de pedido direto configurado (nem iFood nem Neemo)"
+        },
+        "additional_notes": "Roberto não sabia da existência deste perfil até ver o print — provável que não tenha acesso admin/conta não reivindicada"
+      },
+      "gaps": [
+        {
+          "gap": "Endereço incorreto no mapa (pino fora do shopping/Carrefour onde a loja realmente fica)",
+          "evidence": "Confirmado pelo operador comparando ao endereço real do CNPJ (Av. Prefeito José Monteiro, 1045)",
+          "impact": "high"
+        },
+        {
+          "gap": "Zero resposta a qualquer uma das 20 avaliações revisadas (10 positivas + 10 negativas)",
+          "evidence": "Nenhuma review analisada tem resposta do proprietário",
+          "impact": "high"
+        },
+        {
+          "gap": "Queixa recorrente e grave de atendimento ríspido (telefone e balcão), incluindo relato específico de funcionária desligando na cara do cliente",
+          "evidence": "Avaliação negativa nº3: 'a mulher que atende é tão grossa que desliga na sua cara'",
+          "impact": "high"
+        },
+        {
+          "gap": "Relato de falha de higiene (funcionária manuseando alimento com mão suja de dinheiro)",
+          "evidence": "Avaliação negativa nº3 sobre a salada de acompanhamento",
+          "impact": "high"
+        },
+        {
+          "gap": "Nome da loja no GMB ('Mina Praia Grill & Pizza') diverge do usado no Instagram e iFood",
+          "evidence": "Comparação entre os 3 canais",
+          "impact": "medium"
+        }
+      ],
+      "recommendations": [
+        {
+          "action": "Reivindicar/corrigir o endereço do perfil imediatamente",
+          "priority": "immediate",
+          "effort": "low"
+        },
+        {
+          "action": "Responder todas as 20 avaliações, priorizando as negativas mais graves (rispidez, higiene)",
+          "priority": "immediate",
+          "effort": "medium"
+        },
+        {
+          "action": "Alinhar com a equipe de atendimento (telefone/balcão) o padrão de cordialidade esperado — é reclamação recorrente, não incidente isolado",
+          "priority": "short_term",
+          "effort": "medium"
+        }
+      ]
+    },
+    {
+      "name": "whatsapp_business",
+      "url_or_handle": null,
+      "score": 0,
+      "classification": "critical",
+      "screenshots_analyzed": false,
+      "audit_details": {},
+      "gaps": [
+        {
+          "gap": "WhatsApp Business não configurado — pedidos ainda dependem 100% de telefone tradicional",
+          "evidence": "Confirmado no briefing/kick-off",
+          "impact": "high"
+        }
+      ],
+      "recommendations": [
+        {
+          "action": "Ativar WhatsApp Business com catálogo, saudação automática e mensagem de ausência",
+          "priority": "immediate",
+          "effort": "low"
+        }
+      ]
+    },
+    {
+      "name": "anuncios",
+      "url_or_handle": null,
+      "score": 0,
+      "classification": "critical",
+      "screenshots_analyzed": false,
+      "audit_details": {},
+      "gaps": [
+        {
+          "gap": "Nenhum anúncio ativo em nenhuma plataforma",
+          "evidence": "Confirmado no diagnóstico de maturidade digital",
+          "impact": "high"
+        }
+      ],
+      "recommendations": [
+        {
+          "action": "Aguardar correção de GMB/marca/atendimento antes de rodar qualquer anúncio",
+          "priority": "medium_term",
+          "effort": "medium"
+        }
+      ]
+    }
+  ],
+  "gap_matrix": [
+    {
+      "rank": 1,
+      "channel": "google_meu_negocio",
+      "gap": "Endereço errado no mapa",
+      "impact": "high",
+      "effort": "low",
+      "recommended_action": "Corrigir endereço imediatamente",
+      "quadrant": "quick_win"
+    },
+    {
+      "rank": 2,
+      "channel": "google_meu_negocio",
+      "gap": "Zero resposta a 20 avaliações, incluindo queixa grave de higiene e rispidez",
+      "impact": "high",
+      "effort": "medium",
+      "recommended_action": "Responder todas, priorizando negativas",
+      "quadrant": "quick_win"
+    },
+    {
+      "rank": 3,
+      "channel": "instagram",
+      "gap": "Bio com horário errado",
+      "impact": "high",
+      "effort": "low",
+      "recommended_action": "Corrigir texto da bio",
+      "quadrant": "quick_win"
+    },
+    {
+      "rank": 4,
+      "channel": "ifood",
+      "gap": "Reclamações recorrentes de tempero/item faltando sem resposta",
+      "impact": "high",
+      "effort": "low",
+      "recommended_action": "Responder avaliações + alinhar com a cozinha",
+      "quadrant": "quick_win"
+    },
+    {
+      "rank": 5,
+      "channel": "whatsapp_business",
+      "gap": "Canal não existe",
+      "impact": "high",
+      "effort": "low",
+      "recommended_action": "Ativar WhatsApp Business",
+      "quadrant": "quick_win"
+    },
+    {
+      "rank": 6,
+      "channel": "transversal",
+      "gap": "Nome da marca inconsistente entre Instagram, iFood e GMB",
+      "impact": "medium",
+      "effort": "medium",
+      "recommended_action": "Padronizar o nome 'Mina Pizza' em todos os canais digitais",
+      "quadrant": "strategic_project"
+    },
+    {
+      "rank": 7,
+      "channel": "instagram",
+      "gap": "Zero engajamento apesar de conteúdo e seguidores reais",
+      "impact": "medium",
+      "effort": "medium",
+      "recommended_action": "Testar CTAs de engajamento, revisar estratégia de conteúdo",
+      "quadrant": "strategic_project"
+    },
+    {
+      "rank": 8,
+      "channel": "site_proprio",
+      "gap": "Canal de delivery próprio (Neemo) nunca auditado nem divulgado estrategicamente",
+      "impact": "medium",
+      "effort": "low",
+      "recommended_action": "Auditar página Neemo e decidir se vira canal oficial",
+      "quadrant": "fill_time"
+    },
+    {
+      "rank": 9,
+      "channel": "anuncios",
+      "gap": "Nenhum anúncio ativo",
+      "impact": "high",
+      "effort": "high",
+      "recommended_action": "Só rodar depois de corrigir os canais orgânicos acima",
+      "quadrant": "strategic_project"
+    }
+  ],
+  "executive_summary": {
+    "overall_assessment": "A comunicação digital da Mina Pizza tem um padrão que se repete em quase todos os canais: existe mais coisa construída do que a própria empresa sabe, mas nada está sendo cuidado ativamente. GMB, iFood e Instagram têm presença real — volume de seguidores, avaliações e conteúdo — só que ninguém responde avaliação, corrige informação errada (endereço do GMB, horário do Instagram) ou trata a reclamação mais grave e recorrente de todas: atendimento ríspido, citada como motivo direto de afastamento por clientes de décadas.",
+    "top_problems": [
+      {
+        "problem": "GMB com endereço errado e zero resposta a avaliações — incluindo relatos graves de rispidez e um problema de higiene",
+        "evidence": "113 avaliações reais, pino fora do local certo, nenhuma resposta do lojista em nenhuma das 20 avaliações revisadas",
+        "impact": "Cliente novo é mandado pro lugar errado, e quem já está insatisfeito não vê nenhum sinal de que a empresa se importa — acelera abandono",
+        "action": "Reivindicar/corrigir endereço e responder as 20 avaliações essa semana, priorizando a queixa de higiene"
+      },
+      {
+        "problem": "Atendimento ríspido (telefone e balcão) é a queixa mais recorrente em todos os canais, inclusive citada por cliente de 35 anos como motivo de dúvida sobre continuar comprando",
+        "evidence": "GMB negativo nº3 e nº9; mesma evidência usada na construção do ICP (persona Marlene)",
+        "impact": "É o principal motivo de churn identificado — nenhuma campanha de aquisição compensa isso",
+        "action": "Alinhar com a equipe de atendimento o padrão mínimo de cordialidade; considerar WhatsApp Business como canal alternativo ao telefone problemático"
+      },
+      {
+        "problem": "Bio do Instagram com informação errada (horário) e zero engajamento apesar de conteúdo e audiência reais",
+        "evidence": "Bio diz '18:00 as 22:00', mas vende almoço desde 9h; 44 posts, 555 seguidores, 0 comentários",
+        "impact": "Cliente que confia na bio pode achar que não vende almoço e desistir; zero engajamento sugere que o conteúdo não gera conexão real com quem já segue",
+        "action": "Corrigir a bio imediatamente e testar CTAs de engajamento nos próximos posts"
+      }
+    ],
+    "communication_score": 19
+  },
+  "competitor_benchmark": {
+    "description": "Grupos de concorrência identificados no briefing/SWOT — sem auditoria detalhada dos canais deles ainda, porque não foram fornecidos screenshots ou dados desses perfis.",
+    "groups": [
+      {
+        "name": "Concorrência direta na praça de alimentação",
+        "members": [
+          "Restaurante de frango frito (vizinho na mesma praça)"
+        ],
+        "positioning": "Concorrência por almoço, mesmo espaço físico — presença digital não auditada"
+      },
+      {
+        "name": "Pizzarias locais / concorrência digital de São Vicente-Santos",
+        "members": [],
+        "positioning": "A confirmar na ee-s2-pesquisa-mercado, com pesquisa real de concorrentes atuais"
+      }
+    ],
+    "strategic_read": "Sem dados reais de canal dos concorrentes ainda, não é possível cravar um benchmark canal-a-canal honesto. Recomendo levantar isso com dados reais na ee-s2-pesquisa-mercado antes de fechar o posicionamento."
+  },
+  "journey_friction_map": {
+    "description": "Funil de comunicação da persona Marlene, do contato até a recompra — estimativas qualitativas, sem dados de analytics (nenhum canal tem tracking).",
+    "stages": [
+      {
+        "stage": "Exposição / Descoberta",
+        "current_volume": "não mensurado — negócio não rastreia impressões/alcance",
+        "leakage_pct": 0,
+        "root_cause": "Não é um problema de descoberta — GMB e Instagram já têm alcance orgânico real (113 avaliações + 555 seguidores)",
+        "fix_effort": "low",
+        "fix_impact_estimate": "Baixo — não é o gargalo principal"
+      },
+      {
+        "stage": "Contato / Decisão do canal",
+        "current_volume": "não mensurado",
+        "leakage_pct": 15,
+        "root_cause": "Cliente hesita entre ligar (medo de atendimento ruim) e pedir por app — sem WhatsApp, a opção mais confortável não existe",
+        "fix_effort": "low",
+        "fix_impact_estimate": "Ativar WhatsApp pode recuperar parte desse vazamento rapidamente"
+      },
+      {
+        "stage": "Pedido",
+        "current_volume": "~250 pedidos de pizza/mês (dado declarado)",
+        "leakage_pct": 10,
+        "root_cause": "Inconsistência de atendimento entre atendentes gera desistência no meio da ligação",
+        "fix_effort": "medium",
+        "fix_impact_estimate": "Padronizar atendimento reduz esse vazamento"
+      },
+      {
+        "stage": "Recebimento/Consumo",
+        "current_volume": "N/A",
+        "root_cause": "Comida fria/sem tempero em parte dos pedidos (evidência recorrente nas avaliações)",
+        "fix_effort": "medium",
+        "fix_impact_estimate": "Corrigir processo de cozinha/expedição reduz reclamação pós-venda"
+      },
+      {
+        "stage": "Avaliação/Feedback",
+        "current_volume": "167 avaliações acumuladas (Google+iFood)",
+        "root_cause": "Zero resposta do lojista — quem reclama não vê retorno, quem elogia não é reforçado",
+        "fix_effort": "low",
+        "fix_impact_estimate": "Responder avaliações é o quick win de menor esforço/maior sinal de cuidado"
+      },
+      {
+        "stage": "Recompra",
+        "current_volume": "N/A — sem CRM pra medir",
+        "root_cause": "Sem nenhuma régua de reativação; cliente insatisfeito simplesmente some sem que ninguém saiba",
+        "fix_effort": "medium",
+        "fix_impact_estimate": "WhatsApp Business + follow-up básico pode recuperar recompra de quem sumiu"
+      }
+    ],
+    "biggest_leakage_summary": "O maior vazamento não é entrada (descoberta) — é entre 'Contato' e 'Recompra': a ausência de WhatsApp Business, o atendimento inconsistente e o silêncio total pós-venda (zero resposta a avaliação, zero reativação) fazem a Mina Pizza perder cliente fiel sem nenhum sinal de alerta.",
+    "projected_funnel_90d_realistic": "Se GMB for corrigido, avaliações respondidas e WhatsApp Business ativado nos primeiros 30 dias, a expectativa realista é estabilizar a taxa de recompra atual (hoje sem medição) antes de qualquer ganho de novo cliente — o ganho maior em 90 dias vem de reter quem já compra, não de atrair volume novo."
+  },
+  "tone_of_voice_analysis": {
+    "description": "Auditoria de coerência entre o tom de voz aprovado no briefing (simples e direto, sem infantilização, público mais velho) e o tom real observado em cada canal.",
+    "brand_voice_target": {
+      "pillars": [
+        "Simples e direto",
+        "Tradicional/família",
+        "Sem infantilização",
+        "Acessível pra público mais velho"
+      ],
+      "avoid": [
+        "Gírias excessivas",
+        "Tom jovem/descolado que não combina com o público",
+        "Formalidade fria"
+      ]
+    },
+    "channel_drift": [
+      {
+        "channel": "instagram",
+        "actual_tone": "Descontraído/promocional, com emoji de foguete na bio e gancho de venda ('Promoções secretas')",
+        "target_alignment": "parcial",
+        "drift_notes": "Bio usa linguagem de venda agressiva que foge do tom simples e tradicional esperado; conteúdo visual é adequado, mas a copy soa mais genérica de delivery do que de pizzaria de bairro de 34 anos",
+        "example": "'Promoções secretas no...'",
+        "fix": "Reescrever bio focando em tradição/simplicidade em vez de gancho de venda tipo delivery genérico"
+      },
+      {
+        "channel": "google_meu_negocio",
+        "actual_tone": "Inexistente — sem nenhuma resposta, não há tom de voz ativo neste canal",
+        "target_alignment": "nenhum",
+        "drift_notes": "Não há voz nenhuma da marca — só o cliente fala, a empresa nunca responde",
+        "fix": "Definir um template de resposta simples e direto (alinhado ao tom aprovado) pra usar nas respostas"
+      },
+      {
+        "channel": "ifood",
+        "actual_tone": "Inexistente pelo mesmo motivo — zero resposta",
+        "target_alignment": "nenhum",
+        "drift_notes": "Mesma ausência de voz do GMB",
+        "fix": "Mesmo template de resposta pode ser adaptado pro iFood"
+      },
+      {
+        "channel": "atendimento_telefonico_balcao",
+        "actual_tone": "Ríspido, segundo múltiplos relatos — o oposto do tom simples e acolhedor esperado",
+        "target_alignment": "critico",
+        "drift_notes": "Cliente relata desligarem na cara sem se despedir; balcão sem sorriso — o maior desalinhamento de tom de toda a auditoria, e o mais prejudicial porque é o canal mais usado pelos clientes fiéis",
+        "example": "'A mulher que atende é tão grossa que desliga na sua cara e nem se despede'",
+        "fix": "Treinamento básico de atendimento — fora do escopo de marketing, mas crítico pra qualquer estratégia de comunicação funcionar"
+      }
+    ],
+    "coherence_score": 16
+  },
+  "url_audit": {
+    "description": "URLs críticas a verificar antes de qualquer produção de mídia.",
+    "urls": [
+      {
+        "url": "instagram.com/minapizzas",
+        "purpose": "Perfil social principal",
+        "status_expected": "Bio correta, horário certo, CTA de pedido",
+        "verify_checklist": [
+          "Corrigir horário",
+          "Adicionar menção a almoço/prato do dia",
+          "Testar link do Neemo"
+        ]
+      },
+      {
+        "url": "deliveryapp.neemo.com.br/delivery/12596/menu",
+        "purpose": "Cardápio/delivery próprio (achado na bio do Instagram)",
+        "status_expected": "Cardápio funcional, pedido completável, dados de pedido capturados pela Mina Pizza (não por terceiro)",
+        "verify_checklist": [
+          "Testar fluxo de pedido completo",
+          "Confirmar se captura telefone/e-mail do cliente",
+          "Verificar se tem checkout funcional ou é só vitrine"
+        ]
+      },
+      {
+        "url": "iFood — Mina Pizzas & Grill",
+        "purpose": "Canal de delivery principal hoje",
+        "status_expected": "Avaliações respondidas, nome padronizado",
+        "verify_checklist": [
+          "Responder avaliações pendentes",
+          "Padronizar nome para 'Mina Pizza'"
+        ]
+      },
+      {
+        "url": "Google Meu Negócio — Mina Praia Grill & Pizza",
+        "purpose": "Perfil de busca local",
+        "status_expected": "Endereço correto, avaliações respondidas, fotos atualizadas",
+        "verify_checklist": [
+          "Corrigir pino do endereço",
+          "Reivindicar conta se ainda não reivindicada",
+          "Responder as 20 avaliações"
+        ]
+      }
+    ]
+  },
+  "quick_wins": [
+    {
+      "action": "Corrigir o endereço do Google Meu Negócio pro endereço real (Av. Prefeito José Monteiro, 1045, Loja 1 e 2)",
+      "channel": "google_meu_negocio",
+      "time_estimate": "30min",
+      "expected_impact": "Cliente novo para de ser direcionado pro lugar errado",
+      "who_does_it": "operator",
+      "steps": [
+        "Acessar Google Business Profile (reivindicar se necessário)",
+        "Editar endereço e reposicionar o pino no mapa",
+        "Confirmar horário de funcionamento (incluindo almoço desde 9h)"
+      ]
+    },
+    {
+      "action": "Responder as 20 avaliações do GMB, priorizando as negativas mais graves (rispidez, higiene)",
+      "channel": "google_meu_negocio",
+      "time_estimate": "2h",
+      "expected_impact": "Sinaliza cuidado ativo; pode reduzir a percepção negativa mesmo sem mudar o passado",
+      "who_does_it": "operator",
+      "steps": [
+        "Usar tom simples e direto (alinhado à marca)",
+        "Responder reconhecendo o problema sem ser defensivo",
+        "Priorizar a avaliação da funcionária com mão suja e a do atendimento ríspido"
+      ]
+    },
+    {
+      "action": "Corrigir o horário na bio do Instagram",
+      "channel": "instagram",
+      "time_estimate": "10min",
+      "expected_impact": "Elimina informação errada que pode afastar cliente de almoço",
+      "who_does_it": "client",
+      "steps": [
+        "Editar bio incluindo horário de almoço (desde 9h) e jantar (18h-22h)"
+      ]
+    },
+    {
+      "action": "Responder as avaliações pendentes do iFood",
+      "channel": "ifood",
+      "time_estimate": "1h",
+      "expected_impact": "Reduz percepção de reclamação recorrente sem resposta",
+      "who_does_it": "operator",
+      "steps": [
+        "Responder reclamações de tempero/item faltando reconhecendo o problema",
+        "Agradecer avaliações positivas"
+      ]
+    },
+    {
+      "action": "Ativar WhatsApp Business básico (perfil + saudação + mensagem de ausência)",
+      "channel": "whatsapp_business",
+      "time_estimate": "1h",
+      "expected_impact": "Cria alternativa ao telefone problemático, começa a capturar contatos próprios",
+      "who_does_it": "operator",
+      "steps": [
+        "Baixar WhatsApp Business",
+        "Configurar perfil com endereço, horário, descrição",
+        "Configurar saudação e mensagem de ausência"
+      ]
+    }
+  ],
+  "key_insight": {
+    "headline": "A Mina Pizza não tem um problema de canais — tem um problema de silêncio: em nenhum lugar (GMB, iFood, telefone) a empresa responde ao que o cliente diz.",
+    "context": "Isso é raro e específico: a maioria dos negócios locais tem o problema oposto (falta de canal). A Mina Pizza tem GMB, iFood e Instagram com presença real — o padrão que se repete em todos é zero resposta, zero correção de erro simples (endereço, horário), zero follow-up.",
+    "numbered_reasons": [
+      "(1) 167 avaliações acumuladas sem uma única resposta do lojista, em nenhum dos dois canais.",
+      "(2) Erros simples e gratuitos de corrigir (endereço do GMB, horário do Instagram) estão ativos há tempo indeterminado sem ninguém notar.",
+      "(3) O canal mais usado pelo cliente fiel (telefone) é também o mais mal avaliado — e é o único canal sem alternativa (não existe WhatsApp Business)."
+    ],
+    "discussion_anchor": "Antes de qualquer produção de criativo ou mídia paga (semana 2-3), Roberto precisa decidir quem, na prática, vai assumir a rotina semanal de responder avaliação e corrigir esses erros — sem isso, cada melhoria de comunicação esbarra no mesmo silêncio."
+  },
+  "honesty_alert": "Esta auditoria não inclui benchmark real de canais dos concorrentes (frango frito vizinho, pizzarias locais) porque não foram fornecidos screenshots ou dados desses perfis — o competitor_benchmark ficou qualitativo, sem scores comparativos reais. Recomendo levantar isso na ee-s2-pesquisa-mercado antes de finalizar posicionamento. Além disso, o problema de atendimento ríspido identificado aqui é operacional (treinamento de equipe), não de marketing — nenhuma correção de canal digital resolve isso sozinha.",
+  "summary_headline": "A Mina Pizza não fala com ninguém: 167 avaliações reais, zero resposta — e um erro de endereço no GMB que manda cliente pro lugar errado.",
+  "summary_highlights": [
+    {
+      "category": "maturidade",
+      "label": "Score de comunicação",
+      "value": "19/100",
+      "subtext": "Crítico — 6 canais auditados, nenhum acima de 55",
+      "tone": "red"
+    },
+    {
+      "category": "risco",
+      "label": "Avaliações sem resposta",
+      "value": "167 de 167",
+      "subtext": "Google (113) + iFood (54), zero respondidas",
+      "tone": "red"
+    },
+    {
+      "category": "oportunidade",
+      "label": "Quick win de maior impacto",
+      "value": "Corrigir endereço do GMB",
+      "subtext": "30min, resolve o erro mais caro",
+      "tone": "green"
+    },
+    {
+      "category": "janela",
+      "label": "Maior desalinhamento de tom",
+      "value": "Atendimento telefônico",
+      "subtext": "Crítico — o oposto do tom simples/acolhedor esperado",
+      "tone": "red"
+    },
+    {
+      "category": "posicao",
+      "label": "Coerência entre canais",
+      "value": "16/100",
+      "subtext": "Nome, tom e informações divergem entre GMB/iFood/Instagram",
+      "tone": "red"
+    }
+  ],
+  "summary_key_findings": [
+    {
+      "category": "vantagem",
+      "text": "Diferente da maioria dos negócios locais, a Mina Pizza já tem presença real em 3 canais (GMB, iFood, Instagram) com audiência e conteúdo — o trabalho é gestão, não construção do zero."
+    },
+    {
+      "category": "contexto",
+      "text": "O padrão se repete em todos os canais: existe mais coisa construída do que a empresa sabe, e nada está sendo cuidado ativamente."
+    },
+    {
+      "category": "ameaca",
+      "text": "Atendimento ríspido no telefone e balcão é o desalinhamento de tom mais grave — é o canal mais usado pelo cliente fiel e o pior avaliado, sem alternativa (sem WhatsApp Business)."
+    },
+    {
+      "category": "acao",
+      "text": "5 quick wins (corrigir GMB, responder avaliações em 2 canais, corrigir bio, ativar WhatsApp) resolvem a maior parte dos problemas críticos em menos de 5 horas de trabalho, sem custo."
+    }
+  ],
+  "refined_in": "ee-revisao-semanal",
+  "_refinement_history": [
+    {
+      "ts": "2026-07-20T10:30:00Z",
+      "review": "ee-revisao-semanal",
+      "semana": 2,
+      "updates": [
+        "U1"
+      ],
+      "evolutions_applied": [],
+      "note": "Rating do iFood atualizado de 4,7★/47 avaliações para 4,8★/54 (total combinado com Google de 160 para 167), com base em print real mais recente enviado pelo operador."
+    }
+  ]
+}

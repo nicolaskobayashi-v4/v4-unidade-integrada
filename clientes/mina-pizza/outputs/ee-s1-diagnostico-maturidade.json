@@ -1,0 +1,294 @@
+{
+  "summary": "Diagnóstico de maturidade digital da Mina Pizza: score geral de 14/100 (crítico), abaixo da média do setor (28), mas com uma descoberta central — a empresa já tem 167 avaliações reais no Google (113, 3,9★) e iFood (54, 4,8★), incluindo um GMB com endereço incorreto que Roberto nem sabia que existia. Presença real e não gerenciada, não ausência de presença.",
+  "client_name": "Mina Pizza",
+  "data_source": "manual",
+  "overall_score": 14,
+  "overall_classification": "critical",
+  "summary_headline": "Mina Pizza tem 14/100 de maturidade digital — mas já esconde 167 avaliações reais (Google 3,9★ + iFood 4,8★) que ninguém gerencia, incluindo um GMB com endereço errado.",
+  "summary_highlights": [
+    {
+      "category": "maturidade",
+      "label": "Score geral",
+      "value": "14/100",
+      "subtext": "Crítico — metade da média do setor (28)",
+      "tone": "red"
+    },
+    {
+      "category": "oportunidade",
+      "label": "Reputação já existente",
+      "value": "167 avaliações",
+      "subtext": "Google 3,9★ (113) + iFood 4,8★ (54), sem gestão",
+      "tone": "green"
+    },
+    {
+      "category": "risco",
+      "label": "GMB com endereço errado",
+      "value": "113 avaliações desperdiçadas",
+      "subtext": "Pino fora do shopping/Carrefour real",
+      "tone": "red"
+    },
+    {
+      "category": "posicao",
+      "label": "vs. benchmark do setor",
+      "value": "-14 pontos",
+      "subtext": "Alimentação/restaurante: média 28/100",
+      "tone": "red"
+    },
+    {
+      "category": "oportunidade",
+      "label": "Quick win de maior ROI",
+      "value": "Corrigir endereço do GMB",
+      "subtext": "Grátis, minutos de trabalho",
+      "tone": "green"
+    }
+  ],
+  "summary_key_findings": [
+    {
+      "category": "vantagem",
+      "text": "167 avaliações reais somadas (Google + iFood) com notas de 3,9 a 4,8 — prova social genuína que nenhum concorrente pequeno da região tem documentada."
+    },
+    {
+      "category": "contexto",
+      "text": "Roberto administra a distância e desconhecia a existência do próprio GMB — reforça que o gargalo é gestão/atenção, não falta de ativo digital."
+    },
+    {
+      "category": "ameaca",
+      "text": "GMB com localização errada ativamente direciona clientes pro lugar errado, e reclamações reais (sabor, itens faltando, ambiente) seguem sem resposta."
+    },
+    {
+      "category": "acao",
+      "text": "Corrigir o endereço do GMB e responder avaliações pendentes são as duas ações de maior impacto imediato, com esforço e custo praticamente zero."
+    }
+  ],
+  "pillar_scores": [
+    {
+      "pillar": "midia_paga",
+      "score": 8,
+      "classification": "critical",
+      "highlight": "Zero campanha ativa hoje; único teste histórico (R$200) sem pixel, segmentação ou acompanhamento profissional.",
+      "estimated": true,
+      "details": {
+        "strengths": [
+          "Margem de contribuição saudável (CMV 30-35%) dá caixa para testar mídia sem pressão de curto prazo"
+        ],
+        "weaknesses": [
+          "Nenhuma campanha ativa",
+          "Teste histórico sem pixel, segmentação ou tracking",
+          "Não sabe CPA nem ROAS"
+        ],
+        "metrics": {
+          "investimento_mensal_atual": "R$0",
+          "historico_investimento": "R$200 (único teste, sem resultado)"
+        }
+      }
+    },
+    {
+      "pillar": "criativos",
+      "score": 6,
+      "classification": "critical",
+      "highlight": "Instagram praticamente abandonado; nenhuma identidade visual ou manual de marca definidos.",
+      "estimated": true,
+      "details": {
+        "strengths": [
+          "36 anos de marca física reconhecida localmente, ainda sem tradução visual pro digital"
+        ],
+        "weaknesses": [
+          "Instagram sem posts recentes ('muito fraquinho')",
+          "Nenhum criativo ativo em anúncio",
+          "Sem manual de marca, cores ou fontes padronizadas"
+        ],
+        "metrics": {}
+      }
+    },
+    {
+      "pillar": "cro",
+      "score": 22,
+      "classification": "low",
+      "highlight": "iFood funciona como funil de conversão real (54 avaliações, 4,8★), mas não há site, pixel, tracking ou tratamento de objeções em canal próprio.",
+      "estimated": true,
+      "details": {
+        "strengths": [
+          "Cardápio funcional e ativo no iFood, com carrinho/checkout nativo e prova social genuinamente boa (4,8★/54)"
+        ],
+        "weaknesses": [
+          "Site próprio desligado (não gerava pedido)",
+          "Nenhum CTA ou LP fora de marketplaces",
+          "Sem tracking/analytics",
+          "Reputação no Google mais mista/negativa que no iFood (3,9★/113, com queixas de ambiente e comida)",
+          "Nenhuma avaliação (positiva ou negativa) respondida em nenhum canal"
+        ],
+        "metrics": {
+          "ifood_rating": "4.8 (54 avaliações)",
+          "gmb_rating": "3.9 (113 avaliações)"
+        }
+      }
+    },
+    {
+      "pillar": "crm",
+      "score": 10,
+      "classification": "critical",
+      "highlight": "Dados de cliente existem no sistema de PDV e no iFood, mas não são acessados nem usados por Roberto — zero reativação de base.",
+      "estimated": true,
+      "details": {
+        "strengths": [
+          "Sistema de PDV já identifica telefone/endereço automaticamente (via Bina)"
+        ],
+        "weaknesses": [
+          "Roberto não acessa o próprio banco de dados do sistema",
+          "iFood retém os contatos, não cede ao lojista",
+          "Nenhuma automação ou régua de comunicação",
+          "WhatsApp Business não configurado"
+        ],
+        "metrics": {
+          "pedidos_mes_estimado": "~250 pedidos de pizza/mês"
+        }
+      }
+    },
+    {
+      "pillar": "seo",
+      "score": 25,
+      "classification": "low",
+      "highlight": "GMB existe com volume relevante de avaliações (113, 3,9★) mas está com localização incorreta no mapa — cliente é direcionado pro lugar errado.",
+      "estimated": true,
+      "details": {
+        "strengths": [
+          "GMB já existente com volume real de avaliações (113) — sinal de que o negócio já é comentado organicamente, mesmo sem gestão"
+        ],
+        "weaknesses": [
+          "Localização do GMB está errada (pino fora do shopping/Carrefour onde a loja realmente fica)",
+          "Reputação no Google é mista/negativa (3,9★, com queixas de ambiente e comida), sem nenhuma resposta do lojista",
+          "Roberto não sabia da existência do GMB — provável falta de acesso admin/conta não reivindicada",
+          "Sem site próprio para indexar"
+        ],
+        "metrics": {
+          "gmb_rating": 3.9,
+          "gmb_reviews": 113,
+          "endereco_correto": "Av. Prefeito José Monteiro, 1045, Loja 1 e 2, São Vicente/SP"
+        }
+      }
+    }
+  ],
+  "executive_summary": "A Mina Pizza tem score geral de 14/100 (crítico), mas o significado mudou com a evidência trazida do kick-off: não é ausência de presença digital, é presença real e não gerenciada. A empresa soma 167 avaliações reais entre Google (113) e iFood (54), com notas de 3,9 a 4,8 estrelas — prova de que existe demanda satisfeita — só que ninguém dentro da empresa sabia disso, muito menos geria isso. Mesmo assim, o score fica bem abaixo da média do setor (28), porque nenhum desses ativos está sendo trabalhado.\n\nOs 2 maiores gaps agora são operacionais, não de criação do zero: (1) o Google Meu Negócio, que já tem 113 avaliações, está fisicamente no lugar errado no mapa — manda cliente pra porta errada e ninguém percebeu; (2) não existe nenhuma resposta a avaliações em nenhum canal, incluindo reclamações recorrentes e específicas (comida sem tempero, item faltando no delivery, incômodo de pessoas em situação de rua no salão) que o próprio Roberto desconhece.\n\n2 forças reais, reforçadas pela nova evidência: (1) o iFood prova, com nota 4,8★ em 54 avaliações e sem nenhuma gestão ativa, que o produto sustenta demanda real — o Google já é mais frágil (3,9★, com queixas de ambiente e comida) e pesa mais como fraqueza do que força; (2) 36 anos de operação com margem saudável (CMV 30-35%) dão fôlego financeiro pra corrigir e escalar sem pressão de caixa.",
+  "priorities": [
+    {
+      "rank": 1,
+      "action": "Reivindicar/corrigir o Google Meu Negócio — ajustar endereço para Av. Prefeito José Monteiro, 1045, Loja 1 e 2, São Vicente/SP",
+      "rationale": "O GMB já tem 113 avaliações sendo desperdiçadas por um erro de endereço; é o fix de maior impacto com menor esforço de toda a estruturação",
+      "effort": "low",
+      "pillar": "seo",
+      "dependencies": []
+    },
+    {
+      "rank": 2,
+      "action": "Responder todas as avaliações pendentes no Google e no iFood, positivas e negativas",
+      "rationale": "Sinaliza cuidado ativo, é gratuito, e reclamações específicas (comida sem tempero, item faltando) estão sem resposta há meses",
+      "effort": "low",
+      "pillar": "cro",
+      "dependencies": []
+    },
+    {
+      "rank": 3,
+      "action": "Ativar WhatsApp Business com catálogo e link de pedido",
+      "rationale": "Resolve o gargalo do atendimento por telefone (1 atendente, 2 linhas) e começa a gerar uma base de contatos própria, hoje inexistente",
+      "effort": "low",
+      "pillar": "crm",
+      "dependencies": []
+    },
+    {
+      "rank": 4,
+      "action": "Montar pixel + landing page mínima de pedido com CTA de WhatsApp",
+      "rationale": "Cria um canal de conversão fora dos marketplaces, capturando dados do cliente que hoje ficam só com o iFood",
+      "effort": "medium",
+      "pillar": "cro",
+      "dependencies": [
+        "Ativar WhatsApp Business"
+      ]
+    },
+    {
+      "rank": 5,
+      "action": "Reativar Instagram com conteúdo consistente, mirando o público turista de fim de semana",
+      "rationale": "Instagram está abandonado, mas é o canal mais barato pra capturar a demanda de turista de praia que hoje vai pro concorrente",
+      "effort": "medium",
+      "pillar": "criativos",
+      "dependencies": []
+    },
+    {
+      "rank": 6,
+      "action": "Estruturar mídia paga geolocalizada (Meta Ads) mirando turistas de praia nos fins de semana, com pixel instalado",
+      "rationale": "É a alavanca de maior escala, mas só funciona depois que pixel, marca padronizada e LP estiverem prontos",
+      "effort": "medium",
+      "pillar": "midia_paga",
+      "dependencies": [
+        "Montar pixel + LP",
+        "Padronizar marca"
+      ]
+    }
+  ],
+  "sector_benchmark": {
+    "sector": "Alimentação / Restaurante (PDV local)",
+    "sector_average": 28,
+    "comparison": "significantly_below",
+    "pillar_comparison": [
+      {
+        "pillar": "midia_paga",
+        "client_score": 8,
+        "sector_average": 32,
+        "gap": -24,
+        "position": "critical_gap"
+      },
+      {
+        "pillar": "criativos",
+        "client_score": 6,
+        "sector_average": 28,
+        "gap": -22,
+        "position": "critical_gap"
+      },
+      {
+        "pillar": "cro",
+        "client_score": 22,
+        "sector_average": 38,
+        "gap": -16,
+        "position": "below"
+      },
+      {
+        "pillar": "crm",
+        "client_score": 10,
+        "sector_average": 25,
+        "gap": -15,
+        "position": "below"
+      },
+      {
+        "pillar": "seo",
+        "client_score": 25,
+        "sector_average": 38,
+        "gap": -13,
+        "position": "below"
+      }
+    ],
+    "key_insight": "O maior gap absoluto ainda é em mídia paga (8 vs 32) — mas o gap mais fácil de fechar é SEO local (25 vs 38): a Mina Pizza já tem GMB com volume de avaliações parecido com negócios bem avaliados do setor, só precisa corrigir o endereço e assumir a gestão."
+  },
+  "key_insight": {
+    "headline": "Roberto não sabia que a própria pizzaria tem 167 avaliações reais (113 no Google, 54 no iFood) — e que o Google Meu Negócio está mandando cliente pro endereço errado.",
+    "context": "A Mina Pizza não é um negócio sem presença digital — é um negócio com presença real e ativa que ninguém dentro da empresa está gerenciando. Isso muda a estratégia: em vez de construir do zero, a primeira onda é assumir o controle de ativos que já geram prova social.",
+    "numbered_reasons": [
+      "(1) 113 avaliações no Google (3,9★) e 54 no iFood (4,8★) são prova social real que nenhuma mídia paga compra mais barato.",
+      "(2) O GMB está fisicamente no lugar errado do mapa — um erro de poucos minutos pra corrigir que está custando cliente todos os dias.",
+      "(3) Ninguém responde avaliação nenhuma, positiva ou negativa — o gargalo aqui é gestão, não investimento."
+    ],
+    "discussion_anchor": "Antes de aprovar qualquer orçamento de mídia paga, Roberto precisa decidir quem vai assumir a rotina simples de corrigir o GMB e responder avaliações — é o maior ROI possível de toda a estruturação e custa zero."
+  },
+  "honesty_alert": "Mesmo com a correção, todos os 5 pilares continuam abaixo da média do setor, e 3 deles (mídia paga, criativos, CRM) seguem em faixa crítica de verdade — a melhora em CRO e SEO reflete ativos que já existiam e não foram criados por nós. Além disso, as avaliações reais expõem reclamações recorrentes de sabor/tempero e um problema de ambiente físico (pessoas em situação de rua no salão) que marketing não resolve — vale alinhar expectativa com o Roberto de que mais presença digital também expõe esses problemas a mais gente, então corrigir a operação em paralelo importa tanto quanto o digital.",
+  "refined_in": "ee-revisao-semanal",
+  "_refinement_history": [
+    {
+      "ts": "2026-07-20T10:30:00Z",
+      "review": "ee-revisao-semanal",
+      "semana": 2,
+      "updates": [
+        "U1"
+      ],
+      "evolutions_applied": [],
+      "note": "Rating do iFood atualizado de 4,7★/47 avaliações para 4,8★/54 (total combinado com Google de 160 para 167), com base em print real mais recente enviado pelo operador."
+    }
+  ]
+}

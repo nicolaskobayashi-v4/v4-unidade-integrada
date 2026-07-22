@@ -1,0 +1,330 @@
+{
+  "client_name": "Hyla do Brasil",
+  "skill": "ee-s1-persona-icp",
+  "generated_at": "2026-06-22",
+  "data_source": "Kick-off S1 (16/06) + 1ª e 2ª reuniões comerciais (15/05, 19/05) + client.json",
+  "nota_metodologica": "Hyla é um negócio de dois lados: vende um produto de alto ticket via demonstração presencial E recruta associados/representantes independentes que fazem a venda. ICP e personas aqui cobrem os dois lados — consumidor final e candidata a associada — porque o próprio time da Hyla (Fábio, no kick-off) identificou recrutamento de associados como alavanca de crescimento potencialmente maior que mídia paga.",
+
+  "summary": "O funil da Hyla tem um gargalo que mídia paga sozinha não resolve: cada lead vira venda só na demonstração presencial, e quem faz a demonstração são ~35-50 associados ativos. Dobrar a equipe de associados (50→100) dobra a venda, segundo o próprio Fábio — e isso pesa mais que dobrar o investimento em mídia, que já foi testado sem ganho proporcional. ICP principal é mulher classe A 30-50 anos em condomínio em SP, decisão pesada em saúde/alergia; mas o segundo ICP que precisa de atenção de marketing é a candidata a associada.",
+
+  "summary_headline": "A Hyla não tem um problema de demanda — tem um problema de capacidade de demonstração. Recrutar associados pode valer mais que dobrar a mídia.",
+
+  "summary_highlights": [
+    {
+      "category": "posicao",
+      "label": "ICPs mapeados",
+      "value": "4 perfis",
+      "subtext": "Decisora doméstica, funcionária/governanta, candidata a associada, PJ",
+      "tone": "blue"
+    },
+    {
+      "category": "maturidade",
+      "label": "Conversão por canal",
+      "value": "50-60% vs 33%",
+      "subtext": "Demonstração por indicação converte 50-60%; lead frio de mídia, 1 em 3",
+      "tone": "yellow"
+    },
+    {
+      "category": "oportunidade",
+      "label": "Alavanca de equipe",
+      "value": "50→100 associados",
+      "subtext": "Dobrar associados ativos dobra a venda (estimativa do próprio Fábio)",
+      "tone": "green"
+    },
+    {
+      "category": "risco",
+      "label": "Objeção dominante",
+      "value": "Preço",
+      "subtext": "Praticamente toda objeção verbalizada esconde resistência ao ticket de R$12-14,5k",
+      "tone": "yellow"
+    },
+    {
+      "category": "competicao",
+      "label": "Decisor de compra",
+      "value": "70% p/ funcionária",
+      "subtext": "70% compra para uso de empregada doméstica, 30% uso próprio — funcionária raramente decide",
+      "tone": "blue"
+    },
+    {
+      "category": "janela",
+      "label": "Ciclo de decisão",
+      "value": "Imediato a 3 meses",
+      "subtext": "PF decide na demonstração; recrutamento de associado pode levar mais tempo",
+      "tone": "blue"
+    }
+  ],
+
+  "summary_key_findings": [
+    {
+      "category": "vantagem",
+      "text": "A demonstração presencial é uma máquina de conversão absurda quando o lead vem de indicação (50-60%) — o problema não é o produto nem o pitch, é o volume de demonstrações que a operação consegue gerar."
+    },
+    {
+      "category": "ameaca",
+      "text": "Sem CRM de pós-venda nem controle real sobre o funil dos associados (dados com ~70-75% de precisão), qualquer aumento de investimento em mídia vai gerar leads que competem por uma capacidade de demonstração que já está no limite hoje (~35-50 associados ativos)."
+    },
+    {
+      "category": "contexto",
+      "text": "O público feminino domina os dois lados do negócio: 90% dos associados são mulheres vendendo para mulheres (90% de mulher para mulher), e o ICP de consumidora principal também é mulher classe A 30-50 anos. Isso simplifica a comunicação — uma única linguagem/tom serve para recrutamento e para venda."
+    },
+    {
+      "category": "acao",
+      "text": "A conta Instagram 'Hyla do Brasil Business' (recrutamento) está subaproveitada como canal de marketing — hoje é tratada como employer branding secundário, mas pelo cálculo do próprio cliente é a alavanca de maior impacto no negócio. Vale uma campanha de recrutamento tão estruturada quanto a de venda."
+    },
+    {
+      "category": "acao",
+      "text": "A funcionária doméstica/governanta é uma persona influenciadora negativa em potencial ('breaker') na maioria dos casos — mas quando a Hyla consegue treiná-la diretamente (oferecendo o treinamento de uso), ela vira aliada. Vale formalizar esse treinamento como parte do processo de venda, não como pós-venda opcional."
+    }
+  ],
+
+  "icps": [
+    {
+      "id": "icp-1-decisora-domestica",
+      "nome": "Decisora Doméstica (consumidora final)",
+      "descricao": "Mulher, classe A, 30-50 anos (também relevante 50+), mora em condomínio (vertical ou horizontal) em região nobre — principalmente São Paulo capital (70% das vendas vêm de SP). Decide sozinha ou junto com o casal.",
+      "motivacao_dominante": "Saúde (alergia, asma, rinite, qualidade do ar) > conforto > qualidade de vida — saúde pesa mais na decisão",
+      "uso_do_produto": "70% compra para uso da funcionária doméstica, 30% para uso próprio",
+      "canal_entrada": "Instagram (anúncio/orgânico) ou indicação → demonstração presencial",
+      "ticket": "R$12.000-14.500",
+      "prioridade": "principal",
+      "ameaca": "média — público pequeno em volume absoluto, mas alto ticket e alta recorrência (5 anos de manutenção)"
+    },
+    {
+      "id": "icp-2-funcionaria-domestica",
+      "nome": "Funcionária Doméstica / Governanta",
+      "descricao": "Usuária do equipamento, raramente decisora. Em alguns casos influencia negativamente a venda ('é pesado', 'dá trabalho') e em outros, quando treinada diretamente pela Hyla, se torna aliada da recompra e indicação.",
+      "motivacao_dominante": "Reduzir esforço/carga de trabalho — só se torna favorável ao produto depois de entender que ele facilita, não complica, a rotina",
+      "uso_do_produto": "Operadora do equipamento no dia a dia",
+      "canal_entrada": "Presente na demonstração feita para a contratante; raramente é o alvo direto de mídia",
+      "prioridade": "secundario — influenciadora, não compradora",
+      "ameaca": "baixa diretamente, mas pode neutralizar uma venda já avançada se não for endereçada"
+    },
+    {
+      "id": "icp-3-candidata-associada",
+      "nome": "Candidata a Associada/Representante (recrutamento)",
+      "descricao": "Mulher (90% dos associados são mulheres vendendo para mulheres), perfil empreendedor informal — muitas vezes já é cliente satisfeita ou conhece alguém que é. Busca renda extra ou negócio próprio com baixo investimento inicial.",
+      "motivacao_dominante": "Renda extra/autonomia financeira com baixa barreira de entrada — comissão de até 30% por venda, mais 50% vitalício em recompra do cliente que ela trouxe",
+      "canal_entrada": "Instagram 'Hyla do Brasil Business', indicação de outras associadas, eventos/feiras",
+      "prioridade": "alta — identificada pelo próprio cliente como a maior alavanca de crescimento (dobrar associados ativos dobra a venda)",
+      "ameaca": "alta volatilidade — associadas saem e voltam por motivos pessoais (separação, mudança de cidade, maternidade)",
+      "nota": "Hoje tratada como employer branding secundário; pelo peso estratégico real, merece tratamento de funil de aquisição tão estruturado quanto o funil de venda do produto."
+    },
+    {
+      "id": "icp-4-pj",
+      "nome": "Pessoa Jurídica (hotéis, teatros, empresas de limpeza)",
+      "descricao": "Hotéis, teatros, restaurantes, salas de evento e empresas de limpeza/higienização profissional (parceria homologada CASEC)",
+      "uso_do_produto": "Equipamento profissional para limpeza/higienização em escala — compram conforme demanda da equipe (1 máquina por funcionário de limpeza, em média)",
+      "canal_entrada": "Indicação, parcerias B2B, homologação CASEC",
+      "prioridade": "terciario — apenas 5% do volume de vendas",
+      "ameaca": "baixa — segmento pequeno mas estável"
+    }
+  ],
+
+  "personas": [
+    {
+      "id": "marcia",
+      "nome": "Márcia",
+      "idade": 44,
+      "icp": "icp-1-decisora-domestica",
+      "frase": "Eu não quero só limpar a casa — quero parar de espirrar quando chego do trabalho.",
+      "perfil": "Mora em apartamento em condomínio fechado na Zona Sul de São Paulo. Classe A, trabalha ou administra a casa em tempo integral. Tem funcionária doméstica fixa. Já tentou resolver alergia/poeira com produtos de limpeza comuns sem sucesso.",
+      "jtbd": {
+        "funcional": "Eliminar a fonte de alergia/poeira de casa (colchão, estofado, tapete) sem depender de produtos químicos",
+        "emocional": "Parar de se sentir mal dentro da própria casa — recuperar a sensação de ambiente seguro",
+        "social": "Ser vista como alguém que cuida bem da casa e da família, inclusive na saúde"
+      },
+      "dores": [
+        "Alergia/rinite recorrente sem causa resolvida",
+        "Desconfiança de que produtos de limpeza tradicionais não 'realmente' limpam (colchão, estofado)",
+        "Já ouviu falar de aspiradores caros mas nunca viu funcionando de fato",
+        "Não confia em comprar algo de R$12-14k sem ver"
+      ],
+      "medos": [
+        "Gastar um valor alto e não sentir diferença real",
+        "Comprar de empresa desconhecida e não ter suporte depois",
+        "A funcionária reclamar que o equipamento é pesado/difícil de usar"
+      ],
+      "objecoes": [
+        "'É muito caro para um aspirador'",
+        "'Eu já tenho um aspirador normal'",
+        "'Preciso pensar e falar com meu marido'",
+        "'Nunca vi a marca na TV/grandes mídias'"
+      ],
+      "gatilho_de_compra": "Crise de alergia/asma na família, mudança de casa, indicação de amiga que já tem, ou simplesmente ver a demonstração ao vivo",
+      "como_descobre": "Instagram (anúncio ou conteúdo orgânico) → preenche formulário (#agendedemonstração) → C2S distribui para associada da região → demonstração presencial",
+      "mensagem_que_converte": "Demonstração gratuita e sem compromisso na sua casa — você vê o equipamento limpar seu próprio colchão e sente a diferença na hora. Garantia de até 15 anos. Pagamento facilitado.",
+      "canal_preferencial": "Instagram para descoberta, WhatsApp/telefone para agendamento e fechamento",
+      "willingness_to_pay": "R$12.000-14.500, com forte sensibilidade ao parcelamento (até 36x financiamento Santander, até 21x cartão) — preço fechado é menos importante que a percepção de parcela acessível"
+    },
+    {
+      "id": "regina",
+      "nome": "Regina",
+      "idade": 38,
+      "icp": "icp-2-funcionaria-domestica",
+      "frase": "Se for mais um equipamento pesado pra eu carregar e a patroa não usar, prefiro nem mexer.",
+      "perfil": "Funcionária doméstica fixa há vários anos na casa da família decisora. Não decide a compra, mas está presente na demonstração e opera o equipamento no dia a dia.",
+      "jtbd": {
+        "funcional": "Realizar a limpeza da casa de forma eficiente sem aumentar sua carga de trabalho",
+        "emocional": "Não querer ser responsabilizada se o equipamento for difícil ou quebrar",
+        "social": null
+      },
+      "dores": [
+        "Equipamentos novos que a patroa compra e depois cobra resultado sem explicar o uso",
+        "Medo de estragar algo caro e ser responsabilizada"
+      ],
+      "medos": [
+        "Ser cobrada por não saber operar o equipamento corretamente",
+        "Esforço físico extra sem reconhecimento"
+      ],
+      "objecoes": [
+        "'É pesado'",
+        "'Dá trabalho guardar/limpar depois'",
+        "'Prefiro o jeito que já faço'"
+      ],
+      "gatilho_de_compra": "Não aplicável — não é decisora; o gatilho relevante é o treinamento bem feito no momento da venda",
+      "como_descobre": "Apresentada ao produto durante a demonstração feita para a contratante",
+      "mensagem_que_converte": "Treinamento completo e vitalício incluído — sempre que precisar relembrar o uso ou treinar outra pessoa, a Hyla oferece de novo, sem custo.",
+      "canal_preferencial": "Presencial, durante a demonstração e o treinamento pós-venda",
+      "nota": "Persona de influência, não de decisão. Tratar bem essa pessoa na demonstração reduz risco de objeção tardia e aumenta chance de recompra/indicação."
+    },
+    {
+      "id": "beatriz",
+      "nome": "Beatriz",
+      "idade": 35,
+      "icp": "icp-3-candidata-associada",
+      "frase": "Comprei o aspirador, amei, e descobri que dava pra ganhar dinheiro vendendo pras minhas amigas também.",
+      "perfil": "Ex-cliente satisfeita ou conhecida de associada atual. Quer renda extra sem deixar a rotina de casa, tem rede de contatos (amigas, vizinhas, grupos de WhatsApp/Instagram). Pode ter filhos pequenos ou estar em transição de carreira.",
+      "jtbd": {
+        "funcional": "Conseguir uma fonte de renda extra flexível, compatível com a rotina doméstica",
+        "emocional": "Sentir autonomia financeira e orgulho de ter um 'negócio próprio' sem grande investimento",
+        "social": "Ser vista como alguém empreendedora, não 'só dona de casa'"
+      },
+      "dores": [
+        "Falta de opções de renda extra flexíveis e sem CNPJ/burocracia",
+        "Medo de não saber vender ou não ter talento comercial",
+        "Não saber se vai conseguir conciliar com a rotina de casa/filhos"
+      ],
+      "medos": [
+        "Investir tempo e não vender nada",
+        "Não ter suporte da empresa depois de começar",
+        "Ficar 'isolada' sem o grupo de outras associadas"
+      ],
+      "objecoes": [
+        "'Eu não sei vender'",
+        "'Não tenho tempo'",
+        "'E se eu não vender nada no primeiro mês?'"
+      ],
+      "gatilho_de_compra": "Ser cliente satisfeita e ver o quanto a vendedora ganhou, indicação direta de uma associada amiga, ou conteúdo de recrutamento no Instagram Business mostrando ganhos reais",
+      "como_descobre": "Instagram 'Hyla do Brasil Business' (employer branding), indicação de associada, eventos/feiras onde a Hyla está presente",
+      "mensagem_que_converte": "Comece vendendo pra quem você já conhece. Comissão de até 30% por venda + 50% vitalício em toda recompra dos seus clientes. Suporte e treinamento completo da Hyla.",
+      "canal_preferencial": "Instagram (descoberta) → WhatsApp em grupo de associadas (onboarding e suporte contínuo)",
+      "willingness_to_pay": "N/A — não é compradora, é parceira comercial. O 'custo' dela é tempo/esforço; o retorno esperado é comissão recorrente.",
+      "nota": "Persona estrategicamente mais importante do que o volume de mídia hoje dedicado a ela sugere. Vale campanha de recrutamento dedicada, não apenas posts orgânicos esporádicos."
+    }
+  ],
+
+  "jornada_de_compra": [
+    {
+      "estagio": "1. Conscientização",
+      "descricao": "Vê anúncio no Instagram/Google, conteúdo orgânico, ou recebe indicação de amiga/vendedora associada",
+      "duracao_tipica": "Imediato a algumas semanas"
+    },
+    {
+      "estagio": "2. Interesse",
+      "descricao": "Clica no anúncio, acessa a landing page (hyladobrasil.com.br/aspirador-hyla-do-brasil), preenche formulário com nome/telefone/estado/cidade",
+      "duracao_tipica": "Minutos"
+    },
+    {
+      "estagio": "3. Distribuição e primeiro contato",
+      "descricao": "Lead cai no sistema C2S, distribuído por fila regionalizada para associada; cadência de tentativa de contato (até 10 dias úteis, ligação + WhatsApp + mensagem)",
+      "duracao_tipica": "1 a 10 dias úteis"
+    },
+    {
+      "estagio": "4. Agendamento da demonstração",
+      "descricao": "Associada agenda visita presencial (ou demonstração online se não há associada na região)",
+      "duracao_tipica": "Dias a poucas semanas"
+    },
+    {
+      "estagio": "5. Demonstração (momento decisivo)",
+      "descricao": "Associada demonstra o equipamento ao vivo na casa do cliente — limpeza de colchão/estofado com resultado visível. É o verdadeiro canal de venda: 50-60% converte se veio de indicação, ~33% (1 em 3) se veio de lead frio de mídia",
+      "duracao_tipica": "1 visita, ~1 hora"
+    },
+    {
+      "estagio": "6. Decisão e pós-venda",
+      "descricao": "Negociação de forma de pagamento (até 36x financiamento, até 21x cartão), treinamento de uso incluído, e início do relacionamento de recompra (revisão anual, acessórios, indicação)",
+      "duracao_tipica": "Fechamento no mesmo dia da demonstração na maioria dos casos; recompra ao longo de ~5 anos"
+    }
+  ],
+
+  "willingness_to_pay": {
+    "ticket_medio": "R$12.000-14.500",
+    "formas_de_pagamento": ["Até 36x financiamento Santander (mediante aprovação)", "Até 20x direto com a empresa", "Até 21x cartão", "Até 84x consignado (baixa adesão)"],
+    "sensibilidade_de_preco": "Alta — preço é a objeção universal, mas a sensibilidade é mais à parcela mensal do que ao valor total. Parcelamento longo e facilitado destrava decisões que o valor cheio bloquearia.",
+    "ltv_recompra": "Revisão anual (R$600-700, dos quais R$320 é mão de obra) por ~5 anos, mais recompra de acessórios recorrentes (Air Odorizer R$149). ~10% dos clientes mantém recompra alta e renova a máquina."
+  },
+
+  "biblioteca_de_objecoes": [
+    {
+      "objecao": "É muito caro",
+      "contexto": "A objeção real na quase totalidade dos casos, mesmo quando disfarçada de outra coisa",
+      "resposta_validada": "Demonstração gratuita primeiro — o cliente vê o resultado antes de qualquer conversa de preço. Parcelamento facilitado (até 36x) reduz a barreira psicológica do valor total."
+    },
+    {
+      "objecao": "Já tenho um aspirador normal / não preciso",
+      "contexto": "Cliente não entende a diferença entre aspirador comum e o sistema de purificação/desacarização da Hyla",
+      "resposta_validada": "Ancorar em saúde, não em limpeza: 'não é sobre limpar mais, é sobre tirar da sua casa o que causa sua alergia' — reforçado com a demonstração ao vivo"
+    },
+    {
+      "objecao": "Nunca ouvi falar da marca / não vejo na TV",
+      "contexto": "Produto não é divulgado em grandes mídias — gera desconfiança em compra de ticket alto",
+      "resposta_validada": "17 anos de mercado, garantia vitalícia/15 anos, e prova social local (clientes da região, depoimentos, associada que já atende ali)"
+    },
+    {
+      "objecao": "Preciso falar com meu marido/cônjuge primeiro",
+      "contexto": "Decisão de compra de ticket alto frequentemente não é solo — especialmente fora do público de alta renda solteira",
+      "resposta_validada": "Convidar o cônjuge para a demonstração desde o agendamento, quando possível — decisão em conjunto reduz desistência pós-visita"
+    },
+    {
+      "objecao": "(Funcionária) é pesado / dá trabalho",
+      "contexto": "Objeção indireta vinda da pessoa que vai operar o equipamento, não da decisora — pode travar a venda mesmo com a decisora convencida",
+      "resposta_validada": "Treinamento de uso incluído na demonstração, direcionado também para a funcionária, não só para a contratante"
+    }
+  ],
+
+  "canais": {
+    "aquisicao_consumidor": ["Instagram (pago + orgânico)", "Google Ads + YouTube Pmax", "Indicação (canal mais rentável, mas não escalável por mídia)"],
+    "aquisicao_associada": ["Instagram 'Hyla do Brasil Business'", "Indicação direta de associadas atuais", "Feiras e eventos"],
+    "fechamento": ["Demonstração presencial (principal)", "Demonstração online (quando não há associada na região)", "WhatsApp/telefone para agendamento e negociação"],
+    "pos_venda": ["SAC por telefone/WhatsApp (revisão anual)", "Sem e-mail marketing ou CRM automatizado hoje — oportunidade clara"]
+  },
+
+  "icp_nao_ideal": [
+    "Pessoa física com restrição financeira severa — ticket de R$12-14,5k é inviável mesmo parcelado",
+    "Regiões sem associada ativa e sem opção viável de demonstração online (reduz drasticamente a conversão)",
+    "Empresas de limpeza de baixo orçamento que buscam equipamento genérico, não o diferencial de saúde/purificação",
+    "Pessoas que decidem 100% por preço mais baixo sem valorizar demonstração — concorrentes como Vivenzo competem melhor nesse segmento"
+  ],
+
+  "key_leverage_point": {
+    "headline": "O funil da Hyla não está limitado por demanda — está limitado por capacidade de demonstração. Investir em recrutar associadas pode valer mais do que investir em mais mídia.",
+    "context": "O próprio Fábio fez a conta no kick-off: a equipe tem ~35-50 associados ativos de mais de 100 cadastrados, e dobrar isso para 100 ativos dobraria a venda — um efeito maior do que o já testado (e fracassado) de simplesmente dobrar o orçamento de mídia. Mesmo assim, hoje o recrutamento de associadas é tratado como employer branding secundário (posts esporádicos na conta 'Hyla do Brasil Business'), enquanto a aquisição de clientes recebe toda a estrutura de campanha, formulário e funil C2S.",
+    "numbered_reasons": [
+      "Cada lead de mídia paga ainda depende de uma demonstração presencial para converter — sem associada disponível na região, o lead simplesmente não vira venda, independente de quanto se investe em anúncio",
+      "90% dos associados são mulheres vendendo para mulheres — o mesmo ICP de consumidora (Márcia) é, em essência, o público de onde vêm as melhores candidatas a associada (Beatriz): cliente satisfeita é a candidata ideal",
+      "O comissionamento recorrente (50% vitalício em recompra) já é um argumento de recrutamento forte que hoje não está sendo comunicado com a mesma força que os argumentos de venda do produto"
+    ],
+    "discussion_anchor": "Vale propor ao cliente dividir parte do orçamento/atenção de marketing entre aquisição de clientes E aquisição de associadas — tratando 'Hyla do Brasil Business' com o mesmo rigor de funil que a conta principal, antes de simplesmente escalar mídia para o consumidor final."
+  },
+
+  "honesty_alert": "Os dados de funil (taxa de conversão lead→demonstração, demonstração→venda) vêm de estimativas verbais dos próprios sócios no kick-off, sem CRM ou BI confiável por trás (a própria equipe reconhece ter só ~70-75% de precisão nos dados). Qualquer meta de crescimento baseada nesses números precisa de validação com dados reais antes de virar compromisso — e a falta de CRM de pós-venda/nutrição é uma fragilidade estrutural que vai limitar o ROI de qualquer campanha nova até ser corrigida (ver ee-s3-crm-setup).",
+
+  "alimenta_skills": [
+    "ee-s1-auditoria-comunicacao",
+    "ee-s1-swot",
+    "ee-s2-posicionamento",
+    "ee-s2-diagnostico-midia",
+    "ee-s3-brandbook",
+    "ee-s3-copy-anuncios",
+    "ee-s3-crm-setup"
+  ]
+}

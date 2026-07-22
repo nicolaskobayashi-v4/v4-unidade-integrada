@@ -1,0 +1,286 @@
+{
+  "client_name": "FROC — Frutas Desidratadas",
+  "skill": "ee-s2-pesquisa-mercado",
+  "generated_at": "2026-05-05",
+  "data_source": "ABINPET 2024, Mordor Intelligence, EPAGRI/SC, Observatório Agro Catarinense, AMAPSC, BHBFood, FoodConnection + briefing + SPICED + personas",
+
+  "summary": "A FROC compete em dois mercados que crescem acima do PIB: pet food natural (R$40,8B em 2024, +9,6%/ano) e alimentos funcionais/fit (+27% até 2025). O SAM de maçã desidratada como ingrediente industrial no Brasil é estimado em R$80-100M/ano — e a meta de R$2,3M representa apenas 2,9% desse mercado. O problema não é falta de mercado: é ausência de máquina de vendas para alcançá-lo.",
+
+  "summary_headline": "A meta de R$2,3M da FROC é 2,9% de um mercado de R$80M/ano em crescimento acelerado — e nenhum concorrente domina o canal digital B2B desse nicho.",
+
+  "summary_highlights": [
+    {
+      "category": "oportunidade",
+      "label": "Mercado pet food BR",
+      "value": "R$75,4B (2024)",
+      "subtext": "+9,6%/ano — ração natural puxando crescimento",
+      "tone": "green"
+    },
+    {
+      "category": "oportunidade",
+      "label": "SAM — ingrediente industrial",
+      "value": "R$80–100M/ano",
+      "subtext": "Maçã desidratada B2B no Brasil",
+      "tone": "green"
+    },
+    {
+      "category": "posicao",
+      "label": "SOM meta FROC",
+      "value": "R$2,3M/ano",
+      "subtext": "2,9% do SAM — factível com canal digital ativo",
+      "tone": "blue"
+    },
+    {
+      "category": "janela",
+      "label": "Digital B2B no nicho",
+      "value": "Deserto",
+      "subtext": "Nenhum concorrente com LP + Google Ads efetivo",
+      "tone": "green"
+    },
+    {
+      "category": "oportunidade",
+      "label": "SC — produção maçã",
+      "value": "270k ton (2024)",
+      "subtext": "+30% projetado para 2025/26 — matéria-prima abundante",
+      "tone": "green"
+    },
+    {
+      "category": "risco",
+      "label": "Gargalo produtivo",
+      "value": "5.000 kg/mês",
+      "subtext": "Meta R$2,3M exige ~6.800 kg/mês — turno extra necessário",
+      "tone": "yellow"
+    }
+  ],
+
+  "summary_key_findings": [
+    {
+      "category": "oportunidade",
+      "text": "O mercado de pet food natural/premium é o mais promissor para a FROC: cresceu R$75,4B em 2024 (+9,6%), o segmento natural cresce acima da média e a tendência de 'humanização dos pets' eleva a exigência por ingredientes rastreáveis e sem conservantes — exatamente o que a FROC entrega."
+    },
+    {
+      "category": "vantagem",
+      "text": "A meta de R$2,3M/ano representa apenas 2,9% do SAM estimado em R$80M/ano. Não é uma meta de conquista de mercado — é uma meta de existência mínima em um mercado que já existe e cresce. O risco não é o tamanho do mercado, é a velocidade de captação."
+    },
+    {
+      "category": "contexto",
+      "text": "Santa Catarina produziu 270 mil toneladas de maçã em 2024 (34% da produção nacional), com projeção de crescimento de 30% para 2025/26. A FROC está no epicentro da melhor matéria-prima do país — com acesso preferencial pelo grupo empresarial."
+    },
+    {
+      "category": "ameaca",
+      "text": "Para atingir R$2,3M, a FROC precisa de 17 clientes recorrentes comprando ~400kg a cada 3 meses. Isso requer ~6.800 kg/mês — acima da capacidade atual de 5.000 kg. O turno adicional precisará ser ativado antes de atingir a meta, não depois."
+    },
+    {
+      "category": "acao",
+      "text": "Nenhum concorrente direto identificado com estratégia digital B2B efetiva (LP + Google Ads) para maçã desidratada. A Polpa Brasil tem presença no Google mas o modelo de cobrar amostras é uma fraqueza comunicável. A janela de ocupar o espaço digital é agora."
+    }
+  ],
+
+  "contexto_macroeconomico": {
+    "mercado_global_desidratados": {
+      "valor_2024_usd": "US$47,1B",
+      "projecao_2029_usd": "US$65,3B",
+      "cagr": "6,77%/ano",
+      "estimated": true,
+      "fonte": "Mordor Intelligence 2024"
+    },
+    "mercado_pet_food_brasil": {
+      "faturamento_2024": "R$75,4B",
+      "crescimento_2024": "+9,6% vs 2023",
+      "segmento_alimentos": "R$40,8B (54,1% do total)",
+      "projecao_2025": "R$78B",
+      "projecao_2033": "R$146,7B",
+      "tendencia_natural_premium": "Crescimento acima da média — donos buscam ingredientes funcionais, rastreáveis, sem conservantes",
+      "fonte": "ABINPET 2024 + Cães e Gatos"
+    },
+    "mercado_alimentos_saudaveis_brasil": {
+      "crescimento_projetado_2025": "+27%",
+      "tendencias": [
+        "Alimentos funcionais e antioxidantes em alta",
+        "Ingredientes naturais sem conservantes como exigência crescente",
+        "Barras de cereal, granola e snacks naturais em expansão",
+        "Consumidor lê rótulo e questiona origem dos ingredientes"
+      ],
+      "fonte": "BHBFood + LabVital + FoodConnection 2025"
+    },
+    "producao_maca_sc": {
+      "producao_2024_toneladas": 270000,
+      "participacao_nacional": "34%",
+      "projecao_2026_toneladas": 370000,
+      "crescimento_projetado": "+30%",
+      "sao_joaquim_participacao_sc": "~63%",
+      "destino_mercado_interno": "~90%",
+      "preco_maca_industria_kg": "R$1,06 (categoria comercial, safra 2024/25)",
+      "nota": "Matéria-prima abundante e acessível. A FROC tem acesso privilegiado via grupo empresarial.",
+      "fonte": "Observatório Agro Catarinense + AMAPSC + EPAGRI 2024"
+    }
+  },
+
+  "tam_sam_som": {
+    "metodologia": "Bottom-up com cruzamento top-down. Mercado de maçã desidratada como ingrediente industrial B2B — não B2C/varejo.",
+
+    "tam": {
+      "label": "TAM — Mercado total de ingredientes desidratados B2B no Brasil (pet food + alimentos humanos)",
+      "valor_anual": 700000000,
+      "calculo": "Pet food natural/premium R$8B × 5% custo de ingredientes desidratados na formulação = R$400M. Alimentos funcionais/fit R$5B × 6% = R$300M. TAM total ~R$700M/ano.",
+      "nota": "Inclui todos os tipos de frutas e vegetais desidratados como ingrediente industrial. Maçã é um dos mais usados.",
+      "estimated": true,
+      "estimation_basis": "ABINPET 2024 + estimativas de composição de formulações + BHBFood"
+    },
+
+    "sam": {
+      "label": "SAM — Maçã desidratada como ingrediente industrial no Brasil (Sul + Sudeste, acesso logístico da FROC)",
+      "valor_anual": 90000000,
+      "calculo_alternativo_bottom_up": "SC produz 270k ton maçã. Estimativa 2-3% vai para desidratação industrial = 5.400-8.100 ton/ano. A R$28/kg médio = R$151-227M mercado total. FROC acessa ~40-60% desse mercado (logística Sul+Sudeste) = R$60-136M. Central: R$90M/ano.",
+      "pacientes_potenciais": "Estimativa de 1.500-2.500 empresas B2B no Brasil que usam maçã desidratada como ingrediente (fabricantes de ração pet, granola, barrinha, torrão, mix de frutas)",
+      "estimated": true,
+      "estimation_basis": "Produção SC (EPAGRI 2024) + preço de mercado declarado pela FROC + estimativa de aproveitamento industrial"
+    },
+
+    "som_atual": {
+      "label": "SOM atual — FROC",
+      "clientes_ativos": "~10",
+      "faturamento_mensal_estimado": 85000,
+      "faturamento_anual_estimado": 1020000,
+      "market_share_sam": "~1,1%",
+      "capacidade_utilizada_pct": "~17% (produz ~850kg/mês de ~5.000 possíveis)",
+      "nota": "Estimativa baseada em ~10 clientes × R$8.500/mês médio. Faturamento real não declarado.",
+      "estimated": true
+    },
+
+    "som_meta": {
+      "label": "SOM meta — 12 meses",
+      "faturamento_anual": 2300000,
+      "market_share_sam": "2,9%",
+      "clientes_necessarios": 17,
+      "volume_necessario_kg_mes": 6800,
+      "capacidade_atual_kg_mes": 5000,
+      "capacidade_com_turno_kg_mes": 10000,
+      "alerta": "Meta requer 6.800 kg/mês — acima da capacidade atual de 5.000. Turno adicional precisa ser ativado antes de atingir a meta, não depois. Planejamento operacional é pré-requisito.",
+      "calculo": "17 clientes × R$134k/ano = R$2,278M. Cada cliente comprando ~4.786 kg/ano = 399 kg/mês × 17 = 6.783 kg/mês.",
+      "estimated": true
+    },
+
+    "som_crescimento": {
+      "label": "SOM crescimento — 24-36 meses",
+      "faturamento_anual": 5000000,
+      "market_share_sam": "5,6%",
+      "nota": "Cenário com 35+ clientes recorrentes, turno noturno ativo, canal de distribuidores estruturado e presença em feiras.",
+      "estimated": true
+    }
+  },
+
+  "analise_segmentos": [
+    {
+      "segmento": "Pet food — Ração natural para pássaros e roedores",
+      "tamanho_brasil": "R$5-8B (linha natural/premium dentro de R$40,8B pet food)",
+      "crescimento": "+12-15%/ano (acima da média do setor)",
+      "oportunidade_froc": "Alta — ração para pássaros usa maçã desidratada como ingrediente padrão. Mercado informal, fácil acesso via cold call + amostra. Ticket menor mas ciclo de compra mais rápido.",
+      "icp": "Rafael — comprador informal, WhatsApp, decide em dias após amostra",
+      "tendencia": "Humanização dos pets eleva exigência por ingredientes naturais sem conservantes e rastreáveis — diferencial da FROC",
+      "volume_estimado_compradores_br": "500-800 fabricantes de ração pet que usam maçã desidratada"
+    },
+    {
+      "segmento": "Alimentação humana — Granola, barrinhas, torrones, mix fit",
+      "tamanho_brasil": "R$3-5B (mercado de snacks naturais e alimentos funcionais)",
+      "crescimento": "+20-27%/ano",
+      "oportunidade_froc": "Alta, ticket maior — mas processo de qualificação mais longo. Exige documentação técnica completa (APPCC, laudos). Canal Nutrassou pode ser atalho para múltiplos fabricantes.",
+      "icp": "Camila — analista de compras, e-mail, processo formal, múltiplos aprovadores",
+      "tendencia": "Consumidor lê rótulo, questiona origem e conservantes — ingrediente sem conservante é selling point no rótulo do produto final",
+      "volume_estimado_compradores_br": "800-1.200 fabricantes de alimentos funcionais que usam frutas desidratadas"
+    }
+  ],
+
+  "analise_concorrentes": [
+    {
+      "nome": "Maxan (Maxã)",
+      "origem": "Fraiburgo, SC",
+      "posicionamento": "Principal concorrente — qualidade e preço similares à FROC",
+      "presenca_digital": "Site institucional. Presença limitada em canais B2B digitais.",
+      "diferencial_froc": "FROC oferece amostra grátis vs Maxan (indefinido). Processo sem conservantes como diferencial técnico comunicável.",
+      "ameaca": "alta"
+    },
+    {
+      "nome": "Polpa Brasil (PPA Brasil)",
+      "origem": "Fraiburgo, SC",
+      "posicionamento": "Foco em banana. Já anuncia no Google Ads.",
+      "presenca_digital": "Tem presença no Google Ads. Site com estratégia de marketing de conteúdo e apresentação de fábrica.",
+      "diferencial_froc": "FROC não cobra pela amostra — Polpa Brasil cobra. FROC focada em maçã vs Polpa Brasil focada em banana.",
+      "ameaca": "média"
+    },
+    {
+      "nome": "Flora Frutas",
+      "posicionamento": "Baixa qualidade, preço muito baixo",
+      "presenca_digital": "Desconhecida",
+      "diferencial_froc": "FROC compete em qualidade, não em preço baixo. Não é concorrente direta para o ICP qualificado.",
+      "ameaca": "baixa"
+    },
+    {
+      "nome": "BC Foods",
+      "origem": "Internacional",
+      "posicionamento": "Benchmark de marketing — foco em solicitação de amostras no site, presença em feiras da América do Sul",
+      "presenca_digital": "Site com foco em amostras. Estratégia de marketing bem estruturada.",
+      "diferencial_froc": "BC Foods é internacional — custo e logística mais complexos. FROC tem vantagem de proximidade e resposta rápida.",
+      "ameaca": "baixa (mercado diferente)"
+    },
+    {
+      "nome": "Kurumi Alimentos",
+      "origem": "Brasil",
+      "posicionamento": "Maçã desidratada B2C (loja online) — não concorre diretamente com FROC no B2B industrial",
+      "presenca_digital": "Loja online ativa — aparece nas buscas por 'maçã desidratada'",
+      "diferencial_froc": "FROC é B2B com pedido mínimo de 400kg. Kurumi é B2C varejo. Públicos completamente diferentes.",
+      "ameaca": "nenhuma (competição por palavras-chave no Google — necessita negativar termos B2C)"
+    }
+  ],
+
+  "tendencias_setor": [
+    {
+      "tendencia": "Humanização dos pets — ingredientes premium e rastreáveis",
+      "impacto_froc": "Criação de demanda por maçã desidratada de qualidade e sem conservantes na formulação de ração. Exatamente o que a FROC entrega.",
+      "prazo": "Tendência de longo prazo — sustentável"
+    },
+    {
+      "tendencia": "Consumidor de alimentos funcionais lê rótulo e questiona origem",
+      "impacto_froc": "'Maçã desidratada de São Joaquim, sem conservantes' no rótulo do produto final (granola, barrinha) vira selling point — fabricante prefere ingrediente com essa origem rastreável.",
+      "prazo": "Crescendo — +27% mercado saudável até 2025"
+    },
+    {
+      "tendencia": "Digitalização do processo de compras B2B",
+      "impacto_froc": "Compradores B2B cada vez mais iniciam avaliação de fornecedores online antes do primeiro contato. Google e LinkedIn estão se tornando canais de descoberta mesmo no B2B industrial.",
+      "prazo": "Em andamento — janela de 2-3 anos antes de virar obrigação"
+    },
+    {
+      "tendencia": "Exigência crescente por certificações de segurança alimentar",
+      "impacto_froc": "Fabricantes de alimentos humanos exigem APPCC, rastreabilidade, laudos. FROC precisa estruturar e comunicar isso proativamente.",
+      "prazo": "Imediata — exigência já presente no ICP alimentação humana"
+    }
+  ],
+
+  "matematica_da_meta": {
+    "meta_anual": 2300000,
+    "ticket_minimo_por_pedido": 11200,
+    "pedido_minimo_kg": 400,
+    "preco_por_kg": 28,
+    "clientes_necessarios": 17,
+    "volume_por_cliente_ano_kg": 4786,
+    "volume_total_necessario_kg_mes": 6800,
+    "capacidade_atual_kg_mes": 5000,
+    "gap_producao_kg_mes": 1800,
+    "solucao_gap": "Turno adicional noturno — eleva capacidade para 10.000 kg/mês",
+    "ciclo_venda_dias": 20,
+    "leads_necessarios_para_17_clientes": "Estimativa: taxa de conversão lead→cliente ~15-20% = 85-115 leads qualificados necessários",
+    "leads_por_mes_necessarios": "7-10 leads qualificados/mês para atingir meta em 12 meses",
+    "nota": "Com ~16 buscas/mês no Google + Meta Ads de suporte, 7-10 leads qualificados/mês é factível se a LP converter 40-60% das buscas em leads"
+  },
+
+  "key_leverage_point": {
+    "headline": "A meta de R$2,3M é 2,9% de um mercado de R$80M/ano onde nenhum concorrente domina o canal digital. O que está faltando não é mercado — é presença onde o comprador está pesquisando.",
+    "context": "O mercado existe, cresce e não tem um player dominante no digital B2B. A Polpa Brasil já anunciou no Google mas com foco em banana — não em maçã. A FROC pode ser o primeiro resultado relevante para 'maçã desidratada fornecedor industrial' em semanas, não meses. Com CPC baixo (~16 buscas/mês) e gancho de amostra grátis, cada clique qualificado tem ROI potencial de R$134k/ano.",
+    "numbered_reasons": [
+      "R$75,4B de pet food em 2024 (+9,6%) com tendência de humanização que eleva exigência por ingredientes naturais rastreáveis — o mercado está criando demanda por exatamente o que a FROC tem",
+      "Meta de R$2,3M = 2,9% do SAM = 17 clientes = 7-10 leads qualificados/mês — factível com Google Ads + LP + amostra grátis em um mercado sem dominante digital",
+      "SC produz 270k ton de maçã com projeção de +30% para 2025/26 — matéria-prima não será gargalo. O único gargalo real é a velocidade de captação de clientes"
+    ],
+    "discussion_anchor": "Para Driélly: 'O mercado não é o problema. A capacidade não é o problema. O canal de vendas digital é o único elo que falta — e ele pode estar funcionando em 3 semanas.'"
+  }
+}

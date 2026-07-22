@@ -1,0 +1,211 @@
+{
+  "client_name": "Hyla do Brasil",
+  "skill": "ee-s2-pesquisa-mercado",
+  "generated_at": "2026-06-22",
+  "versao": 3,
+  "data_source": "v3 (26/06): PLANO_DE_NEGOCIOS_HYLA_2026.md (seção 4, framing de mercado do próprio cliente, verificado com fontes externas) + ABEVD 2024/2025, ABEP Critério Brasil 2024, IBGE população 2024, ASBAI, Global Wellness Institute, ABIPLA/Euromonitor + briefing + ee-s1-persona-icp + ee-s1-swot",
+  "nota_metodologica_v3": "A pedido do operador, esta versão caminha pelo mesmo framing de mercado já usado no material interno da Hyla (3 segmentos: Wellness, Alergias/Saúde Respiratória, Higiene/Limpeza) — mas verifica cada número com fonte externa e acrescenta a segmentação por classe de renda (já construída na v1/v2) como camada complementar de triangulação. Os 3 segmentos do plano interno são contexto de mercado adjacente (números enormes, mas não são o TAM direto da Hyla — incluem categorias como cosméticos, detergentes, etc. que a Hyla não vende). O TAM real continua sendo a base populacional (classe A/B × prevalência de alergia), agora cruzada com gasto per capita desses 3 mercados para checar se o ticket da Hyla é plausível dentro do que essa população já gasta.",
+
+  "summary": "A Hyla vende dentro de um canal grande e maduro (venda direta no Brasil: R$50 bilhões/ano, 7º maior do mundo) e toca três mercados adjacentes gigantes (wellness, saúde respiratória, limpeza doméstica) — mas seu mercado endereçável real, pessoas de classe A/B com motivação de saúde/alergia, é uma fração específica disso: 15-21 milhões de pessoas no Brasil. Como a rede de associados já cobre o Brasil todo (não só SP), o SAM é, na prática, igual ao TAM nacional — e mesmo assim a penetração atual é microscópica: a Hyla pode crescer significativamente sem precisar abrir mercado novo, só atendendo melhor a demanda que já existe onde já tem presença.",
+
+  "summary_headline": "A Hyla vende para menos de 0,01% do próprio mercado endereçável nacional — o gargalo não é geografia, é capacidade de atender a demanda que já existe.",
+
+  "summary_highlights": [
+    { "category": "oportunidade", "label": "Wellness Brasil", "value": "US$96 bi/ano", "subtext": "5% do PIB · #1 da América Latina, 12º do mundo (Global Wellness Institute)", "tone": "green" },
+    { "category": "oportunidade", "label": "Limpeza doméstica BR", "value": "R$38,1 bi/ano", "subtext": "4º maior mercado mundial (ABIPLA/Euromonitor 2024)", "tone": "green" },
+    { "category": "oportunidade", "label": "TAM/SAM — pessoas-alvo", "value": "15-21 milhões", "subtext": "Classe A/B com alergia respiratória — alcance nacional, convergente com estimativa do cliente", "tone": "green" },
+    { "category": "posicao", "label": "SOM atual", "value": "~R$11,9 milhões/ano", "subtext": "70-80 máquinas/mês × ticket médio (estimado)", "tone": "blue" },
+    { "category": "janela", "label": "Penetração no SAM", "value": "~0,005%/ano", "subtext": "Espaço de crescimento real sem expansão geográfica", "tone": "green" },
+    { "category": "risco", "label": "Dado não verificado", "value": "Campinas +87,8%", "subtext": "Estatística do plano interno não localizada em nenhuma fonte pública — não usar até confirmar", "tone": "red" }
+  ],
+
+  "summary_key_findings": [
+    { "category": "vantagem", "text": "O mercado de venda direta no Brasil está em transformação digital ativa (ABEVD: 'mais digital, mais jovem, mais feminina') — favorece exatamente quem investir em recrutamento e funil digital de associadas, como a SWOT já recomendou." },
+    { "category": "contexto", "text": "A estimativa do próprio cliente (21 milhões de pessoas, 10% da população) está na mesma ordem de grandeza de uma estimativa construída com dados públicos (15,75 milhões: classe A+B × prevalência de alergia respiratória) — o tamanho de mercado percebido pela Hyla é realista, não inflado." },
+    { "category": "vantagem", "text": "Os 3 segmentos de mercado citados no Plano de Negócios da Hyla (Wellness, Alergias, Limpeza) são majoritariamente verificáveis com fonte externa: Brasil é de fato #1 da América Latina em wellness (US$96 bi/ano, Global Wellness Institute) e 4º maior mercado mundial de limpeza doméstica (ABIPLA). O material de recrutamento da empresa não está inflando a realidade nesses dois pontos." },
+    { "category": "ameaca", "text": "Um dado específico do Plano de Negócios não pôde ser verificado: 'em Campinas, os atendimentos [por alergia] cresceram 87,8% no início de 2025'. Busca extensiva só encontrou dados de Campinas sobre doenças respiratórias EM GERAL em 2026 (+60,6% sintomas respiratórios, +250% SRAG) — números de outra natureza e outro período. Recomendado não usar essa estatística específica em material voltado ao mercado até confirmar a fonte original com o cliente." },
+    { "category": "oportunidade", "text": "Triangulação nova: o gasto médio per capita em wellness no Brasil (~R$2.480/ano) é compatível com o ticket parcelado da Hyla (~R$4.000-4.800/ano em 36x) — não é um gasto fora da curva para quem já investe em bem-estar. Já o gasto per capita em limpeza doméstica (~R$179/ano) é 67-81x menor que o ticket da Hyla — confirma numericamente que a Hyla não compete na categoria 'limpeza', e sim em uma categoria de bem-estar/saúde de ticket muito mais alto (reforça o território definido em ee-s2-posicionamento)." },
+    { "category": "oportunidade", "text": "Como a rede de associados já cobre o Brasil todo, o SAM não deve ser restrito a São Paulo — é, na prática, o mesmo TAM nacional. Isso torna a penetração atual ainda mais baixa (~0,005% ao ano): o espaço de crescimento sem precisar abrir mercado novo é maior do que a primeira versão desta pesquisa estimava." },
+    { "category": "ameaca", "text": "A Rainbow, concorrente histórico, tem ao menos 6 domínios diferentes se apresentando como 'oficial' — sinal de rede de distribuidores fragmentada digitalmente. É uma vulnerabilidade explorável: a Hyla, mesmo com um site tecnicamente fraco, tem mais coerência de marca online do que a líder histórica do segmento." },
+    { "category": "contexto", "text": "O concorrente citado pelo cliente como 'Vivenzo' é, no registro público, 'Vivenso Smartcleaner' (fabricante Pro-Aqua), com preço real de R$6.500-9.990 — mais barato do que os ~R$12.000 estimados inicialmente." }
+  ],
+
+  "contexto_macroeconomico": {
+    "wellness_brasil": {
+      "label": "Segmento 1 do Plano de Negócios da Hyla: Saúde Preventiva & Bem-Estar",
+      "mercado_brasil_usd": "US$96 bilhões/ano",
+      "percentual_pib_brasil": "5%",
+      "ranking_brasil": "#1 da América Latina e Caribe (entre 46 países medidos pelo GWI), 12º maior mercado de wellness do mundo",
+      "mercado_global_usd_atual": "US$6,8 trilhões (2024), com projeção de US$7,3 trilhões em 2025 e US$9,8 trilhões até 2029 (+7,6%/ano)",
+      "correcao_vs_plano_interno": "O Plano de Negócios da Hyla cita US$6,3 trilhões para a economia global de wellness — esse número já foi superado; a cifra mais recente confirmada é US$6,8 trilhões (2024). Vale atualizar essa referência em qualquer material novo.",
+      "fonte": "Global Wellness Institute"
+    },
+    "alergia_respiratoria_global_e_brasil": {
+      "label": "Segmento 2 do Plano de Negócios da Hyla: Alergias & Doenças Respiratórias",
+      "atual_global_pct": "~30% da população mundial já tem algum tipo de alergia (~1 bilhão de pessoas)",
+      "projecao_oms_2050": "OMS prevê que a metade da população mundial (~4 bilhões de pessoas) terá algum tipo de alergia até 2050, por conta das mudanças climáticas — confirmado em múltiplas fontes de saúde",
+      "brasil_asma": "Mais de 20 milhões de asmáticos (Ministério da Saúde)",
+      "brasil_rinite": "Mais de 1/3 da população com rinite",
+      "brasil_alergia_respiratoria_geral": "~30% dos brasileiros (ASBAI) — mesma proporção da média global",
+      "alerta_dado_nao_verificado": "O Plano de Negócios da Hyla cita que 'em Campinas (SP), os atendimentos cresceram 87,8% no início de 2025' — NÃO localizei essa estatística específica em nenhuma fonte pública após busca extensiva. Encontrei dados de Campinas sobre doenças respiratórias em geral (não especificamente alergia) referentes a 2026: +60,6% em atendimentos por sintomas respiratórios na Atenção Básica em 6 semanas, +250% em casos de SRAG entre jan-mai. São números de natureza diferente (provável surto viral sazonal) e de outro período. RECOMENDAÇÃO: não usar o '87,8%' em nenhum material voltado ao mercado até o cliente confirmar a fonte original.",
+      "fonte": "OMS (via veículos de saúde brasileiros) + Ministério da Saúde + ASBAI"
+    },
+    "limpeza_domestica_brasil": {
+      "label": "Segmento 3 do Plano de Negócios da Hyla: Higiene & Limpeza Doméstica",
+      "faturamento_2024_confirmado": "R$38,1 bilhões (+2,1% vs 2023) — Euromonitor International, via ABRE",
+      "faturamento_alternativo_abipla": "ABIPLA reporta 'mais de R$35 bilhões/ano' (metodologia/escopo diferente)",
+      "projecao_2029": "R$50,1 bilhões (+31,3% sobre 2024)",
+      "ranking_mundial": "4º maior mercado de produtos de limpeza do mundo",
+      "nota_vs_plano_interno": "O Plano de Negócios da Hyla cita R$39,6 bilhões para 2025 — não encontrei essa cifra exata publicada, mas está dentro da faixa plausível entre o valor confirmado de 2024 (R$38,1bi) e a tendência de crescimento do setor. Tratar como plausível, não como confirmado.",
+      "fonte": "ABIPLA Anuário 2025, Euromonitor/ABRE"
+    },
+    "venda_direta_brasil": {
+      "faturamento_2024": "R$50 bilhões",
+      "crescimento_2024": "+6,3%",
+      "revendedores_ativos": "3,1 milhões",
+      "posicao_mundial": "7º maior mercado de venda direta do mundo, maior da América Latina",
+      "tendencia": "Setor descrito pela própria ABEVD como 'mais digital, mais jovem e cada vez mais feminino'",
+      "nota": "Mercado dominado por cosméticos/bem-estar/nutricionais (Avon, Natura, Herbalife, etc.) — não é o TAM específico da Hyla, mas contextualiza o canal de vendas: grande, maduro, em transformação digital ativa.",
+      "fonte": "ABEVD 2024/2025"
+    },
+    "classes_economicas_brasil": {
+      "label": "Camada complementar (não está no Plano de Negócios da Hyla) — segmentação por renda, construída nas versões anteriores desta pesquisa",
+      "populacao_brasil_2024": 212600000,
+      "classe_a_pct": 2.9,
+      "classe_b_pct": 21.8,
+      "classe_a_mais_b_pct": 24.7,
+      "classe_a_mais_b_pessoas": "~52,5 milhões",
+      "fonte": "ABEP Critério Brasil 2024 + IBGE população 2024"
+    }
+  },
+
+  "tam_sam_som": {
+    "metodologia": "v3: combina o framing de mercado do próprio Plano de Negócios da Hyla (3 segmentos macro: Wellness, Alergias, Limpeza — ver contexto_macroeconomico) com a base bottom-up por população endereçável (classe A/B com motivação de saúde/alergia, já usada nas versões anteriores). Os 3 segmentos macro são mercados adjacentes (cosméticos, detergentes, etc. que a Hyla não vende) — não são o TAM direto, mas servem para triangular se o ticket da Hyla é plausível dentro do que a população-alvo já gasta nessas categorias (ver triangulacao_gasto abaixo). Mercado de durável de alto ticket vendido por demonstração — não há dado público de mercado específico para 'aspirador antialérgico premium' no Brasil, por isso a base direta continua sendo populacional, não um TAM em R$/ano direto.",
+
+    "tam": {
+      "label": "TAM — pessoas em classe A/B no Brasil com alguma alergia respiratória (perfil de motivação de compra)",
+      "populacao_estimada": "15,75 a 21 milhões de pessoas",
+      "calculo": "Classe A (2,9%) + Classe B (21,8%) = 24,7% dos 212,6 milhões de habitantes do Brasil = ~52,5 milhões de pessoas [ABEP 2024 + IBGE 2024]. Aplicando ~30% de prevalência de alergia respiratória [ASBAI] = ~15,75 milhões. A própria Hyla estima 21 milhões (10% da população, citado no kick-off) — as duas estimativas convergem na mesma ordem de grandeza, o que valida a percepção do cliente.",
+      "estimated": true,
+      "fontes": ["ABEP Critério Brasil 2024", "IBGE população 2024", "ASBAI"]
+    },
+
+    "sam": {
+      "label": "SAM — mesmo perfil nacional do TAM, já que a rede de associados da Hyla cobre o Brasil todo (não está restrita a São Paulo)",
+      "populacao_estimada": "15,75 a 21 milhões de pessoas (mesma faixa do TAM)",
+      "calculo": "Corrigido em 26/06 a partir de feedback do operador: a versão anterior recortava o SAM para a Grande São Paulo (3,2-4,5M), usando a concentração atual de vendas (70% em SP) como proxy de alcance do modelo de negócio. Isso confundia execução com capacidade de alcance — a Hyla tem associados cadastrados em todo o território nacional (incluindo equipe nova começando em Brasília, citada no kick-off), então o modelo de venda direta por demonstração não tem uma barreira estrutural que justifique restringir o SAM a uma região. SAM ≈ TAM.",
+      "nota": "A concentração de 70% das vendas em SP reflete densidade de associados ATIVOS hoje (problema de execução — Fr3 na SWOT, capacidade de demonstração), não limite de alcance do modelo. Tratar como questão de SOM/execução, não de SAM/endereçabilidade.",
+      "estimated": true
+    },
+
+    "som_atual": {
+      "vendas_mes": "70-80 máquinas",
+      "ticket_medio_usado": 13250,
+      "faturamento_mensal_estimado": 993750,
+      "faturamento_anual_estimado": 11925000,
+      "penetracao_no_sam_anual_pct": "~0,005%",
+      "nota": "Faturamento estimado a partir do briefing (volume de vendas relatado pelos sócios) — não é dado financeiro confirmado pela empresa. Penetração recalculada com SAM nacional (15,75-21M) em vez do SAM restrito a SP usado na versão anterior — fica ainda mais baixa, reforçando que o limite é operacional, não geográfico.",
+      "estimated": true
+    },
+
+    "som_meta": {
+      "vendas_mes": "100-150 máquinas (meta já definida pelo próprio cliente)",
+      "faturamento_mensal_estimado": "R$1,325 a R$1,99 milhão",
+      "faturamento_anual_estimado": "R$15,9 a R$23,9 milhões",
+      "penetracao_no_sam_anual_pct": "~0,01%",
+      "alerta": "Mesmo na meta mais otimista (150/mês) e usando o SAM nacional (maior denominador), a penetração continua abaixo de 0,01% ao ano — o limite não é o tamanho do mercado nem a geografia, é a capacidade de demonstração (ver ee-s1-swot, Fr3).",
+      "estimated": true
+    },
+
+    "triangulacao_gasto_wellness": {
+      "label": "Nova camada v3 — o ticket da Hyla é plausível dentro do gasto em wellness que a população-alvo já tem?",
+      "gasto_per_capita_wellness_brasil_ano": "US$96 bilhões ÷ 212,6 milhões de habitantes ≈ US$451/pessoa/ano (≈ R$2.480/ano, câmbio de referência R$5,50)",
+      "ticket_hyla_parcelado_ano": "R$12.000-14.500 financiado em até 36x ≈ R$333-403/mês ≈ R$4.000-4.800/ano",
+      "conclusao": "O ticket parcelado da Hyla equivale a ~1,6-1,9x o gasto médio per capita em wellness no Brasil — é um produto premium dentro da categoria, não um gasto absurdamente fora da curva para quem já reserva orçamento para bem-estar. Reforça que o financiamento/parcelamento (já oferecido) é a peça-chave de comunicação, não o preço cheio.",
+      "estimated": true
+    },
+
+    "triangulacao_gasto_limpeza": {
+      "label": "Nova camada v3 — comparação com o gasto médio em limpeza doméstica convencional",
+      "gasto_per_capita_limpeza_brasil_ano": "R$38,1 bilhões ÷ 212,6 milhões de habitantes ≈ R$179/pessoa/ano",
+      "ticket_hyla": "R$12.000-14.500",
+      "conclusao": "O ticket da Hyla é ~67-81x o gasto médio anual per capita em produtos de limpeza convencionais. Confirma numericamente, não só por intuição, que a Hyla não compete na categoria 'limpeza doméstica' — compete em uma categoria de bem-estar/saúde de ticket muito mais alto. Reforça diretamente o território de marca já definido em ee-s2-posicionamento ('saúde respiratória', não 'limpeza').",
+      "estimated": true
+    }
+  },
+
+  "analise_concorrentes": [
+    {
+      "nome": "Rainbow (Grupo Rainbow / Rainbow Brasil / Rainbow Oficial)",
+      "posicionamento": "Concorrente histórico, ~30 anos no Brasil, ticket ~R$21.000 (acima da Hyla)",
+      "presenca_digital": "Fragmentada — 6+ domínios diferentes se autodeclarando 'oficial' e 5 contas de Instagram regionais distintas (maior delas, @gruporainbowbrasil, com 19 mil seguidores — menos que a conta única da Hyla, 47-49K), refletindo uma rede de distribuidores sem unidade de marca online",
+      "diferencial_hyla": "Vendedores Rainbow descritos pela própria Hyla como 'agressivos' e que falam mal da concorrência — confirmado externamente por padrão consistente de reclamação sobre venda agressiva, ligações insistentes e manutenção cara (Reclame Aqui, Fórum da Casa, Portal da Queixa Portugal). A fragmentação digital da Rainbow é uma vulnerabilidade — a Hyla, mesmo com site tecnicamente fraco, tem mais consistência de marca única online e maior audiência. Análise completa em outputs/concorrente-rainbow-analise.md",
+      "ameaca": "alta (comportamento de venda e prestígio histórico, não preço ou digital)"
+    },
+    {
+      "nome": "Vivenso Smartcleaner (fabricante Pro-Aqua)",
+      "nota_correcao": "Citado pelo cliente como 'Vivenzo' — nome correto verificado em registro público é 'Vivenso'. Preço também corrigido: confirmado externamente em R$6.500-9.990 (Magazine Stroebel + site institucional), não os ~R$12.000 estimados no kick-off.",
+      "posicionamento": "Aspirador a água/extratora/purificador, tecnologia alemã, montagem em Curitiba. Ticket real R$6.500-9.990 — 30-45% mais barato que a Hyla (R$12.000-14.500), gap maior do que a estimativa interna sugeria. Opera como 'franquia de baixo investimento', não associado independente.",
+      "presenca_digital": "Instagram com 25 mil seguidores (@vivensobrasiloficial) — entre a Hyla (47-49K) e a Rainbow (19K na maior conta). Múltiplos sites de revenda/distribuição (pro-aqua.com.br, lojas parceiras) — presença pulverizada, embora menos caótica do que a Rainbow",
+      "diferencial_hyla": "Qualidade percebida inferior segundo a Hyla, preço genuinamente mais baixo, e reputação pública mais limpa que a Rainbow (sem padrão de reclamação de venda agressiva) — concorre por valor percebido, não por prestígio ou comportamento de venda. Análise completa em outputs/concorrente-vivenso-analise.md",
+      "ameaca": "media-alta"
+    },
+    {
+      "nome": "Hyla Plus",
+      "posicionamento": "Fundada pelo ex-sócio (cunhado de Davi/Fábio) após cisão societária em 2025/2026 — importa a mesma máquina",
+      "presenca_digital": "Ainda descrita como 'trabalho tímido' pela própria Hyla do Brasil, mas com tendência de crescimento ao longo do tempo",
+      "diferencial_hyla": "Mesmo produto — a diferenciação tem que vir de marca, atendimento e rede de associados, não de tecnologia (que é idêntica)",
+      "ameaca": "alta (crescente)"
+    },
+    {
+      "nome": "Concorrentes indiretos (Kirby, Hoover, marcas chinesas, Electrolux/Arno)",
+      "posicionamento": "Kirby usa sistema de venda similar (porta a porta); marcas chinesas investem pesado em marketing de influenciador (ex: parceria com Cristiano Ronaldo); Electrolux/Arno não competem diretamente mas aparecem em buscas pelo nome 'Hyla' usado por terceiros para SEO",
+      "ameaca": "media-baixa — públicos parcialmente diferentes, mas competem por atenção e por palavras-chave de busca"
+    }
+  ],
+
+  "tendencias_setor": [
+    {
+      "tendencia": "Transformação digital do canal de venda direta no Brasil",
+      "impacto_hyla": "ABEVD descreve o setor como 'mais digital, mais jovem e cada vez mais feminino' — alinhado diretamente com a oportunidade já identificada na SWOT de estruturar o recrutamento de associadas como funil digital, não só employer branding esporádico",
+      "prazo": "Em andamento"
+    },
+    {
+      "tendencia": "Buscas comparativas de produto via IA generativa (ChatGPT/Gemini)",
+      "impacto_hyla": "Usuários já pesquisam 'qual aspirador é melhor, Rainbow ou Hyla' antes de decidir — quem ocupar esse espaço de conteúdo/SEO primeiro garante vantagem duradoura. Já identificado como fraqueza (Fr5) na SWOT.",
+      "prazo": "Curto prazo — janela de 1-2 anos antes de virar prática padrão"
+    },
+    {
+      "tendencia": "Crescimento da preocupação com qualidade do ar interno e saúde respiratória",
+      "impacto_hyla": "Mais de 20 milhões de asmáticos e ~30% dos brasileiros com alguma alergia respiratória sustentam a demanda de longo prazo pelo eixo de saúde — o pilar mais forte e mais diferenciado da comunicação da Hyla (F7 na SWOT)",
+      "prazo": "Estrutural, longo prazo"
+    },
+    {
+      "tendencia": "Fragmentação digital dos concorrentes diretos (Rainbow)",
+      "impacto_hyla": "Janela de oportunidade para a Hyla se posicionar como a marca com presença online mais coerente do segmento, mesmo operando uma rede de associados igualmente pulverizada",
+      "prazo": "Imediata"
+    }
+  ],
+
+  "diferenciais_reais": [
+    "Tecnologia patenteada exclusiva (separador de partículas autolimpante) — verificável, não aspiracional",
+    "Garantia de até 15 anos / vitalícia — compromisso concreto, não promessa genérica",
+    "17 anos de marca consolidada e líder de segmento no Brasil — histórico real, não posicionamento construído",
+    "Comissionamento de associados acima da média do setor (até ~30% + 50% vitalício em recompra) — retém quem já está dentro, vantagem estrutural de rede"
+  ],
+
+  "key_leverage_point": {
+    "headline": "Considerando o alcance nacional real da rede de associados, a penetração de mercado da Hyla é inferior a 0,01% ao ano — o limite de crescimento não é geográfico, é operacional.",
+    "context": "A Hyla já tem associados espalhados pelo Brasil, não só em SP — então o SAM correto é o mesmo TAM nacional (15-21 milhões de pessoas), não um recorte regional. Com esse denominador maior, mesmo na meta mais otimista do próprio cliente (150 máquinas/mês) a penetração continuaria abaixo de 0,01% ao ano. Isso confirma, com dados de mercado, o que a SWOT já tinha apontado a partir do relato da própria equipe: o gargalo da Hyla não é falta de demanda, nem de mercado disponível, nem de alcance geográfico — é a capacidade de atender a demanda que já existe onde a empresa já tem presença (ainda que desigual, concentrada em SP por densidade de associados ativos).",
+    "numbered_reasons": [
+      "TAM e SAM convergem no mesmo número (15-21 milhões de pessoas) porque o modelo de venda direta por demonstração já tem associados no Brasil todo — não há barreira estrutural de alcance que justifique um SAM menor",
+      "A penetração atual extremamente baixa (~0,005%, recalculada com o SAM nacional) não é sintoma de mercado saturado — é sintoma de capacidade de demonstração limitada, exatamente o gargalo identificado na SWOT (Fr3)",
+      "A concentração de 70% das vendas em SP é uma questão de densidade de associados ATIVOS ali, não de incapacidade de vender em outros estados — recrutar e ativar associados fora de SP é crescimento dentro do próprio SAM, não expansão para mercado novo"
+    ],
+    "discussion_anchor": "Antes de discutir expansão para mercados realmente novos (ex: outros países da América Latina), vale alinhar com o cliente: o problema é ativar e capacitar a rede que já existe no Brasil todo, não descobrir onde vender. Isso muda a prioridade de investimento — de pesquisa de novos mercados para recrutamento e capacidade de demonstração na base nacional já instalada (mesma alavanca prioritária da SWOT)."
+  },
+
+  "honesty_alert": "Não existe dado público específico de tamanho do mercado de 'aspiradores antialérgicos premium' no Brasil — a estimativa de TAM/SAM aqui é construída cruzando dados demográficos e de saúde reais (IBGE, ABEP, ASBAI, Global Wellness Institute, ABIPLA) com a estimativa informal do próprio cliente, não com uma fonte de mercado direta. Os valores de SOM (faturamento atual e meta) também são estimados a partir do briefing, sem confirmação financeira da empresa. ADICIONAL (v3): dos números do Plano de Negócios da Hyla usados como referência de mercado, um não pôde ser verificado externamente (Campinas +87,8% em atendimentos por alergia) — não usar esse número específico até confirmação do cliente. Os demais (wellness Brasil US$96bi/#1 América Latina, limpeza doméstica R$38,1bi/4º maior mercado mundial, projeção OMS de alergia até 2050) foram confirmados com fonte externa independente. Tratar o conjunto como ordem de grandeza para decisão estratégica, não como número definitivo para plano financeiro.",
+
+  "alimenta_skills": ["ee-s2-posicionamento", "ee-s1-swot", "ee-s3-brandbook"]
+}

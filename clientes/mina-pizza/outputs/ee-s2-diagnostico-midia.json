@@ -1,0 +1,327 @@
+{
+  "client_name": "Mina Pizza",
+  "segment": "Alimentação — restaurante à la carte (almoço) e pizzaria (jantar), PDV local dentro de praça de alimentação",
+  "summary": "Mina Pizza investe R$0/mês em Meta/Google hoje (só roda o Impulso nativo do iFood, sem orçamento visível ao operador) — enquanto os concorrentes diretos (Big Família, 63 anúncios ativos no Meta; La Braciera, 48) já disputam esse espaço fora da plataforma. Este é um plano de lançamento com budget de R$2.000-5.000/mês, baseado no benchmark real de 5 concorrentes e nos termos de busca de maior intenção já mapeados pelo próprio time.",
+  "summary_headline": "Big Família roda 63 anúncios ativos no Meta e La Braciera 48 — a Mina Pizza só anuncia dentro do iFood. Plano de lançamento recomendado: R$2.280/mês, usando a estrutura que o time já desenhou.",
+  "summary_highlights": [
+    {"category": "posicao", "label": "Investimento atual (Meta/Google)", "value": "R$0/mês", "subtext": "Já roda Impulso nativo no iFood — orçamento não visível ao operador", "tone": "red"},
+    {"category": "competicao", "label": "Concorrente mais agressivo", "value": "Big Família: 63 anúncios ativos", "subtext": "Mesmo modelo de negócio (loja única, almoço+pizza)", "tone": "red"},
+    {"category": "oportunidade", "label": "Budget de lançamento recomendado", "value": "R$2.280/mês", "subtext": "Cenário B — estrutura já desenhada pelo time", "tone": "green"},
+    {"category": "janela", "label": "Benchmark nacional de maturidade", "value": "La Braciera: 48 anúncios ativos", "subtext": "Padrão do setor já é mídia paga ativa, não exceção", "tone": "yellow"},
+    {"category": "risco", "label": "Pré-requisito antes de lançar", "value": "GMB + avaliações + WhatsApp", "subtext": "Tráfego pago sem isso desperdiça o próprio investimento", "tone": "red"},
+    {"category": "maturidade", "label": "CPL alvo 90 dias", "value": "R$8 (benchmark setor: R$3-10)", "subtext": "Estimado — sem dado histórico próprio do cliente", "tone": "yellow"}
+  ],
+  "summary_key_findings": [
+    {"category": "vantagem", "text": "O time já fez o trabalho pesado de benchmark — 5 concorrentes reais mapeados na Meta Ads Library e no Google Ads Transparency Center, com estrutura de campanha e keywords já rascunhadas, prontos pra validar."},
+    {"category": "contexto", "text": "O setor de restaurante/delivery tem CPL de referência baixo (R$3-10 no Meta) comparado a outros segmentos — é um dos mercados mais baratos pra testar mídia paga."},
+    {"category": "ameaca", "text": "Cada mês sem investir é audiência local sendo capturada por concorrentes que já rodam campanha ativa na mesma região (Big Família, Café Com Pizza Santos, Qbara)."},
+    {"category": "acao", "text": "Lançar o Cenário B (R$2.280/mês) só depois dos pré-requisitos operacionais da SWOT (GMB, avaliações, WhatsApp) — a estrutura de campanha já está pronta, falta só a base."}
+  ],
+  "data_source": "no_data",
+  "data_period": "N/A — sem histórico de mídia paga ativa. Benchmark de 5 concorrentes (Meta Ads Library + Google Ads Transparency Center) coletado pelo operador em jul/2026.",
+  "monthly_budget": 0,
+  "platforms_active": ["iFood Impulso (anúncio nativo confirmado ativo pelo Roberto na call de kick-off — orçamento e período não visíveis ao operador, só o Roberto acessa o painel)"],
+  "integrations_status": {
+    "meta_ads": "not_configured",
+    "google_ads": "not_configured",
+    "google_analytics": "not_configured"
+  },
+  "is_launch_plan": true,
+  "current_metrics": {
+    "cpl": null,
+    "ctr": null,
+    "conversion_rate": null,
+    "roas": null,
+    "cpc": null,
+    "total_investment": 200,
+    "total_leads": null,
+    "total_clicks": null,
+    "impressions": null,
+    "frequency": null,
+    "unavailable_reason": "Cliente não investe em mídia paga estruturada hoje. Fora do iFood, o único teste histórico (R$200, impulsionamento pontual no Instagram) não teve pixel, segmentação nem acompanhamento. Dentro do iFood, o Roberto confirmou na call de kick-off que já roda o anúncio nativo 'Impulso' com um limite de gasto/impressão configurado — mas o painel de resultados só ele acessa, então não há como quantificar CPL/CTR desse canal nesta rodada."
+  },
+  "benchmarks": {
+    "cpl": 6.5,
+    "ctr": 2.75,
+    "conversion_rate": 18.5,
+    "roas": 6,
+    "cpc": 1.0,
+    "source": "Benchmark setorial Restaurantes/Delivery/Alimentação — V4 Company, WordStream, HubSpot LatAm (references/benchmarks-por-setor.md). CPL Meta R$3-10, CTR 2,0-3,5%, Conv. LP 12-25%, ROAS 4-8x."
+  },
+  "diagnosis_by_dimension": {
+    "account_structure": {
+      "organization": "nonexistent",
+      "segmentation": "Não há estrutura de públicos hoje — o único teste histórico (R$200 no Instagram) não teve segmentação nenhuma. O plano de lançamento propõe 4 conjuntos iniciais no Meta (awareness, visita ao perfil, tráfego NEEMO, WhatsApp) mais campanha de busca no Google.",
+      "budget_allocation": "concentrated",
+      "observation": "100% do investimento histórico (R$200) foi colocado num único impulsionamento sem segmentação — não é 'conta mal distribuída', é ausência de estrutura mesmo."
+    },
+    "creatives": {
+      "active_count": 0,
+      "ab_testing_active": false,
+      "fatigue_detected": false,
+      "evaluation": "Nenhum criativo pago ativo. Os únicos ativos visuais existentes são os posts orgânicos do Instagram (@minapizzas), parados desde meados de 2023 — servem de ponto de partida, mas precisam de produção nova alinhada ao posicionamento (Semana 2) antes de virar anúncio."
+    },
+    "landing_pages": {
+      "lp_count": 0,
+      "coherence_with_ads": "low",
+      "estimated_bounce_rate": null,
+      "evaluation": "Não existe LP própria — o site institucional foi desligado por não gerar pedido. Existe um cardápio via Neemo (achado na auditoria de S1) nunca testado como destino de campanha paga; precisa ser validado (fluxo de pedido completo, captura de dados) antes de virar canal de conversão para mídia."
+    },
+    "audiences": {
+      "types_used": [],
+      "overlap_detected": null,
+      "retargeting_active": false,
+      "evaluation": "Nenhum público construído ainda. Plano de lançamento propõe começar com interesse (pizza, iFood, comida italiana) + geolocalização de turista de fim de semana (raio 5-10km), migrando pra lookalike/retargeting assim que o pixel acumular volume mínimo."
+    }
+  },
+  "top_problems": [
+    {
+      "problem": "Fora do iFood, a Mina Pizza investe R$0/mês em mídia paga (Meta/Google) — enquanto concorrentes diretos da mesma região já disputam ativamente esse espaço digital. Dentro do iFood, o Roberto já validou que anúncio funciona (roda o Impulso nativo com limite de gasto configurado), mas nunca levou esse aprendizado pra fora da plataforma.",
+      "data_evidence": "Benchmark de funil de mídia paga (Meta Ads Library + Google Ads Transparency Center, coletado pelo operador): Big Família — mesmo modelo de negócio da Mina Pizza — sustenta em média 63 anúncios ativos no Meta; Café Com Pizza Santos roda anúncios patrocinados no Meta e Google Search; Qbara mantém 3 anúncios ativos com prova social.",
+      "impact": "Cada mês sem presença paga é audiência local sendo capturada por quem já aparece quando o cliente pesquisa 'pizzaria são vicente' ou navega no Instagram/Facebook.",
+      "dimension": "account_structure"
+    },
+    {
+      "problem": "O único teste histórico de mídia paga (R$200, impulsionamento no Instagram) não teve estrutura mínima — sem pixel, sem segmentação, sem acompanhamento — então não gerou aprendizado real, só a sensação de 'não funciona'.",
+      "data_evidence": "client.json (briefing): monthly_investment histórico de R$200 pontual em impulsionamento no Instagram, sem resultado mensurado.",
+      "impact": "A Mina Pizza reinicia sem dado histórico próprio confiável — mas com a vantagem de já ter benchmark de concorrentes reais pra calibrar expectativa desde o primeiro dia.",
+      "dimension": "account_structure"
+    },
+    {
+      "problem": "O cardápio no iFood não está categorizado como 'Marmita', tornando a Mina Pizza invisível numa busca onde concorrentes locais já têm de 134 a 3.702 avaliações.",
+      "data_evidence": "ee-s2-pesquisa-mercado.json: achado da pesquisa de mercado (Semana 1) — cardápio nomeado por prato ('Filé à Parmegiana'), não por categoria.",
+      "impact": "Investir em mídia paga gerando interesse por 'comida caseira/marmita' e direcionando pro iFood, sem essa correção, desperdiça parte do clique — a pessoa chega no cardápio e não encontra o que buscou pelo nome certo.",
+      "dimension": "landing_pages"
+    }
+  ],
+  "action_plan": [
+    {"action": "Corrigir GMB, responder avaliações pendentes e ativar WhatsApp Business (pré-requisito já mapeado na SWOT — nenhuma campanha paga deve rodar antes disso)", "priority": "high", "expected_impact": "Evita que o investimento em tráfego pago leve cliente pra uma reputação ou canal não gerenciado", "responsible": "Roberto / equipe", "deadline": "Semana 1"},
+    {"action": "Categorizar o cardápio do iFood com os termos 'Marmita'/'Quentinha', além dos nomes de prato", "priority": "high", "expected_impact": "Destrava descoberta orgânica e paga no segmento mais disputado (marmita) antes de pagar por essa keyword", "responsible": "Roberto", "deadline": "Semana 1"},
+    {"action": "Validar o canal Neemo como destino de campanha (testar fluxo de pedido completo) ou montar LP mínima com CTA de WhatsApp", "priority": "high", "expected_impact": "Cria um destino de conversão coerente fora do iFood, capturando dado de cliente próprio", "responsible": "V4 / operador", "deadline": "Semana 2"},
+    {"action": "Lançar campanha Meta Ads com a estrutura de 4 conjuntos já desenhada pelo time (Awareness, Visita ao perfil, Tráfego NEEMO com remarketing, WhatsApp)", "priority": "high", "expected_impact": "Início da geração de dados reais de CPL/CTR próprios em 30 dias", "responsible": "V4 / gestor de tráfego", "deadline": "Semana 3"},
+    {"action": "Lançar campanha Google Search com os termos de maior intenção já mapeados ('pizzaria são vicente', 'pizzaria perto de mim', 'pizzaria aberto agora', 'melhor pizzaria são vicente')", "priority": "medium", "expected_impact": "Captura demanda de busca ativa a custo baixo (R$600/mês declarado)", "responsible": "V4 / gestor de tráfego", "deadline": "Semana 3"},
+    {"action": "Revisar CPL/CTR reais após 30 dias contra o benchmark do setor (Meta CPL R$3-10) e decidir entre manter Cenário B ou escalar pro C", "priority": "normal", "expected_impact": "Primeira leitura real com dado próprio pra calibrar o resto do trimestre", "responsible": "V4", "deadline": "Semana 4"}
+  ],
+  "realistic_goal": {
+    "target_cpl": 8,
+    "target_roas": 5,
+    "justification": "CPL alvo de R$8 fica dentro do range aceitável do setor (R$2-15, benchmark R$3-10) e é conservador o suficiente pra uma conta nova, sem histórico de otimização. ROAS de 5x é compatível com o benchmark do setor (4-8x) e com o ticket médio de pizza (R$50-58) e prato feito (R$30-37).",
+    "assumptions": [
+      "GMB corrigido e avaliações respondidas antes do lançamento (pré-requisito da SWOT)",
+      "Pixel + destino de conversão (LP ou Neemo validado) instalados antes da primeira campanha",
+      "WhatsApp Business ativo como canal alternativo ao telefone problemático",
+      "Budget mínimo de R$2.000/mês mantido de forma consistente por pelo menos 60-90 dias",
+      "Cardápio do iFood categorizado como 'Marmita'/'Quentinha' antes de ativar esse cluster de keyword"
+    ],
+    "risk_factors": [
+      "Atendimento por telefone ainda inconsistente pode gerar reclamação amplificada por mais tráfego, em vez de conversão",
+      "Sem CRM/tracking histórico, o benchmark usado é do setor, não do próprio negócio — a meta pode precisar de ajuste após os primeiros 30 dias reais",
+      "Raio de entrega limitado (3-5km) pode saturar o público rápido se o budget escalar demais sem ampliar a área"
+    ]
+  },
+  "keyword_clusters": [
+    {
+      "cluster": "Marca",
+      "keywords": ["mina pizza", "mina pizzas são vicente", "mina pizza carrefour"],
+      "intent": "navigational",
+      "budget_allocation_pct": 10,
+      "expected_cpc_range": "R$0,50-1,50 [E]",
+      "bid_strategy": "CPA alvo baixo — intenção altíssima, concorrência baixa",
+      "copy_angle": "Captura direta de quem já busca a marca — reforçar tradição/36 anos",
+      "risk": "Baixo volume de busca hoje (marca pouco buscada), mas conversão altíssima"
+    },
+    {
+      "cluster": "Localização",
+      "keywords": ["pizzaria são vicente", "pizzaria perto de mim", "restaurante carrefour são vicente", "pizzaria aberto agora"],
+      "intent": "transactional",
+      "budget_allocation_pct": 40,
+      "expected_cpc_range": "R$1,00-3,00 [E]",
+      "bid_strategy": "Máx. conversões, concentrado nos horários de pico (almoço e jantar)",
+      "copy_angle": "Tradição + localização certa — corrigir o pino do GMB é pré-requisito antes de rodar essa campanha",
+      "risk": "Concorrência direta com Big Família (que já roda site próprio e Meta Ads nesses termos) e outras pizzarias locais"
+    },
+    {
+      "cluster": "Produto/Categoria",
+      "keywords": ["marmita são vicente", "prato feito perto de mim", "quentinha delivery são vicente"],
+      "intent": "transactional",
+      "budget_allocation_pct": 25,
+      "expected_cpc_range": "R$1,00-2,50 [E]",
+      "bid_strategy": "CPA alvo, testar com budget reduzido — categoria mais disputada da pesquisa de mercado",
+      "copy_angle": "Comida caseira de quem já é tradição, não 'mais um marmiteiro nascido no iFood'",
+      "risk": "Categoria mais disputada de toda a pesquisa (Caseirinha da Mãe tem 3.702 avaliações) — só ativar depois de categorizar o cardápio do iFood como 'Marmita'",
+      "opportunity_keywords": [
+        {"keyword": "marmita são vicente", "intent": "transactional", "volume_estimate": "médio-alto [E]", "expected_cpc": "R$1,00-2,50 [E]", "rationale": "Cardápio do iFood ainda não categorizado como 'Marmita' — corrigir a categorização orgânica é pré-requisito antes de pagar por essa keyword (achado da pesquisa de mercado, Semana 1)"}
+      ]
+    },
+    {
+      "cluster": "Genéricas de categoria",
+      "keywords": ["pizza delivery são vicente", "pizzaria são vicente e santos", "melhor pizzaria são vicente"],
+      "intent": "commercial",
+      "budget_allocation_pct": 15,
+      "expected_cpc_range": "R$1,00-2,00 [E]",
+      "bid_strategy": "Manual CPC com teto definido, monitorar CTR de perto nas primeiras semanas",
+      "copy_angle": "Prova social real (4,8★/54 no iFood) + 36 anos de tradição",
+      "risk": "Concorrência de Império da Pizza e Café Com Pizza Santos, que já têm volume de avaliação maior"
+    },
+    {
+      "cluster": "Conquista de concorrente",
+      "keywords": ["restaurante ti maria são vicente", "big família pizzaria"],
+      "intent": "navigational",
+      "budget_allocation_pct": 10,
+      "expected_cpc_range": "R$1,00-2,00 [E]",
+      "bid_strategy": "Baixo volume, teste de conquista — só ativar depois que o cluster de Localização estiver maduro",
+      "copy_angle": "Comparação indireta via tradição (36 anos), sem citar concorrente diretamente na copy",
+      "risk": "Baixo volume de busca e risco de rejeição de anúncio pelo Google se a copy citar marca de terceiro diretamente"
+    }
+  ],
+  "budget_reallocation_scenarios": {
+    "description": "3 cenários de lançamento — não há budget atual pra 'realocar', então os cenários representam níveis de investimento inicial, ancorados no range que o próprio Roberto já sinalizou como aceitável (R$2.000-5.000/mês).",
+    "scenario_a_conservative": {
+      "name": "Conservador — Validação",
+      "total_budget_monthly": 1500,
+      "google_split": 400,
+      "meta_split": 1100,
+      "campaigns_structure": [
+        {"campaign": "Search — Marca + Localização", "platform": "Google", "budget_monthly": 400, "objective": "Conversão / tráfego qualificado de alta intenção"},
+        {"campaign": "Awareness + Tráfego NEEMO", "platform": "Meta", "budget_monthly": 1100, "objective": "Reconhecimento + tráfego direto pro canal de pedido"}
+      ],
+      "expected_leads_monthly": 150,
+      "expected_cpl": 10,
+      "expected_roas": 4,
+      "delta_leads": "+150 vs 0 hoje",
+      "effort_weeks": 2,
+      "confidence": "medium",
+      "risk_assessment": "Budget baixo pode não gerar volume suficiente pra sair da fase de aprendizado do algoritmo dentro de 30 dias."
+    },
+    "scenario_b_realistic": {
+      "name": "Realista — Estrutura do time (recomendado)",
+      "total_budget_monthly": 2280,
+      "google_split": 600,
+      "meta_split": 1680,
+      "campaigns_structure": [
+        {"campaign": "Awareness (institucional)", "platform": "Meta", "budget_monthly": 180, "objective": "Reconhecimento — vídeos institucionais e de desejo"},
+        {"campaign": "Visita ao perfil (seguidores)", "platform": "Meta", "budget_monthly": 180, "objective": "Crescimento de seguidores qualificados"},
+        {"campaign": "Tráfego NEEMO (com remarketing + lookalike de site)", "platform": "Meta", "budget_monthly": 660, "objective": "Conversão direta — 2 públicos (interesse + remarketing)"},
+        {"campaign": "WhatsApp (reativação + aniversariantes)", "platform": "Meta", "budget_monthly": 660, "objective": "Conversão via WhatsApp — 2 públicos (reativação de clientes que sumiram + aniversariantes do mês)"},
+        {"campaign": "Search — clusters Marca, Localização e Genéricas", "platform": "Google", "budget_monthly": 600, "objective": "Busca ativa de alta intenção, campanha de pesquisa"}
+      ],
+      "expected_leads_monthly": 280,
+      "expected_cpl": 8,
+      "expected_roas": 5.5,
+      "delta_leads": "+280 vs 0 hoje",
+      "effort_weeks": 3,
+      "confidence": "medium",
+      "risk_assessment": "Estrutura já validada internamente pelo próprio time via benchmark de concorrentes — o risco principal é operacional (atendimento por telefone ainda inconsistente comprometer a conversão do tráfego pago), não a estrutura de mídia em si."
+    },
+    "scenario_c_aggressive": {
+      "name": "Agressivo — Escala",
+      "total_budget_monthly": 5000,
+      "google_split": 1000,
+      "meta_split": 4000,
+      "campaigns_structure": [
+        {"campaign": "Todas as campanhas do Cenário B, com budget dobrado", "platform": "Meta + Google", "budget_monthly": 4600, "objective": "Escala da estrutura validada"},
+        {"campaign": "Conquista de concorrente + cluster de Produto/Categoria (marmita)", "platform": "Google", "budget_monthly": 400, "objective": "Expansão pra categoria mais disputada, só após categorização do iFood"}
+      ],
+      "expected_leads_monthly": 550,
+      "expected_cpl": 9,
+      "expected_roas": 4.5,
+      "delta_leads": "+550 vs 0 hoje",
+      "effort_weeks": 4,
+      "confidence": "low",
+      "risk_assessment": "Escalar budget antes de ter 30 dias de dado próprio é arriscado — CPL pode subir por saturação de público dentro do raio de entrega pequeno (3-5km)."
+    },
+    "recommendation": "Cenário B é o ponto de partida ideal: usa quase exatamente a estrutura de campanhas que o próprio time já desenhou com base no benchmark de concorrentes, dentro do range de investimento (R$2.000-5.000/mês) que o Roberto já sinalizou como aceitável. Validar 60-90 dias nesse patamar antes de considerar o Cenário C."
+  },
+  "creative_testing_hypotheses": {
+    "description": "5 hipóteses de teste pra semana 1, inspiradas em padrões que já funcionam pros concorrentes pesquisados (benchmark de mídia paga) — cada uma vira briefing real pra Semana 3 (produção).",
+    "hypotheses": [
+      {
+        "id": "H1",
+        "hypothesis": "Se usarmos prova social real (print de avaliação do iFood sobreposto numa foto de pizza), então o CTR sobe acima da média do setor (2-3,5%), porque reduz o risco percebido de experimentar um lugar novo — mesma tática que o Qbara já usa com sucesso no benchmark de concorrentes.",
+        "angle": "Prova social + tradição",
+        "format": "single image",
+        "hook": "Print real de avaliação 4,7★ + foto da pizza",
+        "body": "36 anos, comida de verdade — veja o que quem já veio tem a dizer",
+        "cta": "Peça agora pelo iFood/WhatsApp",
+        "target_audience": "Moradores 35-65 anos, raio de 5km",
+        "success_criteria": "CTR > 2,5% E CPL < R$8",
+        "testing_budget": 150,
+        "testing_duration_days": 7
+      },
+      {
+        "id": "H2",
+        "hypothesis": "Se testarmos vídeo de bastidor (massa sendo feita, forno) no lugar de foto estática, então o custo por resultado cai, porque concorrentes como Big Família e La Braciera já validam esse formato como o de melhor engajamento no benchmark.",
+        "angle": "Bastidor / processo",
+        "format": "reels",
+        "hook": "Mão fazendo a massa + texto '36 anos assim'",
+        "body": "Sem pressa, sem receita nova — só tradição",
+        "cta": "Saiba mais no link",
+        "target_audience": "Público amplo + interesse em pizza/comida italiana",
+        "success_criteria": "CPM abaixo do benchmark do setor E CTR > 2%",
+        "testing_budget": 150,
+        "testing_duration_days": 7
+      },
+      {
+        "id": "H3",
+        "hypothesis": "Se a copy do anúncio de fim de semana focar no turista/visitante da praia (geolocalização), então a taxa de conversão sobe, porque nenhum concorrente pesquisado está disputando esse público digitalmente hoje (oportunidade já mapeada na SWOT).",
+        "angle": "Turista de fim de semana",
+        "format": "carousel",
+        "hook": "Você não sabia que a Mina Pizza está aqui há 36 anos?",
+        "body": "Perto da praia, dentro do Carrefour — sem procurar muito",
+        "cta": "Ver cardápio",
+        "target_audience": "Geolocalização raio 10km, sexta a domingo",
+        "success_criteria": "Conv. LP > 15%",
+        "testing_budget": 200,
+        "testing_duration_days": 7
+      },
+      {
+        "id": "H4",
+        "hypothesis": "Se testarmos oferta de entrada tipo 'cupom de primeira compra' (como o Big Família faz, R$10 off), então o custo de aquisição do primeiro pedido cai, porque reduz a fricção de experimentar algo novo.",
+        "angle": "Oferta de primeira compra",
+        "format": "single image",
+        "hook": "R$10 OFF na primeira compra",
+        "body": "Peça pela primeira vez e economize",
+        "cta": "Resgatar agora",
+        "target_audience": "Frios — nunca compraram da Mina Pizza",
+        "success_criteria": "CPA < R$10",
+        "testing_budget": 150,
+        "testing_duration_days": 7
+      },
+      {
+        "id": "H5",
+        "hypothesis": "Se usarmos o pastel (produto mais elogiado, menor concorrência local) como porta de entrada em vez de pizza, então o CPL cai, porque a categoria tem muito menos concorrência paga mapeada na pesquisa de mercado.",
+        "angle": "Produto-nicho de baixa concorrência",
+        "format": "video",
+        "hook": "O pastel que todo mundo comenta",
+        "body": "Feito na hora, bem recheado — do jeito que São Vicente já conhece",
+        "cta": "Peça o seu",
+        "target_audience": "Interesse em comida de rua / lanche rápido",
+        "success_criteria": "CPL < R$5",
+        "testing_budget": 100,
+        "testing_duration_days": 7
+      }
+    ],
+    "testing_budget_total_week_1": 750
+  },
+  "daypart_optimization": {
+    "description": "Ajustes de lance por janela de dia/hora, baseados no comportamento real do ICP (Marlene, Jailson, turista de fim de semana) mapeado na Semana 1.",
+    "adjustments": [
+      {"day_time": "Segunda-Sexta 11h-14h", "bid_adjustment_pct": 20, "rationale": "Horário de pico do prato feito/marmita (64% do faturamento) — segmento Jailson decide rápido por proximidade"},
+      {"day_time": "Sexta-Domingo 18h-21h", "bid_adjustment_pct": 25, "rationale": "Pico de pedido de pizza (jantar/fim de semana) e maior fluxo turístico de praia"},
+      {"day_time": "Segunda-Quinta 15h-17h", "bid_adjustment_pct": -30, "rationale": "Vale entre almoço e jantar, historicamente baixa demanda — reduzir lance evita desperdício de budget"},
+      {"day_time": "Domingo", "bid_adjustment_pct": 15, "rationale": "Fluxo turístico de praia mais forte, oportunidade ainda não capturada por nenhum concorrente digitalmente (achado da SWOT)"}
+    ]
+  },
+  "key_insight": {
+    "headline": "Big Família roda em média 63 anúncios simultâneos no Meta e La Braciera mantém 48 ativos — a Mina Pizza está em R$0/mês enquanto isso.",
+    "context": "Não é uma leitura teórica de 'todo mundo devia anunciar' — é um levantamento real feito na Meta Ads Library e no Google Ads Transparency Center dos concorrentes diretos e de referência nacional. Enquanto eles disputam ativamente a atenção do mesmo cliente que passa pelo Carrefour ou navega no Instagram, a Mina Pizza depende 100% do fluxo espontâneo.",
+    "numbered_reasons": [
+      "(1) Big Família — mesmo modelo de negócio da Mina Pizza (almoço + pizza à noite, loja única) — sustenta 63 anúncios ativos no Meta, incluindo ofertas recorrentes (borda recheada grátis toda quarta) e cupom de primeira compra.",
+      "(2) Café Com Pizza Santos e Qbara também investem, mesmo com estrutura menor — Qbara usa prova social real (comentário de cliente sobreposto na foto) com apenas 3 anúncios ativos, mostrando que não precisa de budget alto pra competir.",
+      "(3) O benchmark nacional (La Braciera, 48 anúncios ativos; Gigantesca, campanha ativa de Display + Google Search) mostra o padrão de maturidade que o setor já opera — a Mina Pizza está competindo digitalmente contra um nível que já é padrão, não experimental."
+    ],
+    "discussion_anchor": "A pergunta pro Roberto não é 'devo investir em mídia paga' — ele já respondeu isso na prática ao configurar o Impulso do iFood. A pergunta real é 'por que esse aprendizado ficou preso dentro do iFood, enquanto os concorrentes da mesma região já disputam Meta e Google também?'"
+  },
+  "honesty_alert": "Este é um plano de lançamento, não um diagnóstico de conta ativa — fora do iFood, a Mina Pizza nunca teve investimento estruturado em mídia paga (único teste no Instagram foi R$200 sem pixel/segmentação). Todas as projeções de CPL/CTR/leads são estimativas baseadas em benchmark setorial (Restaurantes/Delivery) e no comparativo de concorrentes, não em dado próprio — ficam marcadas como [E]. Além disso, o GMB errado e o atendimento inconsistente (achados da SWOT/S1) precisam ser corrigidos ANTES do lançamento — investir em tráfego pago pra uma reputação não gerenciada ou pra um WhatsApp que ainda não existe desperdiça o próprio orçamento que este plano defende.",
+  "completed_at": "2026-07-18T21:30:00Z"
+}

@@ -1,0 +1,152 @@
+{
+  "client_name": "Amanda Ferraz Arquitetura e Construção",
+  "summary": "PUV definida: 'Um único contrato para projeto, obra e decoração — sem retrabalho técnico e sem comissão escondida de fornecedor, com controle financeiro que você acompanha a cada etapa.' Direção escolhida pelo operador: 'A Especialista Técnica' (funcional, não emocional), com tagline 'Projeto, obra e decoração. Um contrato. Zero surpresa.' Território de marca: Controle · Presença · Discrição — o único quadrante vazio entre os 5 concorrentes mapeados na pesquisa de mercado.",
+
+  "summary_headline": "Amanda Ferraz ocupa o território 'Controle + Presença + Discrição' — único quadrante vazio entre 5 concorrentes mapeados, com janela fechando nos condomínios emergentes.",
+
+  "summary_highlights": [
+    {"category": "posicao", "label": "Território de marca", "value": "Controle · Presença · Discrição", "subtext": "Quadrante vazio entre 5 concorrentes mapeados", "tone": "green"},
+    {"category": "competicao", "label": "Território do concorrente #1", "value": "Eduardo Muzi: estética pura", "subtext": "Site editorial, sem prova de processo/controle", "tone": "yellow"},
+    {"category": "janela", "label": "Condomínios emergentes", "value": "2 sem 'dono' ainda", "subtext": "Fecha assim que concorrente se estabelecer", "tone": "yellow"},
+    {"category": "oportunidade", "label": "PUV aprovada", "value": "Ticket R$450-500k + gestão 12%", "subtext": "ICP: casal 35-60, patrimônio consolidado", "tone": "green"},
+    {"category": "risco", "label": "Diferencial ainda não comunicado", "value": "Status: potencial → confirmado", "subtext": "Depende da produção da Semana 3", "tone": "red"}
+  ],
+
+  "summary_key_findings": [
+    {"category": "vantagem", "text": "O território 'Controle + Presença + Discrição' está vazio entre os 5 concorrentes mapeados — nenhum combina prova de processo financeiro real com presença pessoal genuína."},
+    {"category": "contexto", "text": "A mensagem-chave emocional já aprovada na persona-icp ('Você vive sua vida. Nós vivemos a obra.') se mantém como base da comunicação, agora sustentada por um território estratégico mais amplo e defensável."},
+    {"category": "ameaca", "text": "O território é hoje mais potencial que confirmado na percepção do mercado — só vira real quando a produção da Semana 3 (brandbook, landing page, criativos) comunicar o conceito com consistência."},
+    {"category": "acao", "text": "Priorizar conteúdo que prove o processo (sem expor a planilha interna em si) nos condomínios emergentes (Almarias, Quinta da Primavera) antes que um concorrente se estabeleça lá primeiro."}
+  ],
+
+  "positioning_map": {
+    "axis_x": "Especialista territorial ←→ Generalista multi-praça",
+    "axis_y": "Estética pura ←→ Controle técnico-financeiro comunicado",
+    "client_position": "Especialista territorial + Controle técnico-financeiro comunicado",
+    "justification": "É o único quadrante sem ocupação real entre os 5 concorrentes mapeados na pesquisa de mercado — Amanda já tem a prova (planilha de 25 etapas, zero comissão de fornecedor, projeto executivo sem retrabalho), só falta comunicar com a mesma consistência territorial que já construiu organicamente no condomínio Terras da Alvorada.",
+    "competitor_positions": [
+      {"name": "Eduardo Muzi", "quadrant": "Especialista territorial + Estética pura"},
+      {"name": "Ricardo Gaspari", "quadrant": "Especialista territorial + Estética pura (mais fraca, institucional datado)"},
+      {"name": "Guedes e Bisoli", "quadrant": "Especialista territorial + Estética pura (com boa prova social)"},
+      {"name": "Vitor Dias Arquitetura", "quadrant": "Generalista + Estética pura"},
+      {"name": "Adriana Consulin Arquitetura", "quadrant": "Generalista + Estética pura"}
+    ]
+  },
+
+  "positioning_statements": [
+    {
+      "label": "A Especialista Técnica",
+      "statement": "Para famílias de alto padrão que já ouviram histórias de obra atrasada e querem investir com segurança, Amanda Ferraz é a arquiteta que entrega projeto, obra e decoração sob um único contrato e controle financeiro real, porque prova isso com um processo estruturado de etapas e recusa formal de comissionamento de fornecedores.",
+      "justification": "Ocupa diretamente o quadrante vazio identificado na pesquisa de mercado — nenhum dos 5 concorrentes mapeados comunica controle técnico-financeiro com essa força.",
+      "bet": "Prioriza o diferencial técnico/financeiro real, o único território verdadeiramente exclusivo hoje.",
+      "risk": "Pode soar 'menos bonito' ou menos aspiracional num mercado onde todo mundo vende estética primeiro — exige educar o mercado sobre por que processo importa tanto quanto design."
+    },
+    {
+      "label": "A Guardiã do Tempo",
+      "statement": "Para o casal que já comprou o terreno dos sonhos mas teme perder anos de vida numa obra sem fim, Amanda Ferraz é a arquiteta que assume a obra inteira para que a família viva sua vida, porque ela mesma está presente, resolvendo, enquanto o casal só participa das decisões que dão prazer.",
+      "justification": "Mantém a mensagem-chave emocional já aprovada e validada na skill de persona-icp — a mais reconhecível e autêntica na voz atual da marca.",
+      "bet": "Prioriza a promessa emocional (tempo, tranquilidade) já testada e aprovada pela própria cliente.",
+      "risk": "O território emocional puro ('tranquilidade', 'realizar sonhos') já é ocupado de forma genérica por todo o setor de alto padrão — sem reforço do diferencial técnico, pode se diluir entre os concorrentes."
+    },
+    {
+      "label": "A Arquiteta do Bairro",
+      "statement": "Para famílias que estão comprando terreno em condomínios emergentes como Almarias e Quinta da Primavera, Amanda Ferraz é a arquiteta que já é referência consolidada na região (40+ projetos no Terras da Alvorada), porque conhece o território, os fornecedores locais e os vizinhos que vão indicá-la.",
+      "justification": "Captura diretamente a janela de oportunidade territorial identificada na SWOT (condomínios emergentes ainda sem 'arquiteto-dono').",
+      "bet": "Prioriza escala geográfica e prova social territorial, replicando o modelo que já funcionou organicamente.",
+      "risk": "Limita a mensagem a quem já está dentro desses condomínios específicos — menos escalável para São Paulo capital ou públicos fora dessas geografias."
+    }
+  ],
+
+  "chosen_statement": "Para famílias de alto padrão que já ouviram histórias de obra atrasada e querem investir com segurança, Amanda Ferraz é a arquiteta que entrega projeto, obra e decoração sob um único contrato e controle financeiro real, porque prova isso com um processo estruturado de etapas e recusa formal de comissionamento de fornecedores.",
+
+  "puv": "Um único contrato para projeto, obra e decoração — sem retrabalho técnico e sem comissão escondida de fornecedor, com controle financeiro que você acompanha a cada etapa.",
+
+  "canvas_4p": {
+    "product": {
+      "delivers": "Um pacote turnkey completo — projeto arquitetônico, design de interiores e gerenciamento de obra sob um único contrato e uma única responsável, com processo estruturado (planilha de etapas, prestação de contas periódica) que garante zero comissionamento oculto de fornecedores.",
+      "transformation": "Antes: família com terreno comprado, sem saber por onde começar, com medo de virar mais um caso de obra atrasada e orçamento estourado, tendo que coordenar arquiteto, empreiteiro e fornecedores sozinha. Depois: participa de apenas 10-12 encontros ao longo de ~2 anos de obra, só nas decisões que dão prazer (planta, acabamentos, 3D), recebe prestação de contas periódica, e entra numa casa pronta e decorada que reflete a identidade real da família — sem ter carregado o peso do canteiro.",
+      "doesnt_deliver": "Não atende clientes que querem contratar só uma parte do serviço (só interiores, ou só execução de obra com projeto de terceiros) — Amanda recusa esses fechamentos por decisão estratégica. Também não atende obras abaixo de ~R$4-5 milhões de investimento, nem clientes que querem microgerenciar a obra de perto. E não expõe publicamente os dados internos da planilha financeira (valores negociados, fornecedores específicos) — o que é comunicado é o CONCEITO do processo, não o documento em si."
+    },
+    "price": {
+      "positioning": "premium",
+      "justification": "O ticket (R$450-500 mil em honorários de projeto+interiores, mais 12% de gestão sobre uma obra de R$5-10 milhões+) já posiciona a oferta no topo do mercado regional — a comunicação deve justificar esse valor pelo risco eliminado (zero retrabalho, zero comissão oculta), não por comparação direta de preço com concorrentes que não expõem os seus.",
+      "anchoring": "Ancorar o preço no CUSTO DE NÃO CONTRATAR o pacote completo: quem contrata separado (arquiteto + empreiteiro avulso) paga, sem saber, o comissionamento embutido (10-30% do valor da obra, prática comum no mercado local) somado ao retrabalho técnico por incompatibilização — o pacote turnkey da Amanda substitui esse custo invisível por um processo transparente."
+    },
+    "place": {
+      "main_channel": "Indicação qualificada + Instagram/site como validação (não aquisição fria)",
+      "main_channel_justification": "~99% da carteira já nasce de indicação; o comportamento real do ICP é usar o digital para VALIDAR quem já foi recomendado, não para descobrir a Amanda do zero — investir pesado em aquisição fria antes de resolver CRM e portfólio (gaps já identificados na auditoria de comunicação) desperdiçaria orçamento.",
+      "support_channel": "Mídia paga segmentada (Meta + Google), com foco territorial nos condomínios emergentes (Almarias, Quinta da Primavera) e em quem está pesquisando terreno na região — a ativar assim que CRM e portfólio estiverem prontos.",
+      "avoid_channels": [
+        {"channel": "TikTok como canal principal de aquisição", "reason": "O próprio TikTok se define como rede de entretenimento, não social — o tom 'quiet luxury' da marca não combina com o consumo acelerado da plataforma; pode ser usado pontualmente, nunca como canal principal."},
+        {"channel": "Anúncios amplos sem segmentação geográfica/de perfil", "reason": "Já causou o erro documentado da última campanha (R$1.200 gastos, só contatos de fornecedores) — sem negativação e segmentação por território/perfil de renda, o canal atrai o público errado."}
+      ]
+    },
+    "promotion": {
+      "tone": "Quiet luxury — editorial, contido, técnico mas caloroso. Sem emojis, sem gírias, sem urgência artificial, nunca ataca concorrentes publicamente. Amanda aparece com autoridade técnica real (não só imagem), conduzindo a narrativa sem competir com a arquitetura pelo protagonismo.",
+      "top_funnel_message": "Projeto, obra e decoração. Um contrato. Zero surpresa. (tagline aprovada, usada como hook de entrada em conteúdo de descoberta e nos condomínios emergentes)",
+      "bottom_funnel_message": "Planilha de etapas, prestação de contas periódica e recusa formal de comissionamento de fornecedores — agende uma conversa e veja o processo. (usada em CTAs de fundo de funil, apresentação comercial e landing page)"
+    }
+  },
+
+  "brand_territory": {
+    "three_words": ["Controle", "Presença", "Discrição"],
+    "description": "Amanda Ferraz ocupa o território de quem tem CONTROLE real (planilha, processo estruturado, zero comissão oculta) e mostra isso com PRESENÇA pessoal genuína na obra (não só em fotos bonitas), tudo comunicado com DISCRIÇÃO — sem disputar atenção, sem exagero, sem vida pessoal exposta. Na prática: cada peça de comunicação prova que existe um método por trás da beleza, sem nunca parecer 'vendedora' ou 'gritada'.",
+    "competitor_territories": [
+      {"competitor": "Eduardo Muzi", "territory": "Estética editorial pura — o site 'parece revista de arquitetura', mas sem prova de processo ou controle."},
+      {"competitor": "Ricardo Gaspari", "territory": "Dominância territorial silenciosa (condomínio Atenas) — mas sem construção de marca ativa, quase invisível digitalmente."},
+      {"competitor": "Guedes e Bisoli", "territory": "Organização e prova social ('catálogo de alto padrão') — mais próximo de 'confiabilidade organizada' que de controle técnico-financeiro."},
+      {"competitor": "Vitor Dias Arquitetura", "territory": "Escala multi-praça e discurso genérico de 'transformação de espaços em experiências'."},
+      {"competitor": "Adriana Consulin Arquitetura", "territory": "Capital de mídia e prêmios — autoridade pela validação externa (CasaCor, TV), não pelo processo."}
+    ],
+    "availability_justification": "Nenhum dos 5 concorrentes mapeados combina controle técnico-financeiro real, presença pessoal genuína e comunicação contida — cada um ocupa só um pedaço (estética, território silencioso, organização, escala, ou mídia). O território está disponível porque construí-lo exige ter, de fato, o processo implementado (que Amanda já tem) e a disciplina de comunicá-lo sem exagero (o oposto do que os concorrentes mais visíveis fazem hoje)."
+  },
+
+  "taglines": [
+    {
+      "tagline": "Você vive sua vida. Nós vivemos a obra.",
+      "tone": "Emocional, já validado na marca",
+      "justification": "É a frase-mãe já testada no site e no manual de copywriting da própria marca — carrega a mensagem-chave aprovada na persona-icp com autenticidade, sem soar como texto novo e não testado.",
+      "best_use": "Assinatura de marca, headline do site, abertura de vídeos institucionais"
+    },
+    {
+      "tagline": "Projeto, obra e decoração. Um contrato. Zero surpresa.",
+      "tone": "Funcional, direto",
+      "justification": "Traduz o diferencial técnico (pacote completo + controle) em linguagem curta e concreta — ideal para reforçar a prova depois que a promessa emocional já foi estabelecida.",
+      "best_use": "Anúncios de fundo de funil, apresentação comercial, rodapé da landing page"
+    },
+    {
+      "tagline": "Arquitetura que não se explica. Se prova.",
+      "tone": "Sóbrio, territorial",
+      "justification": "Reforça o território de 'Controle + Presença + Discrição' sem soar promocional — sugere que a prova está no processo, não no discurso, alinhado ao pilar 'quiet luxury' de nunca disputar atenção.",
+      "best_use": "Bio do Instagram, posts educativos sobre o processo, conteúdo de topo de funil"
+    }
+  ],
+
+  "recommended_tagline": "Projeto, obra e decoração. Um contrato. Zero surpresa.",
+
+  "operator_direction": {
+    "strongest_differential": "Projeto executivo sem retrabalho + recusa de comissionamento de fornecedores — já confirmado como diferencial real na pesquisa de mercado e na SWOT. Decisão do operador: liderar a comunicação com esse diferencial técnico, não com a promessa emocional.",
+    "desired_position": "Especialista territorial + Controle técnico-financeiro comunicado — o quadrante vazio identificado na pesquisa de mercado.",
+    "positioning_restrictions": [
+      "Nunca vida pessoal exposta no feed principal",
+      "Nunca atacar ou comparar concorrentes publicamente",
+      "Nunca linguagem promocional, desconto ou urgência artificial",
+      "Nunca expor os dados internos da planilha financeira (valores negociados, fornecedores específicos)"
+    ],
+    "desired_tone": "Quiet luxury — profissional, editorial, contido, técnico mas caloroso, conforme já definido no briefing e no manual de marca existente."
+  },
+
+  "key_insight": {
+    "headline": "O quadrante 'Especialista territorial + Controle técnico-financeiro comunicado' está vazio — e a janela fecha à medida que os condomínios emergentes ganham um 'arquiteto-referência' concorrente.",
+    "context": "Nenhum dos 5 concorrentes mapeados combina prova de processo financeiro com presença territorial. Isso não é acidente — exige ter o processo implementado de verdade (que a maioria não tem) e a disciplina de comunicá-lo sem exagero (o que contraria o instinto natural do setor de vender só estética).",
+    "numbered_reasons": [
+      "Amanda já tem a prova real (planilha de 25 etapas, zero comissão de fornecedor) — falta só comunicar o conceito, não construir a capacidade do zero.",
+      "Os condomínios emergentes (Almarias, Quinta da Primavera) ainda não têm um arquiteto-referência estabelecido — a janela fecha assim que um concorrente conquistar essa posição primeiro, como já aconteceu no Terras da Alvorada (Amanda) e no Atenas (Ricardo Gaspari).",
+      "Ocupar esse território sustenta um preço premium justificado por prova, não por promessa — algo que nenhum concorrente consegue copiar rapidamente, porque exigiria expor um processo que eles simplesmente não têm."
+    ],
+    "discussion_anchor": "Decisão tomada: o operador optou pela direção técnica ('A Especialista Técnica') em vez da emocional, liderando a comunicação com o diferencial de controle/processo. Isso significa que as próximas peças (Semana 3 — brandbook, identidade visual, landing page) devem nascer desse território técnico como eixo principal, com a promessa emocional (tempo, tranquilidade) como reforço secundário — não o contrário.",
+    "feasibility": "alta"
+  },
+
+  "honesty_alert": "O território escolhido ('Controle + Presença + Discrição') depende de uma capacidade REAL que já existe (planilha de 25 etapas, recusa de comissionamento, presença pessoal nas obras), mas que ainda não foi comunicada publicamente com consistência — hoje esse diferencial está classificado como 'potencial', não 'confirmado', na pesquisa de mercado. Até que as skills de produção da Semana 3 (brandbook, identidade visual, landing page, criativos) traduzam esse conceito em conteúdo público, o território é aspiracional NA PERCEPÇÃO do mercado, mesmo sendo verdadeiro NA PRÁTICA da empresa. Priorizar essa comunicação é o que transforma o diferencial de 'potencial' para 'confirmado'."
+}

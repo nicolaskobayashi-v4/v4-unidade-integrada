@@ -1,0 +1,141 @@
+{
+  "client_name": "JK Climatização",
+  "skill": "ee-s5-scripts-sdr",
+  "version": 1,
+  "generated_at": "2026-07-09",
+  "data_source": "ee-s4-diagnostico-comercial (v1) + ee-s1-persona-icp (v1) + Manual de Copywriting (tom de voz/PUV) + S3 Diagnóstico de Marketing",
+  "nota_metodologica": "ee-s3-brandbook segue pendente (gap conhecido e aceito pelo operador em 09/07/2026). O tom de voz usado nos scripts abaixo vem do Manual de Copywriting da base de conhecimento — que já documenta arquétipos, tom e palavras-chave validados com o próprio André na pesquisa de mercado — tratado aqui como substituto funcional do brandbook formal. Revisar linguagem quando ee-s3-brandbook existir. O critério de pontuação e o SLA por score reaproveitam integralmente a escala 1-5 estrelas definida em ee-s4-diagnostico-comercial, sem reinventar critério novo.",
+
+  "summary": "Scripts de WhatsApp para o SDR da JK cobrindo boas-vindas, qualificação com pontuação 1-5 estrelas (reaproveitando a escala do diagnóstico comercial), fluxo diferenciado por score, respostas às 6 objeções mais comuns já mapeadas, e cadência de follow-up D+1/D+3/D+7 com mínimo de 12 tentativas — o ponto que o próprio André identificou como o maior buraco do processo comercial atual.",
+  "summary_headline": "O roteiro de qualificação já existe na cabeça do André (10+ aparelhos, raio de 300km, urgência) — este documento só formaliza isso em script pronto pra Pedro e pro futuro agente de IA usarem sem precisar dele por perto.",
+
+  "summary_highlights": [
+    { "category": "posicao", "label": "Critério de pontuação", "value": "Reaproveitado 1:1", "subtext": "Mesma escala 1-5⭐ do ee-s4-diagnostico-comercial, sem criar critério novo", "tone": "blue" },
+    { "category": "maturidade", "label": "Cadência de follow-up", "value": "D+1/D+3/D+7", "subtext": "Mínimo 12 tentativas — hoje a JK faz 0", "tone": "green" },
+    { "category": "risco", "label": "Tom de voz", "value": "Aproximado", "subtext": "Baseado no Manual de Copywriting — revisar quando ee-s3-brandbook existir", "tone": "yellow" },
+    { "category": "oportunidade", "label": "Objeções cobertas", "value": "6 principais", "subtext": "Preço, PMOC, MEI, demora emergencial, informalidade, jargão técnico", "tone": "green" },
+    { "category": "competicao", "label": "Handoff humano", "value": "3 gatilhos definidos", "subtext": "Score 5⭐, objeção não resolvida, e pedido explícito de falar com técnico", "tone": "blue" }
+  ],
+
+  "summary_key_findings": [
+    { "category": "vantagem", "text": "Pedro já demonstrou, no cliente oculto real que a própria JK sofreu, ter instinto comercial acima da concorrência (único a mandar orçamento formal por e-mail e perguntar sobre PMOC) — os scripts abaixo formalizam esse instinto em texto, não inventam um personagem novo." },
+    { "category": "contexto", "text": "Em conta B2B, quem normalmente inicia o contato é o setor de compras (persona Elton), não o gerente técnico (persona Marcos Zimmermann) — por isso o roteiro de qualificação evita jargão técnico pesado logo de cara, reservando termos como 'análise de carga térmica' para depois que o gerente técnico entrar na conversa." },
+    { "category": "ameaca", "text": "Sem o brandbook formal, existe risco de o tom soar 'quase certo' mas não 100% autêntico à voz que André, Sabrina e o time realmente usam no dia a dia — validar com eles antes de ativar em produção, igual já foi sinalizado no diagnóstico comercial." },
+    { "category": "acao", "text": "Ativar a cadência de follow-up D+1/D+3/D+7 é o ganho mais barato e mais rápido de todo o diagnóstico — pode começar com Pedro seguindo o roteiro manualmente por WhatsApp antes mesmo do agente de IA (ee-s5-sdr-ia-config) entrar em produção." }
+  ],
+
+  "persona_do_agente": {
+    "nome_interno": "Atendimento JK Climatização",
+    "arquetipo": "Sábia + Cuidadora + Soberana (Manual de Copywriting)",
+    "tom": "Técnico-Consultivo, Pragmático, Analítico e Categórico — fala com a segurança de quem domina os números e a legislação do setor, sem soar como robô lendo script nem como varejo popular.",
+    "o_que_evitar": ["Qualquer menção a 'linha branca' ou conserto de eletrodoméstico doméstico simples", "Informalidade excessiva ou emojis em excesso — a marca não é descontraída, é confiável", "Simplificar demais com quem já demonstrou conhecimento técnico (persona Marcos Zimmermann)", "Jargão técnico pesado logo na primeira mensagem com quem ainda não demonstrou domínio do assunto (persona Elton)"],
+    "palavras_essenciais": ["PMOC", "ART", "Engenharia Térmica", "AVAC-R", "Fluido refrigerante", "Compliance regulatório"],
+    "palavras_emocionais": ["Segurança jurídica", "Previsibilidade", "Blindagem fiscal", "Certeza operacional", "Capricho técnico"]
+  },
+
+  "roteiro_boas_vindas": [
+    {
+      "canal": "WhatsApp direto / indicação",
+      "mensagem": "Olá! Aqui é da JK Climatização, em Pomerode. Vi sua mensagem — pra te direcionar certo, me conta rapidinho: é pra uma empresa/indústria, ou residência?",
+      "objetivo": "Separar B2B de B2C antes de qualquer outra pergunta, sem soar como formulário"
+    },
+    {
+      "canal": "Instagram / site (formulário preenchido)",
+      "mensagem": "Oi, [nome]! Recebemos seu contato pelo [Instagram/site]. Antes de te passar qualquer informação, só preciso confirmar 2-3 detalhes rápidos pra te atender do jeito certo — pode ser?",
+      "objetivo": "Confirmar recebimento e abrir a qualificação sem parecer interrogatório"
+    }
+  ],
+
+  "roteiro_qualificacao": {
+    "principio": "Reaproveita a escala de 1-5 estrelas de ee-s4-diagnostico-comercial. As perguntas abaixo mapeiam diretamente pros critérios de corte já validados (10+ aparelhos, raio 300km, urgência).",
+    "perguntas": [
+      { "ordem": 1, "pergunta": "É pra uma empresa/indústria ou residência?", "mapeia_para": "Segmenta ICP 1 (B2B) vs ICP 2/3 (B2B2C/B2C)" },
+      { "ordem": 2, "pergunta": "(Se empresa) Quantos aparelhos de ar-condicionado/climatização vocês têm instalados hoje, mais ou menos?", "mapeia_para": "Corte de 10+ aparelhos — critério central do ICP principal" },
+      { "ordem": 3, "pergunta": "Vocês ficam em qual cidade?", "mapeia_para": "Raio de 150-300km de Pomerode — fora disso, cai pra 1⭐" },
+      { "ordem": 4, "pergunta": "É uma situação de urgência (máquina parada, calor extremo) ou é planejamento/manutenção preventiva?", "mapeia_para": "Urgência eleva prioridade dentro do mesmo tier de estrelas" },
+      { "ordem": 5, "pergunta": "(Se B2B2C/arquiteto) É pra um projeto de obra em andamento? Em qual fase está?", "mapeia_para": "ICP 2 — valida se é 4⭐ (obra confirmada) ou descarta" }
+    ],
+    "logica_de_pontuacao_reaproveitada": [
+      { "estrelas": 5, "criterio": "Empresa/indústria, 10+ aparelhos, dentro do raio, com sinal de urgência" },
+      { "estrelas": 4, "criterio": "Arquiteto/construtora com obra confirmada, dentro do raio" },
+      { "estrelas": 3, "criterio": "Empresa <10 aparelhos dentro do raio, ou residência com potencial de contrato recorrente" },
+      { "estrelas": 2, "criterio": "Residência avulsa comum, dentro do raio, sem sinal de recorrência" },
+      { "estrelas": 1, "criterio": "Fora do raio de 300km, pede sistema evaporativo, ou só compara preço com MEI informal" }
+    ]
+  },
+
+  "fluxo_por_score": [
+    { "estrelas": 5, "fluxo": "Resposta imediata (≤5min). Agente confirma dados e já avisa: 'Vou te conectar com nosso time técnico agora mesmo pra gente agilizar seu atendimento.' Handoff direto pra Marlon/André — não tenta fechar orçamento sozinho nesse tier." },
+    { "estrelas": 4, "fluxo": "Resposta em até 15min. Qualifica fase da obra e valor estimado do projeto, depois faz handoff pra Marlon/André com contexto já resumido." },
+    { "estrelas": 3, "fluxo": "Resposta em até 1h (expediente). Segue qualificação padrão, Pedro conduz com autonomia dentro da cadência normal." },
+    { "estrelas": 2, "fluxo": "Resposta no mesmo dia útil. Atendimento padrão, sem prospecção ativa adicional depois." },
+    { "estrelas": 1, "fluxo": "Resposta cortês e objetiva, com mensagem de desqualificação educada (ver abaixo) — não entra em cadência de follow-up." }
+  ],
+
+  "mensagem_desqualificacao_1_estrela": "Entendi! Pelo que você descreveu, esse não é exatamente o tipo de atendimento que fazemos hoje aqui na JK (trabalhamos só com sistema por fluido refrigerante, não evaporativo / atendemos numa região específica em torno de Pomerode). Mas fico à disposição se precisar de mais alguma coisa!",
+
+  "tratamento_de_objecoes": [
+    {
+      "objecao": "Achei caro / vocês estão acima do mercado",
+      "resposta": "Entendo a preocupação com o valor — mas pensa assim: uma hora de máquina parada custa muito mais caro pra sua operação do que um ano inteiro de manutenção preventiva planejada. O contrato já inclui ART assinada por engenheiro habilitado, então você também está coberto numa eventual fiscalização."
+    },
+    {
+      "objecao": "PMOC é só papelada, não preciso disso",
+      "resposta": "Entendo — muita gente pensa assim até passar por uma fiscalização. A multa por falta de PMOC pode ir de R$2 mil a mais de R$1 milhão dependendo do porte, e a ART que a gente emite é justamente o que te protege nesse cenário."
+    },
+    {
+      "objecao": "Um autônomo/MEI cobra bem menos por chamado avulso",
+      "resposta": "Faz sentido comparar — mas vale entender o que está incluso: ART assinada, checklist digital com relatório fotográfico de cada visita, e atendimento emergencial garantido no verão (nosso sistema Coringa reserva agenda só pra isso). Um autônomo não assume essa responsabilidade técnica."
+    },
+    {
+      "objecao": "Tenho medo de vocês demorarem numa emergência de calor",
+      "resposta": "Totalmente justo — por isso a gente mantém vagas reservadas na agenda especificamente pra corretivas emergenciais no verão, decididas 1 dia antes pra não atrasar quem já tem contrato fixo com a gente."
+    },
+    {
+      "objecao": "Técnico de climatização costuma bagunçar tudo / ser informal",
+      "resposta": "Entendo a preocupação, principalmente numa obra de acabamento fino. Nossa equipe passa por seleção comportamental rígida — o protocolo interno é 'entra mudo, sai calado': discrição, uniforme e organização total no ambiente."
+    },
+    {
+      "objecao": "Cliente não entende termos técnicos (análise de carga térmica, VRF, etc.)",
+      "resposta": "Sem problema, deixa eu simplificar: [explicação sem jargão]. Se quiser, no momento da visita técnica nosso responsável entra em mais detalhe com quem cuida da manutenção aí na empresa de vocês."
+    }
+  ],
+
+  "cadencia_de_followup": {
+    "principio": "Mínimo 12 tentativas antes de considerar o lead perdido (referência de mercado citada em ee-s4-diagnostico-comercial; André já viu um caso real precisar de 14). Reaproveita a cadência D+1/D+3/D+7 já recomendada.",
+    "mensagens": [
+      { "quando": "D+1 (sem resposta à proposta)", "mensagem": "Oi, [nome]! Passando pra saber se conseguiu ver a proposta que te mandei. Ficou alguma dúvida?" },
+      { "quando": "D+3", "mensagem": "Oi novamente! Só reforçando que consigo ajustar o orçamento conforme a necessidade de vocês — tem algum ponto específico que travou a decisão?" },
+      { "quando": "D+7", "mensagem": "[nome], não quero ser insistente, mas fico à disposição se surgir qualquer necessidade — pode ser até mais pra frente. Posso te chamar de novo daqui uns dias?" },
+      { "quando": "Reativação sazonal (D+30/60/90, quando o cliente pediu pra falar 'mais pra frente')", "mensagem": "Oi, [nome]! Faz um tempo que conversamos sobre [necessidade]. Com a chegada do [verão/período de auditoria], separei uma vaga na nossa agenda — topa retomar a conversa?" }
+    ],
+    "regra_de_parada": "Após 12 tentativas sem resposta, marcar como 'frio' e não insistir mais — não forçar qualificação artificial só para bater meta (mesmo princípio usado em outros clientes da V4)."
+  },
+
+  "mensagens_de_handoff_humano": [
+    { "gatilho": "Score 5⭐ (B2B corporativo/industrial qualificado)", "mensagem": "Vou te conectar agora com nosso time técnico pra agilizar — em instantes alguém fala com você por aqui mesmo." },
+    { "gatilho": "Objeção não resolvida pelo script após 2 tentativas", "mensagem": "Deixa eu chamar alguém do nosso time pra te ajudar melhor com isso, só um instante." },
+    { "gatilho": "Cliente pede explicitamente para falar com um técnico/responsável", "mensagem": "Claro! Já te conecto com quem pode te ajudar diretamente." }
+  ],
+
+  "key_leverage_point": {
+    "headline": "O roteiro de qualificação que este documento formaliza já existe na cabeça do André — o ganho aqui não é criar conhecimento novo, é tirar esse conhecimento da cabeça dele e colocar em texto que Pedro (e depois o agente de IA) consiga usar sozinho.",
+    "context": "Cada critério de corte usado nos scripts acima (10+ aparelhos, raio de 300km, urgência sazonal) já foi dito literalmente pelo André nas reuniões. O gargalo nunca foi falta de critério — foi falta de formalização replicável.",
+    "numbered_reasons": [
+      "Sem esse roteiro escrito, cada atendente qualifica 'no feeling', o que já foi identificado como prática atual de Marlon",
+      "A cadência de follow-up D+1/D+3/D+7 é, segundo o próprio diagnóstico comercial, o gargalo de maior alavancagem e mais barato de resolver — pode começar manualmente, sem esperar o agente de IA",
+      "Formalizar a resposta à objeção de preço (custo de parada vs. preventiva) tira a dependência de o André precisar estar em toda negociação"
+    ],
+    "discussion_anchor": "Vale testar esse roteiro manualmente com Pedro por 1-2 semanas antes de configurar o agente de IA (ee-s5-sdr-ia-config) — assim qualquer ajuste de tom ou pergunta é feito com gente real respondendo, não só no papel."
+  },
+
+  "honesty_alert": "Este roteiro usa um tom de voz aproximado, baseado no Manual de Copywriting (que já foi validado com o André na pesquisa de mercado, mas não é o brandbook formal desta consultoria, ainda pendente). Nenhum destes scripts foi testado com leads reais — antes de ativar em produção (seja com Pedro manualmente, seja no agente de IA), validar a linguagem com André, Sabrina e o próprio Pedro, que conhece o público real melhor do que qualquer texto no papel.",
+
+  "pendente_confirmacao_operador": [
+    "Validar tom e linguagem dos scripts com André, Sabrina e Pedro antes de ativar",
+    "Confirmar se Pedro vai testar manualmente por WhatsApp antes do agente de IA entrar em produção",
+    "Revisar linguagem quando ee-s3-brandbook existir formalmente"
+  ],
+
+  "alimenta_skills": ["ee-s5-sdr-ia-config"]
+}

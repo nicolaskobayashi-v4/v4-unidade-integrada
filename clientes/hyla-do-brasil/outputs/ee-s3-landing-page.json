@@ -1,0 +1,125 @@
+{
+  "client_name": "Hyla do Brasil",
+  "skill": "ee-s3-landing-page",
+  "generated_at": "2026-07-21",
+  "status": "rascunho — aguardando aprovação do operador",
+  "data_source": "ee-s2-posicionamento (corrigido 21/07) + ee-s1-persona-icp + ee-s1-swot + ee-s2-diagnostico-cro + copy da LP atual (hyladobrasil.com.br/aspirador-hyla-do-brasil)",
+
+  "summary": "Copy completa da LP de captação (consumidor final), reposicionada de 'limpeza' para 'causa da alergia' conforme o ponto de alavancagem já aprovado em ee-s2-posicionamento — devolvendo à página os dois ativos de confiança hoje ausentes (garantia de 15 anos e 17 anos de mercado) e reduzindo o FAQ de 14 para 7 perguntas focadas em objeção real de compra.",
+
+  "summary_headline": "A LP no ar lidera com especificação técnica de limpeza e nunca menciona garantia nem tempo de mercado; a copy nova lidera com a causa da alergia e devolve os dois ativos de confiança que faltavam.",
+
+  "summary_highlights": [
+    { "category": "posicao", "label": "Eixo do headline", "value": "Saúde, não limpeza", "subtext": "Alinhado ao ponto de alavancagem já aprovado em ee-s2-posicionamento", "tone": "green" },
+    { "category": "risco", "label": "Ativos ausentes na LP atual", "value": "Garantia e 17 anos", "subtext": "Nenhum dos dois aparece na página hoje no ar, apesar de validados como forças em ee-s1-swot", "tone": "yellow" },
+    { "category": "oportunidade", "label": "FAQ", "value": "14 → 7 perguntas", "subtext": "Cortadas perguntas genéricas (ruído do motor, consumo de energia) sem valor de objeção real de compra", "tone": "green" },
+    { "category": "risco", "label": "Pré-requisito técnico", "value": "2,18MB de JS não usado", "subtext": "ee-s2-diagnostico-cro: ganho de copy fica mascarado se a performance mobile não for corrigida antes", "tone": "red" }
+  ],
+
+  "summary_key_findings": [
+    { "category": "vantagem", "text": "A frase 'sua casa pode estar limpa e você continuar com alergia' já foi validada como o ponto de alavancagem em ee-s2-posicionamento — nenhum concorrente direto pode copiar o argumento técnico por trás dela (separador autolimpante patenteado)." },
+    { "category": "contexto", "text": "A LP atual no ar tem estrutura de 8 depoimentos reais, processo em 3 passos e selos de confiança — só falta reordenar a hierarquia da mensagem (saúde antes de especificação) e comunicar garantia/tempo de mercado, hoje ausentes." },
+    { "category": "ameaca", "text": "Sem corrigir os 2,18MB de JavaScript não usado e o LCP reprovado no mobile (82,5% do tráfego pago), qualquer ganho de conversão da copy nova é mascarado pela lentidão de carregamento — já identificado em ee-s2-diagnostico-cro." },
+    { "category": "acao", "text": "'Garantia vitalícia' foi corrigida para 'garantia de 15 anos' em toda a copy — Davi confirmou em transcrição que a garantia vitalícia é um projeto, ainda não existe; o que é vitalício de fato é o treinamento de uso." }
+  ],
+
+  "sections": [
+    {
+      "name": "hero",
+      "eyebrow": "Tecnologia patenteada · 17 anos no Brasil",
+      "headline": "Sua casa pode estar limpa. Você continuar com alergia.",
+      "subheadline": "O HYLA ataca a causa da sua alergia em casa — não só a poeira que você vê. Demonstração gratuita, garantia de 15 anos e 17 anos de resultado comprovado.",
+      "cta_primary": "Quero minha demonstração gratuita",
+      "cta_secondary": "Ver como funciona",
+      "stats": [
+        { "number": "17 anos", "label": "de mercado no Brasil" },
+        { "number": "15 anos", "label": "de garantia" },
+        { "number": "80+", "label": "países" },
+        { "number": "99,9%", "label": "da poeira fina removida" }
+      ]
+    },
+    {
+      "name": "problem",
+      "headline": "Você já tentou de tudo — e a alergia continua",
+      "cards": [
+        { "title": "Alergia que não passa", "body": "Você limpa toda semana e mesmo assim acorda espirrando, com o nariz entupido ou os olhos irritados." },
+        { "title": "Aspirador que só varre o que dá pra ver", "body": "O aspirador comum recolhe a poeira visível. Os ácaros que causam a crise ficam no colchão, no sofá, no tapete." },
+        { "title": "Medo de pagar caro por algo que nunca viu funcionar", "body": "Ninguém quer investir um valor alto numa marca que só conhece por anúncio, sem ver o resultado antes de decidir." }
+      ]
+    },
+    {
+      "name": "solution",
+      "headline": "O único sistema que ataca a causa da sua alergia",
+      "benefits": [
+        { "icon": "shield-check", "title": "Ataca a causa, não só o sintoma", "body": "Tecnologia patenteada de separação por água captura 99,9% da poeira fina que o aspirador comum devolve pro ar." },
+        { "icon": "eye", "title": "Você vê funcionar antes de pagar", "body": "Demonstração gratuita e sem compromisso na sua casa: veja o HYLA limpar seu próprio colchão." },
+        { "icon": "shield", "title": "Garantia de 15 anos, treinamento vitalício", "body": "15 anos de garantia no equipamento, e treinamento de uso sempre que precisar, para sempre, sem custo." },
+        { "icon": "award", "title": "17 anos de mercado, tecnologia de origem alemã", "body": "Presente em mais de 80 países, aprovada por especialistas em saúde respiratória." }
+      ]
+    },
+    {
+      "name": "how_it_works",
+      "headline": "Do agendamento à demonstração, em 3 passos",
+      "steps": [
+        { "number": 1, "title": "Agende sua demonstração", "body": "Preencha o formulário e fale com um especialista da sua região, sem custo." },
+        { "number": 2, "title": "Veja funcionar na sua casa", "body": "O especialista limpa, ao vivo, o seu próprio colchão ou sofá." },
+        { "number": 3, "title": "Sinta a diferença e decida com calma", "body": "Parcelamento em até 36x. Você decide depois de ver o resultado." }
+      ]
+    },
+    {
+      "name": "deliverables",
+      "headline": "Onde o HYLA faz diferença na sua casa",
+      "items": [
+        { "title": "Colchões e travesseiros", "benefit": "Remove ácaros do local onde você passa 1/3 do dia dormindo" },
+        { "title": "Sofás e estofados", "benefit": "Elimina odores e alérgenos acumulados no tecido" },
+        { "title": "Tapetes e carpetes", "benefit": "Higieniza fundo a fundo, onde o aspirador comum não alcança" },
+        { "title": "Pisos frios e laminados", "benefit": "Limpa sem espalhar poeira fina no ar" },
+        { "title": "Cortinas e persianas", "benefit": "Remove poeira acumulada sem precisar desmontar" }
+      ]
+    },
+    {
+      "name": "final_cta",
+      "eyebrow": "Vagas de demonstração por região",
+      "headline": "Pare de conviver com uma alergia que tem causa — e solução.",
+      "subheadline": "Demonstração gratuita, sem compromisso, na sua casa. Garantia de 15 anos. Parcelamento em até 36x.",
+      "cta_primary": "Quero agendar minha demonstração"
+    }
+  ],
+
+  "faq": [
+    { "question": "É muito caro?", "answer": "Você vê o resultado antes de decidir — a demonstração é gratuita e sem compromisso, e o pagamento pode ser parcelado em até 36x." },
+    { "question": "Já tenho um aspirador, pra que preciso do HYLA?", "answer": "O aspirador comum tira a poeira que você vê. O HYLA ataca os ácaros e partículas finas que causam a alergia." },
+    { "question": "Nunca ouvi falar da marca, é confiável?", "answer": "17 anos de mercado no Brasil, presente em mais de 80 países, garantia de 15 anos — peça a demonstração e veja com seus próprios olhos." },
+    { "question": "O HYLA realmente resolve alergia, rinite ou asma?", "answer": "O HYLA remove 99,9% da poeira fina nociva do ar e é certificado como sistema de promoção da saúde e prevenção de doenças alérgicas e respiratórias (INMETRO, ISO 9001)." },
+    { "question": "Por que o preço do HYLA não aparece no site?", "answer": "O valor varia conforme os acessórios e a configuração escolhida. Por isso a venda é feita por demonstração personalizada, sem pressão — você só decide depois de ver funcionar." },
+    { "question": "Funciona em casa com pets?", "answer": "Sim — o HYLA captura pelos e caspa de animais de forma eficiente, além da poeira e dos ácaros." },
+    { "question": "Como funciona a garantia?", "answer": "O HYLA tem 15 anos de garantia no equipamento. Além disso, o treinamento de uso é vitalício — você pode pedir para relembrar sempre que precisar, sem custo." }
+  ],
+
+  "social_proof": {
+    "testimonials": [
+      { "name": "Adriane Calsolari", "text": "Desde que adquiri um equipamento HYLA posso dizer que 'minha vida mudou'. Infelizmente sofro de bronquite asmática e nunca mais tive problemas alérgicos." },
+      { "name": "Andreza Moreti Dinucci", "text": "Super indico o Hyla. Ele é muito potente e não joga a poeira de volta para o ar. As rinites em casa praticamente acabaram." },
+      { "name": "Isadora Moreira", "text": "Amo o meu Hyla, valeu muito a pena o investimento. Acabamos com as alergias na minha casa!! Melhoria no sono e praticidade no dia a dia!" },
+      { "name": "Eliani Sartori", "text": "Melhor investimento da vida, equipamento TOP de linha. Saúde, bem-estar, casa limpa e higienizada como nem imaginamos." },
+      { "name": "Michel Avelar", "text": "Hyla é um super aspirador, além do pó da casa ele higieniza o nosso pet, a Lizzie, retirando pele morta e pelos e também purificando o ar." }
+    ]
+  },
+
+  "meta": {
+    "title": "HYLA do Brasil | Ataca a Causa da Alergia",
+    "description": "Demonstração gratuita na sua casa. Tecnologia patenteada, garantia de 15 anos e 17 anos cuidando da saúde respiratória das famílias brasileiras.",
+    "og_title": "HYLA do Brasil | Ataca a Causa da Alergia",
+    "og_description": "Sua casa pode estar limpa e você continuar com alergia. Veja o HYLA funcionar na sua própria casa, de graça.",
+    "og_type": "website"
+  },
+
+  "decisoes_pendentes": [
+    "Formulário curto (nome+telefone+cidade) no topo além do completo no fim — recomendado pelo ee-s2-diagnostico-cro, depende de OK técnico do time que mantém o site.",
+    "CTA principal continua sendo o formulário (não WhatsApp direto), porque o C2S distribui o lead por região/associada — mudar pra WhatsApp direto quebraria esse roteamento.",
+    "Sem CTA de recrutamento de associada nesta LP — sugerido como página separada ('Hyla do Brasil Business'), já mapeada em ee-s1-swot (O1) e ee-s1-persona-icp.",
+    "Sem promessa de prazo de resposta agressivo no CTA final — ee-s4-diagnostico-comercial encontrou falha real de follow-up (23+ dias sem retorno em 1 dos 2 testes); prometer o que a operação não cumpre hoje pioraria a percepção.",
+    "Perguntar ao cliente se há fotos reais dos clientes dos depoimentos — formato rico (foto+fonte+bairro) converte mais, mas hoje só temos nome+texto.",
+    "Aplicação de paleta/tipografia da nova identidade visual aguarda o manual oficial da matriz (13/08) — esta copy não depende disso."
+  ]
+}

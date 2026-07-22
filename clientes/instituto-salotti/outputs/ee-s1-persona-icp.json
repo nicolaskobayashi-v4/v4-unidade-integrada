@@ -1,0 +1,379 @@
+{
+  "client_name": "Instituto Salotti de Odontologia Digital",
+  "skill": "ee-s1-persona-icp",
+  "generated_at": "2026-05-05",
+  "data_source": "Formulário pré-kickoff (25/04) + Plano ROI SPICED (23/04) + S1 Kickoff (29/04)",
+
+  "summary": "O ICP do Instituto Salotti é adulto com 35–65 anos, renda média-alta em Jundiaí, que toma decisões por dor ou por vaidade qualificada — e valida qualquer escolha pela reputação do profissional, não pelo preço. A clínica não compete com quem é mais barato: compete com a procrastinação, o medo e a resignação de pessoas que poderiam pagar, mas ainda não decidiram que vale a pena.",
+
+  "summary_headline": "O paciente do Instituto Salotti não busca dentista — busca alguém em quem possa confiar para resolver de uma vez, sem surpresas e sem voltar mil vezes.",
+
+  "summary_highlights": [
+    {
+      "category": "posicao",
+      "label": "Faixa etária ICP",
+      "value": "35–65 anos",
+      "subtext": "Adultos com poder de compra e problema real",
+      "tone": "blue"
+    },
+    {
+      "category": "oportunidade",
+      "label": "Ticket médio alvo",
+      "value": "R$25k–R$30k",
+      "subtext": "Por paciente. Range real: R$500–R$100k",
+      "tone": "green"
+    },
+    {
+      "category": "posicao",
+      "label": "Meta de captação",
+      "value": "10 novos/mês",
+      "subtext": "Para dobrar faturamento nos próximos 6 meses",
+      "tone": "blue"
+    },
+    {
+      "category": "maturidade",
+      "label": "Gatilho de compra",
+      "value": "Dor ou estética",
+      "subtext": "Raramente busca por funcionalidade sem dor",
+      "tone": "yellow"
+    },
+    {
+      "category": "risco",
+      "label": "Objeção principal",
+      "value": "Preço + procrastinação",
+      "subtext": "Não vê como necessidade básica. Vergonha.",
+      "tone": "red"
+    },
+    {
+      "category": "oportunidade",
+      "label": "Validação digital",
+      "value": "Instagram + Google",
+      "subtext": "Recebe indicação → valida online antes de contatar",
+      "tone": "green"
+    }
+  ],
+
+  "summary_key_findings": [
+    {
+      "category": "vantagem",
+      "text": "O Dr. Salotti tem exatamente o que o ICP precisa para decidir: autoridade técnica demonstrável (22 anos, mestrado, professor), tecnologia que gera previsibilidade e velocidade, e um fluxo de consulta que encanta antes de precificar."
+    },
+    {
+      "category": "ameaca",
+      "text": "A principal concorrência não é outra clínica — é a inércia do paciente. Quem tem o problema e o dinheiro muitas vezes não age porque nunca encontrou um profissional que comunicasse de forma clara que 'dá pra resolver de vez, agora'."
+    },
+    {
+      "category": "contexto",
+      "text": "A validação acontece em duas etapas: primeiro por indicação de alguém de confiança, depois por pesquisa no Instagram e Google. Uma presença digital inexistente ou mal posicionada interrompe o processo antes do primeiro contato."
+    },
+    {
+      "category": "acao",
+      "text": "O conteúdo digital deve comunicar previsibilidade e autoridade técnica — não 'dicas de saúde bucal'. O paciente-alvo quer ver que o Dr. Salotti resolve casos complexos com precisão, rapidez e humanidade."
+    },
+    {
+      "category": "contexto",
+      "text": "Pacientes internacionais (brasileiros na Europa) são uma oportunidade de alto valor inexplorada: pagam em Real o equivalente a tratamentos na Europa. Custo-benefício extremo com pouquíssima concorrência nesse nicho em Jundiaí."
+    }
+  ],
+
+  "icp_segments": [
+    {
+      "id": "icp-primario",
+      "label": "ICP Primário",
+      "descricao": "Adulto 35–65 anos, renda média-alta, Jundiaí e região (até 60km). Tem problema bucal real — estético ou funcional — e o dinheiro para resolver. O que falta é o profissional certo que comunique que dá pra resolver de vez.",
+      "perfil_demografico": {
+        "faixa_etaria": "35–65 anos",
+        "genero": "Independente",
+        "renda": "Média-alta a alta",
+        "localizacao": "Jundiaí e entorno (SP)",
+        "decisor": "Chefe da família ou profissional que cuida de si mesmo (executivos, médicos, advogados, empresários, liberais)"
+      },
+      "ticket_medio": "R$20.000–R$30.000",
+      "ticket_nota": "Casos complexos de reabilitação. Pode variar de R$2.000 (ortodontia inicial) a R$100.000 (reabilitação total com implantes múltiplos).",
+      "gatilhos_de_compra": [
+        "Dor de dente ou desconforto crônico que passou a interferir na rotina",
+        "Constrangimento estético com o sorriso — especialmente em contextos profissionais ou sociais",
+        "Perda de um ou mais dentes afetando mastigação ou fala",
+        "Indicação direta de alguém de confiança que passou pela clínica",
+        "Cansaço de 'ir ao dentista sem resolver' — quer definitivo"
+      ],
+      "comportamento_de_compra": "Recebe indicação → pesquisa no Instagram e Google → contata pelo WhatsApp → agenda consulta paga → fecha na consulta se encantado.",
+      "canal_preferencial": "WhatsApp (contato inicial) + Indicação. Valida digitalmente antes de agir.",
+      "objecoes_principais": [
+        "Preço — não consegue visualizar o retorno de um investimento de R$25-30k",
+        "Não percebe como necessidade urgente ('tô sem dor, vou deixar pra depois')",
+        "Vergonha de ter deixado a saúde bucal se deteriorar",
+        "Medo de dor durante o tratamento",
+        "Medo de retrabalho ('já fiz isso em outra clínica e não deu certo')",
+        "Falta de validação social para tratamentos não estéticos ('quem vai ver?')"
+      ],
+      "volume_estimado": "Principal fonte de faturamento. Meta de 7–8 dos 10 novos pacientes/mês."
+    },
+    {
+      "id": "icp-secundario",
+      "label": "ICP Secundário — Pacientes Internacionais",
+      "descricao": "Brasileiros residentes na Europa (Suíça, Bélgica, Alemanha, Portugal) ou EUA que vêm ao Brasil para fazer tratamentos odontológicos complexos. Custo-benefício extremo: pagam em Real o equivalente ao que pagariam em Euro.",
+      "perfil_demografico": {
+        "faixa_etaria": "30–55 anos",
+        "localizacao": "Europa / EUA — viagem ao Brasil planejada ou oportunística",
+        "renda": "Renda em moeda forte"
+      },
+      "ticket_medio": "R$30.000–R$80.000",
+      "ticket_nota": "Tratamentos complexos que no país de origem custariam 3–5x mais. Dispostos a fazer em menos visitas.",
+      "gatilhos_de_compra": [
+        "Custo proibitivo do mesmo tratamento no exterior",
+        "Visita programada ao Brasil (férias, família)",
+        "Indicação de outro brasileiro no exterior que já tratou aqui"
+      ],
+      "diferenciais_da_clinica_para_esse_icp": [
+        "Poucos atendimentos necessários (tecnologia digital reduz sessões)",
+        "Diagnóstico completo em uma consulta (ideal para quem vem de viagem)",
+        "Qualidade de nível Europa a custo brasileiro"
+      ],
+      "canal_preferencial": "Tráfego pago segmentado para brasileiros no exterior (Meta Ads geolocalização por país + idioma PT). Indicação de comunidades de brasileiros no exterior.",
+      "volume_estimado": "1–2 pacientes/mês com ticket alto. Alta rentabilidade por atendimento."
+    },
+    {
+      "id": "icp-terciario",
+      "label": "ICP Terciário — Idosos / Reabilitação Funcional",
+      "descricao": "Pacientes 60–80 anos com perda dentária significativa, problemas de mastigação, próteses antigas ou mal adaptadas. Frequentemente trazidos por filhos ou cônjuges. Indicações de casas de repouso.",
+      "perfil_demografico": {
+        "faixa_etaria": "60–80 anos",
+        "decisor": "O próprio paciente + filho adulto que influencia ou financia",
+        "localizacao": "Jundiaí e região"
+      },
+      "ticket_medio": "R$20.000–R$60.000",
+      "ticket_nota": "Reabilitações completas com implantes e próteses. Alto ticket por caso.",
+      "gatilhos_de_compra": [
+        "Dificuldade para mastigar afetando qualidade de vida",
+        "Prótese antiga que não serve mais",
+        "Influência de filho ou cuidador que quer 'resolver de vez'",
+        "Indicação de casa de repouso ou geriatra"
+      ],
+      "canal_preferencial": "Indicação (geriatra, casa de repouso, filho do paciente). Parcerias institucionais.",
+      "volume_estimado": "1–2 pacientes/mês. Alto ticket e alta lealdade quando bem atendido."
+    }
+  ],
+
+  "personas": [
+    {
+      "id": "persona-1",
+      "nome": "Ricardo",
+      "idade": 48,
+      "profissao": "Empresário / Diretor Comercial",
+      "localizacao": "Jundiaí, SP",
+      "renda_mensal": "R$25.000–R$40.000",
+      "estado_civil": "Casado, 2 filhos",
+      "escolaridade": "Superior completo",
+      "foto_mental": "Traje social, reuniões frequentes, agenda cheia. Cuida da imagem profissional mas nunca priorizou saúde bucal. Implante perdido há 2 anos que ele 'vai resolver quando tiver tempo'.",
+
+      "perfil_psicografico": {
+        "valores": ["Eficiência", "Resultado", "Confiança", "Tempo como ativo"],
+        "personalidade": "Pragmático, orientado a decisão. Pesquisa antes de agir, mas não procrastina quando decide. Desconfiado de promessas vazias.",
+        "estilo_de_vida": "Viagens de negócio frequentes, academia de manhã, almoços de trabalho. Pouco tempo para si mesmo."
+      },
+
+      "job_to_be_done": {
+        "job_funcional": "Quero resolver minha boca de uma vez — implantar, coroar, o que for — sem precisar tirar a semana do trabalho nem voltar seis vezes.",
+        "job_emocional": "Quero parar de sentir que estou com uma bomba-relógio na boca e não estou fazendo nada a respeito.",
+        "job_social": "Quero ter confiança ao sorrir em reuniões de negócio sem ficar preocupado com o que o outro está pensando."
+      },
+
+      "dores": [
+        "Perdeu um implante há 2 anos e foi 'deixando pra depois'",
+        "Tenta marcar consulta em 3 clínicas mas a agenda delas nunca bate com a sua",
+        "Fez tratamento em outra clínica que durou 8 meses e ele se arrepende do tempo perdido",
+        "Sente que 'todo dentista diz que é urgente' — perdeu a referência de quem acreditar"
+      ],
+
+      "medos": [
+        "Investir R$20k+ e o trabalho não durar ou precisar refazer",
+        "Processo longo que o obriga a tirar muitos dias do trabalho",
+        "Dor pós-operatória que o tire de operação",
+        "Ser enganado com qualidade inferior justificada por termos técnicos"
+      ],
+
+      "objecoes": [
+        "'Preciso pensar' — na verdade está comparando com outras clínicas",
+        "'Está caro' — não conseguiu visualizar o custo por ano de duração do tratamento",
+        "'Vou marcar para o mês que vem' — ciclo de procrastinação"
+      ],
+
+      "gatilho_de_compra": "A dor voltou ou a estética virou constrangimento profissional (reunião importante, evento).",
+
+      "como_descobre_o_instituto": "Indicação de colega de trabalho ou sócio → valida no Google (avaliações) → vê Instagram → contata pelo WhatsApp.",
+
+      "comportamento_digital": "Google antes de tudo para avaliações. Instagram para ver o nível do trabalho. Decide rápido quando confia.",
+
+      "argumento_que_fecha": "Diagnóstico completo em uma visita. Plano de tratamento com prazo definido. Casos resolvidos em semanas, não meses. Resultado previsível com tecnologia digital.",
+
+      "icp_segment": "icp-primario",
+      "curva_abc_target": "A (Implantes + próteses) e B (cirurgias, coroas)"
+    },
+
+    {
+      "id": "persona-2",
+      "nome": "Beatriz",
+      "idade": 42,
+      "profissao": "Advogada / Médica / Executiva",
+      "localizacao": "Jundiaí, SP",
+      "renda_mensal": "R$15.000–R$30.000",
+      "estado_civil": "Casada ou divorciada, 1–2 filhos",
+      "escolaridade": "Pós-graduada",
+      "foto_mental": "Apresentável, cuida da aparência, mas o sorriso sempre foi 'o próximo passo'. Usa batom escuro para disfarçar os dentes. Fica mal quando vê fotos com o sorriso aberto.",
+
+      "perfil_psicografico": {
+        "valores": ["Autoestima", "Imagem profissional", "Qualidade de vida", "Naturalidade"],
+        "personalidade": "Analítica, pesquisa muito antes de decidir. Lê avaliações, compara clínicas, pergunta para amigas. Quer resultado natural — tem medo de parecer 'feito'.",
+        "estilo_de_vida": "Cuida da saúde em geral. Academia, skincare. Sorriso é o próximo projeto de autocuidado."
+      },
+
+      "job_to_be_done": {
+        "job_funcional": "Quero ter um sorriso que eu não precise esconder — com resultado natural, que pareça meu.",
+        "job_emocional": "Quero parar de me sentir menos confiante do que sou por causa dos meus dentes.",
+        "job_social": "Quero tirar foto com sorriso aberto sem editar depois."
+      },
+
+      "dores": [
+        "Dentes com restaurações antigas escurecendo ou coroas aparentes",
+        "Sorriso que 'não combina' com o nível de cuidado que ela tem com o resto da aparência",
+        "Já pesquisou facetas e ficou com medo do resultado artificial de clínicas que postam sorrisos exagerados",
+        "Não sabe exatamente o que precisa — quer um profissional que olhe e diga claramente"
+      ],
+
+      "medos": [
+        "Resultado que pareça artificial ('dentes de TV' que não combinam com o rosto)",
+        "Dentista que vai propor mais do que o necessário",
+        "Pagar caro e não se reconhecer no resultado",
+        "Perder estrutura dentária saudável para fazer facetas desnecessárias"
+      ],
+
+      "objecoes": [
+        "'Vou pesquisar mais antes de decidir' — está em ciclo infinito de comparação",
+        "'Quero ver mais casos parecidos com o meu' — precisa de prova social de casos reais",
+        "'Tenho medo que fique artificial' — objeção de qualidade, não de preço"
+      ],
+
+      "gatilho_de_compra": "Evento importante próximo (casamento, formatura, viagem) ou foto constrangedora. Às vezes indicação de amiga com resultado que admirou.",
+
+      "como_descobre_o_instituto": "Indicação de amiga → Instagram (cases before/after, estética dos resultados) → conversa no WhatsApp para entender a abordagem antes de agendar.",
+
+      "comportamento_digital": "Muito ativa no Instagram. Salva posts de referência. Analisa o tom de comunicação da clínica tanto quanto o resultado clínico.",
+
+      "argumento_que_fecha": "Dr. Salotti explica na consulta exatamente o que vai fazer e mostra o resultado previsto digitalmente. Não indica mais do que o necessário. Cases com resultados naturais de pessoas reais.",
+
+      "icp_segment": "icp-primario",
+      "curva_abc_target": "B (alinhadores, facetas, coroas, estética) e C (limpeza como porta de entrada)"
+    },
+
+    {
+      "id": "persona-3",
+      "nome": "Hélio",
+      "idade": 64,
+      "profissao": "Empresário aposentado / Comerciante",
+      "localizacao": "Jundiaí e região",
+      "renda_mensal": "R$10.000–R$25.000 (patrimônio consolidado)",
+      "estado_civil": "Casado",
+      "filhos": "Filhos adultos que frequentemente participam da decisão",
+      "foto_mental": "Prótese removível que usa há 10 anos. Come só do lado esquerdo. Evita certos alimentos. Filho adulto que 'empurra' para resolver de vez.",
+
+      "perfil_psicografico": {
+        "valores": ["Conforto", "Segurança", "Durabilidade", "Não incomodar a família"],
+        "personalidade": "Resistente a mudanças, mas quando decide age com convicção. Tem medo de dentista mas não admite abertamente. Confia em indicação pessoal acima de qualquer publicidade.",
+        "estilo_de_vida": "Ritmo mais tranquilo. Almoços em família. Qualidade de vida é comer bem, estar com netos, aparentar saúde."
+      },
+
+      "job_to_be_done": {
+        "job_funcional": "Quero voltar a mastigar normalmente dos dois lados sem pensar nisso toda vez que como.",
+        "job_emocional": "Quero parar de me sentir velho por causa da boca e que minha família pare de me pressionar para resolver isso.",
+        "job_social": "Quero sorrir nas fotos com os netos sem me envergonhar."
+      },
+
+      "dores": [
+        "Prótese removível mal adaptada que dói ou solta na hora errada",
+        "Come com restrição há anos — evita carnes duras, coisas crocantes",
+        "Já foi a outros dentistas que propuseram tratamentos longos e desistiu",
+        "Tem pavor de cirurgia — acha que 'na minha idade não compensa'"
+      ],
+
+      "medos": [
+        "Dor pós-operatória (principal barreira para cirurgia de implante)",
+        "Processo longo que exige muitas idas ao consultório",
+        "Não conseguir usar a prótese no período de cicatrização",
+        "Investir e o corpo 'não aceitar' o implante"
+      ],
+
+      "objecoes": [
+        "'Na minha idade não sei se vale a pena' — precisa de argumento de qualidade de vida, não de estética",
+        "'Tenho medo da cirurgia' — sedação consciente e cirurgia guiada eliminam essa objeção",
+        "'Quanto tempo demora?' — velocidade do tratamento digital é argumento central"
+      ],
+
+      "gatilho_de_compra": "Filho adulto que pesquisa e insiste. Evento familiar importante (casamento de filho, batizado de neto). Episódio de dor aguda ou prótese que quebrou.",
+
+      "como_descobre_o_instituto": "Indicação direta de filho, amigo ou médico generalista. Pode vir de parceria com geriatra ou casa de repouso.",
+
+      "comportamento_digital": "Pouco ativo digitalmente. A decisão passa pelo filho que pesquisa. Google Avaliações tem peso alto para a família que valida.",
+
+      "argumento_que_fecha": "Cirurgia guiada sem corte, sem dor, sem pontos. Sedação consciente disponível. Implante resolvido em 2 meses (vs 6 meses convencional). Hélio não precisa 'sofrer' para ter um resultado definitivo.",
+
+      "influenciador_chave": "Filho adulto (30–50 anos) que pesquisa, convence e muitas vezes financia ou acompanha. Comunicação deve contemplar os dois.",
+
+      "icp_segment": "icp-terciario",
+      "curva_abc_target": "A (implantes múltiplos, próteses sobre implantes, reabilitação total)"
+    }
+  ],
+
+  "jobs_to_be_done_por_segmento": {
+    "nota": "Ninguém compra odontologia. Compra o que a odontologia entrega.",
+    "jobs": [
+      {
+        "segmento": "Reabilitação oral / Implantes",
+        "job_central": "Quero resolver minha boca de uma vez por todas, sem voltar mil vezes e sem surpresas no meio do caminho.",
+        "traducao_para_comunicacao": "Tecnologia digital = previsibilidade. Cirurgia guiada = sem dor. Laboratório próprio = agilidade."
+      },
+      {
+        "segmento": "Estética / Facetas / Alinhadores",
+        "job_central": "Quero ter confiança de sorrir em qualquer situação — e que o resultado pareça natural, não artificial.",
+        "traducao_para_comunicacao": "Planejamento digital = resultado previsto antes de começar. Dr. Salotti = não indica mais do que o necessário."
+      },
+      {
+        "segmento": "Idosos / Reabilitação funcional",
+        "job_central": "Quero voltar a comer normalmente e parar de pensar nisso todo dia.",
+        "traducao_para_comunicacao": "Sedação consciente + cirurgia guiada = sem dor, sem medo. 2 meses vs 6 meses = vida voltando mais rápido."
+      },
+      {
+        "segmento": "Pacientes internacionais",
+        "job_central": "Quero resolver tudo em uma viagem ao Brasil, com qualidade européia e custo brasileiro.",
+        "traducao_para_comunicacao": "Diagnóstico completo em uma consulta. Tratamentos resolvidos em dias. Tecnologia de nível internacional."
+      }
+    ]
+  },
+
+  "key_leverage_point": {
+    "headline": "O maior concorrente do Instituto Salotti não é outra clínica — é a procrastinação de quem tem o problema, tem o dinheiro, mas ainda não encontrou argumento suficiente para agir.",
+    "context": "O paciente-alvo não está comparando preços com outra clínica de Jundiaí. Ele está adiando a decisão há meses ou anos. O que o move a agir é uma combinação de gatilho emocional (evento, dor, constrangimento) + evidência de que existe um profissional que resolve de vez, com previsibilidade e sem sofrimento. O Instituto Salotti tem exatamente esse argumento — só não está comunicando.",
+    "numbered_reasons": [
+      "O Dr. Salotti tem o que o ICP quer: autoridade técnica real, tecnologia que reduz visitas, diagnóstico completo em uma consulta e resultado previsível antes de começar — mas nada disso está visível nos canais que o paciente usa para validar",
+      "A consulta paga com diagnóstico completo já filtra o perfil certo — quem paga R$380 para ver o problema digitalizado já está comprometido com a solução, não com o preço",
+      "Cirurgia guiada sem corte + sedação consciente eliminam as duas maiores objeções do ICP 55+: medo da cirurgia e medo da dor — dois argumentos que praticamente nenhuma clínica de Jundiaí comunica com clareza"
+    ],
+    "discussion_anchor": "O conteúdo digital precisa comunicar previsibilidade e velocidade — não dicas de saúde bucal. Cada post deve mostrar que 'você pode resolver de vez, agora, sem sofrer'."
+  },
+
+  "icp_nao_ideal": [
+    "Pacientes de convênio ou que buscam o menor preço disponível",
+    "Adolescentes (exceto alinhadores em adultos jovens 18–25)",
+    "Quem quer 'só uma limpeza' sem abertura para avaliar saúde geral",
+    "Quem não tem tolerância para investimento de médio/longo prazo",
+    "Leads que chegam questionando preço antes de entender o tratamento"
+  ],
+
+  "implicacoes_para_comunicacao": [
+    "Hero da LP e do Instagram deve falar de resultado e previsibilidade — não de equipamentos ou especialidades",
+    "Cases antes/depois com contexto ('paciente com problema X resolvido em Y semanas') têm mais poder que posts técnicos",
+    "A sedação consciente e cirurgia guiada (sem dor, sem pontos) são argumentos de fechamento para o ICP 50+ e merecem comunicação própria",
+    "O filho adulto é co-decisor para o ICP 60+ — conteúdo deve contemplar quem pesquisa para o pai/mãe",
+    "Avaliações no Google são críticas — o paciente valida lá antes de qualquer contato"
+  ]
+}

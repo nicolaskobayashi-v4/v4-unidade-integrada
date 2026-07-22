@@ -1,0 +1,126 @@
+{
+  "client_name": "MW Software (UZTS)",
+  "skill": "ee-s5-sdr-ia-config",
+  "version": 1,
+  "generated_at": "2026-07-07",
+  "data_source": "ee-s4-diagnostico-comercial (v4) + ee-s3-crm-setup (v2) + funil de aquisição orgânica desenhado nesta consultoria + Entrevista Comercial Marcos (06/07)",
+  "unavailable_reason_dependencia": "Pula formalmente a dependência de ee-s5-scripts-sdr (que dependeria de ee-s3-brandbook, ainda pendente). O conteúdo de script abaixo é funcional — reaproveita cadência e tom que o próprio Marcos já usa em outra conta — mas NÃO é copy final de marca; deve ser revisado quando o brandbook existir.",
+  "nota_timing": "Este é um documento de configuração pronto pra ativar — mas só entra em produção quando o Kommo for implantado (Horizonte 2), conforme ee-s3-crm-setup v2. No Horizonte 1 (WhatsApp Business + planilha, sem Patagon), o atendimento do funil orgânico é feito manualmente pelo Marcos seguindo esses mesmos roteiros.",
+
+  "summary": "O SDR IA no Patagon cobre 2 fluxos distintos: um pro cliente final que chega organicamente (link na bio → qualificação → onboarding → ativação) e outro, mais enxuto, pro parceiro reportar handoffs sem nunca abrir o Kommo. Os dois fluxos reaproveitam a disciplina que o Marcos já demonstrou em outra conta (cadência D+24h/D+3/D+8, script de objeção, critério de desqualificação) — adaptada ao produto e ao ICP do UZTS Light.",
+  "summary_headline": "Um agente, dois papéis: qualifica e ativa cliente orgânico; recebe relato de parceiro sem burocracia — os dois herdam a disciplina que o Marcos já usa em outra conta.",
+
+  "summary_highlights": [
+    { "category": "posicao", "label": "Fluxos configurados", "value": "2", "subtext": "Cliente orgânico (qualificação completa) + parceiro (auto-report leve)", "tone": "blue" },
+    { "category": "maturidade", "label": "Base de conteúdo", "value": "Reaproveitada", "subtext": "Cadência e objeções que o Marcos já usa no PS Institute, adaptadas ao UZTS", "tone": "green" },
+    { "category": "janela", "label": "Ativação real", "value": "Kommo no H2", "subtext": "Config pronta, mas só entra em produção quando o CRM pago existir", "tone": "yellow" },
+    { "category": "risco", "label": "Escalonamento", "value": "3 gatilhos definidos", "subtext": "Sem resposta, sem instalar, sem ativar — todos com alerta automático", "tone": "red" },
+    { "category": "oportunidade", "label": "Testes simulados", "value": "5 leads", "subtext": "Cobrindo as 3 personas + 2 objeções difíceis", "tone": "blue" }
+  ],
+
+  "summary_key_findings": [
+    { "category": "contexto", "text": "O agente cobre só o funil ORGÂNICO (link na bio) de ponta a ponta — no funil via parceiro, o agente só recebe o relato de handoff do parceiro, porque a qualificação e o fechamento já aconteceram fora do sistema, na relação pessoal do parceiro com o lojista." },
+    { "category": "vantagem", "text": "A cadência de follow-up (D+24h → D+3 → D+8) e os scripts de objeção reaproveitam quase 1:1 o que o Marcos já validou em outra conta (PS Institute) — não é um método novo, é uma adaptação de algo que já funciona." },
+    { "category": "ameaca", "text": "Sem o brandbook ainda definido, o tom de voz usado nos scripts abaixo é uma aproximação (direto, sem jargão, respeitoso com baixa maturidade digital) — pode precisar de ajuste de linguagem quando o brandbook (ee-s3-brandbook) for produzido." },
+    { "category": "acao", "text": "Configurar os 3 gatilhos de escalonamento humano (sem resposta em 24h, instalado sem ativar em 7 dias, parceiro sem reportar handoff completo) antes de ligar o agente — são a rede de segurança contra o padrão de churn silencioso já visto no caso da distribuidora de bebidas." }
+  ],
+
+  "key_leverage_point": {
+    "headline": "O agente não substitui o julgamento do Marcos — ele aplica a disciplina que o Marcos já tem, em escala, nos momentos em que ele não pode estar presente.",
+    "context": "O maior risco de um bot de vendas é soar genérico ou insistente. Aqui a mitigação é usar exatamente o comportamento que já funcionou numa conta real (reativação de lead frio, desqualificação de risco, cadência sem parecer desesperado) em vez de um script de IA genérico de mercado.",
+    "numbered_reasons": [
+      "O critério de desqualificação (recusar lead suspeito) precisa estar no agente, não só na cabeça do Marcos — senão o bot vai qualificar qualquer um, incluindo perfis de risco.",
+      "A cadência D+24h/D+3/D+8 já provou reativar lead frio (caso Dra. Marja) — vale mais reaplicar isso do que inventar uma cadência genérica de chatbot.",
+      "O agente precisa saber quando NÃO insistir (ex.: perfil que já disse 'não' claramente) — reforça a mesma ética comercial que o Marcos já demonstrou."
+    ],
+    "discussion_anchor": "Ponto de discussão: revisar os scripts abaixo com o Marcos antes de ativar — ele é quem sabe se o tom soa natural pro público real, não só no papel."
+  },
+
+  "honesty_alert": "Este documento configura o COMPORTAMENTO do agente, mas não substitui o brandbook (tom de voz oficial) nem testa de fato com leads reais — os '5 leads simulados' abaixo são cenários hipotéticos construídos a partir das personas já mapeadas, não conversas reais. Antes de ativar em produção, validar com pelo menos alguns leads reais do Horizonte 1 (mesmo que atendidos manualmente).",
+
+  "fluxo_1_cliente_organico": {
+    "escopo": "Cobre da chegada do lead (via link na bio) até a ativação (1º cupom emitido) — ver ee-s4-diagnostico-comercial / funil de aquisição orgânica.",
+    "persona_do_agente": {
+      "nome_interno": "Atendimento UZTS",
+      "tom": "Direto, sem jargão técnico, paciente com quem tem baixa familiaridade digital. Nunca soa como robô lendo script — usa linguagem coloquial mineira moderada. Referência: como o Marcos fala com clientes reais (ex.: caso da distribuidora de bebidas — 'você tá perdendo venda', não 'otimize seu funil de vendas')."
+    },
+    "roteiro_por_etapa": [
+      {
+        "etapa": "Primeiro contato (lead clicou no WhatsApp da bio)",
+        "mensagem_base": "Oi! Vi que você quer parar de perder tempo com caderninho/calculadora na hora de vender. Me conta rapidinho: seu comércio é tipo padaria, mercearia, conveniência ou outro?",
+        "objetivo": "Confirmar encaixe no ICP antes de gastar mais mensagens"
+      },
+      {
+        "etapa": "Qualificação (2-3 perguntas)",
+        "perguntas": [
+          "Hoje você já usa algum sistema pra registrar venda, ou é tudo na mão/calculadora?",
+          "Você sabe que a partir de 01/08/2026 vai ser obrigatório emitir cupom fiscal mesmo sendo pequeno negócio?",
+          "Sua internet aí costuma cair ou é instável?"
+        ],
+        "logica_de_ramificacao": "Se internet instável + sem sistema hoje → reforçar 'funciona 100% offline' como gancho principal. Se já tem sistema concorrente → perguntar o que incomoda no atual antes de comparar."
+      },
+      {
+        "etapa": "Critério de desqualificação",
+        "regra": "Se o lead demonstrar que não é o tipo de negócio (ex.: empresa grande, prestador de serviço sem venda de produto) ou sinalizar intenção suspeita (ex.: pede o sistema 'de graça' com insistência incomum, como já mapeado como fraqueza na SWOT), o agente agradece e não segue — não força qualificação artificial só pra bater meta."
+      },
+      {
+        "etapa": "Onboarding (D0)",
+        "mensagem_base": "Show! Vou te mandar o link pra baixar e um vídeo curto mostrando como configurar em menos de 5 minutos.",
+        "acao": "Envia link de download + vídeo tutorial (ligado ao ajuste de UX recomendado em ee-s2-diagnostico-cro)"
+      },
+      {
+        "etapa": "Checagem D+1",
+        "mensagem_base": "Conseguiu instalar? Se travar em algo, me chama que eu te ajudo.",
+        "escalonamento": "Sem resposta em 24h → tag 'sem resposta D+1' no CRM, tenta 1x mais; sem resposta na 2ª tentativa → alerta humano."
+      },
+      {
+        "etapa": "Checagem D+3",
+        "mensagem_base": "Já cadastrou seus primeiros produtos? Se quiser, te mando o passo a passo de novo.",
+        "escalonamento": "Perfil sinalizado como baixa maturidade digital (ver tag do lead) → oferece explicitamente 1 chamada curta de 10 min em vez de insistir só por texto."
+      },
+      {
+        "etapa": "Ativação (1º cupom emitido — detectado pelo sistema)",
+        "mensagem_base": "Parabéns, seu primeiro cupom saiu certinho! 🎉 Qualquer dúvida é só chamar por aqui.",
+        "logica": "Gatilho automático via integração do sistema (não pergunta 'você já vendeu', detecta de fato)."
+      },
+      {
+        "etapa": "Sem ativação em 7 dias após instalar",
+        "mensagem_base": "Vi que ainda não rodou nenhuma venda no sistema — teve alguma dificuldade? Me conta que eu ajudo a resolver.",
+        "escalonamento": "Resposta indicando dificuldade de uso → alerta humano imediato (replica o aprendizado do caso da distribuidora de bebidas: não deixar isso virar churn silencioso)."
+      }
+    ]
+  },
+
+  "fluxo_2_auto_report_parceiro": {
+    "escopo": "Só ativo a partir do Horizonte 2 (parceiros externos). No Horizonte 1, os pilotos reportam direto pro Marcos por conversa normal, sem bot.",
+    "objetivo": "Parceiro reporta um novo handoff sem nunca abrir o Kommo — o bot estrutura a informação e cria o registro no CRM.",
+    "roteiro": [
+      { "gatilho": "Parceiro envia mensagem tipo 'fechei com um cliente' pro número de auto-report", "resposta_do_bot": "Boa! Me passa: nome do lojista, contato dele, e já emitiu algum cupom ou só instalou até agora?" },
+      { "gatilho": "Parceiro responde com os dados", "resposta_do_bot": "Registrado! Se ele ainda não emitiu nenhum cupom, vou acompanhar e te aviso se precisar de um empurrão." },
+      { "gatilho": "7 dias depois, se o cliente reportado ainda não ativou", "resposta_do_bot": "Lembra do [nome do lojista] que você indicou? Ainda não rodou nenhuma venda no sistema — vale dar uma checada com ele?" }
+    ],
+    "campo_mapeado_no_kommo": "Cria registro direto na etapa 'Recebido do parceiro' do pipeline Clientes-via-parceiro, com o campo 'trazido por' preenchido automaticamente pelo número do parceiro que enviou a mensagem."
+  },
+
+  "gatilhos_de_escalonamento_humano": [
+    { "gatilho": "Lead sem resposta após 2 tentativas de contato", "acao": "Marca como frio, não insiste mais — segue princípio de não forçar qualificação (visto na entrevista com Marcos: recusar antes de insistir demais)." },
+    { "gatilho": "Cliente instalado sem ativar em 7 dias", "acao": "Alerta humano — mesma lógica da etapa 'aguardando confirmação de ativação' do ee-s3-crm-setup." },
+    { "gatilho": "Parceiro reporta handoff mas cliente não ativa em 7 dias", "acao": "Bot avisa o próprio parceiro primeiro; só escala pro Gestor de Canais se não houver reação em mais alguns dias (prazo exato pendente de definição, ver ee-s3-crm-setup)." }
+  ],
+
+  "testes_com_leads_simulados": [
+    { "persona": "Seu Geraldo (58, mercearia, baixa maturidade digital)", "cenario": "Responde devagar, tem medo de errar. Espera-se que o agente ofereça ligação/chamada em vez de insistir só por texto na etapa D+3." },
+    { "persona": "Dona Maria (45, padaria, maturidade intermediária)", "cenario": "Pergunta se vai ter 'cobrança surpresa' (medo já mapeado na persona). Espera-se resposta objetiva sobre preço fixo, sem rodeio." },
+    { "persona": "Otávio (28, conveniência, nativo digital)", "cenario": "Quer resolver tudo sozinho, sem call. Espera-se que o agente não empurre atendimento humano desnecessário — deixa ele seguir 100% self-service." },
+    { "persona": "Lead fora do ICP (prestador de serviço, não vende produto)", "cenario": "Testa o critério de desqualificação — agente deve agradecer e não seguir o funil." },
+    { "persona": "Lead com sinal de risco (pede o sistema de graça com insistência)", "cenario": "Testa se o agente reconhece o padrão já mapeado na SWOT (fraqueza: 'círculos próximos tentando obter o sistema de graça') e recusa educadamente." }
+  ],
+
+  "pendente_confirmacao_operador": [
+    "Validar o tom dos scripts com o Marcos antes de ativar (ele conhece o público real melhor que qualquer texto no papel).",
+    "Confirmar prazo exato de escalonamento (mesma pendência do ee-s3-crm-setup — dias para 'sem ativação' disparar alerta).",
+    "Revisar linguagem quando ee-s3-brandbook existir, já que o tom aqui é aproximado, não oficial de marca."
+  ],
+
+  "alimenta_skills": ["ee-s4-cliente-oculto"]
+}

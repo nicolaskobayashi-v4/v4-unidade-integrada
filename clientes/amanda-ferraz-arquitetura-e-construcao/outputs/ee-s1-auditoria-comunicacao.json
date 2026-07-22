@@ -1,0 +1,562 @@
+{
+  "client_name": "Amanda Ferraz Arquitetura e Construção",
+  "summary": "Comunicação digital em 36/100 (baixo), com coerência de voz em 43/100. WhatsApp mistura fornecedor e cliente no mesmo número (já causou erro em mídia paga), avaliação falsa no GMB segue sem resposta pública, e o portfólio raso do site é o maior vazamento do funil — justamente na fase em que a indicação está mais próxima de fechar.",
+  "icp_reference": "Renata Albuquerque, 44 anos, comitê de decisão do casal (ela escolhe pela confiança, ele valida pela planilha) — busca um único responsável que projete, gerencie e execute sem imprevisto, tendo participado apenas das decisões que dão prazer.",
+
+  "summary_headline": "Amanda Ferraz tem comunicação digital em 36/100 — WhatsApp mistura fornecedor e cliente no mesmo número, e a avaliação falsa no GMB segue sem resposta pública.",
+
+  "summary_highlights": [
+    {
+      "category": "maturidade",
+      "label": "Score médio de comunicação",
+      "value": "36/100",
+      "subtext": "5 canais auditados, coerência de voz 43/100",
+      "tone": "yellow"
+    },
+    {
+      "category": "risco",
+      "label": "Maior vazamento no funil",
+      "value": "~25% entre indicação e site",
+      "subtext": "Portfólio raso desanima antes do contato",
+      "tone": "red"
+    },
+    {
+      "category": "oportunidade",
+      "label": "Quick win mais rápido",
+      "value": "Separar WhatsApp fornecedor/cliente",
+      "subtext": "1h de trabalho, resolve confusão recorrente",
+      "tone": "green"
+    },
+    {
+      "category": "competicao",
+      "label": "Gap vs melhor concorrente (site)",
+      "value": "-26 pontos",
+      "subtext": "Eduardo Muzi tem melhor direção de arte",
+      "tone": "yellow"
+    },
+    {
+      "category": "maturidade",
+      "label": "Canal mais crítico",
+      "value": "Anúncios (15/100)",
+      "subtext": "Sem campanha estruturada ativa hoje",
+      "tone": "red"
+    }
+  ],
+
+  "summary_key_findings": [
+    {
+      "category": "vantagem",
+      "text": "A presença pessoal de Amanda em vídeo é o ativo de comunicação mais forte hoje — autoridade técnica real que nenhum concorrente direto replica bem."
+    },
+    {
+      "category": "contexto",
+      "text": "O tom de voz pretendido ('quiet luxury') está bem definido no manual de marca, mas ainda não é aplicado com consistência entre site, Instagram e criativos — coerência de voz em 43/100."
+    },
+    {
+      "category": "ameaca",
+      "text": "Uma avaliação falsa no Google Meu Negócio (de alguém que nunca foi cliente) segue sem resposta pública, corroendo a nota 4,5 sem necessidade."
+    },
+    {
+      "category": "ameaca",
+      "text": "Fornecedores e clientes usam o mesmo número de WhatsApp sem triagem — já causou erro real de segmentação na última campanha de mídia paga."
+    },
+    {
+      "category": "acao",
+      "text": "Separar o WhatsApp de fornecedor do de cliente e responder à avaliação falsa no GMB são os dois quick wins mais rápidos e de maior impacto imediato."
+    }
+  ],
+
+  "channels_audited": [
+    {
+      "name": "site",
+      "url_or_handle": "https://arqamandaferraz.com/",
+      "score": 42,
+      "classification": "medium",
+      "screenshots_analyzed": false,
+      "audit_details": {
+        "value_proposition": {
+          "present": true,
+          "clear": true,
+          "aligned_with_icp": true,
+          "notes": "Headline emocional ('Construímos mais do que projetos. Entregamos tranquilidade') alinhada à mensagem-chave aprovada, mas não comunica o diferencial técnico/financeiro real (planilha, zero comissionamento)."
+        },
+        "social_proof": {
+          "present": true,
+          "type": "depoimentos em imagem + portfólio de projetos",
+          "quality": "weak",
+          "notes": "Depoimentos existem só como print (não indexável, não reaproveitável); portfólio com apenas 3 projetos, sem case study."
+        },
+        "cta": {
+          "present": true,
+          "visible": true,
+          "action_oriented": true,
+          "notes": "Botão 'Agende uma conversa' funcional e presente em múltiplos pontos, mas com contraste fraco no topo do site (identificado na auditoria CRO)."
+        },
+        "visual_consistency": {
+          "consistent": false,
+          "professional": true,
+          "notes": "Fontes diferentes entre site, manual de marca e criativos de redes sociais — identificado por Natália (designer V4) como gap de padronização."
+        },
+        "mobile_experience": {
+          "responsive": true,
+          "speed": "~70/100 (meta 90+)",
+          "notes": "Aceitável mas não otimizado para o padrão premium esperado pelo ICP de altíssimo padrão."
+        },
+        "content_quality": {
+          "speaks_to_icp": true,
+          "frequency": "blog com 0 posts publicados",
+          "engagement_level": "não mensurável (sem confirmação de GA4/tracking de conversão)",
+          "notes": "Sem FAQ, sem tratamento de objeções na página."
+        },
+        "additional_notes": "Site construído em Hostinger Website Builder (SPA de página única) — a própria equipe V4 e a Amanda reconhecem que ele 'parece mais uma landing page' que um site institucional robusto, o que reduz a percepção de credibilidade."
+      },
+      "gaps": [
+        {"gap": "Portfólio raso (3 projetos sem case study)", "evidence": "Página /projetos-e-obras lista apenas 'OBRA 187', 'OBRA 207', 'OBRA 220' sem descrição, localização ou metragem", "impact": "high"},
+        {"gap": "Depoimentos só em imagem, não em texto", "evidence": "Seção 'O que nossos clientes falam' é composta por prints, não texto indexável", "impact": "high"},
+        {"gap": "Site parece landing page de captura, não site institucional robusto", "evidence": "Observação direta da equipe V4 na reunião de diagnóstico — a própria Amanda confirma que essa foi a intenção original de design", "impact": "medium"},
+        {"gap": "Performance mobile não otimizada (~70/100)", "evidence": "Medição da equipe V4 na auditoria CRO (meta 90+)", "impact": "medium"},
+        {"gap": "Blog com zero posts publicados", "evidence": "Variável postDate=null no código-fonte, confirmando ausência de conteúdo", "impact": "medium"},
+        {"gap": "Uso de travessões no texto associado a conteúdo gerado por IA", "evidence": "Observação direta de Luiz na reunião de diagnóstico ('quando vejo um travessão, já fico desinteressado')", "impact": "low"}
+      ],
+      "recommendations": [
+        {"action": "Expandir portfólio para 6+ projetos com case study (contexto, metragem, resultado)", "priority": "immediate", "effort": "medium"},
+        {"action": "Converter depoimentos de imagem para texto", "priority": "immediate", "effort": "low"},
+        {"action": "Adicionar vídeo institucional na seção 'quem somos'", "priority": "short_term", "effort": "medium"},
+        {"action": "Publicar os primeiros posts no blog", "priority": "immediate", "effort": "low"},
+        {"action": "Revisar textos removendo travessões", "priority": "short_term", "effort": "low"}
+      ]
+    },
+    {
+      "name": "instagram",
+      "url_or_handle": "@arqamandaferraz",
+      "score": 52,
+      "classification": "medium",
+      "screenshots_analyzed": false,
+      "audit_details": {
+        "value_proposition": {
+          "present": true,
+          "clear": false,
+          "aligned_with_icp": true,
+          "notes": "Bio não confirma diferencial explícito nem CTA claro (pesquisa automática só recuperou um fragmento: 'Seu tempo vale mais que qualquer metro quadrado...')."
+        },
+        "social_proof": {
+          "present": true,
+          "type": "presença pessoal da Amanda com autoridade técnica real",
+          "quality": "moderate",
+          "notes": "Forte na presença em vídeo/autoridade; fraca em depoimentos ou prints de clientes reais no feed."
+        },
+        "cta": {
+          "present": false,
+          "visible": false,
+          "action_oriented": false,
+          "notes": "Sem CTA claro confirmado na bio nem destaque dedicado a 'como agendar uma conversa'."
+        },
+        "visual_consistency": {
+          "consistent": false,
+          "professional": true,
+          "notes": "Identidade existe (paleta e tom geral), mas vermelho em excesso e cantos arredondados destoam do manual de marca formalizado."
+        },
+        "mobile_experience": {
+          "responsive": true,
+          "speed": "n/a",
+          "notes": "Plataforma nativa mobile — não aplicável diretamente."
+        },
+        "content_quality": {
+          "speaks_to_icp": true,
+          "frequency": "podcast a cada 15 dias; frequência de posts no feed não confirmada com precisão",
+          "engagement_level": "não mensurado com dados reais",
+          "notes": "A presença pessoal de Amanda explicando decisões técnicas é o maior ativo de conteúdo hoje."
+        },
+        "additional_notes": "~12,7 mil seguidores. TikTok usado esporadicamente, sem estratégia de conteúdo definida."
+      },
+      "gaps": [
+        {"gap": "Bio incompleta quanto a diferencial e CTA", "evidence": "Pesquisa automática não confirmou bio completa além de um fragmento curto", "impact": "medium"},
+        {"gap": "Uso excessivo de vermelho e cantos arredondados nos criativos gráficos", "evidence": "Análise detalhada de Natália (designer V4): vermelho deveria ser só detalhe, hoje é protagonista em vários posts", "impact": "medium"},
+        {"gap": "Carrosséis seguem sempre a mesma estrutura visual", "evidence": "Observação de Natália: mesmo fundo, texto sempre na mesma posição, gerando monotonia", "impact": "low"},
+        {"gap": "Falta vídeo institucional fixado nos destaques", "evidence": "Luiz identificou a ausência ao auditar o perfil na reunião de diagnóstico", "impact": "medium"},
+        {"gap": "Capas de vídeo do podcast com texto grande e fonte popular", "evidence": "Observação direta de Natália sobre as capas atuais", "impact": "low"}
+      ],
+      "recommendations": [
+        {"action": "Revisar e fortalecer a bio com diferencial claro + CTA", "priority": "short_term", "effort": "low"},
+        {"action": "Padronizar direção de arte dos criativos conforme manual de identidade visual já existente", "priority": "short_term", "effort": "medium"},
+        {"action": "Produzir e fixar vídeo institucional curto nos destaques", "priority": "short_term", "effort": "medium"},
+        {"action": "Padronizar capas de vídeo/podcast com tipografia mais refinada", "priority": "medium_term", "effort": "low"}
+      ]
+    },
+    {
+      "name": "anuncios",
+      "url_or_handle": "Meta Ads / Google Ads (conta própria da cliente)",
+      "score": 15,
+      "classification": "critical",
+      "screenshots_analyzed": false,
+      "audit_details": {
+        "value_proposition": {"present": false, "clear": false, "aligned_with_icp": false, "notes": "Sem criativos ativos estruturados analisáveis no momento."},
+        "social_proof": {"present": false, "type": null, "quality": "none", "notes": "Sem prova social em anúncios até o momento."},
+        "cta": {"present": false, "visible": false, "action_oriented": false, "notes": "Sem campanha ativa estruturada para avaliar CTA."},
+        "visual_consistency": {"consistent": false, "professional": false, "notes": "Não aplicável — sem campanha ativa no momento da auditoria."},
+        "mobile_experience": {"responsive": null, "speed": null, "notes": "Não aplicável."},
+        "content_quality": {"speaks_to_icp": false, "frequency": "nenhuma campanha ativa estruturada no momento", "engagement_level": "não aplicável", "notes": null},
+        "additional_notes": "Investimento atual de R$2.000/mês já reservado pela cliente, mas aguardando reestruturação (CRM + funil) antes de rodar novos criativos."
+      },
+      "gaps": [
+        {"gap": "Sem campanha ativa estruturada no momento", "evidence": "Última tentativa (R$1.200 em 2 semanas) foi descontinuada; investimento atual de R$2.000/mês ainda sem estrutura de funil implementada", "impact": "high"},
+        {"gap": "Última campanha gerou apenas contatos de fornecedores, não clientes", "evidence": "Relato direto da Amanda/Júlia em reunião de kickoff: ~10 conversas geradas, 100% fornecedores", "impact": "high"},
+        {"gap": "Sem negativação de público/palavras-chave", "evidence": "Ausência de qualquer menção a exclusão de públicos ou termos na campanha anterior", "impact": "high"}
+      ],
+      "recommendations": [
+        {"action": "Implementar CRM antes de qualquer nova campanha, para qualificar leads em tempo real", "priority": "immediate", "effort": "medium"},
+        {"action": "Estruturar funil completo (topo/meio/fundo) com negativação de fornecedores/públicos irrelevantes", "priority": "short_term", "effort": "high"}
+      ]
+    },
+    {
+      "name": "google_meu_negocio",
+      "url_or_handle": "Amanda Ferraz Arquitetura e Construção (Jundiaí, SP)",
+      "score": 45,
+      "classification": "medium",
+      "screenshots_analyzed": true,
+      "audit_details": {
+        "value_proposition": {"present": true, "clear": true, "aligned_with_icp": true, "notes": "Categoria e descrição corretas ('Escritório de arquitetura em Jundiaí, São Paulo')."},
+        "social_proof": {"present": true, "type": "avaliações e fotos reais de projeto", "quality": "moderate", "notes": "Nota 4,5 com 19 avaliações, mas desatualizadas e com 1 avaliação falsa sem resposta pública."},
+        "cta": {"present": true, "visible": true, "action_oriented": false, "notes": "Botões de site e ligação funcionam; falta botão de WhatsApp direto."},
+        "visual_consistency": {"consistent": true, "professional": true, "notes": "Fotos de projeto são reais e de boa qualidade."},
+        "mobile_experience": {"responsive": null, "speed": null, "notes": "Não aplicável — perfil de plataforma, não site próprio."},
+        "content_quality": {"speaks_to_icp": true, "frequency": "sem posts/atualizações identificadas no perfil", "engagement_level": "moderado (19 avaliações)", "notes": null},
+        "additional_notes": "Google Ads ativo na mesma conta administrativa, com alerta de saldo baixo identificado na própria auditoria (screenshot fornecido pelo operador)."
+      },
+      "gaps": [
+        {"gap": "Avaliação falsa sem resposta pública", "evidence": "Avaliação de 'João Paulo' (nunca foi cliente, confirmado pela Amanda) reduzindo a nota, ainda sem resposta pública", "impact": "high"},
+        {"gap": "Falta foto de perfil", "evidence": "Perfil sem foto configurada após troca de e-mail administrativo, confirmado pela própria Amanda em reunião", "impact": "medium"},
+        {"gap": "Falta botão de WhatsApp no perfil", "evidence": "Observação direta de Luiz na auditoria CRO", "impact": "medium"},
+        {"gap": "Poucas fotos do escritório/equipe", "evidence": "Existem fotos reais de projeto, mas faltam fotos da equipe/escritório (apontado por Luiz)", "impact": "low"},
+        {"gap": "Avaliações desatualizadas, sem solicitação ativa recente", "evidence": "19 avaliações, nota 4,5, sem evidência de pedido recente de novos reviews", "impact": "medium"}
+      ],
+      "recommendations": [
+        {"action": "Responder publicamente à avaliação falsa, descredibilizando sem se defender", "priority": "immediate", "effort": "low"},
+        {"action": "Adicionar foto de perfil e ativar botão de WhatsApp", "priority": "immediate", "effort": "low"},
+        {"action": "Solicitar avaliações de clientes dos últimos 12 meses", "priority": "short_term", "effort": "low"},
+        {"action": "Adicionar fotos do escritório e da equipe", "priority": "short_term", "effort": "low"}
+      ]
+    },
+    {
+      "name": "whatsapp",
+      "url_or_handle": "+55 11 94076-1458",
+      "score": 25,
+      "classification": "low",
+      "screenshots_analyzed": false,
+      "audit_details": {
+        "value_proposition": {"present": null, "clear": null, "aligned_with_icp": null, "notes": "Dados insuficientes sem screenshot de conversas reais — recomenda-se envio na próxima rodada."},
+        "social_proof": {"present": null, "type": null, "quality": null, "notes": "Não avaliado por falta de material."},
+        "cta": {"present": true, "visible": true, "action_oriented": true, "notes": "Botão de WhatsApp no site funciona e redireciona corretamente para o número principal (exceto o bug do botão 'fornecedor', com número diferente)."},
+        "visual_consistency": {"consistent": null, "professional": null, "notes": "Não avaliado sem screenshot do perfil Business."},
+        "mobile_experience": {"responsive": true, "speed": null, "notes": "WhatsApp é nativamente mobile."},
+        "content_quality": {"speaks_to_icp": null, "frequency": null, "engagement_level": null, "notes": "Sem dados de tempo de resposta ou script de qualificação confirmados nesta rodada."},
+        "additional_notes": "Canal mais crítico para a experiência do ICP (é onde a decisão comercial se converte), mas o menos documentado nesta auditoria por falta de screenshots — priorizar coleta de prints de conversas reais e das configurações do perfil Business na próxima revisão."
+      },
+      "gaps": [
+        {"gap": "Fornecedores e clientes usam o mesmo número, sem triagem", "evidence": "Relato direto da própria Amanda: já causou confusão real na última campanha de mídia paga (leads identificados eram fornecedores)", "impact": "high"},
+        {"gap": "Sem integração com CRM", "evidence": "CRM inexistente confirmado no diagnóstico de maturidade — conversas não são registradas centralmente", "impact": "high"},
+        {"gap": "Configuração de saudação/mensagem de ausência não confirmada", "evidence": "Sem screenshots ou confirmação direta da configuração atual do perfil Business", "impact": "medium"},
+        {"gap": "Bug no botão 'seu fornecedor' do site", "evidence": "Identificado na auditoria CRO de Luiz: aponta para número diferente do principal, sem avatar exibido ao clicar", "impact": "low"}
+      ],
+      "recommendations": [
+        {"action": "Separar definitivamente o número de fornecedor do número de cliente", "priority": "immediate", "effort": "low"},
+        {"action": "Configurar saudação e mensagem de ausência alinhadas ao tom 'quiet luxury' da marca", "priority": "short_term", "effort": "low"},
+        {"action": "Integrar registro de conversas ao CRM assim que implementado", "priority": "short_term", "effort": "medium"}
+      ]
+    }
+  ],
+
+  "gap_matrix": [
+    {"rank": 1, "channel": "whatsapp", "gap": "Fornecedores e clientes usam o mesmo número, sem triagem — já causou erro de segmentação em campanha de mídia paga anterior", "impact": "high", "effort": "low", "recommended_action": "Separar número de fornecedor do número de cliente e corrigir link no site/Instagram", "quadrant": "quick_win"},
+    {"rank": 2, "channel": "google_meu_negocio", "gap": "Avaliação falsa (nunca foi cliente) reduzindo a nota sem resposta pública", "impact": "high", "effort": "low", "recommended_action": "Responder publicamente descredibilizando a avaliação", "quadrant": "quick_win"},
+    {"rank": 3, "channel": "site", "gap": "Portfólio com apenas 3 projetos sem case study e depoimentos só em imagem", "impact": "high", "effort": "medium", "recommended_action": "Expandir para 6+ projetos com case study e converter depoimentos para texto", "quadrant": "strategic_project"},
+    {"rank": 4, "channel": "anuncios", "gap": "Sem campanha ativa estruturada — última tentativa gerou só contatos de fornecedores", "impact": "high", "effort": "high", "recommended_action": "Reestruturar com funil completo e negativação, só após CRM mínimo", "quadrant": "strategic_project"},
+    {"rank": 5, "channel": "site", "gap": "Site parece landing page de captura, reduzindo credibilidade institucional percebida", "impact": "medium", "effort": "medium", "recommended_action": "Adicionar vídeo institucional na seção 'quem somos' e expandir páginas internas", "quadrant": "strategic_project"},
+    {"rank": 6, "channel": "instagram", "gap": "Vermelho em excesso e cantos arredondados destoam do posicionamento de altíssimo padrão", "impact": "medium", "effort": "low", "recommended_action": "Padronizar direção de arte conforme manual de identidade visual já existente", "quadrant": "quick_win"},
+    {"rank": 7, "channel": "google_meu_negocio", "gap": "Falta foto de perfil e botão de WhatsApp", "impact": "medium", "effort": "low", "recommended_action": "Adicionar foto de perfil e ativar botão de WhatsApp", "quadrant": "quick_win"},
+    {"rank": 8, "channel": "site", "gap": "Blog com zero posts publicados, sem conteúdo indexável", "impact": "medium", "effort": "low", "recommended_action": "Publicar os primeiros 3 posts usando temas já validados em conversa", "quadrant": "quick_win"},
+    {"rank": 9, "channel": "instagram", "gap": "Falta vídeo institucional fixado nos destaques explicando quem é Amanda Ferraz", "impact": "medium", "effort": "medium", "recommended_action": "Produzir e fixar vídeo institucional curto nos destaques", "quadrant": "strategic_project"},
+    {"rank": 10, "channel": "site", "gap": "Uso de travessões no texto, associado a conteúdo 'gerado por IA sem coração'", "impact": "low", "effort": "low", "recommended_action": "Revisar textos removendo travessões", "quadrant": "fill_time"}
+  ],
+
+  "executive_summary": {
+    "overall_assessment": "A comunicação digital da Amanda Ferraz está em 36/100 — score baixo, mas com um padrão claro: os problemas não são de falta de esforço ou de identidade (o manual de marca já existe e é sofisticado), são de execução inconsistente e de canais críticos mal cuidados. O WhatsApp — o canal onde a decisão comercial realmente acontece — mistura fornecedor e cliente no mesmo número, sem triagem, e já causou um erro real de segmentação em mídia paga. O Google Meu Negócio tem uma avaliação falsa sem resposta pública, corroendo uma nota que já é boa (4,5). E o site, apesar de ter proposta de valor clara, perde a comparação com concorrentes na fase decisiva por ter portfólio raso e depoimentos não indexáveis.\n\nO ponto mais importante desta auditoria: os canais com melhor potencial de retorno imediato (WhatsApp, GMB) são também os mais baratos de corrigir — não exigem produção de conteúdo nova, exigem atenção e organização. Enquanto isso, o canal mais fraco (anúncios, 15/100) não deve ser tratado com urgência de mídia, e sim com urgência de CRM — investir em tráfego antes de resolver a triagem de leads repete o erro recente.",
+    "top_problems": [
+      {
+        "problem": "WhatsApp mistura fornecedores e clientes no mesmo número, sem triagem",
+        "evidence": "A própria Amanda relatou que a última campanha de mídia paga gerou ~10 conversas, 100% de fornecedores — sinal direto de que não há separação de canal por tipo de contato",
+        "impact": "Qualquer investimento em aquisição de leads (mídia paga, conteúdo) tem seu resultado real mascarado por esse ruído — impossível medir conversão de verdade",
+        "action": "Separar definitivamente o número de fornecedor do de cliente (ação de 1h, sem custo)"
+      },
+      {
+        "problem": "Portfólio raso no site (3 projetos sem case study) e depoimentos só em imagem",
+        "evidence": "Página /projetos-e-obras lista só 3 obras por número, sem contexto; depoimentos existem apenas como print, não como texto",
+        "impact": "Perde a comparação direta com concorrentes (Guedes e Bisoli, Ricardo Gaspari) exatamente no momento em que a família já indicada está validando essa indicação",
+        "action": "Expandir portfólio para 6+ projetos com case study e converter depoimentos para texto"
+      },
+      {
+        "problem": "Avaliação falsa no Google Meu Negócio sem resposta pública",
+        "evidence": "Avaliação de 'João Paulo', que a Amanda confirma nunca ter sido cliente, corroendo a nota 4,5 sem que exista resposta pública corrigindo a narrativa",
+        "impact": "Reduz a confiança de quem pesquisa o nome da Amanda antes de decidir, sem necessidade — é o tipo de dano fácil de evitar",
+        "action": "Responder publicamente à avaliação, descredibilizando sem se defender, como já recomendado pela própria equipe V4"
+      }
+    ],
+    "communication_score": 36
+  },
+
+  "competitor_benchmark": {
+    "description": "Benchmark canal-a-canal contra os 3 concorrentes diretos de alto padrão (que competem pelo mesmo tipo de obra) e contra referências editoriais nacionais que definem o padrão estético do segmento.",
+    "groups": [
+      {
+        "name": "Concorrentes diretos de alto padrão (Jundiaí/RMC)",
+        "members": ["Eduardo Muzi", "Ricardo Gaspari", "Guedes e Bisoli"],
+        "positioning": "Disputam o mesmo território de arquitetura residencial de alto padrão na região de Jundiaí, com abordagens de branding distintas: estético puro (Eduardo Muzi), institucional datado (Ricardo Gaspari), organizado com prova social (Guedes e Bisoli)."
+      },
+      {
+        "name": "Referências editoriais nacionais",
+        "members": ["Studio Arthur Casas", "Jacobsen Arquitetura", "Marília Zima"],
+        "positioning": "Não competem territorialmente pela mesma obra, mas definem o padrão estético e de conteúdo que o público de altíssimo padrão já reconhece como referência de excelência."
+      }
+    ],
+    "benchmark_by_channel": [
+      {
+        "channel": "site",
+        "client_score": 42,
+        "best_in_class_score": 68,
+        "gap": 26,
+        "best_practice_observed": "O site de Eduardo Muzi (o melhor entre os concorrentes diretos, segundo análise da própria V4) parece um editorial de arquitetura: muito espaço em branco, fotografia protagonista — embora sem provas sociais.",
+        "opportunity_for_client": "Adotar a mesma direção de arte (fotografia protagonista, espaço em branco) somando as provas sociais que faltam no site do Eduardo Muzi — Amanda pode superar os 3 concorrentes diretos ao mesmo tempo nesse canal."
+      },
+      {
+        "channel": "instagram",
+        "client_score": 52,
+        "best_in_class_score": 65,
+        "gap": 13,
+        "best_practice_observed": "Guedes e Bisoli usa o mesmo filtro/pós-produção em todas as fotos do feed, criando um padrão visual reconhecível sem depender de repetir o logo.",
+        "opportunity_for_client": "Padronizar o tratamento de cor das fotos do feed da Amanda (hoje inconsistente) para criar reconhecimento visual próprio, sem precisar repetir a logo a cada post."
+      },
+      {
+        "channel": "anuncios",
+        "client_score": 15,
+        "best_in_class_score": 40,
+        "gap": 25,
+        "best_practice_observed": "Guedes e Bisoli testa o mesmo copy em diferentes ambientes/pessoas da casa para identificar o que mais converte — nenhum dos 3 concorrentes diretos tem estrutura de funil realmente madura.",
+        "opportunity_for_client": "Aplicar o mesmo tipo de teste de criativo (ambiente/pessoa) assim que a mídia for reestruturada com CRM funcional — a janela de maturidade em anúncios está aberta para quem sair na frente."
+      },
+      {
+        "channel": "google_meu_negocio",
+        "client_score": 45,
+        "best_in_class_score": null,
+        "gap": null,
+        "best_practice_observed": "Perfis de GMB dos concorrentes diretos não foram auditados nesta rodada (dado não coletado).",
+        "opportunity_for_client": "Usar o padrão de mercado (81-100 = domina o pack local, 100+ avaliações 4.5+) como meta, independente do benchmark direto — hoje a Amanda tem base (4,5/19 avaliações) para chegar lá rapidamente."
+      },
+      {
+        "channel": "whatsapp",
+        "client_score": 25,
+        "best_in_class_score": null,
+        "gap": null,
+        "best_practice_observed": "Atendimento via WhatsApp de concorrentes é canal privado, não auditável publicamente — benchmark baseado em padrão de mercado geral (resposta em até 1 minuto gera ~91% de chance de conexão, dado citado pela própria equipe V4).",
+        "opportunity_for_client": "Configurar saudação, triagem e resposta rápida não depende de saber o que o concorrente faz — é a ação mais sob controle direto da Amanda."
+      }
+    ],
+    "strategic_read": "Amanda está à frente dos concorrentes diretos onde ninguém mais investe: presença pessoal em vídeo com autoridade real e um diferencial técnico genuíno ainda não comunicado. Está atrás de Eduardo Muzi em direção de arte do site e de Guedes e Bisoli em prova social/portfólio organizado — mas nenhum dos três tem estrutura madura de anúncios ou CRM, o que deixa esse território completamente aberto para quem se organizar primeiro."
+  },
+
+  "journey_friction_map": {
+    "description": "Funil real da persona, do primeiro contato (majoritariamente por indicação) até o fechamento do contrato. Volumes estimados na ausência de CRM/analytics — marcados como [E].",
+    "stages": [
+      {
+        "stage": "Indicação / Exposição inicial",
+        "current_volume": "8-10 novos contatos qualificados por mês, estimado [E]",
+        "leakage_pct": 20,
+        "root_cause": "Parte dos contatos indicados não chega a checar o Instagram/site por falta de reforço ativo — a indicação por si só não é sempre seguida de um acompanhamento proativo da Amanda ou da equipe.",
+        "fix_effort": "low",
+        "fix_impact_estimate": "Reduzir esse vazamento para ~10% recuperaria cerca de 1 contato extra qualificado por mês, estimado"
+      },
+      {
+        "stage": "Instagram / Site (validação da indicação)",
+        "current_volume": "7-8 [E]",
+        "leakage_pct": 25,
+        "root_cause": "Portfólio raso (3 projetos) e depoimentos só em imagem reduzem a confiança no momento de comparar com concorrentes (Guedes e Bisoli, Ricardo Gaspari) — a pessoa desanima antes de entrar em contato.",
+        "fix_effort": "medium",
+        "fix_impact_estimate": "Expandir portfólio + depoimentos em texto pode recuperar 2-3 contatos/mês que hoje desistem nesta fase, estimado"
+      },
+      {
+        "stage": "Contato via WhatsApp",
+        "current_volume": "5-6 [E]",
+        "leakage_pct": 15,
+        "root_cause": "WhatsApp pessoal sem saudação/triagem estruturada mistura fornecedores com clientes reais — parte do volume real de leads pode estar sendo mal identificada ou demorando a ser respondida.",
+        "fix_effort": "low",
+        "fix_impact_estimate": "Saudação + triagem básica reduz confusão e agiliza a resposta, recuperando parte desse vazamento"
+      },
+      {
+        "stage": "Resposta e agendamento de briefing",
+        "current_volume": "5 [E]",
+        "leakage_pct": 10,
+        "root_cause": "Sem CRM, o acompanhamento depende da memória da Amanda — atrasos na resposta reduzem a taxa de agendamento (dado de mercado citado pela própria equipe V4: resposta em até 1 minuto gera ~91% de chance de conexão, cai a 17% em 24h).",
+        "fix_effort": "medium",
+        "fix_impact_estimate": "CRM mínimo com alerta de resposta rápida pode recuperar boa parte desse vazamento"
+      },
+      {
+        "stage": "Reunião de briefing presencial",
+        "current_volume": "4-5 [E]",
+        "leakage_pct": 5,
+        "root_cause": "Esta é a etapa mais forte do funil hoje — Amanda converte bem presencialmente, mostrando planilha e processo estruturado.",
+        "fix_effort": "low",
+        "fix_impact_estimate": "Pouco a melhorar aqui — já é ponto forte comprovado do processo comercial"
+      },
+      {
+        "stage": "Fechamento de contrato",
+        "current_volume": "~4 fechamentos/mês estimado [E], dentro da capacidade de 8 obras simultâneas",
+        "leakage_pct": 0,
+        "root_cause": null,
+        "fix_effort": null,
+        "fix_impact_estimate": null
+      }
+    ],
+    "biggest_leakage_summary": "O maior vazamento está entre 'Indicação/Exposição' e 'Instagram/Site' (~25% de perda estimada): o portfólio raso (3 projetos) e os depoimentos só em imagem fazem parte dos contatos já indicados desistirem antes mesmo de entrar em contato — exatamente no momento em que comparam Amanda com concorrentes como Guedes e Bisoli.",
+    "projected_funnel_90d_realistic": "Se os quick wins de portfólio e CRM forem implementados, o funil pode evoluir de ~4 fechamentos/mês estimados para ~5-6/mês em 90 dias, mantendo-se dentro da capacidade máxima de 8 obras simultâneas — o objetivo não é volume ilimitado, é reduzir o vazamento hoje evitável em um funil que já converte bem na etapa presencial."
+  },
+
+  "tone_of_voice_analysis": {
+    "description": "Auditoria de coerência entre o tom de voz 'quiet luxury' declarado no manual de marca e a execução real em cada canal.",
+    "brand_voice_target": {
+      "pillars": ["Sábia (técnica, didática, sem arrogância)", "Soberana (controle, ordem, excelência)", "Criadora (autoral, escuta antes de desenhar)", "Quiet luxury (contido, editorial, sem disputar atenção)"],
+      "avoid": ["Nunca emojis em qualquer canal", "Nunca linguagem promocional/desconto/urgência artificial", "Nunca vida pessoal no feed principal", "Nunca atacar ou comparar concorrentes publicamente", "Nunca estética 'TikTok genérico' com efeitos exagerados"]
+    },
+    "channel_drift": [
+      {
+        "channel": "site",
+        "actual_tone": "Emocional-editorial, alinhado à mensagem-chave aprovada, mas com detalhes de execução (travessões, formato de página única) que soam gerados por IA e reduzem a percepção de solidez institucional.",
+        "target_alignment": "bom",
+        "drift_notes": "O tom emocional está correto, mas a execução técnica destoa da sofisticação 'quiet luxury' pretendida.",
+        "fix": "Revisar o texto removendo travessões e adicionar um vídeo institucional no lugar do texto estático de 'quem somos'.",
+        "example": "\"Não projetamos para tendências. Projetamos para histórias.\" (tom correto) convivendo com uma estrutura de página única que soa mais como landing page de captura do que site institucional."
+      },
+      {
+        "channel": "instagram",
+        "actual_tone": "Mistura o tom editorial pretendido (nos vídeos com a Amanda) com formatos de 'artes com frases e perguntas' que a própria designer da V4 classificou como mais próximos de agência de marketing que de editorial de luxo.",
+        "target_alignment": "parcial",
+        "drift_notes": "O conteúdo em vídeo com Amanda está bem alinhado (autoridade, sem exagero); os carrosséis/artes gráficas ainda usam vermelho em excesso e estrutura repetitiva, aproximando de comunicação comercial.",
+        "fix": "Padronizar carrosséis com a nova direção de arte (menos vermelho, mais espaço em branco, tipografia única).",
+        "example": "Uso do vermelho como cor de fundo/protagonista em vários posts, quando o manual de marca define que deve ser só detalhe/assinatura."
+      },
+      {
+        "channel": "anuncios",
+        "actual_tone": "Não há anúncios estruturados o suficiente para avaliar tom de forma consistente — a única campanha recente focou só em geração de conversa via WhatsApp, sem direção de arte ou copy alinhada à marca.",
+        "target_alignment": "nenhum",
+        "drift_notes": "Sem dado suficiente para avaliar coerência, já que a campanha não teve criativos variados nem copy testada.",
+        "fix": "Aplicar a nova mensagem-chave emocional aprovada ('Você vive sua vida. Nós vivemos a obra.') como base para os primeiros criativos estruturados."
+      },
+      {
+        "channel": "google_meu_negocio",
+        "actual_tone": "As poucas respostas a avaliações parecem seguir um tom cuidadoso e pessoal, mas há uma avaliação negativa falsa que ainda não recebeu resposta pública — quebra a promessa de cuidado com o cliente.",
+        "target_alignment": "parcial",
+        "drift_notes": "A ausência de resposta pública a essa avaliação contraria diretamente o pilar 'Soberana' (controle) que a marca quer transmitir.",
+        "fix": "Responder à avaliação falsa de forma profissional, descredibilizando sem se defender, como recomendado pela própria equipe V4.",
+        "example": "Avaliação de 'João Paulo' contestada verbalmente pela Amanda em reunião ('nunca foi cliente'), mas ainda sem resposta pública no perfil."
+      },
+      {
+        "channel": "whatsapp",
+        "actual_tone": "Não avaliado diretamente por falta de screenshots de conversas reais — mas o próprio relato da cliente indica que fornecedores e clientes se misturam no mesmo número, sem triagem de tom por tipo de contato.",
+        "target_alignment": "baixa",
+        "drift_notes": "Dados insuficientes para avaliação completa — recomenda-se envio de prints de conversas reais na próxima rodada para confirmar o tom real de atendimento.",
+        "fix": "Configurar saudação e mensagem de ausência com o mesmo tom 'quiet luxury' do restante da marca."
+      }
+    ],
+    "coherence_score": 43
+  },
+
+  "url_audit": {
+    "description": "URLs e canais críticos a verificar pelo operador antes e depois da implementação dos quick wins.",
+    "urls": [
+      {
+        "url": "https://arqamandaferraz.com/",
+        "purpose": "Site institucional principal",
+        "status_expected": "Site funcional com HTTPS, portfólio expandido, depoimentos em texto, sem travessões no texto",
+        "verify_checklist": ["Confirmar se travessões foram removidos do texto", "Verificar se vídeo institucional foi adicionado à seção 'quem somos'", "Conferir se novos projetos/case studies foram publicados", "Testar performance mobile (meta 90+)", "Confirmar presença de FAQ/tratamento de objeções"]
+      },
+      {
+        "url": "https://www.instagram.com/arqamandaferraz/",
+        "purpose": "Perfil Instagram principal",
+        "status_expected": "Bio com diferencial + CTA claro, destaque fixado com vídeo institucional",
+        "verify_checklist": ["Conferir bio completa (diferencial, CTA)", "Verificar se destaque 'quem somos' com vídeo existe", "Confirmar padronização de fontes/vermelho nos novos posts", "Checar número de posts arquivados vs. visíveis"]
+      },
+      {
+        "url": "Google Meu Negócio — Amanda Ferraz Arquitetura e Construção",
+        "purpose": "Perfil de busca local",
+        "status_expected": "Foto de perfil configurada, botão WhatsApp ativo, avaliação falsa respondida publicamente",
+        "verify_checklist": ["Confirmar foto de perfil adicionada", "Verificar resposta pública à avaliação de 'João Paulo'", "Conferir se fotos da equipe/escritório foram adicionadas", "Checar se botão WhatsApp aparece no perfil"]
+      },
+      {
+        "url": "WhatsApp Business +55 11 94076-1458",
+        "purpose": "Canal principal de conversão comercial",
+        "status_expected": "Perfil Business configurado com saudação, catálogo e triagem entre fornecedor e cliente",
+        "verify_checklist": ["Confirmar se é WhatsApp Business (não pessoal)", "Verificar mensagem de saudação configurada", "Conferir se número de fornecedor foi separado do número de cliente", "Checar tempo médio de resposta"]
+      },
+      {
+        "url": "Canal YouTube / Podcast",
+        "purpose": "Canal de autoridade e conteúdo",
+        "status_expected": "Vinheta de encerramento com logo, capas padronizadas, canal unificado sem separação do podcast",
+        "verify_checklist": ["Confirmar unificação em um único canal (podcast como playlist, não marca separada)", "Verificar padronização de capas (menos texto, tipografia refinada)"]
+      }
+    ]
+  },
+
+  "quick_wins": [
+    {
+      "action": "Responder publicamente à avaliação falsa de 'João Paulo' no Google Meu Negócio, deixando claro que a pessoa não consta na base de clientes",
+      "channel": "google_meu_negocio",
+      "time_estimate": "15min",
+      "expected_impact": "Reduz o dano à nota (hoje 4,5) e demonstra cuidado ativo com a reputação online",
+      "who_does_it": "client",
+      "steps": ["Acessar o perfil do Google Meu Negócio", "Redigir resposta profissional descredibilizando a avaliação sem se defender", "Publicar e continuar monitorando novas tentativas de denúncia ao Google"]
+    },
+    {
+      "action": "Adicionar foto de perfil e ativar o botão de WhatsApp no Google Meu Negócio",
+      "channel": "google_meu_negocio",
+      "time_estimate": "30min",
+      "expected_impact": "Elimina a falha visual de perfil sem foto e facilita o contato direto pelo canal preferido do ICP",
+      "who_does_it": "client",
+      "steps": ["Fazer upload de uma foto de perfil/logo", "Ativar o botão de mensagem/WhatsApp nas configurações do perfil"]
+    },
+    {
+      "action": "Separar definitivamente o número de WhatsApp de fornecedores do número de clientes",
+      "channel": "whatsapp",
+      "time_estimate": "1h",
+      "expected_impact": "Elimina a confusão que já causou erro de segmentação em campanha de mídia paga anterior",
+      "who_does_it": "client",
+      "steps": ["Confirmar qual número está vinculado ao botão 'fornecedor' do site", "Corrigir o link/número no site e Instagram", "Testar o clique para confirmar redirecionamento correto"]
+    },
+    {
+      "action": "Publicar os 3 primeiros posts no blog do site, usando temas já validados em conversa com a equipe V4",
+      "channel": "site",
+      "time_estimate": "3h",
+      "expected_impact": "Sai de 0 para conteúdo indexável, começa a resolver a ausência em buscas por Google/IA",
+      "who_does_it": "client_team",
+      "steps": ["Escolher 3 temas já validados (ex: matemática do comissionamento oculto, como escolher pedra por ambiente)", "Escrever ou adaptar texto de reuniões/transcrições existentes", "Publicar no blog e compartilhar um trecho no Instagram"]
+    },
+    {
+      "action": "Revisar o texto do site removendo travessões e transcrever ao menos 1 depoimento em texto (não só imagem)",
+      "channel": "site",
+      "time_estimate": "2h",
+      "expected_impact": "Melhora a percepção de autenticidade (menos 'gerado por IA') e começa a resolver a fraqueza de prova social",
+      "who_does_it": "operator",
+      "steps": ["Revisar os textos existentes removendo travessões", "Transcrever ao menos 1 depoimento hoje em imagem para texto, com autorização do cliente", "Publicar no site"]
+    }
+  ],
+
+  "key_insight": {
+    "headline": "O maior vazamento do funil (~25%) acontece entre a indicação e o Instagram/site — não por falta de tráfego, mas porque o portfólio raso desanima quem já estava propenso a fechar.",
+    "context": "Diferente de um problema de aquisição, esse vazamento acontece com quem JÁ foi indicado e JÁ está validando a indicação — a pessoa mais fácil de converter em todo o funil. Perder gente exatamente nessa fase é o desperdício mais caro possível, porque o custo de aquisição dela já foi pago (pela reputação, não por mídia).",
+    "numbered_reasons": [
+      "O portfólio do site tem apenas 3 projetos sem case study, exatamente quando a família compara Amanda com concorrentes como Guedes e Bisoli, que usam prova social mais robusta.",
+      "Os depoimentos existem só como imagem, não como texto — não reforçam a decisão no momento em que mais importam.",
+      "Resolver isso custa pouco (ação já ranqueada em 2º lugar na SWOT por risk-adjusted score) e ataca diretamente o estágio mais barato de recuperar de todo o funil."
+    ],
+    "discussion_anchor": "Vale priorizar a expansão do portfólio ANTES de qualquer novo real investido em mídia paga — de que adianta trazer mais gente para o topo do funil se quem já estava quase entrando ainda desiste no meio do caminho?"
+  },
+
+  "honesty_alert": "Esta auditoria foi construída majoritariamente a partir de transcrições de reuniões já realizadas (diagnóstico de identidade visual e CRO feitos pela própria equipe V4) e de uma pesquisa automática — não de screenshots atuais fornecidos nesta rodada específica. O canal WhatsApp em particular tem dados insuficientes (sem prints de conversas reais, sem confirmação de saudação/mensagem de ausência configuradas) e seu score deve ser tratado como estimativa conservadora. Recomenda-se que o operador envie screenshots atualizados de Instagram (feed atual), WhatsApp Business (perfil e conversas) e qualquer anúncio ativo para refinar os scores na próxima revisão."
+}

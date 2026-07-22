@@ -1,0 +1,227 @@
+{
+  "summary": "SOM combinado da Mina Pizza (pizza + prato feito/marmita + pastel) é R$2,95M/ano — quase idêntico à meta fechada com a V4 (R$2,4-3M/ano), mas o mercado de marmita é 8-80x mais disputado que o de pizza na região, e a loja hoje nem aparece quando alguém busca 'Marmita' no iFood porque o cardápio está categorizado por nome de prato.",
+  "client_name": "Mina Pizza",
+  "segment": "Alimentação — pizzaria e restaurante à la carte (PDV local, praça de alimentação)",
+  "region": "São Vicente, SP (Baixada Santista)",
+  "tam_sam_som": {
+    "tam": {
+      "value_brl": 105630000000,
+      "description": "Soma de 3 segmentos nacionais relevantes ao mix de produtos da Mina Pizza: pizza delivery (R$25 bi/ano, alta confiança — fonte setorial específica Apubra), prato feito/marmita (R$74,25 bi/ano, confiança média — proxy estimado a partir do mercado de alimentação fora do lar, sem associação equivalente à Apubra), e pastelaria (R$6,38 bi/ano, confiança baixa — estimativa bottom-up a partir de estabelecimentos mapeados)."
+    },
+    "sam": {
+      "value_brl": 173500000,
+      "description": "Mercado combinado de pizza + prato feito/marmita + pastel em São Vicente (338.326 habitantes, IBGE 2025), estimado por produto: pizza R$39,6M/ano (alta confiança, top-down via Apubra), marmita/PF R$130M/ano (confiança média), pastel R$3,9M/ano (confiança baixa, bottom-up).",
+      "filters": [
+        "Município de São Vicente, SP (338.326 habitantes, IBGE 2025)",
+        "3 segmentos: pizza (delivery + presencial), prato feito/marmita (delivery + presencial), pastel",
+        "Exclui outros formatos de alimentação fora do lar (fast-food de rede, fine dining, bares)"
+      ]
+    },
+    "som": {
+      "value_brl": 2947500,
+      "description": "SOM de mercado (teto tangível, sem horizonte temporal, independente de capacidade interna) somando os 3 produtos: pizza R$1,11M/ano (triangulado, já validado), prato feito/marmita R$1,58M/ano (recalibrado para baixo após evidência real de mercado local saturado — prints de busca no iFood mostraram 4+ concorrentes com 134 a 3.702 avaliações cada, versus 47 da Mina Pizza), pastel R$253,5k/ano. NÃO derivado da meta comercial do cliente — calculado de forma independente e só depois comparado a ela.",
+      "assumptions": [
+        "Pizza: triangulação por market-share (tier 'diferenciada com posicionamento claro', 3-5% do SAM) e por segmento de nicho (tradição de bairro), convergindo em R$1,04-1,19M/ano",
+        "Prato feito/marmita: triangulação recalibrada em 3 métodos — (1) capacidade operacional madura, R$1,38M/ano, considerando que o horário de almoço já roda perto do pico, com pouca folga para crescer só via correção digital; (2) market-share rebaixado para o tier 'generalista mediana' (1,5% do SAM = R$1,95M/ano), porque o cardápio do iFood da Mina Pizza não está categorizado como 'marmita' (usa nomes de prato como 'Filé à Parmegiana'), então provavelmente não aparece na busca onde os concorrentes fortes competem; (3) fatia de nicho presencial (fluxo cativo do Carrefour, já em grande parte capturado) + incremento modesto de delivery, ~R$1,45M/ano. Convergência em R$1,58M/ano",
+        "Pastel: bottom-up (população × frequência × ticket) — mercado local pouco competido, concorrentes pesquisados no iFood têm apenas 12 a 69 avaliações"
+      ],
+      "operational_ceiling_note": "A capacidade operacional atual (1 loja, cozinha compartilhada entre pizza e prato feito, sem expansão) sustenta aproximadamente R$324k/ano de crescimento incremental em pizza e R$1,38M/ano em prato feito/marmita — o SOM de mercado combinado (R$2,95M/ano) exige captura de quase todo o potencial identificado nos 3 produtos, o que pode esbarrar em capacidade de cozinha/equipe (especialmente no horário de almoço, que já roda perto do pico) antes de esbarrar em teto de mercado."
+    },
+    "methodology": "mixed",
+    "sources": [
+      {"name": "Apubra — Associação Pizzarias Unidas do Brasil", "url": "https://www.apubra.com.br", "year": 2025},
+      {"name": "ANR — Associação Nacional de Restaurantes (Delivery em alta)", "url": "https://anrbrasil.org.br/delivery-em-alta-mercado-deve-movimentar-mais-de-us-21-bilhoes-no-brasil-ate-o-fim-de-2025/", "year": 2025},
+      {"name": "IBGE — Estimativas de população, São Vicente/SP", "url": "https://www.ibge.gov.br/cidades-e-estados/sp/sao-vicente.html", "year": 2025},
+      {"name": "Saipos/Abrasel — ticket médio nacional pizza e prato feito delivery", "url": "https://saipos.com/pizzaria/mercado-de-pizza-delivery-no-brasil", "year": 2025},
+      {"name": "FoodBiz/IFB — mapeamento de pastelarias no Brasil (Driva)", "url": "https://foodbizbrasil.com/dados-ifb/dia-do-pastel-no-brasil-numeros-curiosidades-e-dados-do-foodservice/", "year": 2024},
+      {"name": "iFood — busca local 'Marmita' e 'Pizza' próximo à Mina Pizza (evidência direta, prints fornecidos pelo operador)", "url": "app iFood", "year": 2026}
+    ]
+  },
+  "market_share": {
+    "current_revenue_brl": 1720000,
+    "current_share_of_sam_pct": 0.99,
+    "target_share_of_sam_pct": 1.70,
+    "gap_to_som_brl": 1227500,
+    "gap_to_som_pct": 71.4,
+    "commentary": "A Mina Pizza captura hoje menos de 1% do mercado combinado de pizza + marmita/PF + pastel em São Vicente. O SOM de R$2,95M/ano representa quase dobrar a participação de mercado (de 0,99% para 1,70%), mas em termos absolutos 'só' 71% de crescimento sobre o faturamento atual — mais alcançável do que parece à primeira vista, mas exige execução consistente nos 3 produtos, com atenção especial ao segmento de marmita, que está mais disputado que o de pizza.",
+    "client_annual_revenue_goal_brl": 2400000,
+    "client_annual_revenue_goal_source": "Formulário de kick-off (R$200-250 mil/mês, mínimo-máximo esperado com investimento em mídia) e call de qualificação BANT/SPICED (meta declarada de R$200 mil/mês total, pizza subindo de 30% para 50% do faturamento)",
+    "client_goal_vs_som_note": "A meta declarada pelo Roberto (R$2,4-3M/ano total) ficou quase idêntica ao SOM de mercado calculado de forma independente (R$2,95M/ano) — isso não é coincidência de cálculo (o SOM foi derivado antes de qualquer comparação com a meta), é validação de que a meta fechada no comercial está bem calibrada com o teto realista do mercado local, nem pessimista nem inflada. A diferença prática: bater essa meta exige capturar quase todo o potencial de mercado disponível nos 3 produtos, o que só é possível se a capacidade operacional (hoje sustentando um teto combinado de cerca de R$1,7M/ano sem expansão) também crescer — não é só uma questão de marketing."
+  },
+  "competitors": [
+    {
+      "name": "Café Com Pizza de Santos",
+      "positioning": "Pizzaria com o maior volume de pedidos entre os concorrentes de pizza pesquisados na região — 'Mais Pedido' no iFood",
+      "channels": ["iFood (com agendamento e anúncio patrocinado)"],
+      "strengths": [
+        "4,8★ com 1.049 avaliações — maior volume de prova social entre todos os concorrentes de pizza pesquisados, incluindo o Império da Pizza",
+        "Badge 'Mais Pedido' no iFood — sinal de alta conversão real, não só audiência"
+      ],
+      "weaknesses": [
+        "Não identificamos presença em Instagram nesta pesquisa — parece concentrar esforço só no iFood",
+        "Nome sugere posicionamento genérico, sem narrativa de tradição aparente"
+      ],
+      "estimated_pricing": "Não coletado com precisão nesta rodada",
+      "digital_score": 8,
+      "digital_details": {"active_ads": "Anúncio patrocinado (Ad) visível no iFood — investe em mídia paga dentro da plataforma"}
+    },
+    {
+      "name": "Império da Pizza",
+      "positioning": "'Melhor pizzaria da Baixada Santista' — playbook de escala regional: 2 unidades físicas, multi-canal de pedido",
+      "channels": ["Instagram orgânico (43K seguidores)", "iFood (804 avaliações, 4,7★, listado como 'Império II')", "Goomer", "Anota AI", "Ola Click"],
+      "strengths": [
+        "43K seguidores no Instagram — maior audiência digital entre os concorrentes pesquisados",
+        "804 avaliações no iFood confirmam que a audiência do Instagram converte em pedido real, não é só vaidade métrica",
+        "2 unidades físicas — cobertura geográfica maior",
+        "Múltiplos canais de pedido próprio (Goomer, Anota AI, Ola Click) além do iFood — reduz dependência de comissão"
+      ],
+      "weaknesses": [
+        "Escala/porte pode diluir a narrativa de tradição de bairro que a Mina Pizza tem (36 anos numa loja só)",
+        "Não identificamos histórico de tradição tão longo quanto o da Mina Pizza nesta pesquisa"
+      ],
+      "estimated_pricing": "Não coletado com precisão nesta rodada",
+      "digital_score": 9,
+      "digital_details": {"instagram": "@imperiodapizzasvoficial — 43K seguidores", "google": "Referência regional, avaliada como melhor da Baixada Santista"}
+    },
+    {
+      "name": "Big Família Pizzaria e Restaurante",
+      "positioning": "Pizzaria + restaurante híbrido (almoço + pizza à noite) — modelo de negócio quase idêntico ao da Mina Pizza, mas com execução digital muito mais madura",
+      "channels": ["Site próprio com pedido online (bigfamilia.com.br)", "Instagram orgânico (11K seguidores)", "iFood", "Goomer", "Facebook"],
+      "strengths": [
+        "Site próprio com pedido direto — captura dados do cliente sem depender só de marketplace",
+        "Taxa de entrega mais barata (R$5 vs R$8 do iFood da Mina Pizza)",
+        "Mesma janela de horário (almoço 11h-15:30 + jantar 18h-00h) — comprova que o modelo híbrido da Mina Pizza é viável e escalável quando bem executado digitalmente",
+        "11K seguidores no Instagram — 20x mais que a Mina Pizza"
+      ],
+      "weaknesses": [
+        "Não identificamos diferencial de tradição tão longa quanto a da Mina Pizza",
+        "Ticket de almoço mais baixo (R$20-40) — pode indicar posicionamento mais popular/menos premium"
+      ],
+      "estimated_pricing": "Almoço R$20-40/pessoa; delivery R$5",
+      "digital_score": 7,
+      "digital_details": {"website": "bigfamilia.com.br — pedido online direto", "instagram": "@bigfamiliapizzaria — 11K seguidores"}
+    },
+    {
+      "name": "Caseirinha da Mãe (marmita)",
+      "positioning": "Especialista em marmita com o maior volume de pedidos de toda a pesquisa (pizza + marmita) — 'Mais Pedido', exclusivo iFood",
+      "channels": ["iFood (exclusivo — 'Só no iFood')"],
+      "strengths": [
+        "3.702 avaliações — maior volume de prova social de toda a pesquisa, 8 a 80x mais que qualquer outro concorrente analisado",
+        "Nota 4,6★ mantida mesmo em altíssimo volume — sinal de operação consistente em escala",
+        "Nome e posicionamento ('da Mãe') comunicam comida caseira de forma simples e direta"
+      ],
+      "weaknesses": [
+        "Presente só no iFood — não identificamos site próprio ou Instagram, sugerindo dependência total da comissão da plataforma",
+        "Nota 4,6★ é a mais baixa entre os grandes players de marmita pesquisados — pode indicar algum sacrifício de qualidade pela escala"
+      ],
+      "estimated_pricing": "Taxa de entrega R$18,99 (observada)",
+      "digital_score": 7,
+      "digital_details": {"active_ads": "Patrocinado (Ad) no iFood"}
+    },
+    {
+      "name": "O Marmiteiro",
+      "positioning": "Marmita com a melhor combinação de nota alta + volume alto entre os concorrentes pesquisados",
+      "channels": ["iFood (exclusivo — 'Só no iFood')"],
+      "strengths": [
+        "4,9★ com 853 avaliações — melhor nota entre os grandes players de marmita, sem sacrificar volume",
+        "Nome direto e fácil de lembrar"
+      ],
+      "weaknesses": [
+        "Também parece depender só do iFood — sem Instagram/site identificado",
+        "Tempo de entrega mais longo (53-68min) que a média"
+      ],
+      "estimated_pricing": "Taxa de entrega R$17,99 (observada)",
+      "digital_score": 7
+    },
+    {
+      "name": "Alecrim - Comida Caseira",
+      "positioning": "Comida caseira com posicionamento de marca mais elaborado que a maioria dos concorrentes de marmita",
+      "channels": ["iFood (exclusivo — 'Só no iFood')"],
+      "strengths": [
+        "4,7★ com 711 avaliações — volume alto e consistente",
+        "Badge 'Mais Pedido' — alta conversão"
+      ],
+      "weaknesses": [
+        "Mesma dependência de plataforma única observada nos outros grandes players de marmita locais"
+      ],
+      "estimated_pricing": "Taxa de entrega R$21,99 (observada)",
+      "digital_score": 7
+    },
+    {
+      "name": "Marmitaria Fit Fat",
+      "positioning": "Marmita fitness/dieta — único concorrente pesquisado com posicionamento de nicho claro (não é comida caseira genérica)",
+      "channels": ["iFood, com badge 'Melhor avaliado'"],
+      "strengths": [
+        "4,8★ com 134 avaliações — volume menor que os líderes, mas nota muito alta",
+        "Posicionamento de nicho claro (fitness) — não compete diretamente pelo mesmo cliente da Mina Pizza (tradição/conveniência, não dieta)",
+        "Prova que segmentação por nicho funciona mesmo em mercado saturado"
+      ],
+      "weaknesses": [
+        "Volume bem menor que Caseirinha da Mãe/O Marmiteiro/Alecrim — nicho limita o teto de crescimento"
+      ],
+      "estimated_pricing": "R$19,20-33,00 por marmita (observado)",
+      "digital_score": 6
+    }
+  ],
+  "competitive_map": {
+    "axis_x": "Maturidade digital (baixa → alta)",
+    "axis_y": "Porte/escala (loja única, local → múltiplas unidades/regional)",
+    "positions": [
+      {"name": "Mina Pizza (hoje)", "quadrant": "Loja única, digital baixíssimo — canto inferior esquerdo"},
+      {"name": "Big Família / Marmita Fit Fat", "quadrant": "Loja única, digital médio-alto"},
+      {"name": "Café Com Pizza de Santos / Caseirinha da Mãe / O Marmiteiro / Alecrim", "quadrant": "Operação madura em delivery, digital alto, mas dependente de plataforma única (sem site/Instagram identificado)"},
+      {"name": "Império da Pizza", "quadrant": "Múltiplas unidades, digital alto e diversificado — canto superior direito"},
+      {"name": "Mina Pizza (posição sugerida pós-programa)", "quadrant": "Loja única, digital alto, com narrativa de tradição de 36 anos que nenhum concorrente desse quadrante comunica"}
+    ],
+    "empty_spaces": "Nenhum concorrente pesquisado — pizza ou marmita — combina tradição de décadas com maturidade digital alta. No segmento de marmita especificamente, todos os líderes (Caseirinha da Mãe, O Marmiteiro, Alecrim) são operações 'nascidas no iFood', sem contar história de tradição — abrindo espaço pra Mina Pizza se posicionar como 'a marmita/pizza de quem já é da região há 36 anos', algo que nenhum grande player de marmita comunica.",
+    "crowded_spaces": "Marmita/comida caseira via iFood é o quadrante mais disputado de toda a pesquisa — 4+ concorrentes com centenas/milhares de avaliações competem pelo mesmo termo de busca ('Marmita'). A Mina Pizza hoje nem aparece nessa busca, porque seu cardápio não está categorizado como marmita."
+  },
+  "trends": [
+    {"trend": "WhatsApp Business consolidado como ferramenta essencial pra restaurantes reduzirem dependência de comissão de apps de delivery em 2026", "evidence": "SocialHub (2026): 'Em 2026, o WhatsApp Business é a ferramenta essencial para restaurantes e delivery que buscam maximizar lucros... sem pagar comissões abusivas de aplicativos'"},
+    {"trend": "Decisão de onde comer cada vez mais baseada em avaliações do Google — mais de 60% dos consumidores em 2025 escolheram restaurante com base nisso", "evidence": "Pesquisa citada por SocialHub/Colinatech (2025): 'mais de 60% das pessoas escolheram onde comer com base em avaliações no Google'"},
+    {"trend": "Mercado de pizzarias delivery no Brasil em expansão estrutural, crescendo 10,29% ao ano", "evidence": "Apubra (2025): 40.332 estabelecimentos ativos, crescimento de 10,29% em 2025, consumo de 1,3 milhão de pizzas/dia no país"},
+    {"trend": "Mercado de marmitex/prato feito é um dos que mais cresceu no Brasil na última década, com preços subindo acima da inflação em 2025", "evidence": "Crescimento de ~134% em 5 anos (pós-pandemia); preço médio do marmitex grande subiu 11% (R$23,70→R$26,31) e do prato feito 7,69% (R$26,50→R$31,19) entre 2024 e 2025"}
+  ],
+  "threats": [
+    {"threat": "Comissões de plataformas de delivery (iFood) consomem até 26,5% do valor de cada pedido (12-23% de comissão + 3,2-3,5% de taxa de pagamento)", "potential_impact": "Se a dependência do iFood crescer sem um canal próprio robusto (WhatsApp, site) pra equilibrar, a margem da Mina Pizza no delivery fica cada vez mais espremida — especialmente considerando que o CMV já está em 30-35%"},
+    {"threat": "O segmento de marmita/comida caseira na região já tem 4+ concorrentes estabelecidos com centenas/milhares de avaliações no iFood, otimizados especificamente pra esse termo de busca", "potential_impact": "Enquanto a Mina Pizza corrige o básico de comunicação, esses concorrentes continuam capturando 100% da demanda de quem busca 'Marmita' no app — a Mina Pizza nem entra na disputa hoje, porque seu cardápio não está categorizado assim"}
+  ],
+  "unexploited_opportunity": {
+    "description": "Ocupar o território 'A pizzaria (e marmitaria) de bairro mais tradicional da praça — 36 anos, redescoberta.' Nenhum concorrente pesquisado, em pizza ou marmita, combina tradição de décadas com execução digital madura.",
+    "why_nobody_does_it": "(1) Os concorrentes com tradição comparável (Bella Romanesca em pizza) não têm a localização de tráfego cativo dentro de um hipermercado que a Mina Pizza tem. (2) Os líderes de marmita (Caseirinha da Mãe, O Marmiteiro, Alecrim) são operações 'nascidas no iFood', otimizadas pra delivery mas sem nenhuma história de tradição pra contar. (3) A própria Mina Pizza nunca comunicou essa tradição digitalmente — a bio do Instagram nem menciona os 34-36 anos de forma central, o GMB nem estava sendo gerido, e o cardápio do iFood não está nem categorizado como 'marmita'.",
+    "feasibility": "alta"
+  },
+  "market_jtbd": {
+    "current_solutions": "A maioria resolve a fome/ocasião de pizza ou marmita pedindo pelo iFood (delivery já responde por mais de 60% das vendas do segmento de pizza no Brasil, segundo a Apubra) ou ligando/indo direto numa pizzaria/marmitaria de bairro de confiança",
+    "alternatives": [
+      {"type": "direct", "description": "Outras pizzarias e marmitarias de São Vicente/Baixada Santista (Café Com Pizza de Santos, Império da Pizza, Big Família, Caseirinha da Mãe, O Marmiteiro, Alecrim, Marmitaria Fit Fat)"},
+      {"type": "indirect", "description": "Outros restaurantes da mesma praça de alimentação (ex: o restaurante de frango frito vizinho) ou lanchonetes da região"},
+      {"type": "diy", "description": "Cozinhar em casa ou comprar pizza/marmita congelada no mercado"},
+      {"type": "inaction", "description": "Não comer pizza/prato feito naquele momento — comer algo já disponível em casa"}
+    ],
+    "cost_of_inaction": "Se a Mina Pizza não corrigir sua presença digital nem categorizar corretamente seu cardápio, continua invisível justamente nas buscas onde a concorrência (pizza e principalmente marmita) já é forte e crescente — esse espaço pode ser capturado por concorrentes mais preparados digitalmente, não pela Mina Pizza"
+  },
+  "real_differentials": [
+    {"differential": "36 anos de tradição no mesmo bairro — mais longo que a maioria dos concorrentes pesquisados em pizza e todos os líderes de marmita (que são operações recentes, nascidas no iFood)", "status": "confirmed", "icp_relevance": "É exatamente o que sustenta a persona Marlene (cliente fiel de décadas) — tradição é o pilar emocional do ICP principal", "action_needed": null},
+    {"differential": "Localização dentro de uma praça de alimentação de hipermercado (Carrefour), com tráfego cativo e estacionamento — nenhum concorrente pesquisado tem esse tipo de localização", "status": "confirmed", "icp_relevance": "Facilita a conveniência que sustenta o job funcional da persona (resolver fome rápido, sem sair do lugar onde já está fazendo compras)", "action_needed": null},
+    {"differential": "Pastel feito na hora, bem recheado — produto de nicho elogiado nas avaliações, com concorrência local muito menor (12-69 avaliações) que pizza ou marmita", "status": "confirmed", "icp_relevance": "Diferencial de produto já validado por clientes reais, pode virar carro-chefe de comunicação de baixo esforço competitivo", "action_needed": null},
+    {"differential": "Canal de pedido próprio (delivery via Neemo) — reduz dependência de comissão do iFood, como o Big Família já faz com site próprio", "status": "potential", "icp_relevance": "Reduz custo de aquisição no médio prazo e captura dados do cliente que hoje ficam só com o iFood", "action_needed": "Auditar/ativar/divulgar o canal Neemo, seguindo o quick win já mapeado na auditoria de comunicação"},
+    {"differential": "Presença digital no nível do Big Família (mesmo modelo de negócio, execução muito mais madura)", "status": "aspirational", "icp_relevance": "Prova que o modelo híbrido almoço+pizza da Mina Pizza é escalável digitalmente quando bem executado", "action_needed": "Executar os quick wins da auditoria de comunicação (GMB, WhatsApp, Instagram) e o posicionamento da Semana 2"},
+    {"differential": "Cardápio do iFood categorizado corretamente como 'Marmita'/'Quentinha', não só por nome de prato ('Filé à Parmegiana')", "status": "potential", "icp_relevance": "Afeta diretamente a descoberta pela persona secundária Jailson (trabalhador que busca almoço rápido por proximidade) e por qualquer cliente novo que procure 'marmita' em vez do nome da loja — hoje a Mina Pizza provavelmente nem aparece nessa busca, onde 4+ concorrentes fortes competem", "action_needed": "Adicionar categoria/itens nomeados 'Marmita' ou 'Quentinha' no cardápio do iFood — ação de baixo esforço, alto potencial de descoberta imediata"}
+  ],
+  "honesty_alert": "Esta pesquisa combina 3 níveis de confiança diferentes por produto: pizza tem fonte setorial sólida (Apubra) e foi validada com dados reais de busca no iFood — confiança alta. Prato feito/marmita foi recalibrado com evidência real (prints de busca fornecidos pelo operador) mas ainda usa proxy de mercado nacional, sem associação equivalente à Apubra — confiança média. Pastel usa estimativa bottom-up com poucos dados de mercado, mas a competição local pesquisada é baixa (concorrentes com 12-69 avaliações), então o risco prático de erro é menor — confiança baixa mas de baixo impacto. Não fizemos análise aprofundada de concorrentes de pastelaria, já que o próprio Roberto validou que o produto é pouco significativo pro faturamento (~6%, também estimado). Achado acionável que vale destacar separadamente da estratégia de médio prazo: o cardápio da Mina Pizza no iFood não está categorizado como 'marmita', o que provavelmente a torna invisível pra essa busca específica onde a concorrência é mais forte — isso é uma correção rápida e de baixo esforço, não um problema estrutural.",
+  "summary_headline": "SOM combinado (pizza + marmita + pastel) é R$2,95M/ano — quase igual à meta da V4, mas a Mina Pizza nem aparece quando alguém busca 'Marmita' no iFood, onde 4 concorrentes já têm de 134 a 3.702 avaliações.",
+  "summary_highlights": [
+    {"category": "posicao", "label": "Participação atual no SAM combinado", "value": "0,99%", "subtext": "R$1,72M de R$173,5M/ano (pizza+marmita+pastel)", "tone": "red"},
+    {"category": "oportunidade", "label": "SOM combinado", "value": "R$2,95M/ano", "subtext": "Quase igual à meta fechada com a V4 (R$2,4-3M)", "tone": "yellow"},
+    {"category": "competicao", "label": "Maior concorrente da pesquisa", "value": "Caseirinha da Mãe — 3.702 avaliações", "subtext": "vs. 47 da Mina Pizza no iFood", "tone": "red"},
+    {"category": "risco", "label": "Gap de categorização", "value": "Mina Pizza não aparece em 'Marmita'", "subtext": "Cardápio nomeado por prato, não por categoria", "tone": "red"},
+    {"category": "janela", "label": "Território ainda vazio", "value": "Tradição + digital maduro", "subtext": "Nenhum líder de marmita comunica história de décadas", "tone": "green"}
+  ],
+  "summary_key_findings": [
+    {"category": "vantagem", "text": "36 anos de tradição segue sendo um diferencial que nenhum líder de marmita (todos 'nascidos no iFood') ou a maioria dos de pizza conseguem replicar."},
+    {"category": "contexto", "text": "O SOM combinado recalibrado (R$2,95M/ano) ficou quase idêntico à meta que a V4 fechou (R$2,4-3M) — a meta não tem folga, está no teto realista, especialmente porque o segmento de marmita é muito mais disputado que o de pizza."},
+    {"category": "ameaca", "text": "O mercado de marmita local tem pelo menos 4 concorrentes com centenas/milhares de avaliações no iFood — a Mina Pizza, com 47, está numa posição de desvantagem competitiva real e imediata nesse segmento específico."},
+    {"category": "acao", "text": "Categorizar o cardápio do iFood com o termo 'Marmita'/'Quentinha' é uma ação de baixíssimo esforço que pode destravar descoberta num mercado onde a loja hoje é invisível pra essa busca específica."}
+  ]
+}

@@ -1,0 +1,284 @@
+{
+  "client_name": "Amanda Ferraz Arquitetura e Construção",
+  "summary": "Maturidade digital geral de 30/100 (baixa) — CRM crítico (12/100) é o pilar que mais trava resultado, seguido de mídia paga sem estrutura (22/100). Criativos é o pilar relativamente mais forte (48/100), sustentado por identidade visual já formalizada. O crescimento até aqui veio quase inteiramente de indicação, não de estrutura digital.",
+  "data_source": "manual",
+
+  "summary_headline": "Amanda Ferraz tem 30/100 de maturidade digital — CRM crítico (12/100) trava qualquer resultado real de mídia paga, mesmo com criativos acima da média do setor.",
+
+  "overall_score": 30,
+  "overall_classification": "low",
+
+  "pillar_scores": [
+    {
+      "pillar": "midia_paga",
+      "score": 22,
+      "classification": "low",
+      "highlight": "Última campanha gastou R$1.200 em 2 semanas e gerou apenas conversas de fornecedores — zero clientes reais, sinal de segmentação e negativação inexistentes.",
+      "estimated": true,
+      "details": {
+        "strengths": [
+          "Já testou Meta Ads e Google Ads antes — não é um terreno totalmente virgem",
+          "Investimento atual de R$2.000/mês já reservado para reiniciar com estrutura"
+        ],
+        "weaknesses": [
+          "Campanha anterior rodou com uma única campanha, sem estrutura de funil (topo/meio/fundo)",
+          "Sem negativação de palavras-chave/públicos — campanha atraiu fornecedores em vez de clientes",
+          "Gestor de tráfego contratado por apenas 3 semanas, sem otimização de criativos",
+          "Nenhuma evidência de pixel/CAPI configurado ou de públicos lookalike/customizados"
+        ],
+        "metrics": {
+          "investimento_mensal_atual": "R$2.000 (recém-retomado após demissão do gestor anterior)",
+          "historico_recente": "R$1.200 investidos em 2 semanas, ~10 conversas geradas, 100% fornecedores (0 clientes reais)",
+          "custo_por_conversa_historico": "~R$120 (mas sem valor real, já que não eram leads qualificados)",
+          "plano_v4_proposto": "R$3.200-4.200/mês (Meta R$1.500-2.000, YouTube R$800-1.200, Google R$600-1.000) — ainda não implementado"
+        }
+      }
+    },
+    {
+      "pillar": "criativos",
+      "score": 48,
+      "classification": "medium",
+      "highlight": "Identidade visual já formalizada e boa variedade de formatos (Reels, YouTube, podcast), mas falta consistência de direção de arte e a comunicação ainda soa mais 'agência de marketing' que editorial de luxo.",
+      "estimated": true,
+      "details": {
+        "strengths": [
+          "Amanda aparece nos vídeos com autoridade real — diferencial que os concorrentes diretos não têm ou fazem mal (ex: Ricardo Gaspari não aparece; Eduardo Muzi mistura vida pessoal)",
+          "Boa variedade de formatos: Reels, carrossel, YouTube, podcast quinzenal",
+          "Manual de marca e identidade visual já existem, com paleta, tipografia e diretrizes formalizadas"
+        ],
+        "weaknesses": [
+          "Fontes inconsistentes entre site, manual de marca e criativos do Instagram",
+          "Uso excessivo do vermelho (deveria ser só detalhe/assinatura, hoje é protagonista em vários posts)",
+          "Cantos arredondados em fotos/CTAs aproximam a comunicação de 'site comercial', não de alto padrão",
+          "Capas de vídeo do podcast com texto grande e fonte popular, sem refinamento tipográfico",
+          "Carrosséis seguem sempre a mesma estrutura (mesmo fundo, mesma posição de texto) — gera monotonia"
+        ],
+        "metrics": {
+          "seguidores_instagram": "~12,7 mil",
+          "frequencia_podcast": "a cada 15 dias, com temporadas",
+          "manual_de_marca": "existente (paleta 5 cores + tipografia Season/Josefin formalizadas)"
+        }
+      }
+    },
+    {
+      "pillar": "cro",
+      "score": 35,
+      "classification": "low",
+      "highlight": "Todos os links e botões do site funcionam (raro e elogiado), mas o portfólio raso (3 projetos sem case study) e depoimentos só em imagem enfraquecem a prova social no momento decisivo de comparação.",
+      "estimated": true,
+      "details": {
+        "strengths": [
+          "100% dos botões/links testados funcionam (CTA, WhatsApp, redes sociais) — falha rara nesse tipo de auditoria",
+          "Site rápido no geral (~0.43s de resposta), com HTTPS e HSTS ativos",
+          "Proposta de valor existe e é razoavelmente clara na home"
+        ],
+        "weaknesses": [
+          "Portfólio com apenas 3 projetos, identificados só por número, sem case study (contexto, metragem, resultado)",
+          "Depoimentos existem só como imagem (prints), não como texto — não indexável, não reaproveitável",
+          "Sem FAQ / tratamento de objeções na página",
+          "Performance mobile em ~70 pontos (meta 90+)",
+          "Contraste dos CTAs fraco no topo do site",
+          "Sem vídeo institucional na seção 'quem somos' — hoje é só texto estático",
+          "Sem evidência de GA4 ou tracking de conversão configurado (não confirmado pelo operador)"
+        ],
+        "metrics": {
+          "performance_mobile": "~70/100 (meta 90+)",
+          "performance_desktop": "aceitável, sem nota exata registrada",
+          "projetos_no_portfolio": 3,
+          "depoimentos_em_texto": 0
+        }
+      }
+    },
+    {
+      "pillar": "crm",
+      "score": 12,
+      "classification": "critical",
+      "highlight": "Não existe CRM funcional — 5+ anos pagando por um Bitrix nunca configurado, processos e prazos vivem na cabeça da própria Amanda, sem pipeline nem dados centralizados.",
+      "estimated": true,
+      "details": {
+        "strengths": [
+          "Está estudando ClickUp ativamente como alternativa — abertura para resolver o problema",
+          "Sabe alguns números-chave de cabeça (taxa de fechamento à vista ~60-65%, inadimplência quase zero)"
+        ],
+        "weaknesses": [
+          "Sem ferramenta de CRM ativa hoje (Bitrix pago por anos, nunca configurado corretamente)",
+          "Sem pipeline formal — gestão de prazos e contratos depende da memória da Amanda",
+          "Sem automação de nutrição ou follow-up de leads",
+          "Leads e fornecedores se misturam no mesmo WhatsApp pessoal, sem segmentação",
+          "Sem dashboard ou métrica de funil (não sabe taxa de conversão por etapa, apenas dados soltos)"
+        ],
+        "metrics": {
+          "ferramenta_atual": "nenhuma ativa (Bitrix abandonado, ClickUp em avaliação)",
+          "anos_pagando_ferramenta_nao_configurada": "5+"
+        }
+      }
+    },
+    {
+      "pillar": "seo",
+      "score": 28,
+      "classification": "low",
+      "highlight": "Blog do site existe mas tem zero posts publicados, e a Amanda Ferraz não aparece em nenhuma busca por Inteligência Artificial ao pesquisar 'arquiteto' na região — apesar de o Google Meu Negócio já estar ativo com nota 4,5.",
+      "estimated": true,
+      "details": {
+        "strengths": [
+          "Google Meu Negócio ativo, com nota 4,5 (19 avaliações) e fotos reais de projeto",
+          "Site com HTTPS, HSTS e estrutura mobile-friendly",
+          "Categoria e endereço corretamente preenchidos no GMB"
+        ],
+        "weaknesses": [
+          "Amanda Ferraz não aparece em nenhuma IA generativa ao buscar 'arquiteto' na região — achado crítico de autoridade digital",
+          "Blog do site existe na estrutura mas tem 0 posts publicados",
+          "Poucas avaliações no GMB e desatualizadas — nenhuma solicitação ativa de review recente",
+          "Falta foto de perfil e botão de WhatsApp no Google Meu Negócio",
+          "Site é uma SPA de página única (Hostinger Website Builder) — potencial limitação de indexação por página",
+          "Sem evidência de estratégia de palavras-chave — provavelmente ranqueia só para o nome próprio"
+        ],
+        "metrics": {
+          "avaliacoes_gmb": "4,5 estrelas / 19 avaliações",
+          "posts_no_blog": 0,
+          "presenca_em_buscas_ia": "nenhuma (confirmado em auditoria CRO)"
+        }
+      }
+    }
+  ],
+
+  "executive_summary": "A Amanda Ferraz Arquitetura e Construção tem maturidade digital geral de 30/100 — faixa baixa. Na prática, isso significa um negócio que cresceu de verdade (14 obras entregues por ano em média, ticket de R$450-500 mil por projeto) apesar do digital, não por causa dele: quase toda a carteira (~99%) vem de indicação, e os canais digitais hoje servem só para validar quem já foi recomendado. Isso é comum em alto padrão, mas deixa o crescimento refém da rede de contatos pessoal da Amanda, sem motor de aquisição próprio.\n\nOs dois maiores gaps que estão custando resultado agora: primeiro, CRM praticamente inexistente (12/100) — leads e fornecedores se misturam no mesmo WhatsApp pessoal, sem pipeline nem registro, o que explica por que a última campanha de mídia paga (R$1.200 em 2 semanas) não gerou nem um cliente real, só conversas de fornecedor. Segundo, o site tem apenas 3 projetos no portfólio, sem case study, e os depoimentos existem só como imagem — exatamente o momento em que a família compara Amanda com concorrentes como Ricardo Gaspari e Guedes e Bisoli, que têm portfólio mais robusto.\n\nOs dois pontos fortes que precisam ser acelerados: Amanda já tem manual de marca e identidade visual formalizados, e já aparece pessoalmente em vídeos com autoridade técnica real — diferencial que nenhum concorrente direto replica bem (um não aparece, o outro mistura vida pessoal). Também já existe Google Meu Negócio ativo com nota 4,5. A base para escalar existe; falta conectar os pontos antes de aumentar investimento em aquisição.",
+
+  "priorities": [
+    {
+      "rank": 1,
+      "action": "Implementar um CRM mínimo viável (ClickUp, já em avaliação pela própria Amanda, ou Kommo) com pipeline de 3-5 etapas e registro centralizado de todo contato recebido",
+      "rationale": "Hoje leads e fornecedores se misturam no mesmo WhatsApp pessoal, sem registro — qualquer investimento em mídia paga sem isso repete o erro da última campanha (R$1.200 gastos, zero clientes identificáveis).",
+      "effort": "medium",
+      "pillar": "crm",
+      "dependencies": []
+    },
+    {
+      "rank": 2,
+      "action": "Reestruturar a mídia paga com funil completo (topo/meio/fundo), negativação de palavras-chave/públicos e pixel configurado antes de escalar o investimento proposto pela V4 (R$3.200-4.200/mês)",
+      "rationale": "A última tentativa gastou R$1.200 em 2 semanas e só trouxe fornecedores — sinal claro de falta de segmentação e negativação, não de falta de budget.",
+      "effort": "medium",
+      "pillar": "midia_paga",
+      "dependencies": ["CRM mínimo funcional (para não perder os leads gerados)"]
+    },
+    {
+      "rank": 3,
+      "action": "Expandir o portfólio do site para ao menos 6 projetos com case study (contexto, metragem, resultado) e converter os depoimentos em texto (hoje só existem como imagem)",
+      "rationale": "É o ponto de vazamento identificado no ICP: no estágio 'consciente da marca', a família compara 2-3 escritórios e o portfólio raso perde para concorrentes com mais prova social.",
+      "effort": "medium",
+      "pillar": "cro",
+      "dependencies": []
+    },
+    {
+      "rank": 4,
+      "action": "Publicar os primeiros posts no blog do site (hoje com zero conteúdo) e completar o Google Meu Negócio (foto de perfil, botão de WhatsApp, solicitação ativa de avaliações recentes)",
+      "rationale": "Amanda Ferraz não aparece em nenhuma busca por IA ao pesquisar 'arquiteto' na região — ação de baixo custo e alto retorno de autoridade digital, hoje simplesmente inexistente.",
+      "effort": "low",
+      "pillar": "seo",
+      "dependencies": []
+    },
+    {
+      "rank": 5,
+      "action": "Padronizar a direção de arte dos criativos: fonte única em todos os canais, vermelho como detalhe (não protagonista), cantos retos em vez de arredondados, vinheta de encerramento com a logo nos vídeos",
+      "rationale": "É o pilar relativamente mais forte, mas pequenos ajustes de consistência aumentam a percepção de exclusividade que o ICP de altíssimo padrão exige — já mapeado em detalhe pela V4 (diagnóstico de identidade visual).",
+      "effort": "low",
+      "pillar": "criativos",
+      "dependencies": ["Manual de identidade visual já existe — só falta aplicar de forma consistente"]
+    }
+  ],
+
+  "sector_benchmark": {
+    "sector": "Serviços locais de alto padrão (arquitetura residencial)",
+    "sector_average": 32,
+    "comparison": "at_average",
+    "pillar_comparison": [
+      {"pillar": "midia_paga", "client_score": 22, "sector_average": 35, "gap": -13, "position": "below"},
+      {"pillar": "criativos", "client_score": 48, "sector_average": 28, "gap": 20, "position": "above"},
+      {"pillar": "cro", "client_score": 35, "sector_average": 38, "gap": -3, "position": "at"},
+      {"pillar": "crm", "client_score": 12, "sector_average": 30, "gap": -18, "position": "critical_gap"},
+      {"pillar": "seo", "client_score": 28, "sector_average": 40, "gap": -12, "position": "below"}
+    ],
+    "key_insight": "O score geral (30) fica próximo da média do setor (32), mas essa média esconde um desequilíbrio grande: Criativos está 20 pontos ACIMA da média do setor (fruto do manual de marca já existente e da presença pessoal da Amanda), enquanto CRM está 18 pontos ABAIXO — um gap crítico que nenhum outro pilar consegue compensar, porque sem CRM não há como medir se o investimento nos outros pilares está funcionando."
+  },
+
+  "summary_highlights": [
+    {
+      "category": "maturidade",
+      "label": "Score geral",
+      "value": "30/100",
+      "subtext": "Faixa 'baixa maturidade' (21-40)",
+      "tone": "yellow"
+    },
+    {
+      "category": "maturidade",
+      "label": "Pilar mais fraco",
+      "value": "CRM (12/100)",
+      "subtext": "Sem CRM — processos na cabeça da Amanda",
+      "tone": "red"
+    },
+    {
+      "category": "maturidade",
+      "label": "Pilar mais forte",
+      "value": "Criativos (48/100)",
+      "subtext": "Identidade formalizada, falta consistência",
+      "tone": "yellow"
+    },
+    {
+      "category": "posicao",
+      "label": "Vs. benchmark do setor",
+      "value": "30 vs 32 (na média)",
+      "subtext": "Média esconde desequilíbrio entre pilares",
+      "tone": "blue"
+    },
+    {
+      "category": "oportunidade",
+      "label": "Upside SEO/GMB",
+      "value": "Baixo esforço, alto retorno",
+      "subtext": "Blog com 0 posts e GMB incompleto — fácil resolver",
+      "tone": "green"
+    },
+    {
+      "category": "risco",
+      "label": "Mídia paga sem estrutura",
+      "value": "R$1.200 gastos, 0 clientes",
+      "subtext": "Histórico recente sem pixel/segmentação adequada",
+      "tone": "red"
+    }
+  ],
+
+  "summary_key_findings": [
+    {
+      "category": "vantagem",
+      "text": "Criativos é o pilar relativamente mais forte (48/100) — Amanda já aparece nos vídeos com autoridade real, tem identidade visual formalizada em manual de marca e boa variedade de formatos (Reels, YouTube, podcast)."
+    },
+    {
+      "category": "contexto",
+      "text": "O crescimento até aqui veio quase inteiramente de indicação (~99% da carteira) e reputação pessoal — comum no segmento de alto padrão, mas deixa o negócio dependente da rede de contatos pessoal, sem motor de aquisição próprio."
+    },
+    {
+      "category": "ameaca",
+      "text": "CRM crítico (12/100): leads e fornecedores se misturam no mesmo WhatsApp pessoal, sem registro — a última campanha de mídia paga (R$1.200 em 2 semanas) não gerou nenhum dado confiável para otimizar."
+    },
+    {
+      "category": "ameaca",
+      "text": "Amanda Ferraz não aparece em nenhuma busca por Inteligência Artificial ao pesquisar 'arquiteto' na região — achado crítico de autoridade digital, mesmo com Google Meu Negócio ativo e nota 4,5."
+    },
+    {
+      "category": "acao",
+      "text": "Resolver CRM e expandir o portfólio do site (hoje só 3 projetos) antes de escalar o investimento em mídia paga proposto (R$3.200-4.200/mês) — do contrário, o mesmo erro da última campanha se repete em escala maior."
+    }
+  ],
+
+  "key_insight": {
+    "headline": "CRM em 12/100 trava o retorno de qualquer investimento em mídia — a última tentativa gastou R$1.200 sem gerar um único cliente identificável.",
+    "context": "A ausência de CRM não é só desorganização — é o motivo pelo qual a última campanha de mídia paga não gerou nenhum dado confiável para otimizar: ninguém conseguia separar, em tempo real, lead real de fornecedor. Sem esse registro, qualquer reinvestimento em mídia corre o risco de repetir o mesmo erro em escala maior.",
+    "numbered_reasons": [
+      "Hoje os leads chegam no WhatsApp pessoal da Amanda e se perdem sem registro estruturado — não há como medir taxa de conversão real por canal ou campanha.",
+      "A campanha anterior gastou R$1.200 em 2 semanas sem que ninguém soubesse separar fornecedor de cliente em tempo real — o problema não era só o criativo, era a falta de qualificação e registro de quem estava do outro lado da conversa.",
+      "Resolver o CRM primeiro custa pouco (ClickUp já está em avaliação pela própria Amanda) e destrava a possibilidade de medir qualquer ação de mídia, criativo ou CRO com dados reais, não achismo."
+    ],
+    "discussion_anchor": "Antes de aprovar o aumento de investimento em mídia paga já em discussão com a V4 (R$3.200-4.200/mês), vale decidir com a Amanda: o CRM entra em paralelo ou antes? Investir em aquisição sem CRM funcional é reinvestir no mesmo erro, só que com mais dinheiro."
+  },
+
+  "honesty_alert": "O score geral (30/100, faixa 'baixa maturidade') reflete um negócio que cresceu por indicação e reputação pessoal, não por estrutura digital — o que é comum e até saudável em alto padrão, mas significa que qualquer aceleração de mídia paga sem antes resolver CRM e portfólio vai gerar leads que a operação não consegue qualificar nem atender direito. Some-se a isso o limite operacional de 8 obras simultâneas já registrado no diagnóstico de ICP: o gargalo mais urgente hoje pode não ser volume de leads, e sim organização interna para tratar bem os leads que já chegam por indicação."
+}

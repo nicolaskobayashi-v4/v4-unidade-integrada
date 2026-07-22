@@ -1,0 +1,210 @@
+{
+  "client_name": "Hyla do Brasil",
+  "skill": "ee-s2-diagnostico-cro",
+  "generated_at": "2026-07-08",
+  "data_source": "PageSpeed Insights (relatórios completos em PDF, lab + campo, mobile + desktop) para a home (hyladobrasil.com.br) e para a landing page de anúncios (aspirador-hyla-do-brasil/) — fornecidos pelo operador. Export do GA4 'Páginas e telas' (período completo 1/jan-7/jul e últimos 90 dias) — fornecido pelo operador. Estrutura/copy da landing page extraída diretamente do HTML (WebFetch + curl) pelo assistente. Headers de segurança verificados via curl -I. Cruzado com ee-s2-diagnostico-criativos (análise de design da Natália sobre a mesma landing page) e ee-s2-diagnostico-midia (achado de tracking).",
+
+  "summary": "A landing page de anúncios (score PageSpeed 43-44/100) está tecnicamente melhor que a home institucional (score 20-22/100, LCP de laboratório de 21,1 segundos em mobile), mas ainda reprovada nas Core Web Vitals reais de usuário (LCP 4,1s, 'reprovado'). O tempo médio de engajamento na LP é de apenas ~4 segundos — extremamente baixo, consistente com abandono antes do carregamento completo, especialmente em mobile (82,5% do tráfego pago vem daí, ver ee-s2-diagnostico-midia). Achado mais grave, fora do escopo técnico usual: centenas de URLs de spam (`/3ytn/...`) aparecem no relatório de tráfego do GA4, com títulos completamente alheios ao negócio — resíduo do hackeamento do site (conteúdo de apostas/cassino) mencionado pelo próprio time na reunião de 08/07. Copy e estrutura da LP já foram bem avaliadas por Natália (ee-s2-diagnostico-criativos); este diagnóstico foca no que é técnico e quantificável.",
+
+  "summary_headline": "A landing page carrega 2,18MB de JavaScript não usado e reprova nas Core Web Vitals reais — e o site ainda carrega resíduo de spam do hackeamento recente.",
+
+  "summary_highlights": [
+    { "category": "risco", "label": "Performance mobile (LP)", "value": "43/100", "subtext": "LCP real 4,1s (reprovado) — LCP de laboratório 6,5s", "tone": "red" },
+    { "category": "risco", "label": "Performance mobile (home)", "value": "20/100", "subtext": "LCP de laboratório 21,1s(!), CLS 0,183 — pior que a LP", "tone": "red" },
+    { "category": "risco", "label": "JS não utilizado (LP)", "value": "2,18 MB", "subtext": "Maior oportunidade de otimização técnica identificada", "tone": "red" },
+    { "category": "maturidade", "label": "Tempo médio de engajamento (LP)", "value": "~4 segundos", "subtext": "GA4, período completo e últimos 90 dias — muito baixo", "tone": "red" },
+    { "category": "risco", "label": "Segurança — spam residual", "value": "150+ URLs", "subtext": "Páginas de spam indexadas, resíduo do hackeamento do site", "tone": "red" },
+    { "category": "oportunidade", "label": "SEO on-page", "value": "100/100", "subtext": "Title, meta description, alt em imagens, schema.org — todos ok na LP", "tone": "green" }
+  ],
+
+  "summary_key_findings": [
+    { "category": "ameaca", "text": "A landing page reprova nas Core Web Vitals de usuário real: LCP de 4,1s (o limite 'bom' é 2,5s). O teste de laboratório mostra a causa raiz: 2,18MB de JavaScript não utilizado e 670-930ms de Total Blocking Time." },
+    { "category": "ameaca", "text": "A home institucional está em situação ainda pior — LCP de laboratório de 21,1 segundos em mobile e CLS de 0,586 (o limite 'bom' é 0,1, ou seja, a página 'pula' muito durante o carregamento). Isso reforça o achado já registrado em ee-s1-diagnostico-maturidade sobre a stack WordPress + Elementor." },
+    { "category": "ameaca", "text": "Centenas de URLs de spam (pasta /3ytn/, títulos sem qualquer relação com o negócio, alguns de conteúdo adulto) aparecem no relatório de tráfego do GA4 — resíduo do hackeamento do site já mencionado pelo próprio time na reunião de 08/07 (conteúdo de apostas/cassino que chegou a bloquear campanhas do Google)." },
+    { "category": "contexto", "text": "O tempo médio de engajamento na landing page é de apenas ~4 segundos (GA4, período completo e últimos 90 dias) — não é possível medir taxa de conversão ainda (ver ee-s2-diagnostico-midia), mas esse tempo tão baixo já sugere abandono antes do usuário ver a oferta completa." },
+    { "category": "acao", "text": "SEO on-page e acessibilidade da LP já estão bem cuidados (SEO 100/100, Acessibilidade 93/100, alt em todas as 23 imagens) — o problema não é estrutura de conteúdo, é peso técnico e segurança. Resolver isso é pré-requisito antes de qualquer redesenho da nova identidade visual (ee-s3-identidade-visual)." }
+  ],
+
+  "technical_audit": {
+    "pagespeed": {
+      "url_tested": "https://hyladobrasil.com.br/aspirador-hyla-do-brasil/",
+      "mobile_scores": { "performance": 43, "accessibility": 93, "best_practices": 54, "seo": 100 },
+      "desktop_scores": { "performance": 44, "accessibility": 93, "best_practices": 54, "seo": 100 },
+      "mobile_cwv_lab": { "fcp_ms": 4800, "lcp_ms": 6500, "tbt_ms": 670, "cls": 0, "speed_index_ms": 8400, "ttfb_ms": null },
+      "desktop_cwv_lab": { "fcp_ms": 1400, "lcp_ms": 2900, "tbt_ms": 930, "cls": 0, "speed_index_ms": 3300, "ttfb_ms": null },
+      "mobile_cwv_field": {
+        "lcp": { "percentile": 4100, "category": "poor" },
+        "inp": { "percentile": 322, "category": "needs-improvement" },
+        "cls": { "percentile": 0, "category": "good" },
+        "fcp": { "percentile": 4200, "category": "poor" }
+      },
+      "desktop_cwv_field": {
+        "lcp": null,
+        "inp": null,
+        "cls": { "percentile": 0.04, "category": "good" },
+        "fcp": { "percentile": 1600, "category": "good" }
+      },
+      "field_data_note": "Core Web Vitals de campo (usuário real): avaliação geral 'reprovado' em mobile. Desktop segue 'não aplicável' por dados insuficientes de LCP/INP.",
+      "mobile_top_opportunities": [
+        { "title": "Solicitações que bloquearam a renderização", "savings_ms": 3230, "savings_bytes": null, "score": null },
+        { "title": "Reduza o JavaScript não usado", "savings_ms": null, "savings_bytes": 2233856, "score": null },
+        { "title": "Use ciclos de vida eficientes de cache", "savings_ms": null, "savings_bytes": 328704, "score": null },
+        { "title": "Reduza o CSS não usado", "savings_ms": null, "savings_bytes": 177152, "score": null },
+        { "title": "JavaScript legado", "savings_ms": null, "savings_bytes": 84992, "score": null },
+        { "title": "Exibição de fontes", "savings_ms": 10, "savings_bytes": null, "score": null }
+      ],
+      "homepage_comparison_note": "A home institucional (hyladobrasil.com.br/, não a landing page) foi testada em paralelo e está em situação PIOR: Performance 20/100 mobile (22/100 desktop), LCP de laboratório de 21,1s mobile (4,5s desktop), CLS de laboratório de 0,183 mobile e 0,586(!) desktop — muito acima do limite 'bom' de 0,1. Ambas as páginas compartilham a mesma causa raiz (JS/CSS não utilizado, cache ineficiente, render-blocking)."
+    },
+    "screenshots": { "mobile": null, "desktop": null, "note": "Miniaturas de baixa resolução vieram embutidas nos PDFs do PageSpeed, mas não em formato utilizável como asset — se necessário um screenshot full-page em alta resolução, pedir ao operador." }
+  },
+
+  "onpage_seo": {
+    "mobile": {
+      "title": "Aspirador Hyla do Brasil - Hyla do Brasil",
+      "title_length": 41,
+      "meta_description": "O ar dentro da sua casa pode ser até 5 vezes mais poluído do que o ar externo. Poeira, ácaros e fungos se acumulam em colchões, sofás, tapetes e até no ar que",
+      "meta_description_length": 158,
+      "canonical": "https://hyladobrasil.com.br/aspirador-hyla-do-brasil/",
+      "lang": null,
+      "viewport": "width=device-width, initial-scale=1.0, viewport-fit=cover",
+      "favicon": null,
+      "schema_types": null,
+      "schema_blocks_count": 3,
+      "h1_count": 1,
+      "h2_count": 7,
+      "images_total": 23,
+      "images_without_alt": 0,
+      "response_time_ms": null,
+      "links_internal": null,
+      "links_external": null,
+      "html_size_kb": 330,
+      "unavailable_reason": "lang, favicon, schema_types (nomes), response_time_ms e contagem de links não foram extraídos nesta rodada — verificação rápida via curl focou nos campos com maior peso para SEO/CRO."
+    },
+    "desktop": null,
+    "divergences": []
+  },
+
+  "security_headers": {
+    "https": true,
+    "hsts": false,
+    "csp": false,
+    "x_frame_options": false,
+    "x_content_type_options": null,
+    "referrer_policy": null,
+    "permissions_policy": null,
+    "score": 2,
+    "issues": [
+      "Header HSTS presente mas com max-age=0 — efetivamente DESATIVADO (provável erro de configuração, não ausência intencional)",
+      "Sem Content-Security-Policy (CSP) — sem proteção contra XSS",
+      "Sem X-Frame-Options — página vulnerável a clickjacking",
+      "22-23 solicitações HTTP não seguras (mixed content) detectadas pelo PageSpeed em ambas as páginas testadas",
+      "4 cookies de terceiros detectados na landing page"
+    ]
+  },
+
+  "technical_diagnosis": {
+    "pagespeed_mobile": 43,
+    "pagespeed_desktop": 44,
+    "lcp": 6.5,
+    "critical_issues": [
+      "LCP mobile real de usuários é 4,1s (reprovado pelo Core Web Vitals) e sobe para 6,5s no teste de laboratório — a landing page está lenta o suficiente para perder usuários antes da oferta carregar.",
+      "2,18MB de JavaScript não utilizado carregado na página (2.174-2.182 KiB, mobile e desktop) — provável causa raiz da lentidão.",
+      "Tempo médio de engajamento na landing page é de apenas ~4 segundos (GA4) — extremamente baixo, consistente com abandono antes do carregamento completo.",
+      "HTTPS mal implementado: 22-23 solicitações inseguras, HSTS com max-age=0 (efetivamente desativado) — Best Practices cai para 54/100 na LP.",
+      "A home institucional está em situação pior que a landing page: Performance 20/100 mobile, LCP de laboratório de 21,1 segundos(!), CLS de 0,586 — o site institucional está tecnicamente mais quebrado que a página de anúncios.",
+      "Centenas de URLs de spam (pasta /3ytn/) aparecem no tráfego do GA4 — resíduo do hackeamento do site já confirmado pelo time (conteúdo de apostas/cassino que chegou a bloquear campanhas do Google)."
+    ],
+    "estimated_conversion_loss": "Não é possível estimar em taxa de conversão porque nenhum evento de lead está mensurável hoje (ver ee-s2-diagnostico-midia). Mas o tempo de engajamento de ~4s na LP é um proxy forte de abandono precoce — e 82,5% do tráfego pago do Google vem de mobile, exatamente o dispositivo com a pior performance (score 43, LCP reprovado)."
+  },
+
+  "current_conversion_rate": null,
+  "current_bounce_rate": null,
+  "avg_time_on_page": 4.0,
+  "unavailable_reason": "current_conversion_rate e current_bounce_rate não estão disponíveis: nenhum evento de conversão confiável existe hoje no GA4 (ver ee-s2-diagnostico-midia, achado #1) e o novo GA4 não expõe 'taxa de rejeição' diretamente no relatório fornecido — usou-se 'tempo médio de engajamento por usuário ativo' como proxy disponível (4,02s no período completo, 4,35s nos últimos 90 dias, ambos na landing page).",
+
+  "security_incident_finding": {
+    "headline": "Resíduo do hackeamento do site ainda aparece no tráfego do GA4 — centenas de URLs de spam indexadas",
+    "evidence": "No export completo de páginas do GA4 (1/jan a 7/jul/2026), mais de 150 URLs distintas sob o caminho /3ytn/ recebem tráfego (1-2 visualizações cada), com títulos de página totalmente alheios ao negócio da Hyla — temas aleatórios em inglês (leetcode, carros, imóveis) e, em alguns casos, conteúdo adulto explícito. Isso é consistente com o relato do próprio time na reunião de 08/07: o site foi hackeado com conteúdo de apostas/cassino injetado via WordPress, o que chegou a bloquear as campanhas do Google Ads. O time já reportou a correção do bloqueio das campanhas, mas essas URLs de spam continuando a receber tráfego (mesmo que baixo) sugerem que a limpeza pode não ter sido completa — ou que o Google ainda tem essas páginas indexadas e residualmente enviando tráfego orgânico/direto.",
+    "impact": "Risco de reputação de domínio (o Google pode penalizar ou até remover o site inteiro do índice se identificar conteúdo malicioso ativo), desperdício de 'crawl budget' do Googlebot em páginas irrelevantes, e risco reputacional caso um usuário real caia em uma dessas páginas.",
+    "recommended_action": "Prioridade máxima, antes de qualquer otimização de CRO: (1) confirmar com o time de dev/hosting que a limpeza do hack foi completa (não só o bloqueio de campanhas resolvido), (2) rodar uma varredura de malware no servidor, (3) submeter as URLs de spam para remoção no Google Search Console, (4) verificar se há mais pastas suspeitas além de /3ytn/."
+  },
+
+  "copy_audit": {
+    "url_tested": "https://hyladobrasil.com.br/aspirador-hyla-do-brasil/",
+    "above_the_fold": {
+      "headline": "HYLA do Brasil: O aspirador de pó que vai além da limpeza",
+      "subheadline": "O ar dentro da sua casa pode ser até 5 vezes mais poluído do que o ar externo — poeira, ácaros e fungos se acumulam em colchões, sofás, tapetes e no ar",
+      "cta_text": "Agendar uma demonstração",
+      "assessment": "Headline e subheadline já refletem o território de saúde respiratória definido em ee-s2-posicionamento — ponto positivo. Consistente com o achado de Natália (ee-s2-diagnostico-criativos) de que o formulário só aparece no final; a primeira dobra hoje é só mensagem, sem captura de dados."
+    },
+    "sections_in_order": [
+      "Hero com promessa do produto",
+      "Benefícios centrais (limpeza profunda, aliado da saúde, líder de mercado, sustentabilidade)",
+      "Onde você pode usar o HYLA (aplicações)",
+      "Depoimentos de clientes (8 avaliações nomeadas)",
+      "Processo em 3 passos",
+      "FAQ (11 perguntas)",
+      "Selos de confiança/certificações",
+      "Formulário de captação de lead",
+      "Rodapé com contato"
+    ],
+    "lead_form_fields": ["Nome", "E-mail", "Telefone", "Estado (dropdown)", "Cidade", "Assunto", "Checkbox: Quero uma demonstração HYLA"],
+    "issues": [
+      "Formulário só aparece no final da página (já sinalizado por Natália) — usuários com intenção de conversão imediata precisam rolar toda a página",
+      "7 campos no formulário (incluindo Assunto e checkbox) — mais atrito que o necessário para o topo do funil; poderia haver uma versão curta na primeira dobra (nome + telefone) e a versão completa mantida no final",
+      "Meta description (158 caracteres) está no limite superior do ideal para SERP — risco de truncamento em alguns dispositivos"
+    ]
+  },
+
+  "trust_analysis": {
+    "signals_present": [
+      "Certificação INMETRO",
+      "Certificação SIMA",
+      "Certificação ZPMED",
+      "Certificação ISO 9001",
+      "Aprovação de tecnologia alemã",
+      "\"Presente em mais de 80 países\"",
+      "8 depoimentos de clientes nomeados"
+    ],
+    "gaps": [
+      "Selos de confiança aparecem só perto do formulário, no fim da página — um usuário que abandona antes disso nunca os vê",
+      "Nenhum selo de segurança do site (cadeado/certificado SSL destacado) visível — relevante dado que o Chrome pode exibir aviso de 'site não totalmente seguro' por causa do HSTS desativado e conteúdo misto"
+    ],
+    "security_trust_issue": "O problema de segurança técnica (HSTS desabilitado, sem CSP, conteúdo misto) é visto pelo navegador ANTES de qualquer selo de confiança do rodapé — em navegadores mais rigorosos, isso pode gerar avisos visuais que minam a confiança antes mesmo do usuário ler a primeira palavra da headline."
+  },
+
+  "test_hypotheses": [
+    { "id": 1, "hypothesis": "Resolver o carregamento de 2,18MB de JS não usado e as solicitações que bloqueiam a renderização deve reduzir o LCP mobile de 6,5s (lab) / 4,1s (campo) para abaixo de 2,5s, aumentando o tempo de engajamento (hoje ~4s) e reduzindo abandono antes da primeira dobra carregar.", "priority": "alta", "effort": "médio-alto — depende de otimização da stack WordPress/Elementor ou replatforming (já recomendado em ee-s1-diagnostico-maturidade)", "expected_impact": "alto" },
+    { "id": 2, "hypothesis": "Investigar e limpar a infestação de páginas de spam (pasta /3ytn/, 150+ URLs) deve reduzir risco de penalização/desindexação pelo Google e liberar crawl budget para as páginas reais do negócio.", "priority": "alta (segurança, não é opcional)", "effort": "médio", "expected_impact": "defensivo — evita perda catastrófica, mais que ganho incremental" },
+    { "id": 3, "hypothesis": "Ativar HSTS com max-age adequado e eliminar conteúdo misto (HTTP) deve remover avisos de segurança do navegador, aumentando a confiança percebida antes mesmo do usuário rolar a página.", "priority": "alta (baixo esforço, alto risco se ignorado)", "effort": "baixo", "expected_impact": "médio" },
+    { "id": 4, "hypothesis": "Mover uma versão curta do formulário (nome + telefone) para a primeira dobra, mantendo o formulário completo no final (sugestão já validada por Natália), deve reduzir o atrito para quem já chega com intenção de conversão.", "priority": "média — só testável de forma confiável depois de implementar o evento de conversão dedicado (ver ee-s2-diagnostico-midia, ação P1)", "effort": "baixo", "expected_impact": "não mensurável ainda, mas plausível" },
+    { "id": 5, "hypothesis": "Substituir a imagem de baixa qualidade na seção final da landing page (já identificada por Natália como pixelada/tipo montagem) deve reforçar a percepção de marca premium na última impressão antes da decisão.", "priority": "média", "effort": "baixo", "expected_impact": "médio" }
+  ],
+
+  "wireframe_improvements": [
+    "Formulário curto (nome + telefone + cidade) logo na primeira dobra, além do formulário completo já existente no final",
+    "Resolver o peso técnico (JS/CSS não usado, cache, render-blocking) antes de qualquer redesenho visual — não faz sentido aplicar a nova identidade (ee-s3-identidade-visual) sobre uma base tecnicamente quebrada",
+    "Selo de confiança/certificação visível já na primeira dobra, não só perto do formulário",
+    "Substituir a imagem final por fotografia em maior resolução, seguindo o briefing de produção de ee-s2-diagnostico-criativos",
+    "Aplicar a nova direção de arte (ee-s3-identidade-visual) só depois do manual oficial chegar (13/08) — evitar redesenhar a página duas vezes seguidas"
+  ],
+
+  "key_insight": {
+    "headline": "A landing page não precisa de mais copy nem de redesign agora — precisa parar de perder gente antes de carregar.",
+    "context": "Com LCP real de 4,1s (reprovado) e tempo médio de engajamento de só ~4 segundos, o gargalo hoje é técnico, não de mensagem. A análise de design da Natália já mapeou bem o que fazer visualmente; este diagnóstico mostra que boa parte disso corre risco de não converter enquanto a base técnica (JS não usado, cache, HTTPS mal configurado) continuar quebrada — e o achado de spam residual do hackeamento é ainda mais urgente, por ser risco de penalização, não só de conversão.",
+    "numbered_reasons": [
+      "82,5% do tráfego pago do Google vem de mobile (ee-s2-diagnostico-midia) — exatamente o dispositivo com performance 43/100 e LCP reprovado",
+      "2,18MB de JS não usado é o maior item de oportunidade técnica encontrado — resolver isso tem efeito cascata em LCP, TBT e Speed Index ao mesmo tempo",
+      "O resíduo de spam do hackeamento (150+ URLs) é um risco de penalização do Google, não só um problema de conversão — precisa ser tratado com prioridade máxima, antes de qualquer teste de CRO"
+    ],
+    "discussion_anchor": "Vale alinhar com Davi/Fábio que a sequência certa é: (1) confirmar limpeza completa do hack e segurança, (2) resolver performance técnica, (3) só depois testar mudanças de copy/layout — na ordem errada, qualquer ganho de mensagem é mascarado pela lentidão e pelo risco de segurança."
+  },
+
+  "honesty_alert": "Este diagnóstico usa PageSpeed Insights (PDFs completos fornecidos pelo operador, lab + campo) e um export do GA4 'Páginas e telas' (também fornecido pelo operador) — dados reais e confiáveis. Pontos que seguem abertos: (1) current_conversion_rate e current_bounce_rate não estão disponíveis — não existe evento de lead confiável hoje (ver ee-s2-diagnostico-midia) e o export do GA4 fornecido não trouxe taxa de rejeição explícita, usou-se tempo médio de engajamento como proxy; (2) a contagem de 150+ URLs de spam é uma estimativa baseada na amostra visível do export — o número real pode ser maior, e não foi feita uma auditoria completa de todas as pastas do site; (3) lang, favicon, contagem de links internos/externos e response_time_ms não foram verificados nesta rodada; (4) screenshots em alta resolução da página não foram capturados — as miniaturas dos PDFs do PageSpeed têm resolução baixa; (5) os selos de confiança (INMETRO, ISO 9001 etc.) foram identificados pela extração de conteúdo mas não foram verificados quanto à autenticidade/vigência.",
+
+  "alimenta_skills": [
+    "ee-s3-landing-page",
+    "ee-s3-forecast-midia",
+    "ee-revisao-semanal"
+  ]
+}

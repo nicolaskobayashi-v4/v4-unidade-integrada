@@ -1,0 +1,327 @@
+{
+  "meta": {
+    "name": "Mercado Laser",
+    "slug": "mercado-laser",
+    "workspace_id": null,
+    "created_at": "2026-06-26",
+    "modulo_vendas": false
+  },
+  "briefing": {
+    "identification": {
+      "name": "Mercado Laser",
+      "contact_name": "Júlio César",
+      "contact_role": "Proprietário/sócio",
+      "segment": "Importação, comércio e distribuição de máquinas de corte e gravação a laser, peças e acessórios",
+      "annual_revenue": "R$ 5.000.000",
+      "years_in_market": "20 anos",
+      "location": "Bom Retiro, São Paulo - SP (entre centro e zona norte)",
+      "website": "https://www.mercadolaser.com.br/",
+      "instagram": "@mercadolaser",
+      "whatsapp": null,
+      "gmb": null
+    },
+    "product": {
+      "main_product": "Importação e venda de máquinas de corte/gravação a laser (CO2, fiber, galvo, UV, solda) e peças/acessórios (lentes, espelhos, tubos laser, componentes). Duas frentes dentro da mesma operação: Mercado Laser (peças + máquinas de entrada) e BestBeam (linha premium própria de máquinas, em lançamento, site bestbeam.com.br)",
+      "ticket_segments": [
+        {
+          "segmento": "Peças e acessórios (Mercado Laser)",
+          "ticket_medio": "Baixo, alta recorrência — ex.: tubo laser ~R$3.000, demais componentes mais baratos",
+          "papel": "~90% do volume de pedidos, é o 'gado leiteiro' da operação, mas menor parcela do faturamento total"
+        },
+        {
+          "segmento": "Máquinas de entrada (Mercado Laser)",
+          "ticket_medio": "R$ 19.000 a R$ 70.000"
+        },
+        {
+          "segmento": "Máquinas premium (BestBeam)",
+          "ticket_medio": "R$ 30.000 a R$ 200.000+"
+        }
+      ],
+      "billing_model": "unico",
+      "sales_cycle": "Peças: imediato, decisão no mesmo atendimento via WhatsApp. Máquinas: consultivo, com escalonamento de venda (vendedor direciona para o modelo acima do que o cliente veio buscar)",
+      "active_customers": "~7.000 clientes cadastrados na base (todos já compraram ao menos uma vez)",
+      "most_profitable": "Máquinas — margem de 3x a 6x sobre o custo de importação",
+      "growth_potential": "Máquinas premium BestBeam"
+    },
+    "icp": {
+      "best_customers": "(1) Microempreendedor de personalização — brindes, canecas térmicas, chaveiros, joias — compra rápido pelo e-commerce e recompra peças com recorrência. (2) Empresa de comunicação visual, indústria têxtil ou calçados que compra máquina premium BestBeam, com ciclo mais consultivo e ticket alto. (3) Cliente que migrou de concorrente de baixa qualidade (Multivis/Visotec) após problema técnico e hoje é fiel — compra reposição e tende a fazer upgrade para BestBeam.",
+      "not_customers": "Hobbysta caçando máquina de ~R$1.000 tipo Shopee/AliExpress só para 'brincar' — Júlio é explícito que não disputa esse público e aceita perder esse cliente para concorrência de baixa qualidade.",
+      "problems_before": [
+        "Máquina ou peça quebrou e a produção parou — urgência operacional",
+        "Já comprou equipamento barato ('máquina de brinquedo') e se decepcionou com qualidade e suporte",
+        "Não sabe qual configuração técnica atende a aplicação que precisa"
+      ],
+      "results_after": [
+        "Produção restabelecida em até 24h (peça ou máquina sai no mesmo dia do pedido)",
+        "Ganho real de produtividade (ex.: gravação que levava ~20min numa máquina inferior cai para segundos numa máquina decente)",
+        "Consolidam um único fornecedor para máquina + peça + suporte técnico nacional, em vez de múltiplos fornecedores"
+      ],
+      "churn_reasons": null
+    },
+    "competition": {
+      "competitors": [
+        {
+          "name": "Translaser",
+          "perceived_differential": "Concorrente direto mais marcante em máquinas"
+        },
+        {
+          "name": "Multivis (ex-Visotec) / Blips",
+          "perceived_differential": "Alto volume e preço baixo, qualidade inferior (faltam componentes básicos como refrigeração e exaustão); também trabalham com aluguel de máquinas; clientes insatisfeitos migram para Mercado Laser"
+        },
+        {
+          "name": "DU Laser",
+          "perceived_differential": "Concorrente citado, menos relevante"
+        },
+        {
+          "name": "Rino CNC",
+          "perceived_differential": "Nicho parcialmente diferente, concorrência pontual"
+        },
+        {
+          "name": "Delta CNC",
+          "perceived_differential": "Nicho parcialmente diferente, concorrência pontual"
+        },
+        {
+          "name": "Central do Laser",
+          "perceived_differential": "Concorrente em peças, tratado quase como parceiro — nicho do laser é descrito como amistoso entre alguns empresários"
+        }
+      ],
+      "real_differential": "Qualidade real dos componentes e máquinas (evita 'máquinas de brinquedo' tipo Shopee/AliExpress), suporte técnico nacional com treinamento operacional e manutenção, envio em até 24h (inspirado na logística da Amazon/Mercado Livre), pronta entrega de 100% do catálogo, garantia",
+      "why_choose_us": "Não compete por preço — compete por qualidade, suporte humanizado e velocidade de entrega. O cliente que compra concorrente barato e tem problema normalmente migra para o Mercado Laser depois"
+    },
+    "brand": {
+      "adjectives": [
+        "técnica",
+        "ágil",
+        "confiável"
+      ],
+      "voice_tone": "profissional",
+      "admired_brands": [
+        "Amazon",
+        "Mercado Livre"
+      ],
+      "current_colors": "Preto e vermelho (cor do feixe de laser no logo)",
+      "has_logo": true,
+      "restrictions": "Evitar cores dominantes além de preto e vermelho — testaram azul claro temporariamente no site e abandonaram. Manual de identidade visual formal ainda não existe; cliente vai enviar quando tiver disponível."
+    },
+    "digital_situation": {
+      "paid_traffic": true,
+      "platforms": [
+        "google_ads",
+        "meta_ads"
+      ],
+      "monthly_investment": "R$ 2.000/mês (atual, considerado baixo pelo próprio cliente — pretendem investir mais)",
+      "current_results": "Sem números confiáveis de retorno — o ex-funcionário responsável não reportava métricas. ~3.000 acessos/mês no site, ~20 atendimentos novos/dia no WhatsApp (maioria pergunta sobre peças, poucas sobre máquinas)",
+      "crm": "Tray (nativo do e-commerce) — CRM dedicado será implementado como bônus do contrato V4 (custo da ferramenta ~R$130/mês fica com o cliente)",
+      "lead_sources": "Google Ads, Meta Ads (atualmente pausado), Instagram orgânico (~10,9k seguidores, crescimento orgânico recente puxado pelo Vinícius), Mercado Livre e Magalu, indicação/base de clientes (~7.000 cadastrados), prospecção outbound via LinkedIn (listas + BDR manual)",
+      "conversion_rate": null,
+      "biggest_pain": "Tráfego mal gerido pelo ex-funcionário desligado (inclusive desviava clientes para fora, 'venda por fora'), zero pixel instalado (Meta e Google), 2 containers de importação recém-chegados com estoque parado, querem deslocar o mix de peças para máquinas (maior margem) sem perder volume de peças"
+    },
+    "accesses": {
+      "meta_business": true,
+      "google_ads": true,
+      "google_analytics": null,
+      "google_search_console": null,
+      "instagram_admin": true,
+      "website_admin": true,
+      "crm": false,
+      "gmb": null,
+      "whatsapp_business": true
+    },
+    "sales_module": null
+  },
+  "research": {
+    "fetched_at": null,
+    "marcas": {
+      "mercado_laser": {
+        "site": "https://www.mercadolaser.com.br/",
+        "instagram": "https://www.instagram.com/mercadolaser/",
+        "papel": "Marca principal — e-commerce de peças/acessórios e máquinas de entrada, foco em microempreendedores e personalização"
+      },
+      "bestbeam": {
+        "site": "https://bestbeam.com.br/",
+        "instagram": "https://www.instagram.com/bestbeam.laser/",
+        "papel": "Linha/marca premium de máquinas próprias, em lançamento (site ainda em construção no kick-off de 15/06/2026). Mesma identidade visual (preto/vermelho, feixe de laser). Foco em indústria/comunicação visual com ticket mais alto"
+      }
+    },
+    "pessoas_chave": {
+      "julio_cesar": "Proprietário do Mercado Laser, ponto de contato principal e decisor estratégico (decisões financeiras passam pelo sócio/diretor)",
+      "igor": "Responsável pelas vendas, e-commerce e atendimento comercial, também cuida do Mercado Livre",
+      "vinicius_vidigal": "Responsável pelos criativos e redes sociais, estudante de propaganda, entrou recentemente e já fez o Instagram crescer organicamente (~10,9k seguidores)",
+      "leandro": "Parte do comercial / emissão de notas fiscais",
+      "time_v4": "Daniel Silva Lorêdo (gestor de tráfego, ~16h/mês — 10% de alocação), Lucas Calefi Gonçalves / Calefi (coordenador de planejamento estratégico, gestor da conta)"
+    },
+    "historico_critico": [
+      "Ex-funcionário responsável pelo tráfego foi desligado por fazer 'venda por fora' (desviava clientes/leads para si) e não reportava métricas — motivo principal da contratação da V4",
+      "Nenhum pixel (Meta ou Google) estava instalado no site até o kick-off — prioridade imediata de correção",
+      "Site não tinha popup de captura de lead",
+      "Dois contêineres de importação chegaram no final de maio/2026 e o estoque está parado, pressionando a urgência do projeto",
+      "Em 2019-2021 a Mercado Laser teve um pico de vendas de peças de reposição (refrigeradores, exaustores) por causa de máquinas concorrentes (linha Visotec/Multivis) com defeitos de fábrica — ilustra o padrão recorrente de cliente insatisfeito migrando para o Mercado Laser"
+    ],
+    "contrato_v4": {
+      "data_venda": "2026-06-08",
+      "data_inicio": "2026-06-11",
+      "data_kickoff": "2026-06-15",
+      "valor_total_12_meses": "R$ 26.386,24",
+      "mensalidade_aproximada": "R$ 2.199",
+      "escopo": "Gestão de tráfego pago (Google Ads + Meta Ads), 10% de alocação do gestor de tráfego (~16h/mês)",
+      "bonus": "5 criativos na entrada + implementação de CRM dedicado (cliente paga apenas a mensalidade da ferramenta, ~R$130/mês)",
+      "canal_contrato": "V4 Company (venda direta — Guilherme Carvalho do Espírito Santo)"
+    }
+  },
+  "connectors": {
+    "fetched_at": null,
+    "workspace_id": null,
+    "integrations": {}
+  },
+  "progress": {
+    "current_week": 1,
+    "skills": {
+      "ee-s1-diagnostico-maturidade": {
+        "status": "completed",
+        "version": 1,
+        "started_at": null,
+        "completed_at": "2026-06-26T17:35:38Z"
+      },
+      "ee-s1-swot": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s1-persona-icp": {
+        "status": "completed",
+        "version": 1,
+        "started_at": null,
+        "completed_at": "2026-06-26T14:02:02Z"
+      },
+      "ee-s1-auditoria-comunicacao": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s2-pesquisa-mercado": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s2-posicionamento": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s2-diagnostico-midia": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s2-diagnostico-criativos": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s2-diagnostico-cro": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s2-diagnostico-organico-ig": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-identidade-visual": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-brandbook": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-landing-page": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-copy-anuncios": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-criativos-anuncios": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-crm-setup": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-forecast-midia": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-gmb-otimizacao": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      }
+    }
+  },
+  "history": [
+    {
+      "ts": "2026-06-26T00:00:00Z",
+      "skill": "ee-novo-cliente",
+      "checkpoint": 1,
+      "decision": "Cliente cadastrado a partir de 4 documentos da base de conhecimento (form de kick-off + transcrições de venda 08/06, onboarding 11/06 e kick-off 15/06/2026), sem pesquisa web complementar (decisão do operador — kick-off já trouxe dados ricos e suficientes). Estrutura única cobrindo Mercado Laser (peças + máquinas de entrada) e BestBeam (linha premium em lançamento) como mesma operação/contrato. modulo_vendas=false (escopo contratado é só gestão de tráfego + CRM, sem SDR IA). Discrepâncias resolvidas com o operador: anos de mercado = 20 (kick-off, não os 15 do form), ticket médio segmentado em 3 faixas (peças / máquinas entrada / BestBeam) em vez de valor único, MIV ainda não existe formalmente (cliente vai enviar). Pendente: organizationId (workspace_id) do V4MOS — client_id e client_secret já recebidos do operador, falta o ID do workspace para rodar o fetch de Google/Meta Ads."
+    },
+    {
+      "ts": "2026-06-26T14:02:48Z",
+      "skill": "ee-s1-persona-icp",
+      "checkpoint": 1,
+      "decision": "ICP segmentado em dois funis permanentes: comprador de máquina (principal, foco de mídia incremental) e comprador de peça (secundário, ~90% do volume, receita recorrente) — decisão do operador de manter os dois com peso igual de análise em todas as skills futuras. Persona adicional Marcelo (aspirante, ainda sem negócio) criada a pedido do operador para cobrir o início da jornada. Comprador de máquina de brinquedo (Shopee/AliExpress) reclassificado de anti-persona para future_buyer_segment — não tem consciência de qualidade ainda, mas é lead de peça/upgrade no futuro. Mensagem-chave escolhida: funcional (peça e máquina saem no mesmo dia). Alerta de honestidade: zero dado de conversão confiável, zero pixel instalado."
+    },
+    {
+      "ts": "2026-06-26T17:35:38Z",
+      "skill": "ee-s1-diagnostico-maturidade",
+      "checkpoint": 1,
+      "decision": "Score geral 2,4/10 (estimado, sem V4MOS) — pilares mais fracos: Dados/Analytics (1/10) e Mídia Paga (2/10). Vale igualmente para os dois funis (máquina e peça). 3 prioridades: instalar pixel Meta+Google, implementar CRM dedicado, corrigir roteamento do WhatsApp + popup. Operador não levantou objeção ao checkpoint."
+    },
+    {
+      "ts": "2026-06-26T17:38:34Z",
+      "skill": "plano-palavras-chave-google-ads",
+      "checkpoint": 1,
+      "decision": "Plano ad hoc de keywords pro Google Ads, segmentado nos 2 funis do persona-icp (máquina/peça) + campanha dedicada BestBeam. Sem dado de volume real (sem acesso a Keyword Planner/conta de Ads) — Daniel precisa validar volume antes de subir. Lista de negativas exclui público de baixo ticket (future_buyer_segment)."
+    },
+    {
+      "ts": "2026-06-26T18:53:34Z",
+      "skill": "briefing-criativos-meta-ads",
+      "checkpoint": 1,
+      "decision": "5 criativos de bonificação (prometidos na venda de 08/06) entregues adiantados em relação ao roadmap — cobrindo os 2 funis e os 3 estágios de jornada do persona-icp. Direção de produção exige filmagem real (não IA/genérico). Evitada citação nominal de concorrente no texto público por risco CONAR. Pendência: revisar linha visual quando ee-s3-identidade-visual/brandbook rodarem formalmente na Semana 3."
+    },
+    {
+      "ts": "2026-06-26T18:58:15Z",
+      "skill": "briefing-criativos-meta-ads",
+      "checkpoint": 2,
+      "decision": "Operador corrigiu formato: os 5 criativos precisam ser estáticos (imagem única), não vídeo/Reels nem carrossel. Refeitos mantendo a mesma estratégia (funil/ICP/objeção), só ajustando formato — cada peça agora é 1 foto + headline + texto primário + descrição."
+    }
+  ]
+}

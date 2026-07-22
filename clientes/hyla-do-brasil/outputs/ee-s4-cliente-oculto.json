@@ -1,0 +1,99 @@
+{
+  "client_name": "Hyla do Brasil",
+  "skill": "ee-s4-cliente-oculto",
+  "generated_at": "2026-07-16",
+  "data_source": "2 transcrições reais de WhatsApp: (1) base-de-conhecimento/chat-whatsapp-hyla-do-brasil-cliente-oculto-01.txt, 22/06/2026, Lucas atuando como cliente oculto em Londrina/PR, atendido pela triagem central (Cleiton); (2) base-de-conhecimento/cliente-oculto-nicolas-02.md, 12/06 a 05/07/2026, Nicolas atuando como cliente oculto em Londrina/PR, atendido diretamente por uma associada (Simone, baseada em Curitiba). Complementado por relato do operador sobre testes adicionais (outros números na mesma região + 1 teste cego em região distinta, sem transcrição própria disponível).",
+
+  "summary": "Dois testes reais, mesma região (Londrina/PR), dois caminhos de entrada diferentes — e o mesmo resultado final: nenhuma demonstração agendada. No Caso 1, o processo confirma tudo certo (contato rápido, endereço coletado, associada disponível) e então simplesmente para, sem follow-up, no momento em que perguntaria 'qual dia e horário' — 23+ dias de silêncio. No Caso 2, o oposto acontece no meio do caminho: uma associada engajada (Simone) volta a contatar o lead por conta própria em 3 momentos ao longo de 3 semanas — mas mesmo assim a visita nunca é agendada, porque a negociação de data fica sempre em promessas vagas ('estarei na sua região nas próximas semanas'), nunca uma data e horário travados. Isso muda o diagnóstico: o problema não é só 'ninguém faz follow-up' — é que falta handoff consistente E falta um mecanismo estruturado de agendamento, mesmo quando o follow-up humano funciona bem.",
+
+  "buyer_profile": {
+    "name": "Simulação — 2 casos reais, mesma região (Londrina/PR), caminhos de entrada diferentes",
+    "situation": "Caso 1 (Lucas, 22/06): preencheu o formulário no site às 11:17, indicando 'Quero uma demonstração HYLA'. Forneceu endereço completo quando solicitado. Postura de cliente real: não fez follow-up ativo, só esperou contato. Caso 2 (Nicolas, 12/06): contato inicial já atendido diretamente por uma associada (Simone), que se identificou e perguntou como podia ajudar. Nicolas relatou conhecer o produto só por vídeo, perguntou como funcionava a demonstração presencial — e, como no Caso 1, não cobrou follow-up ativamente depois ('vou verificar a disponibilidade e já te retorno', sem retornar).",
+    "urgency": "medium",
+    "main_objection": "Em nenhum dos 2 casos uma objeção real de venda chegou a ser testada — nenhum avançou até uma etapa de negociação. A única 'objeção' registrada (Caso 2: 'eu conheço o produto só por vídeo') foi bem contornada pela associada, que reforçou o valor da demonstração presencial."
+  },
+
+  "simulation_metadata": {
+    "total_duration_minutes": null,
+    "note": "Caso 1: 192 minutos de progresso ativo (11:17 às 14:29, mesmo dia 22/06/2026), seguidos de 23+ dias de silêncio total, sem desfecho até a data deste diagnóstico. Caso 2: conversa iniciada em 12/06/2026, com contatos adicionais da associada em 18/06, 04/07 e 05/07 — quase 3 semanas de follow-up espaçado e proativo — mas também sem uma data de demonstração jamais confirmada, e sem desfecho até a data deste diagnóstico. Nenhum dos dois casos é um teste 'concluído' — são dois testes que nunca tiveram desfecho, por motivos diferentes."
+  },
+
+  "evaluation": {
+    "overall_score": 3.6,
+    "classification": "critical",
+    "criteria_scores": [
+      {
+        "criterion": "Velocidade do 1º contato humano",
+        "score": 7,
+        "observation": "Caso 1: mensagem automática instantânea (11:17) + Cleiton pessoalmente às 11:23 (6 min). Caso 2: Simone respondeu no mesmo dia (sem timestamp exato disponível na transcrição). Funciona bem nos dois caminhos de entrada."
+      },
+      {
+        "criterion": "Coleta de informações / qualificação",
+        "score": 7,
+        "observation": "Caso 1: endereço completo coletado com clareza, explicando o motivo. Caso 2: Simone entendeu rapidamente a necessidade (Nicolas só conhecia por vídeo) e direcionou pra demonstração presencial."
+      },
+      {
+        "criterion": "Consistência do handoff entre canais de entrada",
+        "score": 3,
+        "observation": "NOVO — depende inteiramente de qual caminho o lead entra. Via triagem central (Cleiton): confirma interesse e some. Via contato direto com associada engajada (Simone): segue e persiste. Não há padronização entre os dois caminhos — o resultado do lead depende de sorte de roteamento, não de processo."
+      },
+      {
+        "criterion": "Follow-up / persistência (quando a associada está engajada)",
+        "score": 7,
+        "observation": "Caso 2: Simone recontatou o lead por conta própria em 3 momentos ao longo de 3 semanas (18/06, 04/07, 05/07), sem nenhuma cobrança de Nicolas — inclusive avisando 'estarei na sua região nas próximas semanas'. Prova que follow-up genuíno acontece quando a pessoa certa está no lead."
+      },
+      {
+        "criterion": "Follow-up / persistência (via triagem central)",
+        "score": 0,
+        "observation": "Caso 1: nenhuma tentativa de reengajamento em 23+ dias, mesmo com o lead já qualificado (endereço fornecido, disponibilidade confirmada). Um lead 'quente' foi tratado como se tivesse esfriado sozinho."
+      },
+      {
+        "criterion": "Agendamento efetivo da demonstração",
+        "score": 0,
+        "observation": "CRÍTICO nos 2 casos. Caso 1: pergunta de dia/horário sem resposta nem follow-up. Caso 2: follow-up ativo por 3 semanas, mas sempre com promessas vagas de disponibilidade futura — nunca uma data e horário efetivamente travados. O produto final que o cliente precisa (visita marcada) não aconteceu em nenhum dos dois."
+      }
+    ],
+    "strengths": [
+      "Resposta inicial rápida nos dois caminhos testados — não é um problema de velocidade",
+      "Coleta de informações sem fricção, com explicação clara do motivo",
+      "Quando a associada está genuinamente engajada, ela persiste por conta própria (3 contatos em 3 semanas, sem cobrança do lead) — mostra que a cultura de atendimento não é ruim de forma generalizada",
+      "Associada revelou, sem ser perguntada, uma limitação real de cobertura (representante local em treinamento) — sinal de transparência, não de encobrimento"
+    ],
+    "critical_improvements": [
+      "Handoff inconsistente: o resultado do lead depende de qual canal o recebe primeiro (triagem central vs. associada direta), sem padronização entre os dois",
+      "Mesmo com follow-up ativo e genuíno, a demonstração não é agendada — falta um mecanismo estruturado de marcação (horário específico + confirmação), não só boa vontade humana",
+      "Zero follow-up quando o lead passa pela triagem central antes de chegar numa associada — o lead morre nesse handoff, não depois",
+      "Cobertura de Londrina depende de deslocamento de associada de outra cidade (Curitiba) + uma representante local ainda em treinamento — risco real de overpromise se a confirmação de disponibilidade não refletir essa limitação"
+    ],
+    "sdr_impact_per_improvement": [
+      {
+        "improvement": "Follow-up automático pós-confirmação (via triagem central)",
+        "sdr_solution": "SDR IA monitora o momento em que a disponibilidade é confirmada e a pergunta de agendamento é feita; se não houver resposta de data/horário em 24h, o SDR reengaja o lead automaticamente e alerta a associada/Cleiton.",
+        "estimated_impact": "Ataca a causa do Caso 1 — leads que morrem por falta total de follow-up quando entram pela triagem central."
+      },
+      {
+        "improvement": "Mecanismo estruturado de agendamento (não negociação aberta por WhatsApp)",
+        "sdr_solution": "SDR IA oferece horários específicos (não pergunta aberta tipo 'qual dia é melhor?') e fecha a data no mesmo fluxo, com confirmação e lembrete automáticos — inclusive quando é a própria associada quem está conduzindo a conversa.",
+        "estimated_impact": "Ataca a causa do Caso 2 — o achado mais novo e talvez mais importante: mesmo com follow-up humano funcionando bem, falta estrutura pra converter isso em data marcada."
+      },
+      {
+        "improvement": "Handoff rastreável com dono definido",
+        "sdr_solution": "Registrar a promessa 'temos associada, qual dia/horário' como compromisso com prazo no CRM/Kommo (quando implementado, ver ee-s3-crm-setup), com alerta automático se não avançar em 24-48h.",
+        "estimated_impact": "Cria visibilidade que hoje não existe — os 2 testes documentados são a primeira vez que esse ponto foi medido, mesmo com amostra pequena."
+      },
+      {
+        "improvement": "Verificação de cobertura regional em tempo real (incluindo status de treinamento da associada)",
+        "sdr_solution": "Antes de confirmar 'temos associada disponível', checar status ativo E liberado da associada da região — evita prometer uma visita que a operação não tem capacidade de cumprir no prazo esperado pelo lead.",
+        "estimated_impact": "Reduz o risco de o próprio processo comercial gerar expectativa que o gargalo de capacidade de demonstração (SWOT Fr3) não consegue entregar."
+      }
+    ]
+  },
+
+  "honesty_alert": "Este diagnóstico é baseado em 2 testes com transcrição completa (WhatsApp real: 22/06/2026 e 12/06-05/07/2026) mais relatos verbais do operador sobre testes adicionais (outros números na região de Londrina e 1 teste cego em região diferente), sem transcrição própria disponível para esses últimos — tratados aqui como corroboração, não como evidência de mesmo peso. Não é uma auditoria estatística do volume total de leads da Hyla. Os 2 testes documentados são da MESMA região (Londrina) — a convergência no resultado final (zero agendamentos) por dois caminhos de entrada diferentes é um sinal forte, mas ainda não testa se o mesmo padrão se repete numa região de cobertura densa (ex.: São Paulo), recomendado antes de decisões de budget ligadas a geografia (ver ee-s2-diagnostico-midia). O volume real de leads afetados por mês só pode ser medido com dados do C2S/CRM, hoje inexistentes (SWOT Fr1, Fr2).",
+
+  "alimenta_skills": [
+    "ee-s5-scripts-sdr",
+    "ee-s5-sdr-ia-config",
+    "ee-revisao-semanal"
+  ]
+}

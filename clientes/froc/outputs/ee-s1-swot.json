@@ -1,0 +1,341 @@
+{
+  "client_name": "FROC — Frutas Desidratadas",
+  "skill": "ee-s1-swot",
+  "generated_at": "2026-05-05",
+  "data_source": "Kickoff 29/04 + reuniões comerciais + SPICED + ee-s1-persona-icp + fetch froc.com.br",
+
+  "summary": "A FROC tem um produto genuinamente diferenciado (sem conservantes por processo, não por escolha) e uma vantagem competitiva imediata (amostra grátis). O problema é que 100% das vendas dependem de um vendedor fazendo cold call em um mercado de nicho — e a empresa tem 1 ano, faturamento aquém da meta e estoques parados. A janela é o crescimento do mercado de pet food e fit, mas o tempo é curto: a meta de R$2,3M precisa fechar este ano.",
+
+  "summary_headline": "FROC tem produto melhor que o concorrente e não cobra pela amostra — mas só vende quando o vendedor liga primeiro. Cada mês sem inbound é um mês dependendo só de uma pessoa.",
+
+  "summary_highlights": [
+    {
+      "category": "vantagem",
+      "label": "Diferencial único",
+      "value": "Amostra grátis",
+      "subtext": "Único no mercado — Polpa Brasil cobra",
+      "tone": "green"
+    },
+    {
+      "category": "risco",
+      "label": "Dependência de canal",
+      "value": "100% outbound",
+      "subtext": "1 vendedor fazendo cold call — zero inbound",
+      "tone": "red"
+    },
+    {
+      "category": "risco",
+      "label": "Estágio da empresa",
+      "value": "1 ano",
+      "subtext": "Sem reputação. ~10 clientes. Meta de 17.",
+      "tone": "red"
+    },
+    {
+      "category": "oportunidade",
+      "label": "Mercado pet food BR",
+      "value": "R$75B",
+      "subtext": "Um dos maiores do mundo, crescendo",
+      "tone": "green"
+    },
+    {
+      "category": "janela",
+      "label": "Meta do ano",
+      "value": "R$2,3M",
+      "subtext": "Precisa fechar até dezembro. Urgência real.",
+      "tone": "yellow"
+    },
+    {
+      "category": "maturidade",
+      "label": "Capacidade produtiva",
+      "value": "5.000 kg/mês",
+      "subtext": "10.000 com turno adicional — gargalo é venda",
+      "tone": "blue"
+    }
+  ],
+
+  "summary_key_findings": [
+    {
+      "category": "vantagem",
+      "text": "O processo produtivo da FROC (< 1 minuto do corte à desidratação) entrega um diferencial técnico real: maçã clara sem conservantes ou clarificantes — não por escolha comercial, mas por necessidade do processo. Para o ICP de alimentação humana, isso é um argumento de qualidade e segurança alimentar que a concorrência não tem."
+    },
+    {
+      "category": "ameaca",
+      "text": "Com 1 vendedor interno gerenciando 80% das vendas via cold call, qualquer problema pessoal, saída ou sobrecarregamento desse profissional paralisa a operação comercial. Não existe sistema de vendas — existe uma pessoa."
+    },
+    {
+      "category": "ameaca",
+      "text": "A meta de R$2,3M é ambiciosa para uma empresa com ~10 clientes ativos, margem líquida de 10% e sem inbound estruturado. Para atingir, precisa de 7 novos clientes recorrentes em 8 meses — isso requer que a máquina de geração de leads esteja funcionando em, no máximo, 30-45 dias."
+    },
+    {
+      "category": "contexto",
+      "text": "O mercado de pet food brasileiro (R$75B) e o de alimentos funcionais são dois dos mercados que mais crescem no Brasil. A FROC está bem posicionada em ambos — mas esses mercados têm compradores que nunca buscaram a FROC porque não sabem que ela existe."
+    },
+    {
+      "category": "acao",
+      "text": "A combinação Força × Oportunidade prioritária: amostra grátis + Google Ads Search + LP específica por segmento. O RF (Rafael) que pesquisa 'maçã desidratada fornecedor' no Google precisa encontrar a FROC — e ao clicar, precisa ver a amostra grátis na primeira dobra."
+    }
+  ],
+
+  "forcas": [
+    {
+      "id": "F1",
+      "titulo": "Amostra grátis — diferencial competitivo direto",
+      "descricao": "FROC oferece 200-500g de amostra sem custo. A Polpa Brasil (principal concorrente no nicho pet) cobra pela amostra. Para um comprador avaliando fornecedor novo, isso elimina a barreira de risco zero.",
+      "impacto": "alto",
+      "comunicavel": true
+    },
+    {
+      "id": "F2",
+      "titulo": "Processo sem conservantes — vantagem técnica real",
+      "descricao": "Tempo entre corte e desidratação < 1 minuto. Resultado: maçã clara sem precisar de conservantes ou clarificantes químicos. Não é uma escolha de marketing — é uma consequência do processo. Para indústria alimentícia humana, isso é diferencial de segurança alimentar.",
+      "impacto": "alto",
+      "comunicavel": true
+    },
+    {
+      "id": "F3",
+      "titulo": "Entrega em 2 dias — estoque pronto",
+      "descricao": "Produto disponível em estoque com entrega em 2 dias após pedido. Para compradores que precisam repor insumo com urgência, isso é superior à maioria dos concorrentes.",
+      "impacto": "médio-alto",
+      "comunicavel": true
+    },
+    {
+      "id": "F4",
+      "titulo": "Flexibilidade de pagamento — 30 a 120 dias",
+      "descricao": "Prazo médio de 30-75 dias, com possibilidade de até 120 dias. Facilita vendas para compradores com fluxo de caixa apertado — especialmente PMEs do setor pet.",
+      "impacto": "médio",
+      "comunicavel": true
+    },
+    {
+      "id": "F5",
+      "titulo": "Grupo empresarial estruturado com infraestrutura de maçã in natura",
+      "descricao": "A empresa principal do grupo faz seleção e armazenamento de maçã. A FROC tem acesso preferencial à matéria-prima de qualidade com processo de seleção industrial (câmera de 1000 fotos/segundo). Estabilidade de fornecimento.",
+      "impacto": "médio",
+      "comunicavel": true
+    },
+    {
+      "id": "F6",
+      "titulo": "São Joaquim — capital nacional da maçã",
+      "descricao": "Origem geográfica é diferencial de credibilidade. São Joaquim é reconhecida como a melhor região produtora de maçã do Brasil. Rastreabilidade de origem com apelo de qualidade.",
+      "impacto": "médio",
+      "comunicavel": true
+    },
+    {
+      "id": "F7",
+      "titulo": "Capacidade produtiva escalável",
+      "descricao": "Atual: 5.000 kg/mês. Potencial com turno noturno: 10.000 kg/mês. Maquinário renovado em março. Pode atender crescimento de demanda sem gargalo operacional.",
+      "impacto": "médio",
+      "comunicavel": false,
+      "nota": "Argumento interno de escalabilidade — não é diferencial primário para o comprador"
+    },
+    {
+      "id": "F8",
+      "titulo": "Vendedor interno com conhecimento de mercado",
+      "descricao": "Vendedor com experiência prévia em concorrente — conhece o mercado e tem carteira inicial.",
+      "impacto": "médio",
+      "comunicavel": false
+    }
+  ],
+
+  "fraquezas": [
+    {
+      "id": "Fr1",
+      "titulo": "1 ano de operação — sem reputação de mercado",
+      "descricao": "Para compradores B2B que precisam de confiança antes de qualificar fornecedor, a ausência de histórico é uma barreira. Especialmente crítico para alimentação humana onde o processo de homologação exige estabilidade do fornecedor.",
+      "impacto": "crítico",
+      "sanavel": "parcialmente — cresce com tempo e cases",
+      "acao": "Depoimentos de clientes atuais. Comunicar o grupo empresarial como estrutura por trás da FROC."
+    },
+    {
+      "id": "Fr2",
+      "titulo": "100% dependência de um vendedor para 80% das vendas",
+      "descricao": "Ponto único de falha comercial. Sem inbound, sem representantes estruturados, sem pipeline documentado no CRM além do esforço desse profissional.",
+      "impacto": "crítico",
+      "sanavel": true,
+      "acao": "Criar canal inbound via LPs + Google Ads. Estruturar representantes. Documentar pipeline no Prospectei."
+    },
+    {
+      "id": "Fr3",
+      "titulo": "Preço levemente acima da concorrência",
+      "descricao": "FROC não tem vantagem de preço no insumo (maçã industrial de Fraiburgo custa o mesmo). Concorrentes como Maxan ajustam preço para não perder negócios. FROC está 'levemente acima'.",
+      "impacto": "alto",
+      "sanavel": "parcialmente",
+      "acao": "Nunca competir por preço. Ancorar em valor: amostra grátis, entrega em 2 dias, sem conservante, documentação completa. Incluir frete no preço pode igualar percepção de custo total."
+    },
+    {
+      "id": "Fr4",
+      "titulo": "Frete FOB — custo invisível que amplia desvantagem de preço",
+      "descricao": "Clientes pagam o frete (R$1-2/kg), o que eleva o custo efetivo. Concorrentes de Fraiburgo podem ter logística similar, mas a percepção de 'preço mais alto' se amplifica com FOB.",
+      "impacto": "alto",
+      "sanavel": true,
+      "acao": "Avaliar incluir custo de frete no preço do produto e comunicar como 'frete incluso'. Simplifica a comparação e reduz objeção."
+    },
+    {
+      "id": "Fr5",
+      "titulo": "Não conformidade histórica — fragmento de metal",
+      "descricao": "Incidente com fragmento de metal em produto. Fábrica responsável já substituída. Mas o mercado B2B tem memória longa — pode aparecer como objeção em negociações.",
+      "impacto": "médio-alto",
+      "sanavel": "parcialmente — requer tempo e comunicação proativa",
+      "acao": "Preparar resposta padrão para quando o tema surgir. Comunicar proativamente que maquinário foi renovado em março e protocolo de controle de qualidade foi reformulado."
+    },
+    {
+      "id": "Fr6",
+      "titulo": "Comunicação digital completamente errada — foco em snacks/B2C",
+      "descricao": "Instagram e LinkedIn focados em snacks e consumidor final. Não há uma única peça de comunicação digital voltada para o comprador B2B industrial.",
+      "impacto": "alto",
+      "sanavel": true,
+      "acao": "Reorientar Instagram e LinkedIn para B2B. Criar LPs específicas por segmento. Site com nova tagline que comunique ingrediente industrial."
+    },
+    {
+      "id": "Fr7",
+      "titulo": "Site institucional sem geração de leads",
+      "descricao": "Site (lançado em 29/04) é puramente institucional. Nenhum formulário de captação, nenhuma página de conversão, nenhum CTA para amostra grátis.",
+      "impacto": "alto",
+      "sanavel": true,
+      "acao": "Landing pages são o entregável principal do projeto. Urgente."
+    },
+    {
+      "id": "Fr8",
+      "titulo": "Estoque parado — risco financeiro imediato",
+      "descricao": "Produziram ~5.000 toneladas recentemente e converteram apenas uma venda de 2 toneladas. Estoque tem prazo de 12 meses. Pressão de caixa para girar produto.",
+      "impacto": "alto",
+      "sanavel": true,
+      "acao": "Google Ads para captura de demanda ativa é a resposta mais rápida para girar estoque."
+    }
+  ],
+
+  "oportunidades": [
+    {
+      "id": "O1",
+      "titulo": "Mercado pet food brasileiro — R$75B e crescendo",
+      "descricao": "Brasil é um dos maiores mercados pet do mundo. Linha natural/premium de ração (nicho da FROC) cresce mais rápido que o mercado geral. Alta demanda por ingredientes de qualidade.",
+      "impacto": "alto",
+      "janela": "Tendência de longo prazo — sustentável",
+      "forca_que_alavanca": ["F1", "F2", "F3"]
+    },
+    {
+      "id": "O2",
+      "titulo": "Mercado de alimentos funcionais/fit crescendo",
+      "descricao": "Granola, barrinhas de cereal e linha natural são mercados em expansão acelerada. Crescimento de consciência nutricional eleva demanda por ingredientes certificados e sem conservantes.",
+      "impacto": "alto",
+      "janela": "Tendência de médio-longo prazo",
+      "forca_que_alavanca": ["F2", "F5", "F6"]
+    },
+    {
+      "id": "O3",
+      "titulo": "Nutrassou — contato promissor com distribuidor fit",
+      "descricao": "FROC está em contato com a Nutrassou, distribuidora de ingredientes para Nutrata, Growth, Dux. Canal de entrada para múltiplos fabricantes de uma só vez.",
+      "impacto": "alto",
+      "janela": "Imediata — em andamento",
+      "forca_que_alavanca": ["F1", "F2"]
+    },
+    {
+      "id": "O4",
+      "titulo": "Google Ads com CPC baixo — demanda ativa inexplorada",
+      "descricao": "~16 buscas/mês por 'maçã desidratada' no Google. Volume baixo = CPC baixo. Com LP otimizada e gancho de amostra, cada lead pode valer R$11-130k. Concorrente Polpa Brasil já anuncia no Google.",
+      "impacto": "alto",
+      "janela": "Imediata — nenhum concorrente de qualidade dominando o espaço",
+      "forca_que_alavanca": ["F1", "F3"]
+    },
+    {
+      "id": "O5",
+      "titulo": "APAS Show — feira mais certeira para negociações diretas",
+      "descricao": "Feira identificada como a mais relevante para fechamento de negócios. Oportunidade de abordagem direta com compradores de alimentação humana.",
+      "impacto": "médio-alto",
+      "janela": "Anual — planejar participação",
+      "forca_que_alavanca": ["F6", "F2"]
+    },
+    {
+      "id": "O6",
+      "titulo": "Private label para supermercados e distribuidores",
+      "descricao": "Serviço já no catálogo da FROC. Canal para atingir empórios e lojas pequenas que não compram 400kg direto.",
+      "impacto": "médio",
+      "janela": "Médio prazo",
+      "forca_que_alavanca": ["F5", "F7"]
+    }
+  ],
+
+  "ameacas": [
+    {
+      "id": "A1",
+      "titulo": "Maxan (Maxã) — concorrente de mesma qualidade e região",
+      "descricao": "Principal concorrente em Fraiburgo com qualidade e preços similares. Mais estabelecida no mercado. Pode ajustar preço para barrar FROC em negociações.",
+      "probabilidade": "alta",
+      "impacto": "alto",
+      "mitigacao": "Diferenciar por amostra grátis, documentação completa e comunicação digital superior."
+    },
+    {
+      "id": "A2",
+      "titulo": "Concentração de clientes — riscos de perda catastrófica",
+      "descricao": "Com ~10 clientes ativos, perder 2-3 representa queda significativa de faturamento. Sem pipeline estruturado, reposição é lenta.",
+      "probabilidade": "alta",
+      "impacto": "alto",
+      "mitigacao": "Diversificar base de clientes é a própria meta do projeto. Google Ads acelera esse processo."
+    },
+    {
+      "id": "A3",
+      "titulo": "Meta anual impossível sem inbound funcionando em 30 dias",
+      "descricao": "R$2,3M em 2026 requer 7 novos clientes recorrentes até dezembro. Com ciclo de venda de 20-40 dias + processo de homologação, as LPs e campanhas precisam estar no ar em maio para ter tempo hábil.",
+      "probabilidade": "alta",
+      "impacto": "crítico",
+      "mitigacao": "Prioridade máxima no cronograma: LPs prontas até semana 2, campanhas no ar semana 3."
+    },
+    {
+      "id": "A4",
+      "titulo": "Flora Frutas — concorrente de preço baixo",
+      "descricao": "Qualidade inferior mas preço muito abaixo. Pode ganhar compradores sensíveis a custo no setor pet que não valorizam qualidade premium.",
+      "probabilidade": "média",
+      "impacto": "médio",
+      "mitigacao": "Não competir com Flora Frutas — segmentar apenas compradores que valorizam qualidade e documentação."
+    },
+    {
+      "id": "A5",
+      "titulo": "Dependência de safra — sazonalidade da matéria-prima",
+      "descricao": "Safra da maçã começa em fevereiro e vai até junho. Fora desse período, estoque precisa ter sido acumulado. Qualquer problema na safra impacta a produção.",
+      "probabilidade": "baixa-média",
+      "impacto": "médio",
+      "mitigacao": "Comunicar prazo de validade de 12 meses como garantia de continuidade do fornecimento."
+    }
+  ],
+
+  "combinacoes_estrategicas": [
+    {
+      "tipo": "Força × Oportunidade — Alavancar",
+      "combinacao": "F1 × O4",
+      "titulo": "Amostra grátis + Google Ads = lead que já está querendo testar",
+      "descricao": "Quem pesquisa 'maçã desidratada fornecedor' no Google já está no fundo do funil. A LP com gancho de amostra grátis converte esse visitante em lead qualificado com CPC baixo. É a combinação de maior ROI imediato do projeto.",
+      "prioridade": "máxima"
+    },
+    {
+      "tipo": "Força × Oportunidade — Alavancar",
+      "combinacao": "F2+F6 × O2",
+      "titulo": "Sem conservantes + origem São Joaquim = argumento de homologação para alimentação humana",
+      "descricao": "Para o ICP Camila (alimentação humana), 'sem conservantes por processo' + 'origem rastreável em São Joaquim' é o argumento técnico que justifica o preço acima da concorrência e facilita a aprovação da área de qualidade.",
+      "prioridade": "alta"
+    },
+    {
+      "tipo": "Fraqueza × Oportunidade — Converter",
+      "combinacao": "Fr2+Fr6 × O4",
+      "titulo": "Criar inbound antes que a dependência do vendedor vire crise",
+      "descricao": "Google Ads + LP resolve a fraqueza mais crítica (dependência de um vendedor) aproveitando a oportunidade de demanda ativa com CPC baixo. É o projeto inteiro em uma frase.",
+      "prioridade": "máxima"
+    },
+    {
+      "tipo": "Fraqueza × Ameaça — Mitigar",
+      "combinacao": "Fr8 × A3",
+      "titulo": "Estoque parado + meta de fim de ano = urgência real",
+      "descricao": "Produto encalhado + prazo de 12 meses + meta que precisa fechar em dezembro = as campanhas precisam rodar em maio. Cada semana de atraso reduz o tempo disponível para atingir 17 clientes recorrentes.",
+      "prioridade": "crítica"
+    }
+  ],
+
+  "key_leverage_point": {
+    "headline": "O projeto inteiro se resume a uma equação: quem pesquisa 'maçã desidratada fornecedor' no Google precisa encontrar a FROC, clicar, ver a amostra grátis e pedir. Com CPC baixo e ciclo de 20 dias, cada campanha no ar em maio vale o dobro de uma campanha no ar em julho.",
+    "context": "A FROC tem o produto certo, o diferencial certo (amostra grátis) e o mercado crescendo. O único problema é que 100% dos clientes precisam ser encontrados por um vendedor — nenhum chegou por conta própria. Google Ads com landing pages resolve isso estruturalmente, substituindo cold call por demanda ativa.",
+    "numbered_reasons": [
+      "~16 buscas/mês no Google por 'maçã desidratada' = audiência pequena mas altamente qualificada e com CPC baixo — cada lead pode valer R$11k a R$134k",
+      "A amostra grátis elimina a principal objeção (risco de testar fornecedor novo) antes do vendedor precisar fazer qualquer pitch",
+      "O estoque parado cria pressão de caixa que torna a urgência de rodar as campanhas em maio um imperativo financeiro, não só estratégico"
+    ],
+    "discussion_anchor": "Para Driélly no retorno da Filadélfia: 'As campanhas precisam estar no ar em maio. Cada semana de atraso é uma semana a menos para atingir os 17 clientes antes de dezembro.'"
+  }
+}

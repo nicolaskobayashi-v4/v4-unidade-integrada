@@ -1,0 +1,416 @@
+{
+  "client_name": "Mina Pizza",
+  "segment": "Alimentação — restaurante à la carte (almoço) e pizzaria (jantar), PDV local dentro de praça de alimentação",
+  "icp_summary": "Marlene, 58 anos, cliente fiel de longa data de São Vicente — decide por hábito/conveniência, não por comparação ativa. Segmentos secundários: Jailson (trabalhador, decide por rapidez/preço) e Família Andrade (pedido de fim de semana, ticket mais alto).",
+  "summary": "Diagnóstico de criativos da Mina Pizza: 7 posts do Instagram avaliados (únicos ativos visuais existentes, já que não há anúncio pago ativo) — score médio 13,1/25, nenhum na faixa 'manter'. Padrão mais crítico: zero uso de prova social, enquanto o concorrente Qbara já usa isso com apenas 3 anúncios ativos.",
+  "summary_headline": "7 posts avaliados, 0 na faixa 'manter' — nenhum usa prova social (4,8★/54 no iFood), o mesmo elemento que o concorrente Qbara já explora com só 3 anúncios ativos.",
+  "summary_highlights": [
+    {
+      "category": "maturidade",
+      "label": "Score médio",
+      "value": "13,1/25",
+      "subtext": "Faixa 'otimizar' — nenhum criativo na faixa 'manter'",
+      "tone": "yellow"
+    },
+    {
+      "category": "posicao",
+      "label": "Distribuição M/O/E",
+      "value": "0M · 3O · 4E",
+      "subtext": "Todos são posts orgânicos — zero anúncio pago ativo",
+      "tone": "red"
+    },
+    {
+      "category": "competicao",
+      "label": "Volume de anúncios dos concorrentes",
+      "value": "63 (Big Família) + 48 (La Braciera)",
+      "subtext": "vs. 0 anúncios ativos da Mina Pizza",
+      "tone": "red"
+    },
+    {
+      "category": "oportunidade",
+      "label": "Padrão mais acionável",
+      "value": "Prova social sobreposta",
+      "subtext": "Qbara usa com só 3 anúncios ativos",
+      "tone": "green"
+    },
+    {
+      "category": "risco",
+      "label": "Problema mais recorrente",
+      "value": "Copy genérica em 7/7 posts",
+      "subtext": "Hashtags de template, sem menção a tradição/local",
+      "tone": "red"
+    }
+  ],
+  "summary_key_findings": [
+    {
+      "category": "vantagem",
+      "text": "A fotografia de produto (massa, queijo derretendo) já tem qualidade aproveitável em pelo menos 3 dos 7 posts — a base visual existe, falta contexto e copy."
+    },
+    {
+      "category": "contexto",
+      "text": "Nenhum dos 7 posts analisados é anúncio pago — são conteúdo orgânico parado desde 2023. O diagnóstico avalia o único material visual que existe hoje, não performance de campanha."
+    },
+    {
+      "category": "ameaca",
+      "text": "7 de 7 criativos ignoram a prova social real disponível (4,8★/54 no iFood) — o mesmo gap identificado no diagnóstico de mídia paga como oportunidade nº1."
+    },
+    {
+      "category": "acao",
+      "text": "Separar prints de avaliação real (depois de responder as pendentes, per SWOT) é o primeiro material de produção pra Semana 3 — menor esforço, maior potencial de conversão."
+    }
+  ],
+  "total_creatives_analyzed": 7,
+  "average_score": 13.1,
+  "period": {
+    "start": "2021-10-01",
+    "end": "2023-05-25"
+  },
+  "source_outputs": [
+    "ee-s1-persona-icp.json",
+    "ee-s2-posicionamento.json",
+    "ee-s2-diagnostico-midia.json",
+    "ee-s2-pesquisa-mercado.json"
+  ],
+  "creative_matrix": [
+    {
+      "number": 1,
+      "type": "reels",
+      "description": "'Bateu vontade de pizza? Pede pizza Mina' — close-up de fatia de pizza com queijo derretendo, texto 'PIZZA Com melhor sabor' sobreposto (25/mai/2023)",
+      "hook_score": 2,
+      "hook_comment": "Foto de produto genérica sem contexto — poderia ser de qualquer pizzaria do Brasil.",
+      "clarity_score": 3,
+      "clarity_comment": "Fica claro que é pizza e delivery, mas não comunica nenhum diferencial real.",
+      "icp_coherence_score": 2,
+      "icp_coherence_comment": "Hashtags de template (#reelsviral #saopaulo) não falam com o ICP local de 45+ anos.",
+      "cta_score": 2,
+      "cta_comment": "'Clicar no link' é vago — não diz o que acontece ao clicar.",
+      "visual_score": 3,
+      "visual_comment": "Fotografia de produto com boa iluminação, mas edição de template genérico.",
+      "total_score": 12,
+      "verdict": "eliminar",
+      "verdict_reason": "Hook genérico de banco de imagem, hashtags de template que não falam com o ICP local."
+    },
+    {
+      "number": 2,
+      "type": "feed",
+      "description": "'Todo dia é dia de Mina pizza' — mãos pegando fatias de pizza, formato meme de 'barra de busca' (23/mai/2023)",
+      "hook_score": 2,
+      "hook_comment": "Formato meme de busca é datado e não conecta com nenhuma dor/desejo específico.",
+      "clarity_score": 2,
+      "clarity_comment": "Caption longa sobre 'compartilhar momentos especiais' sem falar do produto real.",
+      "icp_coherence_score": 2,
+      "icp_coherence_comment": "Tom genérico de delivery, não de pizzaria de bairro tradicional.",
+      "cta_score": 2,
+      "cta_comment": "Menciona 'App exclusivo' que não fica claro se ainda existe/é o Neemo.",
+      "visual_score": 3,
+      "visual_comment": "Foto de produto ok, mas composição genérica de banco de imagem.",
+      "total_score": 11,
+      "verdict": "eliminar",
+      "verdict_reason": "Copy vaga e formato datado, sem nenhuma conexão com o diferencial real do negócio."
+    },
+    {
+      "number": 3,
+      "type": "reels",
+      "description": "'Como é que pode?' — azeite e manjericão sobre pizza, close-up estético (22/mai/2023)",
+      "hook_score": 2,
+      "hook_comment": "Visualmente bonito, mas não para o scroll — não há pergunta ou tensão real.",
+      "clarity_score": 2,
+      "clarity_comment": "Não fica claro o que está sendo vendido além de 'pizza bonita'.",
+      "icp_coherence_score": 2,
+      "icp_coherence_comment": "Estética de food blog genérico, distante do tom simples/direto aprovado pra marca.",
+      "cta_score": 2,
+      "cta_comment": "CTA genérico ('corre pra nossa bio').",
+      "visual_score": 4,
+      "visual_comment": "Melhor qualidade de imagem do lote — foco e composição bons.",
+      "total_score": 12,
+      "verdict": "eliminar",
+      "verdict_reason": "Qualidade visual não compensa a falta de mensagem e diferencial."
+    },
+    {
+      "number": 4,
+      "type": "feed",
+      "description": "'Sua fome pede pizza' — texto grande sobreposto em foto de pizza com tomate e manjericão (21/mai/2023)",
+      "hook_score": 2,
+      "hook_comment": "Texto grande chama atenção, mas a frase é genérica.",
+      "clarity_score": 3,
+      "clarity_comment": "Mensagem direta (fome → pizza), mas sem nenhum diferencial da Mina Pizza.",
+      "icp_coherence_score": 2,
+      "icp_coherence_comment": "Poderia ser de qualquer pizzaria — não menciona tradição, local ou prova social.",
+      "cta_score": 2,
+      "cta_comment": "CTA fraco, sem ação clara.",
+      "visual_score": 3,
+      "visual_comment": "Foto de produto adequada, tratamento de template.",
+      "total_score": 12,
+      "verdict": "eliminar",
+      "verdict_reason": "Mesma falha recorrente: produto genérico sem diferencial ou prova social."
+    },
+    {
+      "number": 5,
+      "type": "reels",
+      "description": "Bastidor — massa sendo aberta, com card informativo sobreposto (endereço, telefone, horário) 'Mina Pizza & Grill' (12/mai/2023)",
+      "hook_score": 3,
+      "hook_comment": "Bastidor/processo tem mais autenticidade que os outros posts, mas execução amadora.",
+      "clarity_score": 4,
+      "clarity_comment": "Card com endereço/telefone/horário é útil pra quem decide pedir na hora.",
+      "icp_coherence_score": 3,
+      "icp_coherence_comment": "Informação prática ajuda o público local, mas falta reforçar tradição/36 anos.",
+      "cta_score": 3,
+      "cta_comment": "Telefone e endereço visíveis funcionam como CTA implícito.",
+      "visual_score": 2,
+      "visual_comment": "Vídeo caseiro, tipografia do card sem padrão visual de marca.",
+      "total_score": 15,
+      "verdict": "otimizar",
+      "verdict_reason": "Formato de bastidor + informação prática é o mais promissor do lote, mas precisa de produção e design melhores. Conferir se o horário no card ainda está correto (mesmo erro já mapeado na auditoria de comunicação)."
+    },
+    {
+      "number": 6,
+      "type": "feed",
+      "description": "Pizza com presunto, cebola e azeitonas + card informativo 'Mina Pizza & Grill' (out/2021)",
+      "hook_score": 2,
+      "hook_comment": "Foto de produto padrão, sem hook.",
+      "clarity_score": 4,
+      "clarity_comment": "Card com endereço/telefone/horário é o elemento mais útil do post.",
+      "icp_coherence_score": 3,
+      "icp_coherence_comment": "Informação prática serve ao ICP local, mas visual não reforça tradição.",
+      "cta_score": 3,
+      "cta_comment": "Telefone e endereço visíveis.",
+      "visual_score": 3,
+      "visual_comment": "Foto de produto adequada.",
+      "total_score": 15,
+      "verdict": "otimizar",
+      "verdict_reason": "Mesmo padrão do criativo 5 — card informativo é o ativo a preservar, resto precisa de refresh visual."
+    },
+    {
+      "number": 7,
+      "type": "feed",
+      "description": "Pizza com presunto, queijo e manjericão + card informativo 'Mina Pizza & Grill' (out/2021)",
+      "hook_score": 2,
+      "hook_comment": "Foto de produto padrão, sem hook.",
+      "clarity_score": 4,
+      "clarity_comment": "Card informativo é útil, mesmo padrão dos criativos 5 e 6.",
+      "icp_coherence_score": 3,
+      "icp_coherence_comment": "Informação prática, mas sem reforço de tradição/diferencial.",
+      "cta_score": 3,
+      "cta_comment": "Telefone e endereço visíveis.",
+      "visual_score": 3,
+      "visual_comment": "Foto de produto adequada.",
+      "total_score": 15,
+      "verdict": "otimizar",
+      "verdict_reason": "Template repetido dos criativos 5 e 6 — vale consolidar num padrão único, atualizado, em vez de repetir a mesma peça."
+    }
+  ],
+  "counts": {
+    "keep_count": 0,
+    "optimize_count": 3,
+    "eliminate_count": 4
+  },
+  "patterns_identified": [
+    {
+      "pattern": "Hooks genéricos de banco de imagem/template — nenhum criativo usa hook específico do ICP (tradição, localização, prova social)",
+      "affected_creatives": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "example": "'Bateu vontade de pizza? Pede pizza Mina' é o tipo de copy que serve pra qualquer pizzaria do Brasil, não fala do que diferencia a Mina Pizza"
+    },
+    {
+      "pattern": "Hashtags de template genéricas (#reelsviral, #saopaulo, #fastfood) em vez de hashtags locais/de nicho",
+      "affected_creatives": [
+        1,
+        3,
+        4
+      ],
+      "example": "#reels #insta #pizza #delivery #food #neemo #reelsviral #saopaulo — nenhuma menciona São Vicente, Carrefour ou tradição"
+    },
+    {
+      "pattern": "Os únicos criativos com informação útil (endereço, telefone, horário) têm qualidade visual mais amadora e tipografia sem padrão de marca",
+      "affected_creatives": [
+        5,
+        6,
+        7
+      ],
+      "example": "O card de informações sobreposto na foto do bastidor usa tipografia básica, sem seguir nenhum padrão visual consistente"
+    },
+    {
+      "pattern": "Nenhum criativo usa prova social (avaliação, depoimento), mesmo com 4,8★/54 no iFood disponível",
+      "affected_creatives": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "example": "Zero menção às avaliações reais em qualquer um dos 7 posts analisados"
+    }
+  ],
+  "what_works": [
+    {
+      "element": "Fotografia de produto com boa iluminação e foco (massa, queijo derretendo)",
+      "seen_in": [
+        1,
+        3,
+        4
+      ],
+      "reason": "Mostra qualidade real do produto — base visual aproveitável pra novos criativos, só falta contexto e copy melhores"
+    },
+    {
+      "element": "Card informativo com endereço/telefone/horário sobreposto na foto",
+      "seen_in": [
+        5,
+        6,
+        7
+      ],
+      "reason": "Resolve a necessidade prática de quem vê o post decidir pedir na hora — só precisa de atualização de design e conferência do horário (mesmo erro da bio já mapeado na auditoria de S1)"
+    }
+  ],
+  "competitor_analysis": [
+    {
+      "competitor": "Big Família",
+      "active_ads_count": 63,
+      "ads_library_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&is_targeted_country=false&media_type=all&search_type=page&sort_data[direction]=desc&sort_data[mode]=total_impressions&view_all_page_id=107958301835840",
+      "creative_pattern": "Ofertas recorrentes (borda recheada grátis toda quarta) e cupom de primeira compra (R$10 off), sempre com foto de produto em close-up + headline grande em texto e regra clara da promoção.",
+      "what_works": "CTA claro e oferta com regra explícita ('não é válido para pizzas promocionais') — reduz ambiguidade e gera ação imediata.",
+      "what_to_avoid": "Nenhum uso de prova social nos criativos observados — dependem só de preço/oferta, o que pode gerar percepção de commodity no longo prazo.",
+      "gap_para_cliente": true,
+      "replication_idea": "Testar oferta de entrada simples (ex: R$10 off na primeira compra via Neemo) com regra clara — mesma lógica da hipótese H4 do diagnóstico de mídia paga."
+    },
+    {
+      "competitor": "Qbara",
+      "active_ads_count": 3,
+      "ads_library_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&is_targeted_country=false&media_type=all&search_type=page&sort_data[direction]=desc&sort_data[mode]=total_impressions&view_all_page_id=288370491510975",
+      "creative_pattern": "Depoimento de cliente (texto + nome + estrelas) sobreposto direto na foto do produto.",
+      "what_works": "Prova social real com esforço de produção mínimo — só 3 anúncios ativos e já usa o elemento mais persuasivo (confiança) que a Mina Pizza não usa em nenhum dos 7 posts.",
+      "what_to_avoid": null,
+      "gap_para_cliente": true,
+      "replication_idea": "Usar prints reais das avaliações do iFood (4,8★/54) sobrepostos em foto de pizza — mesma lógica da hipótese H1 do diagnóstico de mídia paga."
+    },
+    {
+      "competitor": "La Braciera (benchmark nacional)",
+      "active_ads_count": 48,
+      "ads_library_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&is_targeted_country=false&media_type=all&search_type=page&sort_data[direction]=desc&sort_data[mode]=total_impressions&source=fb-logo&view_all_page_id=277056432387756",
+      "creative_pattern": "Oferta institucional para casal ('Quinta do Casal', R$275 para 2 pessoas) com foto de mesa posta, preço riscado vs. preço final, e vagas limitadas.",
+      "what_works": "Ancoragem de preço (de/por) e senso de ocasião (date night) em vez de só 'compre pizza' — cria contexto de consumo, não só produto.",
+      "what_to_avoid": "Formato mais elaborado e caro de produzir (styling de mesa) — não é prioridade agora pra Mina Pizza, que precisa validar o básico primeiro.",
+      "gap_para_cliente": false,
+      "replication_idea": null
+    },
+    {
+      "competitor": "Gigantesca Pizzaria (benchmark nacional)",
+      "active_ads_count": 7,
+      "ads_library_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&is_targeted_country=false&media_type=all&search_type=page&sort_data[direction]=desc&sort_data[mode]=total_impressions&source=fb-logo&view_all_page_id=101118701644055",
+      "creative_pattern": "Anúncios de texto/imagem simples redirecionando pro cardápio digital (NEEMO) — foco em disponibilidade e conveniência, não em prova social ou oferta elaborada.",
+      "what_works": "Aposta em Google Search simples pra quem já busca ativamente — baixo custo de produção, alinhado ao Cenário B do diagnóstico de mídia.",
+      "what_to_avoid": "A maioria dos criativos é só promoção — o próprio benchmark do time já identificou que isso não constrói percepção de qualidade no longo prazo.",
+      "gap_para_cliente": false,
+      "replication_idea": null
+    },
+    {
+      "competitor": "Café Com Pizza de Santos",
+      "active_ads_count": 3,
+      "ads_library_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&is_targeted_country=false&media_type=all&search_type=page&sort_data[direction]=desc&sort_data[mode]=total_impressions&source=fb-logo&view_all_page_id=1735396456765007",
+      "creative_pattern": "Anúncios de texto no Google Search focados só em rodízio de pizza.",
+      "what_works": null,
+      "what_to_avoid": "Anunciar só promoção/rodízio sem mostrar ingrediente ou qualidade — o próprio benchmark do time já identificou isso como erro: 'não gera valor, cria ideia de promoção, não transmite qualidade'.",
+      "gap_para_cliente": false,
+      "replication_idea": null
+    }
+  ],
+  "competitor_patterns_missing": [
+    {
+      "pattern": "Oferta de entrada com regra clara (desconto ou brinde em dia específico)",
+      "seen_in_competitors": [
+        "Big Família"
+      ],
+      "ads_count": 2,
+      "why_it_works": "Reduz o risco de experimentar algo novo e dá motivo concreto pra agir agora, não 'algum dia'.",
+      "how_client_could_implement": "Testar 'R$10 off na primeira compra via Neemo' — já é a hipótese H4 do diagnóstico de mídia paga (Semana 2).",
+      "priority": "alta"
+    },
+    {
+      "pattern": "Prova social real sobreposta na foto do produto (depoimento ou avaliação)",
+      "seen_in_competitors": [
+        "Qbara"
+      ],
+      "ads_count": 1,
+      "why_it_works": "Reduz o risco percebido de experimentar um lugar novo com esforço de produção mínimo — funciona mesmo em conta pequena (só 3 anúncios ativos).",
+      "how_client_could_implement": "Usar print de avaliação real do iFood (4,8★/54) sobreposto em foto de pizza — já é a hipótese H1 do diagnóstico de mídia paga.",
+      "priority": "alta"
+    },
+    {
+      "pattern": "Preço ancorado (de/por) em vez de só percentual de desconto",
+      "seen_in_competitors": [
+        "La Braciera"
+      ],
+      "ads_count": 1,
+      "why_it_works": "Ajuda a perceber valor concreto em vez de 'promoção genérica'.",
+      "how_client_could_implement": "Se testar combo/oferta, sempre mostrar preço riscado + preço final, não só o percentual de desconto.",
+      "priority": "media"
+    }
+  ],
+  "production_briefing": {
+    "hook_direction": "Abrir com prova social real (avaliação do iFood) ou com bastidor/processo (massa sendo feita) — nunca com foto de produto genérica sem contexto, que é o padrão que já falha nos 7 posts atuais.",
+    "hook_examples": [
+      "'36 anos de pastel feito assim' + vídeo do bastidor",
+      "Print de avaliação real + 'Comida de verdade, não é só o que a gente diz'",
+      "'R$10 OFF na primeira vez que você experimenta' + foto do produto"
+    ],
+    "priority_format": "reels",
+    "format_justification": "É o formato que a Mina Pizza nunca testou de verdade — os 'reels' atuais (criativos 1, 3, 5) são só foto/vídeo com música, sem estrutura de hook — e é o formato dominante entre os concorrentes com mais audiência ativa na região.",
+    "visual_elements": [
+      "Fotografia real da cozinha/balcão (não stock)",
+      "Prints de avaliação real (iFood/Google) sobrepostos",
+      "Card informativo atualizado (endereço correto, horário certo desde 9h)",
+      "Cores consistentes com a identidade já usada no logo (vermelho/preto)"
+    ],
+    "avoid_elements": [
+      "Hashtags de template genéricas (#reelsviral, #saopaulo)",
+      "Copy vaga sobre 'momentos especiais' sem mencionar produto ou diferencial",
+      "Texto extenso na imagem (regra Meta: <20% da área)",
+      "Informação desatualizada de horário ou endereço"
+    ],
+    "copy_guidelines": {
+      "length": "short_15_words",
+      "tone": "Simples e direto, sem infantilização — conforme brand.voice_tone do briefing",
+      "structure": "hook (prova social ou tradição) → produto → CTA claro",
+      "icp_keywords": [
+        "comida de verdade",
+        "36 anos",
+        "são vicente",
+        "carrefour",
+        "pastel",
+        "prato do dia"
+      ]
+    },
+    "recommended_quantity": 8,
+    "variation_plan": "4 hooks (prova social, bastidor, oferta de entrada, tradição) x 2 formatos (reels, feed estático) = 8 variações pra testar na Semana 1 de mídia paga — alinhado às 5 hipóteses já geradas no diagnóstico de mídia (ee-s2-diagnostico-midia.json)."
+  },
+  "key_insight": {
+    "headline": "Nenhum dos 7 posts do Instagram da Mina Pizza usa prova social — mas o concorrente com só 3 anúncios ativos (Qbara) já usa isso como criativo principal.",
+    "context": "O padrão que mais se repete nos criativos atuais (genéricos, sem prova social, sem tradição) é exatamente o oposto do que o Qbara faz com o mínimo de investimento — e é o mesmo elemento que o diagnóstico de mídia paga já identificou como hipótese de maior potencial (H1).",
+    "numbered_reasons": [
+      "(1) 7 de 7 criativos analisados não mencionam avaliação, nota ou depoimento, mesmo com 4,8★/54 disponível no iFood.",
+      "(2) Qbara, com apenas 3 anúncios ativos, já usa depoimento sobreposto na foto — prova que não precisa de escala pra competir nesse elemento.",
+      "(3) É o mesmo padrão identificado no diagnóstico de mídia paga (hipótese H1) — os dois diagnósticos convergem pro mesmo ponto de partida criativo."
+    ],
+    "discussion_anchor": "Antes de produzir qualquer criativo novo na Semana 3, vale já separar os prints de avaliação reais (iFood + Google, depois de responder as pendentes) — é o ativo de menor esforço e maior potencial que a Mina Pizza ainda não usou."
+  },
+  "honesty_alert": "A Mina Pizza não tem nenhum criativo pago ativo hoje — os 7 itens analisados são posts orgânicos do Instagram (parados desde 2023), não anúncios. A matriz de avaliação foi aplicada mesmo assim porque são os únicos ativos visuais que existem, mas o resultado reflete conteúdo orgânico antigo, não performance de anúncio real. A análise de concorrentes usa o benchmark de mídia paga real (Meta Ads Library + Google Ads Transparency Center) já levantado pelo operador — esses sim são anúncios pagos ativos de verdade.",
+  "completed_at": "2026-07-18T22:00:00Z",
+  "refined_in": "ee-revisao-semanal",
+  "_refinement_history": [
+    {
+      "ts": "2026-07-20T10:30:00Z",
+      "review": "ee-revisao-semanal",
+      "semana": 2,
+      "updates": [
+        "U1"
+      ],
+      "evolutions_applied": [],
+      "note": "Rating do iFood atualizado de 4,7★/47 avaliações para 4,8★/54 (total combinado com Google de 160 para 167), com base em print real mais recente enviado pelo operador."
+    }
+  ]
+}

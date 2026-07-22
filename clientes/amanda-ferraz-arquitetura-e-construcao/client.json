@@ -1,0 +1,1009 @@
+{
+  "meta": {
+    "name": "Amanda Ferraz Arquitetura e Construção",
+    "slug": "amanda-ferraz-arquitetura-e-construcao",
+    "workspace_id": null,
+    "created_at": "2026-07-19",
+    "modulo_vendas": false,
+    "portal_url": "https://amanda-ferraz-portal.vercel.app"
+  },
+  "briefing": {
+    "identification": {
+      "name": "Amanda Ferraz Arquitetura e Construção",
+      "contact_name": "Amanda Ferraz (arquiteta e sócia-fundadora) — Júlia é o ponto de contato de marketing",
+      "contact_role": "Arquiteta e sócia-fundadora",
+      "segment": "Arquitetura residencial de alto padrão (turnkey: projeto arquitetônico + design de interiores + gerenciamento de obra)",
+      "annual_revenue": "R$ 1.000.000/ano (confirmado pela cliente em reunião de kickoff, jun/2026)",
+      "years_in_market": "11 anos (fundada em 2015)",
+      "location": "Jundiaí, SP",
+      "website": "https://arqamandaferraz.com/",
+      "instagram": "@arqamandaferraz",
+      "whatsapp": "+55 11 94076-1458",
+      "gmb": true
+    },
+    "product": {
+      "main_product": "Projeto arquitetônico + design de interiores + gerenciamento de obras — pacote turnkey completo, um único contrato do primeiro traço à casa decorada e entregue",
+      "ticket": "R$ 450.000 a R$ 500.000 (honorários de projeto arquitetura + interiores, casa de 350-400m²). Gestão de obra cobrada à parte: 12% sobre o valor investido na obra, pago conforme o avanço físico (investimentos de obra na faixa de R$5-7 milhões, com capacidade de escalar acima de R$10 milhões)",
+      "billing_model": "projeto",
+      "sales_cycle": "60 dias (do primeiro contato até assinatura do contrato). A execução da obra em si dura, em média, 2 anos",
+      "active_customers": "8 obras ativas em média simultaneamente (capacidade operacional máxima do escritório)",
+      "most_profitable": "Projeto arquitetônico — o design de interiores isolado não é lucrativo, só existe porque é necessário para viabilizar a execução da obra",
+      "growth_potential": "Obras de altíssimo padrão (acima de R$10 milhões) e expansão para São Paulo capital via indicação de clientes atuais"
+    },
+    "icp": {
+      "best_customers": "Casal heterossexual, majoritariamente 30-70 anos (concentração 30-60), classe A/AAA, patrimônio consolidado ('dinheiro velho', não emergente). Profissões recorrentes: executivos C-level, diretores, médicos, empresários consolidados — vários clientes viraram amigos pessoais. Comitê de decisão: a esposa escolhe o escritório (avalia empatia, escuta e sensibilidade), o marido decide o investimento (avalia planilha, método e controle financeiro).",
+      "not_customers": "Público classe B (\"quando a gente trabalha pro B é muito difícil\"); clientes que querem contratar apenas uma parte do serviço (só interiores, ou só execução de obra vinda de projeto externo de terceiros); perfil de patrimônio 'emergente' (novo-rico) sem consolidação; clientes que querem microgerenciar a obra de perto e não deixar a Amanda conduzir a gestão sozinha.",
+      "problems_before": [
+        "Obra atrasada e orçamento estourado sem explicação clara de onde foi cada real",
+        "Sábados e fins de semana virando reunião de canteiro de obra, tomando o tempo da família",
+        "Medo de contratar um profissional tecnicamente fraco e só descobrir o erro durante a execução ('não imaginei que ficaria assim')"
+      ],
+      "results_after": [
+        "Tempo preservado — participa de apenas 10 a 12 encontros ao longo de toda a obra (~2 anos)",
+        "Controle financeiro total — planilha proprietária de ~25 etapas com prestação de contas quinzenal, notas e recibos",
+        "Zero retrabalho — projeto executivo bem compatibilizado antecipa problemas antes da obra começar",
+        "Pós-obra garantido — a própria Amanda resolve pendências pessoalmente, sem terceirizar o cuidado"
+      ],
+      "churn_reasons": "Não aplicável ao modelo de negócio: é um serviço por projeto/obra única (não recorrente) — o contrato se encerra naturalmente na entrega da obra. Não existe conceito de churn nesse formato."
+    },
+    "competition": {
+      "competitors": [
+        {
+          "name": "Eduardo Muzi",
+          "perceived_differential": "Concorrente mais direto ('briga obra por obra' com a Amanda). Projetos com forte apelo estético e o melhor site em direção de arte entre os concorrentes diretos (parece editorial de arquitetura), mas sem provas sociais. Tecnicamente mais fraco — projeto executivo mal compatibilizado já gerou retrabalho em obra pega pela Amanda. Site: eduardomuzi.com.br / Instagram: @eduardo.muzi"
+        },
+        {
+          "name": "Ricardo Gaspari",
+          "perceived_differential": "Nome consolidado no condomínio Atenas (Jundiaí), onde a Amanda ainda não tem presença. Atua do projeto à execução (modelo similar), mas com pouca presença digital e site institucional datado (estilo 2015-2018), sem personalidade de marca. Site: ricardogaspari.com.br / Instagram: @ricardogaspariarquiteto"
+        },
+        {
+          "name": "Guedes e Bisoli",
+          "perceived_differential": "Boa visibilidade e uso de provas sociais (depoimentos, parceiros, clientes) e boa organização de portfólio — mas direção de arte 'no meio-termo', nem tão popular quanto Ricardo Gaspari nem tão refinado quanto Eduardo Muzi."
+        }
+      ],
+      "real_differential": "Projeto executivo tecnicamente superior, antecipando problemas que só apareceriam durante a obra; recusa formal de RT/comissionamento de fornecedores, repassando o desconto ao cliente em nota fiscal; presença física da própria Amanda na obra, resolvendo problemas na prática (não é 'arquiteta frufru' de estética pura); pacote turnkey completo com um único responsável do início ao fim.",
+      "why_choose_us": "Controle total do investimento via planilha de 25 etapas com prestação de contas quinzenal, zero retrabalho por rigor técnico no projeto executivo, transparência radical com fornecedores (sem comissionamento oculto), e uma arquiteta que participa ativamente da obra — autoridade demonstrada na prática, não apenas comunicada."
+    },
+    "brand": {
+      "adjectives": [
+        "Sábia",
+        "Soberana",
+        "Criadora"
+      ],
+      "voice_tone": "profissional",
+      "admired_brands": [
+        "Studio Arthur Casas",
+        "Jacobsen Arquitetura",
+        "Casa Vogue",
+        "ArchDaily",
+        "Marília Zima (arquiteta — referência técnica e estética)"
+      ],
+      "current_colors": "Preto #030208, off-white #D4D1D4, taupe #8B8077, marrom #453B35, vermelho de destaque #91211E — paleta já formalizada em manual de identidade visual existente",
+      "has_logo": true,
+      "restrictions": "Nunca emojis em qualquer canal; nunca vida pessoal/família/viagens no feed (pode aparecer sutilmente em stories); nunca linguagem promocional, desconto ou urgência artificial; nunca conteúdo raso ('lindo, maravilhoso'); nunca atacar ou comparar concorrentes publicamente; nunca estética 'TikTok genérico' (cortes agressivos, efeitos de trend, memes); evitar cantos arredondados e uso excessivo do vermelho (deve ser só detalhe/assinatura, nunca protagonista)."
+    },
+    "digital_situation": {
+      "paid_traffic": true,
+      "platforms": [
+        "google_ads",
+        "meta_ads"
+      ],
+      "monthly_investment": "R$ 2.000/mês (investimento atual inicial). Plano V4 em elaboração propõe evoluir para R$3.200-4.200/mês (Meta Ads R$1.500-2.000, YouTube Ads R$800-1.200, Google Ads R$600-1.000)",
+      "current_results": "Histórico recente malsucedido: R$1.200 investidos em 2 semanas geraram apenas 10 conversas no WhatsApp, e todas eram de fornecedores — não de clientes reais. Gestor de tráfego anterior foi desligado por falta de otimização de criativos e ausência de segmentação/negativação adequada.",
+      "crm": null,
+      "lead_sources": "Aproximadamente 99% da carteira nasce de indicação; o papel dos canais digitais (Instagram, site, GMB) é validar a indicação em minutos, não gerar lead frio.",
+      "conversion_rate": "60-65% dos contratos fechados com pagamento à vista; inadimplência praticamente zero",
+      "biggest_pain": "Centralização excessiva de processos e decisões na própria Amanda, ausência de CRM/automação (já pagou por anos por um Bitrix nunca configurado corretamente, agora estudando ClickUp), campanhas de mídia paga anteriores mal executadas, e ausência total de presença em buscas por IA."
+    },
+    "accesses": {
+      "meta_business": true,
+      "google_ads": true,
+      "google_analytics": null,
+      "google_search_console": null,
+      "instagram_admin": null,
+      "website_admin": null,
+      "crm": false,
+      "gmb": true,
+      "whatsapp_business": null
+    },
+    "sales_module": null
+  },
+  "research": {
+    "fetched_at": "2026-07-19"
+  },
+  "connectors": {
+    "fetched_at": null,
+    "integrations": null
+  },
+  "progress": {
+    "current_week": 2,
+    "skills": {
+      "ee-s1-diagnostico-maturidade": {
+        "status": "completed",
+        "checkpoint": 1,
+        "started_at": "2026-07-19",
+        "completed_at": "2026-07-19"
+      },
+      "ee-s1-swot": {
+        "status": "completed",
+        "checkpoint": 1,
+        "started_at": "2026-07-19",
+        "completed_at": "2026-07-19"
+      },
+      "ee-s1-persona-icp": {
+        "status": "completed",
+        "checkpoint": 1,
+        "started_at": "2026-07-19",
+        "completed_at": "2026-07-19"
+      },
+      "ee-s1-auditoria-comunicacao": {
+        "status": "completed",
+        "checkpoint": 1,
+        "started_at": "2026-07-19",
+        "completed_at": "2026-07-19"
+      },
+      "ee-s2-pesquisa-mercado": {
+        "status": "completed",
+        "checkpoint": 1,
+        "started_at": "2026-07-19",
+        "completed_at": "2026-07-19"
+      },
+      "ee-s2-posicionamento": {
+        "status": "completed",
+        "checkpoint": 1,
+        "started_at": "2026-07-19",
+        "completed_at": "2026-07-19"
+      },
+      "ee-s2-diagnostico-midia": {
+        "status": "completed",
+        "checkpoint": 1,
+        "started_at": "2026-07-19",
+        "completed_at": "2026-07-19"
+      },
+      "ee-s2-diagnostico-criativos": {
+        "status": "pending",
+        "checkpoint": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s2-diagnostico-cro": {
+        "status": "pending",
+        "checkpoint": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-identidade-visual": {
+        "status": "pending",
+        "checkpoint": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-brandbook": {
+        "status": "pending",
+        "checkpoint": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-landing-page": {
+        "status": "pending",
+        "checkpoint": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-copy-anuncios": {
+        "status": "pending",
+        "checkpoint": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-criativos-anuncios": {
+        "status": "pending",
+        "checkpoint": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-crm-setup": {
+        "status": "pending",
+        "checkpoint": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-forecast-midia": {
+        "status": "pending",
+        "checkpoint": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-gmb-otimizacao": {
+        "status": "pending",
+        "checkpoint": 0,
+        "started_at": null,
+        "completed_at": null
+      }
+    }
+  },
+  "history": [
+    {
+      "ts": "2026-07-19T00:00:00Z",
+      "skill": "ee-novo-cliente",
+      "checkpoint": 0,
+      "decision": "Cliente cadastrado. Pesquisa automática + 4 documentos de base de conhecimento processados (manual de copywriting, manual de identidade visual, transcrição de kickoff, transcrição de diagnóstico/planejamento). Briefing completo com divergências resolvidas: tempo de mercado = 11 anos (fundação 2015), faturamento anual = R$1M, ticket de projeto = R$450-500 mil. Módulo vendas não contratado."
+    },
+    {
+      "ts": "2026-07-19T00:00:00Z",
+      "skill": "ee-s1-persona-icp",
+      "checkpoint": 1,
+      "decision": "ICP, persona (Renata Albuquerque, 44 anos), JTBD, anti-persona, buyer journey, willingness-to-pay e objection library aprovados. Mensagem-chave escolhida: abordagem EMOCIONAL ('Você vive sua vida. Nós vivemos a obra.') em vez da recomendação inicial (funcional) — decisão da operadora/cliente. Nota crítica: a planilha de 25 etapas é documento interno (contém valores e fornecedores) e NÃO deve ser exposta publicamente — apenas o conceito do processo estruturado pode virar prova visual pública. Alerta de honestidade registrado: capacidade máxima de 8 obras simultâneas + ausência de CRM podem gerar gargalo de atendimento se a aquisição de demanda escalar antes da organização interna."
+    },
+    {
+      "ts": "2026-07-19T00:00:00Z",
+      "skill": "ee-s1-diagnostico-maturidade",
+      "checkpoint": 1,
+      "decision": "Diagnóstico aprovado sem ajustes. Score geral 30/100 (baixo). CRM crítico (12/100) identificado como ponto de alavancagem — bloqueia mensuração de qualquer investimento em mídia paga. Prioridades ranqueadas: CRM mínimo viável > reestruturar mídia paga > expandir portfólio do site > publicar blog/completar GMB > padronizar direção de arte dos criativos. Alerta de honestidade: escalar aquisição sem resolver CRM e capacidade operacional (8 obras simultâneas) pode gerar leads que a operação não consegue atender."
+    },
+    {
+      "ts": "2026-07-19T00:00:00Z",
+      "skill": "ee-s1-swot",
+      "checkpoint": 1,
+      "decision": "SWOT aprovada com 1 ajuste: incluído Ricardo Gaspari como ameaça (dominância territorial no condomínio Atenas), completando os 3 concorrentes diretos do briefing na análise. Ponto de alavancagem: replicar o playbook territorial do Terras da Alvorada (40+ projetos) nos condomínios emergentes Almarias e Quinta da Primavera. 6 ações priorizadas por risk-adjusted score, liderando: CRM mínimo (9.3) > expandir portfólio (8.7) > blog/GMB/condomínios e padronizar criativos (8.0) > reestruturar mídia paga (7.5) > documentar processo (7.3). Alerta de honestidade: dependência de indicação (99%) + centralização em Amanda é risco de continuidade de negócio, não só de marketing."
+    },
+    {
+      "ts": "2026-07-19T00:00:00Z",
+      "skill": "ee-s1-auditoria-comunicacao",
+      "checkpoint": 1,
+      "decision": "Auditoria aprovada sem ajustes. Score médio de comunicação 36/100, coerência de tom de voz 43/100. Top 3 problemas: WhatsApp mistura fornecedor/cliente no mesmo número, portfólio raso do site, avaliação falsa no GMB sem resposta. Maior vazamento do funil (~25%) entre indicação e Instagram/site. 5 quick wins sem custo identificados. Semana 1 completa — cliente avança para Semana 2. Alerta de honestidade: auditoria feita a partir de transcrições já registradas, sem novos screenshots desta rodada; WhatsApp com dados insuficientes."
+    },
+    {
+      "ts": "2026-07-19T00:00:00Z",
+      "skill": "ee-s2-pesquisa-mercado",
+      "checkpoint": 1,
+      "decision": "Pesquisa aprovada sem ajustes. TAM R$30bi/ano (VGV médio-alto padrão Brasil 2025) | SAM ~R$251M/ano [E] (Jundiaí/RMC) | SOM R$23M/ano (triangulado por 3 métodos, convergência R$22-25M). Meta da cliente (R$6M/ano, kickoff) registrada separada do SOM — não confundidos. Capacidade operacional (R$5M/ano, 8 obras) registrada como teto interno separado do SOM de mercado. 5 concorrentes analisados (Eduardo Muzi, Ricardo Gaspari, Guedes e Bisoli, Vitor Dias, Adriana Consulin) — quadrante 'especialista territorial + controle técnico-financeiro comunicado' identificado como vazio/oportunidade para Amanda. Oportunidade não explorada com viabilidade alta: comunicar o conceito do processo estruturado sem expor a planilha interna."
+    },
+    {
+      "ts": "2026-07-19T00:00:00Z",
+      "skill": "ee-s2-posicionamento",
+      "checkpoint": 1,
+      "decision": "Posicionamento aprovado. Direção escolhida: 'A Especialista Técnica' (funcional) em vez de 'A Guardiã do Tempo' (emocional, mensagem-chave da persona-icp) — decisão do operador de liderar a comunicação com o diferencial técnico/financeiro (processo estruturado, zero comissionamento), não com a promessa emocional. PUV: 'Um único contrato para projeto, obra e decoração — sem retrabalho técnico e sem comissão escondida de fornecedor, com controle financeiro que você acompanha a cada etapa.' Tagline aprovada: 'Projeto, obra e decoração. Um contrato. Zero surpresa.' Território de marca: Controle · Presença · Discrição (quadrante vazio entre 5 concorrentes). Canvas 4P completo (produto, preço premium, praça via indicação+digital, promoção quiet luxury). Alerta de honestidade: território ainda potencial na percepção do mercado, vira confirmado só quando a produção da Semana 3 comunicar o conceito com consistência."
+    },
+    {
+      "ts": "2026-07-19T00:00:00Z",
+      "skill": "ee-s2-diagnostico-midia",
+      "checkpoint": 1,
+      "decision": "Gerado como PLANO DE LANÇAMENTO (is_launch_plan=true), não diagnóstico tradicional — cliente sem V4MOS/exportação de dados, só histórico anedótico (R$1.200/2 semanas, 100% fornecedores). Aprovado sem ajustes. Cenário B recomendado: R$3.600/mês, ~5 leads qualificados/mês, CPL alvo R$90. Pré-condição crítica registrada: CRM mínimo deve rodar ANTES do lançamento de mídia, não em paralelo. 5 clusters de keyword, 5 hipóteses de criativos e daypart optimization definidos. Alerta de honestidade: benchmarks adaptados de categoria próxima (Imobiliárias/Construtoras), sem histórico real para calibrar."
+    },
+    {
+      "ts": "2026-07-20T00:00:00Z",
+      "skill": "sistema",
+      "checkpoint": 0,
+      "decision": "Portal publicado no Vercel pela primeira vez (projeto v4-londrina/amanda-ferraz-portal, escopo v4-londrina — v4-company não disponível na conta). URL: https://amanda-ferraz-portal.vercel.app"
+    }
+  ],
+  "page_audit_deep": {
+    "fetched_at": "2026-07-20T12:30:37.625125+00:00",
+    "url": "https://arqamandaferraz.com/",
+    "cache_file": "cache/page_audit_deep-20260720-123035.json",
+    "engine": "playwright-chromium",
+    "tracking_stack": {
+      "tools_detected": {
+        "gtm": {
+          "name": "Google Tag Manager",
+          "category": "tracking"
+        },
+        "ga4": {
+          "name": "Google Analytics 4",
+          "category": "analytics"
+        },
+        "google_ads_conversion": {
+          "name": "Google Ads Conversion",
+          "category": "ads"
+        },
+        "google_ads_remarketing": {
+          "name": "Google Ads Remarketing",
+          "category": "ads"
+        },
+        "whatsapp_widget": {
+          "name": "WhatsApp Click-to-Chat",
+          "category": "chat"
+        },
+        "vue": {
+          "name": "Vue.js",
+          "category": "framework"
+        },
+        "cloudflare": {
+          "name": "Cloudflare",
+          "category": "hosting"
+        }
+      },
+      "ids_found": {
+        "gtm": [
+          "GTM-P69KXQWS"
+        ],
+        "ga4": [
+          "G-FS63THV5B4"
+        ],
+        "ua": [],
+        "google_ads": [
+          "AW-926618630"
+        ],
+        "meta_pixel": [],
+        "tiktok_pixel": [],
+        "linkedin_partner": []
+      },
+      "categories_summary": {
+        "tracking": [
+          "Google Tag Manager"
+        ],
+        "analytics": [
+          "Google Analytics 4"
+        ],
+        "ads": [
+          "Google Ads Conversion",
+          "Google Ads Remarketing"
+        ],
+        "chat": [
+          "WhatsApp Click-to-Chat"
+        ],
+        "framework": [
+          "Vue.js"
+        ],
+        "hosting": [
+          "Cloudflare"
+        ]
+      },
+      "total_tools": 7
+    },
+    "events_fired": {
+      "ga4_event_count": 2,
+      "meta_event_count": 0,
+      "ga4_event_names": [
+        "page_view"
+      ],
+      "meta_event_names": []
+    },
+    "datalayer": {
+      "desktop_length": 6,
+      "mobile_length": 6
+    },
+    "cro_elements": {
+      "desktop": {
+        "cta_count": 14,
+        "cta_above_fold": 7,
+        "cta_list": [
+          {
+            "text": "Home",
+            "tag": "a",
+            "href": "/",
+            "is_whatsapp": false,
+            "is_tel": false,
+            "is_mail": false,
+            "above_fold": true,
+            "width": 47,
+            "height": 25
+          },
+          {
+            "text": "QUEM SOMOS",
+            "tag": "a",
+            "href": "/#quemsomos",
+            "is_whatsapp": false,
+            "is_tel": false,
+            "is_mail": false,
+            "above_fold": true,
+            "width": 111,
+            "height": 25
+          },
+          {
+            "text": "Projetos e obras",
+            "tag": "a",
+            "href": "/projetos-e-obras",
+            "is_whatsapp": false,
+            "is_tel": false,
+            "is_mail": false,
+            "above_fold": true,
+            "width": 156,
+            "height": 25
+          },
+          {
+            "text": "Blog",
+            "tag": "a",
+            "href": "/blogescritorio",
+            "is_whatsapp": false,
+            "is_tel": false,
+            "is_mail": false,
+            "above_fold": true,
+            "width": 43,
+            "height": 25
+          },
+          {
+            "text": "Contato",
+            "tag": "a",
+            "href": "/#contato",
+            "is_whatsapp": false,
+            "is_tel": false,
+            "is_mail": false,
+            "above_fold": true,
+            "width": 171,
+            "height": 28
+          },
+          {
+            "text": "Agende uma conversa",
+            "tag": "a",
+            "href": "https://wa.me/5511940761458",
+            "is_whatsapp": true,
+            "is_tel": false,
+            "is_mail": false,
+            "above_fold": true,
+            "width": 297,
+            "height": 42
+          },
+          {
+            "text": "Para realizar seu sonho clique aqui!",
+            "tag": "a",
+            "href": "https://wa.me/5511940761458",
+            "is_whatsapp": true,
+            "is_tel": false,
+            "is_mail": false,
+            "above_fold": true,
+            "width": 400,
+            "height": 38
+          },
+          {
+            "text": "Conheça nossos projetos",
+            "tag": "a",
+            "href": "/projetos-e-obras",
+            "is_whatsapp": false,
+            "is_tel": false,
+            "is_mail": false,
+            "above_fold": false,
+            "width": 503,
+            "height": 50
+          },
+          {
+            "text": "PROJETOS E OBRAS ENTREGUES",
+            "tag": "a",
+            "href": "/projetos-e-obras",
+            "is_whatsapp": false,
+            "is_tel": false,
+            "is_mail": false,
+            "above_fold": false,
+            "width": 677,
+            "height": 50
+          },
+          {
+            "text": "Solicite seu orçamento agora",
+            "tag": "a",
+            "href": "https://wa.me/5511940761458",
+            "is_whatsapp": true,
+            "is_tel": false,
+            "is_mail": false,
+            "above_fold": false,
+            "width": 606,
+            "height": 64
+          },
+          {
+            "text": "Enviar",
+            "tag": "button",
+            "href": "",
+            "is_whatsapp": false,
+            "is_tel": false,
+            "is_mail": false,
+            "above_fold": false,
+            "width": 148,
+            "height": 28
+          },
+          {
+            "text": "Quem somos",
+            "tag": "a",
+            "href": "/#quemsomos",
+            "is_whatsapp": false,
+            "is_tel": false,
+            "is_mail": false,
+            "above_fold": false,
+            "width": 239,
+            "height": 32
+          },
+          {
+            "text": "PROJETOS E OBRAS",
+            "tag": "a",
+            "href": "/projetos-e-obras",
+            "is_whatsapp": false,
+            "is_tel": false,
+            "is_mail": false,
+            "above_fold": false,
+            "width": 239,
+            "height": 32
+          },
+          {
+            "text": "CONTATO",
+            "tag": "a",
+            "href": "https://wa.me/5511940761458",
+            "is_whatsapp": true,
+            "is_tel": false,
+            "is_mail": false,
+            "above_fold": false,
+            "width": 239,
+            "height": 32
+          }
+        ],
+        "whatsapp_links": [
+          {
+            "text": "Agende uma conversa",
+            "href": "https://wa.me/5511940761458",
+            "visible": true,
+            "floating": false
+          },
+          {
+            "text": "Para realizar seu sonho clique aqui!",
+            "href": "https://wa.me/5511940761458",
+            "visible": true,
+            "floating": false
+          },
+          {
+            "text": "Solicite seu orçamento agora",
+            "href": "https://wa.me/5511940761458",
+            "visible": true,
+            "floating": false
+          },
+          {
+            "text": "CONTATO",
+            "href": "https://wa.me/5511940761458",
+            "visible": true,
+            "floating": false
+          },
+          {
+            "text": "",
+            "href": "https://wa.me/11940761458",
+            "visible": true,
+            "floating": true
+          }
+        ],
+        "forms": [
+          {
+            "id": "",
+            "action": "https://arqamandaferraz.com/",
+            "method": "get",
+            "field_count": 3,
+            "fields": [
+              {
+                "name": "Nome",
+                "type": "text",
+                "required": false,
+                "placeholder": "Seu nome"
+              },
+              {
+                "name": "Email",
+                "type": "text",
+                "required": false,
+                "placeholder": "seu@email.com"
+              },
+              {
+                "name": "Mensagem",
+                "type": "textarea",
+                "required": false,
+                "placeholder": "Escreva sua mensagem"
+              }
+            ],
+            "has_consent_checkbox": false
+          }
+        ],
+        "form_count": 1,
+        "avg_fields_per_form": 3,
+        "social_proof": {
+          "has_testimonials": false,
+          "has_ratings": false,
+          "has_numbers": true,
+          "has_certifications": false,
+          "has_logos_clients": false
+        },
+        "urgency": {
+          "has_countdown": false,
+          "has_limited": false,
+          "has_discount": false
+        },
+        "trust": {
+          "has_address": true,
+          "has_cnpj": false,
+          "has_phone": false,
+          "has_email": true,
+          "has_privacy_link": false,
+          "has_terms_link": false
+        },
+        "videos": [
+          {
+            "tag": "iframe",
+            "src": "https://www.youtube.com/embed/AEUzp6HZk5A?h=null&playlist=AEUzp6HZk5A&autoplay=0&controls=1&loop=0&autopause=0&playsinline=1&mute=0"
+          },
+          {
+            "tag": "iframe",
+            "src": "https://www.youtube.com/embed/RG1ZEiUV-UU?h=null&playlist=RG1ZEiUV-UU&autoplay=0&controls=1&loop=0&autopause=0&playsinline=1&mute=0"
+          },
+          {
+            "tag": "iframe",
+            "src": "https://www.youtube.com/embed/I_G4PN-2tZc?h=null&playlist=I_G4PN-2tZc&autoplay=0&controls=0&loop=0&autopause=0&playsinline=1&mute=0"
+          }
+        ],
+        "h1_text": "Construímos mais do que projetos.Entregamos tranquilidade.",
+        "page_text_length": 2959
+      },
+      "mobile": {
+        "cta_count": 9,
+        "cta_above_fold": 2,
+        "cta_list": [
+          {
+            "text": "Agende uma conversa",
+            "tag": "a",
+            "href": "https://wa.me/5511940761458",
+            "is_whatsapp": true,
+            "is_tel": false,
+            "is_mail": false,
+            "above_fold": true,
+            "width": 184,
+            "height": 30
+          },
+          {
+            "text": "Para realizar seu sonho clique aqui!",
+            "tag": "a",
+            "href": "https://wa.me/5511940761458",
+            "is_whatsapp": true,
+            "is_tel": false,
+            "is_mail": false,
+            "above_fold": true,
+            "width": 295,
+            "height": 24
+          },
+          {
+            "text": "Conheça nossos projetos",
+            "tag": "a",
+            "href": "/projetos-e-obras",
+            "is_whatsapp": false,
+            "is_tel": false,
+            "is_mail": false,
+            "above_fold": false,
+            "width": 283,
+            "height": 24
+          },
+          {
+            "text": "PROJETOS E OBRAS ENTREGUES",
+            "tag": "a",
+            "href": "/projetos-e-obras",
+            "is_whatsapp": false,
+            "is_tel": false,
+            "is_mail": false,
+            "above_fold": false,
+            "width": 220,
+            "height": 23
+          },
+          {
+            "text": "Solicite seu orçamento agora",
+            "tag": "a",
+            "href": "https://wa.me/5511940761458",
+            "is_whatsapp": true,
+            "is_tel": false,
+            "is_mail": false,
+            "above_fold": false,
+            "width": 265,
+            "height": 40
+          },
+          {
+            "text": "Enviar",
+            "tag": "button",
+            "href": "",
+            "is_whatsapp": false,
+            "is_tel": false,
+            "is_mail": false,
+            "above_fold": false,
+            "width": 121,
+            "height": 27
+          },
+          {
+            "text": "Quem somos",
+            "tag": "a",
+            "href": "/#quemsomos",
+            "is_whatsapp": false,
+            "is_tel": false,
+            "is_mail": false,
+            "above_fold": false,
+            "width": 103,
+            "height": 34
+          },
+          {
+            "text": "PROJETOS E OBRAS",
+            "tag": "a",
+            "href": "/projetos-e-obras",
+            "is_whatsapp": false,
+            "is_tel": false,
+            "is_mail": false,
+            "above_fold": false,
+            "width": 148,
+            "height": 32
+          },
+          {
+            "text": "CONTATO",
+            "tag": "a",
+            "href": "https://wa.me/5511940761458",
+            "is_whatsapp": true,
+            "is_tel": false,
+            "is_mail": false,
+            "above_fold": false,
+            "width": 75,
+            "height": 32
+          }
+        ],
+        "whatsapp_links": [
+          {
+            "text": "Agende uma conversa",
+            "href": "https://wa.me/5511940761458",
+            "visible": true,
+            "floating": false
+          },
+          {
+            "text": "Para realizar seu sonho clique aqui!",
+            "href": "https://wa.me/5511940761458",
+            "visible": true,
+            "floating": false
+          },
+          {
+            "text": "Solicite seu orçamento agora",
+            "href": "https://wa.me/5511940761458",
+            "visible": true,
+            "floating": false
+          },
+          {
+            "text": "CONTATO",
+            "href": "https://wa.me/5511940761458",
+            "visible": true,
+            "floating": false
+          },
+          {
+            "text": "",
+            "href": "https://wa.me/11940761458",
+            "visible": true,
+            "floating": true
+          }
+        ],
+        "forms": [
+          {
+            "id": "",
+            "action": "https://arqamandaferraz.com/",
+            "method": "get",
+            "field_count": 3,
+            "fields": [
+              {
+                "name": "Nome",
+                "type": "text",
+                "required": false,
+                "placeholder": "Seu nome"
+              },
+              {
+                "name": "Email",
+                "type": "text",
+                "required": false,
+                "placeholder": "seu@email.com"
+              },
+              {
+                "name": "Mensagem",
+                "type": "textarea",
+                "required": false,
+                "placeholder": "Escreva sua mensagem"
+              }
+            ],
+            "has_consent_checkbox": false
+          }
+        ],
+        "form_count": 1,
+        "avg_fields_per_form": 3,
+        "social_proof": {
+          "has_testimonials": false,
+          "has_ratings": false,
+          "has_numbers": true,
+          "has_certifications": false,
+          "has_logos_clients": false
+        },
+        "urgency": {
+          "has_countdown": false,
+          "has_limited": false,
+          "has_discount": false
+        },
+        "trust": {
+          "has_address": true,
+          "has_cnpj": false,
+          "has_phone": false,
+          "has_email": true,
+          "has_privacy_link": false,
+          "has_terms_link": false
+        },
+        "videos": [
+          {
+            "tag": "iframe",
+            "src": "https://www.youtube.com/embed/AEUzp6HZk5A?h=null&playlist=AEUzp6HZk5A&autoplay=0&controls=1&loop=0&autopause=0&playsinline=1&mute=0"
+          },
+          {
+            "tag": "iframe",
+            "src": "https://www.youtube.com/embed/RG1ZEiUV-UU?h=null&playlist=RG1ZEiUV-UU&autoplay=0&controls=1&loop=0&autopause=0&playsinline=1&mute=0"
+          },
+          {
+            "tag": "iframe",
+            "src": "https://www.youtube.com/embed/I_G4PN-2tZc?h=null&playlist=I_G4PN-2tZc&autoplay=0&controls=0&loop=0&autopause=0&playsinline=1&mute=0"
+          }
+        ],
+        "h1_text": "Construímos mais do que projetos.Entregamos tranquilidade.",
+        "page_text_length": 2913
+      }
+    },
+    "quality_flags": [
+      {
+        "severity": "medium",
+        "flag": "no_consent_mode",
+        "title": "Sem Consent Mode v2 nem CMP detectado",
+        "detail": "Desde mar/2024 Google exige Consent Mode v2 para audiencias. Sem CMP, site pode violar LGPD."
+      }
+    ],
+    "compliance_lgpd": {
+      "status": "non_compliant",
+      "score": 1,
+      "has_cmp": false,
+      "cmps_detected": [],
+      "pre_consent_trackers": {
+        "googletagmanager.com/gtm.js": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-P69KXQWS"
+        ],
+        "doubleclick.net": [
+          "https://ad.doubleclick.net/ccm/s/collect?auid=1027206682.1784550657&gtm=45He67f0v9201043134za200zd9201043134xea",
+          "https://stats.g.doubleclick.net/g/collect?v=2&ngs=1&ibt=1&tid=G-FS63THV5B4&cid=518318934.1784550657&gtm=45je67f0v9191678784z89201043134za200zb9201043134zd9201043134&rcb=11&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115938465~115938468~118395333~118897920~118897930~119996999",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/926618630/?random=1784550656987&cv=11&fst=1784550656987&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je67f0v9191678784z89201043134za200zb9201043134zd9201043134xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118131808~118395333~118897920~118897930~119996999&u_w=1440&u_h=900&url=https%3A%2F%2Farqamandaferraz.com%2F&rcb=11&frm=0&tiba=Home%20%7C%20Amanda%20Ferraz%20Arquitetura%20e%20Constru%C3%A7%C3%A3o&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1027206682.1784550657&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=10_15_7&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4"
+        ]
+      },
+      "pre_consent_tracker_count": 4,
+      "issues": [
+        "Sem CMP detectado — sem mecanismo de consentimento.",
+        "4 requests de tracking disparam ANTES de qualquer consentimento.",
+        "  • googletagmanager.com/gtm.js: 1 request(s)",
+        "  • doubleclick.net: 3 request(s)"
+      ]
+    },
+    "navigation": {
+      "desktop": {
+        "status": 200,
+        "nav_error": null,
+        "requests_count": 123,
+        "responses_count": 121,
+        "cookies_count": 11
+      },
+      "mobile": {
+        "status": 200,
+        "nav_error": null,
+        "requests_count": 119,
+        "responses_count": 114,
+        "cookies_count": 11
+      }
+    }
+  },
+  "page_audit": {
+    "fetched_at": "2026-07-20T12:31:07Z",
+    "url": "https://arqamandaferraz.com/",
+    "cache_file": "cache/page_audit-20260720-123107.json",
+    "pagespeed": {
+      "mobile_scores": null,
+      "desktop_scores": null,
+      "mobile_cwv_lab": null,
+      "desktop_cwv_lab": null,
+      "mobile_cwv_field": null,
+      "desktop_cwv_field": null,
+      "mobile_top_opportunities": [],
+      "desktop_top_opportunities": [],
+      "mobile_error": null,
+      "desktop_error": null,
+      "skipped": true
+    },
+    "screenshots": {
+      "mobile": null,
+      "desktop": null
+    },
+    "onpage": {
+      "mobile": {
+        "label": "mobile",
+        "status_code": 200,
+        "final_url": "https://arqamandaferraz.com/",
+        "response_time_ms": 2272,
+        "html_size_kb": 260.1,
+        "title": "Home | Amanda Ferraz Arquitetura e ConstruÃ§Ã£o",
+        "title_length": 47,
+        "meta_description": null,
+        "meta_description_length": 0,
+        "robots": null,
+        "canonical": "https://arqamandaferraz.com/",
+        "lang": "en-GB",
+        "viewport": true,
+        "favicon": true,
+        "h1": [
+          "ConstruÃ­mos mais do que projetos.Entregamos tranquilidade."
+        ],
+        "h1_count": 1,
+        "h2_count": 0,
+        "h3_count": 7,
+        "h4_count": 0,
+        "images_total": 31,
+        "images_without_alt": 28,
+        "links_total": 23,
+        "links_internal": 17,
+        "links_external": 6,
+        "links_nofollow": 2,
+        "schema_types": [
+          "WebSite"
+        ],
+        "og": {
+          "url": "https://arqamandaferraz.com/",
+          "title": "Home | Amanda Ferraz Arquitetura e ConstruÃ§Ã£o",
+          "type": "website",
+          "site_name": "Amanda Ferraz Arquitetura e ConstruÃ§Ã£o",
+          "image": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,h=756,fit=crop,f=jpeg/mjE4bQEawKsGJBar/prancheta-18-dOqZnNwjxWIxpXq4.png",
+          "image:alt": ""
+        },
+        "twitter_card": {
+          "title": "Home | Amanda Ferraz Arquitetura e ConstruÃ§Ã£o",
+          "image": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,h=756,fit=crop,f=jpeg/mjE4bQEawKsGJBar/prancheta-18-dOqZnNwjxWIxpXq4.png",
+          "image:alt": "",
+          "card": "summary_large_image"
+        }
+      },
+      "desktop": {
+        "label": "desktop",
+        "status_code": 200,
+        "final_url": "https://arqamandaferraz.com/",
+        "response_time_ms": 922,
+        "html_size_kb": 260.1,
+        "title": "Home | Amanda Ferraz Arquitetura e ConstruÃ§Ã£o",
+        "title_length": 47,
+        "meta_description": null,
+        "meta_description_length": 0,
+        "robots": null,
+        "canonical": "https://arqamandaferraz.com/",
+        "lang": "en-GB",
+        "viewport": true,
+        "favicon": true,
+        "h1": [
+          "ConstruÃ­mos mais do que projetos.Entregamos tranquilidade."
+        ],
+        "h1_count": 1,
+        "h2_count": 0,
+        "h3_count": 7,
+        "h4_count": 0,
+        "images_total": 31,
+        "images_without_alt": 28,
+        "links_total": 23,
+        "links_internal": 17,
+        "links_external": 6,
+        "links_nofollow": 2,
+        "schema_types": [
+          "WebSite"
+        ],
+        "og": {
+          "url": "https://arqamandaferraz.com/",
+          "title": "Home | Amanda Ferraz Arquitetura e ConstruÃ§Ã£o",
+          "type": "website",
+          "site_name": "Amanda Ferraz Arquitetura e ConstruÃ§Ã£o",
+          "image": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,h=756,fit=crop,f=jpeg/mjE4bQEawKsGJBar/prancheta-18-dOqZnNwjxWIxpXq4.png",
+          "image:alt": ""
+        },
+        "twitter_card": {
+          "title": "Home | Amanda Ferraz Arquitetura e ConstruÃ§Ã£o",
+          "image": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,h=756,fit=crop,f=jpeg/mjE4bQEawKsGJBar/prancheta-18-dOqZnNwjxWIxpXq4.png",
+          "image:alt": "",
+          "card": "summary_large_image"
+        }
+      },
+      "divergences": []
+    },
+    "security": {
+      "https": true,
+      "hsts": "max-age=63072000; includeSubDomains; preload",
+      "csp": "frame-ancestors *.builder-preview.com *.hostinger.com *.hostinger.io *.hostinger.in *.hostinger.co.uk",
+      "x_frame_options": null,
+      "x_content_type_options": "nosniff",
+      "referrer_policy": null,
+      "content_type": "text/html",
+      "content_encoding": "gzip",
+      "cache_control": "public, max-age=3600",
+      "server": "hcdn"
+    }
+  }
+}

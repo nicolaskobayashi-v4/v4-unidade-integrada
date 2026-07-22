@@ -1,0 +1,160 @@
+{
+  "url": "https://arqamandaferraz.com/",
+  "fetched_at": "2026-07-20T12:31:07Z",
+  "pagespeed_skipped": true,
+  "pagespeed_reason": "no_api_key",
+  "onpage": {
+    "mobile": {
+      "label": "mobile",
+      "status_code": 200,
+      "final_url": "https://arqamandaferraz.com/",
+      "response_time_ms": 2272,
+      "html_size_kb": 260.1,
+      "title": "Home | Amanda Ferraz Arquitetura e ConstruÃ§Ã£o",
+      "title_length": 47,
+      "meta_description": null,
+      "meta_description_length": 0,
+      "robots": null,
+      "canonical": "https://arqamandaferraz.com/",
+      "lang": "en-GB",
+      "viewport": true,
+      "favicon": true,
+      "h1": [
+        "ConstruÃ­mos mais do que projetos.Entregamos tranquilidade."
+      ],
+      "h1_count": 1,
+      "h2_count": 0,
+      "h3_count": 7,
+      "h4_count": 0,
+      "images_total": 31,
+      "images_without_alt": 28,
+      "links_total": 23,
+      "links_internal": 17,
+      "links_external": 6,
+      "links_nofollow": 2,
+      "schema_types": [
+        "WebSite"
+      ],
+      "og": {
+        "url": "https://arqamandaferraz.com/",
+        "title": "Home | Amanda Ferraz Arquitetura e ConstruÃ§Ã£o",
+        "type": "website",
+        "site_name": "Amanda Ferraz Arquitetura e ConstruÃ§Ã£o",
+        "image": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,h=756,fit=crop,f=jpeg/mjE4bQEawKsGJBar/prancheta-18-dOqZnNwjxWIxpXq4.png",
+        "image:alt": ""
+      },
+      "twitter_card": {
+        "title": "Home | Amanda Ferraz Arquitetura e ConstruÃ§Ã£o",
+        "image": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,h=756,fit=crop,f=jpeg/mjE4bQEawKsGJBar/prancheta-18-dOqZnNwjxWIxpXq4.png",
+        "image:alt": "",
+        "card": "summary_large_image"
+      },
+      "headers": {
+        "Date": "Mon, 20 Jul 2026 12:31:08 GMT",
+        "Content-Type": "text/html",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Vary": "Accept-Encoding",
+        "Last-Modified": "Fri, 28 Nov 2025 19:35:14 GMT",
+        "ETag": "W/\"5da9d12a1d708eb2afd9cf3995c291ec\"",
+        "Server": "hcdn",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "x-hcdn-request-id": "ddfea87b5cbd7f2f662bf66904bbe564-asc-edge10",
+        "x-hcdn-cache-status": "DYNAMIC",
+        "x-hcdn-upstream-rt": "0.386",
+        "Content-Security-Policy": "frame-ancestors *.builder-preview.com *.hostinger.com *.hostinger.io *.hostinger.in *.hostinger.co.uk",
+        "Link": "<https://assets.zyrosite.com>; rel=preconnect; crossorigin, <https://fonts.googleapis.com>; rel=preconnect; crossorigin, <https://fonts.gstatic.com>; rel=preconnect; crossorigin, <https://cdn.zyrosite.com>; rel=preconnect; crossorigin",
+        "X-XSS-Protection": "1; mode=block",
+        "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload",
+        "X-Content-Type-Options": "nosniff",
+        "X-Powered-By": "HostingerWebsiteBuilder",
+        "platform": "hostinger",
+        "Cache-Control": "public, max-age=3600",
+        "Content-Encoding": "gzip"
+      }
+    },
+    "desktop": {
+      "label": "desktop",
+      "status_code": 200,
+      "final_url": "https://arqamandaferraz.com/",
+      "response_time_ms": 922,
+      "html_size_kb": 260.1,
+      "title": "Home | Amanda Ferraz Arquitetura e ConstruÃ§Ã£o",
+      "title_length": 47,
+      "meta_description": null,
+      "meta_description_length": 0,
+      "robots": null,
+      "canonical": "https://arqamandaferraz.com/",
+      "lang": "en-GB",
+      "viewport": true,
+      "favicon": true,
+      "h1": [
+        "ConstruÃ­mos mais do que projetos.Entregamos tranquilidade."
+      ],
+      "h1_count": 1,
+      "h2_count": 0,
+      "h3_count": 7,
+      "h4_count": 0,
+      "images_total": 31,
+      "images_without_alt": 28,
+      "links_total": 23,
+      "links_internal": 17,
+      "links_external": 6,
+      "links_nofollow": 2,
+      "schema_types": [
+        "WebSite"
+      ],
+      "og": {
+        "url": "https://arqamandaferraz.com/",
+        "title": "Home | Amanda Ferraz Arquitetura e ConstruÃ§Ã£o",
+        "type": "website",
+        "site_name": "Amanda Ferraz Arquitetura e ConstruÃ§Ã£o",
+        "image": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,h=756,fit=crop,f=jpeg/mjE4bQEawKsGJBar/prancheta-18-dOqZnNwjxWIxpXq4.png",
+        "image:alt": ""
+      },
+      "twitter_card": {
+        "title": "Home | Amanda Ferraz Arquitetura e ConstruÃ§Ã£o",
+        "image": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,h=756,fit=crop,f=jpeg/mjE4bQEawKsGJBar/prancheta-18-dOqZnNwjxWIxpXq4.png",
+        "image:alt": "",
+        "card": "summary_large_image"
+      },
+      "headers": {
+        "Date": "Mon, 20 Jul 2026 12:31:08 GMT",
+        "Content-Type": "text/html",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Vary": "Accept-Encoding",
+        "Last-Modified": "Fri, 28 Nov 2025 19:35:14 GMT",
+        "ETag": "W/\"5da9d12a1d708eb2afd9cf3995c291ec\"",
+        "Age": "142503",
+        "Server": "hcdn",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "x-hcdn-request-id": "5faf56251d05efb616eef332ffe8f408-asc-edge7",
+        "x-hcdn-cache-status": "HIT",
+        "Content-Security-Policy": "frame-ancestors *.builder-preview.com *.hostinger.com *.hostinger.io *.hostinger.in *.hostinger.co.uk",
+        "Link": "<https://assets.zyrosite.com>; rel=preconnect; crossorigin, <https://fonts.googleapis.com>; rel=preconnect; crossorigin, <https://fonts.gstatic.com>; rel=preconnect; crossorigin, <https://cdn.zyrosite.com>; rel=preconnect; crossorigin",
+        "X-XSS-Protection": "1; mode=block",
+        "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload",
+        "X-Content-Type-Options": "nosniff",
+        "X-Powered-By": "HostingerWebsiteBuilder",
+        "platform": "hostinger",
+        "Cache-Control": "public, max-age=3600",
+        "Content-Encoding": "gzip"
+      }
+    },
+    "divergences": []
+  },
+  "security": {
+    "https": true,
+    "hsts": "max-age=63072000; includeSubDomains; preload",
+    "csp": "frame-ancestors *.builder-preview.com *.hostinger.com *.hostinger.io *.hostinger.in *.hostinger.co.uk",
+    "x_frame_options": null,
+    "x_content_type_options": "nosniff",
+    "referrer_policy": null,
+    "content_type": "text/html",
+    "content_encoding": "gzip",
+    "cache_control": "public, max-age=3600",
+    "server": "hcdn"
+  },
+  "pagespeed": null
+}

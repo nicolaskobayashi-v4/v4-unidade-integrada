@@ -1,0 +1,324 @@
+{
+  "client_name": "FROC — Frutas Desidratadas",
+  "skill": "ee-s1-persona-icp",
+  "generated_at": "2026-05-05",
+  "data_source": "Kickoff 29/04 + 1ª e 2ª reuniões comerciais + briefing + SPICED",
+  "nota_metodologica": "ICP B2B industrial — personas são compradores de empresas, não consumidores finais. A lógica de compra é orientada a performance de trabalho, não a desejo pessoal.",
+
+  "summary": "A FROC tem dois ICPs completamente diferentes que precisam de mensagens e LPs separadas: o comprador de ração pet (informal, WhatsApp, barganha preço, processo rápido) e o comprador de alimentos humanos funcionais (formal, e-mail, exige documentação, processo longo). O gancho de amostra grátis funciona para os dois — mas os argumentos de conversão são opostos.",
+
+  "summary_headline": "Dois compradores, dois mundos: o comprador de ração negocia no WhatsApp em 3 dias. O comprador de alimentos humanos leva 3 semanas e quer certificado antes de falar de preço.",
+
+  "summary_highlights": [
+    {
+      "category": "posicao",
+      "label": "ICPs mapeados",
+      "value": "2 segmentos",
+      "subtext": "Pet food + Alimentação humana fit — mensagens separadas",
+      "tone": "blue"
+    },
+    {
+      "category": "maturidade",
+      "label": "Ciclo de venda",
+      "value": "20 dias úteis",
+      "subtext": "Primeiro contato até fechamento — ambos os segmentos",
+      "tone": "yellow"
+    },
+    {
+      "category": "oportunidade",
+      "label": "Hook universal",
+      "value": "Amostra grátis",
+      "subtext": "Único fornecedor que não cobra — diferencial direto",
+      "tone": "green"
+    },
+    {
+      "category": "risco",
+      "label": "Volume de busca",
+      "value": "~16/mês",
+      "subtext": "'Maçã desidratada' no Google — demanda ativa baixa",
+      "tone": "yellow"
+    },
+    {
+      "category": "posicao",
+      "label": "Canal pet food",
+      "value": "WhatsApp + telefone",
+      "subtext": "Processo informal, decisão rápida",
+      "tone": "blue"
+    },
+    {
+      "category": "posicao",
+      "label": "Canal alimentação humana",
+      "value": "E-mail + feiras",
+      "subtext": "Processo formal, múltiplos stakeholders",
+      "tone": "blue"
+    }
+  ],
+
+  "summary_key_findings": [
+    {
+      "category": "vantagem",
+      "text": "A amostra grátis é o único diferencial competitivo universal que funciona para os dois ICPs e derruba a principal barreira de entrada de qualquer fornecedor novo: 'preciso testar antes de comprar'. A Polpa Brasil (concorrente) cobra pela amostra — a FROC não."
+    },
+    {
+      "category": "ameaca",
+      "text": "Com apenas 1 ano de operação, a FROC não tem reputação estabelecida no mercado. Para o comprador de alimentação humana (mais exigente), isso é uma barreira alta: clientes de R$5M+ precisam de segurança de que o fornecedor não vai fechar ou falhar na entrega."
+    },
+    {
+      "category": "contexto",
+      "text": "O setor de compras está se rejuvenescendo — mais mulheres e pessoas sem conhecimento técnico profundo. Isso significa que a comunicação da FROC não pode ser técnica demais ('apple rings dehydrated grade A industrial') e precisa ser clara e educativa sobre o que o produto faz na formulação do cliente."
+    },
+    {
+      "category": "acao",
+      "text": "As duas landing pages precisam de mensagens completamente diferentes: LP pet food fala de preço, agilidade e consistência. LP alimentação humana fala de certificações, documentação, rastreabilidade e segurança alimentar. O mesmo copy nas duas LPs é desperdiçar o investimento em tráfego."
+    },
+    {
+      "category": "contexto",
+      "text": "O vendedor interno precisa ser treinado para receber leads inbound de forma diferente da prospecção ativa. Quando um comprador preenche o formulário da LP, ele já tem intenção — não precisa do mesmo pitch de cold call. O SDR qualifica, não convence do zero."
+    }
+  ],
+
+  "icp_perfil_empresa": [
+    {
+      "id": "icp-pet-food",
+      "label": "ICP Pet Food",
+      "descricao": "Fabricante de ração pet, especialmente para pássaros e roedores. Empresas de pequeno a médio porte que usam frutas desidratadas como ingrediente no mix de ração.",
+      "tamanho_empresa": "R$1M–R$15M faturamento anual",
+      "localizacao": "Sul e Sudeste do Brasil (RS, SC, SP principalmente)",
+      "uso_do_produto": "Ingrediente em rações naturais para pássaros, roedores, cães — linha premium de pet food",
+      "volume_compra": "400kg–2.000kg por pedido (frequência: a cada 1-3 meses)",
+      "criterios_compra_empresa": ["Preço competitivo", "Consistência de entrega", "Padrão de qualidade repetível", "Prazo de pagamento flexível"],
+      "canal_contato": "WhatsApp e telefone — informal",
+      "processo_decisao": "Comprador tem autonomia para aprovar. Decisão mais rápida.",
+      "ameaca": "alta — maior volume de leads potenciais disponíveis",
+      "ticket_potencial_anual": "R$13.000–R$67.000/ano"
+    },
+    {
+      "id": "icp-alimentacao-humana",
+      "label": "ICP Alimentação Humana Fit",
+      "descricao": "Fabricante de alimentos funcionais/naturais que usa frutas desidratadas como ingrediente: granola, barrinhas de cereal, torrones, mix de frutas, linha 'fit'.",
+      "tamanho_empresa": "R$5M–R$50M faturamento anual",
+      "localizacao": "São Paulo (SP) principalmente. RS, SC como secundários.",
+      "uso_do_produto": "Ingrediente em granola, barrinha de cereal, torrão, mix de frutas secas, produtos premium naturais",
+      "volume_compra": "400kg–5.000kg por pedido (frequência: a cada 2-4 meses)",
+      "criterios_compra_empresa": ["Certificações e documentação técnica", "Segurança alimentar (APPCC, laudos)", "Rastreabilidade", "Consistência de cor e granulometria", "Preço"],
+      "canal_contato": "E-mail formal + reunião técnica",
+      "processo_decisao": "Múltiplos stakeholders: comprador + qualidade + P&D. Processo mais longo.",
+      "ameaca": "média — ticket maior mas processo mais complexo e exigente",
+      "ticket_potencial_anual": "R$67.000–R$340.000/ano"
+    }
+  ],
+
+  "personas": [
+    {
+      "id": "persona-1",
+      "nome": "Rafael",
+      "idade": 32,
+      "cargo": "Comprador / Responsável de Compras",
+      "empresa_tipo": "Fabricante de ração premium para pássaros e roedores — R$3M faturamento",
+      "localizacao": "Região Sul (RS ou SC)",
+      "foto_mental": "Faz tudo no WhatsApp. Tem uma lista de 5-6 fornecedores homologados e roda cotação quando o estoque está acabando. Não tem paciência para processo burocrático.",
+
+      "perfil_psicografico": {
+        "valores": ["Praticidade", "Preço justo", "Entrega no prazo", "Relacionamento"],
+        "personalidade": "Direto, informal, negocia tudo. Se o produto passar no teste e o preço for bom, fecha na hora. Não precisa de apresentação formal.",
+        "estilo_de_trabalho": "Operacional. Resolve problemas do dia a dia. Não tem muito tempo para pesquisa — age por indicação ou por quem aparecer na hora certa."
+      },
+
+      "job_to_be_done": {
+        "job_funcional": "Garantir o estoque de maçã desidratada a tempo, no padrão certo e sem estourar o orçamento de insumos.",
+        "job_emocional": "Não quero ser o culpado por a produção parar por falta de ingrediente.",
+        "job_social": "Quero mostrar para o dono que encontrei um fornecedor confiável que dá resultado."
+      },
+
+      "dores": [
+        "Fornecedor atual atrasa ou manda lote com variação de qualidade (cor, textura diferente)",
+        "Preço subindo e margem da empresa apertando",
+        "Cotação que demora — até chegar a resposta o estoque já acabou",
+        "Fornecedor cobra pela amostra antes de garantir qualidade"
+      ],
+
+      "medos": [
+        "Linha de produção parar por falta de ingrediente",
+        "Receber lote com problema e ter que devolver — atrasa tudo",
+        "Ficar preso a fornecedor que não entrega o que prometeu",
+        "Fazer pedido grande com fornecedor novo e levar calote de qualidade"
+      ],
+
+      "objecoes": [
+        "'Já tenho fornecedor' — está satisfeito o suficiente para não mudar",
+        "'Preciso ver o preço' — compara só por preço sem avaliar outros critérios",
+        "'Não conheço a FROC' — empresa nova, sem referências",
+        "'Frete FOB? Aí fica mais caro do que parece'"
+      ],
+
+      "gatilho_de_compra": "Problema com fornecedor atual (atraso, qualidade ruim, aumento de preço) OU recebeu amostra e aprovou.",
+
+      "como_descobre_froc": "Google Ads → LP pet food → solicita amostra → vendedor qualifica → envia amostra → fecha em ~20 dias.",
+
+      "mensagem_que_converte": "Amostra grátis sem enrolação. Entrega em 2 dias. Maçã clara sem conservante. Se aprovar, pedido mínimo de 400kg.",
+
+      "canal_preferencial": "WhatsApp após primeiro contato. E-mail só para nota fiscal.",
+      "icp_segment": "icp-pet-food",
+      "prioridade_lp": "LP 1 — pet food"
+    },
+
+    {
+      "id": "persona-2",
+      "nome": "Camila",
+      "idade": 29,
+      "cargo": "Analista / Coordenadora de Compras",
+      "empresa_tipo": "Fabricante de granola e barrinhas de cereal premium — R$20M faturamento",
+      "localizacao": "São Paulo, SP",
+      "foto_mental": "Tem uma planilha de fornecedores homologados com 20 colunas. Qualquer novo fornecedor precisa passar por avaliação da qualidade antes de ir para compras. Manda e-mail formal com modelo padrão de 'Solicitação de Homologação de Fornecedor'.",
+
+      "perfil_psicografico": {
+        "valores": ["Conformidade", "Documentação", "Confiabilidade", "Eficiência de processo"],
+        "personalidade": "Metódica, segue procedimentos internos. Não tem autonomia para decidir sozinha — precisa convencer a qualidade e o gestor. Avessa a risco.",
+        "estilo_de_trabalho": "Analítico. Faz benchmark de fornecedores periodicamente ou quando há necessidade de novo ingrediente. Responde e-mail mas demora."
+      },
+
+      "job_to_be_done": {
+        "job_funcional": "Qualificar e homologar um novo fornecedor de maçã desidratada que atenda todos os requisitos internos de segurança alimentar e entregue documentação completa.",
+        "job_emocional": "Não quero ser responsabilizada se um lote de ingrediente causar problema de qualidade no produto final.",
+        "job_social": "Quero que a área de qualidade aprove o fornecedor sem me dar trabalho de correr atrás de documentos."
+      },
+
+      "dores": [
+        "Fornecedor atual não tem documentação atualizada ou demora para enviar laudos",
+        "Variação de cor e granulometria entre lotes impacta o produto final",
+        "Processo de homologação que demora meses por falta de informação do fornecedor",
+        "Dificuldade de encontrar fornecedor que entenda o que é 'segurança alimentar' de verdade"
+      ],
+
+      "medos": [
+        "Ingrediente com problema causar recall do produto — catástrofe profissional",
+        "Área de qualidade rejeitar o fornecedor depois de meses de processo",
+        "Contaminação ou não conformidade que gere multa sanitária para a empresa",
+        "Fornecedor novo fechar ou não conseguir escalar quando o volume aumentar"
+      ],
+
+      "objecoes": [
+        "'Preciso da ficha técnica completa antes de qualquer coisa'",
+        "'Qual a certificação de vocês? APPCC, GMP?' — sem certificação, nem começa",
+        "'Empresa com 1 ano... vai conseguir manter o fornecimento?'",
+        "'Meu gestor precisa aprovar. Vou colocar na próxima reunião de avaliação.'"
+      ],
+
+      "gatilho_de_compra": "Pedido de novo produto que precisa de maçã desidratada OU problema com fornecedor atual OU projeto de reformulação.",
+
+      "como_descobre_froc": "Google Ads (busca técnica: 'maçã desidratada indústria alimentícia fornecedor') → LP alimentação humana → solicita amostra + ficha técnica → apresenta para qualidade → processo de homologação → compra teste → recorrência.",
+
+      "mensagem_que_converte": "Documentação completa disponível (ficha técnica, laudo microbiológico, APPCC). Amostra grátis para validação técnica. Maçã clara sem conservantes — rastreável da origem.",
+
+      "canal_preferencial": "E-mail formal. WhatsApp só depois de estabelecer contato.",
+      "icp_segment": "icp-alimentacao-humana",
+      "prioridade_lp": "LP 2 — alimentação humana"
+    },
+
+    {
+      "id": "persona-3",
+      "nome": "Marcos",
+      "idade": 45,
+      "cargo": "Dono / Diretor de pequena fábrica de ração",
+      "empresa_tipo": "Fabricante de ração para pássaros — R$800k a R$2M faturamento",
+      "localizacao": "Interior do RS, SC ou SP",
+      "foto_mental": "Ele mesmo compra, vende e às vezes opera. Usa um caderno e o WhatsApp como CRM. Se confia no fornecedor, fica com ele para sempre. Se decepcionou, nunca mais.",
+
+      "perfil_psicografico": {
+        "valores": ["Confiança pessoal", "Simplicidade", "Custo"],
+        "personalidade": "Toma decisão rápida mas baseada em relacionamento. Não preenche formulários — prefere ligar."
+      },
+
+      "job_to_be_done": {
+        "job_funcional": "Comprar maçã desidratada boa e barata, sem dor de cabeça.",
+        "job_emocional": "Quero um fornecedor de confiança que não me abandone quando eu precisar.",
+        "job_social": null
+      },
+
+      "dores": [
+        "Fornecedor que some ou muda preço sem avisar",
+        "Produto que chega diferente do que foi pedido"
+      ],
+
+      "medos": [
+        "Pagar adiantado para fornecedor desconhecido e não receber",
+        "Produto impactando a saúde dos animais — reclamação de cliente"
+      ],
+
+      "objecoes": [
+        "'Nunca ouvi falar de vocês — quem já comprou?'",
+        "'Qual o mínimo? 400kg é muito para mim agora'"
+      ],
+
+      "gatilho_de_compra": "Indicação de outro fabricante OU problema com fornecedor atual.",
+      "como_descobre_froc": "Indicação ou Meta Ads (Facebook) → WhatsApp direto → amostra → fecha rápido se aprovar.",
+      "canal_preferencial": "WhatsApp ou telefone. E-mail nunca.",
+      "icp_segment": "icp-pet-food",
+      "prioridade_lp": "LP 1 — pet food",
+      "nota": "Persona secundária dentro do ICP pet food. Volume menor mas ciclo de venda mais curto e relacionamento mais duradouro."
+    }
+  ],
+
+  "jobs_to_be_done_por_segmento": {
+    "nota": "No B2B, o JTBD não é pessoal — é profissional. O comprador não compra para si. Compra para não ser cobrado, para não parar a produção, para não causar problema de qualidade.",
+    "jobs": [
+      {
+        "segmento": "Pet food",
+        "job_central": "Garantir estoque de ingrediente de qualidade consistente sem estourar o orçamento e sem parar a linha de produção.",
+        "traducao_para_comunicacao": "Entrega em 2 dias. Padrão consistente lote a lote. Amostra grátis para testar sem risco. Pagamento em até 90 dias."
+      },
+      {
+        "segmento": "Alimentação humana fit",
+        "job_central": "Homologar fornecedor novo que passe na auditoria interna de qualidade sem dar trabalho.",
+        "traducao_para_comunicacao": "Documentação completa disponível: ficha técnica, laudo microbiológico, APPCC, rastreabilidade. Amostra para análise técnica sem custo."
+      }
+    ]
+  },
+
+  "mensagens_por_lp": {
+    "lp_pet_food": {
+      "headline": "Maçã desidratada para ração pet — amostra grátis, entrega em 2 dias",
+      "subheadline": "Ingrediente padronizado para fabricantes de ração para pássaros e roedores. Sem conservantes. Pedido mínimo 400kg.",
+      "cta": "Solicitar amostra grátis",
+      "argumentos_chave": [
+        "Único fornecedor que envia amostra sem cobrar",
+        "Produção em São Joaquim (capital da maçã) — maçã clara sem conservantes",
+        "Entrega em 2 dias após pedido — frete FOB",
+        "Pagamento em 30, 75 ou até 120 dias",
+        "Pedido mínimo: 400kg (R$11.200)"
+      ],
+      "tom": "Direto, sem enrolação. Preço e praticidade em destaque."
+    },
+    "lp_alimentacao_humana": {
+      "headline": "Maçã desidratada para indústria alimentícia — documentação completa, amostra técnica gratuita",
+      "subheadline": "Ingrediente natural para granola, barrinhas e torrones. Rastreável, sem conservantes, ficha técnica disponível.",
+      "cta": "Solicitar amostra + ficha técnica",
+      "argumentos_chave": [
+        "Ficha técnica, laudo microbiológico e APPCC disponíveis para homologação",
+        "Maçã clara sem conservantes ou clarificantes — cor natural garantida por processo (< 1 min corte-desidratação)",
+        "Lote padronizado — consistência de cor e granulometria",
+        "Origem rastreável: produtores de São Joaquim (SC), capital nacional da maçã",
+        "Amostra grátis para análise técnica e desenvolvimento de produto"
+      ],
+      "tom": "Técnico mas acessível. Segurança alimentar e documentação em destaque."
+    }
+  },
+
+  "key_leverage_point": {
+    "headline": "A amostra grátis não é só um benefício comercial — é a única forma de derrubar a principal objeção de qualquer comprador B2B com um fornecedor desconhecido: 'preciso testar antes de comprar'.",
+    "context": "A FROC tem 1 ano de mercado, sem reputação estabelecida, ligeiramente mais cara que a concorrência e com frete FOB (custo para o cliente). Qualquer comprador racional vai resistir a dar o primeiro pedido. A amostra grátis é a alavanca que zera essa resistência: o comprador testa sem risco financeiro, aprova a qualidade, e aí o preço e as condições se tornam negociáveis. A Polpa Brasil cobra pela amostra — isso posiciona a FROC como mais acessível desde o primeiro contato.",
+    "numbered_reasons": [
+      "Comprador de pet food decide em 3-5 dias se o produto passar no teste — amostra grátis elimina a principal barreira de um novo fornecedor sem reputação",
+      "Comprador de alimentação humana precisa passar pela qualidade antes de aprovar — amostra + ficha técnica entregues juntas eliminam duas etapas do processo de homologação de uma vez",
+      "Com ~16 buscas mensais no Google por 'maçã desidratada', o CPC é baixo — cada lead captado tem altíssimo valor potencial (R$11k mínimo por pedido, R$134k/ano por cliente recorrente)"
+    ],
+    "discussion_anchor": "O gancho está certo. O que precisa ser afinado antes das campanhas: o vendedor interno sabe tratar um lead inbound diferente de um cold call? O script de qualificação para liberar a amostra está definido?"
+  },
+
+  "icp_nao_ideal": [
+    "Consumidor final (B2C) — pedido mínimo de 400kg inviabiliza",
+    "Distribuidor sem volume de compra suficiente para o pedido mínimo",
+    "Empresas que buscam maçã de padrão industria low-cost (concorrência de preço com Fraiburgo é inviável)",
+    "Indústria de grande porte (BRF, JBS) — ciclo de venda impossível para empresa com 1 ano sem histórico estabelecido"
+  ]
+}
