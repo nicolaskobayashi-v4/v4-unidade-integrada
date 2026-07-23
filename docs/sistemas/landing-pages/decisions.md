@@ -65,3 +65,15 @@ Decisões decorrentes:
 - Nenhuma implementação da skill associada à decisão anterior chegou a ser criada.
 - A governança, a auditoria somente leitura, a aprovação granular e as proteções dos materiais existentes continuam válidas.
 - O diretório exclusivo passa a ser `clientes/instituto-salotti/outputs/landing-pages/piloto-figma-vercel/`, sem criação nesta etapa documental.
+
+## Experimento de escrita no Figma — limitação de fonte personalizada
+
+Data: 2026-07-22.
+
+- **Objetivo da chamada:** validar uma escrita mínima e isolada por meio do servidor MCP oficial do Figma, conectado e autenticado em uma conta com plano Pro e acesso Full. Após autorização específica, `use_figma` foi temporariamente liberado para uma única operação que tentaria criar uma página isolada, uma cópia da Hero desktop e um frame mobile vazio.
+- **Resultado:** a chamada falhou porque o ambiente MCP não conseguiu carregar a fonte personalizada `PF Marlet Display Light`. As ferramentas de escrita haviam permanecido bloqueadas até a autorização específica e `use_figma` voltou a ser bloqueado depois da tentativa.
+- **Ausência de efeitos colaterais:** nenhuma página, frame ou node foi criado, nenhum estado parcial precisou ser removido e tanto o node original quanto o repositório permaneceram inalterados.
+- **Decisão de não repetir:** nenhuma segunda tentativa foi executada e a mesma operação não será repetida, pois a limitação de carregamento da fonte impede sua conclusão segura nesse ambiente.
+- **Decisão para o mobile:** foi adotado o fluxo de criar primeiro a proposta mobile em HTML/CSS, validá-la localmente em 360, 390 e 430 px e, somente após aprovação para captura, usar Code to Canvas em execução separada para produzir um frame editável na cópia piloto do Figma. `generate_figma_design` continuará bloqueado até essa aprovação.
+- **Referência e aprovação:** o Figma desktop continua sendo a referência visual aprovada. A proposta mobile inicial no código não é design aprovado; o frame mobile somente se torna referência depois de revisão e aprovação humana no Figma. Nenhuma publicação ou Vercel Preview ocorrerá antes dessa aprovação.
+- **Impacto futuro:** a arquitetura deverá tratar fontes personalizadas como uma limitação explícita das operações diretas de escrita no Figma e separar a implementação local da captura Code to Canvas. Essa restrição e o fluxo de autorização granular deverão ser incorporados à futura skill.

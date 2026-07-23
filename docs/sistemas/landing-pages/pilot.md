@@ -39,6 +39,65 @@ Esse diretório ainda não deve ser criado durante a atualização documental.
 - Nenhuma escrita no Figma ou no código pode ocorrer sem aprovação explícita do usuário.
 - A aprovação é limitada aos arquivos, ao frame e às operações descritas no plano; qualquer ampliação exige nova aprovação.
 
+## Primeiro teste de escrita no Figma
+
+- O servidor MCP oficial do Figma foi conectado e autenticado.
+- A conta utilizada possui plano Pro e acesso Full.
+- As ferramentas de escrita permaneceram bloqueadas até uma autorização específica.
+- `use_figma` foi temporariamente liberado apenas para uma operação.
+- A operação autorizada tentaria criar uma página isolada, uma cópia da Hero desktop e um frame mobile vazio.
+- A chamada falhou porque o ambiente MCP não conseguiu carregar a fonte personalizada `PF Marlet Display Light`.
+- Nenhuma página, frame ou node foi criado e nenhum estado parcial precisou ser removido.
+- O node original e o repositório permaneceram inalterados.
+- Nenhuma segunda tentativa foi executada.
+- `use_figma` voltou a ser bloqueado.
+
+## Fluxo aprovado para criação do mobile
+
+```text
+Figma desktop aprovado
+    ↓
+Codex cria proposta mobile em HTML/CSS
+    ↓
+teste local em 360, 390 e 430 px
+    ↓
+Code to Canvas
+    ↓
+frame mobile editável na cópia piloto do Figma
+    ↓
+revisão e aprovação humana
+    ↓
+ajustes finais no código
+    ↓
+Vercel Preview
+```
+
+- O Figma desktop continua sendo a referência visual aprovada.
+- A primeira proposta mobile no código não será considerada design aprovado.
+- O frame mobile somente se torna referência após revisão humana no Figma.
+- `generate_figma_design` continuará bloqueado até a proposta local estar aprovada para captura.
+- A captura Code to Canvas será autorizada em execução separada.
+- Nenhuma publicação ou Vercel Preview acontecerá antes da aprovação do frame mobile.
+- A limitação encontrada deverá ser considerada na futura criação da skill.
+
+### Hipóteses controladas para a proposta mobile
+
+Os parâmetros abaixo são hipóteses iniciais e podem ser alterados após a revisão visual:
+
+- viewport principal de 390 × 844 px;
+- validações adicionais em 360 e 430 px;
+- navbar mobile com logo e sem CTA lateral;
+- eyebrow removido, acompanhando o Figma desktop;
+- headline entre 44 e 48 px;
+- subheadline entre 17 e 19 px;
+- margens laterais de 24 px;
+- CTA ocupando a largura disponível;
+- preservação do mesmo background;
+- reposicionamento do background para preservar parcialmente o rosto;
+- overlay adicional somente quando necessário para legibilidade;
+- nenhuma alteração de copy sem autorização;
+- nenhuma alteração em formulário, WhatsApp, tracking, links sociais ou demais seções.
+
 ## Fontes de verdade
 
 - Conteúdo: `client.json`, `base-de-conhecimento/` e outputs aprovados.
