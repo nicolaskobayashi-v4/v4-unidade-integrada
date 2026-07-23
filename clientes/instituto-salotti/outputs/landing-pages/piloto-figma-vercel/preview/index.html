@@ -1400,8 +1400,51 @@
         display: none;
       }
 
+      .hero {
+        min-height: 100vh;
+        min-height: 100svh;
+        background-image: url('landing-page/assets-lp/hero-background.png');
+        background-size: cover;
+        background-position: 70% center;
+        background-repeat: no-repeat;
+      }
+
       .hero__left {
-        padding: 120px 24px 72px;
+        width: 100%;
+        min-height: 100vh;
+        min-height: 100svh;
+        padding: 104px 24px 48px;
+        justify-content: center;
+      }
+
+      .hero__eyebrow {
+        display: none;
+      }
+
+      .hero__headline {
+        font-size: clamp(44px, 11.8vw, 48px);
+        line-height: 1.04;
+        max-width: 100%;
+        margin-bottom: 24px;
+      }
+
+      .hero__sub {
+        font-size: 18px;
+        line-height: 1.45;
+        max-width: 100%;
+        margin-bottom: 32px;
+      }
+
+      .hero__actions {
+        width: 100%;
+      }
+
+      .hero .btn-primary {
+        width: 100%;
+        min-height: 64px;
+        padding: 16px 20px;
+        justify-content: center;
+        text-align: center;
       }
 
       .services {
@@ -1447,9 +1490,6 @@
         padding: 48px 32px;
       }
 
-      .hero__headline {
-        font-size: 38px;
-      }
     }
   </style>
 </head>
