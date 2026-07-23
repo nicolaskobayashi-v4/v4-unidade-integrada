@@ -338,49 +338,16 @@ a {
   box-shadow: 0 24px 70px rgb(4 30 66 / 13%);
 }
 
-.hero-photo::before {
-  position: absolute;
-  inset: 1rem;
-  border: 1px dashed rgb(53 167 214 / 62%);
-  border-radius: 1rem;
-  content: "";
-}
-
-.photo-status {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: min(75%, 19rem);
-  margin: 0;
-  color: var(--navy-hover);
-  font-size: 0.67rem;
-  font-weight: 700;
-  letter-spacing: 0.11em;
-  line-height: 1.5;
-  text-align: center;
-  transform: translate(-50%, -50%);
-}
-
-.plane-context {
-  position: absolute;
-  top: 1.4rem;
-  right: 1.4rem;
-  z-index: 1;
-  width: 3.5rem;
-  height: 3.5rem;
-  display: grid;
-  place-items: center;
-  color: var(--cyan-strong);
-  background: var(--white);
-  border: 1px solid var(--line);
-  border-radius: 50%;
-}
-
-.plane-context svg {
-  width: 1.65rem;
-  height: 1.65rem;
+.hero-photo picture,
+.hero-photo img {
+  width: 100%;
+  height: 100%;
   display: block;
-  fill: currentcolor;
+}
+
+.hero-photo img {
+  object-fit: cover;
+  object-position: 50% 34%;
 }
 
 .installment-badge {
@@ -928,14 +895,6 @@ a {
   border-bottom: 1px solid var(--line);
 }
 
-.destination-media::before {
-  position: absolute;
-  inset: 1rem;
-  border: 1px dashed rgb(53 167 214 / 55%);
-  border-radius: 0.8rem;
-  content: "";
-}
-
 .destination-media--beach {
   background: #dceff7;
 }
@@ -944,15 +903,24 @@ a {
   background: #e8f3f9;
 }
 
-.destination-placeholder {
-  position: relative;
-  max-width: 75%;
-  color: var(--navy-hover);
-  font-size: 0.65rem;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  line-height: 1.5;
-  text-align: center;
+.destination-media picture,
+.destination-media img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.destination-media img {
+  object-fit: cover;
+}
+
+.destination-media--disney img,
+.destination-media--beach img {
+  object-position: center 52%;
+}
+
+.destination-media--cruise img {
+  object-position: center 46%;
 }
 
 .destination-badge {
@@ -1174,27 +1142,19 @@ a {
   border: 1px solid var(--line);
   border-radius: 1.5rem;
   box-shadow: 0 24px 60px rgb(4 30 66 / 10%);
+  overflow: hidden;
 }
 
-.store-photo svg {
-  width: 3.25rem;
-  height: 3.25rem;
-  fill: none;
-  stroke: currentcolor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke-width: 1.5;
+.store-photo picture,
+.store-photo img {
+  width: 100%;
+  height: 100%;
+  display: block;
 }
 
-.store-photo p {
-  max-width: 75%;
-  margin: 0;
-  color: var(--navy-hover);
-  font-size: 0.67rem;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  line-height: 1.5;
-  text-align: center;
+.store-photo img {
+  object-fit: cover;
+  object-position: center 35%;
 }
 
 .store-location {
