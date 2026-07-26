@@ -976,9 +976,15 @@ a {
 
 .authority-layout {
   display: grid;
-  grid-template-columns: minmax(0, 0.9fr) minmax(31rem, 1.1fr);
+  grid-template-columns: minmax(0, 1.05fr) minmax(32.5rem, 0.95fr);
   align-items: center;
-  gap: clamp(3.5rem, 8vw, 8rem);
+  gap: clamp(3rem, 4vw, 4rem);
+}
+
+.authority-copy .section-heading {
+  max-width: none;
+  font-size: clamp(2.5rem, 3.2vw, 3.25rem);
+  line-height: 1.06;
 }
 
 .authority-copy > p:not(.section-kicker) {
@@ -1044,6 +1050,11 @@ a {
   line-height: 1;
 }
 
+.metric-card:last-child strong {
+  font-size: clamp(2.1rem, 3.8vw, 3.3rem);
+  white-space: nowrap;
+}
+
 .metric-card span {
   margin-top: 0.55rem;
   color: var(--navy);
@@ -1054,27 +1065,33 @@ a {
   text-transform: uppercase;
 }
 
-.testimonial-placeholder {
+.testimonial-card {
+  width: 100%;
   min-height: 10rem;
   padding: 1.5rem;
+  box-sizing: border-box;
   display: grid;
-  grid-template-columns: auto 1fr;
+  grid-template-columns: 44px minmax(0, 1fr);
   align-items: start;
-  gap: 1rem;
+  column-gap: 20px;
   color: var(--cyan-soft);
   background: rgb(255 255 255 / 6%);
   border: 1px solid rgb(255 255 255 / 14%);
   border-radius: 1rem;
 }
 
-.testimonial-placeholder svg {
+.testimonial-card svg {
   width: 2rem;
   height: 2rem;
+  margin-top: 4px;
   fill: currentcolor;
 }
 
-.testimonial-placeholder p {
-  max-width: 30rem;
+.testimonial-card > div {
+  min-width: 0;
+}
+
+.testimonial-card p {
   margin: 0;
   color: rgb(255 255 255 / 72%);
   font-size: 1rem;
@@ -1084,7 +1101,7 @@ a {
 
 .testimonial-attribution {
   display: block;
-  margin-top: 0.85rem;
+  margin-top: 20px;
   color: var(--cyan-soft);
   font-size: 0.68rem;
   font-style: normal;
@@ -1145,10 +1162,7 @@ a {
 
 .store-photo {
   aspect-ratio: 4 / 3;
-  display: grid;
-  place-content: center;
-  justify-items: center;
-  gap: 1rem;
+  display: block;
   color: var(--cyan-strong);
   background: var(--surface-photo);
   border: 1px solid var(--line);
@@ -1437,6 +1451,10 @@ a {
   .authority-copy {
     max-width: 45rem;
   }
+
+  .authority-title-break {
+    display: none;
+  }
 }
 
 @media (max-width: 56rem) {
@@ -1566,8 +1584,9 @@ a {
     min-height: 6.75rem;
   }
 
-  .testimonial-placeholder {
-    grid-template-columns: 1fr;
+  .testimonial-card {
+    grid-template-columns: 32px minmax(0, 1fr);
+    column-gap: 12px;
   }
 
   .store-visual {
