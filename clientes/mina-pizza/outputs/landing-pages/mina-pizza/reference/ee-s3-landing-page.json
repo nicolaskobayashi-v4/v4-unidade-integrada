@@ -1,0 +1,116 @@
+{
+  "client_name": "Mina Pizza",
+  "summary": "Landing page da Mina Pizza com 8 seções (hero, problema, solução, como funciona, prova social, localização, FAQ, CTA final), copy ancorada na PUV '37 anos no mesmo lugar' e na identidade oficial do designer (Carmine #C8102E + Bitter em H1 / Source Sans 3 em H2/H3 e corpo). CTA principal aponta para o iFood (canal real mais saudável, 4,8★/54) em vez de WhatsApp, que ainda não existe — atualizar para wa.me assim que a régua de WhatsApp (3.4) for ativada.",
+  "summary_headline": "LP da Mina Pizza vende a redescoberta dos 37 anos com CTA direto pro iFood — hoje o único canal de pedido realmente confiável e mensurável.",
+  "summary_highlights": [
+    {"category": "posicao", "label": "PUV central da LP", "value": "37 anos no mesmo lugar", "subtext": "Ancorada no território Resistência+Bairro+Redescoberta", "tone": "blue"},
+    {"category": "maturidade", "label": "CTA principal", "value": "iFood (não WhatsApp)", "subtext": "WhatsApp Business ainda não existe", "tone": "yellow"},
+    {"category": "oportunidade", "label": "Prova social real usada", "value": "4,8★/54 (iFood) + 113 avaliações (Google)", "subtext": "Números reais, não estimados", "tone": "green"},
+    {"category": "vantagem", "label": "Depoimentos", "value": "2 avaliações reais do Google", "subtext": "Elton T. Rod (35 anos) + Eduardo Yokomizo (pastel)", "tone": "green"},
+    {"category": "posicao", "label": "Identidade aplicada", "value": "Carmine #C8102E + Bitter/Source Sans 3", "subtext": "Diretrizes de design do designer (2026-07-27)", "tone": "blue"}
+  ],
+  "summary_key_findings": [
+    {"category": "acao", "text": "O CTA da LP aponta para o iFood, não para WhatsApp — a Mina Pizza ainda não tem WhatsApp Business ativo (diagnosticado em arquitetura-presença e régua). Trocar o CTA assim que o canal for ativado."},
+    {"category": "vantagem", "text": "A copy usa apenas dados reais (37 anos, endereço, 4,8★/54 no iFood, 113 avaliações no Google) — nenhuma estatística de cliente ou faturamento inventada."},
+    {"category": "contexto", "text": "Os termos proibidos do manual de marca (gourmet, revolucionário, sofisticado) foram respeitados; a copy usa o vocabulário validado ('comida de verdade', 'point de sempre', 'feito na hora')."},
+    {"category": "vantagem", "text": "Depoimentos substituídos por texto verbatim de avaliações reais do Google (print enviado pelo operador em 2026-07-27): Elton T. Rod ('35 anos frequentado') e Eduardo Yokomizo (elogio ao pastel e ao atendimento)."}
+  ],
+  "sections": [
+    {
+      "name": "hero",
+      "eyebrow": "· Desde 1989, dentro do Carrefour de São Vicente",
+      "headline": "37 anos no mesmo lugar de sempre",
+      "subheadline": "A pizzaria e marmitaria mais tradicional da praça de alimentação do Carrefour de São Vicente. A mesma comida de sempre — agora fácil de pedir.",
+      "cta_primary": "Pedir agora no iFood",
+      "cta_secondary": "Ver o cardápio",
+      "stats": [
+        {"number": "37", "label": "anos no mesmo lugar"},
+        {"number": "4,8★", "label": "no iFood (54 avaliações)"},
+        {"number": "113", "label": "avaliações no Google"}
+      ]
+    },
+    {
+      "name": "problem",
+      "headline": "Quem já passou por isso sabe",
+      "cards": [
+        {"title": "Fome no meio das compras", "body": "Você tá ali no Carrefour, com sacola na mão, sem paciência pra sair procurando o que comer."},
+        {"title": "Medo de pedir em lugar novo", "body": "Ninguém quer arriscar um prato ruim bem na hora que a fome aperta."},
+        {"title": "Cansado da mesma rede grande", "body": "Sempre a mesma pizzaria genérica, sem nenhuma história por trás do prato."}
+      ]
+    },
+    {
+      "name": "solution",
+      "headline": "Por isso a Mina Pizza continua aqui há 37 anos",
+      "benefits": [
+        {"icon": "MapPin", "title": "Dentro do próprio Carrefour", "body": "Sem sair do caminho — a Mina fica na praça de alimentação, fácil de achar."},
+        {"icon": "ChefHat", "title": "Comida de verdade, feita na hora", "body": "Prato do dia, pizza e pastel fresquinho, sem enrolação."},
+        {"icon": "Award", "title": "37 anos de tradição comprovada", "body": "Não é história inventada pra vender — são décadas de gente que já confia."},
+        {"icon": "Star", "title": "Avaliada por quem já pediu", "body": "4,8★ no iFood com 54 avaliações reais de clientes da região."}
+      ]
+    },
+    {
+      "name": "how_it_works",
+      "headline": "Pedir é simples",
+      "steps": [
+        {"number": 1, "title": "Escolha seu prato", "body": "Pizza, prato do dia ou pastel — direto no cardápio do iFood."},
+        {"number": 2, "title": "Peça em poucos cliques", "body": "Sem baixar app novo, sem complicação — só abrir o iFood."},
+        {"number": 3, "title": "Retire ou receba", "body": "Busque no balcão dentro do Carrefour ou receba em casa por delivery."}
+      ]
+    },
+    {
+      "name": "social_proof",
+      "headline": "Quem já pediu, recomenda",
+      "testimonials": [
+        {"name": "Elton T. Rod", "source": "Google Reviews · Local Guide (55 avaliações)", "when": "há 1 ano", "rating": 5, "text": "Trinta e cinco anos frequentado, não precisa nem dizer que é bom."},
+        {"name": "Eduardo Yokomizo", "source": "Google Reviews · Local Guide (210 avaliações)", "when": "há 4 anos", "rating": 5, "text": "Sempre fui bem atendido. Os pedidos não demoram para serem entregues e achei a qualidade muito boa. [...] O que gosto bastante é de comer os pastéis fritos na hora e bem recheados a preços bastante atraentes. [...] Recomendo."}
+      ],
+      "stats": [
+        {"number": "37", "label": "anos de tradição"},
+        {"number": "4,8★", "label": "nota no iFood (54 avaliações)"},
+        {"number": "113", "label": "avaliações no Google"}
+      ]
+    },
+    {
+      "name": "location",
+      "headline": "Onde estamos",
+      "body": "Av. Prefeito José Monteiro, 1045, Loja 1 e 2 — dentro da praça de alimentação do Carrefour de São Vicente, SP."
+    },
+    {
+      "name": "faq",
+      "headline": "Perguntas frequentes"
+    },
+    {
+      "name": "final_cta",
+      "eyebrow": "· A mesma comida de sempre",
+      "headline": "Depois de 37 anos, ainda vale a pena redescobrir",
+      "subheadline": "Peça agora pelo iFood e experimente a mesma comida de sempre, no mesmo lugar de sempre.",
+      "cta_primary": "Pedir agora no iFood"
+    }
+  ],
+  "faq": [
+    {"question": "Como faço pra pedir?", "answer": "É só abrir o iFood, buscar pela Mina Pizza e escolher retirada no balcão ou entrega. Simples, sem complicação."},
+    {"question": "Vocês entregam em qualquer lugar de São Vicente?", "answer": "A entrega cobre a região próxima ao Carrefour — o próprio iFood mostra se seu endereço está na área de cobertura ao fazer o pedido."},
+    {"question": "A comida chega quentinha?", "answer": "Trabalhamos pra isso sempre. Se algo vier fora do padrão, é só falar com a gente que resolvemos na hora — nosso compromisso é comida de verdade, sempre."},
+    {"question": "Vale a pena mesmo depois de tantos anos, ou mudou muita coisa?", "answer": "A receita e o cuidado continuam os mesmos de 1989 — a única coisa que mudou é que agora dá pra pedir sem sair de casa."},
+    {"question": "Onde fica exatamente a Mina Pizza?", "answer": "Dentro do Carrefour de São Vicente (Av. Prefeito José Monteiro, 1045), na praça de alimentação — mesmo lugar há 37 anos."}
+  ],
+  "social_proof": {
+    "testimonials": [
+      {"name": "Elton T. Rod", "source": "Google Reviews · Local Guide (55 avaliações)", "when": "há 1 ano", "rating": 5, "text": "Trinta e cinco anos frequentado, não precisa nem dizer que é bom."},
+      {"name": "Eduardo Yokomizo", "source": "Google Reviews · Local Guide (210 avaliações)", "when": "há 4 anos", "rating": 5, "text": "Sempre fui bem atendido. Os pedidos não demoram para serem entregues e achei a qualidade muito boa. [...] O que gosto bastante é de comer os pastéis fritos na hora e bem recheados a preços bastante atraentes. [...] Recomendo."}
+    ],
+    "stats": [
+      {"number": "37", "label": "anos de tradição"},
+      {"number": "4,8★", "label": "nota no iFood (54 avaliações)"},
+      {"number": "113", "label": "avaliações no Google"}
+    ]
+  },
+  "meta": {
+    "title": "Mina Pizza — 37 anos no Carrefour de São Vicente",
+    "description": "Pizza, prato executivo e pastel dentro do Carrefour de São Vicente há 37 anos. Peça agora pelo iFood — comida de verdade, no mesmo lugar de sempre.",
+    "og_title": "Mina Pizza — 37 anos no mesmo lugar de sempre",
+    "og_description": "A pizzaria e marmitaria mais tradicional da praça de alimentação do Carrefour de São Vicente. Peça agora pelo iFood.",
+    "og_type": "website"
+  },
+  "honesty_alert": "1) CTA aponta para o iFood, não WhatsApp, porque o canal ainda não existe (ver ee-s3-pdv-regua-whatsapp) — trocar `whatsapp_link` e os CTAs assim que for ativado. 2) [RESOLVIDO 2026-07-27] Depoimentos substituídos por texto verbatim de avaliações reais do Google, extraídas do print enviado pelo operador (Elton T. Rod e Eduardo Yokomizo) — o excerto de Eduardo Yokomizo usa '[...]' para marcar trechos omitidos do texto original (avaliação completa disponível no print), sem alterar as palavras mantidas. 3) [RESOLVIDO 2026-07-27] Idade da marca corrigida para '37 anos' nesta LP — o print do GMB mostra a própria descrição do negócio dizendo '37 anos de tradição' (fundação em 17/07/1989, aniversário já passou em 2026). Decisão do operador: corrigir SÓ a LP (ainda não publicada); os demais entregáveis (posicionamento, manual de marca, régua de WhatsApp) permanecem com '36 anos' por ora — não editados nesta rodada. Ficar atento a essa divergência intencional entre a LP e o restante do material até uma decisão de propagação mais ampla. 4) Link exato do iFood da loja e horário de funcionamento completo (fechamento às 22h, confirmado no print) seguem a confirmar antes do deploy final. 5) Telefone real confirmado no GMB: (13) 3469-4332 — pode ser incorporado como CTA alternativo (ligar) na LP."
+}
