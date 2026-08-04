@@ -1,16 +1,20 @@
 :root {
-  --navy: #041e42;
-  --navy-hover: #0a355e;
-  --cyan: #35a7d6;
-  --cyan-strong: #007eae;
-  --cyan-dark: #006b94;
-  --cyan-soft: #d9eef7;
-  --surface: #f2f8fc;
-  --surface-header: #f9fcfe;
-  --surface-photo: #e4f3f9;
+  --navy: #002b5c;
+  --navy-hover: #003b73;
+  --cyan: #13b5ea;
+  --cyan-strong: #0093d0;
+  --cyan-dark: #026cb6;
+  --cyan-soft: #ddf5fc;
+  --surface: #f1f8fc;
+  --surface-header: #ffffff;
+  --surface-photo: #e5f6fc;
   --white: #ffffff;
-  --text-muted: #496780;
-  --line: #c9e2ed;
+  --text-muted: #365b7d;
+  --line: #b8d7e8;
+  --brand-green: #54b948;
+  --brand-orange: #f47735;
+  --brand-magenta: #b70050;
+  --brand-purple: #4b63ae;
   --header-height: 4.5rem;
 }
 
@@ -64,7 +68,7 @@ a {
 
 .site-header.is-scrolled {
   border-color: var(--line);
-  box-shadow: 0 8px 24px rgb(4 30 66 / 5%);
+  box-shadow: 0 8px 24px rgb(0 43 92 / 7%);
 }
 
 .header-shell {
@@ -188,7 +192,9 @@ a {
   display: flex;
   align-items: center;
   overflow: hidden;
-  background: var(--surface);
+  background:
+    linear-gradient(112deg, rgb(255 255 255 / 88%), transparent 54%),
+    var(--surface);
 }
 
 .hero::before {
@@ -335,17 +341,13 @@ a {
   background: var(--surface-photo);
   border: 1px solid var(--line);
   border-radius: 1.5rem;
-  box-shadow: 0 24px 70px rgb(4 30 66 / 13%);
+  box-shadow: 0 24px 70px rgb(0 43 92 / 15%);
 }
 
-.hero-photo picture,
 .hero-photo img {
   width: 100%;
   height: 100%;
   display: block;
-}
-
-.hero-photo img {
   object-fit: cover;
   object-position: 50% 34%;
 }
@@ -354,13 +356,13 @@ a {
   position: absolute;
   right: 1.35rem;
   bottom: 5.35rem;
-  z-index: 2;
+  z-index: 3;
   padding: 0.55rem 0.8rem;
   color: var(--white);
   background: var(--cyan-strong);
   border: 2px solid var(--white);
   border-radius: 999px;
-  box-shadow: 0 8px 22px rgb(4 30 66 / 12%);
+  box-shadow: 0 8px 22px rgb(0 43 92 / 14%);
   font-size: 0.7rem;
   font-weight: 700;
   line-height: 1.2;
@@ -378,7 +380,7 @@ a {
   background: var(--white);
   border: 1px solid var(--line);
   border-radius: 1rem;
-  box-shadow: 0 16px 35px rgb(4 30 66 / 12%);
+  box-shadow: 0 16px 35px rgb(0 43 92 / 14%);
 }
 
 .package-panel p {
@@ -602,10 +604,14 @@ a {
   }
 
   .installment-badge {
-    right: 1rem;
-    bottom: 4.75rem;
-    max-width: calc(100% - 2rem);
-    font-size: 0.65rem;
+    top: 0.75rem;
+    right: auto;
+    bottom: auto;
+    left: 0.75rem;
+    width: max-content;
+    max-width: 65%;
+    font-size: 0.625rem;
+    white-space: normal;
   }
 
   .package-panel {
@@ -676,6 +682,7 @@ a {
 }
 
 #diferenciais,
+#beneficios,
 #destinos,
 #atendimento,
 #contato {
@@ -720,8 +727,8 @@ a {
 
 .section-kicker--dark {
   color: var(--cyan-soft);
-  background: rgb(53 167 214 / 12%);
-  border-color: rgb(53 167 214 / 30%);
+  background: rgb(19 181 234 / 12%);
+  border-color: rgb(19 181 234 / 30%);
 }
 
 .section-heading {
@@ -770,18 +777,19 @@ a {
 .differentials-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 1rem;
+  gap: 1.75rem;
 }
 
 .differential-card {
   position: relative;
   min-height: 20rem;
-  padding: 1.5rem;
-  overflow: hidden;
-  background: var(--surface-header);
-  border: 1px solid var(--line);
+  padding: 1.75rem 1.5rem 1.6rem;
+  background: var(--white);
+  border: 1px solid #9fc9de;
   border-radius: 1.25rem;
-  box-shadow: 0 12px 32px rgb(4 30 66 / 5%);
+  box-shadow:
+    inset 0 4px 0 var(--cyan),
+    0 16px 38px rgb(0 43 92 / 9%);
   transition:
     border-color 180ms ease,
     box-shadow 180ms ease,
@@ -789,31 +797,41 @@ a {
 }
 
 .differential-card:hover {
-  border-color: rgb(53 167 214 / 55%);
-  box-shadow: 0 18px 38px rgb(4 30 66 / 8%);
+  border-color: rgb(19 181 234 / 80%);
+  box-shadow:
+    inset 0 4px 0 var(--cyan-dark),
+    0 20px 44px rgb(0 43 92 / 13%);
   transform: translateY(-3px);
 }
 
 .card-number {
-  position: absolute;
-  top: 0.6rem;
-  right: 1rem;
-  color: rgb(53 167 214 / 12%);
+  position: static;
+  margin: 0;
+  flex: 0 0 auto;
+  color: var(--cyan-dark);
   font-size: 4.5rem;
   font-weight: 700;
   letter-spacing: -0.06em;
-  line-height: 1;
+  line-height: 0.85;
+  opacity: 0.32;
+}
+
+.differential-card-header {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
 }
 
 .line-icon {
-  position: relative;
   width: 2.8rem;
   height: 2.8rem;
   display: grid;
   place-items: center;
-  color: var(--cyan-strong);
-  background: var(--white);
-  border: 1px solid var(--line);
+  color: var(--white);
+  background: var(--cyan-dark);
+  border: 1px solid var(--cyan-dark);
   border-radius: 0.8rem;
 }
 
@@ -828,24 +846,279 @@ a {
 }
 
 .differential-card h3 {
-  position: relative;
   max-width: 13rem;
-  margin: 3.1rem 0 0.85rem;
+  margin: 1.75rem 0 0.95rem;
   color: var(--navy);
   font-size: 1.1rem;
   line-height: 1.25;
 }
 
 .differential-card p {
-  position: relative;
   margin: 0;
   color: var(--text-muted);
   font-size: 0.9rem;
   line-height: 1.65;
 }
 
+.benefits {
+  background:
+    radial-gradient(circle at 8% 12%, rgb(19 181 234 / 12%), transparent 24rem),
+    linear-gradient(180deg, #e9f7fd 0%, #f7fcfe 100%);
+}
+
+.benefits-intro .section-heading {
+  max-width: 19ch;
+}
+
+.benefits-intro {
+  margin-bottom: 2rem;
+}
+
+.benefits-intro .section-kicker {
+  margin-bottom: 1.25rem;
+}
+
+.benefits-logo {
+  width: clamp(16.25rem, 18vw, 18.75rem);
+  margin: 0 auto 2rem;
+}
+
+.benefits-logo img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+.benefit-card {
+  min-width: 0;
+  min-height: 31rem;
+  padding: clamp(1.5rem, 3vw, 2.25rem);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background: var(--white);
+  border: 1px solid #a9d2e6;
+  border-radius: 1.5rem;
+  box-shadow: 0 20px 48px rgb(0 43 92 / 10%);
+}
+
+.benefit-card__icon {
+  width: 3.25rem;
+  height: 3.25rem;
+  display: grid;
+  place-items: center;
+  color: var(--white);
+  background: linear-gradient(135deg, var(--cyan), var(--cyan-dark));
+  border-radius: 1rem;
+  box-shadow: 0 10px 24px rgb(2 108 182 / 20%);
+}
+
+.benefit-card__icon--points {
+  background: linear-gradient(135deg, var(--cyan-dark), var(--navy-hover));
+}
+
+.benefit-card__icon svg {
+  width: 1.65rem;
+  height: 1.65rem;
+  fill: none;
+  stroke: currentcolor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.7;
+}
+
+.benefit-card h3 {
+  margin: 1.35rem 0 0;
+  color: var(--navy);
+  font-size: clamp(1.5rem, 2.6vw, 2rem);
+  letter-spacing: -0.025em;
+  line-height: 1.2;
+}
+
+.benefit-list {
+  width: 100%;
+  margin: 1.5rem 0 0;
+  padding: 0;
+  display: grid;
+  gap: 1rem;
+  list-style: none;
+}
+
+.benefit-list li {
+  position: relative;
+  padding-left: 1.4rem;
+  color: var(--text-muted);
+  font-size: 0.94rem;
+  line-height: 1.62;
+}
+
+.benefit-list li::before {
+  position: absolute;
+  top: 0.62rem;
+  left: 0;
+  width: 0.5rem;
+  height: 0.5rem;
+  background: var(--brand-green);
+  border-radius: 50%;
+  content: "";
+}
+
+.benefit-list strong {
+  color: var(--navy-hover);
+}
+
+.benefit-card__cta {
+  margin-top: auto;
+  align-self: stretch;
+}
+
+.benefits-steps {
+  margin-top: 1.25rem;
+  padding: clamp(1.75rem, 4vw, 3rem);
+  color: var(--white);
+  background: var(--navy);
+  border-radius: 1.5rem;
+  box-shadow: 0 22px 50px rgb(0 43 92 / 16%);
+}
+
+.benefits-steps__kicker {
+  margin: 0;
+  color: var(--cyan);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.benefits-steps > h3 {
+  margin: 0.45rem 0 0;
+  font-size: clamp(1.7rem, 3.5vw, 2.5rem);
+  letter-spacing: -0.03em;
+  line-height: 1.15;
+}
+
+.benefits-steps ol {
+  margin: 2rem 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  list-style: none;
+}
+
+.benefits-steps li {
+  min-width: 0;
+  padding: 0 1.5rem;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: start;
+  gap: 0.9rem;
+}
+
+.benefits-steps li:first-child {
+  padding-left: 0;
+}
+
+.benefits-steps li:last-child {
+  padding-right: 0;
+}
+
+.benefits-steps li + li {
+  border-left: 1px solid rgb(255 255 255 / 16%);
+}
+
+.benefits-steps li > span {
+  width: 2.2rem;
+  height: 2.2rem;
+  display: grid;
+  place-items: center;
+  color: var(--navy);
+  background: var(--cyan);
+  border-radius: 50%;
+  font-size: 0.65rem;
+  font-weight: 800;
+}
+
+.benefits-steps strong {
+  display: block;
+  color: var(--white);
+  font-size: 1rem;
+  line-height: 1.35;
+}
+
+.benefits-steps li p {
+  margin: 0.45rem 0 0;
+  color: rgb(255 255 255 / 72%);
+  font-size: 0.84rem;
+  line-height: 1.6;
+}
+
+.benefits-contact {
+  margin-top: 1.25rem;
+  padding: 1.35rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  background: var(--white);
+  border: 1px solid #a9d2e6;
+  border-radius: 1.25rem;
+}
+
+.benefits-contact p {
+  max-width: 45rem;
+  margin: 0;
+  color: var(--navy);
+  font-size: clamp(1rem, 1.6vw, 1.2rem);
+  font-weight: 700;
+  line-height: 1.45;
+}
+
+.button--benefits {
+  min-width: 16.5rem;
+  flex: 0 0 auto;
+}
+
 .destinations {
   background: var(--surface);
+}
+
+.destinations-intro {
+  max-width: 47.5rem;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.destinations .section-heading {
+  max-width: 14ch;
+  font-size: clamp(2.55rem, 4.2vw, 4.2rem);
+  line-height: 1.02;
+}
+
+.destinations .section-heading .destinations-title-main,
+.destinations .section-heading .destinations-title-accent {
+  display: block;
+  white-space: nowrap;
+}
+
+.destinations .section-heading .destinations-title-main {
+  color: var(--navy);
+}
+
+.destinations .section-heading .destinations-title-accent {
+  color: var(--cyan);
+}
+
+.destinations .section-description {
+  max-width: 38.75rem;
+  margin: 1.5rem 0 0;
 }
 
 .destinations-grid {
@@ -864,7 +1137,7 @@ a {
   background: var(--white);
   border: 1px solid var(--line);
   border-radius: 1.35rem;
-  box-shadow: 0 16px 42px rgb(4 30 66 / 7%);
+  box-shadow: 0 16px 42px rgb(0 43 92 / 8%);
   text-decoration: none;
   transition:
     border-color 180ms ease,
@@ -873,8 +1146,8 @@ a {
 }
 
 .destination-card:hover {
-  border-color: rgb(53 167 214 / 70%);
-  box-shadow: 0 22px 48px rgb(4 30 66 / 11%);
+  border-color: rgb(19 181 234 / 70%);
+  box-shadow: 0 22px 48px rgb(0 43 92 / 12%);
   transform: translateY(-4px);
 }
 
@@ -896,11 +1169,11 @@ a {
 }
 
 .destination-media--beach {
-  background: #dceff7;
+  background: #ddf5fc;
 }
 
 .destination-media--cruise {
-  background: #e8f3f9;
+  background: #e7f4fb;
 }
 
 .destination-media picture,
@@ -928,6 +1201,7 @@ a {
   top: 1.25rem;
   left: 1.25rem;
   z-index: 1;
+  max-width: calc(100% - 2.5rem);
   padding: 0.5rem 0.7rem;
   color: var(--cyan-dark);
   background: var(--white);
@@ -936,7 +1210,7 @@ a {
   font-size: 0.63rem;
   font-weight: 700;
   letter-spacing: 0.08em;
-  line-height: 1.2;
+  line-height: 1.35;
   text-transform: uppercase;
 }
 
@@ -1003,7 +1277,7 @@ a {
   align-items: center;
   gap: 0.55rem;
   color: var(--cyan-soft);
-  border: 1px solid rgb(53 167 214 / 38%);
+  border: 1px solid rgb(19 181 234 / 38%);
   border-radius: 999px;
   font-size: 0.7rem;
   font-weight: 700;
@@ -1029,7 +1303,7 @@ a {
 
 .metrics-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0.8rem;
 }
 
@@ -1048,11 +1322,6 @@ a {
   font-size: clamp(2.1rem, 4vw, 3.4rem);
   letter-spacing: -0.05em;
   line-height: 1;
-}
-
-.metric-card:last-child strong {
-  font-size: clamp(2.1rem, 3.8vw, 3.3rem);
-  white-space: nowrap;
 }
 
 .metric-card span {
@@ -1167,7 +1436,7 @@ a {
   background: var(--surface-photo);
   border: 1px solid var(--line);
   border-radius: 1.5rem;
-  box-shadow: 0 24px 60px rgb(4 30 66 / 10%);
+  box-shadow: 0 24px 60px rgb(0 43 92 / 11%);
   overflow: hidden;
 }
 
@@ -1196,7 +1465,7 @@ a {
   background: var(--white);
   border: 1px solid var(--line);
   border-radius: 1rem;
-  box-shadow: 0 16px 36px rgb(4 30 66 / 12%);
+  box-shadow: 0 16px 36px rgb(0 43 92 / 13%);
 }
 
 .store-location svg {
@@ -1307,7 +1576,7 @@ a {
 
 .site-footer {
   color: var(--white);
-  background: #021731;
+  background: #001e3c;
 }
 
 .footer-grid {
@@ -1366,7 +1635,7 @@ a {
 }
 
 .footer-contact a {
-  text-decoration-color: rgb(53 167 214 / 55%);
+  text-decoration-color: rgb(19 181 234 / 62%);
   text-underline-offset: 0.25rem;
 }
 
@@ -1418,7 +1687,7 @@ a {
   background: var(--cyan-strong);
   border: 1px solid rgb(255 255 255 / 70%);
   border-radius: 50%;
-  box-shadow: 0 12px 28px rgb(4 30 66 / 20%);
+  box-shadow: 0 12px 28px rgb(0 43 92 / 22%);
   text-decoration: none;
   transition:
     background-color 160ms ease,
@@ -1454,6 +1723,10 @@ a {
 
   .authority-title-break {
     display: none;
+  }
+
+  .benefits-logo {
+    width: 13.75rem;
   }
 }
 
@@ -1501,6 +1774,55 @@ a {
 
   .section-intro--split > .section-copy {
     margin-top: 0;
+  }
+
+  .benefits-logo {
+    width: 11.25rem;
+  }
+
+  .destinations .section-heading {
+    max-width: 14ch;
+    font-size: clamp(2.35rem, 10vw, 3.5rem);
+    line-height: 1.03;
+  }
+
+  .benefits-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .benefit-card {
+    min-height: auto;
+  }
+
+  .benefit-card__cta {
+    margin-top: 1.75rem;
+  }
+
+  .benefits-steps ol {
+    grid-template-columns: 1fr;
+    gap: 1.35rem;
+  }
+
+  .benefits-steps li,
+  .benefits-steps li:first-child,
+  .benefits-steps li:last-child {
+    padding: 0;
+  }
+
+  .benefits-steps li + li {
+    padding-top: 1.35rem;
+    border-top: 1px solid rgb(255 255 255 / 16%);
+    border-left: 0;
+  }
+
+  .benefits-contact {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .button--benefits {
+    width: 100%;
+    min-width: 0;
   }
 
   .destinations-grid {
@@ -1574,6 +1896,14 @@ a {
 
   .differential-card {
     min-height: auto;
+  }
+
+  .card-number {
+    font-size: 3.5rem;
+  }
+
+  .benefit-card {
+    padding: 1.35rem;
   }
 
   .metrics-grid {
