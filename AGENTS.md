@@ -16,6 +16,25 @@ O subtree `plugins/v4-estruturacao-ia/` preserva as instruções herdadas da mat
 - Outputs existentes nunca podem ser modificados sem autorização explícita do usuário.
 - Credenciais, tokens, secrets e arquivos `.env` nunca devem ser lidos, copiados, exibidos ou expostos.
 
+## Camada operacional de landing pages
+
+As skills operacionais de landing pages ficam em `.agents/skills/`:
+
+- `client-knowledge-sync`;
+- `lp-source-audit`;
+- `lp-baseline-prepare`;
+- `lp-design-adapter`;
+- `lp-asset-pipeline`;
+- `lp-quality-gate`;
+- `lp-release`;
+- `lp-orchestrator`.
+
+Ao trabalhar com landing pages, o agente deve verificar se uma skill local é aplicável antes de improvisar procedimento equivalente. A matriz responde por estratégia, posicionamento, copy, CRO, identidade e outputs estruturados. A unidade responde por localizar a implementação, proteger a baseline, trabalhar código e aplicação visual, governar assets, executar QA, operar Git e preparar Preview. O subtree `plugins/v4-estruturacao-ia/` permanece somente leitura para essa camada.
+
+Não recriar na unidade posicionamento, CRO, Manual de Marca, diagnóstico criativo ou geração estratégica de copy quando os outputs aprovados da matriz já existirem. Esses outputs são entradas; nunca devem ser modificados pelas skills locais.
+
+Qualquer escrita exige escopo autorizado. Alterações de copy, links, claims e assets exigem autorização específica. Commit, push e Vercel Preview são autorizações independentes e não se autorizam mutuamente. Na V1, Production permanece desabilitada e `vercel --prod` é proibido. Ausência de informação crítica exige `STOP`.
+
 ## Segurança operacional
 
 - Uma auditoria de branch, estado do repositório, arquivos-alvo e escopo deve ocorrer antes de qualquer escrita.

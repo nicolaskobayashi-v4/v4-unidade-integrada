@@ -77,3 +77,58 @@ Data: 2026-07-22.
 - **Decisão para o mobile:** foi adotado o fluxo de criar primeiro a proposta mobile em HTML/CSS, validá-la localmente em 360, 390 e 430 px e, somente após aprovação para captura, usar Code to Canvas em execução separada para produzir um frame editável na cópia piloto do Figma. `generate_figma_design` continuará bloqueado até essa aprovação.
 - **Referência e aprovação:** o Figma desktop continua sendo a referência visual aprovada. A proposta mobile inicial no código não é design aprovado; o frame mobile somente se torna referência depois de revisão e aprovação humana no Figma. Nenhuma publicação ou Vercel Preview ocorrerá antes dessa aprovação.
 - **Impacto futuro:** a arquitetura deverá tratar fontes personalizadas como uma limitação explícita das operações diretas de escrita no Figma e separar a implementação local da captura Code to Canvas. Essa restrição e o fluxo de autorização granular deverão ser incorporados à futura skill.
+
+## Decisão arquitetural — camada operacional downstream da matriz
+
+Data: 2026-08-10.
+
+### Decisão
+
+Adotar `.agents/skills/` como camada operacional downstream da matriz para produção controlada de landing pages. A matriz continua responsável por estratégia e outputs estruturados; a unidade passa a coordenar auditoria de fontes, baseline, implementação, aplicação visual, assets, quality gate, Git e Vercel Preview.
+
+O plugin `plugins/v4-estruturacao-ia/` permanece somente leitura para essa camada. As skills locais consomem outputs aprovados e não herdam mutações de cliente/cache nem comandos de Production da matriz.
+
+### Evidência
+
+A decisão foi informada pelos pilotos:
+
+- Azul Viagens Bourbon Country;
+- Mina Pizza;
+- piloto do Instituto Salotti.
+
+Esses pilotos validam decisões de processo e fronteiras operacionais. Suas escolhas de composição, tecnologia, estrutura de arquivo, tipografia, cor ou assets não são regras visuais universais.
+
+### Decisões validadas
+
+- Code-first como fluxo operacional primário.
+- Auditoria somente leitura antes de qualquer edição.
+- Baseline imutável separada da cópia de trabalho.
+- Uma seção autorizada por execução; redesign completo ocorre em sucessivas execuções.
+- Revisão humana visual e responsiva.
+- Assets com origem, original e derivados separados.
+- Quality gate read-only antes de release.
+- Commit, push e Preview como autorizações independentes.
+- Vercel Preview separada de Production.
+- Production desabilitada na V1 e `vercel --prod` proibido.
+
+### Não adotado na V1
+
+- Figma como fluxo operacional principal.
+- GreatPages como destino implementado.
+- Sincronização bidirecional.
+- Scripts automáticos de processamento de imagens.
+- Playwright ou axe como dependências obrigatórias.
+- Deploy em Production.
+- Componentes visuais universais derivados dos pilotos.
+
+### Próxima evolução possível
+
+Sem implementação nesta decisão, poderão ser avaliados:
+
+- schemas para saídas operacionais;
+- reports estruturados;
+- automação técnica do asset pipeline;
+- quality gate automatizado;
+- fixtures e testes reprodutíveis.
+
+Qualquer evolução futura deve preservar os checkpoints humanos, a precedência contextual das fontes e a proibição de Production enquanto não houver decisão arquitetural e autorização próprias.
