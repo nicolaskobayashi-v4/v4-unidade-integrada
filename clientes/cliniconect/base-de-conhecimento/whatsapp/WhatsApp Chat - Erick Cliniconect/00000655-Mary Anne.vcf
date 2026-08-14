@@ -1,0 +1,7 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Anne;Mary;;;
+FN:Mary Anne
+item1.TEL;waid=557599016952:+55 75 9901-6952
+item1.X-ABLabel:Celular
+END:VCARD

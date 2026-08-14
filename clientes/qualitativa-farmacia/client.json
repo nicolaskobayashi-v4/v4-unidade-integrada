@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "name": "Qualitativa Farmácia de Manipulação",
+    "slug": "qualitativa-farmacia",
+    "workspace_id": null,
+    "created_at": "2026-07-30",
+    "modelo_venda": "pdv"
+  },
+  "briefing": {
+    "identification": {
+      "name": "Qualitativa Farmácia de Manipulação",
+      "contact_name": "Fábio dos Santos Carrilho",
+      "contact_role": "Sócio (representante legal no contrato)",
+      "segment": "Farmácia de manipulação — foco em emagrecimento, performance/ganho de massa, hormônios, fitoterápicos e vitaminas",
+      "annual_revenue": null,
+      "years_in_market": "21 anos",
+      "location": "Duque de Caxias, RJ (sede/laboratório central); 8 lojas no estado do RJ: 2 em Caxias, Piabetá (região de Madureira), Campo Grande, Bangu, Niterói, Barra",
+      "website": null,
+      "instagram": null,
+      "whatsapp": null,
+      "gmb": null
+    },
+    "product": {
+      "main_product": "Fórmulas manipuladas sob prescrição médica (foco em emagrecimento, performance/ganho de massa muscular, hormônios, fitoterápicos, vitaminas). Também vende produtos prontos/ativos próprios em menor escala (site + prescrição farmacêutica).",
+      "ticket": null,
+      "billing_model": "unico",
+      "sales_cycle": null,
+      "active_customers": null,
+      "most_profitable": null,
+      "growth_potential": null
+    },
+    "icp": {
+      "best_customers": null,
+      "not_customers": null,
+      "problems_before": null,
+      "results_after": null,
+      "churn_reasons": null
+    },
+    "competition": {
+      "competitors": [
+        {"name": "Florata", "perceived_differential": "aparece no Google (patrocinado e Google Maps) para 'farmácia manipulação Caxias RJ' — Qualitativa não aparece"},
+        {"name": "Biomolecular", "perceived_differential": "mesma situação: presença digital/SEO local ativa, aparece no patrocinado e orgânico do Google Maps"},
+        {"name": "Analítica", "perceived_differential": "percebida pelo próprio sócio (Fábio) como marca mais premium que a Qualitativa"}
+      ],
+      "real_differential": null,
+      "why_choose_us": null
+    },
+    "brand": {
+      "adjectives": null,
+      "voice_tone": null,
+      "admired_brands": null,
+      "current_colors": null,
+      "has_logo": null,
+      "restrictions": null
+    },
+    "digital_situation": {
+      "paid_traffic": false,
+      "platforms": null,
+      "monthly_investment": null,
+      "current_results": null,
+      "crm": "Chat Guru (atendimento/CRM integrado ao sistema); também usam BotConversa para disparos de campanha via número 'queimável' (~25.000 contatos na base)",
+      "lead_sources": "80-90% do faturamento vem de médicos e nutricionistas parceiros (acordo financeiro/bônus) que enviam prescrições; ~1-2% prescrição farmacêutica própria; ~1-2% venda de produtos prontos/ativos próprios; resto é reconhecimento de marca (21 anos)",
+      "conversion_rate": "~35% (sócio afirma 65% de não fechamento de orçamento/receita enviada)",
+      "biggest_pain": "Não é volume de leads/receitas recebidas — é a conversão: falta de padronização de atendimento entre lojas, falta de follow-up após enviar orçamento, tempo de resposta alto (testado via cliente oculto: 1h33min e 2h35min em lojas diferentes), alta rotatividade de funcionários e dificuldade de mão de obra qualificada no Rio de Janeiro"
+    },
+    "accesses": {
+      "meta_business": false,
+      "google_ads": false,
+      "google_analytics": false,
+      "google_search_console": false,
+      "instagram_admin": false,
+      "website_admin": false,
+      "crm": false,
+      "gmb": false,
+      "whatsapp_business": false
+    },
+    "sales_module": {
+      "active_sellers": "~40 a 50 (somando atendentes de loja/balcão e televendas/central)",
+      "sales_process": "Lead chega via prescrição de médico/nutricionista parceiro ou contato direto no WhatsApp da loja → mensagem automática pede a receita → atendente envia orçamento → frequentemente sem follow-up para saber se o cliente vai fechar. Processo não padronizado entre as 8 lojas. Central de teleatendimento com ~15 pessoas; objetivo declarado é centralizar todo o WhatsApp das lojas nessa central até o fim do ano, deixando as lojas só com atendimento de balcão.",
+      "objections": ["Preço — cliente compara com farmácias menores mais baratas e concorrência informal", "Percepção de que produto manipulado é substituível por opção mais barata/genérica (ex: colágeno C2 vs. alternativa de menor absorção)", "Demora na resposta / falta de acompanhamento leva à desistência do orçamento"],
+      "conversion_rate": "~35%",
+      "sales_cycle": null,
+      "has_scripts": false
+    }
+  },
+  "research": {
+    "fetched_at": null
+  },
+  "connectors": {
+    "fetched_at": null,
+    "integrations": null
+  },
+  "progress": {
+    "current_week": 1,
+    "skills": {
+      "ee-s1-persona-icp": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s1-auditoria-comunicacao": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s1-swot": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s2-pesquisa-mercado": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s1-arquitetura-presenca": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s2-diagnostico-midia": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s2-diagnostico-organico-ig": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s2-diagnostico-criativos": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s1-diagnostico-maturidade": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s2-posicionamento": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s3-pdv-base-ativa": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s3-pdv-gmn": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s3-pdv-experiencia": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s3-pdv-regua-whatsapp": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s3-manual-marca": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s3-landing-page": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s3-copy-anuncios": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s3-criativos-anuncios": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s3-crm-setup": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s5-scripts-sdr": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s5-sdr-ia-config": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s3-forecast-midia": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null}
+    }
+  },
+  "history": [
+    {
+      "ts": "2026-07-30T00:00:00Z",
+      "skill": "ee-novo-cliente",
+      "checkpoint": 0,
+      "decision": "Cliente cadastrado a partir da base de conhecimento existente (transcrição da call comercial de venda V4 x Qualitativa, 2776 linhas, e contrato assinado com 2 serviços: Análise Consultiva do Time de Vendas + Diagnóstico e Planejamento de Marketing e Vendas Digital). Modelo de venda definido como 'pdv': ~98% do faturamento vem de prescrições médicas/nutricionistas fechadas via WhatsApp por loja ou central telefônica, balcão físico em 8 lojas no RJ; site vende produto pronto mas é marginal (1-2%) — não há e-commerce estruturado nem inside-sales B2B consultivo. Concorrentes (Florata, Biomolecular) vieram de busca ao vivo do vendedor V4 na call, não de resposta direta do cliente — confirmar. Campos subjetivos de ICP, marca e diferencial real não encontrados (call era de venda/negociação, não de briefing) — ficaram null. Sem integração V4MOS (workspace_id não informado)."
+    }
+  ]
+}

@@ -270,11 +270,11 @@
         "completed_at": null
       },
       "ee-s3-landing-page": {
-        "status": "in_progress",
-        "version": 1,
-        "started_at": "2026-07-21",
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
         "completed_at": null,
-        "nota": "Rascunho de copy salvo em outputs/ee-s3-landing-page.json + .md, aguardando aprovação do operador antes de gerar código/deploy. Empurrado para o fim do cronograma originalmente por decisão conjunta com o cliente (possível rebranding global) — copy não depende do manual de marca oficial (13/08), só a aplicação visual depende."
+        "nota": "Empurrado para o fim do cronograma por decisão conjunta com o cliente (possível rebranding global)."
       },
       "ee-s3-copy-anuncios": {
         "status": "pending",
@@ -290,17 +290,18 @@
         "nota": "Cliente pediu explicitamente para não usar IA de forma genérica em criativos/LP finais."
       },
       "ee-s3-crm-setup": {
-        "status": "pending",
-        "version": 0,
-        "started_at": null,
-        "completed_at": null,
-        "nota": "Oportunidade clara: hoje não há CRM/automação de pós-venda nem nutrição de leads."
+        "status": "completed",
+        "version": 1,
+        "started_at": "2026-07-24T00:00:00-03:00",
+        "completed_at": "2026-07-24T00:00:00-03:00",
+        "nota": "Fluxo comercial de 9 etapas com dono único cada, desenhado especificamente pra não exigir adoção de ferramenta pela força de vendas descentralizada — CRM operado pelo SDR/marketing, associada só reporta demonstração e fechamento. Ponto de alavancagem: etapa 5 (handoff formal) resolve o conflito de atribuição relatado pela Cristiane. Especificação ainda não validada com Cleiton (mecânica real do C2S/bolsão) nem com Davi/Fábio (propostas de comissionamento relacionadas)."
       },
       "ee-s3-forecast-midia": {
-        "status": "pending",
-        "version": 0,
-        "started_at": null,
-        "completed_at": null
+        "status": "completed",
+        "version": 1,
+        "started_at": "2026-07-24T00:00:00-03:00",
+        "completed_at": "2026-07-24T00:00:00-03:00",
+        "nota": "3 cenários (Conservador/Base/Otimista) sobre taxa Lead→Demonstração reconstruída dos números históricos (13,6%-20,5%), não do dado de campo (0%) nem da meta aspiracional (70%). Achado central: mesmo o cenário conservador já pressiona a capacidade de demonstração atual — o forecast prova numericamente o gargalo de rede já identificado na SWOT. Motion de recrutamento (20% budget) modelado à parte, sem receita no trimestre. CPL do Google estimado via Keyword Planner real (adicionado pelo operador), não medido (tracking quebrado)."
       },
       "ee-s3-gmb-otimizacao": {
         "status": "pending",
@@ -310,17 +311,31 @@
       },
       "ee-s4-diagnostico-comercial": {
         "status": "completed",
-        "version": 2,
+        "version": 6,
         "started_at": "2026-07-16T00:00:00-03:00",
-        "completed_at": "2026-07-17T14:00:00-03:00",
-        "nota": "v2 (17/07): incorporado 2º teste de cliente oculto (Nicolas/Simone, 12/06-05/07) que muda a causa do gargalo — não é mais 'falta follow-up' genérico, são 2 causas distintas: (1) handoff quebrado quando o lead passa pela triagem central (Cleiton, 0 follow-up); (2) mesmo com follow-up humano funcionando (associada Simone, 3 contatos em 3 semanas), falta mecanismo estruturado de agendamento — promessas vagas nunca viram data travada. v1 (16/07): gargalo identificado no handoff 'associada confirmada' → 'demonstração agendada' com 1º teste real."
+        "completed_at": "2026-07-23T19:40:00-03:00",
+        "nota": "v3 (23/07): ampliado de 2 para 5 testes de cliente oculto (+ Adriana/região não identificada, + Ana Paula Soller/São Paulo — validando o pré-requisito de ee-s2-diagnostico-midia, + benchmark internacional Alemanha) e 2 entrevistas com vendedoras reais (Simone e Célia). Achado novo mais importante: mesmo as 2 associadas com melhor desempenho (SP e Alemanha) não reengajam lead que fica em silêncio — gargalo deixa de parecer regional (Londrina) e vira estrutural. Critério de MQL revisado com dado real de campo (Simone: capacidade de pagamento + motivo de saúde + região sem vulnerabilidade social). Adicionado bloco `sdr_recommendation` resolvendo a dúvida levantada pelo cliente na reunião de 17/07: SDR interno dedicado, com escopo específico (horário fixo no agendamento + cadência de reengajamento + filtro de qualificação pré-handoff), não um SDR terceirizado genérico. v2 (17/07): 2 causas distintas (handoff quebrado na triagem central; falta de mecanismo de agendamento mesmo com follow-up humano funcionando). v1 (16/07): gargalo identificado no handoff 'associada confirmada' → 'demonstração agendada' com 1º teste real."
+      },
+      "ee-s5-scripts-sdr": {
+        "status": "completed",
+        "version": 1,
+        "started_at": "2026-07-24T00:00:00-03:00",
+        "completed_at": "2026-07-24T00:00:00-03:00",
+        "nota": "Roteiros de WhatsApp escritos na voz do Manual de Copy já existente (usado como substituto informal de ee-s3-brandbook, ainda pending), com a mecânica de agendamento corrigida pelos achados de campo: horário fixo sempre oferecido, abertura de bolsão formalizada a partir da associada Cristiane, cadência de reengajamento D+1/D+3/D+7, objeções reaproveitadas de ee-s4-diagnostico-comercial."
+      },
+      "ee-s5-sdr-ia-config": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null,
+        "nota": "Pulado a pedido explícito do operador em 24/07/2026 ('sdr ia pode pular'). Dependência ee-s3-crm-setup já está pronta (v1) quando o operador quiser retomar."
       },
       "ee-s4-cliente-oculto": {
         "status": "completed",
-        "version": 2,
+        "version": 3,
         "started_at": "2026-07-16T00:00:00-03:00",
-        "completed_at": "2026-07-17T14:00:01-03:00",
-        "nota": "v2 (17/07): nota geral ajustada para 3,6/10 com o 2º caso (Nicolas/Simone) — mostra que follow-up humano genuíno acontece (3 contatos em 3 semanas) quando a associada certa está engajada, mas mesmo assim a demonstração não é agendada por falta de mecanismo estruturado. Achado novo mais importante: o problema não é só cultura de atendimento, é ausência de processo de marcação de data. v1 (16/07): nota 3,2/10, baseada só no teste com o Cleiton (zero follow-up)."
+        "completed_at": "2026-07-23T17:00:01-03:00",
+        "nota": "v3 (23/07): nota geral ajustada para 3,9/10 (era 3,6) com 3 novos testes (Adriana, São Paulo, Alemanha como benchmark à parte). Novo critério de avaliação 'reengajamento de lead silencioso' (nota 1/10) — achado mais grave da rodada, replicado nas 2 melhores associadas testadas (SP e Alemanha). Bloco `benchmark_internacional` adicionado com o caso Alemanha, tratado separado do score brasileiro. v2 (17/07): nota 3,6/10 com o 2º caso (Nicolas/Simone). v1 (16/07): nota 3,2/10, baseada só no teste com o Cleiton."
       },
       "ee-s2-diagnostico-organico-ig": {
         "status": "completed",
@@ -332,6 +347,66 @@
     }
   },
   "history": [
+    {
+      "ts": "2026-07-24T02:00:00-03:00",
+      "skill": "ee-s3-forecast-midia",
+      "checkpoint": 1,
+      "decision": "Antes de rodar, premissas foram trazidas ao operador para validação prévia (boa prática dado o histórico de dados imprecisos do projeto). Operador validou/decidiu: (1) taxa Lead→Demonstração recalculada por engenharia reversa (vendas atribuídas à mídia ÷ taxa demonstração→venda de 33% = ~45 demos implícitas ÷ 220 leads Meta = 20,5%), com faixa de 13,6%-20,5% mantida visível por causa de inconsistência real encontrada nos dados de origem (briefing cita também '30 demos geram 15 vendas', que implicaria 50%, não 33%); (2) CPL do Google recalculado a partir de um Keyword Planner real (226 termos, arquivo 'Keyword Stats 2026-07-24.csv') que o operador adicionou à pasta dados-midia-paga — achado novo: volume de busca por termos de saúde/alergia pura é quase nulo (10-20/mês), volume real concentrado em marca própria (3.780/mês, CPC ~R$3,16) e Rainbow (9.130/mês, CPC ~R$13,20); CPL estimado (R$80-150, R$100 usado) por falta de dado de conversão real (tracking do Google segue quebrado); (3) budget mantido flat (R$13.500-15.000/mês, sem crescimento) por decisão explícita do operador; (4) split 80% consumidor / 20% recrutamento, definido pelo operador como não-agressivo para não secar a fonte de leads das próprias associadas; (5) capacidade de demonstração tratada como OUTPUT do modelo (não input), a pedido explícito do operador, para evidenciar a necessidade de mais associadas; (6) meta de 100-150 máquinas/mês confirmada como meta geral (citada na reunião de pesquisa de mercado, S2 30/06) sem prazo de 3 meses específico atrelado — tratada como meta de médio/longo prazo, não do trimestre. Modelo construído em 3 cenários (Conservador/Base/Otimista) com ramp-up da taxa de conversão ao longo dos 3 meses, refletindo maturação esperada dos fixes já entregues (ee-s5-scripts-sdr, ee-s3-crm-setup). Motion de recrutamento modelado separadamente, sem contar receita no trimestre (defasagem de treinamento/ativação ultrapassa a janela). Achado central do exercício: mesmo o cenário conservador (30-35 demonstrações/mês necessárias) já pressiona a capacidade hoje implícita (30-45/mês, dado impreciso) — o forecast de mídia, construído com números do próprio histórico do cliente, comprova numericamente a tese do GTM Motion (gargalo é capacidade, não geração de lead). Cenário conservador termina com CAC pior que o atual (R$950 vs R$900) — usado como argumento de que mídia sem correção de execução destrói valor. honesty_alert registrado listando todas as estimativas não medidas. Outputs salvos em outputs/ee-s3-forecast-midia.json + .md."
+    },
+    {
+      "ts": "2026-07-24T01:15:00-03:00",
+      "skill": "ad-hoc-gtm-motion-estrategia",
+      "checkpoint": 1,
+      "decision": "Peça central da consolidação do plano de ação (Semana 5), pedida pelo operador como 'a parte mais importante dessa entrega final'. Definido e justificado o modelo de GTM Motion ideal cruzando TODOS os outputs do projeto. Motion principal recomendado: Network-Led Growth (rede de associados como motor de aquisição/conversão/retenção, não mídia paga) — justificado por 4 evidências convergentes: (1) já é 75% da receita histórica; (2) é o único motion compatível com o gargalo real já identificado (capacidade de demonstração, não demanda — ee-s1-swot Fr3 + ee-s2-pesquisa-mercado, penetração <0,01%/ano mesmo na meta); (3) padrão sem exceção entre Hinode/Herbalife/Mary Kay/Amway e as próprias operações internacionais da Hyla (França/Alemanha/Bélgica/EUA) — nenhuma trata mídia paga como motor principal; (4) validado diretamente pela melhor associada do projeto (Ana Paula Soller: leads de indicação convertem melhor que leads de propaganda). Flywheel do motion detalhado (associada vende → cliente satisfeito indica e é candidato a recrutamento → novo associado expande capacidade → repete). Explicitado que ee-s3-crm-setup, ee-s5-scripts-sdr e estrategia-clusters-associados.md não são trabalhos à parte — são a camada de execução que faz esse flywheel não vazar conversão (conectando diretamente com o achado de 0% de agendamento em 5 de 5 testes de cliente oculto). Motions complementares imediatos definidos: Recruitment-Led Growth (funil de recrutamento dedicado, separado do funil de consumidor) e Remote-Assisted Digital Sales (formalizar o modelo já provado pela Cristiane). Mídia paga redefinida como motion de suporte, não principal, com papel específico (captura de demanda de alta intenção + financiar recrutamento) e pré-requisito técnico (corrigir evento de conversão do Google antes de realocar budget). Motions potenciais mapeados para avaliação futura, cada um com pré-requisito claro de por que não é prioridade agora: Content/Authority-Led (depende de limpeza técnica do site), Affiliate/Embaixadora Digital (depende de infraestrutura de e-commerce rastreável), B2B/Account-Based (volume ainda pequeno, 5%). Sequenciamento proposto em 3 horizontes (0-30, 30-90, 90+ dias). Ponto de alavancagem identificado como o mais importante da reunião: risco organizacional de continuar medindo sucesso por investimento em mídia em vez de por crescimento de rede (associadas ativas por cluster, taxa de recrutamento de clientes satisfeitos) — pergunta explícita formulada para Davi e Fábio validarem na reunião de entrega. honesty_alert registrado: inferência estruturada de evidência convergente, não experimento controlado; prazos são estimativa de esforço, não compromisso validado. Outputs salvos em outputs/gtm-motion-estrategia.json + .md."
+    },
+    {
+      "ts": "2026-07-24T00:30:00-03:00",
+      "skill": "ee-s5-scripts-sdr",
+      "checkpoint": 1,
+      "decision": "Operador pediu para rodar ee-s5-scripts-sdr e pular ee-s5-sdr-ia-config por ora. Dependência formal ee-s3-brandbook segue pending — operador indicou usar o Manual de Copy (base-de-conhecimento/Manual de Copy _ Hyla do Brasil.md, documento completo com PUV, SWOT, arquétipos de marca, tom de voz, personas, guia de canais incluindo WhatsApp/C2S) e o Manual de Design (PDF, checado — só paleta de cores/identidade visual, sem conteúdo de tom de voz adicional) como substitutos informais do brandbook, com regra explícita: sempre priorizar o que foi validado em reunião/campo sobre o que os manuais sugerem genericamente. Achado importante: o próprio Manual de Copy já tinha uma seção de WhatsApp com um exemplo de abordagem — mas esse exemplo terminava com pergunta aberta de agendamento ('qual o melhor horário'), exatamente o padrão que ee-s4-diagnostico-comercial provou que falha em 5 de 5 testes de campo. Corrigido em todos os roteiros: agendamento sempre com horário fixo oferecido. Roteiros escritos: abertura padrão (qualificação de saúde + autoexclusão combinadas), abertura de bolsão (formalizando a abordagem real da associada Cristiane), pergunta de preferência online/presencial, oferta de agendamento com horário fixo, cadência de reengajamento D+1/D+3/D+7, e 7 respostas de objeção (reaproveitando objection_map de ee-s4-diagnostico-comercial, incluindo a objeção nova do DDD e a confusão com 'extratora'). Tom de voz documentado à parte (diretrizes reaproveitadas do manual: nunca vender preço direto, espelhar áudio, nunca urgência varejista, nunca falar mal de concorrente, sempre ancorar em saúde/causa raiz). honesty_alert registrado: roteiros não testados em campo nesta versão, recomendado validar com Cristiane/Simone antes de distribuir pra rede. Outputs salvos em outputs/ee-s5-scripts-sdr.json + .md. ee-s5-sdr-ia-config registrado como pending, explicitamente pulado a pedido do operador — dependência (ee-s3-crm-setup) já pronta para quando ele quiser retomar."
+    },
+    {
+      "ts": "2026-07-24T00:00:00-03:00",
+      "skill": "ee-s3-crm-setup",
+      "checkpoint": 1,
+      "decision": "Formalizado a pedido do operador, consolidando toda a discussão sobre fluxo comercial, SDR e priorização de bolsão numa especificação única de CRM. Escopo definido em conjunto com o operador: SDR é dono só até o agendamento (etapas 1-6 de 9), associada entra só nas etapas finais (demonstração e fechamento) — desenho deliberado pra minimizar fricção de adoção pela força de vendas descentralizada, resposta direta ao pushback do operador (23/07) contra impor um CRM tipo Kommo pra todas as associadas. Pipeline de 9 etapas com dono e campos-chave por etapa. Ponto de alavancagem identificado: etapa 5 (handoff formal) — é o único ponto que resolve sozinho o conflito de atribuição relatado pela Cristiane (cliente já atendido sendo re-registrado para outra associada no C2S). Incorporada a priorização de bolsão em 3 níveis (Ouro/Prata/Bronze) discutida com o operador, e as 2 propostas de comissionamento (split atendimento/demonstração — precisa validação Davi/Fábio; recrutamento da própria base — já funciona com o plano atual, ação imediata). Campo de timestamp nas etapas 1 e 5 desenhado especificamente para permitir validar a hipótese aberta em ee-s4-diagnostico-comercial (se 'baixa qualidade de lead' é sintoma de handoff lento). Ferramenta recomendada: Kanban leve (Trello/planilha) na fase inicial, não CRM robusto — decisão de migrar pra ferramenta mais pesada fica pra quando houver dado real de uso. honesty_alert registrado: é especificação, não implementação — mecânica do C2S/bolsão descrita por 1 associada em entrevista qualitativa, não confirmada tecnicamente com o Cleiton. Outputs salvos em outputs/ee-s3-crm-setup.json + .md. Status da skill atualizado de pending para completed (v1). Desbloqueia/alimenta ee-s5-scripts-sdr e ee-s5-sdr-ia-config."
+    },
+    {
+      "ts": "2026-07-23T19:40:00-03:00",
+      "skill": "ee-s4-diagnostico-comercial",
+      "checkpoint": 6,
+      "decision": "Operador propôs uma hipótese própria para revisão: a 'baixa qualidade de lead' relatada por 5 vendedoras não seria uma característica intrínseca do lead, e sim sintoma de demora no handoff — o lead esfria antes de ser abordado, especialmente os que caem no 'bolsão' nacional (mecânica revelada pela Cristiane). Avaliação do assistente: hipótese plausível (a mecânica do bolsão é exatamente esse tipo de atraso), mas não totalmente compatível com os 5 testes de cliente oculto já feitos, onde o primeiro contato foi rápido na maioria dos casos (SP <5min, Cleiton 6min) e mesmo assim nenhum fechou agendamento — sugerindo que os leads testados (via formulário) e os leads reclamados como 'ruins' pelas vendedoras (possivelmente via bolsão) podem ser populações diferentes, sem dado de tempo confirmando a teoria ainda. Operador solicitou registrar como hipótese aberta (não confirmada). Novo campo `hipoteses_abertas` adicionado a ee-s4-diagnostico-comercial.json com a teoria completa, argumentos a favor/contra e 2 formas de validação sugeridas (export de timestamp do C2S; pergunta direta às vendedoras sobre tempo de abordagem). Se confirmada no futuro, os problemas 'baixa qualidade de lead' e 'handoff/atribuição quebrados' deixam de ser itens separados no diagnóstico e passam a ser tratados como causa e efeito. Outputs atualizados: ee-s4-diagnostico-comercial.json/.md (v6)."
+    },
+    {
+      "ts": "2026-07-23T19:20:00-03:00",
+      "skill": "ad-hoc-estrategia-clusters-associados",
+      "checkpoint": 2,
+      "decision": "estrategia-clusters-associados.md atualizado com o caso da Cristiane (ver ee-s4-diagnostico-comercial checkpoint 5 para o achado completo). Nova seção 3.1 documenta que o modelo 'associada digital' dos benchmarks internacionais já existe e funciona no Brasil, com 7 anos de histórico — muda a recomendação de 'testar' para 'formalizar e replicar'. Adicionada 'Onda 0' às ondas de investimento (seção 5): formalizar e documentar o roteiro de venda remota da Cristiane, com prioridade de implementação mais alta que os clusters geográficos novos (Brasília, BH, RJ), por ter custo de implementação muito menor — não depende de presença física em lugar nenhum. Adicionadas 2 perguntas abertas ao operador: se há outras associadas operando nesse modelo, e como funciona de fato a mecânica do 'bolsão' nacional de leads de SP não atendidos."
+    },
+    {
+      "ts": "2026-07-23T19:15:00-03:00",
+      "skill": "ee-s4-diagnostico-comercial",
+      "checkpoint": 5,
+      "decision": "Operador recebeu um áudio de 9 minutos da vendedora Cristiane (Goiânia/GO, DDD 62, representa a marca há 7 anos) em resposta à pergunta padrão sobre qualidade de lead. Achado mais importante de toda a rodada de entrevistas com vendedoras: Cristiane já opera 100% remoto, sem nunca fazer demonstração presencial, vendendo pro Brasil inteiro via áudio/vídeo/chamada, com fechamento rápido (lead à tarde, pagamento no almoço seguinte) — inclusive vencendo à distância um vendedor presencial da Rainbow que estava dentro da casa da cliente. Isso é a primeira evidência real de que o modelo 'associada digital' recomendado nos benchmarks internacionais (França/Bélgica, já documentado em canal-associados-benchmark-franca.md e benchmark-internacional-associados-e-midia.md) já existe e funciona no Brasil — deixa de ser recomendação a testar e vira caso a formalizar e replicar. Ela também pediu explicitamente que a V4 investigasse o alto volume de 'leads mudos' (não respondem ligação, mensagem nem e-mail) — 5ª vendedora a confirmar esse padrão, com o adicional de que ela já esgota múltiplos canais antes de desistir. Revelou 2 mecânicas operacionais não documentadas: o 'bolsão' nacional (leads de SP não atendidos a tempo caem num pool disputado por qualquer associada, gerando desconfiança do lead pelo DDD errado) e conflito de atribuição no C2S (clientes que ela já atende via WhatsApp às vezes são re-registrados para outra associada quando voltam ao site). interview_insights ampliado para 5 vendedoras. Novo item no objection_map (desconfiança de DDD diferente). 2 novos key_findings adicionados. Outputs atualizados: ee-s4-diagnostico-comercial.json (v5). Achado também incorporado à estratégia de clusters (ver próxima entrada) como uma nova 'Onda 0' de investimento, com prioridade mais alta que qualquer cluster geográfico novo por ter menor custo de implementação."
+    },
+    {
+      "ts": "2026-07-23T18:30:00-03:00",
+      "skill": "ad-hoc-estrategia-clusters-associados",
+      "checkpoint": 1,
+      "decision": "Operador pediu para montar uma estratégia de clusters de associados pensando como estratégia de entrada em novos mercados, usando a pesquisa de mercado já existente e benchmarks de outras marcas de venda direta/MLM brasileiras (Hinode, Herbalife, Mary Kay, Amway). Pesquisa web mostrou padrão comum aos 4 players: nenhum trata o Brasil como mercado uniforme — todos concentram investimento em clusters regionais liderados por uma pessoa forte (Herbalife: 1 distribuidor lidera 450 supervisores; Mary Kay: 'diretoras madrinhas' patrocinam remotamente cidades novas; Amway: showrooms em 4 capitais espalhadas por região, incluindo Curitiba; Hinode: concentração regional deliberada, Nordeste é 45% do volume apesar de SP ser maior mercado geral). Cruzado com dados internos: `ee-s2-pesquisa-mercado` já provou que o SAM é nacional e o gargalo é capacidade de demonstração, não geografia; Curitiba/PR já é um cluster nascendo organicamente (associada Simone cobrindo a região à distância, já repassando bons endereços pro Cleiton com melhora de qualidade de lead observada); Brasília foi identificada como candidato forte por ter a maior renda per capita entre regiões metropolitanas do Brasil (R$4.401) e já ter uma 'equipe nova' mencionada no kick-off, ainda não formalizada. As 4 entrevistas com vendedoras (Simone, Célia, Ana Paula Soller, Silvia) reforçam o racional: leads de indicação convertem melhor que leads de mídia paga fria segundo a própria Ana Paula Soller ('só é bom quando já conhece ou algum amigo indicou... não porque veio com a propaganda da Hyla') — argumento direto a favor de investir em crescer a rede de associados, não só em mídia. Proposta de 3 ondas de investimento: Onda 1 (formalizar o cluster do Paraná que já existe), Onda 2 (continuar SP, cluster maduro), Onda 3 (abrir Brasília com critério, avaliar Belo Horizonte/Rio de Janeiro/Porto Alegre como candidatos futuros, ainda sem dados de campo). Documento também resolve o pushback do operador sobre a recomendação anterior de CRM/Kommo (registrada em `ee-s4-diagnostico-comercial` v3): concordância de que nenhum dos 4 benchmarks pesquisados força adoção de CRM pela força de vendas descentralizada — ajuste registrado de que o rastreamento de compromissos deve ficar centralizado na camada V4/SDR interno, não distribuído para as associadas, com ferramenta potencialmente mais leve que um CRM completo. Output salvo em outputs/estrategia-clusters-associados.md (sem par .json — segue o padrão dos outros documentos ad-hoc do projeto, ex: canal-associados-benchmark-franca.md). Resolve o item de ação 'mapear clusters' da reunião de 17/07. Aguardando validação do operador antes de incorporar ao plano de GTM da Semana 5."
+    },
+    {
+      "ts": "2026-07-23T18:00:00-03:00",
+      "skill": "ee-s4-diagnostico-comercial",
+      "checkpoint": 4,
+      "decision": "Operador subiu 2 novas entrevistas diretas com vendedoras (Ana Paula Soller — a mesma associada de São Paulo testada como cliente oculto no Caso 4 de ee-s4-cliente-oculto — e Silvia). Ambas confirmam o mesmo padrão já visto com Simone e Célia: leads centralizados via C2S frequentemente 'não sabem do que se trata' o produto ou 'não têm condições' financeiras. Achado novo e mais estratégico, vindo da Ana Paula (a associada com melhor desempenho de todo o projeto): leads de indicação/boca a boca convertem melhor que leads vindos da propaganda/mídia paga da própria Hyla — evidência de campo que embasa diretamente a proposta de estratégia de clusters registrada no mesmo dia (ver ad-hoc-estrategia-clusters-associados). Bloco `interview_insights` de ee-s4-diagnostico-comercial.json ampliado de 2 para 4 vendedoras entrevistadas (Simone, Célia, Ana Paula Soller, Silvia). data_source e honesty_alert atualizados. Não foi necessário recalcular funil ou nota do cliente oculto — as novas entrevistas são qualitativas, sem novo teste de campo de agendamento. Outputs atualizados: ee-s4-diagnostico-comercial.json (v4)."
+    },
+    {
+      "ts": "2026-07-23T17:00:00-03:00",
+      "skill": "ee-s4-diagnostico-comercial",
+      "checkpoint": 3,
+      "decision": "Operador subiu material novo à base-de-conhecimento (pasta clientes-ocultos/ reorganizada por região + pasta entrevista-vendedores/): 3 novos testes de cliente oculto (Adriana/região não identificada, Ana Paula Soller/São Paulo — o teste que faltava desde ee-s2-diagnostico-midia v2 como pré-requisito antes de comprometer a reestruturação de budget concentrada em SP —, e um benchmark internacional na Alemanha com a associada Daniela Wolf), mais a primeira entrevista direta (não disfarçada) com uma vendedora (Simone, conduzida pelo Lucas como V4 em 23/07) e um depoimento espontâneo por texto de outra vendedora (Célia), ambos colhidos para responder ao item de ação da reunião de 17/07 sobre entender o que é um lead bom/ruim direto de quem vende. Resultado agregado: 5 de 5 testes de cliente oculto (4 Brasil + Alemanha) terminam sem demonstração agendada — confirma e generaliza o achado da v2, que antes parecia limitado a Londrina. Achado novo e mais grave: as 2 associadas com melhor desempenho de todo o projeto (São Paulo, com o melhor handoff já registrado — 5 vídeos+foto+áudio em <5min — e a Alemanha) simplesmente não reengajam o lead quando ele para de responder no meio da conversa (6 e 4 dias de silêncio, respectivamente) — nem a pergunta de agendamento em si é feita com horário fixo em nenhum dos 5 casos, sempre pergunta aberta. A entrevista com a Simone forneceu, pela primeira vez, um critério de MQL vindo de campo real (capacidade de pagamento + motivo de saúde explícito + região sem sinais de vulnerabilidade social — ela citou 'tipo COHAB' como exemplo de região ruim) e revelou confusão recorrente de leads entre o Hyla e uma 'extratora' comum — cruza com o achado já registrado em ee-s2-diagnostico-midia sobre budget de mídia concentrado no cluster genérico 'aspirador de pó'. O depoimento da Célia ('a maior parte não responde... conversão muito baixa') confirma o mesmo padrão de forma independente. Adicionado bloco novo `sdr_recommendation` em ee-s4-diagnostico-comercial.json respondendo diretamente à dúvida que o cliente levantou na reunião de 17/07 sobre contratar ou não um SDR: veredito é sim, mas com escopo específico (fechar agendamento com horário fixo + cadência de reengajamento D+1/D+3/D+7 + filtro de qualificação pré-handoff usando o critério da Simone), modelo recomendado é SDR interno dedicado (não terceirizado genérico, para não repetir a tentativa anterior sem ganho líquido já registrada no briefing), com pré-requisito de ee-s3-crm-setup (ainda pending) para rastrear compromissos. Critérios de qualificação (5 a 1-2 estrelas) reescritos incorporando os sinais reais da Simone em vez de só inferência do ICP. Nota geral do cliente oculto ajustada de 3,6 para 3,9/10 — leve alta pelo handoff excelente de SP, quase compensada pelo novo gargalo de reengajamento (nota 1/10, novo critério). Caso da Adriana segue em aberto na data deste registro (última interação 21/07), sinalizado explicitamente no honesty_alert. Material da Bélgica (SMS + 2 ligações relatadas verbalmente) permanece pendente de transcrição das ligações, não incorporado a esta rodada. Outputs atualizados: ee-s4-diagnostico-comercial.json/.md e ee-s4-cliente-oculto.json/.md (ambos v3)."
+    },
     {
       "ts": "2026-07-17T14:00:00-03:00",
       "skill": "ee-s4-diagnostico-comercial",
@@ -523,18 +598,6 @@
       "skill": "ad-hoc",
       "checkpoint": 1,
       "decision": "Operador pediu link publico pra compartilhar com o Gestor de Trafego, com acesso a todos os outputs (nao so o portal). Artifacts do Claude exigem plano Team/Enterprise pra compartilhar externamente (nao disponivel). scripts/render_portal.sh tem deploy automatico pro Vercel, mas hardcoded pro scope \"v4-company\", que nao esta acessivel pra conta calefi-9592 (so tem o time pessoal calefi-9592s-projects). Operador optou por deploy manual no time pessoal em vez de pausar pra resolver acesso ao time da empresa. Deploy feito manualmente (fora do render_portal.sh): index.html (indice por semana) + view.html (leitor de markdown client-side via marked.js, ja que .md puro nao renderiza em navegador) + portal.html + consolidated.html + todos os 16 arquivos de outputs/*.md copiados como estaticos. Publicado em https://hyla-deploy.vercel.app sob o time pessoal do operador -- nao o time v4-company. Pendencia: mover para o time v4-company quando o operador tiver acesso."
-    },
-    {
-      "ts": "2026-07-21T00:00:00-03:00",
-      "skill": "ee-s2-posicionamento",
-      "checkpoint": 2,
-      "decision": "Correção factual: 'garantia vitalícia' estava incorreta em ee-s1-swot e ee-s2-posicionamento (.md + .json). Davi confirmou em transcrição ([S2] Pesquisa de Mercado, 01:16:55) que a garantia vitalícia 'é um projeto, hoje não existe' — a garantia real é de 15 anos. O que é vitalício de fato é o treinamento de uso, mantido como benefício separado. Todas as ocorrências corrigidas nos dois outputs, preservando as menções reais a comissão/treinamento vitalícios. Pendência aberta: ee-s1-persona-icp.md tem o mesmo erro em 3 lugares, correção adiada a pedido do operador."
-    },
-    {
-      "ts": "2026-07-21T00:00:00-03:00",
-      "skill": "ee-s3-landing-page",
-      "checkpoint": 1,
-      "decision": "Rascunho completo da copy da LP de captação (consumidor final, aspirador-hyla-do-brasil) gerado e salvo em outputs/ee-s3-landing-page.json + .md, status in_progress (aguardando aprovação do operador). Reposiciona o headline de 'limpeza' (atual, no ar) para 'causa da alergia', conforme o ponto de alavancagem já aprovado em ee-s2-posicionamento. Reintroduz garantia (15 anos, corrigida) e 17 anos de mercado, ausentes na página atual. Reduz FAQ de 14 para 7 perguntas, cortando itens genéricos sem valor de objeção real. Mantém os depoimentos reais já publicados no site. 6 decisões deixadas em aberto para o operador (formulário curto no topo, CTA de formulário vs WhatsApp, LP separada para recrutamento de associada, sem promessa de prazo de resposta dado o achado de ee-s4-diagnostico-comercial, fotos de depoimentos, e aplicação visual aguardando manual de marca de 13/08). Código/deploy ainda não gerados — dependem de aprovação da copy."
     }
   ]
 }

@@ -1,0 +1,1059 @@
+[01/08/2024, 14:28:21] UNIAIR + V4: ‎As mensagens e ligações são protegidas com a criptografia de ponta a ponta. Somente as pessoas que fazem parte da conversa podem ler, ouvir e compartilhar esse conteúdo.
+[01/08/2024, 14:28:21] UNIAIR + V4: ‎Um admin criou este grupo
+[13/03/2026, 10:01:42] UNIAIR + V4: ‎~ Giulia Raposo adicionou você
+[13/03/2026, 11:06:20] Calefi: Bom dia, pessoal! @⁨Ana Uniair⁩ 
+
+Eu (Lucas Calefi) e o @⁨Matheus V4 SCN&co⁩ (Matheus Nunes) somos da V4 SCN&Co aqui de Londrina/PR, estamos realizando a transição aqui no grupo com vocês
+
+Eu sou o Coordenador de Operações e o @⁨Matheus V4 SCN&co⁩ é o Gerente da unidade de Londrina.
+
+Estamos adentrando nas contas e já conduzindo as análises para as próximas ações.
+
+Seria possível para vocês realizar o primeiro check-in conosco na TERÇA-FEIRA 10h?
+[13/03/2026, 12:28:09] Ana Uniair: Vou verificar e te retorno obrigada Calefi
+[16/03/2026, 11:59:41] ~ Wagner Luiz: Olá pessoal! Passando para agradecer pela confiança e pela parceria durante todo esse tempo no projeto. Foi um prazer acompanhar o crescimento e os resultados de vocês.Hoje me despeço do grupo, mas desejo muito sucesso para as novas pessoas que assumirão o projeto daqui para frente.
+[16/03/2026, 16:14:39] Ana Uniair: Oii Wagner
+[16/03/2026, 16:14:42] Ana Uniair: Obrigada pela parceria!!
+[16/03/2026, 16:14:47] Ana Uniair: confirmado.
+[16/03/2026, 16:46:30] Calefi: Mandei no e-mail de vocês
+[16/03/2026, 16:51:09] Ana Uniair: Obrigada confirmamos
+[17/03/2026, 09:02:38] Calefi: Bom dia, pessoal!
+
+Hoje temos o check-in do projeto
+
+Acesso: meet.google.com/jdh-nkvj-hki
+Horário: 10h (Brasília)
+
+Conto com vocês! 🚀🚀🚀
+[17/03/2026, 09:15:16] Ana Uniair: Bom dia, obrigada pelo envio.
+[17/03/2026, 09:20:14] ~ Giulia Raposo: Bom dia, pessoal! Obrigada pela parceria até aqui, fico na torcida para o bom desenvolvimento dessa nova etapa do projeto.
+[17/03/2026, 11:38:48] Ana Uniair: Calefi, a partir de quando vai incluir aquela ferramenta no whats?
+[17/03/2026, 11:39:00] Ana Uniair: ''Kommo'' é isso?
+[17/03/2026, 11:40:05] Calefi: Logo que trocarmos o formulário na LP plugamos ele, para aproveitar todos os 14 dias
+[17/03/2026, 11:40:23] Calefi: Isso, Kommo CRM
+[17/03/2026, 11:45:19] Ana Uniair: beleza
+[17/03/2026, 12:01:51] Ana Uniair: Um case bom pra fazer o cliente oculto é Chile - SP
+[17/03/2026, 12:01:54] Ana Uniair: Ou Chile - Poa
+[17/03/2026, 12:02:03] Ana Uniair: E ver como que cada um atua
+[17/03/2026, 12:02:05] Ana Uniair: aeromédico
+[17/03/2026, 14:38:50] Calefi: @⁨Ana Uniair⁩ esse e-mail você possui acesso? uniairsocialmedia@gmail.com
+[17/03/2026, 15:02:46] Ana Uniair: Oii simm
+[17/03/2026, 15:38:12] Calefi: foi um e-mail para aprovar a vinculação da nossa conta nesse e-mail
+[17/03/2026, 15:38:23] Calefi: é só clicar, ir no acesso e vai ter escrito lá para liberar
+[17/03/2026, 15:38:36] Calefi: provavelmente ele vai pedir a senha para confirmar a ação
+[17/03/2026, 15:38:47] Calefi: ai precisa só clicar no SIM de novo depois de colocar a senha
+[18/03/2026, 06:45:18] Felipe Chernev: ‎Você adicionou Felipe Chernev
+[18/03/2026, 16:23:22] Ana Uniair: Desculpaa
+[18/03/2026, 16:23:24] Ana Uniair: Vi só agora
+[19/03/2026, 09:03:31] Ana Uniair: Bom dia
+‎[19/03/2026, 09:03:35] Ana Uniair: isso é teste? tá faltando infos ‎imagem ocultada
+[19/03/2026, 09:03:36] Ana Uniair: origem e destino
+[19/03/2026, 09:06:48] Calefi: Bom dia, Ana. 
+
+Na LP de aeromédico não estava pegando essas informações, fiz a vinculação já só para não deixar o lead cair no limbo. Estou ajustando o formulário dela para o formato que discutimos
+
+
+
+
+
+https://taxiaereo.uniair.com.br/aeromedico
+[19/03/2026, 09:07:06] Ana Uniair: Perfeito
+[19/03/2026, 09:07:10] Ana Uniair: Então não é teste, isso?
+[19/03/2026, 09:07:18] Calefi: é lead de verdade, podem abordar
+[19/03/2026, 09:09:36] Calefi: vocês viram o e-mail que enviei para vocês em ana.ribeiro@uniair.com.br, daniele.villeroy@uniair.com.br ?
+[19/03/2026, 09:10:24] Ana Uniair: Sim
+[19/03/2026, 09:10:51] Ana Uniair: E no whatsapp não estão mais recebendo a mensagem automática também, acredito que seja parte da veiculação mas só pra registrar mesmo.
+[19/03/2026, 09:13:49] Calefi: sim, preciso pegar o acesso do z-api para vincular essa parte na automação
+
+conseguimos um horário hoje tanto para pegar o acesso do Google Ads quanto do Z-API?
+‎[19/03/2026, 09:14:14] Ana Uniair: feedback kkk estão querendo vaga precisamos filtrar isso também ‎imagem ocultada
+[19/03/2026, 09:14:22] Ana Uniair: com certeza
+[19/03/2026, 09:14:34] Calefi: putz
+[19/03/2026, 09:15:33] Calefi: @⁨Felipe Chernev⁩ marca um horário com a Ana hoje para fazer isso, estou em reunião com a matriz hoje o dia todo
+[19/03/2026, 09:22:00] Felipe Chernev: Bom dia ! Tudo bem?
+
+Tem algum horário hoje para entrarmos em um vídeo chamada Ana? 
+@⁨Ana Uniair⁩
+[19/03/2026, 10:01:16] Ana Uniair: Oi Felipe bom dia
+[19/03/2026, 10:01:30] Ana Uniair: pode ser a tarde? 14h?
+[19/03/2026, 10:01:40] ~ Priscila Rocha: ‎Mensagem apagada
+[19/03/2026, 10:02:30] Felipe Chernev: Ana, nesse horário tenho compromisso na agenda , pode ser as 15h?
+[19/03/2026, 10:02:35] Ana Uniair: Pode
+[19/03/2026, 10:02:54] Felipe Chernev: Combinado
+[19/03/2026, 10:05:15] Felipe Chernev: Acessos com Uniair 
+Quinta-feira, 19 de março · 3:00 – 4:00pm
+Fuso horário: America/Sao_Paulo
+Como participar do Google Meet
+Link da videochamada: https://meet.google.com/uwh-tkro-nqc
+Ou disque: (BR) +55 19 4560-9560 PIN: 343 497 421#
+Outros números de telefone: https://tel.meet/uwh-tkro-nqc?pin=2208456190675
+[19/03/2026, 10:58:22] Ana Uniair: Sobre o teu email @⁨Calefi⁩
+‎[19/03/2026, 10:58:37] Ana Uniair: ‎<anexado: 00003057-VIDEO-2026-03-19-10-58-37.mp4>
+[19/03/2026, 12:03:56] Calefi: Ana, não fiz alterações do site
+
+https://taxiaereo.uniair.com.br/executivo
+
+Minha lp é essa
+‎[19/03/2026, 13:27:00] Ana Uniair: esse erro nunca tinha ocorrido... sabe me dizer o que houve? ‎imagem ocultada
+[19/03/2026, 13:27:06] Ana Uniair: ahh, pra nós no wifi abre o site kkk
+[19/03/2026, 13:27:58] Ana Uniair: Estou na LP agora
+[19/03/2026, 13:28:03] Ana Uniair: Quando preencher a cidade
+[19/03/2026, 13:28:09] Ana Uniair: precisávamos que tivesse os nomes prontos
+[19/03/2026, 13:28:16] Ana Uniair: Pois o cliente pode escrever o que quiser ali
+[19/03/2026, 13:28:26] Ana Uniair: colocar só o estado ao invés da cidade entende?
+‎[19/03/2026, 13:31:01] Calefi: ele está mandando o número cru pro sistema e ele entende o "+" como formula, trocando isso auqi ‎imagem ocultada
+[19/03/2026, 13:31:19] Calefi: entendi, vou adaptando isso aqui
+[19/03/2026, 13:31:28] Ana Uniair: o erro que me refiro, é o pessoal procurando por vaga de emprego
+‎[19/03/2026, 13:37:18] Calefi: esses são os termos que trouxeram as pessoas entre ontem e hoje, acredito que não tenha nenhum em específico que remeta diretamente à alguém enviando curriculo, vou precisar colocar o corte no formulário mesmo. Vou adicionar isso nas adaptações que estarei fazendo junto com o que você trouxe ‎imagem ocultada
+[19/03/2026, 13:37:38] Calefi: sempre veio essas pessoas de curriculo ou foi algo que aconteceu agora só?
+[19/03/2026, 13:46:44] Calefi: configuração do pessoal de TI ai?
+[19/03/2026, 14:04:48] Ana Uniair: aconteceu só agora
+[19/03/2026, 14:05:01] Ana Uniair: não sei te dizer
+[19/03/2026, 15:05:03] Felipe Chernev: Boa tarde Ana, estou online por aqui
+[19/03/2026, 15:05:11] Ana Uniair: Tá bem
+[19/03/2026, 15:10:43] Ana Uniair: to tendo um probleminha
+[19/03/2026, 15:10:44] Ana Uniair: mas ja acesso
+[19/03/2026, 15:10:55] Felipe Chernev: Tranquilo Ana
+‎[20/03/2026, 10:27:41] Ana Uniair: @⁨Calefi⁩ to me assustando com esses leads kk tá pior ‎imagem ocultada
+[20/03/2026, 11:19:59] Ana Uniair: E quando os leads vão voltar a cair na planilha?
+Para o nosso acompanhamento está bem ruim assim..
+[20/03/2026, 11:48:52] Felipe Chernev: Bom dia, Ana! Tudo bem?
+
+O Calefi provavelmente está na estrada no momento e pode estar sem sinal para responder agora. Já está previsto que ele consiga acessar após o almoço.
+
+Assim que ele retornar, deve te dar um posicionamento rapidamente, ok? 
+Fico à disposição por aqui também se precisar de algo nesse meio tempo.
+[20/03/2026, 11:53:22] Ana Uniair: Ok muito obrigada Felipe
+[20/03/2026, 12:58:40] Calefi: Boa tarde @⁨Ana Uniair⁩ acabei de chegar. 
+
+Vou colocar esse form na LP oficial, fiz a alteração que tu solicitou, só valide para mim que eu implemento e eles passarão a ir para a planilha
+
+https://taxiaereo.uniair.com.br/executivo
+[20/03/2026, 12:59:02] Calefi: apenas o primeiro botão está com a configuração alterada
+[20/03/2026, 13:00:03] Calefi: estou vendo aqui de onde está vindo esse pessoal para estancar isso.
+
+implementamos as ações hoje ainda
+[20/03/2026, 13:06:35] Ana Uniair: Oii, ok obrigada
+[20/03/2026, 13:08:49] Ana Uniair: Calefi, os aeromédicos estão entrando na planilha
+[20/03/2026, 13:09:04] Ana Uniair: Mas os táxi aéreo executivo não e nem no e-mail, estão vindo direto no whats nos chamar, to achando estranho
+‎[20/03/2026, 15:40:00] Ana Uniair: ‎imagem ocultada
+[20/03/2026, 15:40:04] Ana Uniair: Gente isso tá me assustando real
+[20/03/2026, 15:40:18] Ana Uniair: Essas campanhas estão tensas demais, precisamos corrigir o quanto antes
+‎[20/03/2026, 15:50:24] Calefi: estou buscando mapear as palavras que trouxeram essas pessoas, mas acredito que possam ser essas aqui, já estou negativando de imediato essas palavras por serem muito amplas ‎imagem ocultada
+[20/03/2026, 15:53:54] Ana Uniair: tá bem
+‎[20/03/2026, 16:33:01] Ana Uniair: ‎<anexado: 00003094-PHOTO-2026-03-20-16-33-01.jpg>
+[20/03/2026, 16:33:02] Ana Uniair: Mais um...
+[20/03/2026, 16:33:09] Ana Uniair: Isso nunca tinha acontecido gente
+[20/03/2026, 16:39:23] Calefi: Nossa! Mais estranho é que não mexemos na campanha de Aeromédico ainda. No WhatsApp do táxi aéreo está sem esses casos né? Só aeromedico né?
+[20/03/2026, 16:39:39] Ana Uniair: sim só no aeromédico
+[20/03/2026, 16:39:41] Ana Uniair: to apavorada!!!
+[20/03/2026, 18:06:50] Calefi: @⁨Ana Uniair⁩ 
+
+Fiz algumas alterações hoje para eliminar estes casos que vêem acontecendo:
+- Negativação de algumas palavras relacionadas à transporte terrestre como AMBULÂNCIA (se pesquisada sozinha)
+- Adicionei no formulário da página de aeromédico a pergunta "Motivo do contato", caso seja Trabalhar na Uniair ou Passagem Aérea a pessoa é descartada da planilha
+- Para otimizar e melhorar as conversões no Google Ads, caso a pessoa responda estes casos que não estamos buscando (curriculo e passagem por exemplo), ela não será contabilizada como conversão para o Google, logo o Google não vai buscar pessoas parecidas com estas e contaremos conversões apenas dos leads qualificados
+[23/03/2026, 08:39:27] Ana Uniair: Bom dia pessoal, tudo certo?
+Os leads do aeromédico estão entrando na planilha.
+Porém os executivos não estão entrando, isso nos prejudica na hora de manter contato e de saber quantos orçamentos entraram.
+
+Consegue verificar isso hoje @⁨Calefi⁩ por gentileza?
+Obrigada.
+[23/03/2026, 11:22:41] Calefi: Bom dia, Ana. Vou realizar a mudança agora!
+
+Quando estiver pronto aviso aqui
+[23/03/2026, 14:17:24] Calefi: Fiz a troca, a partir de agora está indo para a planilha
+[23/03/2026, 14:24:38] Ana Uniair: Obaaaa
+[23/03/2026, 14:24:39] Ana Uniair: KKKK
+‎[23/03/2026, 15:00:52] Calefi: inclusive, a Barbara fica respondendo os e-mails com isso aqui, o que significa? ‎imagem ocultada
+[23/03/2026, 16:06:54] Ana Uniair: Isso é só para sinalizar o número da solicitação no sistema
+[23/03/2026, 16:07:04] Ana Uniair: e que ela está em contato com o lead no whats ‎<Mensagem editada>
+[24/03/2026, 08:23:52] Ana Uniair: Bom dia,
+No whats, podemos implementar a mensagem automática novamente? 
+Isso nos ajuda bastante também.
+‎[24/03/2026, 09:51:46] Ana Uniair: E FALTA CORRIGIR QUE NOS ORÇAMENTOS OS LEADS PRECISAM PREENCHER CIDADE DE ORIGEM E DESTINO ‎imagem ocultada
+[24/03/2026, 09:51:56] Ana Uniair: foi em caps mals kkk
+[24/03/2026, 09:52:45] Calefi: Separei um pedaço do dia para focar nisso
+
+Inclusive, vou precisar gerar um código novo, esse whatsapp (Z-API) está vinculado com algum outro sistema de vocês?
+
+Quando eu gerar o código novo ele vai parar de funcionar a integração de disparo (já mapeei isso com o time, mas melhor confirmar com vocês novamente)
+[24/03/2026, 10:00:05] Ana Uniair: não está vinculado a mais nada
+[24/03/2026, 11:07:50] Ana Uniair: @⁨Calefi⁩ com a outra equipe eles tinham uma plataforma pra envio de email marketing, se eu te fornecer um card e uns e-mails, conseguimos disparar?
+[24/03/2026, 11:45:39] Calefi: vou ver isso com o time
+[24/03/2026, 14:25:49] Calefi: Chegou um código no e-mail comercial@uniair.com.br
+[24/03/2026, 14:26:04] Ana Uniair: 670603
+‎[25/03/2026, 16:59:14] Ana Uniair: ‎imagem ocultada
+[25/03/2026, 16:59:17] Ana Uniair: Mais um querendo vaga..
+[25/03/2026, 17:00:59] Calefi: esse ai furou o bloqueio
+[25/03/2026, 17:01:46] Calefi: https://docs.google.com/spreadsheets/d/1i8ZkJpZwvdj0FJtOxBbU3wc_KYci1wuEutl4q5xUZ7E/edit?pli=1&gid=1344746724#gid=1344746724&range=A1
+
+Aqui na planilha fiz a aba REFUGO
+
+Os leads que preenchem as coisas que não buscamos estão indo para lá
+[26/03/2026, 08:45:55] Ana Uniair: Bom dia
+‎[26/03/2026, 08:46:09] Ana Uniair: esse lead selecionou uti aérea mas entrou como executivo... ‎imagem ocultada
+[26/03/2026, 14:28:24] Ana Uniair: Oi, conseguem verificar e corrigir esse erro?
+[26/03/2026, 14:29:16] Calefi: ele converteu na página de Taxi Aéreo Executivo
+
+é preferível eu mandar ele para Aeromédico neste caso então?
+[26/03/2026, 14:29:42] Calefi: Na LP de Taxi aéreo ele preencheu o form pedindo aeromedico
+[26/03/2026, 14:30:00] Ana Uniair: Sim, se ele selecionar serviço aeromédico pra nós precisa aparecer como aeromedico e ir pra aba de aeromedico la na nossa planilha
+[26/03/2026, 16:40:51] Calefi: https://docs.google.com/document/d/1YvM5chhsMMLIgF1dn79KXPFucuPtY49o81x3ROTLcpk/edit?usp=sharing
+
+Turma, vi que já alteraram parte do site, passei pelas páginas e notei que os botões de cotação que ficam no centro da página não estão funcionando em sua maioria
+
+Coloquei no documento acima
+[26/03/2026, 16:41:32] Ana Uniair: Boaa
+[26/03/2026, 16:41:34] Ana Uniair: Vou verificar
+‎[31/03/2026, 14:07:35] Calefi: Boa tarde, epssoal!
+
+Vi que responderam ao meu e-mail de notificação do lead, no caso precisam enviar a mensagem para o e-mail do lead. Ela provavelmente não recebeu este e-mail aqui ‎imagem ocultada
+[31/03/2026, 14:08:21] Calefi: Alias, podemos marcar um check-in do nosso projeto amanhã no periodo da tarde?
+
+Qual seria o melhor horário para vocês?
+[31/03/2026, 14:27:38] Ana Uniair: Pode ser 15h
+[01/04/2026, 13:58:58] Calefi: Boa tarde @⁨Ana Uniair⁩ 
+
+O check-in do projeto está agendado para hoje 15 horas.
+
+Acesso: meet.google.com/odu-dwvw-knc
+
+Conto contigo! 🛫
+[01/04/2026, 14:12:48] Ana Uniair: Oi ok
+‎[01/04/2026, 15:45:34] Ana Uniair: ‎<anexado: 00003136-Priscila Now.vcf>
+[01/04/2026, 16:40:57] ‎Você: ‎‎Você mudou a descrição do grupo
+‎[01/04/2026, 16:40:08] Calefi: [260401] Check-in ROPRE _ Uniair.pdf • ‎9 páginas ‎documento omitido
+[01/04/2026, 16:40:52] Calefi: Acesso Kommo CRM:
+
+https://www.kommo.com/br/
+Login: comercial@uniair.com.br
+Senha: Uniair@V4
+[02/04/2026, 10:04:05] Felipe Chernev: Bom dia, time tudo bem?
+
+Qual seria o melhor dia para enviar os saldos de investimentos do Metae Google?
+[02/04/2026, 10:06:04] Felipe Chernev: O saldo no meta finalizou, podemos encaminhar a primeira tomada de investimento do Meta?
+[02/04/2026, 15:01:40] Calefi: @⁨Ana Uniair⁩
+[02/04/2026, 15:01:56] Ana Uniair: Opaa
+[02/04/2026, 15:02:07] Ana Uniair: Positivo
+[02/04/2026, 15:02:12] Ana Uniair: financeiro@uniair.com.br
+[02/04/2026, 15:02:29] Ana Uniair: e em cópia sempre para daniele.villeroy@uniair.com.br e ana.ribeiro@uniair.com.br
+[02/04/2026, 15:05:54] Felipe Chernev: Ana, posso enviar por Pix mesmo ou preferem boleto?
+[02/04/2026, 15:06:06] Ana Uniair: Sempre boleto
+[02/04/2026, 15:06:24] Felipe Chernev: Beleza
+[02/04/2026, 15:13:55] Felipe Chernev: Enviado Ana, obrigado !
+[02/04/2026, 15:19:30] Ana Uniair: Eu que agradeço
+[07/04/2026, 17:10:11] Ana Uniair: boa tarde
+[07/04/2026, 17:10:35] Ana Uniair: @⁨Calefi⁩ saberia me informar o valor investido e o valor de venda total em março?
+[07/04/2026, 17:25:15] Calefi: levantando isso para vocês
+[07/04/2026, 17:25:31] Ana Uniair: obrigada
+‎[08/04/2026, 08:58:44] Calefi: [260407] Check-in ROPRE _ Uniair (1).pdf • ‎9 páginas ‎documento omitido
+[08/04/2026, 09:00:56] Ana Uniair: colocamos realizado e o valor
+[08/04/2026, 09:00:57] Ana Uniair: bom dia
+[10/04/2026, 08:42:23] Calefi: Bom dia, @⁨Ana Uniair⁩ 
+
+Temos nossa reunião hoje 15h
+
+Acesso: meet.google.com/vgs-bsfe-iwb
+[10/04/2026, 08:42:46] Ana Uniair: Bom dia, ok
+[10/04/2026, 10:59:33] Ana Uniair: Não está entrando orçamentos, será que está tudo certo?
+[10/04/2026, 11:01:40] Calefi: Eu estou acompanhando isso desde quarta, chequei as automações e estão todas operantes. Estou buscando o que pode ter causado isso
+[10/04/2026, 11:02:06] Ana Uniair: ok
+[10/04/2026, 14:55:37] Ana Uniair: 5min tá?
+[10/04/2026, 14:56:10] Calefi: ok
+[11/04/2026, 11:24:28] ‎Você: ‎‎Você mudou a descrição do grupo
+[11/04/2026, 11:29:23] Calefi: Bom dia, pessoal
+
+Conforme conversamos ontem no Check-in, no link abaixo vocês consegue acompanhar a entrada de leads diariamente. O dashboard é atualizado a cada 1h, mas vocês podem pedir para atualizar nos 3 pontinhos.
+
+https://lookerstudio.google.com/reporting/c08c1af4-1020-411a-83c1-66630be62dd4
+
+Outro ponto é o acesso ao Kommo, por lá vocês conseguem acompanhar as mensagem no whatsapp, notei alguns clientes sem follow-up.
+
+Sobre follow-up, eu estou conduzindo cliente oculto com alguns concorrentes, até agora a Brasil Vida foi a unica que fez follow up da cotação
+[11/04/2026, 11:29:23] Calefi: Deixei os links na descrição do grupo
+[13/04/2026, 09:56:24] ~ Daniele Villeroy - Uniair: Bom diaaa,
+[13/04/2026, 09:57:00] ~ Daniele Villeroy - Uniair: Lucas, a Ana está em férias
+[13/04/2026, 09:57:48] ~ Daniele Villeroy - Uniair: tivemos somente 4 solicitações de orçamento ao todo durante o final de semana, nem todas advindas do Google.
+[13/04/2026, 09:57:58] ~ Daniele Villeroy - Uniair: Entramos no link que você compartilhou
+‎[13/04/2026, 09:58:02] ~ Daniele Villeroy - Uniair: ‎imagem ocultada
+[13/04/2026, 09:58:21] ~ Daniele Villeroy - Uniair: este Dashboard nos mostra nenhum lead ontem nem hoje
+‎[13/04/2026, 09:58:27] ~ Daniele Villeroy - Uniair: ‎figurinha omitida
+[13/04/2026, 10:00:02] Calefi: @⁨Felipe Chernev⁩ adianta o diagnóstico para agora de manhã para verificar isso aqui
+[13/04/2026, 10:00:49] Calefi: Vou verificar o que pode ter dado de diferente aqui no dashboard. Ele funciona em paralelo com a planilha de vocês, pode ser que foi para um e não para o outro
+[13/04/2026, 10:01:10] ~ Daniele Villeroy - Uniair: ta certo
+[13/04/2026, 10:03:33] ~ Daniele Villeroy - Uniair: Não entrou na plailha também
+[13/04/2026, 10:03:36] ~ Daniele Villeroy - Uniair: somente teu teste ‎<Mensagem editada>
+[13/04/2026, 11:47:22] ~ Daniele Villeroy - Uniair: Encontraram algo divergente?
+[13/04/2026, 11:47:30] ~ Daniele Villeroy - Uniair: estamos muito preocupados
+[13/04/2026, 11:49:37] Felipe Chernev: Estamos analisando o motivo aqui Dani!
+[13/04/2026, 12:20:47] ~ Daniele Villeroy - Uniair: ta ok
+[14/04/2026, 15:47:26] ~ Daniele Villeroy - Uniair: Boa Tarde, Lucas e Felipe ‎<Mensagem editada>
+[14/04/2026, 15:48:23] ~ Daniele Villeroy - Uniair: Ainda sem receber orçamento
+[14/04/2026, 15:48:46] ~ Daniele Villeroy - Uniair: tá complicado
+[14/04/2026, 16:02:36] Calefi: Boa tarde, Daniele. Vi que chegou uma Milena. Não chegou para vocês ai?
+[14/04/2026, 16:03:28] ~ Daniele Villeroy - Uniair: sim, 1 desde ontem
+[14/04/2026, 18:44:58] Calefi: Turma, encontrei o possível causador da baixa demanda, realizei uma ação para neutralizar isso, já está aplicado. Vou seguir monitorando como a performance se dá após essa ação.
+[15/04/2026, 09:41:55] ~ Daniele Villeroy - Uniair: Bom dia pessoal
+[15/04/2026, 09:48:41] Calefi: Bom dia, Daniele
+[15/04/2026, 09:48:53] ~ Daniele Villeroy - Uniair: estamos passando por um momento muito crítico
+[15/04/2026, 09:49:04] ~ Daniele Villeroy - Uniair: o número de orçamentos está absurdamente baixo
+[15/04/2026, 09:49:10] ~ Daniele Villeroy - Uniair: o pior da história da Uniair
+[15/04/2026, 09:49:47] ~ Daniele Villeroy - Uniair: temos uma meta de de 2.5k e 600 mil vendido
+[15/04/2026, 09:49:57] ~ Daniele Villeroy - Uniair: advindos de contatos recorrentes
+[15/04/2026, 09:50:03] ~ Daniele Villeroy - Uniair: está muito ruim
+[15/04/2026, 09:50:47] ~ Daniele Villeroy - Uniair: não sei qual o problema que encontraram ontem Lucas mas desde dia 08 não se fecha 1 mão em orçamentos
+[15/04/2026, 09:51:35] ~ Daniele Villeroy - Uniair: sobre nosso orçamento, preciso que reduza 3.500 do investimento (verba),porque vou precisar realocar ‎<Mensagem editada>
+[15/04/2026, 09:52:12] ~ Daniele Villeroy - Uniair: mês que vem a gente vê como ficam os valores novamente
+‎[15/04/2026, 09:53:11] ~ Daniele Villeroy - Uniair: ‎<anexado: 00003202-AUDIO-2026-04-15-09-53-11.opus>
+‎[15/04/2026, 09:57:30] Calefi: ‎<anexado: 00003203-AUDIO-2026-04-15-09-57-30.opus>
+[15/04/2026, 09:59:57] ~ Daniele Villeroy - Uniair: Amém
+[15/04/2026, 10:00:00] ~ Daniele Villeroy - Uniair: estamos aguardando
+[15/04/2026, 10:00:05] ~ Daniele Villeroy - Uniair: 💪🏻
+‎[16/04/2026, 10:53:16] ~ Daniele Villeroy - Uniair: ‎<anexado: 00003207-AUDIO-2026-04-16-10-53-16.opus>
+[16/04/2026, 16:25:29] Felipe Chernev: Boa tarde Dani, tudo bem?
+
+Entendo perfeitamente sua preocupação e já estamos agindo para reverter isso. Hoje mesmo otimizei as campanhas atuais para ganhar performance e criei novos públicos focados em aeromédico para atrair mais leads!
+
+Além disso, abri um chamado com o suporte do Google para auditar qualquer erro técnico que possa estar travando as entregas. Estou monitorando de perto para que os orçamentos voltem a entrar o quanto antes e te mantenho atualizado!
+[16/04/2026, 17:14:35] ~ Daniele Villeroy - Uniair: Olhem por favor as cobranças das campanhas. O único cartão que deve estar sendo utilizado é o da Uniair Táxi e ha pouco recebi um comunicado de recusa de R$2.000 no cartão da Admin final 1329.
+[16/04/2026, 17:19:33] Felipe Chernev: Perfeito entao Dani
+‎[16/04/2026, 17:20:08] Felipe Chernev: O cartão com final 1329 não tenho permissão para remover da conta de anúncios, somente o proprietário da conta ‎<anexado: 00003211-PHOTO-2026-04-16-17-20-08.jpg>
+‎[16/04/2026, 17:20:46] Felipe Chernev: Foi solicitado um novo pagamento no cartão final 6001, seria esse o correto ? ‎<anexado: 00003212-PHOTO-2026-04-16-17-20-46.jpg>
+[17/04/2026, 10:50:50] ~ Daniele Villeroy - Uniair: esse a gente não usa mais faz tempo
+[17/04/2026, 10:50:56] ~ Daniele Villeroy - Uniair: precisamos tirar
+[17/04/2026, 10:51:08] ~ Daniele Villeroy - Uniair: mas o que dve ser utlizado é o final 1627
+[17/04/2026, 10:51:13] ~ Daniele Villeroy - Uniair: somente este ‎<Mensagem editada>
+[17/04/2026, 10:56:46] Felipe Chernev: Bom dia Dani, tudo bem?
+[17/04/2026, 10:57:11] Felipe Chernev: Podemos marcar um video chamada rapidinho para adicionar esse cartão com final 1627?
+‎[17/04/2026, 10:57:32] Felipe Chernev: A forma de pagamento que o Google esta nos dando e somente esses daqui ‎imagem ocultada
+[17/04/2026, 11:00:33] ~ Daniele Villeroy - Uniair: posso te enviar os dados do cartão e na sequência você apaga ai?
+[17/04/2026, 11:01:14] Felipe Chernev: Pode sim
+[17/04/2026, 11:02:13] ~ Daniele Villeroy - Uniair: enviado no Pv do Felipe
+[17/04/2026, 11:27:08] ~ Daniele Villeroy - Uniair: pessoal,t ava olhando awui o gráfico
+‎[17/04/2026, 11:27:10] ~ Daniele Villeroy - Uniair: ‎<anexado: 00003224-PHOTO-2026-04-17-11-27-10.jpg>
+[17/04/2026, 11:27:42] ~ Daniele Villeroy - Uniair: falando com as meninas aqui
+[17/04/2026, 11:27:56] ~ Daniele Villeroy - Uniair: como são tão poucos conseguimos acompanhar bem
+[17/04/2026, 11:28:07] ~ Daniele Villeroy - Uniair: mas não identificamos esses qualificados
+[17/04/2026, 11:28:29] ~ Daniele Villeroy - Uniair: a qualificação de vocês tem algum parâmetro ou somos nós que qualificamos ou desqualficamos?
+[17/04/2026, 11:57:26] Calefi: Essa qualificação é definida no formulário.
+
+O critério de qualificação é a finalidade do contato:
+- Se for Passagem Aérea ou Trabalhar na Uniair ele é desqualificado
+- Os demais são qualificados pela finalidade (Aeromédico; fretamento; inspeção; cargas)
+[17/04/2026, 11:57:37] Calefi: sei que vcs desqualificam muitas vezes por GEO
+[17/04/2026, 11:58:15] ~ Daniele Villeroy - Uniair: Geo, desconhecimento (sem noção de valor)...
+[17/04/2026, 11:58:43] Calefi: os que vieram estão sem noção de valor?
+[17/04/2026, 11:59:04] Calefi: pq Geo eu sei que dependendo pode compensar, é mais complexo né
+[17/04/2026, 11:59:17] Calefi: não tem uma regra clara né?
+[17/04/2026, 11:59:36] ~ Daniele Villeroy - Uniair: @⁨~Alciane⁩ e @⁨~Priscila Rocha⁩ podem discorrer um pouco sobre os leads de ontem?
+[17/04/2026, 12:10:20] ~ Alciane: Bom dia, a questão da qualificação é muito sensível.
+Ex. é a Luana que solicitou um voo Paraná x Paraná. 
+Ela quer um voo de helicóptero dentro da própria cidade e já entraria como não atende GEO.
+[17/04/2026, 12:10:50] ~ Alciane: Qualificamos aqui ou não, depois que conseguimos conversar com o cliente e entender se ele realmente sabe o que está solicitando
+[17/04/2026, 12:12:05] ~ Priscila Rocha: Sim. 
+Boa tarde, pessoal 
+O lead  aeromedico 'ANDREA' ainda estou conversando
+[17/04/2026, 12:12:51] ~ Priscila Rocha: Talvez até seja qualificado, mas não quer dizer que vai fechar.
+[17/04/2026, 12:28:35] ~ Alciane: Olha pessoal, faz muito tempo que não entra um lead se quer aeromédico do PR e nem aqui do RS. SC também não
+[17/04/2026, 12:28:45] ~ Alciane: Estes estados são onde temos base operacional
+[17/04/2026, 12:29:12] ~ Alciane: Eu não consigo acreditar que ninguém tenha necessidade de transporte
+[17/04/2026, 12:29:59] ~ Alciane: Aqui no Mercosul, não temos nada também
+[17/04/2026, 12:35:48] ~ Alciane: Nosso diretor Presidente acabou de vim aqui na sala nos cobrando, querendo saber de voos, como está a demanda
+[17/04/2026, 12:36:08] ~ Alciane: Hoje é dia 17 e atingimos 40% da meta
+[17/04/2026, 13:03:54] Calefi: Vou traçar alguma ação aqui para forçar vir mais leads dessa região.
+
+Quando vem dessa região a probabilidade de fechar é maior né?
+[17/04/2026, 13:06:53] Calefi: O qualificado que eu demonstro lá no relatório é o qualificado de marketing, que conseguimos puxar pela resposta do formulário.
+
+Depois que entra qualificado de marketing, tem uma fase de qualificação de vendas, que é isso que vocês fazem de verificar viabilidade de local e se ele realmente sabe o que está pedindo.
+
+A gente separa assim para poder ter uma resposta imediata para as campanhas e para o marketing se o lead está no perfil.
+[23/04/2026, 08:52:59] ~ Priscila Rocha: Bom dia, pessoal!
+
+Entre ontem e hoje recebemos apenas dois orçamentos executivos.
+Como estão as campanhas de aeromédico? Conseguiram alinhar a questão das nossas bases de saída das aeronaves, que tem maior probabilidade de conversão?
+[23/04/2026, 10:52:04] Calefi: Bom dia, só confirmando contigo, durante o final de semana o volume aumentou mesmo né? A queda que eu estou vendo ali está só ontem e hoje, já estamos verificando o que pode ter causado.
+
+Sobre as campanhas para o SUL, nós ajustamos os investimentos, diminuímos em todos, ela é a que mantivemos o maior investimento
+[23/04/2026, 15:58:05] ~ Alciane: Boa tarde, @⁨Calefi⁩ e equipe! Só para reforçar o que já tínhamos falado e que você perguntou outro dia sobre a probabilidade de fechamentos: sim, sempre que as solicitações são mais próximas das nossas bases somos muito mais competitivos e isso é importante para fechar voos. 
+Lembrando então, que temos bases operacionais em RS, PR e SP. Todas as solicitações nestes estados e em estados vizinhos temos muito mais probabilidade de fechar. 
+Se tivermos uma solicitação, por exemplo do norte ou nordeste para uma das regiões das nossas bases ou próxima a elas somos competitivos também. 
+Agora não somos competitivos se surgir um voo dentro do estado de Acre, por exemplo, ou seja, de uma cidade para outra, dentro do mesmo estado,  muito distante das nossas bases operacionais. 
+Eu estava relendo o que falamos acima e achei melhor complementar.
+[23/04/2026, 15:58:25] ~ Alciane: Ainda precisamos vender bastante para bater a meta
+[23/04/2026, 15:58:32] ~ Alciane: Contamos com vocês
+[23/04/2026, 16:19:45] Calefi: estamos juntos nessa.
+
+na nossa campanha temos RS, PR e SP
+
+SP acaba puxando muita verba para ele
+
+e SC está lá também mas reduzido.
+
+SC não é interessante para vocês?
+[23/04/2026, 16:36:30] ~ Alciane: É interessante sim, todos os estados próximos às nossas bases são. 
+SC e MS estão entre e próximos
+[23/04/2026, 16:36:34] ~ Alciane: Mercosul tb
+[24/04/2026, 10:00:39] Felipe Chernev: Bom dia, pessoal! Tudo bem? 
+
+Fiz alguns ajustes técnicos nas campanhas de Search para priorizar os estados que estão performando melhor! 
+Foquei o orçamento nas campanhas que trouxeram conversões com CPL baixo (Aeromédico Sul/Sudeste) e ajustei os lances por estado para garantir que os estados do Sul continue com o maior alcance, como planejado. Estou monitorando de perto para fecharmos o mês com o melhor aproveitamento possível!
+[24/04/2026, 10:02:11] Felipe Chernev: Inclusive, Alciane, aproveitando o que você comentou ontem sobre SC: eu removi uma trava de lance negativo que tínhamos lá. 
+
+Com isso, a campanha vai ganhar mais força em Santa Catarina agora para testarmos esse volume, já que é uma região estratégica para as bases de vocês. Vou acompanhando o retorno aqui!
+[24/04/2026, 10:11:46] ~ Alciane: Bom dia, @⁨Felipe Chernev⁩ ! Obrigada, precisamos mesmo fechar com o melhor aproveitamento possível. 
+Se tiverem dúvidas, perguntem, pois precisamos estar alinhados para alcançar nosso objetivo que é sempre bater e até superar nossa meta estabelecida e contamos com os Leads para isso
+[28/04/2026, 08:30:58] Ana Uniair: Bom dia pessoal, passando para avisar que retornei de férias.
+Podemos marcar nossa reunião para os ajustes @⁨Calefi⁩ ?
+[28/04/2026, 08:51:43] Calefi: Bom dia. Consegue reunião hoje 16h?
+[28/04/2026, 08:57:15] Ana Uniair: Mas, já estou revisando os dados das campanhas e também acompanhando as trocas aqui no grupo para entender melhor o cenário das últimas semanas.
+
+Inclusive já identifiquei alguns pontos importantes que precisamos alinhar com prioridade na nossa reunião:
+
+Tivemos uma queda muito relevante no volume de conversões, campanhas limitadas por orçamento, o que impactou diretamente nossa presença nos leilões, estamos no leilão competindo somente com: grupocmdsaude.com.br, brasilvida, setetaxiaereo, sendo que em março nós competíamos com o triplo disso... deixamos de competir com alguns players mais relevantes e passamos a aparecer em um ambiente mais restrito.
+
+Nossa parcela de impressão caiu de forma significativa, o que indica que deixamos de participar de boa parte das buscas estratégicas.
+
+Além disso, há um desalinhamento claro entre o que está sendo considerado lead qualificado no marketing e o que de fato é viável comercialmente para a UniAir (principalmente em relação a GEO e perfil de demanda).
+Percebi que estamos falando línguas diferentes..
+
+Pra V4 eu percebi que é entendido que o lead é qualificado se preencheu o formulário corretamente... 
+
+E no comercial o lead é qualificado depois de, entender rota, ver viabilidade GEO e após enviarmos o orçamento ver que o lead tem conhecimento sobre o valor investido.. 
+
+
+Diante disso, precisamos reorganizar a operação com foco em performance real.
+
+Sugiro alinharmos os seguintes pontos com prioridade:
+
+1. Revisão da estratégia de investimento e distribuição de orçamento entre campanhas
+2. Reestruturação das campanhas com separação clara entre aeromédico e executivo
+3. Ajuste de segmentação geográfica com foco nas regiões onde temos maior competitividade (RS, PR, SC e conexões com nossas bases)
+4. Revisão das palavras-chave e termos de pesquisa para evitar tráfego desalinhado
+5. Definição conjunta de critérios de qualificação (marketing x comercial), para que possamos otimizar com base em dados reais
+
+Nosso objetivo aqui não é apenas gerar volume, mas sim aumentar a qualidade e a taxa de conversão dos leads. Porém também não precisamos restringir TANTO pra ficarmos com um volume extremamente baixo.
+‎[28/04/2026, 09:04:45] Ana Uniair: E segue tendo solicitação que entra sem origem e destino no nosso e-mail, isso é outro erro que precisa ser corrigido com urgência. Isso não acontecia antes. ‎imagem ocultada
+[28/04/2026, 09:05:07] Ana Uniair: Como eu te disse @⁨Calefi⁩ o que tava bom não podia ser perdido e isso é um erro que pra nós não da pra seguir assim.
+[28/04/2026, 09:05:23] Ana Uniair: Perdemos muito tempo indo atrás lá no preenchimento da planilha pra catar cidade ou então ter que perguntar para o lead
+[28/04/2026, 09:05:30] Ana Uniair: Ele não pode entrar pra nós dessa forma
+[28/04/2026, 16:02:20] Calefi: Boa tarde, @⁨Ana Uniair⁩ segue o link da nossa reunião: https://meet.google.com/jjm-udhq-snv?authuser=0
+[28/04/2026, 17:31:04] Ana Uniair: Oii, assim que possível me envia o documento com os ajustes que vão realizar. Obrigada.
+[28/04/2026, 19:34:27] Calefi: Boa noite, pessoal!
+
+Segue o que conversamos no check-in
+
+Estudo de concorrentes no leilão: https://docs.google.com/spreadsheets/d/1MHv8aJWeU_DiYVqsbnG6y9Dgg7-2u67yk0nr9H03tqk/edit?usp=sharing
+
+Ação: Subir novas campanhas com as palavras-chaves mapeadas no estudo
+Justificativa: Paramos de disputar leilão com alguns concorrentes importantes, ao analisar entendemos que eles estão utilizando palavras-chaves diferentes da nossa como "aluguel"
+Prazo: Amanhã
+Responsável: @⁨Felipe Chernev⁩ 
+
+
+Para acompanhamento utilize o dashboard: https://datastudio.google.com/reporting/c08c1af4-1020-411a-83c1-66630be62dd4
+[04/05/2026, 08:39:25] Ana Uniair: Bom dia pessoal tudo certo?
+
+Será que conseguimos arrumar para o lead só avançar depois que ele colocar cidade e estado?
+[04/05/2026, 08:39:27] Ana Uniair: Minas Gerais	Bahia
+Santa Catarina	Mato Grosso
+Minas Gerais	Bahia
+Maranhão	Maranhão
+Piauí	Ceará
+Piauí	Ceará
+São Paulo	São Paulo
+Pará	Maranhão
+Alagos	Alagoas
+Paraná	Santa Catarina
+[04/05/2026, 08:39:34] Ana Uniair: Só está entrando assim e fica muito ruim
+[04/05/2026, 09:20:28] Ana Uniair: E feedback dos leads para analisarem e ver pra corrigir
+[04/05/2026, 09:24:10] Ana Uniair: No feriado/final de semana, tivemos 10 leads de executivo, porém alguns precisaram ser desqualificados exclusivamente por questão geográfica ou seja, não são regiões que conseguimos atender com viabilidade operacional no momento.
+
+Segue a relação:
+
+01/05/2026 – Maranhão → Maranhão
+01/05/2026 – Piauí → Ceará
+02/05/2026 – Pará → Maranhão
+02/05/2026 – Alagoas → Alagoas
+
+Além disso, tivemos também 1 lead de aeromédico desqualificado:
+02/05/2026 – Piauí → Piauí
+
+Entendo que esse tipo de variação pode acontecer dentro das campanhas, porém quero reforçar um ponto importante:
+
+Hoje estamos operando com um investimento mais limitado em Google Ads. Justamente por isso, é fundamental que esse orçamento esteja sendo direcionado com o máximo de precisão possível para regiões onde temos capacidade real de atendimento e maior potencial de conversão como alinhamos na última reunião.
+
+Quando o investimento é menor, a margem para desperdício praticamente não existe. Cada lead precisa ter o maior potencial possível de se tornar negócio.
+
+Peço, por favor, uma revisão mais criteriosa da segmentação geográfica das campanhas, priorizando as regiões estratégicas já definidas, para garantirmos mais eficiência na geração de oportunidades.
+[04/05/2026, 09:24:19] Ana Uniair: Aguardo um retorno com os ajustes.
+[04/05/2026, 09:35:44] Calefi: Bom dia,
+
+De imediato consigo adicionar a opção da pessoa escrever a cidade (então ela pode colocar nome errado e afins).
+
+Depois consigo colocar para ela selecionar, para isso é uma demanda mais complexa pois o sistema de formulário atual não suporta isso, vou ter que fazer algumas adaptações para implementar.
+
+Colocar a opção de escrever o nome da cidade como obrigatório já resolveria parcialmente o problema
+[04/05/2026, 09:36:11] Calefi: Vamos focar os investimentos e tirar campanhas que estão para Brasil, em breve retornamos com os ajustes realizados
+[04/05/2026, 09:42:57] Ana Uniair: beleza
+[04/05/2026, 09:50:19] Ana Uniair: entrou um agora
+[04/05/2026, 09:50:19] Ana Uniair: Nome do Lead: Ednei Rodrigues 
+
+Email do Lead: ednei14rodrigues@gmail.com 
+
+Telefone: 47 99982-1671 
+
+Serviço de Interesse: Fretamento de Aeronave 
+
+Local de Origem: Santa Catarina 
+
+Local de Destino: Paraná 
+
+Data de Ida Prevista: 11/11/1111 
+
+Data de Volta Prevista: 11/11/1111 
+
+Quantidade de Pessoas que Irão Viajar: 1
+[04/05/2026, 09:50:27] Ana Uniair: Somente estado também e olha a data kkk
+[04/05/2026, 09:50:31] Ana Uniair: Isso não pode chegar assim
+[04/05/2026, 09:50:47] Ana Uniair: O preenchimento tem que ser mais assertivo também
+[04/05/2026, 17:25:48] Ana Uniair: Oii, nosso financeiro solicitou que eu verificasse com vocês se esse e-mail é de vocês mesmo.
+‎[04/05/2026, 17:25:53] Ana Uniair: ‎imagem ocultada
+[04/05/2026, 17:25:56] Ana Uniair: Podemos prosseguir com o pagamento?
+[04/05/2026, 17:37:52] Ana Uniair: E poderiam me enviar o  relatório do mês passado
+[04/05/2026, 17:53:25] Calefi: Sim, é a Kimberlly do nosso financeiro, confirmei com ela
+[04/05/2026, 17:54:20] Calefi: Vou enviar uma versão simplificada hoje sobre os investimentos, ainda essa semana envio um mais completo
+‎[04/05/2026, 18:36:22] Calefi: [20260430] Resultados Abril _ Uniair.pdf ‎documento omitido
+[06/05/2026, 12:09:39] Ana Uniair: Bom dia,
+@⁨Calefi⁩ estamos com demanda bem baixa de leads, acredito que tenham ajustes ainda para serem feitos pra ver se melhora...
+[06/05/2026, 13:42:34] Felipe Chernev: Boa tarde, Ana! 
+
+Ontem mesmo já monitorando essa baixa, e executamos novos ajustes focados em aumentar o volume de pesquisas e buscas qualificadas.
+
+Como a alteração foi feita ontem, o algoritmo entra naquela fase de aprendizado, mas a tendência é normalizar e o volume subir nas próximas horas. Sigo acompanhando de perto por aqui!
+[06/05/2026, 14:39:38] Ana Uniair: Tá bem
+[06/05/2026, 14:51:55] Ana Uniair: Outra coisa também que eu reparei Felipe
+[06/05/2026, 14:52:17] Ana Uniair: Muitos leads estão preferindo clicar no botão do whatsapp do site do que preencher o formulário da LP
+[06/05/2026, 14:52:48] Ana Uniair: Acho que cabe vocês conversarem com a Priscila do site que eu já passei o contato pra vocês conseguirem vincular o botão do whatsapp a nossa planilha
+[06/05/2026, 14:53:00] Ana Uniair: Pq se não, fica como se esses leads não fossem provenientes de campanha entende?
+[06/05/2026, 14:53:10] Ana Uniair: Por exemplo, entrou um agora pedindo Porto Alegre - Corrientes na Argentina
+[06/05/2026, 14:53:16] Ana Uniair: Lead mais do que qualificado
+[06/05/2026, 14:53:27] Ana Uniair: porém não foi para a planilha pq ele procurou no google e foi para o site
+[06/05/2026, 14:53:56] Ana Uniair: e ai vocês acabam ficando sendo cobrados por algo que poderia ser mapeado de outra forma
+[06/05/2026, 14:54:06] Ana Uniair: No outro time eles tinham ccontrole dos leads que entravam pelo site também..
+[06/05/2026, 18:14:17] Calefi: conversei com o wagner aqui e também já havia abordado a Priscila sobre isso. Vou pedir o acesso do site para ela para refazer essa automação, junto do disparo de whatsapp
+[11/05/2026, 09:31:37] Ana Uniair: Bom dia, tudo bem?
+O que houve que nesse final de semana não recebemos nenhum lead?
+[11/05/2026, 10:28:45] Felipe Chernev: Bom dia, Ana! Tudo bem por aqui. 
+
+Já estou com o gerenciador aberto justamente analisando esse ponto. Vou verificar se houve alguma oscilação no custo por clique ou entrega da Meta especificamente no sábado/domingo e te dou um feedback detalhado sobre os ajustes que farei para normalizar o fluxo!
+[12/05/2026, 09:20:07] Ana Uniair: Bom dia
+‎[12/05/2026, 09:20:09] Ana Uniair: ‎imagem ocultada
+[12/05/2026, 09:20:16] Ana Uniair: Olhem a quantos dias estamos sem receber lead.
+[12/05/2026, 09:35:41] Calefi: Bom dia, Ana. Aconteceu uma falha na automação e travou os leads, teve uma atualização no sistema de landing pages e resetou alguns campos. 
+
+Estou corrigindo isso junto com a alteração do formulário que haviamos comentado na semana passada.
+
+Eu recebo os leads pelo e-mail, vi que o time estava respondendo os e-mails para mim sobre a abordagem então achei q estava tudo normal. 
+
+a planilha e o dashboard ficaram sem os leads entrando
+‎[12/05/2026, 09:36:10] Ana Uniair: ‎<anexado: 00003309-STICKER-2026-05-12-09-36-10.webp>
+[12/05/2026, 09:36:13] Ana Uniair: socorroo ‎<Mensagem editada>
+[12/05/2026, 09:37:07] Calefi: o e-mail que vai para o comercial@uniair ele funciona fora da automação, por isso para ele foi normal
+[12/05/2026, 09:37:24] Ana Uniair: mas nem pelo email ta vindo nada
+‎[12/05/2026, 09:41:09] Calefi: putz, resetou isso tbm. Ultimo que me repsonderam foi dia 07 ‎imagem ocultada
+[12/05/2026, 09:41:26] Calefi: em carater de emergencia vou passar os leads aqui fora da planilha
+[12/05/2026, 09:43:56] Ana Uniair: ok
+[12/05/2026, 09:55:30] Calefi: está la no CRM os leads
+[12/05/2026, 09:56:00] Calefi: enquanto estou arrumando a integração vocês receberão no e-mail comercial se tiver alguma conversão
+[12/05/2026, 09:56:56] Ana Uniair: meu deuss agora vi lá kkkk
+[12/05/2026, 09:57:02] Ana Uniair: perdemos vendas :/
+[12/05/2026, 09:57:51] Calefi: inclusive @⁨Ana Uniair⁩ 
+
+Temos o check-in hoje 16h
+
+Acesso: meet.google.com/jjm-udhq-snv
+[12/05/2026, 15:51:02] Ana Uniair: Oii, podemos remarcar pra amanhã?? surgiu algumas coisas pra mim agora que não conseguirei
+[12/05/2026, 16:06:32] Calefi: pode ser Ana, consegue amanhã em alguns destes horários?
+
+9h
+15h
+[12/05/2026, 16:08:37] Ana Uniair: 15h
+[12/05/2026, 16:29:08] Calefi: perfeito! Agendado para amanhã 15hrs
+
+Acesso: meet.google.com/zsb-fptn-xen
+[13/05/2026, 09:21:13] Ana Uniair: Bom dia
+‎[13/05/2026, 09:21:15] Ana Uniair: ‎<anexado: 00003326-PHOTO-2026-05-13-09-21-15.jpg>
+[13/05/2026, 09:21:50] Ana Uniair: estamos recebendo agora por e-mail essas notificações... mas ate onde eu me lembro os de passagem aérea iam para o limbo né? não entendi o motivo pra recebermos agora como se fosse algo bom..
+[13/05/2026, 09:22:29] Calefi: Sim, foi só momentâneo até restabelecer a conexão do e-mail antigo
+[13/05/2026, 14:51:18] ~ Alciane: Boa tarde! Houve um contratempo e a Ana não vai poder participar da reunião hoje.
+[13/05/2026, 14:51:40] ~ Alciane: Mas aproveito para informar que praticamente não estamos recebendo e-mails com orçamento
+[13/05/2026, 14:51:47] Calefi: Sim, ela falou comigo. Estamos remarcando aqui ‎<Mensagem editada>
+[13/05/2026, 14:52:00] ~ Alciane: Vocês conseguiram reverter aquele problema?
+[13/05/2026, 14:52:29] ~ Alciane: Ah desculpa, é que apareceu o lembrete da reunião e como não tinha conversa aqui eu acabei avisando
+[13/05/2026, 14:56:08] Calefi: Revertermos, está funcionando pelo caminho alternativo que vai um e-mail diferente. Estou atualizando o fluxo nesse momento para uma solução mais robusta para evitar essas quedas
+
+Como está vindo pouco vou averiguar toda a rota para ver se não ficou nem um erro para trás
+[14/05/2026, 16:19:10] Calefi: @⁨Ana Uniair⁩ boa tarde.
+
+Fiz uma versão do formulário com as cidades também.
+
+https://taxiaereo.uniair.com.br/teste-form
+
+esta em uma página de teste, não está funcional por enquanto
+[14/05/2026, 16:19:36] Ana Uniair: tá bem
+[15/05/2026, 08:29:37] Calefi: Bom dia @⁨Ana Uniair⁩ 
+
+O check-in ocorre hoje 9h
+
+Acesso: meet.google.com/zsb-fptn-xen
+[15/05/2026, 08:30:45] Ana Uniair: Bom dia, simm
+‎[19/05/2026, 09:34:32] Calefi: Bom dia, @all apresentando aqui a ferramenta Kommo CRM, com ele facilitará muito a gestão das conversas no whatsapp além de permitir automatizar o envio de mensagens, programar lembretes, guardar informações e muito mais. ‎vídeo omitido
+‎[19/05/2026, 15:32:56] Ana Uniair: Pessoal, segue vindo sem cidade o orçamento ‎imagem ocultada
+[19/05/2026, 16:05:38] Calefi: vou averiguar isso
+‎[20/05/2026, 11:13:47] Ana Uniair: Mais uma agora.. ‎imagem ocultada
+[20/05/2026, 11:13:50] Ana Uniair: Com o mesmo erro :/
+[20/05/2026, 12:59:04] Calefi: fiz alguns ajustes aqui, agora deve estar funcionando certinho Ana
+‎[21/05/2026, 10:04:44] Ana Uniair: Relatório de informações do leilão.csv ‎documento omitido
+[21/05/2026, 10:29:49] Felipe Chernev: Bom dia ana! tudo bem? 
+
+Vou realizar uma pesquisa sobre esses pontos que levantou sobre leilão, lances e a LP e discutir com o Calefi sobre o que podemos melhorar 
+
+Hoje mesmo te envio aqui.
+[22/05/2026, 15:00:21] Calefi: Ana, te trazendo sobre isso.
+
+#1. as nossas taxas de sobreposição, posição superior e parcela de vitórias são comparações, portanto eu não tenho comparação comigo mesmo. Ela só aparece para os outros. Então aparecemos junto com o flyflapper 20,88% das vezes (sobreposição). Nessas buscas com o flyflapper eles aparecem 54,85% das vezes acima da gente. E simplesmente ganhamos deles 16,70% das vezes (ou nem apareceram ou aparecemos acima.
+
+#2 Sobre a parcela de impressão e nossa posição nos leilões. Apareço em apenas 18,85% das vezes que buscam sobre as palavras-chaves listadas nessa campanha. Quando eu apareço, 68% estou na parte superior, e 20% na primeira posição. Ou seja, quando eu apareço, geralmente ganho, problema é aparecer.
+
+Por que não estou parecendo? geralmente é orçamento, o dinheiro acaba antes da hora e não consigo disputar essas palavras-chaves. Mas, perceba que para essas palavras eles também aparecem pouco, ou seja: ou eles estão investindo pouco, ou estão investindo em outras palavras-chaves (assim como nós)
+
+Traduzindo em termos simples: nessas palavras estamos indo pegar o lead, mas boa parte das vezes chegamos lá e só tem a gente, porém, quando alguém aparece com a gente eles ganham da gente
+
+nota: o parcela de vitórias considera todas as buscas, ele nunca vai ser maior que o 18,85% de vezes que aparecemos.
+[22/05/2026, 15:10:37] Calefi: como que eles ganham da gente...
+
+lance + qualidade
+
+com pouco orçamento eu não posso falar pro Google "eu pago 30 nesse clique", se for assim, vou ganhar pouquíssimas vezes
+
+
+outro ponto que importa é a qualidade, na lp de taxiaereo estamos com um performance mediana em alguns pontos, em qualidade de anuncio sempre pontuamos muito bem.
+
+------
+
+Plano de ação aqui é:
+- Escolher quais brigas participar, já estamos diminuindo o número de campanhas ao todo, vamos seguir fazendo isso. Ainda mais por estar testando essas palavras em específico, é um jeito de validar se elas fazem sentido ou não.
+- Melhorar a LP de taxiaero em performance
+- Se eu apareço sozinho, mas meus concorrentes não, será que eu descobri um caminho fácil ou não é um bom caminho? Pra isso ser avaliado vamos observar as entradas de leads dessas palavras-chaves ‎<Mensagem editada>
+[22/05/2026, 15:13:52] Calefi: as edições necessárias na LP são aspectos bem técnicos, vou solicitar alterações para o suporte do construtor de páginas (greatpages), pode ser algum erro da importação de projetos ou da plataforma
+[26/05/2026, 10:23:48] ~ Daniele Villeroy - Uniair: Bom dia pessoal,
+[26/05/2026, 10:23:50] ~ Daniele Villeroy - Uniair: como vão?
+[26/05/2026, 10:24:06] ~ Daniele Villeroy - Uniair: Ainda continua vindo orçamento "passagem aérea"
+[26/05/2026, 10:24:33] ~ Daniele Villeroy - Uniair: não havíamos excluído estas palavras das nossas buscas?
+[26/05/2026, 10:28:47] ~ Daniele Villeroy - Uniair: Ana, já explicou aqui. Mas o ideal seria não recerbermos.
+[26/05/2026, 10:29:25] ~ Daniele Villeroy - Uniair: Mesmo assim, tenho um orçamento da noite que uma colaboradora atendeu no whats e o cliente relatou passagem aérea.
+[26/05/2026, 10:29:29] ~ Daniele Villeroy - Uniair: Isso é trauma
+[26/05/2026, 10:32:35] Calefi: Bom dia, Daniele, consegue me informar os dados da pessoa? Assim eu rastreio aqui de onde ela veio.
+
+Não era para estar vindo "passagem aérea" mais mesmo, preciso mapear esse furo
+[26/05/2026, 11:35:07] Ana Uniair: bom dia
+‎[26/05/2026, 11:35:07] Ana Uniair: ‎imagem ocultada
+[26/05/2026, 11:35:16] Ana Uniair: esse lead entrou com a origem e um código?
+[26/05/2026, 11:35:21] Ana Uniair: acho que deu erro na plataforma kk
+[26/05/2026, 13:26:51] Calefi: vou analisar o caso aqui
+[26/05/2026, 15:46:56] ~ Daniele Villeroy - Uniair: um aqui
+‎[26/05/2026, 15:46:58] ~ Daniele Villeroy - Uniair: ‎imagem ocultada
+[26/05/2026, 15:47:15] ~ Daniele Villeroy - Uniair: outro
+‎[26/05/2026, 15:47:18] ~ Daniele Villeroy - Uniair: ‎imagem ocultada
+‎[26/05/2026, 15:47:35] ~ Daniele Villeroy - Uniair: ‎imagem ocultada
+‎[26/05/2026, 15:48:07] ~ Daniele Villeroy - Uniair: ‎imagem ocultada
+[26/05/2026, 15:48:21] ~ Daniele Villeroy - Uniair: Não consigo mais buscar outros agora
+[26/05/2026, 15:48:45] ~ Daniele Villeroy - Uniair: Mas esses recebimentos desestimulam as equipes ‎<Mensagem editada>
+[27/05/2026, 16:42:47] Calefi: Boa tarde!
+
+Nosso check-in ocorre daqui a pouco
+
+17h
+Acesso: meet.google.com/jjm-udhq-snv
+
+🛫
+[27/05/2026, 16:53:00] Ana Uniair: Sim
+[27/05/2026, 19:55:37] Calefi: @⁨Ana Uniair⁩ Fiz a solicitação do Kommo pro time da matriz.
+
+Consegue me compartilhar a planilha para eu já ir tratando esses dados para a importação?
+[27/05/2026, 19:57:01] Ana Uniair: Oii amanhã te envio
+[01/06/2026, 08:40:59] Ana Uniair: Bom dia.
+
+Preciso registrar minha preocupação com os resultados que estamos obtendo.
+
+Encerramos o final de semana com apenas 6 solicitações de orçamento para Táxi Aéreo e, o que mais preocupa, *nenhuma* solicitação de Transporte Aeromédico.
+
+Estamos falando de um serviço que historicamente possui demanda recorrente e que representa uma das principais linhas de negócio da UniAir. Simplesmente não receber nenhuma oportunidade durante todo o período é um sinal de alerta que precisa ser tratado com urgência.
+
+Gostaria de entender objetivamente:
+
+* O que está acontecendo com as campanhas?
+* Houve perda de tráfego, impressões ou posicionamento?
+* Existe algum problema de conversão, formulário ou rastreamento?
+* Qual a explicação técnica para não termos gerado nenhuma oportunidade de Aeromédico?
+
+Não estou buscando justificativas genéricas. Preciso de uma análise detalhada, baseada em dados, e principalmente de um plano de ação imediato para reverter esse cenário.
+
+Estamos investindo para gerar demanda e o resultado atual está muito abaixo do esperado para a operação.
+
+Aguardo um retorno.
+[01/06/2026, 10:23:32] Calefi: Bom dia, Ana. Vou tratar desse assunto com prioridade aqui com o time e te retorno com a análise detalhada
+[01/06/2026, 11:24:37] Ana Uniair: E em que pé estamos na integração do Kommo?
+[01/06/2026, 11:34:48] Calefi: Me passaram o link, estou enviando o logo abaixo:
+
+Valor: R$ 756.00 
+Link de pagamento: 
+https://checkout.iugu.com/invoices/690b785a-35fe-4fdf-80d7-0aa592681e69-717c
+Ferramenta: Kommo CRM
+
+Com a liberação dele conseguimos integrar o número e ele já fica funcional para atendimento e organização.
+
+Assim que a gente estiver com ele integrado fazemos um treinamento com o time sobre como utilizar a ferramenta
+[01/06/2026, 15:32:15] Ana Uniair: Pagamento realizado
+[01/06/2026, 15:32:21] Ana Uniair: Quando podemos começar?
+[01/06/2026, 16:15:04] Calefi: querem fazer o treinamento amanhã no horário do check-in?
+16h
+
+todo mundo que atende clientes no whatsapp para participar
+[01/06/2026, 16:15:42] Ana Uniair: Sim pode ser
+[01/06/2026, 17:00:53] Ana Uniair: Tu analisou?
+Preciso de um retorno sobre.
+[01/06/2026, 17:01:04] Ana Uniair: Esse mês eu não posso ficar sem bater a meta de vendas advindas do Google..
+[01/06/2026, 17:08:53] Calefi: a analise está em andamento, já apliquei algumas mudanças
+
+vou trazer algo mais detalhado depois, mas adiantando:
+
+- com a adição do campo de cidades algumas configurações de trackeamento falharam (estou reconfigurando isso agora)
+- com a adição do campo de cidades teve uma quebra de design no mobile, isso pode ter impactado algumas conversões (já ajustado)
+
+como eram os pontos mais evidentes e importantes já estou agindo diretamente antes de passar plano de ação, sobre os demais pontos vou trazendo aqui conforme for elaborando
+[01/06/2026, 17:09:48] Calefi: não podemos ficar sem bater a meta
+[02/06/2026, 10:26:06] Calefi: https://docs.google.com/document/d/1j-IWdULMb9-xwhaGgK3eiGAAoo3vyouOwDfmcaDkUL0/edit?usp=sharing
+
+Aqui o relatório completo com as informações mais relevantes.
+[02/06/2026, 10:27:02] Calefi: Lembrando que hoje 16h temos nosso treinamento do Kommo para o time
+
+meet.google.com/fnk-qehj-tsv
+[02/06/2026, 10:27:13] Calefi: Bom dia, pessoal!
+[02/06/2026, 10:27:37] ~ Daniele Villeroy - Uniair: Olá bom dia !
+[02/06/2026, 10:27:40] ~ Daniele Villeroy - Uniair: Certinho
+[02/06/2026, 10:27:43] ~ Daniele Villeroy - Uniair: estamos animadas
+[02/06/2026, 17:34:55] Ana Uniair: agora se possível nos reenvia os acessos kkk
+[02/06/2026, 17:35:22] Calefi: Está na descrição do grupo pessoal
+[02/06/2026, 17:35:29] Ana Uniair: Show
+[03/06/2026, 09:11:34] Ana Uniair: Bom dia, quanto nós investimos mês passado?
+[03/06/2026, 09:33:29] Calefi: Bom dia,
+
+Investimento de 01/05/26 - 31/05/26
+
+Google Ads: R$ 9.578,74
+Meta Ads: R$ 508,53
+
+Total: R$ 10.087,27
+[03/06/2026, 09:33:46] Ana Uniair: Obrigada
+[03/06/2026, 09:37:35] Ana Uniair: Se um lead que eu to falando no whats não entrou diretamente no kommo, é um bug?
+[03/06/2026, 09:44:42] Ana Uniair: E depois nos envia a gravação do treinamento por avor
+[03/06/2026, 09:44:51] Ana Uniair: Não lembro mais onde eu vejo se ele ta conectado
+[03/06/2026, 09:45:02] Ana Uniair: Não tá puxando uma conversa que eu tive agora com um lead bem qualificado
+[03/06/2026, 09:57:31] Calefi: vou verificar isso, qual o nome/numero da pessoa?
+[03/06/2026, 09:57:48] Ana Uniair: Roberto Manfroi
++55 46 9136-3831
+[03/06/2026, 09:58:05] Ana Uniair: eu salvei o contato dele no Kommo mas não consegui encontrar conversa dele..
+[03/06/2026, 09:58:11] Ana Uniair: Nem consegui programar um recontato
+‎[03/06/2026, 10:02:04] Calefi: ‎vídeo omitido
+[03/06/2026, 10:02:38] Calefi: Pessoal, segue o link da gravação de ontem
+
+https://drive.google.com/file/d/1HnHh5mjqT4UX_sFTLC8zWxWqxo5cdJHC/view?usp=sharing
+[03/06/2026, 10:48:26] ‎Você: ‎Você fixou uma mensagem
+[03/06/2026, 10:17:20] Ana Uniair: Entendi
+[03/06/2026, 10:17:28] Ana Uniair: Eu só não entendi porque não puxou do nosso whats se eu conversei com ele ontem kk
+[03/06/2026, 10:21:08] Calefi: foi depois da reunião?
+[03/06/2026, 10:23:41] Ana Uniair: Foi antes... então só vai entrar os leads que conversamos após a reunião?
+[03/06/2026, 10:34:54] Calefi: sim, só aparecem as mensagens após a integração.
+mas se você enviar uma mensagem para ele pelo whatsapp agora vai aparecer lá no kommo
+[03/06/2026, 10:35:07] Ana Uniair: entendii
+[03/06/2026, 10:35:08] Ana Uniair: beleza
+[08/06/2026, 08:37:51] Ana Uniair: Bom dia pessoal tudo bem?
+
+To com um probleminha na planilha e gostaria de verificar se vocês que realizaram algum ajuste...
+‎[08/06/2026, 08:37:55] Ana Uniair: ‎imagem ocultada
+[08/06/2026, 08:38:05] Ana Uniair: os leads que entraram no final de semana, está no meio da planilha e estão pintados de amarelo
+[08/06/2026, 08:38:07] Ana Uniair: Não entendi
+[08/06/2026, 09:26:58] Calefi: Vou ver aqui com o restante do time, mas não fizemos nenhuma movimentação nessa planilha durante o final de semana
+[08/06/2026, 09:27:31] Ana Uniair: Tá bem
+[08/06/2026, 09:27:48] Ana Uniair: E o número do final de semana dos orçamentos ficou top hein?
+
+V4 - 15 executivo
+V4 - 9 aeromédico
+[08/06/2026, 09:28:03] Ana Uniair: Muito bomm!! Espero que desses a gente feche muitos haha
+‎[08/06/2026, 09:45:45] Calefi: ‎<anexado: 00003425-STICKER-2026-06-08-09-45-45.webp>
+[09/06/2026, 14:07:05] Calefi: Boa tarde @⁨Ana Uniair⁩ 
+
+Temos nosso check-in hoje 16h
+
+meet.google.com/jjm-udhq-snv
+
+Trazemos o fechamento do mês
+[09/06/2026, 15:51:04] Ana Uniair: Oii Lucas, vou precisar de mais 10min
+[09/06/2026, 15:56:13] Ana Uniair: conseguii me liberar
+[09/06/2026, 15:56:15] Ana Uniair: ja vou acessar
+[09/06/2026, 15:59:51] Ana Uniair: vou precisar de 10min sim kkk
+[11/06/2026, 08:10:02] Ana Uniair: Bom diaaa
+[11/06/2026, 08:10:08] Ana Uniair: Caiu bastante a quantidade de leads de ontem pra hoje...
+[11/06/2026, 08:10:17] Ana Uniair: Essa noite nem se quer entrou solicitação
+[11/06/2026, 08:10:29] Ana Uniair: Como estamos com nossas campanhas? Tá tudo ok? Ou estão limitadas por orçamento?
+[11/06/2026, 09:35:36] Calefi: Bom dia @⁨Ana Uniair⁩. Eu e o @⁨Felipe Chernev⁩ já estamos vendo isso
+[11/06/2026, 11:19:23] Ana Uniair: Perfeito, assim que tiver o resultado da análise me sinaliza por favor
+[12/06/2026, 11:50:47] Ana Uniair: Lucas, tu pode me enviar o relatório do mês passado?
+[12/06/2026, 11:50:48] Ana Uniair: Faltava o valor da venda
+[12/06/2026, 11:52:25] Ana Uniair: E preciso que tu me envie também aquela parte que tu explicou sobre a palavra chave JATO, nós tínhamos essa palavra e por algum motivo que eu não me recordo nós tiramos...
+[12/06/2026, 11:52:33] Ana Uniair: Preciso apenas avaliar isso pois talvez realocaremos essa palavra
+[12/06/2026, 13:08:46] Calefi: está no e-mail comercial@uniair.com.br, vocês receberam?
+[12/06/2026, 13:13:45] Calefi: Tiramos a palavra "Jato" justamente pq vocês não trabalham com isso. Em uma das reuniões que estava você e a Dani nós dicutimos sobre isso e resolvemos retirar, pelo que me parece o fato de não ter o jato causava atritos no comercial pois as pessoas queriam realmente JATO apenas
+[12/06/2026, 13:15:37] Ana Uniair: Conseguimos padronizar pra tu me enviar sempre por aqui?
+[12/06/2026, 13:15:59] Ana Uniair: Vamos colocar novamente então
+[12/06/2026, 13:16:14] Ana Uniair: Gostaria de te pedir pra incluir  termos de busca ou substituir por alguns que estão muito parecidos
+No aeromédico
+Remoção aérea
+ambulância aérea
+transporte de paciente com avião
+‎[12/06/2026, 13:16:20] Calefi: Concorrentes de Leilão.xlsx ‎documento omitido
+[12/06/2026, 13:16:33] Calefi: a analise do leilão dos concorrentes
+[12/06/2026, 13:16:34] Ana Uniair: e no Taxi:
+incluir, tentar a palavra "aluguel" de aeronaves ou avião
+fretamento/ aluguel de jato ou jatinho (aqui sei que ja discutimos bastante que não seria nossa atuação, mas vamos fazer uma ação interna e queremos mensurar o quanto Jato/jatinho esta sendo usado como sinônimo (Brombril =  palha de aço) e o quanto realmente o lead tem intenção exclusivamente de jato.
+[12/06/2026, 13:17:38] Calefi: ok, vamos implementar aqui
+[18/06/2026, 14:53:35] Ana Uniair: Oii boa tarde
+[18/06/2026, 14:53:38] Ana Uniair: Tá fraco de orçamento desde ontem..
+[18/06/2026, 14:53:41] Ana Uniair: Tá tudo certo nas campanhas?
+[18/06/2026, 15:00:08] Calefi: boa tarde, Ana. Vou acompanhar com o @⁨Felipe Chernev⁩ o que pode estar impactando
+[18/06/2026, 16:19:11] Ana Uniair: Algum retorno sobre a análise?
+[18/06/2026, 16:19:22] Ana Uniair: Estamos já exaurindo todas possibilidades até em remarketing com lead frio..
+[18/06/2026, 16:19:27] Ana Uniair: E até agora zero retorno
+[18/06/2026, 16:19:39] Ana Uniair: Se tiver uma estratégia de plano de ação para chegarmos e atingirmos a meta a hora é aagora
+[18/06/2026, 16:20:02] Ana Uniair: Temos um pouco mais de uma semana pra vender mais um milhão
+[19/06/2026, 09:58:56] Calefi: Bom dia, Ana. Sobre as análises, focamos nos anuncios e percebemos que alguns performavam mais que os outros, então criamos alguns anuncios com os melhores títulos. Basicamente a maior parte dos MQLs estavam concentrados em um ou outro anuncio. Então inspirado nos bons criamos os novos.
+
+Já está rodando assim desde segunda-feira, no nosso próximo check-in trazemos um comparativo
+[19/06/2026, 09:59:20] Calefi: vou pegar agora de manhã para traçar um plano de ação aqui também. Vamos achar esse milhão
+[22/06/2026, 08:52:20] Ana Uniair: Oi bom dia
+[22/06/2026, 08:52:22] Ana Uniair: Tudo bem?
+[22/06/2026, 08:52:28] Ana Uniair: Desconectou o KOMMO
+[22/06/2026, 08:52:32] Ana Uniair: E eu esqueci onde que reconecta
+[22/06/2026, 08:58:11] Calefi: Bom dia
+‎[22/06/2026, 08:58:11] Calefi: ‎vídeo omitido
+[22/06/2026, 09:03:30] Ana Uniair: ele não leu o QR code
+[22/06/2026, 09:03:37] Ana Uniair: Diz pra excluir ali e conectar de novo
+[22/06/2026, 09:03:42] Ana Uniair: tá certo isso?
+[22/06/2026, 09:34:12] Calefi: pode fazer isso mesmo
+[22/06/2026, 09:34:19] Calefi: só confirma se está no funil de vendas mesmo
+[22/06/2026, 09:34:31] Ana Uniair: conecteii
+[22/06/2026, 09:35:45] Ana Uniair: E ficou bem ruim esse finde.. não entrou orçamentos
+‎[23/06/2026, 11:18:19] Ana Uniair: Essa campanha não está mais ativa? ‎imagem ocultada
+[23/06/2026, 11:36:22] Calefi: não encontrei essa campanha na conta. Já rodaram em alguma conta antiga?
+
+na nossa conta todas começam com [V4]
+[23/06/2026, 11:41:14] Ana Uniair: Não sei, mas se não tivermos campanha de helicóptero para Serra Gaúcha estamos perdendo oportunidades
+[23/06/2026, 11:41:20] Ana Uniair: Seria importante termos uma campanha pra isso
+[25/06/2026, 16:47:23] Ana Uniair: Pessoal, estamos com demanda bem baixa hoje
+[25/06/2026, 16:47:29] Ana Uniair: Verifiquem as campanhas por gentileza
+[25/06/2026, 16:47:48] Ana Uniair: temos até terça pra bater a meta..
+[25/06/2026, 17:47:51] Calefi: vou analisar o que pode ser essa baixa
+[03/07/2026, 09:21:47] Calefi: Bom dia, turma! @⁨Ana Uniair⁩ 
+
+Temos o check-in hoje 16h
+
+Acesso: meet.google.com/kwr-caxv-kzi
+
+🛫🛫🛫
+[03/07/2026, 10:04:38] ~ Daniele Villeroy - Uniair: Bom dia, Calefi,
+[03/07/2026, 10:04:48] ~ Daniele Villeroy - Uniair: Ana está afastada hoje
+[03/07/2026, 10:05:00] ~ Daniele Villeroy - Uniair: Pode me passar as principais informações em formato de relatório hoje? ‎<Mensagem editada>
+[03/07/2026, 10:05:27] ~ Daniele Villeroy - Uniair: Aí semana que vem vocês organizam nova data para a reunião
+[03/07/2026, 10:05:38] ~ Daniele Villeroy - Uniair: Podemos seguir assim?
+[03/07/2026, 10:32:48] Calefi: Bom dia @⁨~Daniele Villeroy - Uniair⁩ 
+
+Ok, enviarei o relatório aqui pelo grupo em breve
+[03/07/2026, 10:46:43] ~ Daniele Villeroy - Uniair: muito obrigada
+‎[03/07/2026, 17:35:05] Calefi: [23_06_2026] Check-in ROPRE _ Uniair.pdf ‎documento omitido
+[03/07/2026, 17:38:09] ~ Daniele Villeroy - Uniair: Oi
+[03/07/2026, 17:38:15] ~ Daniele Villeroy - Uniair: obrigada Calefi
+[03/07/2026, 17:38:22] ~ Daniele Villeroy - Uniair: Bom final de semana a todos
+[03/07/2026, 17:38:38] ~ Daniele Villeroy - Uniair: que tenhamos muiitos leads quentes neste findi
+[07/07/2026, 08:37:53] Ana Uniair: Bom dia, pessoal.
+
+Analisando os dados da conta neste início de julho, queria alinhar alguns pontos com mais profundidade, porque o cenário atual exige uma revisão técnica e estratégica das campanhas.
+
+Ontem à noite entrou apenas 1 orçamento e, de forma geral, estamos percebendo um volume de leads desqualificados. O ponto é que a conta não parece estar sem tráfego: somando as campanhas listadas, tivemos um volume relevante de cliques/interações, com CTRs bons em algumas frentes, especialmente em aeromédico e termos como “transporte aeromédico”... Então a questão principal não me parece ser apenas geração de clique, mas sim qualidade da intenção, rastreamento correto das conversões e otimização para leads realmente qualificados.
+[07/07/2026, 08:38:53] Ana Uniair: Também observei alguns alertas importantes na conta: campanhas qualificadas, porém limitadas; recomendações para maximizar conversões com CPA desejado, campanhas segmentando menos pesquisas, limitação por estratégia de lances, além do status de acompanhamento de conversões indicando tags inativas, conversões sem registros recentes e poucas conversões efetivamente registradas. Isso me preocupa, porque se o Google não estiver recebendo corretamente os sinais de conversão qualificada, o algoritmo pode estar otimizando para interações ou leads fracos, e não para oportunidades reais de venda. E no meu entendimento, parece ser isso que está acontecendo..
+[07/07/2026, 08:39:08] Ana Uniair: Falta dinheiro nas campanhas?
+[07/07/2026, 08:40:37] Ana Uniair: E sei que nem sempre as recomendações do Google são as melhores, como Maximizar Conversões com CPA desejado ou Inclusão da Rede de Display, por isso eu gostaria que vocês nos enviassem uma análise técnica objetiva sobre:
+
+1. Quais eventos estão sendo considerados como conversão principal hoje?
+2. O Google está otimizando para lead bruto, clique em WhatsApp, formulário enviado ou lead qualificado?
+3. Por que aparecem tags inativas e conversões sem registros recentes?
+4. Quais termos de pesquisa estão gerando os leads desqualificados?
+5. Quais palavras negativas foram adicionadas nos últimos 15 dias?
+6. Como está a distribuição de orçamento entre táxi aéreo executivo, aeromédico e institucional? Tá sendo pouco o valor investido?
+7. A campanha institucional está realmente contribuindo para geração comercial ou está consumindo verba com baixa intenção?
+8. Há algum ajuste sendo feito por região, horário e dispositivo com base na qualidade dos leads?
+9. A recomendação de Inclusão da Rede de Display faz sentido para nosso momento comercial ou pode ampliar volume com menor qualificação?
+10. Qual plano de ação vocês sugerem para aumentar leads qualificados, e não apenas volume de cliques?
+[07/07/2026, 08:41:29] Ana Uniair: Neste momento, nossa prioridade não é simplesmente aumentar o volume. Precisamos melhorar a qualidade das oportunidades que chegam para o comercial, principalmente porque nosso ticket é alto e cada lead precisa ter intenção real de contratação.
+
+Peço, por favor, que nos retornem com um diagnóstico técnico da conta e um plano de ação claro para os próximos dias, incluindo ajustes em palavras-chave, termos negativos, conversões, lances, regiões e campanhas que devem ser priorizadas ou reduzidas.
+
+Precisamos entender onde está o gargalo: se é na segmentação, no rastreamento, na estratégia de lance, na página, no formulário ou na qualidade das buscas que estão acionando os anúncios ou até mesmo no valor que estamos investindo. 
+
+Obrigada pessoal.
+‎[07/07/2026, 08:41:35] Ana Uniair: ‎<anexado: 00003500-STICKER-2026-07-07-08-41-35.webp>
+[07/07/2026, 12:06:13] ~ Priscila Rocha: Pessoal, estamos desesperados
+[07/07/2026, 12:07:10] ~ Priscila Rocha: Nada de orçamento e temos uma meta audaciosa
+[07/07/2026, 12:07:15] ~ Priscila Rocha: Nada de orçamentos
+[07/07/2026, 12:09:37] Calefi: Bom dia, pessoal! Agora de tarde eu vou puxar o time aqui para olhar isso em conjunto, vamos resolver isso
+[07/07/2026, 12:15:06] ~ Priscila Rocha: Sim, ainda dá para recuperar, estamos no dia 07/07. Vamos correr para bater a meta de vendas deste mês, contamos com vocês!!!  🚀🚀
+[07/07/2026, 12:21:29] ~ Alciane: Isso aí, queremos explodir a meta deste mês, então bora lá verificar!!!!
+[07/07/2026, 12:22:31] ~ Daniele Villeroy - Uniair: Issooo gente, pooor favor ‎<Mensagem editada>
+‎[07/07/2026, 12:22:36] Calefi: ‎<anexado: 00003508-STICKER-2026-07-07-12-22-36.webp>
+[07/07/2026, 12:22:52] ~ Daniele Villeroy - Uniair: Vamos pros 3 milhões
+[07/07/2026, 16:06:58] Ana Uniair: @⁨Calefi⁩ nos motivos ali no Kommo precisamos incluir óbito
+[07/07/2026, 16:07:10] Ana Uniair: Não sei como faz pra incluirmos mais
+[07/07/2026, 16:07:15] Ana Uniair: Consegue nos ajudar?
+[07/07/2026, 18:45:48] Calefi: Coloquei la
+[10/07/2026, 15:59:42] Calefi: Boa tarde, @⁨Ana Uniair⁩ 
+
+Segue o link da nossa reunião: 
+meet.google.com/kwr-caxv-kzi
+[10/07/2026, 16:00:26] Ana Uniair: 5minn
+[10/07/2026, 16:15:09] UNIAIR + V4: ‎Você mudou a descrição do grupo
+[14/07/2026, 08:34:43] Ana Uniair: Bom dia pessoal, tudo bom?
+Autorizado aumento de investimento de + R$ 6.000,00
+[14/07/2026, 09:51:16] ~ Daniele Villeroy - Uniair: Bom dia pessoal,
+Vejam como acham prudente fazer os investimentos, massss precisamos vender aeromédicos muito urgente. São de ticket médio bem maior.
+Sobre o tempo e a estratégia de valor, como o diretor não entende  muito disso, vai querer em 30 dd ter feedback sobre os resultados. Me disse: _"Tá, testa até o final do mês e vamos ver"_ 🥹😳. 
+Para não perder o que havia ganho naquele momento, achei por mês trabalhar em cada tempo com a dificuldade diferente, me explicando. 
+Em suma, para permitir que evoluamos com o investimento e não seja cortado do nada, preciso que ao final de cada quinzena, começando já por esta em que estamos, me enviem além de relatório técnico de desempenho, essa descrição explicativa sobre a estratégia de investimento gradual.
+ O porquê não é prudente trazer todo o valor de uma vez, quais as possíveis consequências e os próximos passos. Ok?
+[14/07/2026, 10:13:35] Calefi: perfeito, já vamos preparar o material
+[14/07/2026, 10:13:54] ~ Daniele Villeroy - Uniair: Maravilha, obrigada Calefi ‎<Mensagem editada>
+[15/07/2026, 12:05:56] Felipe Chernev: Bom dia pessoal! Todos bem?
+‎[15/07/2026, 12:06:16] Felipe Chernev: Relatorio Uniair - 1 Quinzena Julho.pdf • ‎3 páginas ‎documento omitido
+[15/07/2026, 12:06:23] Felipe Chernev: O Google funciona como um motor que precisa de tempo para "aprender" quem é o cliente certo. Hoje, depois de meses de ajustes, ele já aprendeu a trazer o público qualificado da Uniair (pessoas que realmente podem contratar um voo) e não curiosos procurando passagem barata. Esse aprendizado é o nosso maior ativo na conta.
+Quando se aumenta o investimento de forma brusca, o sistema "esquece" parte do que aprendeu e volta a testar públicos novos por alguns dias. Na prática, é como pisar fundo no acelerador com o motor frio: em vez de andar mais rápido, o carro falha. Já vimos isso acontecer na própria conta da Uniair (mudanças bruscas de orçamento no passado foram uma das causas da instabilidade de resultados que corrigimos)
+
+Vamos aumentar o investimento em etapas ao longo das próximas semanas (7 em 7 dias), priorizando o aeromédico, que tem o maior ticket e é a urgência do momento. A cada etapa, deixamos o sistema estabilizar, confirmamos que a qualidade dos leads se manteve alta, e só então subimos de novo. É crescimento firme e controlado, não freio.
+[15/07/2026, 12:06:59] Felipe Chernev: Detalhamos os investimentos por cada semana,  tudo nesse documento aqui!
+[23/07/2026, 08:09:52] Calefi: Bom dia, pessoal!
+
+Estou finalizando uma integração no Kommo CRM, vcs devem ter recebido um código no e-mail comercial
+
+Conseguem me passar ele aqui?
+‎[23/07/2026, 08:12:34] ~ Daniele Villeroy - Uniair: ‎imagem ocultada
+[23/07/2026, 08:12:53] ~ Daniele Villeroy - Uniair: Bom dia
+[23/07/2026, 09:14:48] Ana Uniair: Bom dia, preciso de uma análise referente a campanha do transporte aeromédico de helicóptero em SP.
+[23/07/2026, 09:15:56] Calefi: Qual a pergunta que quer responder coma analise?
+[23/07/2026, 09:16:00] Calefi: Obrigado
+[23/07/2026, 09:16:45] Ana Uniair: Preciso entender porque não estão vindo solicitações
+[23/07/2026, 17:47:04] ~ Daniele Villeroy - Uniair: Boa Tarde,
+[23/07/2026, 17:47:16] ~ Daniele Villeroy - Uniair: Preciso do relatório mensal de junho
+[23/07/2026, 17:47:31] ~ Daniele Villeroy - Uniair: com as informações que falamos ontem @⁨Calefi⁩
+[23/07/2026, 17:47:42] ~ Daniele Villeroy - Uniair: pra apresentação de amanhã de manhã
+[23/07/2026, 18:24:18] Calefi: https://claude.ai/code/artifact/f2f8d8e3-468d-47a2-9bed-04bff0f55517 
+
+eu estava construindo o relatório aqui, complementei o anterior com as informações que eu estava analisando
+[23/07/2026, 18:24:26] Calefi: está acessível no link, se preferir, mando o PDF tbm
+‎[23/07/2026, 18:24:45] Calefi: Uniair — Fechamento de Safra Junho_2026 _ V4 Estruturação IA.pdf • ‎4 páginas ‎documento omitido
+[23/07/2026, 18:25:15] Calefi: tens uns comentários pq eu estava analisando com apoio da IA e estava identificando algumas coisas no processo todo
+[23/07/2026, 18:27:11] Calefi: finalizei aqui uma integração que passa as informações do formulário para dentro do kommo, desde que o lead tenha preenchido os formulários da LP.
+
+vou validar a estrutura por alguns dias e depois estendemos para outras fontes
+
+notei uma inconsistencia entre os envios de formulário e quem aparece no kommo (os numeros não batem 100%, então estou validando se o erro é no Z-API, se foi alguma queda do numero no kommo, etc)
+[23/07/2026, 18:28:20] ~ Daniele Villeroy - Uniair: muito obrigada Calefi
+[24/07/2026, 14:54:41] Calefi: Boa tarde, @⁨Ana Uniair⁩ 
+
+Temos nosso check-in hoje 16h
+
+Acesso: meet.google.com/wsp-mesk-drx
+[28/07/2026, 10:22:14] ~ Alciane: Bom dia, @⁨Calefi⁩ ! 
+Surgiu uma situação aqui e queremos a tua ajuda para entender. 
+Eu encerrei um atendimento, fechei a conversa e o cliente, depois de um tempo, me mandou um obrigado... abraço. 
+Neste caso abriu uma nova solicitação, com os campos em branco como se eu não tivesse preenchido as informações do lead anteriormente. 
+A pergunta é: é desta forma mesmo que acontece? Após encerrado se o cliente responder entra como um novo lead em branco?
+‎[28/07/2026, 10:24:06] ~ Alciane: ‎imagem ocultada
+‎[28/07/2026, 10:24:29] ~ Priscila Rocha: Este caso também, ontem preenchi e hoje apareceu no etapas de estrada se nenhum preenchimento ‎imagem ocultada
+‎[28/07/2026, 10:30:31] ~ Daniele Villeroy - Uniair: Aqui, não esotu confiando nesta análise. Filtrei de 01 a 28 /07. O que são os leads em processo? olha a quantidade e valor. ‎imagem ocultada
+[28/07/2026, 10:30:38] ~ Daniele Villeroy - Uniair: Bom dia
+[28/07/2026, 10:33:08] ~ Daniele Villeroy - Uniair: Outra coisa Lucas, o gap de atualização do whats para o Kommo... é um gargalo do Sistema? Pois vários questionamentos de negociaçõies e tratativas com o cliente, não consigo ver em tempo real. Estranho, porque já ouvi áudios no próprio Kommo e a Ana disse que principalmente áudio não atualiza no crm.
+[28/07/2026, 10:33:12] ~ Daniele Villeroy - Uniair: Sabe algo sobre isso?
+[28/07/2026, 10:36:51] Calefi: eu havia configurado para fazer isso, mas só se a pessoa mandasse algo depois de uns 3 dias. Vou ver pq esse escapou
+[28/07/2026, 10:37:27] Calefi: são os leads que importei da planilha de CRM, precisa filtrar somente a Pipeline (funil) de vendas
+[28/07/2026, 10:38:56] Calefi: Então, está com algum problema na conexão do whatsapp de vocês com algumas mensagens não aparecendo dentro do kommo (especialmente audios quando vocês mandam), já abordei o suporte para ver quais as orientações deles
+‎[28/07/2026, 10:39:29] ~ Daniele Villeroy - Uniair: Aqui, consigo abrir em metas por segmento? ‎<anexado: 00003553-PHOTO-2026-07-28-10-39-29.jpg>
+[28/07/2026, 10:42:36] ~ Daniele Villeroy - Uniair: certo então esse painel neste momento pra mim não é válido. Mais fidedigno o funil...
+Outra  coisa, chegaste a ver o que conversamos na semana passada sobre filtrar depois destas etapas todos os que foram qualificados em algum periodo de tempo e os motivos de fechamento.
+[28/07/2026, 10:44:14] ~ Daniele Villeroy - Uniair: Maravilha, aguardamos ansiosas esta devolutiva. Porque o futuro breve, como havíamos comentado, é de não precisar usar nada auxiliar e ter no CRM o panorama do que esta acontecendo em tempo real.
+[28/07/2026, 10:44:55] ~ Daniele Villeroy - Uniair: se verificarmos que a ferramenta atende, a ideia é termos os usuários individuais
+[31/07/2026, 15:18:16] Ana Uniair: Boa tarde!
+
+Realizei uma análise criteriosa da landing page de táxi aéreo executivo utilizada nas campanhas..
+
+Temos observado que muitos leads acabam procurando o site ou outros canais para solicitar o orçamento. Isso indica que a LP não está transmitindo, de maneira suficientemente rápida, a clareza e a confiança necessárias para a conversão.
+
+Identifiquei alguns pontos que precisam ser corrigidos com prioridade:
+
+Remover os menus, links e demais rotas de fuga, deixando a página focada exclusivamente na cotação;
+Reformular a primeira dobra com uma proposta de valor objetiva, direcionada ao táxi aéreo executivo;
+Remover o pop-up “Conheça o King Air”, que atualmente bloqueia o formulário e interrompe a navegação;
+Substituir o banner rotativo por uma comunicação fixa e clara;
+Revisar o formulário, reduzindo as etapas e incluindo data de retorno e número de passageiros;
+Deixar o serviço “Táxi Aéreo Executivo” previamente selecionado;
+Inserir os principais elementos de confiança da UniAir antes do formulário;
+Utilizar depoimentos específicos de clientes executivos e empresariais;
+Padronizar todos os CTAs como “Solicitar cotação de voo”;
+Revisar a rastreabilidade dos formulários, cliques no WhatsApp e ligações, garantindo que UTMs e GCLID sejam enviados corretamente ao CRM.
+
+Estes não são apenas ajustes estéticos. São correções de conversão, coerência das informações e credibilidade da página.
+
+Preciso que esses pontos sejam avaliados item a item e que nos encaminhem um cronograma de implementação. Antes da publicação, solicito também o envio de uma versão de homologação para conferência, além da confirmação da URL final utilizada em cada campanha.
+[31/07/2026, 15:40:58] Ana Uniair: Pessoal, para deixar mais claro o direcionamento esperado, estruturei uma referência de como entendemos que uma landing page de alta conversão para a UniAir deve funcionar.
+
+A primeira tela precisa apresentar imediatamente o serviço, os diferenciais, as provas de confiança e o formulário. A página deve conduzir o usuário por uma única jornada, sem menus, pop-ups, banners rotativos ou links que desviem da cotação.
+
+Não se trata de reproduzir exatamente este layout, mas de seguir a lógica de conversão, hierarquia e credibilidade apresentada. Precisamos que a nova versão tenha uma estrutura dedicada ao tráfego pago e não se comporte apenas como mais uma página do site institucional.
+‎[31/07/2026, 15:42:22] Ana Uniair: ‎<anexado: 00003559-PHOTO-2026-07-31-15-42-22.jpg>
+‎[31/07/2026, 15:43:16] Ana Uniair: eu acho que falta infos assim sabe... não necessáriamente assim ‎<anexado: 00003560-PHOTO-2026-07-31-15-43-16.jpg>
+[31/07/2026, 15:43:41] Calefi: Boa tarde, Ana, vou passar para nosso time de criação as orientações
+‎[31/07/2026, 15:43:46] Ana Uniair: colocar fotos reais das aeronaves ‎<anexado: 00003562-PHOTO-2026-07-31-15-43-46.jpg>
+‎[31/07/2026, 15:44:08] Ana Uniair: ‎<anexado: 00003563-PHOTO-2026-07-31-15-44-08.jpg>
+[31/07/2026, 15:44:11] UNIAIR + V4: ‎Você adicionou Geovanna Mohr | V4 e Natália Terciotti | V4
+[31/07/2026, 15:44:12] Calefi:
+[31/07/2026, 15:44:13] Calefi:
+[31/07/2026, 15:44:14] Ana Uniair: aceito sugestões também do teu time
+[31/07/2026, 15:45:10] Calefi: Adicionei eles aqui, vamos discutir internamente sobre a lp
+[31/07/2026, 15:53:44] Ana Uniair: Calefi tem os retornos que pedimos no grupo sobre o Koomo aquele dia?
+[31/07/2026, 15:54:00] Ana Uniair: Estamos bem preocupadas com esse fluxo.. está tomando bastante tempo também e sendo retrabalho para todas.
+[03/08/2026, 08:44:48] Calefi: Bom dia @⁨Ana Uniair⁩ @⁨~Daniele Villeroy - Uniair⁩ 
+
+Eu acho o kommo meio confuso nos relatórios dele, geralmente acompanho tudo pela pipeline e exportando para planilha os dados para tratar
+
+Eu subi as informações daquela planilha dentro do Kommo, então temos essas informações lá na pipeline histórico
+
+Estou monitorando uma automação que eu fiz para passar as informações do formulário para o whatsapp, assim teremos essa informação de qualificados la no kommo também.
+
+Motivos de fechamento da para ver pelo filtro, vou mandar um print abaixo
+‎[03/08/2026, 08:57:29] Calefi: ‎vídeo omitido
+[03/08/2026, 09:57:16] ~ Daniele Villeroy - Uniair: Bom dia Calefi
+[03/08/2026, 09:57:58] ~ Daniele Villeroy - Uniair: tu acha que não dá pra confiar no Dashboard que ele apresenta? 
+Não é customizável?
+[03/08/2026, 09:59:10] ~ Daniele Villeroy - Uniair: ok eu sei filtrar ali, a questão é… da pra gerar algum tipo de relatório? Ver todos juntos quantificados?
+Lembra que falamos de olhar pra todos que foram qualificados pela equipe, os que fecharam, os que não fecharam e os motivos
+[03/08/2026, 10:34:31] Ana Uniair: Hoje tu consegue me enviar os relatórios @⁨Calefi⁩ ?
+[03/08/2026, 10:37:24] Ana Uniair: E aguardo a tua análise e ajustes para as LPS.

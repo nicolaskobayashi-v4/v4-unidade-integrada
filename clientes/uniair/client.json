@@ -1,0 +1,183 @@
+{
+  "meta": {
+    "name": "Uniair Transporte Aeromédico e Táxi Aéreo",
+    "slug": "uniair",
+    "workspace_id": null,
+    "created_at": "2026-07-22",
+    "modelo_venda": "inside-sales",
+    "nota": "Cliente V4 recorrente desde 2024, NÃO contratado no produto Estruturação Estratégica — é uma conta de gestão de mídia/CRM em andamento. Onboarding no sistema EE feito em 22/07/2026 a pedido do operador (Lucas), para usar as skills de diagnóstico/estruturação como apoio ao trabalho recorrente, não como um contrato formal de 4 semanas. Migrou de outra unidade V4 (Giulia/Teles) para a unidade de Lucas em 03/2026, por insatisfação com resultado e falta de acesso à diretoria da agência anterior. Base de conhecimento já tinha ~11 transcrições de check-in (mar-jul/2026) e dados de mídia (CSVs) antes deste onboarding formal — client.json foi reconstruído a partir desse histórico existente, não de um kickoff novo."
+  },
+
+  "briefing": {
+    "identification": {
+      "name": "Uniair Transporte Aeromédico e Táxi Aéreo",
+      "contact_name": "Ana Menegazzi (operacional/dia-a-dia) e Daniele Villeroy \"Dani\" (gerente comercial, decisora)",
+      "contact_role": "Ana = assistente comercial (vendas + marketing). Dani = gerente comercial, uma das decisoras estratégicas, reporta à diretoria/conselho.",
+      "segment": "Táxi aéreo executivo / transporte aeromédico (UTI aérea) / serviço aéreo especializado (inspeção de linha, gasoduto/oleoduto) — aviação executiva sob demanda com frota própria (King Air + helicópteros; NÃO possui jatos).",
+      "annual_revenue": null,
+      "years_in_market": "Fundada em 1997 (~29 anos). Cliente V4 desde 2024.",
+      "location": "Sede/base em Porto Alegre (RS, aeroporto Salgado Filho) + base operacional em Londrina (PR). Atendimento estende-se a SP e demais regiões do Sul/Sudeste conforme alcance de aeronave.",
+      "website": "https://uniair.com.br/ (institucional, gerido por fornecedora externa 'Priscila', fora do controle da V4) + https://taxiaereo.uniair.com.br/ (LP fretamento, feita pela V4) + https://taxiaereo.uniair.com.br/aeromedico (LP aeromédico, feita pela V4)",
+      "instagram": "@voeuniair — ~14.400 seguidores (jun/2026), estagnado ('ganho sete, perco 14'). Não foi possível raspar a bio/conteúdo via scraping nesta pesquisa — checar manualmente.",
+      "whatsapp": "Canal principal de atendimento comercial, mas via celulares corporativos dos próprios vendedores (não confirmado se é WhatsApp Business API com acesso V4)",
+      "gmb": "Existe, mas a própria Ana duvida que esteja bem otimizado ('não sei se ele tá bem feito')"
+    },
+    "product": {
+      "main_product": "Fretamento de aeronave executiva/privativa, transporte aeromédico/UTI aérea (carro-chefe de vendas), e serviço aéreo especializado (inspeção de linha/gasoduto/oleoduto — ex. contrato CPFL). Frota configurável: King Air (5/6/8 lugares) + helicópteros AS350B2. Transporte de carga é secundário/não estruturado.",
+      "ticket": "Meta interna mínima R$68.000 (Dani); ticket médio real das vendas fechadas no Kommo (amostra) = R$65.628,95. Contratos especializados (ex. CPFL) chegam a R$200-300 mil por missão / R$3 milhões em 2 anos.",
+      "billing_model": "projeto",
+      "sales_cycle": "Aeromédico: horas/mesmo dia (urgência médica). Executivo/corporativo: mais variável, pode levar semanas.",
+      "active_customers": null,
+      "most_profitable": "Aeromédico/UTI aérea — maior taxa de qualificação e fechamento mensal recorrente",
+      "growth_potential": "Táxi aéreo executivo (hoje é o gargalo: muitos leads, baixa qualificação); serviço especializado (inspeção de linha/gasoduto, ticket alto e pouco explorado); mercado internacional (parado há meses)"
+    },
+    "icp": {
+      "best_customers": "Familiares de pacientes com necessidade urgente de transporte aeromédico (UTI aérea); empresários/executivos de alto poder aquisitivo (filtro testado: renda >R$100k/mês); empresas/indústrias com necessidade de inspeção aérea especializada (ex. concessionárias de energia/gasoduto, como CPFL).",
+      "not_customers": "Quem busca passagem aérea comercial 'comum'; curiosos sem intenção real de compra (maior motivo de perda = 'desconhecimento'); leads fora da região de atuação/base (Porto Alegre/Londrina); quem procura 'jato' (a Uniair não tem jato, só turboélice e helicóptero).",
+      "problems_before": [
+        "Alto volume de leads desqualificados sobrecarregando um comercial pequeno (3-4 pessoas)",
+        "Ausência de CRM até maio/2026 — controle por planilha, e-mail, Outlook e caderno",
+        "Falta de padronização/triagem no formulário de captação (permissivo, sem autoexclusão)"
+      ],
+      "results_after": [
+        "Redução de leads desqualificados via triagem no próprio formulário (regras de MQL definidas com a V4)",
+        "Otimização de investimento por palavra-chave/concorrência (posição no leilão do Google melhorada)",
+        "Implementação do CRM Kommo (treinado em 06/2026) para reduzir perda de follow-up e rastrear origem de venda"
+      ],
+      "churn_reasons": "Não aplicável no sentido clássico de recorrência de contrato (venda é por missão/voo avulso). Motivos de perda de LEAD (proxy mais próximo, base Kommo 412 leads): sem retorno, desistência, fora da área geográfica, outra forma de transporte, desconhecimento, preço, concorrente, sem conexão, indisponibilidade de aeronave, óbito, meteorologia."
+    },
+    "competition": {
+      "competitors": [
+        {"name": "Sete Fração / \"a Sete\"", "perceived_differential": "Concorrente mais forte na percepção da própria Uniair (\"o tanto que ela odeia é absurdo\"); disputa direta pela 1ª posição no Google Ads (fica em 1º em 44% das disputas); qualidade de anúncio forte."},
+        {"name": "Brasil Vida", "perceived_differential": "Preços mais baixos que a Uniair; resposta mais rápida via WhatsApp (confirmado por cliente oculto — minutos); usado como benchmark de site/LP pela própria cliente."},
+        {"name": "Táxi Aéreo Hércules", "perceived_differential": "Concorrente regional direto no Sul, portfólio quase idêntico (22 anos de mercado, UTI aérea, captação de órgãos). Identificado na pesquisa externa, ainda não discutido a fundo internamente."}
+      ],
+      "real_differential": "Atendimento rápido (resposta em minutos mesmo com alto volume), frota própria configurável (não terceiriza aeronave como parte dos concorrentes), parceria com Unimed (planos de saúde), qualidade/segurança do time médico (fisiologia aeroespacial, cuidado 'leito a leito'), 26+ anos de mercado com base dupla RS/PR numa região (Sul) com menor concentração de concorrentes certificados (~12% das ~145-147 empresas ANAC).",
+      "why_choose_us": "NÃO discutido formalmente com o operador ainda — só há poucos concorrentes mapeados até hoje (Sete Fração e Brasil Vida são os únicos com análise real; os demais são apenas nomes que aparecem no leilão de palavras-chave). Usar o real_differential acima como base provisória; validar 'por que escolher a Uniair' explicitamente numa próxima conversa com Ana/Dani antes de qualquer entregável de posicionamento."
+    },
+    "brand": {
+      "adjectives": null,
+      "voice_tone": null,
+      "admired_brands": null,
+      "current_colors": null,
+      "has_logo": true,
+      "restrictions": "NUNCA usar a palavra 'jato' — a frota é King Air/turboélice + helicóptero, não jato ('é tiro no pé, porque nós não temos jato'). Manter tom aeromédico (urgência/emergência) separado do tom executivo (aspiracional, 'evite o trânsito') — não misturar as duas LPs para não assustar o público executivo com a imagem de emergência médica.",
+      "nota": "Confirmado com o operador (22/07/2026): a V4 NÃO atua na identidade de marca da Uniair — cliente já tem marca/logo definidos e isso está fora de escopo. Ignorar as skills de manual de marca/identidade visual/brandbook para este cliente, salvo pedido explícito futuro."
+    },
+    "digital_situation": {
+      "paid_traffic": true,
+      "platforms": ["google_ads", "meta_ads", "linkedin_ads"],
+      "monthly_investment": "Histórico ~R$15-20k/mês no Google (considerado baixo pela cliente); jun/2026 ~R$500 Meta + ~R$9.000 Google; jul/2026 ~R$3.155 em Meta até a data do check-in. Total Google Ads fev-jul/2026: R$54.521,03 (STD Report). LinkedIn: testes pontuais de R$500-1.000, ~1x/trimestre.",
+      "current_results": "CPL médio Google Ads ≈ R$118,58 no período fev-jul/2026 (459,83 conversões). 118 MQLs em maio/2026, custo por MQL caiu pela metade após ajustes. Meta mensal da cliente (R$500k-2M vindos de tráfego) é historicamente não atingida.",
+      "crm": "Kommo",
+      "lead_sources": "Google Ads (busca paga — ~65% do volume, principal canal), formulário do site/LP, botão WhatsApp do site, indicação/carteira de clientes fiéis, LinkedIn (institucional), rádio/mídia de rua (mais recente)",
+      "conversion_rate": "≈9,5% sobre leads finalizados (33 fechado-ganho / 347 fechado-ganho+perdido, amostra Kommo de 412 leads)",
+      "biggest_pain": "Alto volume de leads desqualificados sobrecarregando comercial pequeno (3-4 pessoas); histórico de perda de follow-up por ausência de CRM (resolvido em parte com Kommo); oscilação de faturamento mês a mês (depende de poucas vendas de ticket alto); meta interna da cliente desproporcional ao investimento em mídia; falhas no processo comercial (ex. respostas só por WhatsApp mesmo quando o lead pediu por e-mail, achado em cliente oculto)."
+    },
+    "accesses": {
+      "meta_business": true,
+      "google_ads": true,
+      "google_analytics": null,
+      "google_search_console": null,
+      "instagram_admin": null,
+      "website_admin": false,
+      "crm": true,
+      "gmb": null,
+      "whatsapp_business": null,
+      "nota": "google_ads e meta_business confirmados (contas geridas pela V4 desde a transição de 03/2026). website_admin=false porque o site institucional principal (uniair.com.br) é gerido por fornecedor externo, fora do controle da V4 — apenas o subdomínio das LPs (taxiaereo.uniair.com.br) está sob gestão V4. crm=true (Kommo, acesso configurado por Lucas). Campos null precisam confirmação em próximo check-in."
+    },
+    "sales_module": {
+      "active_sellers": "3-4 pessoas no comercial (Ana + vendedores, contando com Dani), mais uma 'coordenação de voo' que cobre atendimento fora do horário comercial (noites/fins de semana/feriados)",
+      "sales_process": "Lead entra por múltiplos canais (formulário site/LP, botão WhatsApp, e-mail) → cai na planilha/Kommo → comercial analisa viabilidade (região/distância/disponibilidade de aeronave) → calcula orçamento em sistema interno próprio (fora do CRM) → envia orçamento por WhatsApp (imagem com foto da aeronave, tempo de voo, valor) ou ligação → follow-up manual, historicamente falho por sobrecarga de volume (Kommo deve corrigir isso).",
+      "objections": [
+        "Preço/valor alto ('não imaginava que tinha esse valor, é muito caro' — classificado internamente como 'desconhecimento')",
+        "Indisponibilidade de aeronave na data solicitada",
+        "Concorrência de preço — concorrentes sem base própria/mais baratos, ou familiar que já resolveu por outro meio de transporte"
+      ],
+      "conversion_rate": "≈9,5% sobre leads finalizados (ver digital_situation)",
+      "sales_cycle": "Aeromédico: horas/mesmo dia. Executivo: dias a semanas.",
+      "has_scripts": false
+    }
+  },
+
+  "research": {
+    "fetched_at": "2026-07-22",
+    "file": "clientes/uniair/research.md",
+    "site_content": {
+      "resumo": "Site institucional robusto (frota, depoimentos, contatos completos, CNPJ 04.261.159/0001-10). LP de fretamento usa tom aspiracional ('evite o trânsito'). LP aeromédico usa tom urgente/emergencial, formulário completo (origem/destino, motivo), claim de '5.000+ resgates'."
+    },
+    "instagram": {
+      "resumo": "@voeuniair não pôde ser raspado via scraping nesta pesquisa (imagens não renderizáveis) — checagem manual pendente."
+    },
+    "competitors": [
+      {"name": "Táxi Aéreo Hércules", "nota": "22 anos, UTI aérea, captação de órgãos — portfólio quase idêntico, concorrente regional direto no Sul"},
+      {"name": "Sete Táxi Aéreo", "nota": "foco aeromédico, atua no RS — mesma empresa citada internamente como 'Sete Fração'"},
+      {"name": "Flapper", "nota": "marketplace nacional disruptivo, 5.000+ aeronaves, R$10,4-62,4k/hora, certificação ARGUS/Wyvern"},
+      {"name": "Líder Aviação", "nota": "grande grupo nacional, 60+ anos, infraestrutura líder na América Latina"},
+      {"name": "Voe MTX", "nota": "plataforma asset-light regional (Cuiabá/MT)"}
+    ],
+    "market": {
+      "resumo": "Brasil é o 2º maior mercado mundial de aviação executiva (11.239 aeronaves, nov/2025). ~145-147 empresas de táxi aéreo certificadas ANAC no Brasil; região Sul concentra apenas ~12% delas — nicho relativamente menos saturado."
+    },
+    "reputation": {
+      "resumo": "Sem reviews de GMB capturados na pesquisa automática. Reclame Aqui sem selo de verificação, sem reclamações recentes visíveis, mas volume insuficiente para índice de reputação confiável."
+    }
+  },
+
+  "connectors": {
+    "fetched_at": null,
+    "workspace_id": null,
+    "period": {"start": null, "end": null},
+    "google_ads": {"total_campaigns": null, "total_cost": null, "avg_cpa": null, "campaigns": []},
+    "facebook_ads": {"total_campaigns": null, "total_spend": null, "avg_cpm": null, "campaigns": []},
+    "nota": "Sem workspace V4MOS configurado para este cliente. Dados de mídia disponíveis manualmente em base-de-conhecimento/dados-de-midia/: 'STD Report (12).csv' (Google Ads, fev-jul/2026, custo total R$54.521,03, 459,83 conversões), 'leads_kommo.csv' (412 leads do CRM, ticket médio fechado R$65.628,95), 'GrowthPack _ Uniair - Base de Leads (4).csv' (941 leads com UTMs completas, mar-jul/2026). Há também 'leads-clientes-20260722163619.xlsx' (22/07/2026, não lido nesta extração — provável snapshot mais recente, recomenda-se abrir manualmente)."
+  },
+
+  "contexto_operacional": {
+    "resumo_cronologico_checkins": "03/03/2026: transição da conta de outra unidade V4 para a de Lucas Calefi, motivada por reclamação da cliente. Processo comercial sem CRM, alto volume de leads desqualificados, meta interna historicamente irreal (R$600k-1M/mês vs. R$200k reais). 17/03/2026: kickoff pós-transição com Dani — meta agressiva (ticket mín. R$68k), causa raiz mapeada (triagem de MQL feita na venda, não no formulário), redesenho de formulário/LP proposto. 01/04 a 27/05/2026: ciclo recorrente de metas não batidas, ajuste de orçamento entre campanhas/regiões, mapeamento de concorrentes por palavra-chave, negociação da adoção do CRM Kommo (decisão represada por indisponibilidade da Dani). 02/06/2026: treinamento formal da equipe no Kommo. 09/06 a 10/07/2026: Kommo em uso ativo, 118 MQLs em maio, custo por MQL caiu pela metade; pedido de ajuda para crescer Instagram; revisão de investimento por campanha; hipótese aberta de que leads de alto poder aquisitivo evitam preencher formulário por desconfiança, preferindo ir direto ao site/WhatsApp — ainda não testada.",
+    "pendencias_recorrentes": [
+      "Revisão do site institucional (uniair.com.br) — fora do controle da V4, fornecedor externo, apontado como gargalo/frustração pela própria Dani",
+      "Redesenho de formulário/LP para triagem de MQL — em andamento, parcialmente implementado",
+      "Aumento de investimento em mídia — pedido recorrente da cliente, condicionado pela V4 a regras de otimização antes de escalar",
+      "Meta financeira da cliente (R$500k-2M/mês) permanece desproporcional ao volume de investimento em mídia sustentado"
+    ]
+  },
+
+  "progress": {
+    "current_week": 1,
+    "skills": {
+      "ee-s1-persona-icp": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s1-auditoria-comunicacao": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s1-swot": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s2-pesquisa-mercado": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s1-arquitetura-presenca": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s2-diagnostico-midia": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s2-diagnostico-organico-ig": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s2-diagnostico-criativos": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s1-diagnostico-maturidade": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s2-posicionamento": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s2-diagnostico-cro": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s4-cliente-oculto": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s4-diagnostico-comercial": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s3-is-metricas-funil": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s3-is-pipeline": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s3-manual-marca": {"status": "not_applicable", "checkpoint": 0, "started_at": null, "completed_at": null, "nota": "Fora de escopo — operador confirmou (22/07/2026) que a V4 não atua na identidade de marca da Uniair, que já tem marca/logo definidos."},
+      "ee-s3-landing-page": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s3-copy-anuncios": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s3-criativos-anuncios": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s3-crm-setup": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null, "nota": "CRM (Kommo) já implementado e em uso desde 06/2026 — esta skill deve avaliar/otimizar o setup existente, não implementar do zero."},
+      "ee-s5-scripts-sdr": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s5-sdr-ia-config": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s3-forecast-midia": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null}
+    }
+  },
+
+  "history": [
+    {
+      "ts": "2026-07-22T00:00:00-03:00",
+      "skill": "ee-novo-cliente",
+      "checkpoint": 1,
+      "decision": "Onboarding formal da Uniair no sistema de Estruturação IA, a pedido do operador (Lucas). Cliente é uma conta V4 recorrente desde 2024 (gestão de mídia/CRM), NÃO contratada no produto Estruturação Estratégica — o operador quer usar as skills do sistema como apoio ao trabalho já em andamento. client.json criado a partir do histórico existente: 11 transcrições de check-in (mar-jul/2026) + 3 CSVs de dados de mídia já presentes em base-de-conhecimento/, mais pesquisa externa (site, 2 LPs, Instagram, concorrentes) salva em research.md. Modelo de venda definido como inside-sales (confirmado pelo operador — bate com uso de CRM Kommo e time comercial próprio). Decisões do operador nesta etapa: (1) faturamento anual ainda não sabido — deixado null; (2) branding/identidade visual está fora de escopo, V4 não mexe na marca da Uniair — ee-s3-manual-marca marcada not_applicable; (3) cliente já tem logo definido; (4) 'why_choose_us' ainda não discutido formalmente — poucos concorrentes mapeados até hoje (só Sete Fração e Brasil Vida com análise real), usar real_differential como base provisória até validar com Ana/Dani."
+    }
+  ]
+}

@@ -9,6 +9,10 @@
       "nome": "Sabrina Souza",
       "cargo": "Gestora de Projetos V4",
       "foto_url": "https://lh3.googleusercontent.com/a-/ALV-UjWl-8wfJ1kr2_Rx2-NaNlYmtjnHutRmUAfxiCBF_NF8FK-6qCc=s240-p-k-rw-no"
+    },
+    "version": 5,
+    "skill_aliases": {
+      "ee-s3-pdv-gmn": "ee-s3-gmb-otimizacao"
     }
   },
   "briefing": {
@@ -43,10 +47,22 @@
     },
     "competition": {
       "competitors": [
-        {"name": "Loja Magnabosco", "perceived_differential": "concorrente regional direto — diferencial percebido a confirmar"},
-        {"name": "Lojas Manardi", "perceived_differential": "concorrente regional direto — diferencial percebido a confirmar"},
-        {"name": "Lojas Jussara Colchões", "perceived_differential": "concorrente regional direto — diferencial percebido a confirmar"},
-        {"name": "Grandes magazines (Havan, Magazine Luiza)", "perceived_differential": "concorrente indireto — capturam cliente por preço/conveniência de grande varejo, sem especialização em cama/mesa/banho"}
+        {
+          "name": "Loja Magnabosco",
+          "perceived_differential": "concorrente regional direto — diferencial percebido a confirmar"
+        },
+        {
+          "name": "Lojas Manardi",
+          "perceived_differential": "concorrente regional direto — diferencial percebido a confirmar"
+        },
+        {
+          "name": "Lojas Jussara Colchões",
+          "perceived_differential": "concorrente regional direto — diferencial percebido a confirmar"
+        },
+        {
+          "name": "Grandes magazines (Havan, Magazine Luiza)",
+          "perceived_differential": "concorrente indireto — capturam cliente por preço/conveniência de grande varejo, sem especialização em cama/mesa/banho"
+        }
       ],
       "real_differential": "Loja mais completa do segmento em Caxias do Sul — variedade (linha de entrada até premium) + oportunidade comercial constante + melhor custo-benefício percebido",
       "why_choose_us": "Competitividade em preço, variedade e desempenho, somada a atendimento presencial especializado — categoria em que o conhecimento técnico do vendedor pesa na decisão de compra"
@@ -61,7 +77,9 @@
     },
     "digital_situation": {
       "paid_traffic": true,
-      "platforms": ["meta_ads"],
+      "platforms": [
+        "meta_ads"
+      ],
       "monthly_investment": null,
       "current_results": "Sem mensuração estruturada — resultado percebido principalmente em campanhas pontuais de datas comemorativas (Black Friday, Dia do Cliente, Dia Sem Imposto), sem leitura linear do restante do mês",
       "crm": null,
@@ -83,7 +101,9 @@
     "sales_module": {
       "active_sellers": "Gestão comercial: Anderson Moreira, Rodrigo Meireles e Juliana Lopes (gerentes de vendas); equipe de vendedoras em loja (headcount total do grupo: 18 funcionários)",
       "sales_process": "100% presencial em loja. Cada vendedora atende por WhatsApp próprio no pós-visita, sem roteiro, SLA de resposta ou mensuração formal.",
-      "objections": ["Pesquisa de preço (comparação com concorrentes/internet)"],
+      "objections": [
+        "Pesquisa de preço (comparação com concorrentes/internet)"
+      ],
       "conversion_rate": null,
       "sales_cycle": "imediato/presencial",
       "has_scripts": false
@@ -97,33 +117,436 @@
     "integrations": null
   },
   "progress": {
-    "current_week": 1,
+    "current_week": 3,
     "skills": {
-      "ee-s1-persona-icp": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
-      "ee-s1-auditoria-comunicacao": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
-      "ee-s1-swot": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
-      "ee-s2-pesquisa-mercado": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
-      "ee-s1-arquitetura-presenca": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
-      "ee-s2-diagnostico-midia": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
-      "ee-s2-diagnostico-organico-ig": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
-      "ee-s2-diagnostico-criativos": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
-      "ee-s1-diagnostico-maturidade": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
-      "ee-s2-posicionamento": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
-      "ee-s3-pdv-base-ativa": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
-      "ee-s3-pdv-gmn": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
-      "ee-s3-pdv-experiencia": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
-      "ee-s3-pdv-regua-whatsapp": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
-      "ee-s3-manual-marca": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
-      "ee-s3-landing-page": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
-      "ee-s3-copy-anuncios": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
-      "ee-s3-criativos-anuncios": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
-      "ee-s3-crm-setup": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
-      "ee-s5-scripts-sdr": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
-      "ee-s5-sdr-ia-config": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
-      "ee-s3-forecast-midia": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null}
+      "ee-s1-persona-icp": {
+        "status": "completed",
+        "checkpoint": 1,
+        "started_at": "2026-07-24",
+        "completed_at": "2026-07-24"
+      },
+      "ee-s1-auditoria-comunicacao": {
+        "status": "completed",
+        "checkpoint": 1,
+        "started_at": "2026-07-27",
+        "completed_at": "2026-07-27"
+      },
+      "ee-s1-swot": {
+        "status": "completed",
+        "checkpoint": 1,
+        "started_at": "2026-07-27",
+        "completed_at": "2026-07-27"
+      },
+      "ee-s2-pesquisa-mercado": {
+        "status": "completed",
+        "checkpoint": 1,
+        "started_at": "2026-07-27",
+        "completed_at": "2026-07-27"
+      },
+      "ee-s1-arquitetura-presenca": {
+        "status": "completed",
+        "checkpoint": 1,
+        "started_at": "2026-07-27",
+        "completed_at": "2026-07-27"
+      },
+      "ee-s2-diagnostico-midia": {
+        "status": "completed",
+        "checkpoint": 4,
+        "started_at": "2026-08-03",
+        "completed_at": "2026-08-03"
+      },
+      "ee-s2-diagnostico-organico-ig": {
+        "status": "completed",
+        "checkpoint": 1,
+        "started_at": "2026-08-03",
+        "completed_at": "2026-08-03"
+      },
+      "ee-s2-diagnostico-criativos": {
+        "status": "completed",
+        "checkpoint": 1,
+        "started_at": "2026-08-04",
+        "completed_at": "2026-08-04"
+      },
+      "ee-s1-diagnostico-maturidade": {
+        "status": "completed",
+        "checkpoint": 2,
+        "started_at": "2026-08-04",
+        "completed_at": "2026-08-04"
+      },
+      "ee-s2-posicionamento": {
+        "status": "completed",
+        "checkpoint": 1,
+        "started_at": "2026-08-03",
+        "completed_at": "2026-08-03"
+      },
+      "ee-s3-pdv-base-ativa": {
+        "status": "completed",
+        "checkpoint": 1,
+        "started_at": "2026-08-13",
+        "completed_at": "2026-08-13"
+      },
+      "ee-s3-pdv-gmn": {
+        "status": "superseded",
+        "checkpoint": 0,
+        "started_at": null,
+        "completed_at": null,
+        "note": "Skill inexistente no plugin. Substituída por ee-s3-gmb-otimizacao, executada em 2026-08-11."
+      },
+      "ee-s3-pdv-experiencia": {
+        "status": "completed",
+        "checkpoint": 1,
+        "started_at": "2026-08-13",
+        "completed_at": "2026-08-13"
+      },
+      "ee-s3-pdv-regua-whatsapp": {
+        "status": "completed",
+        "checkpoint": 1,
+        "started_at": "2026-08-13",
+        "completed_at": "2026-08-13"
+      },
+      "ee-s3-manual-marca": {
+        "status": "pending",
+        "checkpoint": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-landing-page": {
+        "status": "pending",
+        "checkpoint": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-copy-anuncios": {
+        "status": "pending",
+        "checkpoint": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-criativos-anuncios": {
+        "status": "pending",
+        "checkpoint": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-crm-setup": {
+        "status": "pending",
+        "checkpoint": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s5-scripts-sdr": {
+        "status": "pending",
+        "checkpoint": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s5-sdr-ia-config": {
+        "status": "pending",
+        "checkpoint": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-forecast-midia": {
+        "status": "pending",
+        "checkpoint": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-gmb-otimizacao": {
+        "status": "completed",
+        "checkpoint": 1,
+        "started_at": "2026-08-11",
+        "completed_at": "2026-08-11"
+      }
     }
   },
   "history": [
-    {"ts": "2026-07-21T00:00:00Z", "skill": "ee-novo-cliente", "checkpoint": 0, "decision": "Cliente cadastrado a partir da base de conhecimento já existente (formulário de kick-off, transcrição da call comercial e contrato). Briefing preenchido com dados reais; ICP, brand (adjetivos/tom de voz/marcas admiradas) e alguns campos de acessos e mídia paga seguem pendentes de confirmação com o operador antes do avanço da Semana 1."}
+    {
+      "ts": "2026-07-21T00:00:00Z",
+      "skill": "ee-novo-cliente",
+      "checkpoint": 0,
+      "decision": "Cliente cadastrado a partir da base de conhecimento já existente (formulário de kick-off, transcrição da call comercial e contrato). Briefing preenchido com dados reais; ICP, brand (adjetivos/tom de voz/marcas admiradas) e alguns campos de acessos e mídia paga seguem pendentes de confirmação com o operador antes do avanço da Semana 1."
+    },
+    {
+      "ts": "2026-07-24T18:25:00Z",
+      "skill": "ee-s1-persona-icp",
+      "checkpoint": 1,
+      "decision": "ICP e Persona gerados com base na transcrição do kick-off e formulário. Persona Adriana (mulher 30+, Classe B, bairros centrais de Caxias do Sul). Mensagem-chave aprovada: emocional — 'Sua casa pode ter o conforto de hotel — todo dia'. Produto de entrada: lençóis e toalhas. Alavanca de up-sell: colchões (2,5x markup). Key insight: base de 30.000 contatos no Mega Sul já segmentável para campanha de colchões."
+    },
+    {
+      "ts": "2026-07-27T00:00:00Z",
+      "skill": "ee-s1-auditoria-comunicacao",
+      "checkpoint": 1,
+      "decision": "Auditoria regenerada do zero (output anterior estava salvo em disco mas não checkpointado). Score médio de comunicação: 30/100 em 5 canais. Maior vazamento comprovado: teste real no kickoff mostrou 4 de 5 vendedoras sem resposta no WhatsApp. Ausência total de site/LP confirmada como gap crítico. Benchmark real via WebSearch: Casa e Cia tem 28K seguidores no Instagram, acima de Manardi (17K) e Jussara (12K), mas é a única sem loja virtual entre os 4 players comparados. Quick wins definidos: SLA de WhatsApp, bio com mensagem-chave, reativar Meta Ads com UTM."
+    },
+    {
+      "ts": "2026-07-27T00:00:00Z",
+      "skill": "ee-s1-swot",
+      "checkpoint": 1,
+      "decision": "SWOT e scorecard de concorrentes (0-10) gerados com evidência pública real via WebSearch. Jussara Casa e Colchões é o concorrente mais forte (5,4/10), especialmente na categoria colchão — mesma alavanca de up-sell identificada na Persona/ICP. Matriz TOWS e 7 ações prioritárias com risk-adjusted score definidas; top ação: SLA de WhatsApp (score 9,0). Honesty alert: disputa da categoria colchão contra a Jussara não deve ser tratada como fácil."
+    },
+    {
+      "ts": "2026-07-27T00:00:00Z",
+      "skill": "ee-s2-pesquisa-mercado",
+      "checkpoint": 1,
+      "decision": "TAM/SAM/SOM calculado: TAM nacional R$26,4bi (IEMI), SAM Caxias do Sul R$62,35M, SOM triangulado R$17,3M (36,8% acima do faturamento atual). Meta declarada pelo cliente no formulário (15-25% de crescimento = R$14,55-15,81M) é MENOR que o SOM calculado — registrado separadamente, não usado como SOM. 5 concorrentes analisados (3 diretos regionais + 2 indiretos nacionais). Oportunidade não explorada: nenhum concorrente comunica o território aspiracional 'conforto de hotel' validado na Persona."
+    },
+    {
+      "ts": "2026-07-27T00:00:00Z",
+      "skill": "ee-s1-arquitetura-presenca",
+      "checkpoint": 1,
+      "decision": "Inventário de 12 ativos mapeado. Nível de arquitetura atual: 1 (frágil — WhatsApp, o canal de pedido mais usado, falha em 80% dos casos testados). Alvo 90 dias: Nível 2. Porta de entrada real identificada como loja física por tradição, contrastando com a crença do dono de que o Meta Ads é o motor principal (sem campanha ativa no momento da auditoria). Hand-off mais quebrado: Instagram/Anúncio → WhatsApp. Semana 1 completa — todas as 5 skills de comum.semana_1 concluídas; avançar para Semana 2 (diagnóstico digital e posicionamento)."
+    },
+    {
+      "ts": "2026-07-28T00:00:00Z",
+      "skill": "ee-s1-persona-icp",
+      "checkpoint": 2,
+      "decision": "Operador pediu 2 personas adicionais além da Adriana. Adicionadas como secondary_personas (campo novo, não previsto no schema original): Sônia (Classe C, Loja Centro, ticket médio R$400, decisão racional/imediata) e Bianca (noiva montando enxoval novo, ticket concentrado alto R$8-12k, janela de decisão curta). Adriana segue como persona primária que ancora a mensagem-chave e a mídia principal — as 2 novas servem para calibrar comunicação segmentada por loja/ocasião. Renderer atualizado (portal.html + render_apresentacao.py + BUILDERS dict) para exibir as 2 personas novas; consolidated.html não foi tocado (tem bug pré-existente não relacionado, hardcoded para outro cliente, fora do escopo desta mudança)."
+    },
+    {
+      "ts": "2026-07-28T00:00:00Z",
+      "skill": "ee-s1-persona-icp",
+      "checkpoint": 3,
+      "decision": "Operador questionou 'ciclo de 2-3 meses para recompra de toalha/lençol' — corretamente: essa cadência não é sustentada por nenhum dado do cliente. A única fonte real é 'em média 4 compras/ano' (formulário de kick-off), que é agregado entre TODAS as categorias da loja, não uma reposição específica de toalha/lençol a cada 2-3 meses. Corrigido em 3 pontos: icp.behavior.purchase_frequency, buyer_journey stage 'Pós-Compra e Fidelização' (duration_estimate agora marcado [E] sem cadência inventada) e secondary_personas.Bianca.difference_from_adriana. Nenhum dos outros 4 outputs da Semana 1 (auditoria, SWOT, pesquisa de mercado, arquitetura) citava essa cadência específica — não precisaram de correção."
+    },
+    {
+      "ts": "2026-07-28T00:00:00Z",
+      "skill": "ee-s1-persona-icp",
+      "checkpoint": 4,
+      "decision": "Operador perguntou a origem do willingness_to_pay — auditoria revelou que só 3 números tinham fonte real (ticket médio R$800, markup colchão 2,5x, cortina R$99 isca); as faixas de preço por categoria (lençóis, colchão em R$, edredom, tapetes) eram estimativas sem marcação [E], apresentadas como 'validadas com base no kick-off'. A pedido do operador: (1) removidas as faixas sem fonte; (2) NA RE-CHECAGEM, achado que a faixa de toalhas (R$19,90-R$600) É real (Anderson Moreira, kickoff) — restaurada com fonte; (3) auditoria expandida para os outros 4 outputs da Semana 1, a pedido do operador.",
+      "note": "Auditoria completa (checkpoint 4-8): ver entradas seguintes por skill."
+    },
+    {
+      "ts": "2026-07-28T00:00:00Z",
+      "skill": "ee-s1-persona-icp",
+      "checkpoint": 5,
+      "decision": "Auditoria completa do próprio persona-icp.json encontrou e corrigiu mais 5 problemas: (1) icp.demographics.income_or_revenue (Classe B/C R$6-20k/R$3-6k) marcado [E] — não é dado do cliente, é inferência do ticket médio por loja; (2) anti_persona citava 'Shein' — fonte real diz 'Chupique' (provável erro de transcrição de 'Shopee'), corrigido para não afirmar marca errada; (3) objection_library tinha 2 respostas de vendedora com matemática de preço fabricada (R$20 a mais no kit; R$280/mês e R$10/noite no colchão) — ambas dependiam de faixas de preço já removidas, substituídas por script sem número inventado; (4) Bianca (persona secundária): atribuição errada da 'feira de noivas' ao formulário (é da ata do kickoff) e não mencionava que o evento não existe há 2 anos; (5) Bianca: R$8.000-12.000 (kit completo) não tinha fonte — substituído por evidência real (Anderson Moreira citou tickets de R$3-20k na Loja Premium)."
+    },
+    {
+      "ts": "2026-07-28T00:00:00Z",
+      "skill": "ee-s1-auditoria-comunicacao",
+      "checkpoint": 2,
+      "decision": "Auditoria encontrou estatística errada: '391% de aumento na conversão respondendo em 1 minuto' estava registrada como 393% em 6 lugares. A fonte (Matheus Nunes, V4, call comercial 13/07) cita 393% de memória e depois 391% lendo direto de um gráfico — usado o número mais confiável (391%, lido do gráfico). Também adicionada nota ao journey_friction_map esclarecendo que só 2 das 5 etapas têm leakage_pct com evidência direta (WhatsApp 80% e recompra sazonal 30%); as outras 2 (85% e 20%) são estimativas ilustrativas de formato de funil, não medição real."
+    },
+    {
+      "ts": "2026-07-28T00:00:00Z",
+      "skill": "ee-s1-swot",
+      "checkpoint": 2,
+      "decision": "Auditoria encontrou 2 priority_actions cujo financial_impact (R$825.000 e R$55.000 de retorno projetado) dependia do ticket médio de colchão de R$2.750 já identificado como fabricado. Números removidos (null + nota explicando), mantendo a ação e o risk_adjusted_score (que não dependiam do R$). Highlight 'Top ação (retorno 90d)' trocado de 'Campanha colchão R$825k' para 'SLA de resposta WhatsApp' — que é, de fato, a ação de maior risk_adjusted_score (9,0) e tem base financeira real (recuperação de faturamento sazonal, dado do próprio cliente). Faixa de toalhas no competitor_scorecard corrigida de R$40-150 (sem fonte) para R$19,90-R$600 (real, mesma correção feita no persona-icp)."
+    },
+    {
+      "ts": "2026-07-28T00:00:00Z",
+      "skill": "ee-s2-pesquisa-mercado",
+      "checkpoint": 2,
+      "decision": "SOM recalculado: o Método B da triangulação usava o mesmo ticket de colchão fabricado (R$2.750). Substituído pelo piso real de ticket alto da Loja Premium (R$3.000, citado por Anderson Moreira como o valor que 'já puxa bastante' a média — evidência real, embora sobre ticket combinado da loja, não preço isolado de colchão). SOM: R$17,3M → R$17,47M (variação de ~1%). Propagado para todos os campos dependentes: target_share_of_sam_pct (27,7%→28,0%), gap_to_som_brl (R$4,65M→R$4,82M), gap_to_som_pct (36,8%→38,1%), summary_headline, summary_highlights, honesty_alert, market_share.commentary e client_goal_vs_som_note. Também corrigida inconsistência interna pré-existente: o texto do Método A citava '27,7%' mas o valor batia com 27,0% (confusão entre a % do método individual e a % final média)."
+    },
+    {
+      "ts": "2026-07-28T00:00:00Z",
+      "skill": "ee-s1-arquitetura-presenca",
+      "checkpoint": 2,
+      "decision": "Auditado a pedido do operador — nenhuma correção necessária. Não cita nenhuma das faixas de preço fabricadas, nem a estatística de conversão. Único número específico (30 mil contatos) já tinha fonte real, verificada."
+    },
+    {
+      "ts": "2026-07-29T00:00:00Z",
+      "skill": "ee-s1-auditoria-comunicacao",
+      "checkpoint": 3,
+      "decision": "Operador perguntou a origem do dado '4 de 5 vendedoras testadas no kickoff (22/07)'. Erro real encontrado: o teste de resposta do WhatsApp foi feito por Matheus Nunes (V4) na CALL COMERCIAL de 13/07 (arquivo 'V4 Company + Case e Cia - 2026_07_13'), não no kickoff de 22/07 (conduzido por Lucas Calefi/Sabrina Souza) — dois eventos reais e distintos que o documento tratava como um só. A atribuição estava certa em 3 lugares (audit_details, gaps[0].evidence, executive_summary) mas errada em 9 outros (summary, summary_highlights, summary_key_findings, journey_friction_map, key_insight, honesty_alert, tone_of_voice_analysis, quick_wins). Corrigido nos 9 pontos."
+    },
+    {
+      "ts": "2026-07-29T00:00:00Z",
+      "skill": "ee-s1-swot",
+      "checkpoint": 3,
+      "decision": "Mesmo erro de atribuição de data (kickoff vs. call comercial 13/07) encontrado no competitor_scorecard.evidence do WhatsApp — corrigido."
+    },
+    {
+      "ts": "2026-07-29T00:00:00Z",
+      "skill": "ee-s1-arquitetura-presenca",
+      "checkpoint": 3,
+      "decision": "Mesmo erro de atribuição de data (kickoff vs. call comercial 13/07) encontrado em 7 pontos (summary_highlights, summary_key_findings, asset_inventory do WhatsApp, handoff_map, most_broken_handoff, key_insight, honesty_alert) — todos corrigidos para citar corretamente a call comercial de 13/07."
+    },
+    {
+      "ts": "2026-07-29T00:00:00Z",
+      "skill": "ee-s1-auditoria-comunicacao",
+      "checkpoint": 4,
+      "decision": "Operador conversou com Matheus Nunes (V4) e trouxe dado atualizado e mais preciso sobre o teste de WhatsApp da call comercial de 13/07: as 5 vendedoras RESPONDERAM, ao contrário do que constava ('4 de 5 não responderam') — a leitura anterior era o status visto AO VIVO durante a própria call, não o resultado final. Tempos reais de resposta: Tamires 7min, Bernardete 1h15, Neuza 1h30, Daiane 3h30, Giane 3h37 (9:23→13h) — média de ~2 horas. Apenas Giane deu resposta elaborada ('como posso ajudar?'); as outras 4 só 'bom dia'. Reescrito o achado em auditoria-comunicacao (12 pontos: summary, highlights, findings, score do canal WhatsApp 20→25, communication_score 30→31, gap_matrix, executive_summary, competitor_benchmark, journey_friction_map — leakage_pct dessa etapa virou null pois não há taxa de abandono medida, só tempo de resposta —, tone_of_voice, quick_wins, key_insight, honesty_alert), swot (1 ponto) e arquitetura-presenca (8 pontos). Narrativa mudou de 'ignoram contato' para 'respondem, mas devagar e sem padrão' — achado continua forte (2h de média vs. janela de 1min que decide conversão), mas mais preciso."
+    },
+    {
+      "ts": "2026-07-27T14:00:00Z",
+      "skill": "ee-s1-auditoria-comunicacao",
+      "action": "updated",
+      "note": "Fechados os 5 pontos que pediam print do GMN, com dados reais das 2 lojas (Centro 4,4/326, Premium 4,4/220): telefone faltante na Premium, CTA do botao Site sem conversao, padrao recorrente de reclamacao de atendimento (julgar cliente pela aparencia) presente nas duas lojas, e descricao sem a mensagem-chave aprovada. Score do canal GMN ajustado de 55 para 58."
+    },
+    {
+      "ts": "2026-07-27T15:30:00Z",
+      "skill": "ee-s1-swot",
+      "action": "updated",
+      "note": "CORRECAO: Manardi tem e-commerce real (manardi.com.br), nao identificado na coleta original. 141 avaliacoes reais (4,9/5), julho 2026, clientes de fora do RS (SP/RJ/GO) - alcance nacional comprovado. Score digital da Manardi corrigido de 3,1 para 5,1 (nao e mais a mais fraca digitalmente dos 3 diretos)."
+    },
+    {
+      "ts": "2026-07-27T15:30:00Z",
+      "skill": "ee-s2-pesquisa-mercado",
+      "action": "updated",
+      "note": "Mesma correcao aplicada: Manardi digital_score de 3 para 7, website corrigido de null para manardi.com.br com evidencia real."
+    },
+    {
+      "ts": "2026-07-27T15:30:00Z",
+      "skill": "ee-s1-auditoria-comunicacao",
+      "action": "updated",
+      "note": "Estudo extra sobre e-commerce de concorrentes (a pedido do operador): confirmado que Jussara e Manardi vendem de verdade online (nao vitrine), Manardi com evidencia mais forte (alcance nacional). Conclusao mantida: LP+WhatsApp resolve o gargalo mais barato agora; e-commerce completo fica pra depois, nao por nao funcionar no segmento, mas por sequenciamento de esforco/custo."
+    },
+    {
+      "ts": "2026-07-27T16:15:00Z",
+      "skill": "ee-s1-swot",
+      "action": "updated",
+      "note": "Confirmado via Biblioteca de Anuncios do Meta (screenshots do operador): Manardi roda 10 anuncios ativos e continuos desde jan/2026 apontando DIRETO pro e-commerce (Shop Now/Comprar agora, preco no anuncio). Jussara tambem roda 10 anuncios ativos, mas 100% pra WhatsApp, nenhum pro e-commerce dela. Scores de midia_paga e overall recalculados: Jussara 5.4->5.6, Manardi 5.1->5.4."
+    },
+    {
+      "ts": "2026-07-27T16:15:00Z",
+      "skill": "ee-s2-pesquisa-mercado",
+      "action": "updated",
+      "note": "Mesma confirmacao aplicada aos campos active_ads de Jussara e Manardi."
+    },
+    {
+      "ts": "2026-07-27T16:15:00Z",
+      "skill": "ee-s1-auditoria-comunicacao",
+      "action": "updated",
+      "note": "Estudo de e-commerce concluido: Manardi = midia paga direto pro checkout (funciona e escala). Jussara = midia paga so pra WhatsApp (e-commerce organico/incidental). Conclusao final mantida: LP+WhatsApp resolve o gargalo mais barato agora."
+    },
+    {
+      "ts": "2026-07-27T17:00:00Z",
+      "skill": "ee-s2-pesquisa-mercado",
+      "action": "updated",
+      "note": "CORRECAO CRITICA (apontada pelo operador): SOM caiu de R,47M para R,83M. O metodo bottom-up incluia R,5M de up-sell de colchao para 5% da base de 30 mil contatos, sem lastro real - nem em ciclo de troca (colchao e compra eventual de 5-10+ anos, ja registrado em persona-icp e ignorado nessa conta), nem em segmentacao da base (5% aplicado sobre TODOS os contatos, nao sobre quem ja comprou colchao). Removido do SOM; upside de colchao passa a ser oportunidade qualitativa nao quantificada, pendente de (1) fonte real de ciclo de troca e (2) segmentacao do Mega Sul por historico de compra de colchao."
+    },
+    {
+      "ts": "2026-07-27T17:30:00Z",
+      "skill": "ee-s1-arquitetura-presenca",
+      "action": "updated",
+      "note": "CORRECAO (apontada pelo operador): a claim de que anuncio direciona direto pro WhatsApp era hipotese do proprio Lucas na call de kickoff (22/07), dita com hedge explicito (\"como eu nao consegui ver os anuncios\"), nao confirmacao do Anderson. Nenhum anuncio estava ativo no momento do kickoff. Marcado como [E]/hipotese nao verificada em vez de fato, com nota para checar no ee-s2-diagnostico-midia (pendente). Suavizadas 4 mencoes que tratavam isso como fato consolidado (summary_headline, key_findings, most_broken_handoff, key_insight) - o achado do WhatsApp lento (2h media) continua solido, so a rota especifica anuncio->whatsapp que foi corrigida para hipotese."
+    },
+    {
+      "ts": "2026-08-03T00:00:00Z",
+      "skill": "ee-s2-diagnostico-midia",
+      "checkpoint": 1,
+      "decision": "Diagnostico de midia gerado sobre export manual do Meta Ads (7 CSVs, jan-jul/2026, 3.617 linhas nivel dia x anuncio, R$ 34.623,34). Sem V4MOS (workspace_id null) e sem acesso ao Meta Business - data_source: manual_export. Achado central e contraintuitivo: NAO ha problema de eficiencia de midia. CPC R$ 0,99 esta ABAIXO do benchmark de varejo (R$ 1,00-3,00), CTR 1,27% dentro da faixa, frequencia 1,18 sem fadiga, e custo por conversa caiu 39% (jan R$ 7,75 -> jul R$ 4,69). O problema e continuidade e objetivo: conta sem veicular em 50 dos 212 dias (24%), com apagoes de 13 dias (20/02-04/03), 12 dias (03/06-14/06) e 9 dias (21/07-29/07). O apagao de julho cobre exatamente o kickoff de 22/07, confirmando com dado a fala de Anderson Moreira ('to verificando por que ele ta sem saldo') e contradizendo o 'e para ser linear, temos planejamento semanal' dito na mesma call. Somam-se R$ 10.030,62 (29%) em campanhas de ENGAJAMENTO e R$ 7.993,92 (23,1%) sem tipo de resultado configurado. Gap de budget: Anderson declarou R$ 10.000/mes; a execucao real e R$ 4.946/mes (-50,5%), com pico de R$ 6.839 em maio - nenhum mes atingiu o declarado. Decisoes do operador registradas antes da geracao: (1) usar apenas o gasto real dos exports, sem budget declarado como referencia de comparacao primaria; (2) tratar 'Conversas por mensagem iniciadas' como proxy de lead/CPL. ROAS, CAC e taxa de conversao deixados null (nao estimados) por ausencia de site, CRM e atribuicao conversa->venda. Substituidos por break_even_analysis marcado [E]. Cenario recomendado: B - executar os R$ 10.000/mes que o cliente ja acredita investir (nao pede verba nova), com 20% em teste de Google. 132 afirmacoes numericas do output reconferidas contra os CSVs brutos por script independente (132 OK / 0 FAIL); schema validado.",
+      "note": "Pendencias registradas em operator_questions: (1) confirmar se ha outra conta de anuncios que explique o gap R$ 10k declarado vs R$ 4,9k executado; (2) confirmar o mecanismo do funil 'Leads no site' das campanhas 'DC -' e 'JS-' (5.223 leads a R$ 1,01) - o rotulo pressupoe site/pixel que o cliente declara nao ter, NAO usar em forecast antes de confirmar; (3) desambiguar 'margem media de 2.4' (markup 2,4x ou margem 2,4%?) - inverte o break-even; (4) obter faturamento mes a mes de 2026 para testar de verdade a correlacao apagao de midia vs queda de faturamento (hoje e hipotese, nao achado); (5) identificar o responsavel atual pela conta - os nomes de campanha sugerem 3+ maos no periodo. Galeria de criativos e diagnostico visual bloqueados ate liberacao do acesso ao Meta Business."
+    },
+    {
+      "ts": "2026-08-03T00:00:00Z",
+      "skill": "ee-s2-posicionamento",
+      "action": "updated",
+      "note": "Output gerado em paralelo por outra pessoa da equipe (arquivo salvo em 03/08 16:30) sem atualizacao do progress. Status corrigido para completed a pedido do operador — o conteudo do output nao foi alterado."
+    },
+    {
+      "ts": "2026-08-03T00:00:00Z",
+      "skill": "ee-s2-diagnostico-organico-ig",
+      "action": "updated",
+      "note": "Output gerado em paralelo por outra pessoa da equipe (arquivo salvo em 03/08 16:32) sem atualizacao do progress. Status corrigido para completed a pedido do operador — o conteudo do output nao foi alterado. ATENCAO: o validador acusa 2 campos obrigatorios ausentes nesse output (top_posts e bottom_posts) — pendente de correcao por quem gerou."
+    },
+    {
+      "ts": "2026-08-03T00:00:00Z",
+      "skill": "ee-s2-diagnostico-midia",
+      "checkpoint": 2,
+      "decision": "MECANISMO DO FUNIL 'LEADS NO SITE' CONFIRMADO pelo operador — deixa de ser incognita e vira o achado de maior valor do diagnostico. Os 5.223 leads a R$ 1,01 vinham da LP https://campanha72horas.com.br/casa-e-cia, que capturava contato e encaminhava para grupo/atendimento no WhatsApp. Operador autorizou contabilizar os leads: current_metrics.total_leads passou de 3.673 (so conversas) para 8.896 eventos de captura combinados (3.673 conversas a R$ 5,27 + 5.223 leads de LP a R$ 1,01), custo medio ponderado R$ 2,77, representando 71,2% da verba do periodo. LIGACAO NOVA E RELEVANTE: essa LP e o 'projeto 72 horas' que Anderson Moreira descreveu no kickoff de 22/07 sem nomear a ferramenta ('projeto que foi de uma agencia de marketing que nos passou', 'funcionou muito bem', 'a cada mais ou menos tres meses') — ninguem tinha ligado a acao comercial favorita do cliente ao seu melhor resultado de midia. RISCO ESTRATEGICO NOVO: o dominio pertence a DANER STIVE CIDADE (CPF de terceiro, whois registro.br), criado em 23/01/2026 e expira em 23/01/2027; a pagina /casa-e-cia retorna 404 (verificado por requisicao direta em 03/08/2026) e a marca nao consta mais na listagem publica do dominio, que hoje lista 10 varejistas — entre eles a Polly Variedades, que anuncia exatamente a mesma categoria (cama, mesa, banho e decoracao). O melhor funil da empresa e alugado, ja saiu do ar e nao e exclusivo. RESSALVA ENCONTRADA NA CONFERENCIA: 1.904 dos 5.223 leads (36,5%) sao do bloco 'DC - JANEIRO', que rodou de 01/01 a 12/01 — ANTES do registro do dominio em 23/01. Esses leads sao validos, mas apontaram para outro ativo nao identificado, ou seja, a dependencia de infraestrutura de terceiros foi de pelo menos dois ativos. key_insight reescrito de 'problema de continuidade' para 'problema de posse' (conta apaga porque ninguem e dono do saldo + melhor funil roda em dominio alheio). Adicionadas 3 acoes ao plano (reconstruir o 72 horas como LP propria na Semana 4, negociar reativacao temporaria como ponte, rastrear o ativo de janeiro) e nova pergunta ao operador sobre existencia de contrato com o dono do dominio e posse das bases de leads capturadas. Cenario B ganhou linha de R$ 600/mes para a LP propria, com upside deliberadamente NAO contabilizado nos 2.000 leads projetados. 151 afirmacoes numericas reconferidas contra os CSVs brutos (151 OK / 0 FAIL); schema validado.",
+      "note": "Pendencias restantes: (1) gap de budget R$ 10k declarado vs R$ 4,9k executado; (2) desambiguar 'margem media de 2.4'; (3) faturamento mes a mes de 2026; (4) responsavel atual pela conta; (5) NOVO: existe contrato com Daner Stive Cidade? A Casa e Cia pode exigir reativacao da pagina e entrega das bases de leads, ou a relacao e informal?; (6) NOVO: qual ativo recebeu os 1.904 leads de janeiro?"
+    },
+    {
+      "ts": "2026-08-04T00:00:00Z",
+      "skill": "ee-s1-diagnostico-maturidade",
+      "checkpoint": 1,
+      "decision": "Score de maturidade digital: 27/100 (baixo), 3,2 pontos ABAIXO da media do varejo fisico (30) e dentro da faixa normal do setor (18-42). Pilares: Midia Paga 39 (low), Criativos 50 (medium, ESTIMADO), CRO 11 (critical), CRM 15 (critical), SEO 14 (critical). Score calculado pelo framework de scoring-framework.md com os 5 pesos canonicos (midia 25%, criativos 20%, CRO 25%, CRM 15%, SEO 15%) e cada criterio pontuado individualmente e documentado em details.metrics.criterio_scoring — aritmetica reconferida por script (26,85 -> 27). ACHADO CENTRAL: a assimetria importa mais que o numero agregado. A Casa e Cia esta ACIMA do setor nos dois pilares que rodam sobre infraestrutura de terceiros (Midia +9, Criativos +22) e CRITICA nos que exigem ativo proprio (SEO -26, CRO -24). Nao e imaturidade uniforme — e uma empresa competente que nunca construiu casa propria: sem site, dominio, pixel, GA4 ou CRM, faturando R$ 12,65 milhoes/ano. Isso quantifica em 5 pilares o mesmo 'problema de posse' identificado no diagnostico de midia. key_insight: CRO 11 e o gargalo sistemico — sem pagina propria nao ha pixel, sem pixel nao ha medicao nem retargeting, e por isso o diagnostico de midia teve de deixar ROAS/CAC/taxa de conversao em branco. Prioridade 1 da sequencia de turnaround NAO e midia (pilar em que o cliente ja esta acima da media) e sim a LP propria com pixel, que sobe 3 pilares ao mesmo tempo e devolve a empresa o funil de R$ 1,01/lead do projeto 72 horas. 16 numeros citados reconferidos contra ee-s2-diagnostico-midia e ee-s1-auditoria-comunicacao (16 OK / 0 FAIL); schema validado.",
+      "note": "Ressalvas registradas em honesty_alert: (1) o score de Criativos (50) e o menos confiavel — 2 dos 5 criterios (Qualidade visual e Copy, 40% do peso do pilar) foram estimados por falta de acesso visual; deve ser revisto quando ee-s2-diagnostico-criativos rodar. (2) Benchmarks de Criativos e CRO sao aproximacoes: a tabela da V4 nao tem linha de varejo fisico para esses 2 pilares. (3) Ordem canonica da Semana 2 foi alterada — o posicionamento rodou antes da maturidade (sem violar dependencia formal, mas sem o insumo do score por pilar); vale revisar o posicionamento a luz do achado de ausencia de ativo proprio."
+    },
+    {
+      "ts": "2026-08-04T00:00:00Z",
+      "skill": "ee-s2-diagnostico-criativos",
+      "checkpoint": 1,
+      "decision": "Diagnostico de criativos ESTRUTURADO A PARTIR DO TRABALHO DA DESIGNER DA V4 (PDF de 54 slides em base-de-conhecimento/criativos), nao gerado do zero. Escopo do PDF: identidade visual, feed do Instagram, videos, criativos de trafego pago e 3 concorrentes diretos. Veredito central: o problema nao e materia-prima e sim ausencia de sistema visual — a marca nao possui Brandbook, MIV, site ou material institucional, entao o Instagram virou a unica referencia visual e cada peca resolve seu design individualmente. Consequencia mais forte: a percepcao digital e INFERIOR a experiencia da loja fisica ('quem conhece pelo Instagram encontra na loja uma empresa muito mais organizada e sofisticada do que imaginava'), quando o ideal e o inverso. Matriz dos 10 estaticos de midia paga fornecidos pelo operador: score medio 9,7/25, 6 eliminar e 4 otimizar, ZERO em manter. Pontos fortes reais registrados: uso dos ambientes proprios da loja, presenca da vendedora nos videos (o ativo mais forte), exploracao de textura/volume, legendas nos videos. Comparativo: Casa e Cia e 2a de 4 — supera Jussara (menos promissora) e Manardi (consistente porem datada, publico C/D), mas fica a distancia consideravel da Magnabosco, benchmark que une branding e varejo. Oportunidade competitiva imediata em midia paga: Manardi e Jussara, os unicos concorrentes diretos que anunciam, erram o basico (margem de seguranca do Meta, transicoes amadoras). Plano de acao da designer: (1) Brandbook, (2) comunicacao voltada a percepcao de valor e nao a promocao, (3) rebranding como etapa seguinte — ela avalia que o logotipo atual limita a evolucao da identidade. As 10 imagens foram otimizadas (420px, q78) e embutidas como data URI no output para o portal ficar autocontido ao ser compartilhado; originais copiados para assets/criativos/.",
+      "note": "RESSALVA DE METODO registrada em honesty_alert e no campo scoring_note: a designer produziu diagnostico QUALITATIVO e NAO usou a regua de 0-25 desta skill. Os vereditos das 4 pecas que ela analisou individualmente (toalha de rosto Appel, SALE Trussardi, cortina corta-luz e Fecha Mes institucional) sao dela; a decomposicao numerica Hook/Clareza/ICP/CTA/Visual e os vereditos das outras 6 foram derivados na estruturacao a partir da critica sistemica ao template FECHA MES. Cada item traz analysis_source ('designer' ou 'derivado'). Outras 2 ressalvas: (a) a matriz cobre so os 10 estaticos — a critica aos videos esta em video_diagnosis mas sem score por peca, pois os videos nao foram fornecidos individualmente; (b) nao ha cruzamento com performance por criativo, porque o export do Meta reaproveita nomes de anuncio entre dezenas de campanhas — os vereditos sao de qualidade de design, nao de resultado medido."
+    },
+    {
+      "ts": "2026-08-04T00:00:00Z",
+      "skill": "ee-s2-diagnostico-midia",
+      "checkpoint": 3,
+      "decision": "CORRECAO A PEDIDO DO OPERADOR — 4 questionamentos, 1 erro real encontrado. (1) ERRO CONFIRMADO: o highlight 'Eficiencia de compra / CPC R$ 0,99 / compra esta boa' estava errado em duas frentes. Primeiro, CPC e preco de insumo, nao medida de eficiencia — clique barato nao significa verba bem gasta. Segundo, e mais grave, R$ 0,99 era MEDIA PONDERADA de 6 tipos de resultado distintos: decomposto, Conversas por mensagem (55,9% da verba) tem CPC R$ 1,57, DENTRO do benchmark e nao abaixo; o agregado era puxado para baixo pelo funil da LP 72h (CPC R$ 0,43, CTR 3,35%), que nem roda mais. Achado adicional na apuracao: as campanhas de ENGAJAMENTO, 29% da verba, entregaram o CPC MAIS CARO da conta (R$ 2,45) com o pior CTR (0,59%) — ou seja, o desperdicio e pior do que a versao anterior descrevia. Corrigido em 7 pontos: highlight, summary, summary_headline, summary_key_findings, current_metrics.cpc_note, meta_ads.what_is_working, meta_ads.strategic_diagnosis e key_insight. (2) Adicionada ressalva de comparabilidade em benchmarks: a linha usada e de e-commerce NACIONAL, enquanto a Casa e Cia segmenta Caxias do Sul + 15 km — leilao local e estruturalmente mais barato, entao CPC abaixo da referencia reflete em parte geografia, nao competencia. (3) Criado bloco meta_ads.blackout_detail precisando a natureza do dado: dos 50 dias com R$ 0,00, 40 nao tem NENHUMA linha no export e 10 tem linha zerada; 'blackout' e inferencia a partir de ausencia. Registrado que APENAS a sequencia de 21-29/07 tem confirmacao independente (depoimento de Lucas e de Anderson na call de 22/07); as de fev/mar e junho sao inferidas. (4) H4 reescrito: critério de sucesso estava mal especificado (exigia CTR > 1,5%, mais alto que a media da conta, sendo que criativo aspiracional tende a converter menos no clique imediato) — passou para CTR > 1,0% e custo por conversa < R$ 6,10, enquadrado como teste de territorio e nao de performance. Adicionados campos evidence_for (4 evidencias com forca declarada, incluindo a fala do Anderson no kickoff sobre cliente fotografar etiqueta em hotel), evidence_gap (zero evidencia dentro da conta; territorio livre prova que ninguem disputa, nao que converte) e why_test_anyway. Schema validado; as 151 afirmacoes numericas seguem conferidas.",
+      "note": "O headline do documento mudou de 'Midia nao e cara — e intermitente e alugada' para uma versao sem a alegacao de preco, que nao se sustentava. 'Alugada' tambem saiu do headline por conflar a conta de anuncios com o ativo de conversao (a LP de terceiro) — o achado de posse continua no key_insight, onde tem espaco para ser explicado."
+    },
+    {
+      "ts": "2026-08-05T00:00:00Z",
+      "skill": "ee-s2-diagnostico-midia",
+      "checkpoint": 3,
+      "decision": "CORRECOES APLICADAS APOS LIBERACAO DO CONECTOR META ADS + PROJECAO DE GOOGLE SEARCH COM DADO REAL. Conta identificada e validada: CA - CASA E CIA (1495283081560562). Totais bateram EXATAMENTE com o export manual (R$ 34.623,34 / 2.743.422 impressoes / CPM R$ 12,62), confirmando que o export estava completo. TRES CORRECOES DE METRICA: (a) FORMATO — a conta e 72% VIDEO, nao 14,1%. A classificacao anterior usava o NOME do anuncio (unica pista do export) e estava errada; o campo video_play_actions da API mostra que quase todo anuncio de oferta e video (30% NA SEGUNDA PECA, 1000 FIOS, LENCOL BORDADO, CARNAVAL, MEGA FEIRAO, 6X AV, ADS 00/005/011). Amostra: 40 maiores anuncios por verba, 32% da conta. Consequencia: recomendacao de 'subir video para 50%' REMOVIDA e hipotese H1 INVALIDADA por premissa falsa; o gargalo e o CONTEUDO do video, nao o formato. (b) FREQUENCIA — 4,75 real desduplicada, nao 1,18 (o valor anterior era media da frequencia diaria por anuncio, que fica perto de 1 por construcao). (c) ALCANCE — 577.517 pessoas unicas no periodo e 254.464 em 90d, contra os valores somados do export que superestimavam ~4x. HIPOTESE H4 CONTRADITA PELA PROPRIA CONTA: comparando copy DENTRO do mesmo funil (WhatsApp), o ranking de CTR e: preco especifico + urgencia 4,21% (FERIADO 26/05, tambem o melhor custo por conversa do periodo, R$ 1,73) > evento 3,37% > mecanica de desconto 1,89% > 0,98% > ASPIRACIONAL 0,72% ('Conforto que abraca', o criativo mais aspiracional da conta e o pior CTR entre os de verba relevante). Os CTRs de 15-37% que pareciam sustentar o H4 sao das campanhas DC/JS (objetivo lead-gen para LP), nao comparaveis. Nao invalida o territorio do posicionamento (outro horizonte), invalida a hipotese como teste de performance. BLACKOUT DE JUNHO CONFIRMADO de forma independente: a API nao retorna nenhuma linha entre 03 e 14/06. Deixa de ser inferencia por ausencia no export. ATIVO DE JANEIRO CONFIRMADO: criativo de 01/01 traz 'Ate 70% OFF... 08, 09 e 10 de janeiro. Apenas quem estiver cadastrado(a) podera adquirir' — a mecanica das 72 horas com portao de cadastro rodava 22 dias ANTES do registro do dominio campanha72horas.com.br (23/01). Confirma segundo ativo de terceiro, ainda nao identificado. PROJECAO GOOGLE SEARCH (bloco novo google_search_projection): baseada em 2 exports do Keyword Planner (Caxias do Sul + regiao). Universo bruto 28.830 buscas/mes -> 16.660 apos desduplicar, porque 42% do que o Planner devolve sao variantes da mesma consulta com volume identico. Escopo recomendado: 212 cliques/mes por R$ 283 (marca propria, colchoes, cama, marcas de fornecedor, categoria). Colchoes e o cluster que justifica o canal por margem: 2.980 buscas/mes a CPC R$ 1,40, e com markup 2,4x basta ~0,15 venda/mes para se pagar. Marca propria e defensivo puro: 'casa e cia' tem 320 buscas com competicao ALTA — terceiros dao lance no nome da loja. Maior assimetria da praca registrada mas NAO recomendada: 'magnabosco' + 'loja magnabosco' = 2.180 buscas/mes com competicao BAIXA. CENARIO B REBALANCEADO: Google de R$ 2.000 para R$ 400/mes e Meta de R$ 8.000 para R$ 9.600 — o mercado de busca de Caxias nao comporta os R$ 2.000 originais. Schema validado nos 2 outputs; varredura automatica confirmou 0 ocorrencias de numeros obsoletos apresentados como fato.",
+      "note": "Scores de maturidade NAO mudaram (Midia 39, Criativos 50, geral 27): as correcoes afetaram numeros citados como evidencia, nao os criterios que sustentavam as notas. Pendencias que permanecem: (1) sem CPL/CAC/ROAS reais — forecast POP 3.12 segue bloqueado ate instrumentar conversa->venda; (2) ativo de janeiro da LP 72h nao identificado; (3) margem '2.4' ambigua entre markup 2,4x e margem 2,4%; (4) taxa clique->conversa do Google nunca medida — projecao entregue em cenarios; (5) Search depende da LP no ar. Activity logs do Meta ainda nao liberados para esta conta, entao os blackouts de fev/mar seguem sem confirmacao por log (o de junho foi confirmado por ausencia de dado na API)."
+    },
+    {
+      "ts": "2026-08-05T00:00:00Z",
+      "skill": "ee-s2-diagnostico-midia",
+      "checkpoint": 4,
+      "decision": "VALIDACAO MANUAL DO OPERADOR nos criativos citados — pediu para checar antes de eu seguir afirmando conclusao sobre video/CTR, e encontrou 2 blind spots reais do metodo que a API sozinha nao mostrava. (1) H4 DESCARTADA (nao mais 'contradita'): a comparacao FERIADO 26/05 vs ADS 00 tinha DOIS confundidores simultaneos que eu nao tinha isolado — (a) POSICIONAMENTO: consultei a API por publisher_platform e confirmei que FERIADO 26/05 roda em todos os posicionamentos e capturou CTR alto majoritariamente no FACEBOOK (3,56%/4,69%), enquanto ADS 00 rodou 100% no INSTAGRAM em 7 meses (0% Facebook, confirmado por filtro dedicado na API) — plataforma onde o CTR da conta tende a ser mais baixo; (b) COPY: o operador confirmou visualmente que o video do ADS 00 fala de conforto E PRECO, nao e puramente aspiracional como o texto principal ('Conforto que abraca...') sugeria. Com posicionamento e mensagem variando juntos, a comparacao nunca isolou a variavel de territorio e foi descartada como evidencia a favor OU contra o H4 — nao 'contradita', mas NAO TESTAVEL retrospectivamente. Recomendacao registrada: teste controlado real (mesmo posicionamento, copy isolando so a variavel de territorio). (2) FORMATO DE CRIATIVO — 2 blind spots confirmados no metodo (plays/impressoes > 0,20): MEGA FEIRAO - PREMIUM (52523157990233) tem 1 midia estatica E 1 video sob o MESMO ad_id — o metodo atribui o ID inteiro a um formato so, nao ha como separar via API; anuncio '01' (52518267151033) nasceu de POST ORGANICO IMPULSIONADO — as visualizacoes de video carregam historico anterior ao impulsionamento (por isso a razao impossivel de 148% plays/impressoes que eu tinha sinalizado como suspeita), invalidando a metrica. Operador confirmou que FERIADO 26/05 e de fato ESTATICO (DCO com 4 imagens), ADS 00 e de fato VIDEO, e as 4 SELECAO DE OFERTAS sao de fato ESTATICAS com multiplas midias — ou seja, o metodo acerta a DIRECAO geral (conta majoritariamente video), mas o percentual de 72% deve ser lido como ordem de grandeza, nao numero exato. Registrado honestamente em honesty_alert e no proprio bloco da hipotese H4 — nao foram passados por baixo do tapete.",
+      "note": "Padrao de trabalho que vale manter: pedir validacao manual do operador especificamente nos casos em que a metrica de API tem comportamento anomalo (razao > 100%, comparacao com resultado forte demais para ser so 1 variavel). O operador tem acesso visual ao Gerenciador que a API nao expoe (asset misto sob mesmo ID, origem organica vs paga do criativo)."
+    },
+    {
+      "ts": "2026-08-05T00:00:00Z",
+      "skill": "ee-s2-diagnostico-midia",
+      "action": "render_fix",
+      "decision": "BUG DE RENDERIZACAO ENCONTRADO E CORRIGIDO no template compartilhado (plugins/v4-estruturacao-ia/shared-templates/portal.html), nao no output. O JSON sempre teve o bloco google_search_projection e os opportunity_keywords com volumes reais do Keyword Planner, mas o operador reportou nao ver nada de Google no portal. Causa raiz: (1) o renderer nunca conhecia o campo google_search_projection — era um campo novo sem codigo de exibicao; (2) a tabela de oportunidades (opportunity_keywords) estava CONDICIONADA a keyword_clusters nao estar vazio, e keyword_clusters foi deixado [] de proposito (Casa e Cia nunca rodou Search) — isso escondia a tabela de oportunidades tambem. Corrigido: (a) tabela de oportunidades desacoplada do gate de keyword_clusters, com secao propria 'Oportunidades de Search' quando nao ha clusters ativos; (b) bloco novo 'Projecao de Google Search - Canal Ainda Nao Ativo' dentro da secao Google Ads do portal, com tabela de clusters, escopo recomendado, cenarios de conversa, comparacao com o Meta e nota de honestidade. Mudanca e ADITIVA — nao altera comportamento para nenhum cliente que ja tenha keyword_clusters preenchido (caminho antigo preservado identico). Validado de 3 formas: (1) sintaxe JS parseada sem erro via node; (2) render_portal.sh rodou sem erro; (3) EXECUCAO REAL da funcao R['ee-s2-diagnostico-midia'](d) via node contra o JSON de producao da Casa e Cia, confirmando que os 16.660 buscas/mes, os 8 clusters, o escopo recomendado (212 cliques, R$283,30), os 4 cenarios de conversa, e o split corrigido do Cenario B (Google R$400,00 / Meta R$9.600,00) aparecem no HTML de fato gerado — nao so no JSON fonte embutido na pagina.",
+      "note": "Esta e uma mudanca de infraestrutura compartilhada (portal.html serve TODOS os clientes do plugin), nao um output de cliente. Deve se comportar identico para clientes existentes com keyword_clusters preenchido; nenhuma regressao esperada mas vale conferir o proximo cliente que passar pelo diagnostico de midia com Google Ads ja ativo."
+    },
+    {
+      "ts": "2026-08-11T00:00:00Z",
+      "skill": "ee-s3-gmb-otimizacao",
+      "checkpoint": 1,
+      "decision": "Otimizacao dos DOIS perfis GMB (Casa & Cia - Centro, 326 avaliacoes; Casa & Cia Premium, 220), ambos 4,4 estrelas. Gerados: 2 descricoes SEO distintas por loja (641 e 611 de 750 chars), categoria principal mantida ('Loja de artigos para cama, mesa e banho') + 7 secundarias, 10 atributos, 11 servicos, 4 posts para 30 dias, 5 Q&As, 8 templates de resposta a avaliacao e checklist de 23 itens. Diferenciacao por loja usou as taglines que o proprio ee-s2-posicionamento indicou: 'Tudo que uma boa casa precisa, num so lugar' (Centro) e 'Sua casa, todo dia como hotel' (Premium). ACHADO CENTRAL: as duas lojas tem a mesma nota e temas de critica parecidos, mas linhas do tempo OPOSTAS — na Premium a negativa mais recente tem 3 anos e os ultimos 12 meses sao so 4-5 estrelas (passivo antigo, gestao de reputacao); na Centro ha 2 estrelas de 7 meses e 1 estrela de 1 ano (problema corrente, gestao operacional). Nenhuma das 15 avaliacoes negativas dos dois perfis foi respondida — as 2 unicas respostas do proprietario estao em avaliacoes positivas e usam o mesmo texto generico. Dois temas novos vieram das reviews da Centro e foram marcados como fora do escopo do GMB: (a) o caixa/crediario e ponto de ruptura nomeado em 2 avaliacoes independentes, com perda de venda declarada para concorrente a uma quadra; (b) sinal recente de qualidade percebida nas linhas de entrada (2 estrelas de 7 meses: 'paga caro e o tecido encolhe nas primeiras lavadas'). Schema validado, 0 erros.",
+      "note": "BLOQUEADOR de execucao: o perfil Casa & Cia - Centro (o de maior trafego) e gerenciado por ro@gmail.com, conta nao identificada que nao e a do Anderson — sem liberacao de gerencia, metade do checklist nao roda. Quick wins de custo zero ja mapeados: cadastrar telefone (54) 3039-2111 na Premium (perfil hoje sem botao Ligar) e remover da galeria os criativos 'LIQUIDA TUDO! 70%' e 'LIVRE DE IMPOSTOS', que sao anuncios e contradizem o posicionamento. Ressalvas em honesty_alert: preco real so existe para toalha e cortina (demais servicos 'Sob consulta'); nomes de categoria sao intencao, nao string literal do seletor do Google; 3 atributos pendentes de verificacao fisica; post de oferta com [INSERIR DATAS]. Divergencia nao resolvida: briefing diz ticket R$800 e recompra 4x/ano, base do ERP mostra mediana R$279,82 e 65,5% com compra unica em 31 meses — nenhum numero de ticket foi usado neste output por causa disso. Registrada tambem a skill ee-s3-pdv-gmn como superseded: nao existe no plugin."
+    },
+    {
+      "ts": "2026-08-13T00:00:00Z",
+      "skill": "ee-s3-pdv-base-ativa",
+      "checkpoint": 1,
+      "decision": "Operador sinalizou que havia material da Semana 3 pronto fora do portal. Auditoria do material confirmou: base-de-conhecimento/dados-base/ANALISE-BASE-CLIENTES.md tinha a análise completa da base (31.891 clientes, R$ 28,81 mi em 31 meses) sem nunca ter virado entregável. Output gerado a partir dela: curva ABC por faturamento (top 20% = 67,7%, abaixo da 80/20 — negócio de volume, não de carteira), comportamento de recompra (65,5% com compra única), cross-sell por marca como alavanca mais mensurável (1 marca R$476 → 7 marcas R$11.255) e alvo prioritário nominal: 3.570 clientes de alto valor com compra única, R$ 5,4 mi no período, 93,5% com celular. Receita recuperável em cenário conservador (10% de conversão): R$ 540 mil/ano.",
+      "note": "PENDÊNCIA REGISTRADA A PEDIDO DO OPERADOR — conflito de ticket médio: a análise da base dá mediana de R$ 279,82 e média ponderada de R$ 529,94, contra os R$ 400 (Centro) e R$ 750 (Premium) informados no kick-off e usados nos outputs da Semana 1. Hipótese do operador, a confirmar com o Anderson: a base exportada JUNTA as duas lojas, sem separação por unidade, o que puxaria a mediana para baixo e explicaria a ausência de dois picos na distribuição. DECISÃO: não corrigir os outputs da Semana 1 — os números não são concorrentes, são recortes diferentes. Registrado em base_sizing.calculation_note e no honesty_alert do output. Resolve com a pendência 1.2."
+    },
+    {
+      "ts": "2026-08-13T00:00:00Z",
+      "skill": "ee-s3-pdv-regua-whatsapp",
+      "checkpoint": 1,
+      "decision": "POP 3.5 gerado a partir do material de cliente oculto em base-de-conhecimento/clientes-ocultos/, que continha a régua completa além do mystery shopper. Achado central: teste real registrou SLA de 1h24min no primeiro contato e perda total de contexto no transbordo — um lead que declarou 'me mudei faz pouco tempo, não trouxe nada' (ICP perfeito para enxoval completo) recebeu 'Nós não temos o kit temos td separado' e evaporou sem follow-up. Output estrutura 5 fluxos (pré-visita, handoff digital→físico, follow-up de 6 a 12 toques, pós-compra, reativação de base), setup de canal com API Oficial como pré-requisito, regras de cadência e 7 KPIs. Consistente com o outro teste independente (call comercial de 13/07, média de ~2h entre 5 vendedoras).",
+      "note": "Nota de escopo: o material de cliente oculto também cobre análise de concorrentes (Magnabosco, Manardi, Jussara, com SLA de 1h15 a 3h). Esse conteúdo NÃO virou output separado porque a skill ee-s4-cliente-oculto pertence ao trilho inside-sales, e a Casa e Cia é modelo pdv — registrá-la aqui colocaria no portal uma entrega fora do delivery-map. Os achados de concorrência foram incorporados ao summary_key_findings desta régua. Correção de premissa do operador na mesma rodada: os 9 arquivos em assets/criativos/ NÃO são entrega da Semana 3 — são os criativos atuais do cliente, já analisados em ee-s2-diagnostico-criativos (completo e no portal desde a S2)."
+    },
+    {
+      "ts": "2026-08-13T00:00:00Z",
+      "skill": "ee-s3-gmb-otimizacao",
+      "checkpoint": 2,
+      "decision": "Operador reportou o GMB vazio no portal. Diagnóstico: não era material perdido — o estudo estava íntegro em outputs/ee-s3-gmb-otimizacao.json (gerado em 11/08), mas o portal desenha os cards da Semana 3 a partir do delivery-map, que para o modelo pdv lista 'ee-s3-pdv-gmn' (skill stub, nunca implementada). Resultado: card de pdv-gmn vazio e o gmb-otimizacao órfão, fora de qualquer semana.",
+      "note": "Correção com alcance restrito, a pedido do operador (não alterar o delivery-map compartilhado, que afetaria todos os clientes PDV): adicionado suporte a meta.skill_aliases no render_portal.sh — mecanismo opt-in que remapeia um slot do delivery-map para outra skill. Só clientes que declaram o campo mudam de comportamento. Casa e Cia declara {'ee-s3-pdv-gmn': 'ee-s3-gmb-otimizacao'}. PENDÊNCIA DE FRAMEWORK em aberto: ee-s3-pdv-gmn segue como stub no delivery-map para os demais clientes PDV — o mesmo card vazio vai reaparecer no próximo cliente desse modelo."
+    },
+    {
+      "ts": "2026-08-13T00:00:00Z",
+      "skill": "ee-s3-pdv-experiencia",
+      "checkpoint": 1,
+      "decision": "Ultimo slot em aberto da Semana 3 (modelo pdv) fechado. Diagnostico da experiencia de loja das 2 unidades construido a partir de 38 avaliacoes do Google transcritas (18 Centro, 20 Premium, de um universo de 546), auditoria visual das galerias dos 2 perfis e dados de comportamento publicados pelo Google. ACHADO CENTRAL: a Casa e Cia nao tem problema de atendimento, tem ausencia de padrao — o mesmo endereco no mesmo periodo produz 'gravem este nome' (Michele sobre a Neuza) e 'fiquei 15 minutos e ninguem me atendeu' (Julia Schmidt). RUPTURA ESTRUTURAL identificada: o caixa da loja Centro, citado por 2 clientes independentes com a mesma estrutura de frase (vendedora boa, caixa destruiu), sendo que uma quase migrou para o concorrente a uma quadra — e e onde se abre crediario, ou seja, onde passa o cliente de maior ticket. Nenhuma das 38 avaliacoes critica preco de entrada, sortimento, vitrine ou localizacao: as 15 negativas sao todas sobre pessoas e processo. Output estrutura 7 etapas de jornada, 5 pontos de ruptura ranqueados, auditoria de merchandising visual, 3 vendedoras citadas nominalmente como modelo de treinamento, plano de 7 acoes (5 de custo zero) e 6 metricas. Semana 3 fechada: 4 de 4 slots entregues.",
+      "note": "Sem visita presencial — o cliente oculto de 07/08 foi remoto por WhatsApp, conforme combinado na reuniao de 05/08, e ja alimentou a regua (POP 3.5). Este output e voz espontanea do cliente + auditoria visual remota, nao observacao de avaliador. Amostra de 7% do universo colhida pelas 4 ordenacoes do perfil, portanto enviesada para os extremos: serve para identificar temas, nao para percentuais. Lacuna de dado registrada: a loja nao conta fluxo de visitantes e o ERP nao exportou item por nota, entao a experiencia esta medida por percepcao e nao por resultado (pendencias 1.1 e 2.1 com o Anderson). PENDENCIA DE FRAMEWORK: ee-s3-pdv-experiencia segue como stub sem SKILL.md no delivery-map compartilhado — mesmo caso do ee-s3-pdv-gmn; o proximo cliente PDV vai encontrar o mesmo card vazio."
+    },
+    {
+      "ts": "2026-08-13T12:00:00Z",
+      "skill": "ee-s3-pdv-experiencia",
+      "checkpoint": 2,
+      "decision": "REVISAO v2 de duas entregas da Semana 3 apos revisao critica do operador. (1) ee-s3-pdv-experiencia: o achado central da v1 — ruptura no caixa da loja Centro — NAO sobrevive ao filtro de recencia. As duas avaliacoes que o sustentavam tem 2 e 3 anos; na janela de 12 meses ha ZERO reclamacao sobre caixa e DUAS mencoes elogiosas (Michele citando a Neusa no caixa, 6 meses; Marilise 'inclusive no caixa', 7 meses). Tema rebaixado para 'resolvido, em monitoramento'. Novo achado central, ancorado no cliente oculto de 07/08 (6 dias antes): das 6 lojas testadas no mesmo dia, a Casa e Cia foi a UNICA que nao informou preco e nao enviou imagem, nas duas unidades — para um lead que acabou de se mudar e queria enxoval completo, o maior ticket possivel. Respostas registradas: 'Nos nao temos o kit', 'Mas estamos com 50% descontos', 'Se vc precisa venha ate loja' e '??' para a pergunta de orcamento. Benchmark interno decisivo: a Mix Home, do MESMO GRUPO, no mesmo dia, mandou video da mesa montada, preco aberto (de 3.499 por 2.199) e audio consultivo. (2) ee-s3-pdv-regua-whatsapp: corrigido erro factual em entregavel ja publicado — afirmava que 'Magnabosco, Manardi e Jussara responderam entre 1h15 e mais de 3 horas'. Os numeros reais do teste sao Magnabosco 2 min (humano), Jussara 5 min, Manardi 70 min, Mix Home ~1h49. Os '1h15 a 3h30' eram os tempos das PROPRIAS vendedoras da Casa e Cia medidos em 13/07. Isso inverte a conclusao estrategica: velocidade nao e vantagem disponivel, e lacuna onde a Casa e Cia esta atras do concorrente direto. Ambos os outputs ganharam bloco competitive_benchmark com os 6 tempos reais.",
+      "note": "Tambem corrigido: a v1 afirmava que a loja Premium nao tinha avaliacao negativa ha 3 anos — ha uma 2 estrelas de 1 ano (Sofia Meneguzzo). Tema novo incorporado: estoque e entrega (Larissa Ferreira, 1 estrela, 1 ano: 'dizem que tem em estoque, voce faz a compra e enviam produto diferente'). Base de evidencia ampliada de 38 para 46 avaliacoes transcritas, com recorte explicito de 26 na janela de 12 meses (Centro ~4,1 estrelas, Premium ~4,6). Constatacao geografica registrada: a Manardi fica na Sinimbu 1909 e a Casa e Cia Centro na Sinimbu 1988 — e literalmente o 'concorrente 1 quadra a cima' citado em avaliacao antiga. Ressalva mantida: cliente oculto e UMA simulacao por loja, num unico dia e faixa de horario, com cenarios nao pareados entre lojas."
+    },
+    {
+      "ts": "2026-08-13T18:00:00Z",
+      "skill": "ee-s3-pdv-base-ativa",
+      "checkpoint": 2,
+      "decision": "Acrescentado bloco brand_affinity: matriz de co-compra entre as 9 marcas sobre os 31.991 clientes. Metrica de ranqueamento e o LIFT (P(B|A)/P(B)), nao a co-compra bruta — com a Altenburg em 36% da base, tudo co-ocorre com ela por tamanho. ACHADOS: (1) cluster premium fortemente interligado — Trussardi x Budd Luxus tem lift 4,75, Buddemeyer x Budd Luxus 3,67, Buddemeyer x Trussardi 3,02; nesses pares o cross-sell e oferta direta porque o comportamento ja existe. (2) BELLA JANELA E ILHA: lift medio 0,94, com 6 dos 8 cruzamentos em 1,00 ou abaixo — comprar cortina nao aumenta em nada a chance de comprar qualquer outra marca. E a prova quantificada da dor que o cliente descreveu no kickoff (cortina-isca de R$99 com margem quase zero e sem mecanismo de upsell): a isca gera fluxo e falha como porta de entrada. (3) Altenburg tem lift uniformemente baixo (1,31 a 1,59) com todas as marcas — e base de alcance, nao sinal de perfil. 64 pares direcionais com massa estatistica; 15 no top do output. Geradas 11 listas nominais de publico em dados-base/csv/publicos/ com criterio restritivo (lift >= 2,5 e valor >= R$ 2 mi), mais o segmento de 9.591 clientes sem nenhuma das 9 marcas.",
+      "note": "Substitui a escada de cross-sell hipotetica do documento 'Analise Estrategica de Base Ativa...' subido por terceiro em 13/08, que propunha 'se comprou jogo de cama, ofereca toalha' sem nenhum dado de co-compra. RESSALVAS: e analise de MARCA e nao de produto (o ERP so exportou Fornecedor\\Marca, sem categoria nem SKU — pendencia 2.6); sem data de compra e co-ocorrencia e nao sequencia; o valor do gap e o gasto TOTAL do cliente e nao o que ele gasta na marca (pendencia 2.3), entao serve para priorizar publico e nao para projetar receita; sem margem (pendencia 3.1) o ranqueamento e por afinidade e volume, nao por lucro. As listas de publico contem dados pessoais e NAO devem ser disparadas antes de resolver a base legal (pendencia 3.2). Divergencia registrada no honesty_alert: o documento de terceiro reporta 4.050 clientes com 2 compras e 6.345 com 3+, contra 6.130 e 4.886 na contagem exata do CSV parseado — estimativa por faixa de rank vs contagem linha a linha."
+    },
+    {
+      "ts": "2026-08-14T00:00:00Z",
+      "skill": "ee-s3-pdv-base-ativa",
+      "checkpoint": 3,
+      "decision": "CORRECAO de afirmacao que estava no portal. O output dizia 'e negocio de volume, nao de carteira', apoiado em: top 20% faz 67,7% da receita (abaixo do 80/20) e sao necessarios 32,6% da base para chegar a 80%. A premissa esta certa, a conclusao era absoluta demais. A escada de gasto acumulado mostra um topo tratavel: 771 clientes gastaram R$ 5.000+ e fazem 25,6% da receita; 222 gastaram R$ 10.000+ e fazem 12,8%; 42 gastaram R$ 20.000+ e fazem 4,5%. Divididos entre as 8 vendedoras com carteira exclusiva relevante, os 771 dao ~96 clientes cada — carteira gerenciavel. 94% tem celular e apenas 10% compraram uma unica vez (e gente que ja volta sozinha). Hoje estao diluidos em territorios de 2.400 a 3.600 pessoas, sem tratamento diferenciado. Nova leitura: a base e de volume, o topo e de carteira — operar os dois modelos em paralelo, com times e ritmos diferentes. Acrescentado bloco key_accounts_tier com a escada completa e gerada a lista nominal publicos/publico_TOP-CARTEIRA.csv.",
+      "note": "A afirmacao corrigida estava em DOIS lugares que renderizam para o cliente: summary_key_findings[2] e pareto_curve.reading, alem do ANALISE-BASE-CLIENTES.md na base de conhecimento. Todos atualizados. RESSALVA registrada no honesty_alert: o corte de R$ 5.000 e OPERACIONAL e nao estatistico — foi escolhido por dar ~96 clientes por vendedora; outro corte e defensavel. E o gasto e acumulado em 31 meses, nao anualizado: R$ 5.000 no periodo equivale a ~R$ 160/mes. Origem: duvida do operador sobre o significado da frase, que ao ser checada nao se sustentou como escrita."
+    }
   ]
 }

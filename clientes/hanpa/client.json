@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "name": "Hanpa Soluções Gráficas",
+    "slug": "hanpa",
+    "workspace_id": null,
+    "created_at": "2026-07-30",
+    "modelo_venda": "inside-sales"
+  },
+  "briefing": {
+    "identification": {
+      "name": "Hanpa Soluções Gráficas (razão social: Hansen Bureau Arte e Comunicação LTDA)",
+      "contact_name": "Caroline Hansen Dominguez",
+      "contact_role": null,
+      "segment": "Gráfica e editora / bureau de soluções gráficas (embalagens, brindes personalizados, impressos sob demanda)",
+      "annual_revenue": "R$ 100.000 mencionado como faturamento atual, com meta de R$ 300.000 — periodicidade ambígua na transcrição (não fica claro se é mensal ou anual, a confirmar)",
+      "years_in_market": null,
+      "location": "Santo André, SP",
+      "website": null,
+      "instagram": null,
+      "whatsapp": "+55 11 97546-8448 (confiança moderada — trecho da transcrição ruidoso)",
+      "gmb": null
+    },
+    "product": {
+      "main_product": "Soluções gráficas personalizadas B2B: embalagens, sacolas, caixas, brindes corporativos, cartões de visita, cadernos/agendas/moleskines, calendários de mesa personalizados; historicamente também revistas e periódicos (segmento em forte declínio)",
+      "ticket": null,
+      "billing_model": null,
+      "sales_cycle": null,
+      "active_customers": null,
+      "most_profitable": null,
+      "growth_potential": "Calendários de mesa personalizados (alta sazonalidade ago-out, validado com pesquisa de palavras-chave ~130 mil buscas/mês feita ao vivo na call), embalagens/sacolas personalizadas, cadernos/agendas/moleskines"
+    },
+    "icp": {
+      "best_customers": null,
+      "not_customers": null,
+      "problems_before": null,
+      "results_after": null,
+      "churn_reasons": null
+    },
+    "competition": {
+      "competitors": null,
+      "real_differential": "Infraestrutura própria (galpão, parque de máquinas offset e digital) vs. concorrentes que se autodenominam 'gráfica' sem estrutura própria e terceirizam a produção com a própria Hanpa — mencionado espontaneamente na call, não em resposta direta a uma pergunta de diferencial real; confirmar com o operador",
+      "why_choose_us": null
+    },
+    "brand": {
+      "adjectives": null,
+      "voice_tone": null,
+      "admired_brands": null,
+      "current_colors": null,
+      "has_logo": true,
+      "restrictions": null
+    },
+    "digital_situation": {
+      "paid_traffic": false,
+      "platforms": null,
+      "monthly_investment": null,
+      "current_results": null,
+      "crm": null,
+      "lead_sources": "Indicação / boca a boca e clientes antigos que já conhecem a empresa; captação de clientes novos é praticamente inexistente",
+      "conversion_rate": null,
+      "biggest_pain": "Dependência quase total de clientes antigos/indicação, incapacidade de captar clientes novos, capacidade produtiva ociosa, site considerado fraco, não vende em marketplace, insegurança sobre o que fazer com Instagram/digital de forma geral"
+    },
+    "accesses": {
+      "meta_business": null,
+      "google_ads": null,
+      "google_analytics": null,
+      "google_search_console": null,
+      "instagram_admin": null,
+      "website_admin": null,
+      "crm": null,
+      "gmb": null,
+      "whatsapp_business": null
+    },
+    "sales_module": {
+      "active_sellers": null,
+      "sales_process": null,
+      "objections": null,
+      "conversion_rate": null,
+      "sales_cycle": null,
+      "has_scripts": null
+    }
+  },
+  "research": {
+    "fetched_at": null
+  },
+  "connectors": {
+    "fetched_at": null,
+    "integrations": null
+  },
+  "progress": {
+    "current_week": 1,
+    "skills": {
+      "ee-s1-persona-icp": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s1-auditoria-comunicacao": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s1-swot": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s2-pesquisa-mercado": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s1-arquitetura-presenca": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s2-diagnostico-midia": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s2-diagnostico-organico-ig": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s2-diagnostico-criativos": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s1-diagnostico-maturidade": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s2-posicionamento": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s2-diagnostico-cro": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s4-cliente-oculto": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s4-diagnostico-comercial": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s3-is-metricas-funil": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s3-is-pipeline": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s3-manual-marca": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s3-landing-page": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s3-copy-anuncios": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s3-criativos-anuncios": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s3-crm-setup": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s5-scripts-sdr": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s5-sdr-ia-config": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
+      "ee-s3-forecast-midia": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null}
+    }
+  },
+  "history": [
+    {
+      "ts": "2026-07-30T00:00:00Z",
+      "skill": "ee-novo-cliente",
+      "checkpoint": 0,
+      "decision": "Cliente cadastrado a partir da base de conhecimento existente (transcrição da call comercial de venda V4 x Hanpa, 1648 linhas, e contrato assinado). A call é majoritariamente o vendedor V4 explicando a metodologia — poucos campos objetivos e quase nenhum campo subjetivo (ICP, marca, concorrência, processo comercial) foram abordados. Modelo de venda definido como 'inside-sales': mesmo a oferta mais 'produtizável' (calendário personalizado) depende de contato comercial via landing page, não de checkout self-service; negócio é B2B consultivo por orçamento — a confirmar com o operador. Contradição identificada: quem assinou o contrato foi Caroline Hansen Dominguez, mas a transcrição sugere que quem decide de fato é o pai/sócio (César) — esclarecer papéis. Faturamento (R$100k, meta R$300k) tem periodicidade ambígua na fala do vendedor (mensal ou anual) — confirmar. Sem integração V4MOS (workspace_id não informado)."
+    }
+  ]
+}

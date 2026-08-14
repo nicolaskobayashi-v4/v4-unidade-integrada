@@ -114,23 +114,114 @@
   "progress": {
     "current_week": 1,
     "skills": {
-      "ee-s1-diagnostico-maturidade": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
-      "ee-s1-swot": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
-      "ee-s1-persona-icp": {"status": "completed", "version": 1, "checkpoint": 2, "started_at": "2026-07-22T00:00:00Z", "completed_at": "2026-07-22T00:00:00Z"},
-      "ee-s1-auditoria-comunicacao": {"status": "completed", "version": 1, "checkpoint": 2, "started_at": "2026-07-22T00:00:00Z", "completed_at": "2026-07-22T00:00:00Z"},
-      "ee-s2-pesquisa-mercado": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
-      "ee-s2-posicionamento": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
-      "ee-s2-diagnostico-midia": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
-      "ee-s2-diagnostico-criativos": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
-      "ee-s2-diagnostico-cro": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
-      "ee-s3-identidade-visual": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
-      "ee-s3-brandbook": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
-      "ee-s3-landing-page": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
-      "ee-s3-copy-anuncios": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
-      "ee-s3-criativos-anuncios": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
-      "ee-s3-crm-setup": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
-      "ee-s3-forecast-midia": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null},
-      "ee-s3-gmb-otimizacao": {"status": "pending", "checkpoint": 0, "started_at": null, "completed_at": null}
+      "ee-s1-diagnostico-maturidade": {
+        "status": "completed",
+        "version": 1,
+        "checkpoint": 2,
+        "started_at": "2026-07-22T00:00:00Z",
+        "completed_at": "2026-07-22T00:00:00Z"
+      },
+      "ee-s1-swot": {
+        "status": "completed",
+        "version": 1,
+        "checkpoint": 2,
+        "started_at": "2026-07-22T00:00:00Z",
+        "completed_at": "2026-07-22T00:00:00Z"
+      },
+      "ee-s1-persona-icp": {
+        "status": "completed",
+        "version": 1,
+        "checkpoint": 2,
+        "started_at": "2026-07-22T00:00:00Z",
+        "completed_at": "2026-07-22T00:00:00Z"
+      },
+      "ee-s1-auditoria-comunicacao": {
+        "status": "completed",
+        "version": 1,
+        "checkpoint": 2,
+        "started_at": "2026-07-22T00:00:00Z",
+        "completed_at": "2026-07-22T00:00:00Z"
+      },
+      "ee-s2-pesquisa-mercado": {
+        "status": "completed",
+        "version": 1,
+        "checkpoint": 2,
+        "started_at": "2026-07-22T00:00:00Z",
+        "completed_at": "2026-07-22T00:00:00Z"
+      },
+      "ee-s2-posicionamento": {
+        "status": "completed",
+        "version": 1,
+        "checkpoint": 2,
+        "started_at": "2026-07-22T00:00:00Z",
+        "completed_at": "2026-07-22T00:00:00Z"
+      },
+      "ee-s2-diagnostico-midia": {
+        "status": "pending",
+        "checkpoint": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s2-diagnostico-criativos": {
+        "status": "pending",
+        "checkpoint": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s2-diagnostico-cro": {
+        "status": "pending",
+        "checkpoint": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-identidade-visual": {
+        "status": "pending",
+        "checkpoint": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-brandbook": {
+        "status": "pending",
+        "checkpoint": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-landing-page": {
+        "status": "pending",
+        "checkpoint": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-copy-anuncios": {
+        "status": "pending",
+        "checkpoint": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-criativos-anuncios": {
+        "status": "pending",
+        "checkpoint": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-crm-setup": {
+        "status": "pending",
+        "checkpoint": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-forecast-midia": {
+        "status": "pending",
+        "checkpoint": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-gmb-otimizacao": {
+        "status": "pending",
+        "checkpoint": 0,
+        "started_at": null,
+        "completed_at": null
+      }
     }
   },
   "history": [
@@ -157,6 +248,156 @@
       "skill": "ee-s1-auditoria-comunicacao",
       "checkpoint": 2,
       "decision": "Auditoria aprovada sem ajustes (score de comunicação 39/100). Canal de anúncios avaliado com dado real (relatório Meta Analyser fornecido pelo operador: 21 criativos, R$7.494,81/90 dias, 696 leads, R$10,77/lead médio) — achado principal: melhor criativo (92% score, R$3,14/lead) está PAUSADO enquanto 3+ anúncios ativos com score <30% seguem consumindo verba. Site/Instagram/GMB avaliados sem screenshot (só evidência qualitativa das transcrições) — sinalizado como honesty_alert, scores desses 3 canais devem ser refinados quando o operador enviar capturas de tela. CRM (RD Station, 20 mil+ contatos duplicados) identificado como bloqueador transversal que invalida a leitura de conversão pós-lead — reforça a prioridade de ee-s3-crm-setup já sinalizada em ee-s1-persona-icp."
+    },
+    {
+      "ts": "2026-07-22T00:00:00Z",
+      "skill": "ee-s1-diagnostico-maturidade",
+      "checkpoint": 2,
+      "decision": "Diagnóstico aprovado sem ajustes. Score geral 34/100 (Baixo, na média do setor Saúde/estética) — CRM crítico (15/100) identificado como gargalo sistêmico que invalida a leitura de mídia paga (48/100, acima do setor). Top 5 prioridades aprovadas na ordem apresentada: 1) sanear CRM, 2) leitura retroativa de 3 meses, 3) depoimento em vídeo para tratamento com caneta, 4) atualizar site institucional, 5) responder avaliações no GMB. Nota: sistema sincronizado nesta mesma sessão com o repositório de infraestrutura atualizado (gina-eng/V4-estruturacao-estrategica-3.0-V2) — schema desta skill validado como compatível com o output já existente, nenhum campo obrigatório novo."
+    },
+    {
+      "ts": "2026-07-22T00:00:00Z",
+      "skill": "ee-s1-swot",
+      "checkpoint": 2,
+      "decision": "SWOT/análise de concorrentes aprovada sem ajustes. Key insight: o Sallet tem mais pacientes satisfeitos (base histórica de 30 anos) do que qualquer concorrente do comparativo (BariMais, Imec, Medicina em Foco — 4,9-5,0★ documentados), mas essa base pós-operatória hoje gera reclamação no GMB por falta de acompanhamento em vez de virar prova social — ativá-la (corrigir régua no Omniplus/RD Station) foi identificada como a jogada mais assimétrica do diagnóstico (baixo custo, alto retorno reputacional, vantagem que concorrente não copia com budget de mídia). Priority actions aprovadas na ordem: 1) sanear CRM (ROI 7,5x em 90 dias, pré-condição para medir tudo mais), 2) reativar criativo pausado de melhor performance (R$3,14/lead) e pausar anúncios <30% score. HONESTY ALERT mantido: scorecard competitivo (3,8 vs 8,3) é direcional, não medição precisa — site/SEO/mídia dos concorrentes foram estimados ([E]) sem auditoria direta, e o rating do próprio GMB do Sallet segue desconhecido (mesma lacuna já sinalizada em ee-s1-auditoria-comunicacao)."
+    },
+    {
+      "ts": "2026-07-22T00:00:00Z",
+      "skill": "ee-s2-pesquisa-mercado",
+      "checkpoint": 2,
+      "decision": "Pesquisa de mercado aprovada sem ajustes. TAM recalibrado de R$408 bi (planejamento V4/SCN&Co anterior, métrica ampla demais) para R$2,15 bi (cirurgia bariátrica + acompanhamento clínico GLP-1, com fontes SBCBM/IESS/Vigitel/mercado de canetas). SAM regional (SP capital+Grande SP+Campinas+Baixada Santista) estimado em R$500M/ano, ponderado pela concentração real de beneficiários ANS em SP (35,8% do Brasil). SOM triangulado por 3 métodos em R$35M/ano (7% do SAM) — share atual do Sallet estimado em ~2,4% (R$11,8M/ano). Capacidade operacional atual registrada separadamente como teto de ~R$20M/ano (gap de R$15M até o SOM exige expansão de equipe, não só mídia). Metas herdadas do planejamento anterior (KR1 60 cirurgias/mês digital ≈R$8,8M/ano; ambição de 2.000 procedimentos/ano ≈R$24,5M/ano) registradas separadas do SOM, mantendo o alerta de recalibração pendente já sinalizado em ee-novo-cliente. 4 concorrentes analisados em profundidade (GOC, Imec, Medicina em Foco, BariMais) — nenhum combina preço transparente + equipe transdisciplinar completa + comunicação humanizada. Oportunidade não explorada identificada: posicionar o Sallet como o 'especialista que assume o paciente que a caneta abandonou', capturando o público que vai platôar/reganhar peso com a genericização do GLP-1 em 2026 (mercado salta de R$11bi para R$20bi)."
+    },
+    {
+      "ts": "2026-07-22T00:00:00Z",
+      "skill": "ee-s2-posicionamento",
+      "checkpoint": 2,
+      "decision": "Posicionamento aprovado: direção escolhida foi a Opção A ('O Acompanhamento Que Não Abandona' — funcional, ancorada em ERAS<24h + equipe transdisciplinar completa + 25 anos de autoridade do Dr. Sallet), consistente com a mensagem-chave já validada em ee-s1-persona-icp. Território de marca definido: 'Continuidade + Coletivo + Experiência', vago entre os 4 concorrentes diretos por 12-18 meses. Tagline escolhida pelo operador: Opção B ('25 anos ao lado de quem decide mudar de vez.') — tom institucional, preferida à opção mais transacional (A) para uso em assinatura de marca/materiais institucionais. Canvas 4P completo: preço premium (R$30k particular) + faixa popular paralela ('Bariátrica para Todos', R$20,4k); canal principal Instagram (vídeos sem roteiro do Dr. Sallet, CTR acima da média); evitar TikTok e influenciadoras (já testados sem retorno). HONESTY ALERT mantido: a promessa central de 'continuidade'/acompanhamento pós-operatório ainda não está sustentada operacionalmente (CRM sem régua automatizada) — recomenda-se sincronizar o lançamento da comunicação com o avanço de ee-s3-crm-setup."
+    },
+    {
+      "ts": "2026-07-24T15:19:51Z",
+      "skill": "ee-adicionar-base",
+      "checkpoint": 1,
+      "decision": "Criada base de conhecimento temática do programa Bariátrica para Todos a partir de 4 documentos integrais: kick-off de 26/05, check-in de 03/07, briefing do programa de 08/07 e mídia/refino de 21/07. As transcrições foram preservadas integralmente, com hashes idênticos aos originais, e foi criado consolidado rastreável por fonte/linha. Nenhum output estratégico anterior foi modificado. ALERTAS PARA SKILLS FUTURAS: não tratar como definitivos sem validação o ticket de R$20.400 e sua composição, o acompanhamento de 6 versus 12 meses, o orçamento de R$5.000 e seu período/exclusividade, a elegibilidade clínica, os hospitais/unidades, o modelo de financiamento, a promessa de 'tudo incluso', os claims médicos, o porta-voz Ana Carol versus Dr. Sallet e o cronograma de lançamento em agosto. O programa é particular acessível, não SUS, e deve ter oferta, funil e mensuração separados de convênio e particular convencional."
+    },
+    {
+      "ts": "2026-07-24T00:00:00Z",
+      "skill": "plano-lancamento-bariatrica-para-todos",
+      "action": "created",
+      "note": "Plano de lançamento digital do produto Bariátrica para Todos: modelo 2 velocidades (awareness já / conversão após ficha comercial P0), 2 segmentos (sem-acesso + preso-no-convênio), fases 0/1/2, verba teste R$5k, gates de escala. Aguarda 7 decisões P0 + 4 estratégicas."
+    },
+    {
+      "ts": "2026-07-24T00:00:00Z",
+      "skill": "plano-lancamento-bariatrica-para-todos",
+      "action": "deck-html",
+      "note": "Deck HTML da estrategia de lancamento (12 slides, padrao V4 azul/ambar, sem verde) salvo em apresentacao-lancamento-bpt.html e publicado como Artifact. Decisoes confirmadas: duas velocidades, A+B paralelo, R$5k total. Proximo: CRM/rastreio (bpt-01) + LP dedicada."
+    },
+    {
+      "ts": "2026-07-24T00:00:00Z",
+      "skill": "plano-lancamento-bariatrica-para-todos",
+      "action": "passo-2-conteudo",
+      "note": "Passo 2: 7 roteiros de conteudo/awareness de topo (video <=40s, 3 pilares), com guardrail explicito de que BPT e produto separado de convenio e particular convencional (propostas de valor distintas). Sem preco/claims proibidos. Porta-voz Dr. Sallet (pendente P0). Salvo em outputs/bpt-02-roteiros-conteudo-awareness.md"
+    },
+    {
+      "ts": "2026-07-24T00:00:00Z",
+      "skill": "plano-lancamento-bariatrica-para-todos",
+      "action": "proposta-comercial",
+      "note": "Lida a proposta comercial (PDF) e reconciliada com o operador: R$13.900=pacote cirurgico; ~R$20.400=custo final (com hospital/exames). Hospital Santa Rita a parte. Acompanhamento 6-12m incluso. PDF esta com marca Obesimed (reemitir Sallet). Deck agora 13 slides com pagina 05 A Proposta (inclusoes/exclusoes/preco) e slide de mensagem corrigido para honestidade. P0 1/2/3/5 resolvidos."
+    },
+    {
+      "ts": "2026-07-24T00:00:00Z",
+      "skill": "plano-lancamento-bariatrica-para-todos",
+      "action": "passo-3-oferta-e-lp",
+      "note": "Passo 3: estrategia de oferta + blueprint da LP dedicada. Descoberta central: custo final do BPT (~R$20.400) esta em PARIDADE com o concorrente Medicina em Foco (R$20.980) - nao ha vantagem de preco; e a parcela do BPT (R$2.316/mes em 6x) perde para os 12x R$1.990 do concorrente. Recomendacao: LP vence por composicao (8 consultas nominadas + equipe transdisciplinar que o concorrente nao expoe), com exposicao honesta da conta aberta. Novo P0 nº8: faixa de custo hospitalar do Santa Rita por escrito - trava a secao de preco. 6 decisoes (D1-D6) aguardando operador. Salvo em outputs/bpt-03-estrategia-oferta-e-lp.md"
+    },
+    {
+      "ts": "2026-07-24T00:00:00Z",
+      "skill": "plano-lancamento-bariatrica-para-todos",
+      "action": "passo-3-v2-revisao-oferta",
+      "note": "bpt-03 revisado para v2 apos direcao do operador: LP NAO expoe valor nem parcela. Valor completo (13.900 pacote + hospital + ~20.400 total) e divulgado no WhatsApp na msg 3, ANTES de oferecer agenda. Racional: CDC Art.52 e restricao CFM incidem sobre publicidade, nao sobre conversa privada; e nao ha vantagem competitiva nem no total (paridade 20.400 vs 20.980) nem na parcela (2.316 vs 1.990 do concorrente). Bloco de preco da LP substituido por 'Existe um caminho pra voce' (metodo e viabilizacao, sem cifra). LP destravada - nao depende mais de faixa hospitalar, juros ou parecer CFM. Novo KPI: taxa de sobrevivencia a divulgacao do valor (msg3->msg4). Proximo entregavel muda de copy de anuncios para bpt-04 script de qualificacao WhatsApp."
+    },
+    {
+      "ts": "2026-07-24T00:00:00Z",
+      "skill": "plano-lancamento-bariatrica-para-todos",
+      "action": "passo-4-script-whatsapp",
+      "note": "bpt-04: script de qualificacao WhatsApp em 5 blocos (acolhimento por segmento / triagem clinica soft / DIVULGACAO DO VALOR / triagem financeira / agendamento). Regra R1 inegociavel: valor total antes de qualquer oferta de agenda. Copy real por bloco + 7 objecoes reais extraidas de ee-s1-persona-icp + 4 objecoes do momento do preco. Matriz de prioridade cruzando elegivel_clinico x viabilizacao (campos ja existentes no bpt-01, nenhum campo novo). 4 rotas de saida sem descarte (clinica/convenio/particular/nutricao) preservando o guardrail das 3 ofertas. Follow-up bifurcado: quem nunca respondeu vs quem sumiu apos o preco. KPI principal: taxa de sobrevivencia a divulgacao do valor (bloco3->bloco4, 48h) - separa problema de preco de problema de comunicacao e da evidencia para a negociacao do 12x. Recomendado SLA 5min com dono nomeado, 5 conversas-piloto antes da verba, e atendimento HUMANO na Fase 1 (Patagon so na Fase 2). 5 decisoes E1-E5 aguardando operador. Salvo em outputs/bpt-04-script-qualificacao-whatsapp.md"
+    },
+    {
+      "ts": "2026-07-24T00:00:00Z",
+      "skill": "plano-lancamento-bariatrica-para-todos",
+      "action": "decisao-porta-voz",
+      "note": "P0 nº6 RESOLVIDO: Dr. Sallet definido como porta-voz do programa BPT. Zero retrabalho - os 7 roteiros do bpt-02 ja haviam sido escritos para ele. Dra. Ana Carol permanece como rosto da linha clinica (canetas/balao), coerente com a rota de encaminhamento do bpt-04 §7. Gravacao liberada, depende so de agenda. Recomendado gravar os 7 em sessao unica + captar material bruto extra (B-roll, respostas soltas): so os 7 roteiros cobrem ~2,3 semanas no ritmo de 3 pecas/semana, com bruto a mesma diaria rende 6-8 semanas. Dr. Sallet e gargalo da operacao cirurgica - cada hora de agenda dele precisa render maximo de grade. Atualizados bpt-02, bpt-03 e bpt-04. NENHUM P0 bloqueia producao agora."
+    },
+    {
+      "ts": "2026-07-24T00:00:00Z",
+      "skill": "plano-lancamento-bariatrica-para-todos",
+      "action": "landing-page-construida",
+      "note": "LP do BPT construida: landing-page-bpt.html (39KB, HTML autocontido, mobile-first, 9 secoes). Implementa o blueprint do bpt-03 v2. VALIDADO: nenhum valor/preco/parcela na pagina, nenhuma cor esverdeada (18 cores, todas azul/ambar/terracota/neutro), nenhum claim proibido, bloco de depoimentos intencionalmente ausente (P0 nº7), elegibilidade em versao soft (P0 nº4), HTML sem erro de aninhamento. JS implementa: captura de UTM com prioridade URL>sessao, derivacao de segmento_bpt via utm_campaign, derivacao de funil_bpt via utm_medium, duas portas do hero gravando segmento, PROPAGACAO DE UTM NO LINK DO WHATSAPP (critico - bpt-03 §6), mensagem pre-preenchida com o segmento para o SDR saber a ramificacao do script, eventos de conversao em dataLayer/fbq/gtag. PENDENTE ANTES DE PUBLICAR: endpoint do formulario RD, IDs de Pixel Meta e tag Google, e decisao sobre numero de WhatsApp dedicado ao BPT (hoje usa o institucional 11 3046-9393, que mistura o lead BPT com todo o resto no nivel do atendimento)."
+    },
+    {
+      "ts": "2026-07-24T00:00:00Z",
+      "skill": "plano-lancamento-bariatrica-para-todos",
+      "action": "lp-redesign-identidade-real",
+      "note": "LP refeita apos critica do operador de que parecia template de IA. Diagnostico: eu havia inventado a identidade em vez de extrair a real. Corrigido puxando do site oficial sallet.com.br: azul de marca #406997 (eu usava #1f66b0, saturado demais), texto #35414F, fundos #E8EFF8/#F6F7FB, tipografia Montserrat 500/600 (eu usava Fraunces serifada, fora da marca), botoes pill radius 26px, logo oficial no header e rodape. Layout refeito em chave editorial: hero split assimetrico com foto sangrando, listas com fio em vez de cards, faixa solida para as 8 consultas, zero box-shadow decorativa, zero pill de chip. Corrigidos 2 defeitos de acabamento: .nar centralizava o container e quebrava o eixo esquerdo da pagina; .jr-n sem largura fixa deixava os titulos da jornada desalinhados. ERRO COMETIDO E CORRIGIDO: usei uma foto do site como retrato do Dr. Sallet que na verdade era uma mao segurando balao intragastrico. Removida. Secao Quem cuida de voce redesenhada para funcionar sem foto, com slot comentado no HTML. PENDENTE DO CLIENTE: retrato oficial do Dr. Sallet (proporcao ~3:4 vertical), nao usar banco de imagem nem foto de procedimento."
+    },
+    {
+      "ts": "2026-07-24T00:00:00Z",
+      "skill": "plano-lancamento-bariatrica-para-todos",
+      "action": "deck-v2-completo",
+      "note": "Deck reconstruido do zero para apresentacao de hoje: 25 slides (v1 de 13 slides salva em apresentacao-lancamento-bpt-v1-1418.html.bak). A v1 estava desatualizada porque foi salva as 14:18, antes de tudo que decidimos depois. Novo deck estrutura: capa, agenda, ponto de partida, A DESCOBERTA (3 slides: paridade 2,8%, comparativo completo, derrota na parcela 2.316 vs 1.990), a virada, vantagem real (8 consultas), segmentos, duas velocidades, decisao central com os 4 caminhos, por que o caminho D, a oferta, claims, funil, LP, script em 5 blocos, CRM, conteudo, fases com portoes, orcamento, KPI de sobrevivencia ao valor, 10 pedidos priorizados, proximos passos por dono, fechamento. Zero travessoes. DOIS BUGS ENCONTRADOS E CORRIGIDOS na verificacao: (1) logo oficial e escuro e sumia no tema escuro, resolvido com filtro de inversao; (2) CRITICO - animacao de entrada com fill-mode 'both' deixava elementos presos em opacity 0 quando o navegador pulava a animacao na troca de display, fazendo slides aparecerem VAZIOS na apresentacao. Resolvido trocando para 'backwards' e reiniciando a animacao no render(). Verificado programaticamente nos 25 slides: nenhum elemento invisivel."
+    },
+    {
+      "ts": "2026-07-24T00:00:00Z",
+      "skill": "plano-lancamento-bariatrica-para-todos",
+      "action": "onepager-pendencias",
+      "note": "Criado bpt-pendencias-instituto.html: material de uma pagina para deixar com o cliente na reuniao das 20h. Lista as 10 pendencias com o que exatamente precisamos, POR QUE TRAVA (consequencia de nao fazer), prazo sugerido com data real conferida no calendario (24/07/2026 e sexta), e coluna em branco para preencher o responsavel na propria reuniao. Inclui bloco do que a V4 entrega em paralelo, para nao ler como lista de cobrancas unilateral. Logo embutido, zero dependencia externa, CSS de impressao para A4. Ajustes de logo no deck feitos antes: reduzida de 54px para 40px (fica dentro do tamanho nativo e sai nitida em retina/projetor) e tema escuro passou a usar o logo_branco.png OFICIAL em vez do filtro brightness/invert que chapava a marca. NAO EXISTE versao em alta da logo publicada: testadas as variantes do site, so existem 233x90 e 204x70. Pedir arquivo original (SVG ou PNG grande) para a Barbara."
+    },
+    {
+      "ts": "2026-07-24T00:00:00Z",
+      "skill": "plano-lancamento-bariatrica-para-todos",
+      "action": "deck-slide16-lp",
+      "note": "Slide 16 do deck refeito com captura real da landing page dentro de moldura de navegador (barra com os tres pontos e URL sallet.com.br/bariatrica-para-todos). Captura feita via Chrome headless com device-scale-factor 2 e reduzida para 1300px q68, resultando em 200KB base64. Deck foi de 60KB para 259KB, ainda autocontido e sem nenhuma dependencia externa. Adicionado suporte a link direto por slide: #s16 abre no slide 16 e o hash e atualizado com replaceState conforme navega, entao recarregar no meio da apresentacao volta ao mesmo ponto em vez de voltar ao inicio. Coluna direita fixada em 330px para sobrar largura maxima para a captura, que precisa estar legivel a distancia num projetor."
+    },
+    {
+      "ts": "2026-07-24T00:00:00Z",
+      "skill": "plano-lancamento-bariatrica-para-todos",
+      "action": "passo-5-temas-videos",
+      "note": "bpt-05: temas de video ancorados em busca real. Metodo: 201 sugestoes do autocomplete do Google pt-BR coletadas de 30 termos-semente (dado bruto salvo na base-de-conhecimento). Autocomplete da ordenacao relativa de demanda, nao volume absoluto - isso exigiria Keyword Planner com a conta ativa, fica para o diagnostico de midia. DUAS CORRECOES IMPORTANTES: (1) a materia muito citada sobre 'pico historico de buscas por bariatrica' e de FEVEREIRO DE 2023 e esta desatualizada, nao usar em reuniao; (2) o quadro de 2026 e o oposto - Ozempic e Mounjaro reduziram a procura por cirurgia e cirurgioes estao migrando para gestor de tratamento clinico multidisciplinar, o que e justamente o reposicionamento que o Sallet ja tem pronto. 8 agrupamentos de demanda identificados: convenio por operadora, IMC especifico (pessoas buscam o proprio numero: imc 30 a 40), reganho, medo/risco de morte, estetica do pos (cabelo/flacidez), tempo e atestado, caneta vs cirurgia, tecnica. QUATRO agrupamentos com demanda real estavam DESCOBERTOS pelos 7 roteiros do bpt-02: medo/risco, estetica do pos, tempo pratico e caneta vs cirurgia. Documento traz bloco pronto para copiar e enviar ao Dr. Sallet com 10 temas em linguagem de consulta, mais detalhamento por tema com evidencia e guardrail, mais ordem sugerida de gravacao. T5 (caneta ou cirurgia) recomendado como primeiro por ser territorio estrategico vago. Salvo em outputs/bpt-05-temas-videos-busca.md"
+    },
+    {
+      "ts": "2026-07-24T22:31:22Z",
+      "skill": "plano-lancamento-bariatrica-para-todos",
+      "action": "passo-5-v2-21-roteiros",
+      "note": "bpt-05 revisado apos solicitacao do operador: 21 roteiros profissionais, numerados de 1.1 a 3.7, com 7 por pilar (Educar, Informar, Entreter), orientados por 201 sugestoes do autocomplete do Google a partir de 30 termos-semente. O documento explicita que autocomplete indica temas e linguagem, nao volume absoluto. Grade cobre 7 semanas a 3 publicacoes por semana. Corrigido artefato textual na metrica de visualizacao. Esta entrada substitui a contagem de 10 temas registrada no checkpoint anterior."
+    },
+    {
+      "ts": "2026-07-24T22:31:22Z",
+      "skill": "plano-lancamento-bariatrica-para-todos",
+      "action": "deck-v3-revisao-final",
+      "note": "Deck final assumido apos interrupcao do Claude por limite de uso. HTML atualizado e PDF reexportado com 25 slides e 25 paginas. Slide 19 agora apresenta 21 roteiros, 7 por pilar. Corrigidos: racional juridico conforme Resolucao CFM 2.336/2023 e CDC art. 52; ERAS e alta em menos de 24 horas condicionados a validacao medica, regulatoria e de aplicacao ao BPT; pre-triagem sem decisao de elegibilidade; proposta Obesimed marcada como impropria para envio e reemissao Sallet elevada a urgente; layout de impressao corrigido para impedir breakpoints mobile e clipping. A justificativa juridica simplificada do historico passo-3-v2 fica superada por esta revisao. Versao v2 preservada nos backups v2-1721. Validacao final: HTML integro, PDF com 25 paginas e revisao de qualidade PASS."
+    },
+    {
+      "ts": "2026-07-24T23:14:14Z",
+      "skill": "plano-lancamento-bariatrica-para-todos",
+      "action": "fotos-oficiais-dr-sallet-integradas",
+      "note": "Operador forneceu dois retratos oficiais do Dr. Jose Afonso Sallet. Originais preservados em base-de-conhecimento/ativos, com hashes registrados em 2026-07-24-ativo-fotos-oficiais-dr-sallet.md; derivados digitais otimizados em assets/bpt. Foto 12 aplicada no hero da landing page e na capa do deck; foto 17 aplicada na secao Quem cuida de voce e no slide 8 como contexto cirurgico. Na secao de autoridade da LP, a contagem nao validada de 3.500 pacientes e o indicador de alta em menos de 24 horas foram substituidos por fatos documentados: 8 consultas e atendimento em 2 cidades. Slide 16 recebeu nova captura real da LP. A pendencia de retratos foi removida do deck e do one-pager: lista passou de 10 para 9 itens, mantendo 4 urgentes; proximos passos foram atualizados. PDF reexportado com 25 paginas e inspecao visual aprovada nas paginas 1, 8, 16, 23 e 24. Layout da LP validado em desktop e no breakpoint responsivo. Publicacao continua condicionada a endpoint RD, Pixel Meta, tag Google, decisao de WhatsApp, reemissao da proposta Sallet e aprovacoes clinicas e de claims."
+    },
+    {
+      "ts": "2026-07-24T23:40:00Z",
+      "skill": "plano-lancamento-bariatrica-para-todos",
+      "action": "deck-reembutido-autocontido",
+      "note": "Deck voltou a ser autocontido: as tres imagens que estavam em assets/bpt (retrato institucional na capa, centro cirurgico no slide 8, captura da LP no slide 16) foram reembutidas em base64 sem recompressao, entao os bytes sao identicos aos derivados em assets e o PDF ja exportado continua valido, sem necessidade de reexportar. Arquivo foi de 67 KB para 1038 KB. Versao com referencias externas preservada em apresentacao-lancamento-bpt-v3-assets-externos-20260724.html.bak. Validado: zero referencias a arquivo local, zero URLs externas, 25 slides, 5 data URIs integras com hash conferido, e renderizacao das paginas 1, 8 e 16 feita a partir de uma pasta isolada sem assets, provando a autocontencao. ACHADO PENDENTE DE DECISAO: no slide 8 o .card-media tem height 92px sem object-position, e a foto vertical 1064x1600 vira uma faixa 4:1 que corta o rosto do Dr. Sallet na altura da boca. Problema e anterior ao reembutir e esta tambem no PDF. Correcao testada e aprovada visualmente em copia isolada: height 168px com object-position center 24%. Nao aplicada, aguardando o operador. A landing page continua servindo as fotos de assets/bpt, que e o correto para pagina publicada."
+    },
+    {
+      "ts": "2026-07-24T23:45:00Z",
+      "skill": "plano-lancamento-bariatrica-para-todos",
+      "action": "deck-slide8-enquadramento-corrigido",
+      "note": "Slide 8 corrigido: .card-media foi de height 92px para 168px, mantido object-position center 28%. Diagnostico revisado durante a aplicacao: o object-position ja existia e estava correto, o problema era so a altura da faixa, que a 92px comprimia a foto vertical 1064x1600 numa proporcao de 4:1 e cortava o rosto do Dr. Sallet na altura da boca. Agora o rosto aparece inteiro, os focos cirurgicos ficam visiveis e os tres cards do slide passaram a ter a mesma altura. PDF reexportado do HTML autocontido: 25 paginas, letter landscape 792x612 sem margem, 5 imagens, 1,8 MB, identico em formato ao anterior. Validacao feita renderizando o slide 8 isolado ATRAVES do PDF, nao so em tela, para checar o CSS de impressao: nenhum texto estourou o card e nada foi cortado. Backups: apresentacao-lancamento-bpt-v4-pre-ajuste-slide8.html.bak e .pdf.bak."
+    },
+    {
+      "ts": "2026-07-24T23:55:00Z",
+      "skill": "plano-lancamento-bariatrica-para-todos",
+      "action": "slide16-captura-lp-atualizada",
+      "note": "Slide 16 recapturado no estado atual da landing page, para eliminar a defasagem: a captura anterior era das 20:05 e a LP recebeu ajustes de CSS responsivo as 20:16. Metodo identico ao original: Chrome headless, viewport 1300x835, device-scale-factor 2, reduzido para 1300px e JPEG q68 via sips, entao o img do slide continua com width 1300 e height 835 e o layout nao mudou. Nova captura tem 158 KB contra 194 KB da anterior. Diferencas visiveis: recorte do hero em center 24% e os dois botoes de CTA agora aparecem na dobra. Logo carregou normalmente na captura. Deck foi de 1038 KB para 990 KB e segue autocontido. PDF reexportado: 25 paginas, 792x612, 1,77 MB. VERIFICACAO: os JPEGs foram extraidos de dentro do PDF e comparados por sha256 com os arquivos de origem. A captura nova esta presente e a antiga nao aparece mais. Slide 16 tambem conferido visualmente atraves do pipeline de impressao. Assets: JPEG antigo preservado em landing-page-preview-com-fotos-20260724-2005.jpg.bak; o PNG fonte daquela captura foi descartado e substituido pelo PNG da captura nova."
     }
   ]
 }

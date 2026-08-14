@@ -18,7 +18,9 @@
       "website": null,
       "instagram": "@minapizzas",
       "whatsapp": null,
-      "gmb": false
+      "gmb": true,
+      "phone": "(13) 3469-4332",
+      "facebook": "Perfil vinculado ao GMB (achado 2026-07-27, nao mapeado antes) - a confirmar handle exato"
     },
     "product": {
       "main_product": "Pratos executivos/marmita no almoço (carro-chefe atual), pizzas à noite e pastéis",
@@ -120,7 +122,7 @@
     "integrations": null
   },
   "progress": {
-    "current_week": 2,
+    "current_week": 3,
     "skills": {
       "ee-s1-diagnostico-maturidade": {
         "status": "completed",
@@ -177,10 +179,10 @@
         "completed_at": "2026-07-18T22:30:00Z"
       },
       "ee-s1-arquitetura-presenca": {
-        "status": "pending",
+        "status": "completed",
         "checkpoint": 0,
-        "started_at": null,
-        "completed_at": null
+        "started_at": "2026-07-26T16:45:00Z",
+        "completed_at": "2026-07-26T16:45:00Z"
       },
       "ee-s3-manual-marca": {
         "status": "completed",
@@ -189,64 +191,64 @@
         "completed_at": "2026-07-18T23:30:00Z"
       },
       "ee-s3-landing-page": {
-        "status": "pending",
+        "status": "completed",
         "checkpoint": 0,
-        "started_at": null,
-        "completed_at": null
+        "started_at": "2026-07-26T17:15:00Z",
+        "completed_at": "2026-07-26T17:15:00Z"
       },
       "ee-s3-copy-anuncios": {
-        "status": "pending",
+        "status": "completed",
         "checkpoint": 0,
-        "started_at": null,
-        "completed_at": null
+        "started_at": "2026-07-27T14:45:00Z",
+        "completed_at": "2026-07-27T14:45:00Z"
       },
       "ee-s3-criativos-anuncios": {
-        "status": "pending",
+        "status": "completed",
         "checkpoint": 0,
-        "started_at": null,
-        "completed_at": null
+        "started_at": "2026-07-27T14:45:00Z",
+        "completed_at": "2026-07-27T14:45:00Z"
       },
       "ee-s3-crm-setup": {
-        "status": "pending",
+        "status": "completed",
         "checkpoint": 0,
-        "started_at": null,
-        "completed_at": null
+        "started_at": "2026-07-29T14:00:00Z",
+        "completed_at": "2026-07-29T14:00:00Z"
       },
       "ee-s3-forecast-midia": {
-        "status": "pending",
+        "status": "completed",
         "checkpoint": 0,
-        "started_at": null,
-        "completed_at": null
+        "started_at": "2026-07-27T14:45:00Z",
+        "completed_at": "2026-07-27T14:45:00Z"
       },
       "ee-s3-pdv-base-ativa": {
-        "status": "pending",
+        "status": "completed",
         "checkpoint": 0,
-        "started_at": null,
-        "completed_at": null
+        "started_at": "2026-07-26T16:45:00Z",
+        "completed_at": "2026-07-26T16:45:00Z"
       },
       "ee-s3-pdv-gmn": {
-        "status": "pending",
+        "status": "completed",
         "checkpoint": 0,
-        "started_at": null,
-        "completed_at": null
+        "started_at": "2026-07-26T16:45:00Z",
+        "completed_at": "2026-07-26T16:45:00Z"
       },
       "ee-s3-pdv-experiencia": {
-        "status": "pending",
+        "status": "completed",
         "checkpoint": 0,
-        "started_at": null,
-        "completed_at": null
+        "started_at": "2026-07-26T16:45:00Z",
+        "completed_at": "2026-07-26T16:45:00Z"
       },
       "ee-s3-pdv-regua-whatsapp": {
-        "status": "pending",
+        "status": "completed",
         "checkpoint": 0,
-        "started_at": null,
-        "completed_at": null
+        "started_at": "2026-07-26T16:45:00Z",
+        "completed_at": "2026-07-26T16:45:00Z"
       },
       "ee-s5-scripts-sdr": {
-        "status": "pending",
+        "status": "completed",
         "checkpoint": 0,
-        "started_at": null,
-        "completed_at": null
+        "started_at": "2026-07-29T14:00:00Z",
+        "completed_at": "2026-07-29T14:00:00Z"
       },
       "ee-s5-sdr-ia-config": {
         "status": "pending",
@@ -257,8 +259,8 @@
       "ee-revisao-semanal": {
         "status": "completed",
         "checkpoint": 0,
-        "started_at": "2026-07-20T10:00:00Z",
-        "completed_at": "2026-07-20T10:30:00Z"
+        "started_at": "2026-07-29T13:00:00Z",
+        "completed_at": "2026-07-29T13:00:00Z"
       }
     }
   },
@@ -406,6 +408,240 @@
       "skill": "ee-revisao-semanal",
       "checkpoint": 0,
       "decision": "Primeira revisao semanal do ciclo, alvo Semana 2 (mais alta 100% completa). 2 evolucoes estrategicas mapeadas (ICP: generico->Marlene validada por avaliacoes reais; maturidade: 'sem presenca digital'->'presenca real nunca gerenciada'). 4 divergencias factuais encontradas, todas decididas pelo operador: F1 rating iFood desatualizado (4,7/47->4,8/54, total 160->167) em 5 outputs — ACEITAR, aplicado com _refinement_history registrado em cada arquivo; F2 client.json.progress.skills tinha ee-s2-diagnostico-cro e ee-s3-gmb-otimizacao (nao aplicaveis ao modelo pdv) — REMOVER, aplicado; F3 faltavam ee-s1-arquitetura-presenca + 4 stubs pdv + ee-s5-scripts-sdr/sdr-ia-config no tracking — ADICIONAR como pending, aplicado (execucao fica pra mais adiante); F4 current_week=3 incorreto (manual-marca e semana_4 no delivery-map real, nao semana_3 — prefixo do nome da skill nao indica a semana) — AJUSTAR pra 2, aplicado. 1 gap narrativo registrado (G1: consolidated.md lista secoes de modelos nao aplicaveis ao pdv — limitacao do renderer, fora do escopo de edicao de outputs). Output salvo em outputs/ee-revisao-semanal.json."
+    },
+    {
+      "ts": "2026-07-26T16:45:00Z",
+      "skill": "ee-s1-arquitetura-presenca",
+      "action": "completed",
+      "note": "Nivel 1 quebrado: iFood/fluxo fisico e a porta real; GMB orfao com pino errado; WhatsApp inexistente; 3 nomes de marca. Alvo 90d: fechar Nivel 1."
+    },
+    {
+      "ts": "2026-07-26T16:45:00Z",
+      "skill": "ee-s3-pdv-base-ativa",
+      "action": "completed",
+      "note": "Base fiel invisivel (Bina nao acessada, iFood retem cliente). Receita recuperavel R-5k/mes [E]. Inconsistencia declarada: pizza 30% vs 250 pedidos/mes a esclarecer com Roberto."
+    },
+    {
+      "ts": "2026-07-26T16:45:00Z",
+      "skill": "ee-s3-pdv-gmn",
+      "action": "completed",
+      "note": "GMB Mina Praia Grill 3,9*/113 nao reivindicado, pino fora do Carrefour. P0: reivindicar, corrigir pino, padronizar NAP. Meta nota 4,3+ em 90d."
+    },
+    {
+      "ts": "2026-07-26T16:45:00Z",
+      "skill": "ee-s3-pdv-experiencia",
+      "action": "completed",
+      "note": "Gargalo critico = atendimento telefonico rispido (1 atendente/2 linhas) + prato do dia inconsistente. Momento-wow = pastel. Protocolo de recuperacao de falha definido."
+    },
+    {
+      "ts": "2026-07-26T16:45:00Z",
+      "skill": "ee-s3-pdv-regua-whatsapp",
+      "action": "completed",
+      "note": "Regua WhatsApp com 7 fluxos + copy pronta, opt-in, cadencia. Fluxo de reativacao puxa a receita recuperavel. NAO usar promessa emocional ate operacao corrigir."
+    },
+    {
+      "ts": "2026-07-26T16:45:00Z",
+      "skill": "semana-3-pdv",
+      "action": "week_completed",
+      "note": "Semana 3 (modelo PDV) concluida: 4 POPs de PDV + dependencia arquitetura-presenca (S1). Skills construidas do stub. Trabalhado com diagnosticos existentes; dados operacionais brutos (base ativa/GMB admin) pendentes, premissas sinalizadas."
+    },
+    {
+      "ts": "2026-07-26T17:15:00Z",
+      "skill": "ee-s3-landing-page",
+      "action": "completed",
+      "note": "LP gerada (copy + HTML estatico em outputs/landing-page.html). CTA aponta pro iFood (WhatsApp ainda nao existe). Depoimentos como placeholder - aguardando avaliacoes reais do Roberto antes do deploy publico."
+    },
+    {
+      "ts": "2026-07-26T17:30:00Z",
+      "skill": "ee-s3-pdv-regua-whatsapp",
+      "action": "updated",
+      "note": "Incrementado com camada visit_stage_mapping (pre-visita/durante-visita/pos-visita) por cima dos 7 fluxos ja existentes, para bater com a nomenclatura da pagina de vendas. Nenhum fluxo removido ou reescrito."
+    },
+    {
+      "ts": "2026-07-27T11:00:00Z",
+      "skill": "ee-s3-manual-marca",
+      "action": "updated",
+      "note": "Diretrizes de design do designer aplicadas: tipografia Bitter (H1) + Source Sans 3 (H2/H3/corpo, assumido) substituindo Oswald/Nunito Sans; paleta oficial Carmine #C8102E (mantido), Graphite #363636 (substitui Preto Pizza #1A1A1A), Parchment #F5F1EC (renomeado), Faded Copper #A38560 e Lime Moss #8EA604 (novos, como cores terciarias/acento). WCAG recalculado - Lime Moss reprova como texto sobre fundo claro."
+    },
+    {
+      "ts": "2026-07-27T11:00:00Z",
+      "skill": "ee-s3-landing-page",
+      "action": "updated",
+      "note": "LP (HTML + JSON) atualizada com a nova identidade: fontes Bitter/Source Sans 3 e paleta Carmine/Graphite/Parchment via Google Fonts + CSS vars."
+    },
+    {
+      "ts": "2026-07-27T11:30:00Z",
+      "skill": "ee-s3-manual-marca",
+      "action": "updated",
+      "note": "Diretrizes de design confirmadas pelo designer/operador: Bitter em H1 + mensagens curtas de destaque, Source Sans 3 em H2/H3 de apoio e textos longos. Faded Copper e Lime Moss confirmadas como cores terciarias de UI para elementos de apoio, selos/carimbos e patterns/assets de layout - nao substituem cores funcionais."
+    },
+    {
+      "ts": "2026-07-27T12:15:00Z",
+      "skill": "ee-s3-manual-marca",
+      "action": "updated",
+      "note": "Adicionada regra de pareamento fundo/cor terciaria: fundo Parchment usa Faded Copper, fundo Graphite usa Lime Moss (nunca as duas juntas). Confirmado pelo designer. WCAG recalculado para o par oficial Faded Copper/Parchment."
+    },
+    {
+      "ts": "2026-07-27T12:15:00Z",
+      "skill": "ee-s3-landing-page",
+      "action": "updated",
+      "note": "Aplicado o pareamento de cor terciaria na LP: Lime Moss em elementos sobre fundo Graphite (cards da secao problema, divisor em localizacao), Faded Copper em elementos sobre fundo Parchment (icone de beneficios)."
+    },
+    {
+      "ts": "2026-07-27T13:00:00Z",
+      "skill": "ee-s3-pdv-gmn",
+      "action": "updated",
+      "note": "Print real do GMB (2026-07-27) trouxe fatos verificados: telefone (13) 3469-4332, endereco com CEP 11380-001, nome ja convergido para Mina Pizzas & Grill (igual iFood), categoria Pizzaria ja definida, 1 resposta do proprietario encontrada, atributos suspeitos (veganas/happy hour) e botao Site sem destino conhecido. Depoimentos reais extraidos para a LP. Achado critico separado: aniversario da empresa passou (17/07) - sao 37 anos, nao mais 36."
+    },
+    {
+      "ts": "2026-07-27T13:15:00Z",
+      "skill": "ee-s3-landing-page",
+      "action": "updated",
+      "note": "Idade da marca corrigida para 37 anos SO na LP (decisao do operador: nao propagar ainda para posicionamento/manual-marca/regua, que seguem em 36 anos). Motivo: GMB do proprio negocio ja usa 37 anos na descricao (fundacao 17/07/1989, aniversario ja passou em 2026)."
+    },
+    {
+      "ts": "2026-07-27T14:45:00Z",
+      "skill": "ee-s3-copy-anuncios",
+      "action": "completed",
+      "note": "15 anuncios completos (11 Meta + 4 Google RSA, 32 elementos textuais). CTA aponta pro iFood (WhatsApp/LP ainda nao ativos). Sem promessa emocional, conforme trava do posicionamento."
+    },
+    {
+      "ts": "2026-07-27T14:45:00Z",
+      "skill": "ee-s3-criativos-anuncios",
+      "action": "completed",
+      "note": "5 variacoes de hook (dor, resultado, curiosidade, prova social, urgencia real baseada no horario de fechamento 22h). Prompts Midjourney marcados como referencia apenas onde a marca exige foto real de produto."
+    },
+    {
+      "ts": "2026-07-27T14:45:00Z",
+      "skill": "ee-s3-forecast-midia",
+      "action": "completed",
+      "note": "Forecast 6 meses: R.500/mes (M1) a R.000/mes (M6, Cenario C do S2). ~1.993 pedidos projetados, CPL alvo R atingido no M4. Budget e premissa de trabalho [E], pendente aprovacao do Roberto."
+    },
+    {
+      "ts": "2026-07-27T15:00:00Z",
+      "skill": "ee-s3-pdv-gmn",
+      "action": "updated",
+      "note": "GMB ja reivindicado pelo proprio Roberto (respondeu comentarios, alterou infos). Lucas vai pegar acesso admin da V4 esta semana."
+    },
+    {
+      "ts": "2026-07-27T15:00:00Z",
+      "skill": "ee-s1-arquitetura-presenca",
+      "action": "updated",
+      "note": "Status do GMB atualizado de nao_reivindicado para ativo (reivindicado pelo Roberto)."
+    },
+    {
+      "ts": "2026-07-27T15:00:00Z",
+      "skill": "ee-s3-forecast-midia",
+      "action": "updated",
+      "note": "Campanha WhatsApp substituida temporariamente por Cardapio digital (Neemo) na semana de lancamento, ate WhatsApp Business ser ativado. Budget sugerido aprovado por Lucas como premissa de trabalho, ajustavel depois."
+    },
+    {
+      "ts": "2026-07-27T16:00:00Z",
+      "skill": "ee-s3-pdv-experiencia",
+      "action": "updated",
+      "note": "Incorporados 2 clientes ocultos reais (24/07 e 27/07/2026) via mystery_shopper_findings: confirmam atendimento telefonico ruim com evidencia verbatim (desligamento abrupto, zero CRM/reconhecimento, zero cardapio proativo). Achado novo critico: numero de WhatsApp errado associado a marca capturando demanda."
+    },
+    {
+      "ts": "2026-07-27T16:00:00Z",
+      "skill": "ee-s3-pdv-regua-whatsapp",
+      "action": "updated",
+      "note": "Adicionado passo urgente de investigar/corrigir o numero de WhatsApp errado ANTES de ativar e divulgar o numero oficial. Nota sobre numero precisar ser celular, nao o fixo confirmado."
+    },
+    {
+      "ts": "2026-07-27T16:00:00Z",
+      "skill": "ee-s1-arquitetura-presenca",
+      "action": "updated",
+      "note": "Inventario de WhatsApp Business atualizado com o risco do numero errado; novo item P0 na arquitetura minima viavel."
+    },
+    {
+      "ts": "2026-07-27T16:15:00Z",
+      "skill": "ee-s3-pdv-regua-whatsapp",
+      "action": "updated",
+      "note": "Correcao: telefone fixo (13) 3469-4332 PODE ser usado no WhatsApp Business via verificacao por ligacao (nao precisa de celular novo). Removida recomendacao incorreta de numero de celular dedicado."
+    },
+    {
+      "ts": "2026-07-27T17:00:00Z",
+      "skill": "ee-s3-pdv-gmn",
+      "action": "updated",
+      "note": "Correcoes do operador: GMB ja reivindicado pelo Roberto (localizacao corrigida, respondendo comentarios) - removida a linguagem de nao-reivindicado repetida no corpo. Happy hour confirmado real; veganas a confirmar (pizza vegetariana existe, vegano e diferente). Horario confirmado: 9h-22h todos os dias."
+    },
+    {
+      "ts": "2026-07-27T17:00:00Z",
+      "skill": "ee-s1-arquitetura-presenca",
+      "action": "updated",
+      "note": "Mesmas correcoes aplicadas: GMB reivindicado e pino corrigido pelo Roberto, falta so acesso admin da V4. Atributos e horario atualizados."
+    },
+    {
+      "ts": "2026-07-29T10:00:00Z",
+      "skill": "ee-s3-copy-anuncios",
+      "action": "updated",
+      "note": "Operador rejeitou a copy gerada por IA (15 anuncios) e contratou copywriter humano - substituido integralmente por 4 criativos escritos por ele (semana-3/COPY _ Mina Pizza.md), reorganizados na estrutura de funil x plataforma sem alterar o texto original. Cobertura parcial: 3 fundo de funil (marmita/almoco, pizza/sexta, pastel/fim de tarde) + 1 meio de funil (tradicao geracional). Topo de funil, remarketing e Google Ads nao produzidos - deixados vazios, nao inventados. Contexto cruzado com a 'Calculadora de Copy' (base-de-conhecimento) - so as abas POSICIONAMENTO e USE CASE MAP estao preenchidas com dados reais do cliente (persona Marlene, tom de voz, PUV); CLIENTES e LINHA EDITORIAL tem exemplo de outro nicho (colchoes) deixado no template, conforme o operador avisou, e nao foram usadas."
+    },
+    {
+      "ts": "2026-07-29T10:30:00Z",
+      "skill": "ee-s3-forecast-midia",
+      "action": "updated",
+      "note": "Bugfix de template (render_portal.sh/portal.html): tabela e cards de 'MQL Rate/MQLs/Agendamentos/Show Rate' apareciam sempre, mesmo quando o output nao tem esses campos (modelo PDV nao tem etapa comercial entre lead e venda) - agora condicional a existencia do dado (hasMql/hasAppointments), aplicado no shared-templates/portal.html do plugin, valido pra todos os clientes. Titulo 'X KPIs' passa a refletir a contagem real da lista, nao mais fixo em '12'."
+    },
+    {
+      "ts": "2026-07-29T11:00:00Z",
+      "skill": "ee-s3-forecast-midia",
+      "action": "updated",
+      "note": "v2 do forecast: (1) adicionado KPI funil_checkout_neemo (add-to-cart/inicio de checkout) em tracking_metrics + pendencia em assumptions_and_dependencies - hoje so rastreamos clique->pedido concluido, sem Meta Pixel/CAPI instalado no Neemo. (2) Gestor de trafego enviou split de budget diario por campanha (Awareness R$6, Visita ao perfil R$6, 2x Conversao R$15 cada) somando R$1.250/mes no Meta - valor nao bate com o R$1.680 ja acordado no diagnostico de midia S2 (Cenario B). Operador decidiu manter R$1.680 como budget Meta de referencia e aplicar a MESMA proporcao do gestor (14,3%/14,3%/35,7%/35,7%) sobre esse valor: Awareness 180->240, Visita ao perfil 180->240, Trafego Neemo 660->600, WhatsApp reativacao/Cardapio digital substituta 660->600. Google mantido em R$600. Total inalterado: R$2.280/mes."
+    },
+    {
+      "ts": "2026-07-29T12:00:00Z",
+      "skill": "ee-s3-pdv-gmn",
+      "action": "updated",
+      "note": "Operador confirmou: V4 ja tem acesso admin ao GMB (item que estava P0 desde 27/07). Atualizado em ee-s3-pdv-gmn.json e ee-s1-arquitetura-presenca.json: owner_access true, status resolvido em summary/highlights/key_findings/profile_audit/optimization_checklist/key_insight/honesty_alert. Proximo P0 passa a ser aplicar as correcoes pendentes no perfil (categorias, produtos, atributo veganas, destino do botao Site)."
+    },
+    {
+      "ts": "2026-07-29T12:00:00Z",
+      "skill": "ee-s1-arquitetura-presenca",
+      "action": "updated",
+      "note": "Operador decidiu: ativacao do WhatsApp Business (incluindo investigar o numero errado que hoje captura demanda) sai do escopo de entrega da V4 - Roberto declarou que vai construir por conta propria na fase de execucao. Reframed em ee-s1-arquitetura-presenca.json (minimum_viable_architecture, architecture_level.justification, key_insight, honesty_alert) e ee-s3-pdv-regua-whatsapp.json (summary, key_findings, honesty_alert): o guia channel_setup e os 7 fluxos de mensagem continuam como entrega da V4 (prontos pra quando o numero oficial entrar no ar), mas deixam de ser tracked como pendencia bloqueada pela V4. Pendencia de base_ativa (inconsistencia pizza 30% vs 250 pedidos/mes) segue em aberto, nao endereçada pelo operador nesta rodada."
+    },
+    {
+      "ts": "2026-07-29T12:00:00Z",
+      "skill": "ee-s3-forecast-midia",
+      "action": "updated",
+      "note": "v3: Roberto aprovou PARCIALMENTE o forecast - inicio confirmado em R$1.500/mes (Cenario A, M1), nao R$2.280 (Cenario B). Adicionado budget_at_launch_m1 + daily_budget_launch_m1 por campanha nos outputs/ee-s3-forecast-midia.json, aplicando a mesma proporcao do gestor de trafego (14,3%/14,3%/35,7%/35,7% no Meta) sobre R$1.106 (73,7% de R$1.500) + Google R$394. Escalada M2-M6 (ate R$2.280 no M3, R$5.000 no M6) segue como proposta [E], pendente de nova aprovacao conforme resultados do inicio - nao e automatica."
+    },
+    {
+      "ts": "2026-07-29T13:00:00Z",
+      "skill": "ee-revisao-semanal",
+      "action": "completed",
+      "note": "Segunda revisao semanal do ciclo, alvo Semana 3 (pdv, 4/4 completa - maior semana 100% completa pelo delivery-map). 5 evolucoes estrategicas mapeadas (base ativa, atendimento/experiencia, gestao do GMB, ownership do WhatsApp Business, aprovacao de budget de midia) - 3 delas (GMB, WhatsApp, forecast) ja haviam sido decididas e aplicadas ao vivo pelo operador nesta mesma sessao, documentadas retroativamente como atualizacoes aceitas. 2 divergencias factuais registradas E AINDA PENDENTES de decisao: F1 idade da marca (36 vs 37 anos, GMB real ja usa 37); F2 inconsistencia pizza 30% do faturamento vs 250 pedidos/mes (nao resolvida, precisa esclarecimento do Roberto). 2 gaps narrativos (G1 recorrente - limitacao de template; G2 novo - meta 'fechar Nivel 1' depende de acao do Roberto, nao mais da V4). Output salvo em outputs/ee-revisao-semanal.json com _refinement_history acumulado (2 execucoes: 20/07 e 29/07)."
+    },
+    {
+      "ts": "2026-07-29T14:00:00Z",
+      "skill": "ee-s3-crm-setup",
+      "action": "completed",
+      "note": "CRM Kommo do zero (Cenario A). Pipeline de 7 etapas redesenhado pro formato PDV/impulso (Novo Contato -> Consultando Cardapio -> Pedido em Fechamento -> Pedido Confirmado -> Cliente Recorrente -> Em Reativacao -> Nao Convertido), nao o funil B2B padrao da V4. Score redefinido de 'tamanho de negocio' pra 'temperatura de relacionamento' (5 estrelas = cliente recorrente de decadas, nao 'contrato grande'). Reguas de boas-vindas e nutricao/reativacao alinhadas ao tom e gatilhos ja aprovados em ee-s3-pdv-regua-whatsapp, sem criar copy divergente. Passo 5 (conectar WhatsApp) e checklist de teste ficam bloqueados ate o Roberto ativar o WhatsApp Business."
+    },
+    {
+      "ts": "2026-07-29T14:00:00Z",
+      "skill": "ee-s5-scripts-sdr",
+      "action": "completed",
+      "note": "Scripts do SDR IA 'Sandra' (nome sugerido, pendente confirmacao). 5 perguntas de qualificacao adaptadas a compra por impulso (nao ciclo de decisao B2B) - revelam produto de interesse e urgencia, nao orcamento/autoridade classicos. 5 objecoes reais reaproveitadas do objection_library ja validado em ee-s1-persona-icp.json. Substituiu as dependencias inside-sales que nao existem no modelo pdv (ee-s4-diagnostico-comercial, ee-s4-cliente-oculto) por ee-s1-persona-icp e ee-s3-pdv-experiencia, unica dependencia real confirmada no dependency_graph.json e a manual-marca. Pendente: aprovacao do Roberto antes de configurar no Patagon (regra da skill) + WhatsApp Business ativo pro go-live."
+    },
+    {
+      "ts": "2026-07-29T15:00:00Z",
+      "skill": "multiplas",
+      "action": "updated",
+      "note": "U4 da revisao semanal ACEITA pelo operador: idade da marca 36->37 anos propagada em ee-s2-posicionamento.json, ee-s3-manual-marca.json e ee-s3-pdv-regua-whatsapp.json (36 ocorrencias no total), unificando com o que ja estava em outputs/landing-page.html e ee-s3-pdv-gmn.json desde 27/07. F1 da revisao semanal fechada."
+    },
+    {
+      "ts": "2026-07-29T15:00:00Z",
+      "skill": "ee-s3-forecast-midia",
+      "action": "updated",
+      "note": "v4: o rascunho solto forecast-midia-proposta.html foi incorporado ao fluxo oficial - conteudo absorvido em outputs/ee-s3-forecast-midia.json (novos campos scenarios_comparison, platform_breakdown, paid_media_investment_context) e o renderer shared-templates/portal.html estendido com 3 novas secoes pra essa skill (Cenarios, Quebra por Plataforma, Investimento Real em Midia/iFood). Arquivo forecast-midia-proposta.html removido - nao ha mais pagina solta fora do tracking. Testado via execucao real do renderer em Node contra o JSON real antes de confirmar."
+    },
+    {
+      "ts": "2026-07-29T21:00:00Z",
+      "skill": "multiplas",
+      "action": "updated",
+      "note": "Operador subiu 2 transcricoes reais de reuniao com o Roberto (S4 27/07 - diagnostico/posicionamento/manual-marca/GMN/WhatsApp/experiencia; S5 29/07 - midia paga/copy/criativos). Extracao via agente dedicado (leitura integral, 5684 linhas) encontrou varios itens a corrigir antes de fechar a entrega. Aplicado: (1) ee-s3-copy-anuncios.json - Roberto pediu trocar 'marmita' por 'prato executivo' no criativo de almoco (confusao com produto de marmita congelada, linha separada); (2) ee-s3-pdv-gmn.json - atributo 'veganas' CONFIRMADO incorreto e removido (so tem vegetariana); decisao de remover link do Facebook do perfil GMB (pagina abandonada); (3) ee-s3-manual-marca.json - chosen_direction resolvido: equipe decidiu NAO propor nova direcao de logo, formalizar o existente (Roberto aprovou o manual sem ressalvas); (4) ee-s1-arquitetura-presenca.json + ee-s3-pdv-experiencia.json - 'numero de WhatsApp errado' esclarecido: e bot antigo desativado (numero orfao no Facebook abandonado) + empresa homonima sem relacao no Rio de Janeiro; risco NOVO registrado: conta de Instagram original bloqueada pelo Meta Ads durante setup das campanhas (S5), conta backup criada as pressas; (5) ee-s3-pdv-base-ativa.json - Neemo corrigido de 'subutilizado' pra 'praticamente morto' (~2 pedidos em todo 2026, confirmado por Roberto); ponto de ticket real (R$43,90 prato executivo) registrado, acima da faixa declarada; (6) ee-s3-forecast-midia.json (v5) - Roberto pediu AO VIVO (S5) pra cortar a campanha do Neemo do lancamento; campanhas 'Trafego Neemo' + 'Cardapio digital substituta' consolidadas e redirecionadas pro iFood, mantendo total M1 em R$1.500; (7) ee-s3-criativos-anuncios.json - adicionado produced_creatives com os 4 pares feed+story REAIS ja produzidos e APROVADOS pelo Roberto em S5, com pair_with_creative cruzado em ee-s3-copy-anuncios.json; sinalizado que o design do criativo de almoco (feed-01/story-01) ainda nao recebeu a correcao marmita->prato executivo (so a copy foi corrigida); (8) ee-s3-pdv-regua-whatsapp.json - adicionada regra global de envio (max 1 msg promocional/semana/cliente, nunca tarde da noite), confirmada na reuniao S4. NAO incorporado: um segundo documento de copy (semana-3/Banco de Copy para Anuncios _ MINA PIZZA.md, apresentado por outra pessoa do time na mesma reuniao S5) que mira turista/praia e aponta pra WhatsApp/Neemo inexistentes - flagged para o operador decidir o que fazer, nao usado nos outputs. Base ativa (pizza 30% vs 250 pedidos/mes) segue pendente - Roberto confirmou que vai mandar relatorios reais de venda, ainda nao recebidos. Rumor de app terceiro que 'puxa' base de clientes do iFood - Roberto vai pesquisar e reportar, watch item sem acao ainda."
     }
   ]
 }

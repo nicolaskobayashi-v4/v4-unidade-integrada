@@ -1,0 +1,3 @@
+00000033-AUDIO-2026-06-12-08-48-28.opus - "Eu tô do celular e ele pegou a minha conta do Google, do Gmail, pra pedir acesso aí pra ti, deve ter chegado pra ti uma solicitação."
+
+00000044-AUDIO-2026-07-06-13-54-46.opus - "Eu consigo ali pelo Kommo enxergar todo mundo que entrou, os que foram qualificados e os que foram desqualificados? E os motivos de não venda, eu... eu acho, acredito que sim, né? A questão aqui é a gente entender como é e o porquê que a gente tá qualificando. Se é comercial a questão de não estar convertendo ou se a gente tá qualificando errado, entende? A gente tá trabalhando essa parte aí. Então, se eu pudesse ver dentro do CRM, isso é o ideal, né?"

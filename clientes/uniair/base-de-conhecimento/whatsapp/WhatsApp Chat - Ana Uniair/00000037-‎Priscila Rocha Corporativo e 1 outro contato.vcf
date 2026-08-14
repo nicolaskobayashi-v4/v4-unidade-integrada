@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:3.0
+N:;Priscila Rocha Corporativo;;;
+FN:Priscila Rocha Corporativo
+TEL;type=CELL;waid=555193315369:+55 51 9331-5369
+X-WA-BIZ-NAME:Priscila Rocha Corporativo
+X-WA-BIZ-AUTOMATED-TYPE:unknown
+END:VCARD_$!<VCard-Separator>!$_BEGIN:VCARD
+VERSION:3.0
+N:;Alci Corporativo;;;
+FN:Alci Corporativo
+TEL;type=CELL;waid=555193317178:+55 51 9331-7178
+END:VCARD

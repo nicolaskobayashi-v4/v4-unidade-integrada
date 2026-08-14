@@ -1,0 +1,15 @@
+BEGIN:VCARD
+VERSION:3.0
+N:;Elisangela 4lis;;;
+FN:Elisangela 4lis
+X-WA-BIZ-NAME:Elis Brandt
+X-WA-BIZ-DESCRIPTION:Gerente Comercial
+TEL;type=HOME;waid=5511961173210:+55 11 96117-3210
+END:VCARD_$!<VCard-Separator>!$_BEGIN:VCARD
+VERSION:3.0
+N:;Elisangela 4lis;;;
+FN:Elisangela 4lis
+X-WA-BIZ-NAME:Elis Brandt
+X-WA-BIZ-DESCRIPTION:Gerente Comercial
+TEL;type=WORK:+55 11 2924-6826
+END:VCARD

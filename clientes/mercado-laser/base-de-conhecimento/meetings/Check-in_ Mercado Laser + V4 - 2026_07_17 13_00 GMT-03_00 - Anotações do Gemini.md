@@ -1,0 +1,577 @@
+jul. 17, 2026
+
+## **Check-in: Mercado Laser \+ V4 \- Transcrição**
+
+### **00:00:41**
+
+**Vinícius Oliveira:** Opa, boa tarde. Tá mutada. Ah, feliz.
+
+**Daniel Silva Lorêdo:** Boa. Só fui trocar a câmera aqui e o Calefi foi pegar uma aguinha aqui. Ele já entra aqui na reunião. Mas alguém vai participar da reunião?
+
+**Vinícius Oliveira:** Não,
+
+**Daniel Silva Lorêdo:** Não,
+
+**Vinícius Oliveira:** hoje não. Hoje vai ser só
+
+**Daniel Silva Lorêdo:** C fea. OK.
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** Acho que não,
+
+**Vinícius Oliveira:** eu.
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** né?
+
+**Daniel Silva Lorêdo:** Não estamos te ouvindo agora. Tá.
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** Você também, né, Daniel? Tá me ouvindo? Viní tá conseguindo me ouvir aqui agora? tá me ouvindo?
+
+**Vinícius Oliveira:** Tô ouvindo,
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** Ah,
+
+**Vinícius Oliveira:** tô ouvindo.
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** tá beleza.
+
+### **00:01:54**
+
+**Vinícius Oliveira:** Ah, é, é que eu tô com o celular do Vinícius aí,
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** Ah, tá,
+
+**Vinícius Oliveira:** por isso que eu tô mais
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** pô. Nossa,
+
+**Vinícius Oliveira:** tranquilo.
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** pô, aí vocês me mebra,
+
+**Vinícius Oliveira:** É, então eu nem eu nem vinculei.
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** viu?
+
+**Vinícius Oliveira:** Eu falei, pensei que você tava falando com outro. É. Ah,
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** Então, bora lá. Igor,
+
+**Vinícius Oliveira:** bora.
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** Daniel, tu consegue apresentar aí, cara?
+
+**Vinícius Oliveira:** Hum.
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** O o Daniel aqui agora.
+
+**Vinícius Oliveira:** Ah,
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** Tá. Ô Daniel,
+
+**Vinícius Oliveira:** tá.
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** nosso áudio mesclou, tá?
+
+### **00:02:32**
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** Por isso não tá me ouvindo. Deixa eu desmesclar aqui. Esse negócio é horrível, velho. Como é? A a feira é hoje, né?
+
+**Daniel Silva Lorêdo:** Acho que o o evento tá acontecendo hoje, né?
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** É o evento. o evento.
+
+**Vinícius Oliveira:** É isso.
+
+**Daniel Silva Lorêdo:** até até até hoje mesmo.
+
+**Vinícius Oliveira:** Ah, eu acho que até amanhã. Deixa eu dar uma olhada. Pera aí. M.
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** Eu acho que é 16 até 18, alguma coisa assim. Tá indo bastante gente aí no showro ou não?
+
+**Vinícius Oliveira:** Eh, não, não veio, não veio pessoal não. 14 a 17\. Hoje é o último dia.
+
+**Daniel Silva Lorêdo:** OK. E aí a campanha até para para esse evento acho que coloca até hoje,
+
+### **00:03:23**
+
+**Vinícius Oliveira:** Ah, tá.
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** Ah.
+
+**Daniel Silva Lorêdo:** né? Não tem nenhuma nenhum nenhuma eh
+
+**Vinícius Oliveira:** Eh, no.
+
+**Daniel Silva Lorêdo:** eh vontade de continuar com essa campanha, né? Tá ok? Que a gente vai ver mais sobre as campanhas, né? A gente teve fazendo uma ação maior para as campanhas mais esse mês, esses 15 dias. Eh, a gente vai ver alguns resultados aqui, puxar algumas coisas aqui e ainda tem algumas configurações que a gente estamos implementando, principalmente para Google Ads, principalmente ali para eh o Google Shopping, que é onde fica a plataforma dos produtos. Então, a gente vai ver sobre isso hoje. Mas o investimento que a gente tem ali, primeiramente para MET, 363, eh, foi uma campanha de alcance,
+
+**Vinícius Oliveira:** Угуm.
+
+**Daniel Silva Lorêdo:** então alcançou mais de 66.000 pessoas. paraa área que tá aí, né, do evento mesmo, eh, com custo por 1000 pessoas de R$ 5\. Então, enviou para bastante gente na dentro da área, coloquei interesses voltado para eh para realmente quem quem tem empresas e tudo mais na faixa de faixa etária de idade eh parecida,
+
+### **00:04:28**
+
+**Vinícius Oliveira:** Угу.
+
+**Daniel Silva Lorêdo:** né? E os principais anúncios que tiveram rodando foram esses dois aqui, que é convidando, né, para para eh paraa loja, né, com CTA bem claro para ir pra loja de vocês. Alguns vídeos que são um pouquinho mais longo e o pessoal não continua até o final, tá? O pessoal continuando ali mais ou menos na metade. Eh, então os vídeos curtos aí são um pouco mais atrativos. eh dentro do gerenciador de anúncio, dentro do MetaS, essa é a primeira é a primeira a primeira impressão que a pessoa tem eh de vocês, tá? Então são campanhas que a gente vai ali alimentando e vai aumentando a inteligência da nossa conta de anúncio. É uma cantoria de anúncio nova. Eh, a gente tá colocando ali eh, para um público frio e acho que seria importante a gente trabalhar além de na campanha de alcance, eh, trabalhar um público um pouco mais morno,
+
+**Vinícius Oliveira:** Угу.
+
+**Daniel Silva Lorêdo:** para quente ali. Eh, pessoas que já são eh, já conhecem a loja de vocês, pessoas que já interagiram com a loja de vocês, a partir de uma primeira campanha a gente consegue puxar eh isso para outras outras campanhas, tá?
+
+### **00:05:49**
+
+**Daniel Silva Lorêdo:** Eh, então essa primeira campanha aí serve para meio que alimentar ali um público pra gente conseguir outros públicos. Eh, mas começar a anunciar para para outros públicos seriam interessante para vocês no meta.
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** is e particularmente gostei bastante daqueles vídeos ali do volta ali que tem o nome de quem fez
+
+**Vinícius Oliveira:** Mhm.
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** ali escrito. Eh,
+
+**Daniel Silva Lorêdo:** Eh,
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** ah, não, tá só mercado laser e best ali. Mas esses vídeos ali que foram feitos, cara, foram muito bons pra gente poder utilizar. Então,
+
+**Vinícius Oliveira:** Mhm.
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** se forem produzir mais materiais desse tipo assim, acho que é bem interessante pro pro público de vocês, que é, enfim, o cara tá mais técnico, sabe mais sobre o produto, né? Então é bom falar desse dessa forma.
+
+**Vinícius Oliveira:** Mhm.
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** A gente mexe bastante com motor, né, de trator, autopeça de de máquina agrícola aqui, né, geralmente esses tipo de vídeo assim do cara mostrando o motor,
+
+### **00:06:40**
+
+**Vinícius Oliveira:** Угуm.
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** explicando lá, porque ele faz isso aqui, tem isso aqui de diferente, eh, dá muito sucesso aqui. Então, é um esse esse modelo de conteúdo eh muito bom para anúncio,
+
+**Vinícius Oliveira:** Угу.
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** cara.
+
+**Vinícius Oliveira:** Так.
+
+**Daniel Silva Lorêdo:** Boa. A gente vai agora olhar para o Google Ads, né? A gente teve um investimento maior ali. Tem algumas campanhas que estão rodando ainda que é eh gostaria que tivesse ali ainda, né? a gente vai olhar aqui, eh, porque a gente só acionou essas campanhas, colocou ali dentro da verba que a gente tinha e a gente acionou essas campanhas um pouco mais antigas, né, que é até do próprio gestor antigo ali. Eh,
+
+**Vinícius Oliveira:** Так.
+
+**Daniel Silva Lorêdo:** a gente fez uma eh a gente colocou ali eh o investimento para esse metade de mês, né, esses 16 primeiros dias de mês, eh em 1500 praticamente com eh 78.000 impressões, é 2900 cliqus. Eh, porém a gente tem ainda um gap muito grande de cliqus para conversão.
+
+### **00:07:42**
+
+**Daniel Silva Lorêdo:** Então, a gente tem que verificar as conversões ali, principalmente para o Google, para o Google Shopping. A gente tem que verificar isso, porque ele tá puxando para outra conta de anúncio. Eu vou até falar um pouco mais isso mais para frente, mas ele fez a criação de outra conta de anúncio lá, o a máquina deles própria lá e eu tenho que puxar pra conta certa, né? Eh, mas a gente tem esse resumo aqui das campanhas que a gente tem ali, que a V4 sumiu mesmo. Eh, é um overview geral ali. Então, a gente tem campanhas voltadas para máquinas, só para palavra-chaves relacionada à máquina, a a laser, né? Eh, temos campanhas voltada para palavraschaves voltada para para quem é de indústria industrial, né?
+
+**Vinícius Oliveira:** M.
+
+**Daniel Silva Lorêdo:** Eh, máquinas a corte a las para indústrias. Eh, temos também campanha voltada para peças, né? Então, com com palavra-chaves voltada para isso e também temos para oportunidade de renda, porém essa aí ela não ela tem umas palavraschaves um pouco mais específicas, elas não não performou, tá zerado. Então, a gente eh o Google não não não viu oportunidades nessa campanha até deixar um pouco mais as palavraschaves um pouco ali mais amplas.
+
+### **00:09:00**
+
+**Daniel Silva Lorêdo:** Eu vou fazer alguns testes ali para eh voltar essa campanha e colocar vida nela, né? eh para essas palavraschaves.
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** Isso. E até essas campan essa campanha de oportunidade,
+
+**Vinícius Oliveira:** Угу.
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** ela é uma campanha bem assim mais topo de funil, a pessoa bem menos consciente, né? Então, até até nem é bom ela ter um volume muito grande. Eh, bom a gente conseguir pegar um pessoal bem específico ali com ela mesmo. No caso, não tá vindo essas pessoas ali mesmo, né, por enquanto. Então,
+
+**Vinícius Oliveira:** Так.
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** isso ela é melhor trabalhada daí no meta, tá? essa campo inclusive com esse mesmo intuito.
+
+**Daniel Silva Lorêdo:** Boa. É,
+
+**Vinícius Oliveira:** Угу.
+
+**Daniel Silva Lorêdo:** é um teste que a gente tá fazendo no Google, né? Mas colocar também eh essa essa hipótese no método também é é válido, né?
+
+### **00:09:50**
+
+**Daniel Silva Lorêdo:** Até porque é algo que gera desejo assim, né? sobre sobre isso, sobre meta. Eh, a gente também ainda tá rodando aquelas campanhas um pouco mais antigas, porém eu acho que eh não sei se é mais necessário essas campanhas, eh, a gente continuar mesmo com as nossas campanhas ali da V4 mesmo, a gente tem e ter o orçamento realmente para nossas campanhas eh dentro da do que a gente tem aqui. Você concorda com isso? Você você acha que dá para pausar ali e pegar as coisas? que validou aí só colocar nossas campanhas novas.
+
+**Vinícius Oliveira:** Pode ser, pode
+
+**Daniel Silva Lorêdo:** Boa.
+
+**Vinícius Oliveira:** ser.
+
+**Daniel Silva Lorêdo:** OK. Eh, e dentro disso, de tudo isso, a gente tá fazendo a configuração do Google Merchant Center, que é onde a gente puxa ali todos os produtos de vocês que tá na na tray, né, e coloca dentro do Google Shop. Então, já tá disponível ali. Tem algumas alterações, algumas lapidações que a gente precisa fazer ali. Por exemplo, eh, trocar a conta de anúncio do Google. Eu fiz a eu fiz a criação da conta do Google Mean Center e daí ele faz uma criação do
+
+### **00:10:57**
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** Tur
+
+**Daniel Silva Lorêdo:** Google Ads sozinho, sem eu pedir e para eu fazer a troca ali não foi não não tá sendo fácil. Eh, então não sei se vai se eu vou conseguir realmente tirar ali. Eu acho que dá para tirar essa conta, essa conta do Google Ads ali, não ficar duas contas, né? Só manter em uma só, mas tem a possibilidade de a gente ter duas contas de Google Ads e ficar alimentando um um orçamento para uma para o Google Mechan Center ali e ter as campanhas próprias em uma conta de anúncio, né?
+
+**Vinícius Oliveira:** Ja.
+
+**Daniel Silva Lorêdo:** Mas eu tô tô tô vendo isso ainda para para trocar eh configurar o acompanhamento de conversões na plataforma, né? Então, ter isso, certo? eh fazer os testes de de conversões para ter a gente ter uma uma métrica melhor
+
+**Vinícius Oliveira:** อ
+
+**Daniel Silva Lorêdo:** e alimentar a plataforma com os dados de de conversões. Isso é essencial pro Google Es. Então, a gente precisa ter um um a um traqueamento de dessa plataforma e ativar isso eh precisa de um eh de uma atenção ali na plataforma, né? Eh, e adicionar algumas informações de frete necessária.
+
+### **00:12:17**
+
+**Daniel Silva Lorêdo:** Isso são algumas coisas que são é um passo a passo, né? Algumas configurações aqui que tá para agora são para agora e vai surgindo novas configurações pra gente ir implementando ali no Google Mean Center, até porque é uma plataforma que ela tem priorizado muito pela segurança, então eh sempre colocar tudo certinho ali. Tanto que eu fiz uma alteração de de um dia, um negócio lá de um dia para o de sete para 8 dias e daí o Google já cortou as coisas e falou: "Ó, você tá errado, porque era s dias, mas você colocou oito". Aí eu eu vi ali e já mudei, eh, coloquei no padrão deles, então tem que ter tudo certinho ali, mas já tá configurado todos a as a os produtos que estão no na tray estão no Google Mean Center ali pra gente anunciar, né? E ali é só a escolha mesmo de a gente colocar no os anúncios no Google Ads. Boa. Você tem alguma pergunta até aqui?
+
+**Vinícius Oliveira:** Não, não, não, por enquanto não.
+
+**Daniel Silva Lorêdo:** Boa, Calefi. Gostaria de complementar?
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** complementar aqui, tá? é que a gente tá fazendo, tipo assim, arrumando a casa para daí pensar em escalar mesmo, tá?
+
+### **00:13:35**
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** Então, por enquanto, a gente tá justamente nessa fase de arrumar as coisas ali, garantir que tá tudo funcionando. O um ponto pra gente trazer, inclusive pro pros próximos, né, é a gente ter um trazer também dentro do do e-commerce, tá, para vocês, eh, como que tá sendo gerando a venda, adição de carrinho, esse tipo de coisa que a gente havia percebido, tinha algumas alguns problemas na no eventos, né? Então, agora a gente vai começar a trazer isso daí, tá? Eh, por enquanto tá meio imparcial, então até melhor não trazer que vai ficar meio aquele negócio que eh meio conflituoso os dados, tá? Eh,
+
+**Vinícius Oliveira:** Да.
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** mas pros próximos a gente vai conseguir trazer o a adição ao carrinho, quantas quantas pessoas eh adicionaram o carrinho,
+
+**Vinícius Oliveira:** Угу.
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** foram pro checkout, finalizaram compra, todas essas conversões ali, tá? Então isso vai ser bem bem relevante para vocês, pra gente ter um acompanhamento do funil completo, tá?
+
+### **00:14:32**
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** Isso porque a gente percebe bastante que tem que perde muitas vezes no meio desse caminho, né? Então eu tenho lá o funil de vendas e eu acabo vendo que putz, eu dou meu checkout para fechamento, acabo perdendo muita gente. Aí a gente consegue fazer propor ações para vocês ali de para poder fazer melhoria em cima desses pontos de de esses buracos que tem no funil, tá? Yeah. Mas por enquanto agora que os dados estão conseguindo ser computados bonitinho, daí a gente vai começar a olhar para isso de da melhor forma. Aí eh, gostaria de saber daí de você o que que você vem percebendo dentro do da do volume de vendas, até na presença aí que você já falou que não foi, não surtiu muito efeito a campanha localizada aí, né? Queria ver a percepção tua, cara.
+
+**Vinícius Oliveira:** Tá, vamos lá. Eh, a questão aqui do showro, realmente eh não teve tiveram só duas pessoas que entraram em contato com a gente pelo pelo WhatsApp e falaram assim: "Ah, eh,
+
+### **00:15:38**
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** Mhm.
+
+**Vinícius Oliveira:** eu vi eu vi o anúncio de vocês, eu tô aqui paraa feira, tal, não tem como visitar, mas também acabou nem vindo, né? Não apareceu ainda até agora. Mas é isso em relação a à Futura e Print.
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** Tá, é meio meio complicado mesmo do cara sair da feira e aí também a logística
+
+**Vinícius Oliveira:** Eh,
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** às vezes complica também para ele,
+
+**Vinícius Oliveira:** é,
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** né?
+
+**Vinícius Oliveira:** então aí até aí tudo bem. Aí a questão das campanhas, eh, o que eu senti, o que a gente sentiu é que o volume de de clientes chamando não
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** Угу.
+
+**Vinícius Oliveira:** aumentou tanto, entende? Eh, a gente esperava um pouco mais. Tem eh tá começando a aumentar, principalmente essa semana, porém tá vindo alguns clientes com, eh, procurando coisas específicas que a gente não tem. tem, eu eu sei que que às vezes vai aparecer, vai cair, acabar caindo, né, eh, pessoas que não t a ver com ramo,
+
+### **00:16:40**
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** А
+
+**Vinícius Oliveira:** mas a gente tá sentindo essa falta principalmente na parte de máquinas, tá? Eh, peças já tá com um volume legal de pessoal chamando, só que máquina que tá tá fraco pra gente.
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** E e esse pessoal que veio pedindo coisa que vocês não tm, você consegu me especificar alguns assim ou que mais apareceu?
+
+**Vinícius Oliveira:** Ah, eu posso eu posso te passar que é, por exemplo, eh, máquinas precitec,
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** Uhum.
+
+**Vinícius Oliveira:** eh, motor nema, eh, são alguns itens que a gente não trabalha,
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** Uhum.
+
+**Vinícius Oliveira:** eh, marcas específicas que a gente não tem, entendeu? E tipo,
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** Aham.
+
+**Vinícius Oliveira:** a máquina só funciona com aquela marca, entendeí não dá para
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** Ah, tá.
+
+**Vinícius Oliveira:** substituir.
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** E o outro ponto foi eh parte de peças tá funcionando bem, você falou,
+
+**Vinícius Oliveira:** Isso.
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** né?
+
+### **00:17:36**
+
+**Vinícius Oliveira:** O problema tá nas máquinas, a gente tá sentindo falta de cliente de máquina.
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** OK.
+
+**Vinícius Oliveira:** Então assim, queria que o Adenildo,
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** Uhum.
+
+**Vinícius Oliveira:** o o proprietário, ele tá investindo bastante em maquinário, então a gente tá aumentando o nosso estoque e é um e são máquinas, né, eh de uma qualidade superior. Então, a gente precisa começar a trabalhar. É isso. Precisa começar a a movimentar o stop,
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** Tá.
+
+**Vinícius Oliveira:** entendeu?
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** Eh, você, por exemplo, assim, o você que tem mais conhecimento do mercado aí também, cara, pras máquinas,
+
+**Vinícius Oliveira:** Uhum.
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** geralmente o pessoal pesquisa por algum modelo, voltagem, o que que o pessoal geralmente vai vem
+
+**Vinícius Oliveira:** É, não, geralmente a pessoa,
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** atrás.
+
+**Vinícius Oliveira:** ela vai procurar assim qual que é o tipo, né? O que que ela faz? Tipo, ah, máquina de corte, máquina de gravação, máquina de gravação em metal, máquina de gravação em madeira.
+
+### **00:18:35**
+
+**Vinícius Oliveira:** Eh, ela geralmente vai procurar o tipo da máquina,
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** А,
+
+**Vinícius Oliveira:** né, e vai colocar a potência. Ah, se é de 100, de 130\. Mas assim, marca em específico dificilmente a pessoa procura. A pessoa só vai procurar nessa as terminologias mais amplas, sabe?
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** да. É porque daí eu Mas o pessoal geralmente não chega querendo, eu quero best e é isso.
+
+**Vinícius Oliveira:** Não,
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** Não,
+
+**Vinícius Oliveira:** não.
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** fal assim,
+
+**Vinícius Oliveira:** Assim, a único que tá que assim,
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** ó.
+
+**Vinícius Oliveira:** a gente tá investindo no na máquina de vacina antifo. Eu não sei se você viu.
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** Ah, eu vi isso pros
+
+**Vinícius Oliveira:** Então,
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** anúncios.
+
+**Vinícius Oliveira:** a esses vídeos estão trazendo de forma orgânica pra gente bastante cliente assim, cliente assim, né?
+
+### **00:19:22**
+
+**Vinícius Oliveira:** a maioria curioso, querendo saber o valor,
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** Ah.
+
+**Vinícius Oliveira:** mas assim, eu acho que é um produto também legal da gente tá tá fazendo alguma coisa e específica para ele, entendeu? Que esse é um produto que quase ninguém
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** É,
+
+**Vinícius Oliveira:** tem.
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** eu tô no depois que eu vi o vídeo dois, meu Instagram virou a cada cinco rios é um desses daí de vacina de carro, de antifurto. Então, tô vendo bastante desse negócio aí, mas eh eu eu vejo que é uma coisa que dá bastante engajamento, porque o pessoal comenta lá,
+
+**Vinícius Oliveira:** Aham.
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** ah, que vai adiantar v pessoal tem comenta essas coisas assim, mas eu não sei o quanto que tá vendendo, né?
+
+**Vinícius Oliveira:** Aham. É, então tem que ver para Então,
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** E qu e quem geralmente que compra isso é o mecânica mesmo,
+
+**Vinícius Oliveira:** ó, pessoal, pessoal de locação de carro, eh, fábricas, eh aquele pessoal de locação de caminhão, de trator,
+
+### **00:20:23**
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** Aham.
+
+**Vinícius Oliveira:** toda a parte automobilística, indústria que trabalha com ácido cirúrgico, que precisa, são eh toda parte de indústria que precisa fazer marcação. É, e principalmente marcação aprofundada, que aí você usa aquela aquela máquina, entende? Porque, por exemplo,
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** Mhm.
+
+**Vinícius Oliveira:** tem peças, ah, eu vou fazer uma chapa, eu preciso fazer uma chapa. Não dá para colocar uma chapa, dependendo do tamanho ou do formato numa máquina. Aí a portátil você consegue levar e colocar e fazer em qualquer lugar, entendeu?
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** Uhum. É, então é o que eu eu pensando assim, put, eu tenho tenho uma frota de carro aqui, aí não sei se eu compraria a máquina ou levaria em alguém que tem,
+
+**Vinícius Oliveira:** Não. Se você,
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** sabe?
+
+**Vinícius Oliveira:** por exemplo, ah, tenho só uma frota e eu não tenho uma rotatividade grande de carro,
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** É,
+
+**Vinícius Oliveira:** nem faz sentido você ter uma máquina dessa.
+
+### **00:21:19**
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** é assim.
+
+**Vinícius Oliveira:** Mas assim, eh, quando você pensa no num negócio maior assim já, ah, que você tem mais rotativ atividade, aí sim a gente tem clientes de locadora, tem cliente de locação de caminhão, de de trator, essas coisas que eles vão produzindo as peças, eles mesmos produzem as peças e colocam, sabe?
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** Uhum. Boa. Bom, eh, ô, Daniel, tem algo mais aí para no slide aqui para
+
+**Daniel Silva Lorêdo:** Não,
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** seguir
+
+**Daniel Silva Lorêdo:** só reforçando com com com o Vinícius. É o Vinícius é não é Igor,
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** o Vinícius.
+
+**Daniel Silva Lorêdo:** né? Eh, tá tentando lembrar, só que o nome tá aqui na minha frente.
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** Mira
+
+**Vinícius Oliveira:** G
+
+**Daniel Silva Lorêdo:** Vinícius. Eh, Igor, eh, só para trazer mesmo a aquelas questões mais específicas que as pessoas estavam trazendo para vocês, só que vocês não vendem, né?
+
+### **00:22:16**
+
+**Daniel Silva Lorêdo:** Então, trazer isso pra gente, que daí a gente consegue falar pro Google que a gente não quer esse cliente. Aí, como vocês t conhecimento do mercado,
+
+**Vinícius Oliveira:** M.
+
+**Daniel Silva Lorêdo:** vocês sabem eh o que o que vocês realmente vendem e não vendem, aí tr pode trazer ali no grupo mesmo alguma uma lista que a gente negativa isso pro Google, porque agora tá convertendo,
+
+**Vinícius Oliveira:** Pronto.
+
+**Daniel Silva Lorêdo:** né, as pessoas no Google tá convertendo, né, tá chegando até vocês aí no Google muit das vezes vai tentar priorizar essas pessoas que buscam essas
+
+**Vinícius Oliveira:** Uhum.
+
+**Daniel Silva Lorêdo:** palavraschaves. Aí é bem importante a gente fazer essa negativação.
+
+**Vinícius Oliveira:** Mhm.
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** E assim, Vinícius,
+
+**Vinícius Oliveira:** M.
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** a minha vitória esse mês é é não é no mínimo, né, manter a venda. Aí com tudo com toda a infraada a gente consegue aumentar a venda, tá? É aquilo, não adianta eu aumentar sem ter a base, né? Senão o prédio cai.
+
+### **00:23:08**
+
+**Vinícius Oliveira:** M.
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** Bom, Daniel, é isso,
+
+**Daniel Silva Lorêdo:** Boa. É isso.
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** tá? Vamos fazer o seguinte, Vinícius, cara, vamos deixar marcado uma essa reunião fixa a cada 15
+
+**Vinícius Oliveira:** Uhum.
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** dias. E que dia, assim da semana que é o dia mais tranquilo para vocês?
+
+**Vinícius Oliveira:** De sexta-feira.
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** Sexta-feira mesmo. A gente pode colocar na sexta-feira.
+
+**Vinícius Oliveira:** É,
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** Deixa eu ver um horário aqui. Bom, sexta-feira 11 horas. Deixa eu ver o Daniel Teniz. Pode ser.
+
+**Vinícius Oliveira:** pode ser.
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** Tá.
+
+**Vinícius Oliveira:** Угуm.
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** Então vou eh a gente vai colocar a cada 15 dias ali na sexta-feira às 11 esse chequinho com vocês.
+
+### **00:23:55**
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** É,
+
+**Vinícius Oliveira:** Aha.
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** e daí eu vou combinar inclusive uma uma rotina aqui com com o Daniel pra gente puxar um um fechar, fazer um relatório fechando o mês, tá? E passar para vocês também. Vai cair bem no dia 31, tá? Então a gente vai fazer a reunião, aí vai fechar o mês e a gente vai mandar na segunda depois o o relatório. Eh, beleza. Mercado laser. Cara, você tem o e-mail que você utiliza, tem o saque mercado laser, mas tem algum e-mail que vocês utilizam aí mais que é @gmail?
+
+**Vinícius Oliveira:** Gmail. Não, deixa eu ver aqui.
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** que nem esse que você entrou aqui agora do Vinícius.
+
+**Vinícius Oliveira:** Não, esse daqui é o particular do Deixa eu ver
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** Ah, tá.
+
+**Vinícius Oliveira:** aqui.
+
+### **00:24:43**
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** Ah, tá. Mas vocês você Beleza. Eu coloquei o saque. Laser@gmail.com. Eh,
+
+**Vinícius Oliveira:** Aham.
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** mas daí se vocês tiverem algum e-mail, seá marketing alguma coisa assim, mercado laser, @gmail acho tá tudo nesse saque,
+
+**Vinícius Oliveira:** Mhm.
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** né? Eh, mas beleza. Só para ter um e-mail da que vai participar da reunião para você receberem
+
+**Vinícius Oliveira:** А,
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** notificação.
+
+**Vinícius Oliveira:** так.
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** Então, deixe me colocar aqui. Repetir cada duas semanas. Pronto, marcado isso daqui.
+
+**Vinícius Oliveira:** Ah,
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** Maravilha.
+
+### **00:25:31**
+
+**Vinícius Oliveira:** ah, só perguntar, tem como eh já começar a a pelo menos não sei não sei o que que você pensa assim de estratégia. Mas aumentar pelo menos o orçamento de máquinas pra gente ver se começa a vir mais clientes,
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** Sim, a gente vai otimizar para para isso, cara. A gente vai mexer os ponteiros ali para esse focando nisso,
+
+**Vinícius Oliveira:** tá?
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** cara. Eh, daí inclusive a gente vai pegar, a gente fez o primeiro investimento voltado pra feira. Agora que a feira terminou, a gente vai voltar com os investimentos ali na no meta para as outras coisas, tá?
+
+**Vinícius Oliveira:** Угу.
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** Então, nisso também a gente coloca um pouco de força ali na parte de máquina. Eu vejo que é muito uma coisa de eu ter que criar a demanda, criar, gerar a demanda no na meta no Facebook para depois eu capturar ela no Google. Então, é um trabalho meio de ficar jogando de um lado pro outro ali o o cliente mesmo.
+
+**Vinícius Oliveira:** Uhum.
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** Então, a gente começar com isso daí eh agora que encerrou a feira.
+
+**Vinícius Oliveira:** Uhum.
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** Beleza? Bom,
+
+**Vinícius Oliveira:** Beleza.
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** pessoal, boa sexta-feira aí, então, para vocês.
+
+**Vinícius Oliveira:** Para nós é paraa Espanha,
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** Bom, bom jogo no domingo, né, para paraa Espanha.
+
+**Vinícius Oliveira:** por favor.
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** E e é isso.
+
+**Vinícius Oliveira:** É isso. Obrigadão, viu, gente?
+
+**Daniel Silva Lorêdo:** Tchau.
+
+**Vinícius Oliveira:** Tu,
+
+**Daniel Silva Lorêdo:** Tchau.
+
+**Vinícius Oliveira:** tchau.
+
+**Daniel Silva Lorêdo:** Valeu,
+
+**Lucas Calefi Gonçalves (Calefi \- SCN\&Co):** Valeu,
+
+**Daniel Silva Lorêdo:** Vinícius.
+
+**Vinícius Oliveira:** Valeu,
+
+### **A transcrição foi encerrada após 00:27:03**
+
+*Esta transcrição editável foi gerada por computador e pode conter erros. As pessoas também podem alterar o texto depois que ele for criado.*

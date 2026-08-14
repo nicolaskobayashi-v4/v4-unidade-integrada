@@ -1,0 +1,295 @@
+{
+  "meta": {
+    "name": "Loja Magnífica",
+    "slug": "loja-magnifica",
+    "razao_social": "Comercial Martins & Martins Ltda",
+    "cnpj": "01.679.699/0001-20",
+    "workspace_id": null,
+    "created_at": "2026-07-30",
+    "modelo_venda": "pdv",
+    "produto": "DPMV",
+    "modulo_vendas": true,
+    "nota": "Produto contratado é o DPMV (Diagnóstico e Planejamento de Marketing e Vendas no Digital), ciclo único de 5 semanas — NÃO é a Estruturação Estratégica 3.0 de 4 semanas. Escopo remontado a partir do contrato assinado em 22/07/2026 (base-de-conhecimento/comercial/e575cf21-f22a-47f2-83f6-b0d62d79f1f3 (1).pdf). Natureza diagnóstica/consultiva, obrigação de MEIO: o contrato exclui explicitamente implementação das recomendações, operação contínua, correção de ferramentas e garantia de resultado. Produção está PARCIALMENTE inclusa (3 criativos, LP em wireframe, manual de copy, MIV) — mas nada que exija implementação em ferramenta do cliente."
+  },
+  "contrato": {
+    "servico": "Diagnóstico e Planejamento de Marketing e Vendas no Digital",
+    "categoria": "Saber - S",
+    "valor_total": 23042.00,
+    "parcelas": 12,
+    "valor_parcela": 1920.16,
+    "forma_pagamento": "Cartão de crédito parcelado",
+    "primeiro_pagamento": "2026-07-22",
+    "inicio_projeto": "2026-08-03",
+    "inicio_efetivo": null,
+    "duracao": "5 semanas, ciclo único de projeto",
+    "termino_previsto": null,
+    "nota_cronograma": "Início adiado a pedido do cliente. As 5 semanas contam a partir do kick-off efetivo — preencher inicio_efetivo e termino_previsto quando a data for confirmada.",
+    "representante_legal": "Andreia da Silva Barros",
+    "email_contratual": "andreiasilvabarros@uol.com.br",
+    "endereco": "Avenida Doutor José Singer, 618, Loja — Conjunto Residencial Humaitá, São Vicente/SP, 11349-000",
+    "natureza": "Diagnóstica, analítica e consultiva. Obrigação de meio. Entrega considerada concluída com o envio dos materiais previstos, independentemente da implementação posterior pelo contratante.",
+    "entregaveis_contratuais": [
+      {"item": "1 Relatório Completo sobre o Negócio (ROI System)", "skill": "plano-de-marketing-e-vendas-consolidado + ee-s1-diagnostico-maturidade"},
+      {"item": "Auditorias técnicas: mídia paga, criativos, canais digitais (CRO) e processo comercial", "skill": "ee-s2-diagnostico-midia, ee-s2-diagnostico-criativos, ee-s2-diagnostico-cro, ee-s4-diagnostico-comercial"},
+      {"item": "Estudos competitivos com base em 4Ps, SWOT e redes sociais", "skill": "ee-s2-pesquisa-mercado, ee-s1-swot, ee-s2-posicionamento (canvas 4P), ee-s2-diagnostico-organico-ig"},
+      {"item": "Mapa Estratégico do negócio", "skill": "ee-s2-posicionamento + consolidado"},
+      {"item": "Plano de marketing e vendas (oferta, aquisição, engajamento, monetização, retenção, conteúdo)", "skill": "plano-de-marketing-e-vendas-consolidado"},
+      {"item": "3 criativos para anúncio", "skill": "ee-s3-criativos-anuncios"},
+      {"item": "1 Landing Page (WIREFRAME — não é LP codada nem deploy)", "skill": "ee-s3-landing-page (escopo reduzido a wireframe + copy)"},
+      {"item": "1 Manual de copy", "skill": "ee-s3-brandbook"},
+      {"item": "1 Manual de Identidade Visual (MIV)", "skill": "ee-s3-identidade-visual"},
+      {"item": "1 Plano de ação detalhado", "skill": "plano-acao-5w1h"},
+      {"item": "1 Forecast/Projeção de mídia — 6 MESES (não 3, ver acordos_verbais)", "skill": "ee-s3-forecast-midia"},
+      {"item": "BÔNUS: implementação de CRM a custo zero (~R$4.000) — acordo verbal confirmado pelo operador, ver acordos_verbais", "skill": "ee-s3-crm-setup"}
+    ],
+    "acordos_verbais": [
+      {
+        "item": "Bônus de implementação de CRM",
+        "origem": "Reunião de venda 22/07/2026 (~01:14:43) — Matheus Nunes: 'um bônus especial de implementação de CRM a custo zero, te custaria entre R$3.000 a R$5.000; tô colocando aqui no contrato'. Fechado em R$4.000 (~01:23:05).",
+        "consta_no_contrato": false,
+        "status": "VÁLIDO — confirmado pelo operador em 10/08/2026. ee-s3-crm-setup reintroduzida no escopo.",
+        "nota": "Andreia reagiu com entusiasmo e já indicou o uso pretendido: centralizar o atendimento de WhatsApp. Expectativa firme."
+      },
+      {
+        "item": "Planejamento de 6 meses (não 3)",
+        "origem": "Reunião de venda 22/07/2026 (~00:50:17) — Matheus Nunes: 'te entrego o planejamento dos próximos seis meses, de setembro a fevereiro, mês a mês, quanto investir, o que fazer, se contratar ou não'.",
+        "consta_no_contrato": false,
+        "status": "VÁLIDO — confirmado pelo operador em 10/08/2026. Forecast e plano de ação devem cobrir 6 meses.",
+        "nota": "Contrato diz 3 meses. Prevalece o acordo verbal: 6 meses. Considerar sazonalidade de datas comemorativas (pedido explícito da cliente)."
+      },
+      {
+        "item": "Garantia de devolução do investimento",
+        "origem": "Reunião de venda 22/07/2026 (~00:56:05) — Matheus Nunes: 'se você não estiver satisfeita, se sentir que não houve entregas importantes pro teu negócio, tá via contrato isso, eu devolvo teu dinheiro'.",
+        "consta_no_contrato": false,
+        "status": "VÁLIDO — confirmado pelo operador em 10/08/2026. Provável previsão nos Termos e Condições V4 v1.2026.",
+        "nota": "Eleva o padrão de qualidade exigido: a satisfação da cliente ao fim das 5 semanas é condição de retenção da receita, não só de renovação."
+      }
+    ],
+    "fora_de_escopo": [
+      "Implementação das recomendações, salvo o bônus de CRM acordado verbalmente",
+      "Operação contínua e gestão de mídia",
+      "Correção de ferramentas do cliente",
+      "Garantia de resultado de vendas (a garantia acordada é de satisfação/devolução, não de resultado comercial)",
+      "SDR IA / Patagon (ee-s5-scripts-sdr, ee-s5-sdr-ia-config)",
+      "Implementações de PDV: base ativa, GMN, experiência de loja, régua de WhatsApp (ee-s3-pdv-*)",
+      "Otimização do Google Meu Negócio (ee-s3-gmb-otimizacao)",
+      "30+ variações de copy de anúncios (ee-s3-copy-anuncios) — contrato prevê 3 criativos e 1 manual de copy",
+      "Deploy da landing page — contrato prevê wireframe apenas"
+    ]
+  },
+  "alertas": [
+    {
+      "ts": "2026-08-10",
+      "nivel": "info",
+      "alerta": "Início adiado A PEDIDO DO CLIENTE (confirmado pelo operador em 10/08/2026). A data de 03/08/2026 no contrato não vale como marco real — o ciclo único de 5 semanas passa a contar a partir da data efetiva do kick-off. Registrar a data real do kick-off em contrato.inicio_efetivo e as 5 datas de sessão em progress.sessoes na própria reunião, para que o término previsto seja recalculado e acordado por escrito."
+    },
+    {
+      "ts": "2026-08-10",
+      "nivel": "alto",
+      "alerta": "Nenhum acesso confirmado (accesses todo false). O contrato prevê expressamente que 'o atraso ou a não entrega de eventual informação prejudicará os resultados da avaliação'. Solicitar acessos e relatórios no kick-off com responsável e data — é o principal risco de derrapagem do ciclo."
+    },
+    {
+      "ts": "2026-08-10",
+      "nivel": "alto",
+      "alerta": "A cliente ASSINOU SEM LER o contrato ('eu nem li aqui o contrato, mas é tudo que a gente combinou' — ~01:27:51). A expectativa dela é a reunião de venda, não o PDF. Os 3 acordos verbais (bônus de CRM, planejamento de 6 meses, garantia de devolução) foram confirmados como válidos pelo operador e estão em contrato.acordos_verbais — devem ser tratados como escopo real, e reafirmados no kick-off para que não virem discussão na entrega."
+    },
+    {
+      "ts": "2026-08-10",
+      "nivel": "medio",
+      "alerta": "Gestor de tráfego terceirizado (Vanderson) segue na conta. Definir no kick-off se ele entrega os dados ou se a V4 recebe acesso direto ao Meta Business Manager — sem isso o diagnóstico de mídia (entregável contratual) fica comprometido."
+    }
+  ],
+  "briefing": {
+    "identification": {
+      "name": "Loja Magnífica",
+      "razao_social": "Comercial Martins & Martins Ltda",
+      "cnpj": "01.679.699/0001-20",
+      "contact_name": "Andreia da Silva Barros",
+      "contact_role": "Sócia e representante legal — responsável comercial, marketing e compras (declarado à SDR; confirmado como representante legal no contrato)",
+      "contact_email": "andreiasilvabarros@uol.com.br",
+      "segment": "Varejo de variedades/bazar (utilidades domésticas, brinquedos, decoração, cama-mesa-banho, infantil e bebê) + 1 minimercado (~200m²)",
+      "annual_revenue": "R$ 1.000.000/mês declarado (~R$ 12.000.000/ano, estimativa por multiplicação simples) — meta de R$ 1.100.000/mês (+10%). Quebra por canal/loja PENDENTE de confirmação no kick-off.",
+      "years_in_market": "~29 anos (Andreia abriu a primeira loja aos 19 anos; CNPJ com prefixo antigo '01' confirma negócio de longa data) — idade exata a confirmar",
+      "location": "Baixada Santista, SP — sede/CNPJ em São Vicente (Av. Dr. José Singer, 618, Loja, Conj. Res. Humaitá, 11349-000); lojas físicas em Praia Grande e São Vicente",
+      "website": "https://applojamagnifica.com.br/",
+      "instagram": "@lojamagnificaoficiall (34,8 mil seguidores) — tipo de conta (Business/Creator) a confirmar",
+      "whatsapp": "wa.me/5513997356170 (site) — atendimento hoje pulverizado, sem ferramenta de centralização",
+      "gmb": [
+        "https://share.google/GNAUtp8C6s3NwD9ca",
+        "https://share.google/fTFTjzkM9a53TufzY"
+      ],
+      "gmb_nota": "2 fichas informadas pelo operador em 10/08/2026 (provavelmente Praia Grande e São Vicente). A 3ª unidade (minimercado) não tem ficha conhecida — confirmar no kick-off.",
+      "facebook": "@MagnificaOficial",
+      "tiktok": "@lojamagnificaoficiall",
+      "linktree": "linktr.ee/lojamagnificaoficiall",
+      "equipe_projeto": {
+        "decisor": "Andreia da Silva Barros — decide sozinha; consulta apenas o marido, que não trabalha no negócio",
+        "co_responsavel": "Stephanie — designada por Andreia na call de venda para acompanhar o projeto ('vai ser muito boa na área de processo')",
+        "contratacao_pendente": "Andreia estava contratando uma pessoa para a área de marketing via RH interno no momento do fechamento (22/07/2026). Foi a razão declarada para pedir ~10 dias antes de iniciar. STATUS A CONFIRMAR no kick-off — se a contratação saiu, essa pessoa é a interlocutora principal.",
+        "conteudo": "2 pessoas internas ('as meninas') cuidam do orgânico do Instagram",
+        "trafego": "Vanderson — gestor de tráfego terceirizado",
+        "familia": "2 irmãos e 1 sobrinha em áreas estratégicas; setor de RH interno próprio"
+      }
+    },
+    "product": {
+      "main_product": "Bazar de variedades — utilidades domésticas (categoria mais forte no site), brinquedos, decoração, cama/mesa/banho, infantil e bebê — vendido em 3 lojas físicas (2 varejo + 1 minimercado) + e-commerce próprio (TiendaNube/NuvemShop, iniciado há ~2 meses) + marketplaces (loja oficial da marca)",
+      "ticket": null,
+      "billing_model": "unico",
+      "sales_cycle": "imediato (compra por impulso/necessidade — modelo PDV predominante hoje)",
+      "active_customers": null,
+      "most_profitable": null,
+      "margin": null,
+      "seasonality": null,
+      "growth_potential": "E-commerce próprio (recém-iniciado, ainda organizando catálogo/curva A por departamento) e recompra via app de clube de fidelidade já existente ('Clube Lojas Magnifica' na Google Play, via plataforma CresceVendas — achado da pesquisa, não mencionado pela cliente na call; confirmar se está ativo)"
+    },
+    "goals": {
+      "revenue_target": "R$ 1.100.000/mês (+10%) — PENDENTE de confirmação formal no kick-off. ATENÇÃO ao enquadramento: a meta é DEFENSIVA, não expansionista. Palavras da cliente: 'o varejo esse ano vai cair; nossa luta é para não deixar nosso negócio cair, manter ou aumentar até 10%'. Logo depois, porém, disse 'dá para melhorar muito mais, né?' — há ambição latente. Não abrir o kick-off vendendo escala agressiva.",
+      "target_horizon": "Planejamento de 6 meses acordado na venda (originalmente set/2026 a fev/2027; recalcular a partir do kick-off efetivo). A cliente quer estar estruturada antes do pico de novembro/dezembro.",
+      "sazonalidade_declarada": "Loja de bairro, NÃO depende de turismo (a cliente corrigiu essa suposição na call). Trabalha por datas comemorativas: Copa, festa junina, Dia dos Pais, Dia das Crianças, Natal. Pedido explícito da cliente: planejamento em cima do calendário de datas comemorativas.",
+      "growth_source": null,
+      "media_budget_ceiling": null,
+      "max_cac": null,
+      "who_executes_after": null
+    },
+    "measurement": {
+      "pdv_erp": null,
+      "captures_cpf_phone": null,
+      "loyalty_app": "'Clube Lojas Magnifica' (Google Play, plataforma CresceVendas) — existência confirmada por pesquisa; status, nº de cadastrados e integração com PDV a confirmar",
+      "ga4": null,
+      "meta_pixel": null,
+      "attribution_practice": null
+    },
+    "icp": {
+      "best_customers": null,
+      "not_customers": null,
+      "problems_before": null,
+      "results_after": null,
+      "churn_reasons": null
+    },
+    "competition": {
+      "competitors": null,
+      "real_differential": "Segundo a própria Andreia (declarado na call, não confirmado por pesquisa de mercado formal): atuação regional forte, longe dos grandes centros de concorrência; clientes confiam na marca, no preço e no atendimento — 'já compro tudo aqui, já fico por aqui'.",
+      "why_choose_us": "Mesma base do diferencial declarado: confiança de quase 30 anos de atuação regional, preço e atendimento — a validar com pesquisa de mercado e concorrentes reais na S2."
+    },
+    "brand": {
+      "adjectives": null,
+      "voice_tone": null,
+      "admired_brands": null,
+      "current_colors": null,
+      "has_logo": true,
+      "restrictions": null
+    },
+    "digital_situation": {
+      "paid_traffic": true,
+      "platforms": ["meta_ads"],
+      "monthly_investment": "R$ 2.000/mês (Meta Ads, gerido por gestor de tráfego terceirizado - Vanderson)",
+      "current_results": "Não mensurado/atribuído. Cliente oculto ao vivo feito por Matheus (V4) na própria call revelou: campanhas com criativos desatualizados (de fevereiro/março, sem atualização), resposta automática de WhatsApp falha (lead ficou 1h30 no vácuo sem follow-up em uma loja, e sem resposta de acompanhamento em outra)",
+      "crm": null,
+      "lead_sources": "Instagram orgânico (34,8K seguidores, conteúdo feito por equipe interna de 2 pessoas), WhatsApp, tráfego pago Meta, fluxo espontâneo de loja física, marketplaces (loja oficial da marca)",
+      "conversion_rate": null,
+      "ecommerce_metrics": null,
+      "biggest_pain": "Não conseguem mensurar retorno do investimento em mídia (paga e orgânica) sobre vendas, principalmente as fechadas na loja física ('a gente divulga, tem retorno, mas não consegue mensurar quanto'); atendimento via WhatsApp pulverizado, sem ferramenta e com falhas identificadas ao vivo; ausência de calendário/estratégia de conteúdo apesar de ter equipe interna dedicada ('falta planejamento e organização')"
+    },
+    "accesses": {
+      "meta_business": false,
+      "google_ads": false,
+      "google_analytics": false,
+      "google_search_console": false,
+      "instagram_admin": false,
+      "website_admin": false,
+      "crm": false,
+      "gmb": false,
+      "whatsapp_business": false,
+      "clube_crescevendas": false
+    },
+    "sales_module": {
+      "active_sellers": "Modelo de 'alto serviço' — atendentes de loja (não vendedores diretos formais); quantidade exata por loja não informada",
+      "sales_process": "Atendimento presencial em loja + WhatsApp pulverizado sem ferramenta de gestão. Sem meta nem comissionamento hoje ('se tivesse meta, ou se parte do salário viesse de comissão, o resultado seria diferente' — declarado pela cliente). RH interno faz treinamentos, mas eficácia não é medida.",
+      "objections": null,
+      "store_traffic": null,
+      "conversion_rate": null,
+      "items_per_ticket": null,
+      "sales_cycle": "imediato (PDV)",
+      "has_scripts": false,
+      "cliente_oculto_autorizado": null
+    }
+  },
+  "research": {
+    "fetched_at": "2026-07-30"
+  },
+  "connectors": {
+    "fetched_at": null,
+    "integrations": null
+  },
+  "progress": {
+    "current_week": 1,
+    "estrutura": "DPMV — 5 sessões / ciclo único de 5 semanas",
+    "sessoes": {
+      "S1": {"nome": "Kick-off / Diagnóstico", "data": null, "status": "pending"},
+      "S2": {"nome": "Pesquisa de Mercado", "data": null, "status": "pending"},
+      "S3": {"nome": "Diagnóstico de Marketing", "data": null, "status": "pending"},
+      "S4": {"nome": "Diagnóstico Comercial", "data": null, "status": "pending"},
+      "S5": {"nome": "Plano de Marketing e Vendas", "data": null, "status": "pending"}
+    },
+    "skills": {
+      "ee-s1-persona-icp": {"sessao": "S1", "status": "pending", "version": 0, "started_at": null, "completed_at": null, "nota": "Skill raiz — bloqueia toda a cadeia. Campos de ICP estão todos null; dependem do kick-off."},
+      "ee-s1-diagnostico-maturidade": {"sessao": "S1", "status": "pending", "version": 0, "started_at": null, "completed_at": null, "nota": "Alimenta o Relatório Completo sobre o Negócio (ROI System). Sem V4MOS — qualitativo + números do kick-off."},
+      "ee-s1-swot": {"sessao": "S1", "status": "pending", "version": 0, "started_at": null, "completed_at": null, "nota": "Entregável contratual explícito (estudos competitivos com base em SWOT)."},
+      "ee-s1-auditoria-comunicacao": {"sessao": "S1", "status": "completed", "version": 1, "started_at": "2026-08-10T00:00:00Z", "completed_at": "2026-08-10T00:00:00Z", "nota": "Score geral 34/100 em 5 canais (IG 55, site 38, anúncios 30, GMN 25, WhatsApp 22). RODADA SEM A DEPENDÊNCIA ee-s1-persona-icp — icp_reference e brand_voice_target são hipóteses a revalidar após a S1. Dois blocos precisam de confirmação: as fichas do GMN não foram auditáveis automaticamente (share.google exige JS) e a copy dos anúncios não pôde ser lida. Achados principais: 11 anúncios ativos criados em 09/08/2026 em janela de 5 minutos, no ar entre 20h25 e 21h10 — na noite do próprio Dia dos Pais — e nenhum com título de link; fichas do GMN com categoria errada ('Kitchen utensils store' em PG, 'Papelaria' em SV) e ~0 avaliações; prova social publicada no Instagram e ausente do site."},
+      "ee-s2-pesquisa-mercado": {"sessao": "S2", "status": "completed", "version": 1, "started_at": "2026-08-10T00:00:00Z", "completed_at": "2026-08-10T00:00:00Z", "nota": "TAM R$102bi (ABCasa/IEMI 2024) / SAM R$341,5mi (PG+SV, 679.846 hab) / Endereçável R$136,6mi / SOM R$20,5mi. Share atual 3,51% do SAM; gap de R$8,5mi (+71%). RODADA SEM A DEPENDÊNCIA ee-s1-persona-icp. DOIS ACHADOS QUE CONTRADIZEM A CLIENTE: (1) a tese de 'estamos longe dos grandes centros de concorrência' é falsa — Havan, Le Biscuit, Preçolândia, Kalunga e Ri Happy operam todos no Litoral Plaza, em Praia Grande, cobrindo os 5 departamentos dela; (2) a justificativa da meta defensiva ('o varejo vai cair') não se aplica ao segmento dela — 'Outros artigos de uso pessoal e doméstico' na PMC/IBGE fez +2,2% em 2025, +2,8% em 12m e +11,1% interanual em mar/2026. Preço classificado como diferencial ASPIRACIONAL, não real. Concorrentes definidos para a ee-s2-diagnostico-organico-ig."},
+      "ee-s2-posicionamento": {"sessao": "S2", "status": "pending", "version": 0, "started_at": null, "completed_at": null, "nota": "Entregável contratual duplo: Canvas 4P + base do 'Mapa Estratégico do negócio'."},
+      "ee-s2-diagnostico-midia": {"sessao": "S3", "status": "pending", "version": 0, "started_at": null, "completed_at": null, "nota": "Entregável contratual (auditoria de mídia paga). Depende de acesso ao Meta Business Manager ou de export do Vanderson. Sem V4MOS."},
+      "ee-s2-diagnostico-criativos": {"sessao": "S3", "status": "pending", "version": 0, "started_at": null, "completed_at": null, "nota": "Entregável contratual (auditoria de criativos). Evidência inicial: criativos parados desde fev/mar 2026."},
+      "ee-s2-diagnostico-organico-ig": {"sessao": "S3", "status": "pending", "version": 0, "started_at": null, "completed_at": null, "nota": "Entregável contratual (estudos competitivos em redes sociais). Exige conta Business/Creator e @ dos 2 concorrentes."},
+      "ee-s2-diagnostico-cro": {"sessao": "S3", "status": "pending", "version": 0, "started_at": null, "completed_at": null, "nota": "Entregável contratual (auditoria de canais digitais/CRO). Alvo: applojamagnifica.com.br (TiendaNube). O wireframe gerado aqui alimenta o entregável de Landing Page."},
+      "ee-s4-cliente-oculto": {"sessao": "S4", "status": "pending", "version": 0, "started_at": null, "completed_at": null, "nota": "Exige autorização de Andreia e sigilo com a equipe. Cobrir as 3 lojas + WhatsApp. Um cliente oculto informal já foi feito ao vivo por Matheus na call de venda."},
+      "ee-s4-diagnostico-comercial": {"sessao": "S4", "status": "pending", "version": 0, "started_at": null, "completed_at": null, "nota": "Entregável contratual (auditoria de processo comercial). ATENÇÃO: a skill é escrita para Inside Sales (leads→proposta→venda). Adaptar para PDV: fluxo de loja → atendimento → conversão → itens por cupom."},
+      "ee-s3-brandbook": {"sessao": "producao", "status": "pending", "version": 0, "started_at": null, "completed_at": null, "nota": "Entregável contratual: 1 Manual de copy (tom de voz, identidade verbal, narrativa, banco de copy). Mantido SEPARADO do MIV por decisão do operador (10/08/2026) para bater 1:1 com as linhas do contrato — não usar ee-s3-manual-marca, que unificaria os dois. Depende de ee-s2-posicionamento."},
+      "ee-s3-identidade-visual": {"sessao": "producao", "status": "pending", "version": 0, "started_at": null, "completed_at": null, "nota": "Entregável contratual: 1 Manual de Identidade Visual (MIV) — conceito, paleta, tipografia, diretrizes de forma. Mantido SEPARADO do manual de copy por decisão do operador (10/08/2026). Semi-manual: prompts de logo são gerados externamente pelo operador. Depende de ee-s2-posicionamento."},
+      "ee-s3-criativos-anuncios": {"sessao": "producao", "status": "pending", "version": 0, "started_at": null, "completed_at": null, "nota": "Entregável contratual: 3 criativos para anúncio (não 5). Ajustar a quantidade ao contrato."},
+      "ee-s3-landing-page": {"sessao": "producao", "status": "pending", "version": 0, "started_at": null, "completed_at": null, "nota": "ESCOPO REDUZIDO: contrato prevê 1 Landing Page em WIREFRAME. Entregar copy seção a seção + wireframe. NÃO gerar código nem fazer deploy na Vercel."},
+      "ee-s3-crm-setup": {"sessao": "producao", "status": "pending", "version": 0, "started_at": null, "completed_at": null, "nota": "BÔNUS acordado verbalmente no fechamento (~R$4.000, custo zero para a cliente) — não consta no contrato, mas confirmado como válido pelo operador em 10/08/2026. Uso pretendido declarado pela cliente: centralizar o atendimento de WhatsApp hoje pulverizado entre as 3 lojas. Kommo é o CRM que a V4 mais implementa e foi citado na venda (com ~3 meses grátis via parceria)."},
+      "ee-s3-forecast-midia": {"sessao": "S5", "status": "pending", "version": 0, "started_at": null, "completed_at": null, "nota": "Forecast/Projeção de mídia de 6 MESES (contrato diz 3; prevalece o acordo verbal da venda). Deve considerar sazonalidade de datas comemorativas — pedido explícito da cliente (junina, Dia dos Pais, Dia das Crianças, Natal). Depende dos números dos Blocos 1 e 2 do kick-off."},
+      "plano-acao-5w1h": {"sessao": "S5", "status": "pending", "version": 0, "started_at": null, "completed_at": null, "nota": "Entregável contratual: plano de ação detalhado, horizonte de 6 meses. Precisa saber QUEM executa depois das 5 semanas para atribuir responsáveis — a cliente declarou que o projeto NÃO pode ficar centralizado nela."},
+      "plano-de-marketing-e-vendas-consolidado": {"sessao": "S5", "status": "pending", "version": 0, "started_at": null, "completed_at": null, "nota": "Entregável final + Relatório Completo sobre o Negócio (ROI System). Deve cobrir os 6 eixos do contrato: oferta, aquisição, engajamento, monetização, retenção e conteúdo."}
+    }
+  },
+  "history": [
+    {
+      "ts": "2026-07-30T00:00:00Z",
+      "skill": "ee-novo-cliente",
+      "checkpoint": 0,
+      "decision": "Cliente cadastrado a partir da base de conhecimento (contrato assinado, transcrição de qualificação SDR e transcrição integral da reunião de venda) + pesquisa automática de site e Instagram (site e Instagram informados pelo operador). Modelo de venda definido como 'pdv': faturamento hoje concentrado nas 3 lojas físicas, e-commerce próprio ainda recém-iniciado (~2 meses) e não é o canal predominante de fechamento — a confirmar com o operador se está correto. Campos subjetivos de ICP, marca e concorrência não encontrados na base de conhecimento — ficaram null, pendentes de briefing complementar com o operador/cliente. Sem integração V4MOS (workspace_id não informado)."
+    },
+    {
+      "ts": "2026-08-10T00:00:00Z",
+      "skill": "ee-novo-cliente",
+      "checkpoint": 0,
+      "decision": "[v1 da remontagem] client.json REMONTADO do fluxo EE 3.0 (4 semanas) para o produto DPMV (5 semanas), após leitura do contrato assinado em 22/07/2026. Confirmado: serviço é 'Diagnóstico e Planejamento de Marketing e Vendas no Digital', categoria Saber-S, R$23.042 em 12x, início 03/08/2026, ciclo único de 5 semanas. Adicionados os blocos meta (razão social/CNPJ), contrato (entregáveis mapeados para skills + fora de escopo) e alertas. progress.skills reduzido de 22 para 18 entradas e reorganizado por sessão DPMV (S1-S5 + trilha de produção). REMOVIDAS por estarem fora do escopo contratual (contrato exclui expressamente implementação e operação): ee-s3-crm-setup, ee-s5-scripts-sdr, ee-s5-sdr-ia-config, ee-s3-copy-anuncios, ee-s3-gmb-otimizacao, ee-s3-pdv-base-ativa, ee-s3-pdv-gmn, ee-s3-pdv-experiencia, ee-s3-pdv-regua-whatsapp, ee-s1-arquitetura-presenca. ADICIONADAS: ee-s2-diagnostico-cro, ee-s2-diagnostico-organico-ig, ee-s3-manual-marca (cobre manual de copy + MIV), plano-acao-5w1h, plano-de-marketing-e-vendas-consolidado. ee-s3-landing-page mantida com escopo reduzido a wireframe (contrato diz 'Landing Page (Wireframe)' — sem código nem deploy). ee-s3-criativos-anuncios ajustada de 5 para 3 criativos. Adicionados ao briefing os blocos vazios goals e measurement, que o kick-off DPMV precisa preencher e que não existiam na versão EE 3.0."
+    },
+    {
+      "ts": "2026-08-10T00:00:00Z",
+      "skill": "ee-novo-cliente",
+      "checkpoint": 0,
+      "decision": "[a] Dois ajustes solicitados pelo operador após a remontagem. (1) CRONOGRAMA: o início do projeto foi adiado A PEDIDO DO CLIENTE — a data de 03/08/2026 do contrato não é marco real. contrato.termino_previsto zerado, criados contrato.inicio_efetivo e contrato.nota_cronograma; o alerta de cronograma foi rebaixado de 'alto' para 'info' e reescrito. As 5 semanas contam a partir do kick-off efetivo, a ser registrado na reunião. (2) MARCA: manual de copy e MIV serão entregues SEPARADOS, para bater 1:1 com as duas linhas do contrato. ee-s3-manual-marca (que unifica os dois) foi substituída por ee-s3-brandbook (manual de copy) + ee-s3-identidade-visual (MIV). progress.skills passou de 18 para 19 entradas e o mapeamento em contrato.entregaveis_contratuais foi atualizado."
+    },
+    {
+      "ts": "2026-08-10T00:00:00Z",
+      "skill": "ee-novo-cliente",
+      "checkpoint": 0,
+      "decision": "[c] Leitura integral da transcrição da reunião de venda (22/07/2026, 1h37) revelou 3 acordos verbais que NÃO constam no contrato assinado. Operador confirmou os 3 como VÁLIDOS em 10/08/2026: (1) bônus de implementação de CRM a custo zero (~R$4.000) — ee-s3-crm-setup REINTRODUZIDA no escopo, trilha de produção; (2) planejamento/forecast de 6 MESES, não 3 — ee-s3-forecast-midia e plano-acao-5w1h atualizados; (3) garantia de devolução do investimento por insatisfação — registrada, eleva o padrão de qualidade exigido no ciclo. Criado o bloco contrato.acordos_verbais com origem e timestamp de cada um. progress.skills: 19 → 20. Registrado ainda: a cliente assinou sem ler o contrato (alerta alto); equipe do projeto (Stephanie como co-responsável designada, contratação de pessoa de marketing pendente de confirmação, 'as meninas' no conteúdo, Vanderson no tráfego); enquadramento DEFENSIVO da meta de +10%; sazonalidade por datas comemorativas como pedido explícito; e 2 URLs de ficha do Google Meu Negócio informadas pelo operador (a 3ª unidade não tem ficha conhecida)."
+    },
+    {
+      "ts": "2026-08-10T00:00:00Z",
+      "skill": "ee-s1-auditoria-comunicacao",
+      "checkpoint": 1,
+      "decision": "Auditoria de comunicação executada a pedido do operador ANTES do kick-off e SEM a dependência ee-s1-persona-icp (todos os campos de ICP null, brand.voice_tone inexistente) — decisão consciente, registrada no honesty_alert do output: icp_reference e brand_voice_target são hipóteses derivadas da transcrição de venda e devem ser revalidados após a S1. Score geral 34/100. Fontes reais consultadas: site + página de contato, Instagram, Linktree, Meta Ads Library (page_id 107913615451367) e dois diretórios que indexam as fichas do GMN. ACHADO CENTRAL: os 11 anúncios ativos foram criados em 09/08/2026 entre 16h56 e 17h01 e entraram em entrega entre 20h25 e 21h10 — Dia dos Pais 2026 foi domingo 09/08 —, e nenhum dos 11 tem ad_creative_link_title preenchido. Isso também mostra que a conta foi inteiramente refeita entre 22/07 (quando Matheus encontrou criativos de fev/mar parados) e 09/08. OUTROS ACHADOS: fichas do GMN com categoria primária errada e ~0 avaliações; site com title/meta description no default da TiendaNube e sem nenhum termo geográfico; prova social publicada no Instagram e ausente do site; dois números de WhatsApp Business separados por loja, mas o site expõe só o de Praia Grande; app do Clube confirmado VIVO e publicado (onelink.to/lojamagnifica, exposto no Linktree). PENDÊNCIAS DE EVIDÊNCIA: screenshots das 2 fichas do GMN (o link share.google exige JS e o Maps bloqueia leitura automatizada) e leitura da copy dos anúncios (Biblioteca de Anúncios recusou conexão). ALERTA COLATERAL: busca pública retornou o CNPJ 07.088.193/0001-23 ('Loja Magnifica Comercial Braz Raimundo LTDA'), diferente do CNPJ do contrato — possível operação com mais de uma pessoa jurídica entre as 3 lojas, a confirmar no kick-off. Outputs salvos em .json e .md."
+    },
+    {
+      "ts": "2026-08-10T00:00:00Z",
+      "skill": "ee-s2-pesquisa-mercado",
+      "checkpoint": 1,
+      "decision": "Pesquisa de mercado executada antes do kick-off e SEM a dependência ee-s1-persona-icp (mesma ressalva da auditoria). Sizing: TAM R$102bi (ABCasa/IEMI 2024, +8,7%), SAM R$341,5mi (Praia Grande 349.935 hab + São Vicente 329.911 hab, Censo IBGE 2022, rateio per capita e por domicílio convergentes), Mercado Endereçável R$136,6mi (40% do SAM — quadrante de bairro + fatia de marketplace disputada), SOM R$20,5mi (6% do SAM, 15% do endereçável). Share atual 3,51%, gap de R$8,5mi (+71%). SOM triangulado por 2 métodos convergentes; o método de capacidade operacional foi calculado (R$15-16mi para as 3 lojas) e deliberadamente excluído do SOM conforme o framework, registrado em operational_ceiling_note. DOIS ACHADOS QUE CONTRADIZEM PREMISSAS DECLARADAS PELA CLIENTE E PRECISAM SER LEVADOS AO KICK-OFF: (1) a tese de 'atuação regional forte, longe dos grandes centros de concorrência' não se sustenta — o Litoral Plaza Shopping (90 mil m², 300+ lojas, 3ª expansão anunciada) fica em Praia Grande e abriga Havan, Le Biscuit, Preçolândia, Kalunga e Ri Happy, que somados cobrem integralmente os 5 departamentos da Magnífica; (2) a justificativa da meta defensiva de +10% ('o varejo esse ano vai cair') vale para o varejo geral (projeção +1,42% em 2026, real negativo pelo IPCA) mas NÃO para o segmento dela — 'Outros artigos de uso pessoal e doméstico' na PMC/IBGE fechou 2025 em +2,2%, acumulou +2,8% em 12 meses e registrou +11,1% interanual em março de 2026, sendo um dos dois segmentos que mais contribuíram para o resultado global do varejo. TERCEIRO PONTO DE PROVOCAÇÃO: preço, citado por Andreia como um dos três pilares de confiança, foi classificado como diferencial ASPIRACIONAL e não real — Preçolândia é rede posicionada em preço baixo dentro do mesmo shopping e Havan compra em escala nacional. Território recomendado para a ee-s2-posicionamento: 'a loja de variedades do seu bairro — resolve hoje, sem ir ao shopping', com o frete grátis regional acima de R$150 como prova operacional. Meta declarada (R$13,2mi) equivale a 64% do SOM. Outputs salvos em .json e .md."
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+### BASE: 31891 clientes com valor | R$ 28,810,734.33 | 54366 unidades
+
+=== A. CONCENTRAÇÃO DE FATURAMENTO ===
+  80% da receita vem dos primeiros 10,386 clientes (32.6%) — corte em R$ 684.70
+  95% da receita vem dos primeiros 20,750 clientes (65.1%) — corte em R$ 239.70
+  top    1% (   318 clientes) = R$   4,545,532.64  (15.8% da receita)
+  top    5% ( 1,594 clientes) = R$  10,654,323.76  (37.0% da receita)
+  top   10% ( 3,189 clientes) = R$  14,711,446.98  (51.1% da receita)
+  top   20% ( 6,378 clientes) = R$  19,514,297.42  (67.7% da receita)
+  top   50% (15,945 clientes) = R$  25,916,072.89  (90.0% da receita)
+  → A=10,386 (32.6%)  B=10,364 (32.5%)  C=11,141 (34.9%)
+     A: R$ 23,048,755.11 | ticket médio R$ 1,022.60 | qtde média  2.65 | gasto médio R$  2,219.21
+     B: R$  4,321,561.00 | ticket médio R$   338.89 | qtde média  1.42 | gasto médio R$    416.98
+     C: R$  1,440,418.22 | ticket médio R$   121.84 | qtde média  1.09 | gasto médio R$    129.29
+
+=== B. TICKET MÉDIO (por cliente) ===
+  média R$ 485.73 | mediana R$ 279.82 | média ponderada (rec/qtde) R$ 529.94
+  P10  R$      79.90
+  P25  R$     146.60
+  P50  R$     279.80
+  P75  R$     559.72
+  P90  R$   1,053.65
+  P95  R$   1,520.77
+  P99  R$   3,218.55
+  distribuição:
+    R$ 0–100          5,090 cli (16.0%)  R$    432,025.26 ( 1.5% rec)
+    R$ 100–200        6,911 cli (21.7%)  R$  1,624,998.99 ( 5.6% rec)
+    R$ 200–300        5,039 cli (15.8%)  R$  2,200,277.83 ( 7.6% rec)
+    R$ 300–400        3,433 cli (10.8%)  R$  2,204,900.39 ( 7.7% rec)
+    R$ 400–500        2,369 cli ( 7.4%)  R$  2,046,930.28 ( 7.1% rec)
+    R$ 500–750        3,687 cli (11.6%)  R$  4,471,722.76 (15.5% rec)
+    R$ 750–1,000      1,907 cli ( 6.0%)  R$  3,348,143.67 (11.6% rec)
+    R$ 1,000–1,500    1,814 cli ( 5.7%)  R$  4,330,035.66 (15.0% rec)
+    R$ 1,500–3,000    1,270 cli ( 4.0%)  R$  5,013,695.70 (17.4% rec)
+    R$ 3,000+           371 cli ( 1.2%)  R$  3,138,003.79 (10.9% rec)
+
+=== C. COMPRA ÚNICA vs RECORRENTE (qtde = unidades do relatório) ===
+  qtde 1     20,875 cli (65.5%)  R$  9,538,287.49 (33.1% rec)  gasto médio R$    456.92  ticket médio R$   456.92
+  qtde 2      6,130 cli (19.2%)  R$  5,967,712.59 (20.7% rec)  gasto médio R$    973.53  ticket médio R$   486.76
+  qtde 3-5    4,087 cli (12.8%)  R$  8,693,383.91 (30.2% rec)  gasto médio R$  2,127.08  ticket médio R$   590.39
+  qtde 6-10     679 cli ( 2.1%)  R$  3,385,820.17 (11.8% rec)  gasto médio R$  4,986.48  ticket médio R$   694.04
+  qtde 11+      120 cli ( 0.4%)  R$  1,225,530.17 ( 4.3% rec)  gasto médio R$ 10,212.75  ticket médio R$   700.61
+  → 65.5% da base tem qtde=1 e responde por 33.1% da receita
+
+=== D. GEOGRAFIA ===
+  CAXIAS DO SUL              30,119 cli (94.4%)  R$ 26,822,097.87 (93.1%)  gasto médio R$   890.54
+  FLORES DA CUNHA               345 cli ( 1.1%)  R$    406,797.37 ( 1.4%)  gasto médio R$ 1,179.12
+  FARROUPILHA                   187 cli ( 0.6%)  R$    268,335.21 ( 0.9%)  gasto médio R$ 1,434.95
+  SAO MARCOS                    192 cli ( 0.6%)  R$    176,284.47 ( 0.6%)  gasto médio R$   918.15
+  BENTO GONCALVES (?)           105 cli ( 0.3%)  R$    137,340.93 ( 0.5%)  gasto médio R$ 1,308.01
+  PORTO ALEGRE (?)               94 cli ( 0.3%)  R$    116,460.78 ( 0.4%)  gasto médio R$ 1,238.94
+  FELIZ                          20 cli ( 0.1%)  R$     72,046.71 ( 0.3%)  gasto médio R$ 3,602.34
+  NOVA ??? (truncado)            69 cli ( 0.2%)  R$     62,908.32 ( 0.2%)  gasto médio R$   911.71
+  ANTONIO PRADO (?)              57 cli ( 0.2%)  R$     51,686.72 ( 0.2%)  gasto médio R$   906.78
+  GARIBALDI                      41 cli ( 0.1%)  R$     44,359.75 ( 0.2%)  gasto médio R$ 1,081.95
+  VACARIA                        43 cli ( 0.1%)  R$     31,459.61 ( 0.1%)  gasto médio R$   731.62
+  TORRES                         11 cli ( 0.0%)  R$     31,096.11 ( 0.1%)  gasto médio R$ 2,826.92
+  JAQUIRANA                      21 cli ( 0.1%)  R$     25,563.50 ( 0.1%)  gasto médio R$ 1,217.31
+  CARLOS BARBOSA (?)             22 cli ( 0.1%)  R$     24,240.98 ( 0.1%)  gasto médio R$ 1,101.86
+  IPE                            16 cli ( 0.1%)  R$     23,426.09 ( 0.1%)  gasto médio R$ 1,464.13
+  → Caxias do Sul = 94.4% dos clientes e 93.1% da receita
+  → fora de Caxias = R$ 1,988,636.46 (6.9%)
+
+=== E. MARCAS ===
+  (valor = soma do gasto TOTAL do cliente, não faturamento da marca — indicador de afinidade)
+  PLUMASSUL        266 cli  gasto médio R$  4,961.69  ticket médio R$ 1,654.37 (mediana   902.98)
+  TRUSSARDI      2,357 cli  gasto médio R$  3,746.37  ticket médio R$ 1,376.11 (mediana   874.43)
+  BUDD LUXUS     1,423 cli  gasto médio R$  3,538.68  ticket médio R$ 1,262.35 (mediana   730.00)
+  KACYUMARA      4,967 cli  gasto médio R$  2,467.44  ticket médio R$   980.76 (mediana   625.85)
+  BUDDEMEYER     5,599 cli  gasto médio R$  2,332.74  ticket médio R$   921.81 (mediana   572.03)
+  KARSTEN        4,850 cli  gasto médio R$  2,224.32  ticket médio R$   859.98 (mediana   536.05)
+  NIAZITEX       6,077 cli  gasto médio R$  2,147.62  ticket médio R$   855.16 (mediana   547.78)
+  ALTENBURG     11,436 cli  gasto médio R$  1,464.60  ticket médio R$   639.05 (mediana   377.29)
+  BELLA JANELA   4,732 cli  gasto médio R$  1,341.78  ticket médio R$   541.91 (mediana   363.57)
+  sem nenhuma das 9: 9,555 cli (30.0%)  gasto médio R$ 281.04
+
+  nº de marcas por cliente:
+    0 marca(s):  9,555 cli (30.0%)  gasto médio R$    281.04  qtde média  1.18  R$ 2,685,338.99 ( 9.3% rec)
+    1 marca(s): 12,245 cli (38.4%)  gasto médio R$    475.71  qtde média  1.36  R$ 5,825,010.56 (20.2% rec)
+    2 marca(s):  5,190 cli (16.3%)  gasto médio R$  1,005.96  qtde média  1.94  R$ 5,220,915.62 (18.1% rec)
+    3 marca(s):  2,477 cli ( 7.8%)  gasto médio R$  1,721.91  qtde média  2.57  R$ 4,265,181.77 (14.8% rec)
+    4 marca(s):  1,231 cli ( 3.9%)  gasto médio R$  2,738.79  qtde média  3.19  R$ 3,371,451.03 (11.7% rec)
+    5 marca(s):    671 cli ( 2.1%)  gasto médio R$  4,341.93  qtde média  4.31  R$ 2,913,434.15 (10.1% rec)
+    6 marca(s):    330 cli ( 1.0%)  gasto médio R$  6,498.23  qtde média  5.28  R$ 2,144,415.14 ( 7.4% rec)
+    7 marca(s):    147 cli ( 0.5%)  gasto médio R$ 11,254.77  qtde média  7.27  R$ 1,654,451.54 ( 5.7% rec)
+    8 marca(s):     42 cli ( 0.1%)  gasto médio R$ 16,616.21  qtde média  8.64  R$   697,880.89 ( 2.4% rec)
+    9 marca(s):      3 cli ( 0.0%)  gasto médio R$ 10,884.88  qtde média  8.00  R$    32,654.64 ( 0.1% rec)
+
+  cross-sell — clientes de cada marca que NÃO compraram as outras:
+    quem compra ALTENBURG (11,436 cli):
+       nunca comprou NIAZITEX       8,583 (75.1%)
+       nunca comprou BUDDEMEYER     8,698 (76.1%)
+       nunca comprou KACYUMARA      8,898 (77.8%)
+       nunca comprou KARSTEN        9,021 (78.9%)
+       nunca comprou BELLA JANELA  10,070 (88.1%)
+       nunca comprou TRUSSARDI     10,167 (88.9%)
+       nunca comprou BUDD LUXUS    10,693 (93.5%)
+       nunca comprou PLUMASSUL     11,285 (98.7%)
+    quem compra KARSTEN (4,850 cli):
+       nunca comprou ALTENBURG      2,435 (50.2%)
+       nunca comprou NIAZITEX       3,228 (66.6%)
+       nunca comprou BUDDEMEYER     3,027 (62.4%)
+       nunca comprou KACYUMARA      3,387 (69.8%)
+       nunca comprou BELLA JANELA   4,186 (86.3%)
+       nunca comprou TRUSSARDI      3,908 (80.6%)
+       nunca comprou BUDD LUXUS     4,276 (88.2%)
+       nunca comprou PLUMASSUL      4,773 (98.4%)
+    quem compra TRUSSARDI (2,357 cli):
+       nunca comprou ALTENBURG      1,088 (46.2%)
+       nunca comprou NIAZITEX       1,394 (59.1%)
+       nunca comprou BUDDEMEYER     1,108 (47.0%)
+       nunca comprou KACYUMARA      1,326 (56.3%)
+       nunca comprou KARSTEN        1,415 (60.0%)
+       nunca comprou BELLA JANELA   2,073 (88.0%)
+       nunca comprou BUDD LUXUS     1,856 (78.7%)
+       nunca comprou PLUMASSUL      2,267 (96.2%)
+
+=== F. BASE CONTATÁVEL ===
+  total no consolidado: 31,991
+  com celular normalizado: 29,829 (93.2%) | DDD explícito: 15,976 (49.9%)
+  números repetidos (mesmo celular em >1 cadastro): 173 cadastros excedentes
+  cobertura por faixa ABC:
+    faixa A: 10,386 cli | com celular  9,787 (94.2%) | DDD explícito  5,310 (51.1%)
+    faixa B: 10,364 cli | com celular  9,681 (93.4%) | DDD explícito  5,211 (50.3%)
+  com e-mail: 248 (0.78%)
+
+=== G. VENDEDORES ===
+  clientes com 1 vendedor: 24,039 | 2+: 7,852 | 0 (sem vendedor): 0
+  → 24.6% dos clientes foram atendidos por 2+ vendedores; gasto médio deles R$ 1,805.00 vs R$ 608.92 de quem tem 1 só
+  carteira exclusiva (clientes atendidos SÓ por aquele vendedor) — top 12 por receita:
+    5-RITIANE                              2,358 cli  R$ 2,359,969.02  gasto médio R$ 1,000.84
+    10158-MARIA PAULA PINHEIRO             2,018 cli  R$ 2,040,228.70  gasto médio R$ 1,011.02
+    43-ELENA MELLO                         1,969 cli  R$ 1,931,657.99  gasto médio R$   981.04
+    49-BERNADETE MARIA BIAGIO              3,209 cli  R$ 1,773,189.54  gasto médio R$   552.57
+    5266-DAIANE RODRIGUES                  3,202 cli  R$ 1,749,376.27  gasto médio R$   546.34
+    44-NEUZA SOSTISSO HELD                 3,202 cli  R$ 1,666,726.42  gasto médio R$   520.53
+    120-TAMIRES LUNARDI                    3,622 cli  R$ 1,491,211.26  gasto médio R$   411.71
+    10171-JANAINA MARTINS DA SILVA         3,437 cli  R$ 1,293,357.63  gasto médio R$   376.30
+    123-GIANE DENIS SOMMITZ                  337 cli  R$   112,388.73  gasto médio R$   333.50
+    2-WILIAM                                 331 cli  R$   103,062.32  gasto médio R$   311.37
+    122-NATASHA OLIVEIRA DA SILVA            226 cli  R$    67,971.19  gasto médio R$   300.76
+    10138-REGINA                              93 cli  R$    31,748.53  gasto médio R$   341.38
